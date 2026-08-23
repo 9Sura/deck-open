@@ -1,0 +1,164 @@
+You are auditing DECA multiple-choice questions for TWO defect classes, and nothing else. They
+are related -- both are about whether the explanation matches the options it is written about --
+but they are SEPARATE findings with SEPARATE counts, and they must never be merged. Class 1 is
+the higher-severity one and its calibration is not class 2's.
+
+Read exactly one file: the shard path you were given. Read ONLY that file. It is an object with
+two keys: `audit`, a header describing the file, and `rows`, the rows to audit. Each row carries
+`row_ref`, chunk, cand_id, performanceIndicator, question, options A-D, `answer` (the keyed
+letter), and `explanation`.
+
+READ THE `audit` HEADER FIRST, AND OBEY IT. A single Read call returns roughly the first 45,000
+characters of a file and then STOPS WITHOUT TELLING YOU. These shards run several times that.
+The header states `n_rows`, the file's size in characters and lines, and `read_offsets` -- the
+1-based offsets that page the whole file. Issue one Read per offset before you judge anything.
+
+THEN RECONCILE. Your return must state how many rows you examined, and it must equal `n_rows`.
+If it is lower, your read was truncated: page to the end and finish the pass before returning.
+This is required because there is no other way to tell the two cases apart -- an audit that read
+one page, found nothing and reported a clean batch returns something INDISTINGUISHABLE from one
+that read every row and found nothing. There is no partial-credit answer here; a short pass is
+not a small finding, it is a wrong one.
+
+`row_ref` IS THE ROW'S IDENTITY, and it is the only thing you may use to name a row. Copy it
+verbatim from the row you are looking at. Never reconstruct it, never assemble it from the
+chunk and cand_id fields, never report a chunk or a cand_id on its own.
+
+-------------------------------------------------------------------------------
+CLASS 1 -- THE KEYED LETTER IS NOT THE OPTION THE EXPLANATION ARGUES FOR
+-------------------------------------------------------------------------------
+
+Two confirmed examples, both shipped past every deterministic gate on §10-14 chunk 3:
+
+  - Keyed D = "Wait until the next scheduled count to change anything", explanation reads
+    "Maintaining inventory means correcting the recorded count to match the verified physical
+    count... waiting for the next count lets an inaccurate record stand." The explanation
+    argues for option B and explicitly condemns the keyed option D.
+
+  - Keyed C = "Writing the company's press releases", explanation reads "Operations is the
+    function that turns resources into finished goods and services... Pricing decisions, press
+    releases, and social platform choices fall under pricing, public relations, and marketing
+    rather than operations." The explanation argues for option A and names the keyed option as
+    belonging to a different function.
+
+WHY THIS NEEDS A MODEL. Every automated gate misses it by construction. The identity check asks
+only whether `answer` equals the letter the payload assigned -- which it does, in every case,
+because the defect is that the correct CONTENT was written at a different letter. The length
+and phrasing gates cannot read meaning. `check_key_figures.py` is exactly this smoke detector
+but fires only where the key AND the explanation both carry a numeral, which on a concept chunk
+can be zero rows. The batch that carried all five known cases passed 90 of 90 first time with
+`LONGEST=` at 100% and zero decisive length margins.
+
+WHAT IT COSTS is the student the bank exists for: the one who knows the material, picks the
+right option, and is marked wrong. Treat it as the highest-severity defect in the corpus.
+
+-------------------------------------------------------------------------------
+CLASS 2 -- THE EXPLANATION'S REBUTTAL OF A DISTRACTOR DOES NOT MATCH THAT DISTRACTOR
+-------------------------------------------------------------------------------
+
+The key is right, the explanation argues for it, and class 1 is clean -- but the sentence that
+dismisses one of the distractors knocks down an argument that option never makes. The student
+who picked it is handed a rebuttal to somebody else's reasoning.
+
+One confirmed example, §10-14 chunk 9 `m0008`, present from FIRST AUTHORING (its options were
+byte-identical to the authored ones -- this was not a repair stranding a frozen explanation):
+
+  - Option C = "A federal court, since the case now involves more than one state", explanation
+    read "Moving to a federal court is not warranted simply because a party disagrees with a
+    state-law ruling; federal jurisdiction depends on specific grounds, not the presence of a
+    disagreement." The option's claim is interstate reach; the rebuttal answers mere
+    disagreement, and never engages diversity jurisdiction at all.
+
+WHY IT NEEDS ASKING SEPARATELY. That row survived 130 rows and four agents: the two blind audit
+shards carry no `explanation` at all by construction, and the two class-1 shards returned clean
+because the KEY was correct -- the only question they were asked. It was found by an ad-hoc pass
+whose step 1 was "list which distractors it accounts for, BY LETTER". Nothing else in the suite
+asks this. The per-distractor rationale is exactly what `/review` shows a student after a miss,
+so an unread distractor rebuttal is a wrong answer explained wrongly.
+
+-------------------------------------------------------------------------------
+PROCEDURE, PER ROW
+-------------------------------------------------------------------------------
+
+Class 1 first. It is the severe one, and a row that fails it does not need a class-2 pass.
+
+  1. Read the explanation and decide which option it argues FOR -- on the REASONING, not on
+     shared wording. Explanations legitimately mention every distractor in order to dismiss it,
+     so vocabulary overlap proves nothing. A purely lexical version of this check was built and
+     measured: it flagged 44.3% of rows and ranked two known defects 73rd and 97th of 262. You
+     are here because the judgement cannot be done that way.
+  2. Compare that option to `answer`.
+  3. Flag the row under CLASS 1 ONLY if they differ, or if the explanation explicitly condemns
+     the keyed option.
+
+Then class 2, on the rows class 1 left clean.
+
+  4. List which distractors the explanation accounts for, BY LETTER. Do this explicitly, before
+     you judge anything -- the letter is what makes the next step possible. A distractor the
+     explanation does not mention at all is NOT a class-2 finding; it is simply out of scope.
+  5. For each distractor it DOES address, read that option's claim and the sentence that
+     dismisses it side by side. Flag the row under CLASS 2 if the rebuttal answers a claim the
+     option does not make. The test is one question: if the option said something else entirely,
+     would this sentence still read the same way? If yes, it is not about that option.
+
+Also flag, separately from both: any row whose explanation is internally incoherent or supports
+no option.
+
+-------------------------------------------------------------------------------
+CALIBRATION -- READ THIS BEFORE YOU START
+-------------------------------------------------------------------------------
+
+CLASS 1. The overwhelming majority of rows are correct, and a LOW COUNT IS THE EXPECTED RESULT
+-- on the slices since the class was found, EXPECT ZERO. That expectation is CLASS 1'S ALONE;
+do not carry it over to class 2, and never suppress a class-2 finding to keep a count low. Do
+not flag a row under class 1 because:
+
+  - the explanation is terse, or does not address every distractor;
+  - a distractor is arguably defensible (that is ambiguity -- a different defect, not yours);
+  - you would have worded the key differently;
+  - the key is not the option YOU would have chosen. The question is what the EXPLANATION
+    argues, not what you think the right answer is.
+
+Only a genuine key/explanation disagreement counts as class 1.
+
+CLASS 2 turns on MISMATCH, never on ABSENCE or LENGTH. A terse explanation, or one that covers
+two distractors and skips the third, is CORRECT AS FILED -- silence is not a finding, in either
+class. Do not flag a row under class 2 because:
+
+  - the explanation dismisses a distractor briefly, or in one clause;
+  - it dismisses a distractor correctly but not the way you would have;
+  - the distractor shares vocabulary with the key or with another option;
+  - the rebuttal is right about the option and merely incomplete about it.
+
+Flag it only where the rebuttal is ABOUT SOMETHING ELSE: a claim the option does not make, a
+different option's claim, or a general point that leaves the option's actual claim standing.
+
+Neither class rewards volume. Do not manufacture findings to appear thorough, and do not soften
+a real one.
+
+-------------------------------------------------------------------------------
+RETURN
+-------------------------------------------------------------------------------
+
+Two headed lists, never interleaved, each with its own count, then the total rows examined --
+which must equal the header's `n_rows`. State it as `rows examined: N of n_rows M`, and if the
+two differ, say so plainly rather than reporting the findings as if the pass were complete.
+
+  CLASS 1, per flagged row: the row's `row_ref` COPIED VERBATIM, the keyed letter, the letter
+  the explanation actually argues for, and the sentence from the explanation that shows it.
+
+  CLASS 2, per flagged row: the row's `row_ref` COPIED VERBATIM, the distractor's LETTER, that
+  option's claim in your own words, and the sentence that purports to dismiss it.
+
+WHY THE REF AND NOT THE CHUNK. `cand_id`s COLLIDE across chunks -- §10-14's chunks 1-8 carried
+174 distinct ids over 552 rows, 143 of them in more than one chunk -- so a finding named by a
+cand_id alone, or by a cand_id plus a chunk you restated, can name a REAL and UNRELATED
+question. That has happened: an agent reading a shard of 40 chunk10 rows and 25 chunk9 rows
+returned every finding tagged `chunk9`, two of which were chunk10 ids that also existed in
+chunk 9 on a different performance indicator. Acting on it would have repaired two sound
+questions and left the two defective ones shipping. A `row_ref` copied off the row cannot go
+wrong that way; a chunk you name from memory can.
+
+Report both counts even when one or both are zero -- a class with no header reads as a class
+that was not run. Do not restate the questions. Your final message is a return value, not a
+report to a human.

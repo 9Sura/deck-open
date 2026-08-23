@@ -1,0 +1,128 @@
+{
+  "area": "human_resources_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/human_resources_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Human resources management",
+      "definition": "The function that recruits, develops, and manages employees to meet organizational goals.",
+      "whyItMatters": "HR decisions shape staffing quality, service delivery, and culture.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Recruitment",
+      "definition": "The process of finding and attracting qualified candidates for open positions.",
+      "whyItMatters": "Effective recruitment ensures a business has the talent to meet its needs.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Job analysis",
+      "definition": "A systematic study of a job's duties, responsibilities, and required skills.",
+      "whyItMatters": "It informs hiring standards and identifies the right competencies for a role.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Job description",
+      "definition": "A document outlining a position's duties, qualifications, and reporting relationships.",
+      "whyItMatters": "Clear descriptions guide hiring, set expectations, and reduce role confusion.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Onboarding",
+      "definition": "The process of orienting and integrating new employees into the organization.",
+      "whyItMatters": "Strong onboarding speeds productivity and conveys company values and procedures.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Training and development",
+      "definition": "Programs that build employee skills and knowledge for current and future roles.",
+      "whyItMatters": "Training improves performance, cuts turnover, and prepares people for advancement.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Performance appraisal",
+      "definition": "A formal review of how well an employee meets job expectations.",
+      "whyItMatters": "Appraisals surface strengths and gaps and link development to compensation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Compensation",
+      "definition": "The wages, salaries, bonuses, and other financial rewards given for work.",
+      "whyItMatters": "Fair, competitive pay attracts talent, motivates performance, and aids retention.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Employee benefits",
+      "definition": "Non-wage offerings such as health insurance, retirement plans, and paid time off.",
+      "whyItMatters": "Benefits influence hiring decisions and employee satisfaction.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Employee retention",
+      "definition": "Keeping qualified employees engaged and committed over the long term.",
+      "whyItMatters": "High retention lowers costly turnover and preserves institutional knowledge.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Employee relations",
+      "definition": "Maintaining positive interactions between management and staff and resolving concerns.",
+      "whyItMatters": "Strong relations build trust, reduce conflict, and support morale.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Workplace diversity",
+      "definition": "Including people of different backgrounds, perspectives, and identities in the workforce.",
+      "whyItMatters": "Diversity improves problem-solving and reflects the customer base.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Labor relations",
+      "definition": "Managing the relationship between employers and employees, including unions and disputes.",
+      "whyItMatters": "Effective labor relations minimize conflict and keep the workforce productive.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Workforce planning",
+      "definition": "Analyzing the current workforce and forecasting future talent needs.",
+      "whyItMatters": "It ensures a business has the right people and skills to meet its goals.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Human resources information system",
+      "definition": "Technology that stores and manages employee data and HR processes.",
+      "whyItMatters": "An HRIS improves efficiency and enables data-driven HR decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    }
+  ]
+}

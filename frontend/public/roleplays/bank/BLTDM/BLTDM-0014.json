@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0014",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assess employee skills.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Solicit feedback.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Describe the nature of emotional intelligence.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Describe the nature of ethics.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Discuss actions employees can take to achieve the company's desired results.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Draw conclusions based on information analysis.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Write informational messages.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "This event is presented to you through the 21st Century Skills, the Performance Indicators, and the case study situation that follow. Both members of the participant team are required to participate in the presentation and to respond to the judge's questions. You will have 30 minutes to review the 21st Century Skills, the performance indicators, and the case study situation, and to prepare your presentation. You will then have up to 15 minutes to present your ideas and recommendation to the judge. You will be evaluated on how well you meet each of the performance indicators listed for this event. Turn in all of your notes and prepared materials to the judge at the conclusion of your presentation.",
+  "situation": "You and your teammate are the compliance manager and the human resources manager at STERLING DIAGNOSTIC LABORATORIES, an independent clinical laboratory that has processed blood, urine, and tissue specimens for hospital systems and physician practices across the region for nearly thirty years. The laboratory director (judge) has asked the two of you to work through a decision about the laboratory's record retention practices before it is finalized, and to recommend both what the laboratory should do and how the change should be explained to the staff who handle the records every day.\n\nSterling built its reputation on accuracy and on relationships with the physician groups that refer their patients' testing to it. In the last two years, a technology-driven new entrant, QUICKCORE LABS, has taken a noticeable share of that testing volume by promising faster turnaround and lower prices through automated processing. Sterling's volume and margins have both declined, and the laboratory director has said openly that Sterling needs fresh cash to modernize its processing line and marketing if it hopes to hold its remaining accounts rather than keep losing them to Quickcore.\n\nA regional records-management company, ARCHWAY RECORDS SOLUTIONS, has offered Sterling a lump-sum payment to take over the paper archive Sterling has kept in a leased warehouse for decades and to accelerate destruction of the files that have already passed the state's ten-year minimum retention period for clinical test records. Accepting would let Sterling sublease the emptied warehouse floor almost immediately, generating cash within weeks rather than the years it would take to earn back through new testing volume. Archway needs an answer within thirty days to hold its own leasing plans for the space.\n\nThe records Archway would destroy are older than the law requires Sterling to keep them, but Redwood Physician Group, Sterling's largest referral source, has relied for years on Sterling holding those files longer than the legal minimum. Redwood's physicians periodically request a patient's older results when a case becomes complicated or disputed, and Sterling has always been able to produce them. Nothing in Sterling's contract with Redwood requires this; it grew out of an informal understanding between the two practices dating back to Sterling's founding, and neither side has ever put it in writing.\n\nThe laboratory director wants the two of you to analyze whether accepting Archway's offer is worth the risk to the Redwood relationship, weighed against what continuing to hold the records and pay for the warehouse space would cost Sterling as it looks for another way to fund its response to Quickcore. The director wants a specific record-destruction schedule to follow going forward, along with your assessment of how the records and specimen-handling staff should be told about it, including how their concerns should be gathered beforehand.\n\nThe laboratory director will greet you and ask you to present your analysis and your recommendation for the record-retention decision and its rollout to staff. Be prepared to discuss your reasoning with the director, who will listen to your ideas and then ask some follow-up questions. The director will thank you at the conclusion of your presentation and the discussion that follows.",
+  "judgeCharacterization": "You are the laboratory director (judge) at STERLING DIAGNOSTIC LABORATORIES. Business background is the same as the situation above.\n\nYou have asked the compliance manager and the human resources manager to analyze whether the laboratory should accept Archway Records Solutions' offer to accelerate destruction of specimen and test records that already qualify for disposal under the state's ten-year retention requirement, weighed against the cost of continuing to hold those records and pay for the warehouse space, and to recommend a going-forward destruction schedule. You also want their assessment of how the decision should be communicated to the laboratory's records and specimen-handling staff, including how to gather that staff's questions and concerns before the change takes effect.\n\nYou will greet the participants and ask them to share their analysis and recommendation. After hearing their presentation, ask the following questions:",
+  "judgeQuestions": [
+    "Is there a middle option — such as holding on to only the specific records Redwood has asked about in the past — that would be worth considering instead of Archway's full offer?",
+    "Do you see anything unethical about accepting Archway's payment, or is this simply a business decision?",
+    "How would you make sure the laboratory's records staff understand and accept whichever schedule we adopt?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the state's ten-year minimum retention period for clinical test records, already satisfied for the files in question",
+        "the informal, unwritten understanding between Sterling and Redwood that older files are kept and produced on request",
+        "Vantage's thirty-day deadline to accept the offer"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the state's ten-year minimum retention period for clinical test records, already satisfied for the files in question",
+        "the informal, unwritten understanding between Sterling and Redwood that older files are kept and produced on request",
+        "Vantage's thirty-day deadline to accept the offer"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 519,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "clinical laboratory",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "record retention and a document destruction schedule",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "ask whether a specific alternative is worth considering"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0014",
+      "shelfSimilarity": 0.0664,
+      "shelfNearest": "BLTDM-0005",
+      "exemplarSimilarity": 0.0376,
+      "gateVersion": 5
+    }
+  }
+}

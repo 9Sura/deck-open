@@ -1,0 +1,55 @@
+src/utils — file guide
+=======================
+
+Full pipeline writeup: ../../plans/data-seeding-pipeline.md
+
+
+extract_roleplay.py   [ACTIVE — the roleplay text extractor]
+------------------------------------------------------------
+Turns ONE DECA roleplay PDF into one cleaned .txt in the approved format.
+Reads the PDF *text* with pymupdf (never renders pages as images, so it's cheap)
+and formats it deterministically. Prints the .txt to stdout; exits 2 with
+"SKIP:..." on stderr for new-format / non-standard files.
+
+Usage:
+  python3 extract_roleplay.py <pdf> <ABBR> "<Series Name>" <YEAR> <EVENT_NO> <LEVEL>
+
+What it keeps: header (Career Cluster/Pathway/Instructional Area), Participant
+Instructions, 21st Century Skills, Performance Indicators, Event Situation, and
+the Judge Role-Play Characterization (framing + questions + closing).
+What it drops: everything from "EVALUATION INSTRUCTIONS" onward, page furniture
+(footers, page numbers, running headers, DECA logo), and the JUDGE'S
+INSTRUCTIONS / DIRECTIONS boilerplate. It condenses judge-background paragraphs
+that are near-verbatim repeats of the Event Situation to a single line, and
+skips files that lack "21st Century Skills" (the newer SOLUTION/CAREER
+COMPETENCIES template we don't want).
+Requires: pymupdf  (venv/bin/python3 -m pip install pymupdf)
+
+
+run_event.sh          [ACTIVE — the per-event driver]
+------------------------------------------------------
+End-to-end for ONE event. Scrapes the event's deca.org page (paginating the
+Related Resources list), downloads its roleplay PDFs to a temp dir, runs
+extract_roleplay.py on each, and writes data/<ABBR>/<level>_<year>_<n>.txt.
+Leaves NO PDFs in the data folder. Excludes exams/blueprints/guidelines and
+_Sample (new-format) PDFs.
+
+Usage:
+  bash run_event.sh <ABBR> <slug> "<Series Name>"
+  e.g. bash run_event.sh ACT accounting-applications-series "Accounting Applications Series"
+
+Naming: <level>_<year>_<n>.txt  (level = district | association | icdc).
+
+
+extract_pdf.py        [SUPERSEDED — do not use]
+-----------------------------------------------
+Earlier PyPDF2-based attempt. Walks data/raw/<CODE>/... PDFs and writes the
+first 2 pages to data/processed/... as text with "--- PAGE N ---" markers and
+no cleanup. This is what produced the messy early seeded files. Replaced by
+extract_roleplay.py + run_event.sh, which extract the full roleplay, strip all
+furniture, and format consistently. Kept only for reference.
+
+
+info.txt              [this file]
+---------------------------------
+Describes the files in this directory.

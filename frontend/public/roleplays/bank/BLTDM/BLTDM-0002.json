@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0002",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Model ethical behavior.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Select and utilize appropriate formats for professional writing.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Choose and use appropriate channel for workplace communication.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Enlist others in working toward a shared vision.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe strategies for reducing food loss.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Make decisions.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the nature and scope of the pricing function.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "This event is presented to the participant team through the reading of the 21st Century Skills, the Performance Indicators, and the Case Study Situation. You will have 30 minutes to review these materials and prepare your presentation, and up to 15 minutes to present to the judge and respond to the judge's questions. All members of the participant team must take part in the presentation and in answering the judge's questions. You will be evaluated on how well you meet the performance indicators listed below. Turn in all of your notes and materials to the judge at the conclusion of the presentation.",
+  "situation": "You are the sales manager and the client relations coordinator at BRAMWELL RENT-TO-OWN, a family-owned retailer of furniture, electronics, and appliances now in its third generation of ownership. The owner (judge) has built the company's reputation across its dozen store locations on straightforward pricing and dependable service. The owner (judge) has asked you to meet to decide how BRAMWELL should proceed with a large prospective account that has grown complicated.\n\nWESTBROOK HEIGHTS, a regional property management firm, is preparing to furnish more than three hundred newly built apartment units and has invited BRAMWELL to bid on an exclusive, multi-year supply agreement. The firm's procurement manager, who will make the final recommendation to her own leadership, mentioned in your last conversation that a competing vendor has offered her tickets to a major sporting event and a weekend at a resort while the bids are under review, and asked whether BRAMWELL planned anything comparable.\n\nMatching or exceeding that offer could move BRAMWELL to the top of the shortlist within days. The contract would be the largest single account in company history, filling idle rental inventory across every store for the next three years. Declining outright risks losing the account to the competitor entertaining the procurement manager, at a cost your sales team believes would still erode the healthy margin this account currently promises to return.\n\nWESTBROOK HEIGHTS' regional director, who oversees the procurement manager and signs off on every vendor relationship the firm enters, maintains a stated policy discouraging staff from accepting gifts tied to an open bid. If the arrangement became known to him, BRAMWELL's name, not the procurement manager's, would be the one attached to it, and the trust the family has spent three generations building with property owners across the region would be the first thing called into question.\n\nThe owner (judge) wants the participant team to recommend how BRAMWELL should respond to the procurement manager's question, and what, if anything, the company should offer or communicate before the bid decision is made. The recommendation should weigh the near-term value of the account against the standing the family name carries with every other client who does business with BRAMWELL on the strength of that name.\n\nYou will have 30 minutes to prepare your presentation before meeting with the owner (judge). The owner (judge) will greet the participant team and ask to hear their recommendation for how BRAMWELL should proceed with WESTBROOK HEIGHTS. Be ready to explain how the team arrived at its recommendation, not only what the recommendation is. After the presentation and the judge's questions, the owner (judge) will thank the participant team for their work and will not offer further comment.",
+  "judgeCharacterization": "You are the owner of BRAMWELL RENT-TO-OWN, a family-owned rent-to-own retailer now in its third generation. Business background is the same as the situation above. You have asked the participant team to recommend how the company should respond to the procurement manager's question about matching a competitor's gifts and entertainment while the WESTBROOK HEIGHTS bid is under review, and what BRAMWELL should offer or communicate before a decision is made. You want a recommendation that protects the company's standing with every client while still giving the account a fair chance.\n\nYou will greet the participant team and ask to hear their ideas. You will ask the participant team the following questions after their presentation:",
+  "judgeQuestions": [
+    "Why does it matter whether an offer like this comes from BRAMWELL directly or through a third party, and to whom does that distinction matter most?",
+    "Why would matching the competitor's offer matter to WESTBROOK HEIGHTS' regional director, even if the procurement manager never mentions it to him?",
+    "Why might declining the procurement manager's request still cost BRAMWELL something, and to whom would that cost matter?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "MERIDIAN HEIGHTS' regional director's policy discouraging staff from accepting gifts tied to an open bid",
+        "BRAMWELL's three-generation reputation for straightforward dealing with every other client"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "MERIDIAN HEIGHTS' regional director's policy discouraging staff from accepting gifts tied to an open bid",
+        "BRAMWELL's three-generation reputation for straightforward dealing with every other client"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 443,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "rent-to-own retailer",
+        "company_stage": "a family business in its third generation",
+        "business_function": "gifts and entertainment offered to a buyer",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "ask why something in the decision matters, and to whom"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0002",
+      "shelfSimilarity": 0.0225,
+      "shelfNearest": "BLTDM-0001",
+      "exemplarSimilarity": 0.0681,
+      "gateVersion": 5
+    }
+  }
+}

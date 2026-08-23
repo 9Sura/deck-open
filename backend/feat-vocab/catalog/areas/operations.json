@@ -1,0 +1,136 @@
+{
+  "area": "operations",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/operations.txt"
+  ],
+  "terms": [
+    {
+      "term": "Inventory",
+      "definition": "The stock of goods or materials a business holds for sale or use.",
+      "whyItMatters": "Inventory management balances meeting demand against storage cost.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Purchase order",
+      "definition": "A formal document requesting goods or services from a vendor at set terms.",
+      "whyItMatters": "Purchase orders create the paper trail for efficient procurement.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Vendor",
+      "definition": "A supplier that provides goods or services to a business.",
+      "whyItMatters": "Vendor choice drives product quality, cost, and supply reliability.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Safety procedures",
+      "definition": "Documented steps employees follow to prevent workplace accidents and injuries.",
+      "whyItMatters": "Following them protects employees and limits liability.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Work prioritization",
+      "definition": "Ranking tasks by importance and urgency to meet deadlines.",
+      "whyItMatters": "Prioritizing ensures critical work and resources come first.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Quality control",
+      "definition": "Inspecting products and services to ensure they meet set standards.",
+      "whyItMatters": "It catches defects early, protecting satisfaction and reducing waste.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Standard operating procedure",
+      "definition": "A documented, step-by-step method for a recurring task.",
+      "whyItMatters": "SOPs improve consistency, training, quality, and safety.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Project management",
+      "definition": "Planning, executing, and monitoring work to hit objectives within time and budget.",
+      "whyItMatters": "It lets managers coordinate resources and deliver on schedule.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Purchasing",
+      "definition": "Acquiring the goods and services a business needs to operate.",
+      "whyItMatters": "Smart purchasing shapes inventory, quality, and supplier relationships.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Data security",
+      "definition": "Measures that protect confidential business and customer information from unauthorized access.",
+      "whyItMatters": "Good data security prevents costly breaches and keeps trust.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Production",
+      "definition": "Creating or manufacturing goods from raw materials, labor, and equipment.",
+      "whyItMatters": "Production efficiency drives profitability, quality, and delivery.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Operating costs",
+      "definition": "The ongoing expenses of running a business — labor, materials, utilities, maintenance.",
+      "whyItMatters": "Controlling operating costs is a lever competitors use to lift profit.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Supply chain",
+      "definition": "The network of people and activities moving a product from raw materials to the customer.",
+      "whyItMatters": "Supply-chain thinking underlies inventory, vendor, and cost decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Inventory turnover",
+      "definition": "How many times inventory is sold and replaced over a period.",
+      "whyItMatters": "Turnover reveals inventory efficiency and its impact on cash flow.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Supply-chain collaboration",
+      "definition": "Coordination among suppliers, makers, and distributors to optimize flow and cut cost.",
+      "whyItMatters": "Collaboration reduces delays and strengthens competitive advantage.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Quality culture",
+      "definition": "An organization-wide commitment to continuous improvement and quality.",
+      "whyItMatters": "A quality culture lowers defects and lifts loyalty over time.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    }
+  ]
+}

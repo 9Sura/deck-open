@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-28-PBM",
+  "date": "2026-07-28",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc-plus",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    "Describe functions of prices in markets",
+    "Treat others with dignity and respect",
+    "Determine ways of reinforcing the company's image",
+    "Demonstrate email functions"
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking",
+    "Problem Solving",
+    "Creativity and Innovation"
+  ],
+  "participantInstructions": "This event is presented through your reading of the 21st Century Skills, Performance Indicators, and the situation section. You will have 10 minutes to prepare for the presentation, followed by a 10-minute presentation period. No questions will be asked during this role-play scenario.",
+  "situation": "You are Sarah Chen, a Marketing Manager at TechNova Inc., a mid-sized technology firm specializing in software development. Your supervisor, Michael Thompson, has tasked you to address an urgent economic issue impacting your department’s budget and product launches.\n\nTechNova Inc. was founded in 2015 with the vision of becoming a leading player in the tech industry by focusing on innovative software solutions that cater to both businesses and consumers. Over the years, TechNova has grown rapidly, expanding its operations globally and increasing its employee count from just a handful of founders to over 500 employees across various departments including marketing, IT, product development, and finance. The company's headquarters are located in Silicon Valley, with satellite offices in Europe and Asia. Despite facing stiff competition from emerging tech startups, TechNova has maintained a strong reputation for its cutting-edge products such as cloud-based software solutions and mobile applications.\n\nRecently, however, the firm experienced a significant drop in sales due to market saturation and rising production costs. This downturn was further exacerbated by an influx of new competitors offering similar services at lower prices. As a result, TechNova's board of directors has imposed strict budget cuts affecting all departments. The company’s Q3 sales revenue stood at $20 million, but projections for Q4 indicate a decline to $18 million due to these challenges.\n\nIn addition to the budget cuts, the IT department has proposed a new software project that could significantly enhance productivity and reduce long-term costs for TechNova Inc. However, this initiative requires an initial investment of $2 million from the marketing budget. This proposal presents a dilemma for Sarah Chen as she must decide whether to allocate more funds towards promoting existing products or investing in the new software project.\n\nThe Marketing Department under Sarah Chen’s leadership is concerned about maintaining market visibility and ensuring that their current product lineup remains competitive despite the reduced marketing budget. The department believes that substantial investment in promotional efforts will be crucial for sustaining sales growth, especially given the projected decline indicated by Q4 projections. Without adequate funding for advertising campaigns and digital marketing strategies, the Marketing Department fears that TechNova’s products may lose ground to competitors who are more aggressively promoting their offerings.\n\nOn the other hand, the IT department under the leadership of John Lee is advocating strongly for the new software project. They argue that this initiative would streamline operations by automating several processes currently handled manually or through outdated systems. The potential cost savings from increased efficiency and reduced labor expenses could offset the initial investment over time. Moreover, enhancing productivity within TechNova Inc. could lead to more innovative product development in the future, positioning the company ahead of its competitors.\n\nThe Board of Directors, headed by CEO Lisa Nguyen, is adamant about adhering strictly to the imposed budget cuts to improve financial stability and prevent further losses. They believe that cutting costs across all departments will help reduce expenses and stabilize revenue streams. The board's decision reflects a broader strategy aimed at ensuring long-term sustainability for TechNova Inc., even if it means short-term sacrifices in other areas.\n\nConstraints: - Total available marketing budget after proposed cuts is $3.5 million. - Initial investment for new software project is $2 million, reducing immediate promotional efforts. - Sales projections indicate a potential decline without substantial marketing support. - The company’s policy mandates that all major financial decisions must be approved by the board of directors before implementation.\n\nYour task is to analyze the economic implications of each option and recommend a course of action that balances financial constraints with long-term business objectives. Michael Thompson will greet you at your scheduled meeting time and ask for your analysis and recommendation. After presenting, he will conclude by thanking you for your insights.",
+  "exhibit": {
+    "title": "RECENT SALES AND EXPENSES",
+    "rows": [
+      "Q3 Sales Revenue: $20 million",
+      "Q4 Projected Revenue: $18 million",
+      "Current Marketing Budget: $5 million",
+      "Proposed Reduced Marketing Budget: $3.5 million"
+    ]
+  },
+  "judgeCharacterization": "You are Michael Thompson, the supervisor of Sarah Chen in TechNova Inc.’s marketing department. You are aware of the budget constraints imposed by the board and the proposed software project from IT. Your goal is to hear Sarah’s analysis and recommendation on how to proceed with the available resources while considering all stakeholders’ interests.",
+  "judgeQuestions": [
+    "Justify which option you chose and weigh it against the alternative you rejected.",
+    "Assess how you would measure whether the financial constraints have actually been met.",
+    "Board of Directors argues that maintaining strict budget adherence is crucial for long-term stability. Defend your recommendation against this argument."
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [
+        "Marketing Department - Maintain current marketing budget",
+        "IT Department - Invest in productivity-enhancing software project",
+        "Board of Directors - Enforce strict budget cuts"
+      ],
+      "constraints": [
+        "Total available marketing budget after proposed cuts is $3.5 million",
+        "Initial investment for new software project is $2 million",
+        "Sales projections indicate a potential decline without substantial marketing support"
+      ],
+      "conflicts": [
+        "Marketing Department's need for funding vs. IT Department's need for investment",
+        "Financial stability requirements vs. Productivity enhancement needs",
+        "Immediate promotional efforts vs. Long-term cost reduction"
+      ],
+      "exhibit": "EXHIBIT 1: RECENT SALES AND EXPENSES"
+    },
+    "corroborated": {
+      "stakeholders": [
+        "Marketing Department - Maintain current marketing budget",
+        "IT Department - Invest in productivity-enhancing software project",
+        "Board of Directors - Enforce strict budget cuts"
+      ],
+      "constraints": [
+        "Total available marketing budget after proposed cuts is $3.5 million",
+        "Initial investment for new software project is $2 million",
+        "Sales projections indicate a potential decline without substantial marketing support"
+      ],
+      "exhibit": true
+    },
+    "gate": {
+      "passed": false,
+      "failedKnobs": [
+        "K3"
+      ],
+      "issues": [
+        "K3: exhibit is inside or below the situation; it belongs between PERFORMANCE INDICATORS and the situation header"
+      ]
+    },
+    "situationWords": 643,
+    "generator": {
+      "model": "qwen2.5:14b-instruct",
+      "passes": 2
+    },
+    "defects": [
+      "boilerplate:denies-judge-questions"
+    ]
+  }
+}

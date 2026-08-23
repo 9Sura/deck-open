@@ -1,0 +1,128 @@
+{
+  "area": "pricing",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/pricing.txt"
+  ],
+  "terms": [
+    {
+      "term": "Break-even point",
+      "definition": "The sales level where total revenue equals total costs.",
+      "whyItMatters": "Break-even shows the minimum sales a price or product strategy needs to be viable.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Markup",
+      "definition": "The amount or percentage added to a product's cost to set its selling price.",
+      "whyItMatters": "Markup links cost directly to a pricing recommendation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Profit margin",
+      "definition": "The percentage of revenue left as profit after costs are subtracted.",
+      "whyItMatters": "Margin reflects pricing effectiveness against financial goals.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Pricing strategy",
+      "definition": "A plan for setting prices to meet business objectives and positioning.",
+      "whyItMatters": "A sound strategy is central to case presentations and positioning.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Cost-plus pricing",
+      "definition": "Setting price by adding a standard markup to a product's cost.",
+      "whyItMatters": "It is a foundational method when a price must ensure cost recovery.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Price skimming",
+      "definition": "Setting a high initial price to earn maximum revenue from eager buyers.",
+      "whyItMatters": "Skimming fits new or innovative products willing buyers will pay for.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Penetration pricing",
+      "definition": "Setting a low initial price to gain market share and deter competitors.",
+      "whyItMatters": "Penetration helps when entering a new market or fighting competition.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Psychological pricing",
+      "definition": "Using prices like $9.99 to shape customer perception of value.",
+      "whyItMatters": "It shows how price presentation affects customer behavior and sales.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Competitive pricing",
+      "definition": "Setting prices based on what competitors charge for similar products.",
+      "whyItMatters": "It is essential for positioning and staying competitive.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Discount",
+      "definition": "A reduction from the regular price offered for volume, loyalty, or timing.",
+      "whyItMatters": "Discounts are a tactical tool to adjust sales volume and clear inventory.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Price elasticity",
+      "definition": "A measure of how much customer demand responds to a price change.",
+      "whyItMatters": "Elasticity predicts demand shifts and helps optimize price for revenue.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Everyday low pricing",
+      "definition": "Consistently low prices instead of frequent sales or promotions.",
+      "whyItMatters": "EDLP offers a sustainable cost-leadership pricing approach.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Value-based pricing",
+      "definition": "Setting price by the value a product delivers rather than its cost.",
+      "whyItMatters": "It aligns price with customer benefit and market demand.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Pricing objective",
+      "definition": "A specific financial or market goal that pricing decisions aim to achieve.",
+      "whyItMatters": "Clear objectives, like profit or market share, guide pricing recommendations.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Manufacturer's suggested retail price",
+      "definition": "The price a manufacturer recommends retailers charge for a product.",
+      "whyItMatters": "MSRP frames legal and ethical pricing and channel relationships.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    }
+  ]
+}

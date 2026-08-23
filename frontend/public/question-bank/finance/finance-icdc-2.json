@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "fin-icdc-2-0001",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain time value of money",
+    "question": "Diego, a small-business owner, is offered two settlement options from an insurance claim: $48,000 paid immediately or $60,000 paid in five equal annual installments of $12,000 beginning today. Before deciding, Diego's accountant tells him the choice should be based primarily on which financial principle?",
+    "options": {
+      "A": "The time value of money, since a dollar received sooner can be invested and grow, while future dollars are worth less in present terms",
+      "B": "The law of diminishing returns, since spreading a fixed total across five annual payments lowers the marginal benefit of each dollar received",
+      "C": "The principle of liquidity preference, since Diego should generally prefer the option offering the most total dollars received",
+      "D": "The concept of sunk cost, since the immediate payment cannot be recovered once it is invested"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A: the time value of money. This principle holds that money available now is worth more than the same nominal amount in the future because it can be invested to earn a return, and inflation erodes future purchasing power; Diego must discount the installment payments to a present value and compare that to $48,000 before deciding. B is wrong because diminishing returns describes falling marginal output as one input to production increases; it says nothing about a fixed sum paid in installments, and the schedule does not change what each dollar is worth to Diego. C is wrong because liquidity preference concerns the general desire to hold cash rather than illiquid assets, and it does not justify picking the option with the larger total sum without first discounting it to present value. D is wrong because a sunk cost is an already-incurred, unrecoverable expense; neither payment option in this scenario has been incurred yet, so sunk cost does not apply.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0002",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Determine personal net worth",
+    "question": "Marisol is calculating her net worth statement. She owns a car valued at $14,000 (with a $6,000 loan balance remaining), has $9,000 in a retirement account, $3,000 in checking and savings, and owes $2,500 on a credit card. Which figure represents her actual net worth?",
+    "options": {
+      "A": "$26,000, the sum of the car, retirement, and checking and savings balances, without subtracting the car loan or credit card balance",
+      "B": "$17,500, the total value of her assets minus the total value of her liabilities",
+      "C": "$8,500, the value of her liquid assets minus her total debts",
+      "D": "$14,000, the value of her single largest asset compared against her total debts across the car loan and credit card combined"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Net worth equals total assets ($14,000 car + $9,000 retirement + $3,000 checking/savings = $26,000) minus total liabilities ($6,000 car loan + $2,500 credit card = $8,500), which equals $17,500. A is wrong because $26,000 is her total assets; net worth requires subtracting the $6,000 car loan and the $2,500 card balance, and the option stops before that step. C is wrong because it improperly limits the asset side to liquid assets rather than all assets she owns. D is wrong because net worth is not based on a single asset compared to total debt; it requires totaling all assets first.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0003",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain tax liabilities",
+    "question": "Priya freelances as a graphic designer and also works part-time at a retail store where taxes are withheld from her paycheck. At year-end, she is surprised to owe additional federal tax on her freelance earnings. What is the most likely reason for this outcome?",
+    "options": {
+      "A": "Freelance income is entirely tax-exempt, so the additional amount owed must be a calculation error",
+      "B": "Her retail employer withheld too little from her paycheck this year, and that shortfall alone fully explains the entire amount she now owes",
+      "C": "No taxes were withheld from her freelance income throughout the year, so she is responsible for that tax liability herself",
+      "D": "Freelance earnings are taxed at a permanently lower rate than wages, and that lower rate is what caused the unexpected shortfall in her withholding"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Unlike wages from an employer, freelance or self-employment income typically has no tax automatically withheld throughout the year, so the worker is responsible for setting aside funds and paying that liability, often through estimated quarterly payments; failing to do so results in an unexpected balance due. A is wrong because freelance income is taxable, not exempt. B is wrong because her retail withholding, even if slightly low, is a separate matter and does not by itself explain a shortfall tied specifically to unwithheld freelance income. D is wrong because self-employment income is not taxed at a permanently lower rate than wages; in fact, it can carry additional self-employment tax obligations.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0004",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Calculate cost of credit",
+    "question": "Two credit cards offer Trevor $2,000 balances. Card X has an 18% APR compounded monthly, and Card Y has a 22% APR compounded monthly but includes a $0 annual fee, while Card X charges a $75 annual fee. If Trevor plans to carry a balance for a full year, what should he calculate before choosing a card?",
+    "options": {
+      "A": "The advertised APR percentage on each card by itself, treating the lower stated rate as though it alone determines which card costs less overall",
+      "B": "The annual fee amount charged by each card, treating fees as more important than interest charges when a balance is carried for a full year",
+      "C": "The total finance charge for each card, including compounded interest plus any fees, to compare the true annual cost of credit",
+      "D": "The card's credit limit on each account, treating a higher available limit as though it were evidence of a lower overall cost of borrowing"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. The true cost of credit combines the compounded interest charged over the period the balance is carried with any fees, such as annual fees; comparing that combined total finance charge across both cards reveals which one actually costs Trevor less. A is wrong because judging cards by the advertised APR alone ignores the fee difference, which could make the lower-rate card actually more expensive once its $75 annual fee is factored in. B is wrong because focusing only on the fee and disregarding the interest charges could lead Trevor to pick a costlier card if the interest difference outweighs the fee difference. D is wrong because a credit limit describes how much a cardholder can borrow, not what that borrowing actually costs.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0005",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Validate credit history",
+    "question": "Before applying for a mortgage, Kenji requests his credit report and finds an account listed as delinquent that he is certain he paid off in full three years ago. What is the most appropriate first step Kenji should take?",
+    "options": {
+      "A": "File a dispute with the credit reporting agency, providing documentation such as payment records to support correcting the error",
+      "B": "Wait for the mortgage lender to independently notice the discrepancy during underwriting and assume the lender will handle correcting it with the credit bureau on his behalf",
+      "C": "Open a new credit account soon to offset the negative mark with a fresh history of positive, on-time payments before the mortgage application is submitted",
+      "D": "Ignore the item since delinquencies typically fall off credit reports within a set number of months whether or not the underlying information was ever accurate"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Validating credit history involves reviewing reports for accuracy and formally disputing any errors with the credit bureau, supplying supporting documentation like payment confirmations, so the record can be corrected before it affects a major financial decision like a mortgage application. B is wrong because lenders are not responsible for correcting a consumer's credit report errors; the burden is on the consumer to dispute inaccuracies. C is wrong because opening a new account does not remove or correct an inaccurate item and could add unnecessary risk before a mortgage application. D is wrong because a genuine reporting error does not disappear on any set timeline just because unrelated delinquencies eventually age off, and it can remain and harm his application if left unaddressed.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0006",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Make responsible financial decisions",
+    "question": "Amara receives a $3,000 bonus at work. She has $1,200 in high-interest credit card debt, no emergency fund, and a long-standing goal of taking a vacation next year. Which use of the bonus best reflects a responsible financial decision?",
+    "options": {
+      "A": "Spend the entire bonus on the vacation now, since delaying enjoyment of a hard-earned bonus is unnecessary",
+      "B": "Pay off the high-interest credit card debt first, then direct remaining funds toward building savings",
+      "C": "Invest the entire amount in a volatile stock without regard to her existing debt or lack of emergency savings",
+      "D": "Split the bonus evenly between the vacation fund and a new appliance purchase she has been considering"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Responsible financial decision-making prioritizes eliminating high-interest debt, which compounds quickly and costs more than most savings or investments earn, before allocating funds to discretionary goals; this frees up future income and reduces financial risk. A is wrong because spending it entirely on a vacation ignores costly debt that will continue accruing interest. C is wrong because investing in a volatile asset while carrying high-interest debt and no emergency fund exposes Amara to unnecessary risk, since the debt's interest rate likely exceeds probable investment returns. D is wrong because splitting funds toward discretionary purchases while leaving high-interest debt unpaid is not the most responsible use of the money.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0007",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Control debt",
+    "question": "Hector has balances on four credit cards with different interest rates. He decides to pay only the minimum on all but the card with the highest interest rate, which he pays down aggressively until it is eliminated, then moves to the next-highest rate. Which debt-control strategy is Hector using?",
+    "options": {
+      "A": "The debt snowball method, which targets the smallest balance first for psychological momentum rather than by interest rate",
+      "B": "The debt consolidation method, which combines all four card balances into one single new loan at a blended interest rate",
+      "C": "The debt avalanche method, which targets the highest-interest-rate balance first to minimize total interest paid",
+      "D": "The debt settlement method, which negotiates directly with each creditor to reduce the total amount he ultimately owes"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C, the debt avalanche method. This strategy prioritizes the debt with the highest interest rate first while making minimum payments on the rest, minimizing the total interest paid over time, which matches Hector's approach. A is wrong because the snowball orders payoff by balance size for motivation, while Hector is ordering by interest rate; the two strategies coincide only by accident. B is wrong because Hector has not combined his balances into a single new loan; he is still managing four separate accounts. D is wrong because debt settlement involves negotiating a reduced payoff amount with creditors, not systematically paying down existing balances by interest rate.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0008",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Discuss retirement planning",
+    "question": "At age 28, Nadia begins contributing $200 monthly to a retirement account earning an average annual return, while her coworker Ben waits until age 38 to start contributing the same $200 monthly at the same rate of return. Assuming both stop contributing at age 65, why will Nadia most likely retire with significantly more money than Ben?",
+    "options": {
+      "A": "Nadia's employer is required by law to match a higher percentage for younger employees",
+      "B": "Nadia's contributions benefit from ten additional years of compounding growth, allowing her invested funds more time to generate returns on returns",
+      "C": "Retirement account contribution limits rise automatically for savers who start younger, so Nadia could put away more each year than Ben",
+      "D": "Ben's later contributions will be taxed at a substantially higher rate than Nadia's earlier contributions"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Starting earlier gives Nadia's contributions more years to benefit from compound growth, where investment returns themselves begin generating additional returns, so even identical monthly contributions and rates of return produce a much larger balance over a longer time horizon. A is wrong because employer matching policies are not legally tied to an employee's age. C is wrong because contribution limits are set by account type and statute, not by starting age, and in any case both contributed the identical $200 a month; the gap comes from time, not from a higher ceiling. D is wrong because tax rates on contributions are not determined by the age at which someone begins contributing.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0009",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain estate planning",
+    "question": "Warren owns a small business, a home, and several investment accounts. He wants to ensure that upon his death, his assets transfer to his chosen beneficiaries with minimal delay and reduced court involvement, while also naming someone to make medical decisions if he becomes incapacitated. Which combination of estate-planning tools best addresses Warren's goals?",
+    "options": {
+      "A": "A revocable living trust paired with a durable healthcare power of attorney",
+      "B": "A simple will alone, since wills automatically avoid probate court for all assets",
+      "C": "A term life insurance policy alone, since it replaces the need for any other estate documents",
+      "D": "A verbal agreement with family members outlining his wishes, since it is legally binding once witnessed"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. A revocable living trust allows assets to pass to beneficiaries outside of probate court, reducing delay and cost, while a durable healthcare power of attorney names someone to make medical decisions if Warren becomes incapacitated, directly addressing both of his stated goals. B is wrong because a will typically must go through probate, which can be time-consuming and public, rather than avoiding court involvement. C is wrong because life insurance provides a death benefit but does not address incapacity decisions or the transfer of his business, home, and investment accounts. D is wrong because verbal agreements, even if witnessed, are not a legally enforceable substitute for proper estate-planning documents.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0010",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain investments",
+    "question": "Lucia, age 24, is choosing between a certificate of deposit paying a fixed 2% and a diversified stock index fund with historically higher average returns but greater short-term volatility, for a retirement account she won't touch for 40 years. Which factor most strongly supports choosing the stock index fund in this case?",
+    "options": {
+      "A": "Stock index funds guarantee a fixed return every year, similar to the CD, making them equally safe",
+      "B": "Lucia's long time horizon allows her to ride out short-term volatility while benefiting from potentially higher long-term average growth",
+      "C": "Certificates of deposit are not insured and therefore carry more risk than stock index funds",
+      "D": "Stock index funds cannot lose value over a long enough holding period, unlike CDs, which quietly lose purchasing power to inflation over time"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. A long time horizon, such as Lucia's 40 years until retirement, allows an investor to absorb short-term market swings and benefit from the generally higher long-term average returns of diversified stock investments, which is a core reason younger investors often favor equities for long-term goals. A is wrong because stock index funds do not guarantee fixed returns; their returns fluctuate with market performance. C is wrong because CDs are typically insured (e.g., by the FDIC up to applicable limits) and are considered lower risk than stocks, not higher risk. D is wrong because no holding period guarantees an index fund against loss; the inflation point about CDs is fair, but it does not make equities immune, and immunity is not why Lucia's horizon favors them.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0011",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe insurance",
+    "question": "A young couple is comparing two homeowners insurance policies. Policy A has a lower premium but a higher deductible and covers the home's value only up to its depreciated (actual cash) value at the time of a loss. Policy B has a higher premium but a lower deductible and covers the cost to rebuild the home at current prices (replacement cost). Which statement best explains a key trade-off between these policies?",
+    "options": {
+      "A": "Policy A's lower premium is simply the insurer's pricing decision based on risk factors and does not by itself indicate how generously either policy would pay out on an actual covered loss",
+      "B": "Policy B's higher premium already builds in most of the cost difference, so the couple would rarely notice a deductible in practice even though one technically still applies to each claim",
+      "C": "Policy A offers a lower ongoing cost but could leave the couple underfunded to rebuild after a total loss, while Policy B costs more upfront but better protects rebuilding costs",
+      "D": "Both policies pay identical amounts after a loss, since deductibles and premiums are just pricing details unrelated to claim settlement"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Actual cash value coverage (Policy A) reimburses depreciated value, which is often insufficient to fully rebuild after a total loss, while replacement cost coverage (Policy B) reimburses the cost to rebuild at current prices, costing more in premiums but reducing the risk of being underinsured; this is the central trade-off between the two policies. A is wrong because premium level reflects the insurer's pricing of risk, not a signal of how much either policy actually pays out on a covered claim. B is wrong because Policy B's deductible still applies in full to every claim regardless of how the premium is priced. D is wrong because deductibles and premium-to-coverage differences directly affect both the cost of the policy and the amount ultimately paid out on a claim.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0012",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Discuss ethics in accounting",
+    "question": "An accountant at a mid-sized firm discovers that recording an upcoming large expense in the next fiscal quarter instead of the current one would help the company appear to meet an earnings target this quarter, even though the expense was clearly incurred in the current period. What is the ethical course of action for the accountant?",
+    "options": {
+      "A": "Record the expense in the period it was actually incurred, regardless of the effect on this quarter's reported earnings",
+      "B": "Delay recording the expense to the next quarter since earnings targets are ultimately just internal management goals",
+      "C": "Ask a supervisor for informal verbal permission to delay the expense so responsibility is shared if questioned later",
+      "D": "Record only half of the expense this quarter and defer the remainder, as a compromise between accuracy and earnings targets"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Ethical accounting requires recording transactions in the period in which they actually occur, following the matching principle, regardless of how the resulting figures affect earnings targets; manipulating timing to present a more favorable picture misleads stakeholders. B is wrong because shifting the expense to manage perceived performance is a form of earnings manipulation, which is unethical and potentially fraudulent, even if the target is only internal. C is wrong because informal verbal permission does not make the manipulation ethical or compliant; it simply obscures accountability. D is wrong because splitting the expense arbitrarily still misrepresents the actual financial position and is not a legitimate accounting practice.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0013",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain legal considerations in accounting",
+    "question": "A publicly traded company's internal accountants discover a material misstatement in previously filed financial statements that overstated revenue. Under legal requirements such as those established by the Sarbanes-Oxley Act, what must the company do?",
+    "options": {
+      "A": "Correct the misstatement through proper restatement and disclosure procedures, since executives can be held personally accountable for certifying inaccurate financial statements",
+      "B": "Absorb the correction into future filings without a separate disclosure, since restating prior periods would alarm investors over a gap that later filings resolve anyway",
+      "C": "Wait until the next scheduled annual audit to address the issue, since interim corrections are not legally required",
+      "D": "Report the issue only if a shareholder specifically requests clarification about the affected financial statements"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Sarbanes-Oxley established strict accountability requirements, including CEO/CFO certification of financial statement accuracy, and companies discovering material misstatements must properly restate and disclose the correction to maintain transparency and legal compliance; executives can face significant personal liability for knowingly certifying false statements. B is wrong because a material misstatement in filed statements must be corrected in those statements; rolling the fix silently into later periods leaves investors relying on figures the company knows are false, which is what the disclosure rules exist to prevent. C is wrong because material misstatements must be addressed promptly rather than waiting for a future scheduled audit. D is wrong because disclosure obligations are not contingent on shareholders specifically requesting information; companies must proactively disclose material issues.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0014",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe cash flow statements",
+    "question": "A company reports strong net income on its income statement for the quarter, yet its cash flow statement shows a significant decrease in cash from operating activities. Which explanation is most consistent with this pattern?",
+    "options": {
+      "A": "The company most likely made an error, since positive net income must always result in positive operating cash flow",
+      "B": "A large increase in accounts receivable likely means the company recorded sales revenue that has not yet been collected in cash",
+      "C": "The company must have taken out a new long-term loan, which always decreases operating cash flow",
+      "D": "Depreciation expense recorded during the quarter directly reduced the company's actual cash balance"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Net income is based on accrual accounting, which recognizes revenue when earned rather than when cash is received; a large rise in accounts receivable means sales were recorded as revenue (boosting net income) before the cash was actually collected, explaining the gap between reported income and operating cash flow. A is wrong because it is common and not necessarily an error for net income and operating cash flow to diverge due to non-cash and timing items. C is wrong because financing activities like a new loan appear in the financing section of the cash flow statement, not the operating section, and would typically increase, not decrease, cash. D is wrong because depreciation is a non-cash expense that reduces net income on paper but is added back in the operating activities section precisely because it does not use actual cash.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0015",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain balance sheets",
+    "question": "A small manufacturing company's balance sheet shows total assets of $500,000 and total liabilities of $320,000. The owner wants to understand what this means for the business's financial position. Which statement correctly interprets these figures?",
+    "options": {
+      "A": "The company generated $180,000 in profit during the most recent year, based on the difference between assets and liabilities",
+      "B": "The company's total revenue for the year was $180,000, calculated from the balance sheet alone",
+      "C": "The owner's equity in the business is $180,000, representing the residual claim on assets after liabilities are subtracted",
+      "D": "The company has a cash flow deficit of $180,000 that must be resolved before the next reporting period"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. The balance sheet reflects the fundamental accounting equation, assets equal liabilities plus owner's equity, so owner's equity is calculated as total assets minus total liabilities ($500,000 - $320,000 = $180,000), representing the owner's residual claim on the business's assets. A is wrong because profit is reported on the income statement over a period of time, not derived directly from a single balance sheet snapshot. B is wrong because revenue is also an income statement figure and cannot be determined from balance sheet totals alone. D is wrong because the balance sheet does not report cash flow deficits; that information appears on the cash flow statement, and a positive equity figure does not indicate a deficit.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0016",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe income statements",
+    "question": "A retail company's income statement shows rising gross sales revenue each quarter, but net income has steadily declined over the same period. An analyst reviewing the statement wants to identify the likely cause. Which line item should the analyst examine first?",
+    "options": {
+      "A": "Cash and cash equivalents, since the balance in that account moves in lockstep with profitability and directly explains any change in reported net income",
+      "B": "Operating expenses and cost of goods sold, since rising costs relative to revenue can shrink net income even as sales grow",
+      "C": "Total assets, since a company's net income for the period is calculated directly from the size of its total asset base on the balance sheet",
+      "D": "Retained earnings from prior years, since the accumulated balance in that account is what determines how much net income the company reports in the current period"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Net income on the income statement is derived by subtracting cost of goods sold, operating expenses, taxes, and other costs from revenue; if revenue is rising but net income is falling, the most direct explanation is that costs and expenses are growing even faster than revenue, compressing profit margins. A is wrong because cash and cash equivalents are balance sheet items that reflect timing of cash movements, not the accrual-based profitability calculation the income statement performs. C is wrong because total assets are a balance sheet figure that does not directly determine net income for a period. D is wrong because retained earnings is a cumulative balance sheet/equity account that reflects past net income; it is a result of prior income, not a determinant of the current period's income statement results.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0017",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain finance in business",
+    "question": "A growing company must decide how to fund a major expansion: issuing new shares of stock, taking out a long-term bank loan, or reinvesting retained earnings. This type of decision falls primarily under which business finance function?",
+    "options": {
+      "A": "Capital budgeting decisions, which focus solely on evaluating which physical equipment to purchase",
+      "B": "Financing decisions, which determine the best mix of funding sources to raise the capital a business needs",
+      "C": "Working capital management, which focuses exclusively on day-to-day cash and inventory levels",
+      "D": "Marketing resource allocation, which determines how advertising budgets are distributed across campaigns"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Financing decisions involve determining the optimal combination of debt, equity, and internal funds to raise capital for business needs such as an expansion, which is exactly the choice the company faces among stock issuance, a bank loan, or retained earnings. A is wrong because capital budgeting concerns evaluating and selecting long-term investment projects (like whether to build the expansion), not how to raise the funds for it. C is wrong because working capital management concerns short-term assets and liabilities like inventory and receivables, not long-term funding sources for major expansion. D is wrong because marketing resource allocation deals with advertising spend decisions, unrelated to raising capital for a business expansion.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0018",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Discuss ethics in finance",
+    "question": "A financial advisor receives a higher commission for recommending a particular mutual fund to clients, even though a lower-cost fund with a similar risk and return profile is available and would better serve most clients' interests. What ethical concern does this situation illustrate?",
+    "options": {
+      "A": "Insider trading, since the advisor is using nonpublic information to benefit personally",
+      "B": "A conflict of interest, since the advisor's compensation structure creates an incentive that may not align with the client's best interest",
+      "C": "Predatory lending, since the advisor is charging excessive interest on a loan product",
+      "D": "Securities fraud, since the advisor is knowingly misstating the recommended fund's historical returns and risk profile to clients"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. A conflict of interest arises when a professional's personal incentives, such as a higher commission, could improperly influence the advice given to a client, potentially compromising the client's best interest; this is precisely the ethical tension described. A is wrong because insider trading involves trading securities based on material nonpublic information, which is not described here. C is wrong because predatory lending refers to unfair or abusive loan terms, not investment recommendations driven by commission structures. D is wrong because nothing in the scenario has the advisor misstating the fund's returns or risk; the two funds genuinely carry similar profiles, and the problem is the commission steering the recommendation, not a false statement.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0019",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain legal considerations for finance",
+    "question": "A financial firm wants to launch a new investment product to retail investors. Before marketing it, company leaders must ensure they comply with regulatory requirements. Which action reflects a proper legal consideration for finance in this situation?",
+    "options": {
+      "A": "Skipping formal disclosure documents since verbal explanations to investors satisfy all regulatory requirements",
+      "B": "Marketing the product broadly first and registering it with the regulator later if complaints happen to arise",
+      "C": "Filing all required disclosures and registration documents with the appropriate securities regulator before offering the product to the public",
+      "D": "Relying on the sales team's informal judgment about which investors are suitable, without documented suitability procedures or compliance sign-off"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Legal considerations for finance require firms to comply with securities regulations, which typically mandate that new investment products be properly registered and accompanied by required disclosure documents (such as a prospectus) before being offered to the public, protecting investors and ensuring transparency. A is wrong because verbal explanations do not satisfy formal written disclosure requirements mandated by securities regulators. B is wrong because marketing a product before proper registration is a violation of securities law, not a compliant approach that can be fixed reactively after complaints arise. D is wrong because suitability is a regulatory obligation that must rest on documented procedures and compliance review; undocumented sales judgment leaves the firm unable to show any recommendation was ever assessed.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0020",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe budgets",
+    "question": "A nonprofit organization's finance director is preparing next year's budget. Rather than basing each department's allocation on last year's spending plus a percentage increase, she requires every department to justify each expense from scratch, as if starting with no prior funding. Which type of budget is the finance director using?",
+    "options": {
+      "A": "An incremental budget, which starts from last year's approved spending levels and simply adjusts each department's line items by a fixed percentage increase",
+      "B": "A flexible budget, which automatically recalculates department allocations as actual sales or activity levels change throughout the fiscal year",
+      "C": "A static budget, which remains fixed once set no matter how activity levels change during the year",
+      "D": "A zero-based budget, which requires each expense to be justified for the new period without reference to prior spending"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Zero-based budgeting requires managers to justify every expense for the upcoming period from a baseline of zero, rather than starting from the previous period's figures, which matches the finance director's approach exactly. A is wrong because an incremental budget does the opposite, starting from prior spending and adjusting it by a percentage, which is explicitly not what the director is doing. B is wrong because a flexible budget adjusts based on changes in activity or sales volume during the period, which is a different concept from requiring fresh justification of expenses. C is wrong because a static budget stays fixed once set, and it does not involve justifying expenses from zero.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0021",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain interest-rate fluctuations",
+    "question": "A regional bank's chief economist notes that the central bank has raised its benchmark rate four times in the past year to combat persistent inflation. The bank's commercial lending division is now revising its five-year forecast for mortgage originations. Which outcome should the division most reasonably anticipate?",
+    "options": {
+      "A": "Mortgage demand will rise sharply because higher rates signal a stronger economy",
+      "B": "Mortgage demand will likely soften as higher borrowing costs reduce affordability for buyers",
+      "C": "Mortgage rates will fall independently of the benchmark rate due to bank competition",
+      "D": "Loan default rates will decrease immediately because banks tighten underwriting standards"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. When the central bank raises its benchmark rate, banks' cost of funds rises and they pass this through as higher mortgage rates; higher monthly payments reduce affordability, which typically cools mortgage demand. A is wrong because a stronger economy is not guaranteed by rate hikes taken to fight inflation, and rising rates directly discourage borrowing rather than encourage it. C is wrong because mortgage rates are closely tied to benchmark rate movements and broader bond market yields, not solely to local bank competition, so they would not move independently. D is wrong because default rates are not immediately reduced by underwriting changes; in fact, higher rates on adjustable products can increase strain on borrowers and raise default risk over time.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0022",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Determine the relationship between government and business",
+    "question": "A publicly traded investment firm learns that a new federal rule will require it to hold significantly higher capital reserves against certain derivative trading positions. Firm executives are debating how to respond. Which action best reflects an understanding of the government-business relationship in a regulated financial market?",
+    "options": {
+      "A": "Ignore the rule until enforcement actions are announced, since compliance is optional for large firms",
+      "B": "Lobby exclusively to have the rule repealed and take no interim compliance steps",
+      "C": "Adjust internal risk models and capital allocation now to meet the new requirement by its effective date",
+      "D": "Relocate all derivative trading to an unregulated offshore entity to avoid the rule entirely"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Government sets the regulatory framework within which financial businesses must operate; a firm that proactively adjusts its risk models and capital allocation is responding appropriately to the changed rules and protecting itself from penalties and reputational harm. A is wrong because compliance with capital rules is not optional and ignoring the rule invites regulatory action. B is wrong because relying solely on lobbying without any compliance planning leaves the firm exposed if the rule is not repealed in time. D is wrong because evading regulation through offshore relocation is generally illegal or heavily restricted for regulated entities and carries severe legal and reputational risk.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0023",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain diminishing returns",
+    "question": "A wealth management firm doubled the number of financial advisors on its client-service team, expecting client satisfaction scores to double as well. Instead, satisfaction scores rose only slightly because the advisors now had to share a limited number of client meeting rooms and support staff. This outcome best illustrates which economic concept?",
+    "options": {
+      "A": "Diminishing returns, because adding more of one input without increasing complementary resources yields smaller output gains",
+      "B": "Economies of scale, because a larger service team spreads the firm's fixed overhead across more client accounts",
+      "C": "Comparative advantage, because the firm should specialize in fewer services",
+      "D": "Elastic demand, because client satisfaction responds strongly to price changes"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Diminishing returns occurs when adding more of one input (advisors) while other inputs (meeting rooms, support staff) stay fixed leads to progressively smaller gains in output (client satisfaction). B is wrong because economies of scale would predict improving efficiency as the firm grows, the opposite of what happened; here the fixed meeting rooms and support staff throttled the gain from added advisors. C is wrong because comparative advantage concerns which goods or services a party should produce relative to others, not staffing bottlenecks. D is wrong because elastic demand describes how quantity demanded responds to price changes, which is unrelated to this staffing and satisfaction scenario.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0024",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss consumer spending",
+    "question": "A credit card company's data analytics team observes that cardholders' average monthly spending has fallen for three consecutive quarters, even though unemployment remains low and wages are rising modestly. Consumer confidence surveys show growing worry about a potential recession. Which factor most likely explains the decline in spending despite stable employment and wages?",
+    "options": {
+      "A": "Rising wages typically increase spending, since workers gain more disposable income",
+      "B": "Low unemployment typically leads consumers to spend less on non-essential goods",
+      "C": "Pessimistic expectations about the future economy are causing consumers to spend more cautiously",
+      "D": "Consumer spending is unrelated to confidence and depends mainly on current income levels"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Consumer spending is influenced not just by current income but by expectations about the future; when confidence surveys show recession fears, households often pull back on spending and increase precautionary saving even if current income is stable. A is wrong because rising wages typically support more spending, not less, all else equal. B is wrong because low unemployment is generally associated with higher, not lower, consumer confidence and spending. D is wrong because expectations and confidence are well-documented drivers of spending behavior beyond current income levels alone.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0025",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain GDP",
+    "question": "An investment analyst is preparing a report comparing the economic health of two countries before recommending which one's government bonds to add to a client's portfolio. Country X reports rising GDP driven mainly by a construction boom in luxury housing, while Country Y reports slower but broad-based GDP growth across manufacturing, services, and exports. Which conclusion should the analyst draw about the limitations of relying on GDP figures alone?",
+    "options": {
+      "A": "GDP growth rates from different countries are directly comparable no matter which sector is driving the growth",
+      "B": "GDP measures the composition of growth in detail, so no further analysis is needed",
+      "C": "Aggregate GDP growth can mask the diversity and sustainability of the underlying economic activity",
+      "D": "A country with higher GDP growth generally has stronger government bonds"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. GDP is a single aggregate measure of total output and does not by itself reveal whether growth is broad-based and sustainable or concentrated in a narrow, potentially volatile sector like luxury housing; the analyst must look deeper than the headline figure. A is wrong because a luxury-construction boom and broad-based manufacturing growth can print the same headline number while carrying very different durability, which is precisely what the sector composition tells the analyst. B is wrong because GDP is an aggregate figure and does not break down composition without additional data. D is wrong because higher GDP growth does not automatically translate into stronger or safer government bonds, since sustainability and fiscal health also matter.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0026",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss unemployment rates",
+    "question": "A financial planning firm notices that even though the national unemployment rate has dropped to a historic low, many of its clients report difficulty finding stable, well-paying full-time work and instead rely on part-time or gig-based income. Which explanation best accounts for this apparent contradiction?",
+    "options": {
+      "A": "The unemployment rate cannot fall while underemployment exists, so the reported statistic must be inaccurate",
+      "B": "The official unemployment rate does not capture underemployment among people working part-time who want full-time work",
+      "C": "Gig income is often excluded from how official government statistics classify a person as employed or unemployed",
+      "D": "Low unemployment rates generally occur when wages are also falling across the broader economy"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. The standard unemployment rate counts only those without any job who are actively seeking work; it does not capture underemployed individuals who are working part-time or in gig roles but want full-time positions, so low unemployment can coexist with significant underemployment. A is wrong because the two statistics measure different things and are not contradictory; the reported rate can be accurate while underemployment is separately high. C is wrong because gig income being excluded from the unemployment count is a description of a measurement gap, not a claim that gig work is itself classified as unemployment. D is wrong because low unemployment is not inherently linked to falling wages; the two can move independently.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0027",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe exchange rates",
+    "question": "A U.S.-based asset management firm holds a large position in bonds issued by a European company. Over the past six months, the euro has weakened significantly against the U.S. dollar. Assuming the bonds' value in euros has stayed constant, what is the most likely effect on the firm's return when the position is converted back to U.S. dollars?",
+    "options": {
+      "A": "The dollar value of the return will increase because a weaker euro buys more dollars",
+      "B": "The dollar value of the return will decrease because each euro now converts into fewer dollars",
+      "C": "The dollar value of the return will be unaffected because bond prices are set independently of currency markets",
+      "D": "The dollar value of the return will decrease only if the firm sells the bonds within thirty days"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. When the euro weakens against the dollar, each euro converts into fewer dollars, so even if the bond's euro-denominated value is unchanged, the dollar value of the return declines due to unfavorable currency translation. A is wrong because a weaker euro buys fewer, not more, dollars. C is wrong because currency exchange rates directly affect the dollar value of foreign-currency-denominated assets when converted back. D is wrong because the currency translation effect applies whenever the position is converted, regardless of a specific thirty-day timeframe.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0028",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain trade alliances",
+    "question": "A multinational bank is deciding whether to expand its trade-finance division to support clients exporting goods among member nations of a regional trade alliance that has eliminated tariffs and streamlined customs procedures between its members. Which effect of the trade alliance is most relevant to the bank's expansion decision?",
+    "options": {
+      "A": "The alliance increases currency risk for every member nation's exporters and importers, which on balance discourages banks from expanding trade-finance services",
+      "B": "The alliance guarantees permanently fixed exchange rates between all member nations' currencies for as long as the trade agreement remains formally in effect",
+      "C": "The alliance reduces trade barriers among members, likely increasing cross-border transaction volume that requires financing",
+      "D": "The alliance requires all member nations to eventually adopt a single shared central bank and currency before any tariff reductions can take effect"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Trade alliances that reduce tariffs and simplify customs typically increase the volume of trade among member nations, creating more demand for trade-finance services like letters of credit and export financing, which supports the bank's expansion decision. A is wrong because eliminating tariffs and streamlining customs lowers the cost of trading and lifts volume; it leaves exchange-rate exposure where it was, so there is no new currency risk to deter the bank. B is wrong because most trade alliances, such as free trade agreements, do not fix exchange rates unless they specifically involve a currency union. D is wrong because adopting a single central bank is not a standard requirement of, or precondition for, tariff reductions under trade alliances generally.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0029",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe political environment impact",
+    "question": "A brokerage firm's international desk is monitoring an upcoming national election in a country where its clients hold significant equity positions. Polling shows a strong chance that the incoming government will nationalize key industries, including banking and energy. How should the brokerage most appropriately advise its clients in response to this political environment factor?",
+    "options": {
+      "A": "Ignore the election results entirely, since political changes in emerging markets rarely have any measurable effect on established financial markets",
+      "B": "Advise clients to reassess exposure to affected sectors given the elevated risk of nationalization",
+      "C": "Advise clients to double their existing positions in banking and energy stocks before the election results are even announced",
+      "D": "Advise clients that nationalization risk applies mainly to government bonds and has little bearing on equity holdings in the affected sectors"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. The political environment, including potential changes in government policy such as nationalization, is a significant factor affecting business risk, so a prudent advisor would help clients reassess and potentially reduce exposure to sectors likely to be nationalized. A is wrong because political changes, especially threats of nationalization, can dramatically affect asset values and must be considered, not dismissed as rarely material. C is wrong because increasing exposure to sectors facing nationalization risk before the outcome is even known would expose clients to greater potential losses, not protect them. D is wrong because nationalization directly affects equity ownership in the targeted industries, not just government bonds.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0030",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss bribery and foreign monetary payments",
+    "question": "A financial services firm's sales representative is negotiating a large contract with a state-owned bank in a foreign country. A local intermediary suggests that a 'facilitation payment' to a government official would help expedite approval of the contract. Under U.S. law and standard compliance practice, how should the representative respond?",
+    "options": {
+      "A": "Make the payment quietly since facilitation payments are always legal under U.S. law",
+      "B": "Refuse the payment and report the request to the firm's compliance and legal department",
+      "C": "Ask the intermediary to make the payment personally so the firm is not directly involved",
+      "D": "Proceed with the payment only if it is recorded as a normal consulting fee"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Under laws such as the Foreign Corrupt Practices Act, bribing foreign officials, even indirectly, is illegal for U.S. firms and their representatives; the correct response is to refuse and escalate to compliance and legal, who can assess the situation and ensure the firm avoids legal liability. A is wrong because facilitation payments to foreign officials are not broadly legal and can constitute bribery under U.S. law depending on the circumstances. C is wrong because using an intermediary to make a bribe does not shield the firm from liability; this is a common bribery scheme still prohibited by law. D is wrong because disguising a bribe as a consulting fee is a form of falsifying records and does not make the underlying payment legal.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0031",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Determine factors affecting business risk",
+    "question": "An insurance underwriting team is evaluating a small manufacturing company's application for a business interruption policy. The company relies on a single supplier for a critical raw material sourced from one overseas region prone to political instability. How should this concentration affect the underwriter's risk assessment?",
+    "options": {
+      "A": "It should be viewed as reducing risk, since relying on a single, well-established supplier simplifies contract management and removes the need to monitor multiple vendor relationships",
+      "B": "It should be viewed as increasing risk, since dependence on one supplier and region raises the chance of significant supply disruption",
+      "C": "It should have no effect on risk, since business interruption policies are priced from historical loss data and do not factor in current supply chain concentration",
+      "D": "It should be viewed as increasing risk mainly if the supplier is a publicly traded company"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Reliance on a single supplier in a politically unstable region increases business risk because any disruption there, whether political, logistical, or economic, could halt the company's production with no backup source, which is exactly the kind of factor underwriters must weigh. A is wrong because simplified vendor management does not offset the heightened vulnerability created by lacking supplier diversification. C is wrong because supply chain concentration is a recognized and material factor underwriters actively incorporate into pricing, not one they ignore. D is wrong because the supplier's ownership structure (public or private) is not the relevant risk factor here; the geographic and single-source concentration is.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0032",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Analyze specialization/division of labor",
+    "question": "A mid-sized accounting firm reorganized its tax department so that individual staff members now each focus exclusively on one narrow area, such as estate tax, corporate tax, or international tax compliance, rather than each staff member handling all types of returns. After the change, the firm's average turnaround time per return improved noticeably. What economic concept best explains this improvement?",
+    "options": {
+      "A": "Economies of scale, because the firm increased its total number of tax returns filed across every department within the company this year",
+      "B": "Specialization and division of labor, because focusing on narrower tasks increases individual efficiency and expertise",
+      "C": "Diminishing returns, because narrowing each employee's assigned tasks eventually reduced how much total work any one person could complete",
+      "D": "Comparative advantage between several competing accounting firms that operate within the same regional tax-preparation market"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Dividing work into narrower, specialized tasks allows each employee to build deeper expertise and work more efficiently in their specific area, which is the core idea behind specialization and division of labor, directly explaining the faster turnaround times. A is wrong because economies of scale relates to cost efficiencies from producing at larger volume, not from reorganizing how tasks are assigned. C is wrong because diminishing returns describes shrinking output gains from adding more of one input, which is the opposite of the efficiency gain achieved by specializing. D is wrong because comparative advantage compares production choices between different firms competing with each other, not task division within a single firm.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0033",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Discuss human resources management",
+    "question": "A financial services firm is experiencing high turnover among its junior analysts within their first year of employment. Exit interviews reveal that new hires feel unprepared for client-facing responsibilities and unclear about internal promotion criteria. Which human resources management response would most directly address the root causes identified in the exit interviews?",
+    "options": {
+      "A": "Increase recruiting spend so the firm can hire a noticeably larger volume of junior analysts each year to offset expected turnover",
+      "B": "Reduce the length of the interview process so open analyst positions can be filled more quickly with less screening",
+      "C": "Develop a structured onboarding and mentorship program with clear career advancement criteria",
+      "D": "Offer a one-time signing bonus to all new junior analyst hires"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Since exit interviews point to feeling unprepared and unclear about advancement, a structured onboarding and mentorship program paired with transparent promotion criteria directly targets both stated causes of turnover. A is wrong because hiring more analysts to offset turnover does not address why current analysts are leaving and would likely worsen turnover costs. B is wrong because speeding up hiring with less screening does not fix preparedness or clarity about promotion, and could reduce the quality of candidate-role fit. D is wrong because a signing bonus addresses initial recruitment incentives, not the ongoing preparedness and career-clarity issues driving early departures.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0034",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Recognize and overcome biases/stereotypes",
+    "question": "A senior credit analyst at a regional bank is reviewing two nearly identical small-business loan applications. One applicant runs a landscaping company and the other runs a boutique graphic design studio. Without examining the financial statements closely, the analyst finds herself leaning toward approving the landscaping loan because she assumes manual-labor businesses are more \"stable\" than creative-services businesses. Which action would best help the analyst overcome this bias before making her recommendation?",
+    "options": {
+      "A": "Apply the same quantitative underwriting criteria to both applications and document the numbers driving each decision",
+      "B": "Approve the landscaping loan quickly, trusting that her years of lending experience make a full quantitative review unnecessary this time",
+      "C": "Ask a colleague who already shares her assumption about creative-services businesses to independently confirm her lending decision",
+      "D": "Deny the design studio's loan and cite industry volatility as the sole justification"
+    },
+    "answer": "A",
+    "explanation": "Applying identical, data-driven underwriting criteria to both applications forces the analyst to evaluate cash flow, collateral, and credit history rather than an unexamined stereotype about which industries are \"stable,\" which is the core skill of recognizing and overcoming bias. Approving the landscaping loan on instinct and skipping the quantitative review (B) lets the stereotype substitute for evidence. Asking a colleague who shares the same assumption to confirm the decision (C) would only reinforce the bias through agreement rather than challenge it. Denying the design studio's loan based solely on industry volatility, without analyzing that specific applicant's financials (D), is itself an example of stereotyping rather than a correction of it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0035",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess risks of personal decisions",
+    "question": "An entry-level financial planner has just received his first bonus check and is deciding whether to invest it in a volatile cryptocurrency his college roommate recommended, or split it between his employer's 401(k) match and an emergency fund. He has no emergency savings and carries a moderate amount of credit card debt. What is the most sound personal financial decision for him to make?",
+    "options": {
+      "A": "Invest the entire bonus amount in the cryptocurrency his roommate recommended in hopes of maximizing short-term speculative returns",
+      "B": "Direct the bonus toward building emergency savings and reducing high-interest debt before taking on speculative risk",
+      "C": "Split the bonus evenly between the cryptocurrency and a new car down payment",
+      "D": "Lend the bonus to his roommate in exchange for a share of future crypto gains"
+    },
+    "answer": "B",
+    "explanation": "Assessing personal risk means weighing his current financial vulnerabilities before pursuing speculative gains; because he lacks an emergency fund and carries high-interest debt, prioritizing savings and debt reduction is the lowest-risk, highest-value use of his bonus. Investing the entire amount in an unresearched, volatile cryptocurrency on a roommate's tip (A) ignores his shaky financial foundation and exposes him to unnecessary risk. Splitting funds between crypto and a car payment (C) still commits money to speculation and a depreciating asset while his debt and lack of savings remain unaddressed. Lending money to his roommate for a share of speculative gains (D) adds counterparty risk on top of the original investment risk, compounding rather than reducing his exposure.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0036",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate ethical work habits",
+    "question": "A junior auditor is reviewing a client's expense reports and notices that her team lead has been consistently rounding billable hours upward on the engagement, a practice that inflates the audit fee. The team lead tells her, \"Everyone rounds a little, it's normal.\" The audit is on a tight deadline and the client has not complained. What should the junior auditor do?",
+    "options": {
+      "A": "Continue rounding hours the way the team lead does, since he has more experience and owns the engagement's billing",
+      "B": "Say nothing since the client has not noticed or objected",
+      "C": "Report the discrepancy through the firm's proper channel and record her own hours accurately regardless of the deadline pressure",
+      "D": "Quietly round her own hours downward to compensate without telling anyone"
+    },
+    "answer": "C",
+    "explanation": "Ethical work habits require accurate, honest record-keeping and appropriate escalation of misconduct even under time pressure or peer influence, so reporting the discrepancy through proper channels while keeping her own records accurate is correct. Deferring to the team lead's experience and billing authority (A) does not make inflated hours accurate; adopting the practice makes her a participant in overbilling the client rather than a witness to it. Staying silent because the client hasn't complained ignores that the client's lack of awareness does not make the overbilling acceptable. Quietly adjusting her own hours downward addresses only her personal exposure without correcting the underlying misrepresentation to the client, leaving the ethical problem unresolved.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0037",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Manage commitments in a timely manner",
+    "question": "A wealth management associate has committed to delivering a client's revised retirement projection by Friday morning, but a late-arriving data request from a different client threatens to consume the time she had set aside for it. What is the best way for her to manage this commitment?",
+    "options": {
+      "A": "Ignore the new data request until Friday afternoon without telling either client what is happening",
+      "B": "Deliver a rushed, incomplete retirement projection on Friday and let the client discover on their own that several figures were not fully double-checked",
+      "C": "Work through the weekend alone without letting either client know that the timeline has shifted",
+      "D": "Promptly notify the retirement-projection client of the scheduling conflict and negotiate either a short extension or a same-day partial deliverable"
+    },
+    "answer": "D",
+    "explanation": "Managing commitments in a timely manner means communicating proactively when a conflict arises so expectations can be reset before a deadline is missed, making prompt notification and negotiation the correct response. Ignoring the new request without informing anyone (A) risks damaging that other client relationship and does not resolve the scheduling conflict. Delivering a rushed projection while hiding that figures were not fully checked (B) misleads the client about the quality of the work and erodes trust once discovered. Working through the weekend without telling either client (C) may finish the task but fails to communicate proactively, which is the skill actually being tested.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0038",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Develop tolerance for ambiguity",
+    "question": "A corporate finance analyst has been asked to build a valuation model for a potential acquisition, but leadership has not yet decided on the target's final purchase structure, the financing mix, or the closing timeline. Some inputs are likely to change multiple times before the deal closes. Which approach best demonstrates tolerance for this ambiguity?",
+    "options": {
+      "A": "Refuse to start the model until every input is finalized in writing",
+      "B": "Escalate a complaint to leadership that the project is too disorganized to work on",
+      "C": "Build a flexible model with clearly labeled assumptions that can be updated as decisions firm up, and proceed with the analysis",
+      "D": "Select a single final figure for each open input and present them as settled facts, so leadership sees one clean valuation"
+    },
+    "answer": "C",
+    "explanation": "Tolerating ambiguity means continuing to produce useful work despite incomplete information, and building a flexible, clearly labeled model that can absorb changing inputs lets the analyst make progress while acknowledging what remains uncertain. Refusing to start until everything is finalized halts progress entirely and is an intolerance of ambiguity rather than a management of it. Escalating a complaint about disorganization does not address the task and reflects frustration rather than adaptability. Fixing one figure per open input and presenting the result as settled (D) hides the ambiguity rather than tolerating it: leadership sees a clean valuation and cannot tell which numbers are decided and which are placeholders that will move.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0039",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Explain feedback for growth",
+    "question": "During a performance review, a financial services manager tells a new associate that her client presentations are technically strong but come across as rushed and hard to follow. The associate feels defensive at first. Which statement best captures the purpose of this feedback?",
+    "options": {
+      "A": "Feedback exists mainly to rank employees against their peers for compensation and promotion decisions, rather than to identify specific gaps the individual should work on",
+      "B": "Feedback identifies specific, actionable gaps between current performance and desired performance so the recipient can improve",
+      "C": "Feedback is primarily a formality required by human resources for documentation purposes, with little real bearing on how an employee's actual skills develop over time",
+      "D": "Feedback should be reserved for situations where the recipient's performance is already excellent, since discussing gaps in weaker performance risks discouraging the employee"
+    },
+    "answer": "B",
+    "explanation": "Feedback for growth is meant to pinpoint specific, actionable differences between current and desired performance so the person can take concrete steps to improve, which is exactly what the manager's comment about pacing and clarity does. Feedback is not primarily a ranking or compensation tool; that framing turns a developmental conversation into a competitive one and misses its purpose. Treating feedback as a documentation formality dismisses its practical value in skill-building. Reserving feedback for already-excellent performers gets it backwards, since growth-oriented feedback is most valuable when there are clear gaps to close, as in this scenario, and withholding it there does the employee a disservice.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0040",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use conflict-resolution skills",
+    "question": "Two members of a financial planning team disagree sharply over how to allocate a shared client's portfolio: one wants a conservative bond-heavy approach and the other wants a growth-oriented equity approach. The disagreement is starting to affect team meetings. What is the most effective way to resolve this conflict?",
+    "options": {
+      "A": "Direct the team manager to unilaterally select whichever advisor's allocation approach sounds more confident and assertive in the meeting, without examining the client's stated goals or documented risk tolerance",
+      "B": "Have the two advisors quietly divide the client's portfolio into two equal halves that each manages independently, avoiding a joint conversation about which approach actually fits the client's objectives",
+      "C": "Facilitate a structured discussion where both advisors present their reasoning against the client's actual goals and risk tolerance to reach a shared recommendation",
+      "D": "Escalate the disagreement directly to the client and ask the client to referee the advisors' internal dispute"
+    },
+    "answer": "C",
+    "explanation": "Effective conflict resolution involves bringing disagreeing parties together to examine the underlying facts, in this case the client's actual goals and risk tolerance, so they can reach a reasoned, shared recommendation rather than a personal power struggle. Letting the manager reward whichever advisor sounds most confident rewards presentation style rather than sound reasoning and could produce a recommendation that doesn't fit the client. Quietly splitting the portfolio in half avoids the substantive conversation entirely and ignores what actually serves the client's objectives. Asking the client to referee an internal disagreement is unprofessional and shifts the advisors' responsibility onto the person they are supposed to be serving.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0041",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Explain office politics",
+    "question": "A new hire in a corporate finance department notices that budget requests from one division consistently get approved faster than equally justified requests from another, seemingly because the first division's manager has a close personal relationship with the CFO. Which statement best explains this situation as an example of office politics?",
+    "options": {
+      "A": "Informal relationships and influence among people in an organization can affect decisions independent of the formal approval criteria",
+      "B": "Budget approval speed is determined almost entirely by which division submits its paperwork first each quarter, unrelated to the objective merit of the request",
+      "C": "Personal relationships stop influencing organizational decisions the moment formal approval policies and documented criteria are put in writing",
+      "D": "The CFO's behavior is a violation of financial reporting regulations"
+    },
+    "answer": "A",
+    "explanation": "Office politics refers to the way informal relationships, alliances, and influence among people in an organization can shape outcomes alongside or even instead of the stated formal criteria, which is exactly what's happening when a personal relationship speeds up one division's approvals. Claiming approval speed instead turns on submission order contradicts the scenario, where relationship influence, not paperwork timing, is the stated factor. Saying personal relationships stop mattering once formal policies exist ignores the reality of how informal influence continues to operate alongside written policy. Labeling this a regulatory violation misapplies a compliance framework to what is fundamentally an internal politics and influence issue, not a legal one.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0042",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use consensus-building skills",
+    "question": "A committee of five branch managers must agree on a single new fraud-prevention policy for customer wire transfers. Two managers favor a strict multi-step verification process, two favor a faster single-step process, and one is undecided. The rollout deadline is approaching. What is the best way for the committee chair to build consensus?",
+    "options": {
+      "A": "Facilitate discussion of each side's underlying concerns and work toward a combined solution that both sides can support",
+      "B": "Call a vote at once and adopt whichever verification process gets three votes, closing discussion before the deadline",
+      "C": "Let the undecided manager's manager make the final call without further discussion",
+      "D": "Postpone the decision indefinitely until all five managers spontaneously agree"
+    },
+    "answer": "A",
+    "explanation": "Consensus-building means surfacing the underlying concerns behind each position, such as security versus speed, and working toward a solution the group can genuinely support, which is more durable than a bare majority outcome. Calling the vote before the concerns are aired settles the question three-to-two and leaves two managers implementing a wire-transfer policy they argued against, which is a tally rather than consensus. Deferring to a higher manager's unilateral call bypasses the group process entirely and is not consensus-building. Postponing indefinitely in hopes of spontaneous agreement fails to meet the approaching deadline and abandons the active facilitation that consensus requires.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0043",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Challenge the status quo",
+    "question": "For years, a bank's loan department has required every small-business applicant to submit paper documentation in person, even though most applicants now have digital records readily available. A junior loan officer believes this process discourages qualified applicants and wants to propose a digital submission option. What is the most effective way for her to challenge this status quo?",
+    "options": {
+      "A": "Complain to coworkers during breaks about the paper process, hoping the frustration reaches someone with authority to change it",
+      "B": "Present management with data on applicant drop-off rates and a concrete proposal for a secure digital submission pilot",
+      "C": "Quietly begin accepting digital documents from her own applicants without informing management",
+      "D": "Assume management already knows the process is outdated and say nothing further"
+    },
+    "answer": "B",
+    "explanation": "Effectively challenging the status quo requires building an evidence-based case and offering a concrete, actionable alternative, which is what presenting drop-off data alongside a specific pilot proposal accomplishes. Break-room complaints route the concern to people who cannot act on it and rely on the message finding a decision-maker by chance, carrying neither the drop-off evidence nor a proposal when it arrives. Unilaterally changing procedure for her own applicants without approval creates inconsistency and potential compliance risk rather than driving organizational change. Assuming management already recognizes the problem and staying silent guarantees the outdated process continues unchallenged.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0044",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess long-term impact on others",
+    "question": "A branch manager is deciding whether to aggressively push a high-fee investment product to meet this quarter's sales target, even though the product is a poor fit for many of the branch's retiree clients. Short-term sales would rise, but many clients could lose retirement income to fees and underperformance. What consideration should most heavily inform her decision?",
+    "options": {
+      "A": "Whether the product technically complies with the minimum disclosure requirements her firm's compliance department has established for retail sales",
+      "B": "Whether her personal bonus this quarter will increase enough to offset the extra hours she has already put into meeting the sales target",
+      "C": "The lasting financial harm and erosion of trust the product could cause for retiree clients over the years ahead",
+      "D": "Whether competing branches in the region are already selling the same high-fee product to their own retiree client base"
+    },
+    "answer": "C",
+    "explanation": "Assessing long-term impact on others means weighing how a decision affects people well beyond the immediate transaction, and in this case the lasting financial harm and loss of trust for retiree clients over time is the most important consideration. Focusing on minimum disclosure compliance (A) addresses only a narrow regulatory floor and does not capture the broader harm the product could cause. Focusing on her personal bonus (B) centers the decision on her own short-term gain rather than the clients' long-term welfare, which is the opposite of the skill being tested. Whether competing branches sell the same product (D) is irrelevant to whether it genuinely serves these specific clients' long-term interests.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0045",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Conduct risk assessment of an event",
+    "question": "A regional bank is planning a large in-person financial literacy fair for the community, expecting several thousand attendees, live product demonstrations, and on-site account sign-ups. Before finalizing the event, the planning team wants to conduct a thorough risk assessment. Which approach best fulfills that goal?",
+    "options": {
+      "A": "Direct the risk assessment at forecasting attendance revenue and marketing return on investment, treating turnout projections as the controlling variable for whether the fair proceeds as scheduled",
+      "B": "Assume that because similar community events ran smoothly in past years, the current fair carries no meaningful new exposure worth assessing",
+      "C": "Limit the review to estimating the cost of cancelling the fair, setting aside crowd safety, data security, and vendor liability entirely",
+      "D": "Systematically identify potential risks such as data security during sign-ups, crowd safety, vendor liability, and regulatory compliance, then evaluate their likelihood and potential impact"
+    },
+    "answer": "D",
+    "explanation": "A proper risk assessment of an event requires systematically identifying the full range of relevant risks, including data security, crowd safety, vendor liability, and regulatory compliance, and then evaluating each one's likelihood and potential impact to prioritize mitigation. Gating the fair on turnout and marketing return treats a commercial forecast as the whole risk picture: a well-attended event still carries the data-security, crowd-safety, vendor-liability, and compliance exposure the projection never touches. Assuming smooth past events means no new exposure exists ignores that a larger, more complex fair introduces risks the smaller prior events never tested. Limiting the review to cancellation cost is far too narrow and omits the broader categories of risk the event actually faces.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0046",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Analyze company resources to ascertain policies and procedures",
+    "question": "Devon, a newly hired wealth management associate, wants to accept a $250 holiday gift basket from a client whose portfolio he manages. Before accepting it, he searches the firm's compliance manual, gift-and-entertainment log template, and past audit memos to determine whether the gift exceeds the allowable threshold and requires disclosure. Devon is demonstrating the ability to",
+    "options": {
+      "A": "delegate a compliance decision to his supervisor instead of researching it himself.",
+      "B": "analyze company resources to determine applicable policies and procedures.",
+      "C": "negotiate a lower-value substitute gift with the client directly.",
+      "D": "draft a new compliance policy for the firm's gift-acceptance procedures."
+    },
+    "answer": "B",
+    "explanation": "Devon is analyzing company resources (the compliance manual, log template, and audit memos) to determine what existing policy requires, which is the definition of analyzing company resources to ascertain policies and procedures. He is not delegating the decision to someone else—he is researching it himself. He is not negotiating a substitute gift with the client; he is checking whether the current gift is acceptable. He is also not drafting a new policy; he is applying an existing one, not creating one.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0047",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Demonstrate active listening skills",
+    "question": "A frustrated client calls her financial advisor to complain that her brokerage statement shows an unexpected fee. Instead of immediately explaining the fee schedule, the advisor says, \"It sounds like this fee caught you off guard and you're worried it will happen again next month—is that right?\" before addressing the charge. What is the advisor demonstrating?",
+    "options": {
+      "A": "Legitimate response to an inquiry",
+      "B": "Formal executive summary writing",
+      "C": "Active listening skills",
+      "D": "Effective nonverbal communication"
+    },
+    "answer": "C",
+    "explanation": "The advisor is demonstrating active listening by reflecting back the client's underlying concern and confirming understanding before responding, which is the core of active listening skills. This is not simply providing a legitimate response to an inquiry, since the advisor has not yet answered the client's question about the fee. It has nothing to do with executive summary writing, which is a written-report skill. Nonverbal communication involves body language, tone, and gestures, which do not apply to a phone call where only words are exchanged.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0048",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Interpret others' nonverbal cues",
+    "question": "During an in-person loan interview, an applicant verbally states that his income information is accurate, but he avoids eye contact, crosses his arms, and repeatedly checks the door while answering questions about his employment history. The loan officer should most likely",
+    "options": {
+      "A": "probe further with clarifying questions and verify the employment details independently.",
+      "B": "approve the loan since the applicant verbally answered every question asked during the interview.",
+      "C": "ignore the behavior since body language is not relevant to loan decisions.",
+      "D": "assume the applicant is lying and deny the loan application on the spot."
+    },
+    "answer": "A",
+    "explanation": "Interpreting nonverbal cues means noticing signals that may indicate discomfort or evasiveness and responding appropriately—here, by asking clarifying questions and independently verifying the information rather than jumping to conclusions. Approving because every question drew a verbal answer counts responses rather than reading them, and it is the mismatch between the words and the applicant's manner that the officer is meant to act on. Ignoring the behavior entirely defeats the purpose of interpreting nonverbal cues, which are a legitimate part of assessing credibility. Denying the loan on the spot based on body language alone is an overreaction; nonverbal cues suggest further inquiry, not an automatic negative decision, since they could stem from unrelated anxiety.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0049",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Employ communication styles appropriate to target audience",
+    "question": "A CFO must present the same quarterly variance in operating expenses to two different audiences: the board of directors and the summer finance interns. For the board, she uses concise data tables and strategic implications; for the interns, she uses a walkthrough of basic accounting terms and step-by-step explanations of how the variance was calculated. This is an example of",
+    "options": {
+      "A": "drafting a formal written inquiry letter suited to each intended recipient.",
+      "B": "using active listening to gather audience feedback.",
+      "C": "selecting graphic aids to shorten a presentation.",
+      "D": "employing communication styles appropriate to the target audience."
+    },
+    "answer": "D",
+    "explanation": "The CFO is adjusting her level of detail, vocabulary, and focus based on who she is addressing, which is the definition of employing communication styles appropriate to the target audience. Drafting an inquiry letter, however well suited to its recipient, does not describe what she did: an inquiry requests information, while she is delivering the same findings twice in person. She is not using active listening, since the scenario describes her adjusting her delivery, not gathering feedback from listeners. While she may use some graphic aids, the scenario is about adapting content and delivery style, not shortening the presentation through visuals.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0050",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Facilitate group discussions",
+    "question": "During a departmental budget meeting, two senior analysts begin dominating the conversation while three newer team members remain silent. The team lead redirects by saying, \"Let's pause here—Priya and Marcus, what's your take on the proposed allocation?\" and keeps the discussion moving toward a decision within the scheduled time. The team lead is primarily",
+    "options": {
+      "A": "writing a persuasive message to the dominant analysts.",
+      "B": "facilitating the group discussion to ensure balanced participation.",
+      "C": "editing the meeting minutes for professional formatting.",
+      "D": "handling a telephone call in a businesslike manner."
+    },
+    "answer": "B",
+    "explanation": "The team lead is managing the flow of conversation, drawing out quieter participants, and keeping the group on track toward a decision, which is the essence of facilitating a group discussion. This is not a persuasive message, which is a written or spoken attempt to change someone's opinion, not a moderation technique. It is not editing meeting minutes, since no written document is being revised in this scenario. It also is not handling a telephone call, as the meeting is taking place in person or in a live group setting, not over the phone.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0051",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Edit and revise written work consistent with professional standards",
+    "question": "Before submitting a risk-assessment report to senior management, a junior analyst rereads the document, shortens overly technical sentences, corrects inconsistent use of the term \"default rate\" versus \"delinquency rate,\" and standardizes the citation format for referenced data sources. The analyst is primarily",
+    "options": {
+      "A": "preparing a completely new written report from scratch without any prior draft to work from.",
+      "B": "writing a persuasive business letter addressed to an external stakeholder or client.",
+      "C": "editing and revising written work to meet professional standards.",
+      "D": "extracting and summarizing relevant information gathered from several written source materials."
+    },
+    "answer": "C",
+    "explanation": "The analyst is reviewing an already-drafted report and correcting clarity, consistency, and formatting issues, which is exactly what editing and revising written work to professional standards involves. This is not preparing a report from scratch, since the report already exists and is being refined rather than created from nothing. It is not a persuasive business letter, which follows a distinct correspondence format and persuasive purpose addressed to an outside party. It also is not extracting and summarizing information from source materials, since the analyst is polishing the analyst's own writing, not pulling information out of separate source documents.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0052",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write informational messages",
+    "question": "The accounting department needs to notify all employees that the deadline for submitting Q3 expense reimbursement requests has moved from the 15th to the 10th of the month, with no action required beyond noting the new date. The most appropriate message to send is a",
+    "options": {
+      "A": "short informational memo stating the new deadline and its effective date.",
+      "B": "persuasive email urging employees to submit reports as early as possible.",
+      "C": "formal business letter addressed individually to each employee's home.",
+      "D": "detailed executive summary analyzing reimbursement policy history."
+    },
+    "answer": "A",
+    "explanation": "Because the purpose is simply to inform employees of a factual change with no request for action or persuasion needed, a short informational memo stating the new deadline is the appropriate format. A persuasive email is unnecessary because the announcement doesn't require convincing anyone to change behavior beyond noting a date. A formal business letter mailed to each employee's home is excessive and impractical for an internal policy update. An executive summary analyzing policy history is far more detailed and lengthy than needed to convey a simple deadline change.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0053",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write persuasive messages",
+    "question": "A financial advisor wants to encourage a conservative client to diversify part of her savings into a moderate-risk index fund. The advisor drafts a letter that acknowledges the client's comfort with low-risk accounts, presents historical data showing how diversification has reduced volatility for similar clients, and proposes a small initial allocation to test the strategy. This letter is best classified as",
+    "options": {
+      "A": "an inquiry letter requesting additional financial information.",
+      "B": "an informational message with no call to action.",
+      "C": "a set of oral directions for the client's account manager.",
+      "D": "a persuasive message designed to encourage a change in behavior."
+    },
+    "answer": "D",
+    "explanation": "The letter acknowledges the client's concerns, supports its case with evidence, and proposes a specific action, which is the structure of a persuasive message aimed at encouraging the client to act differently. It is not an inquiry letter, since the advisor is not requesting information from the client. It is not a purely informational message, because it includes a clear call to action—adopting a small diversified allocation. It is also not oral directions, since it is a written letter directed at the client, not spoken instructions to an account manager.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0054",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain how digital communications expose business to risk",
+    "question": "An investment firm's associate emails a client's full account number and Social Security number in the body of an unencrypted message so the client's accountant can \"reference it quickly.\" This practice primarily exposes the firm to which digital communication risk?",
+    "options": {
+      "A": "Reduced employee productivity due to slower typing speed",
+      "B": "Data interception or breach of sensitive client information",
+      "C": "Higher printing and mailing costs for paper correspondence",
+      "D": "Decreased search engine visibility for the firm's website"
+    },
+    "answer": "B",
+    "explanation": "Sending sensitive identifiers like account and Social Security numbers through unencrypted email creates a significant risk that the information could be intercepted, breached, or accessed by unauthorized parties, exposing both the client and the firm to fraud and regulatory penalties. This practice has no connection to typing speed or productivity. It does not increase printing or mailing costs, since no paper correspondence is involved. It also has no relationship to search engine visibility, which concerns a firm's website ranking, not internal client communications.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0055",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Choose and use appropriate channel for workplace communication",
+    "question": "A margin account has dropped below the required maintenance level, and the brokerage must notify the client immediately so additional funds can be deposited before the position is automatically liquidated later that afternoon. Which channel should the brokerage use to notify the client?",
+    "options": {
+      "A": "A first-class letter mailed to the client's address",
+      "B": "A quarterly newsletter mentioning margin requirements generally",
+      "C": "An immediate phone call followed by a text or email confirmation",
+      "D": "A note added to the client's account to be seen at next login"
+    },
+    "answer": "C",
+    "explanation": "Because the situation is time-sensitive and requires immediate action before a same-day deadline, an immediate phone call followed by a written confirmation is the appropriate channel to ensure the client is reached quickly and has documentation of the notice. A mailed letter would take days to arrive, far too slow for a same-afternoon deadline. A quarterly newsletter is a general publication and not a channel for urgent, account-specific notices. A note left on the account assumes the client will log in promptly, which cannot be guaranteed and risks the position being liquidated before the client sees it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0056",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain marketing and its importance",
+    "question": "A regional bank is launching a new high-yield savings product but decides to skip market research, advertising, and customer segmentation, reasoning that \"a good product sells itself.\" Six months later, the product has far lower adoption than projected, even though competitor banks with similar rates report strong growth. What best explains the bank's disappointing results?",
+    "options": {
+      "A": "Marketing activities are essential to informing customers of a product's value and driving adoption, not optional extras.",
+      "B": "The product's interest rate must have been lower than competitors', since price is the biggest factor driving savings decisions",
+      "C": "Customer adoption rates are largely unrelated to whether a business actively markets a new product to its intended audience",
+      "D": "The bank's operations team failed to open enough new physical branch locations across the region during this particular year"
+    },
+    "answer": "A",
+    "explanation": "Marketing—including research, promotion, and identifying target customers—creates awareness and communicates value; skipping it, even for a strong product, typically results in weak adoption because potential customers simply don't know about or understand the offering, which explains the bank's results. The stem states competitors offered similar rates, so B contradicts the facts given and pins the shortfall on a price gap that does not exist. Saying adoption is largely unrelated to marketing contradicts the outcome described, where the bank that skipped marketing underperformed similar competitors. Branch locations are a distribution factor, but the scenario specifically highlights skipped research, advertising, and segmentation, not physical access.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0057",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain buying behavior factors",
+    "question": "Two clients with nearly identical incomes and investment goals are offered the same balanced mutual fund. One client, who grew up watching her parents lose savings in a market downturn, hesitates and requests a more conservative allocation, while the other client readily accepts the recommended fund. Which factor best explains the difference in their responses?",
+    "options": {
+      "A": "Economic factors, since both clients have similar income levels",
+      "B": "Situational factors, since the meetings likely occurred at different times of day",
+      "C": "Cultural factors, since both clients come from the same general market",
+      "D": "Psychological factors, since past experiences shaped one client's risk perception"
+    },
+    "answer": "D",
+    "explanation": "The first client's hesitation stems from a past experience that shaped her attitudes and perceptions about risk, which is a psychological factor influencing buying behavior. Economic factors are ruled out because the scenario states both clients have nearly identical incomes, so income differences don't explain the gap in responses. Situational factors like time of day are not mentioned or relevant to the scenario, which centers on personal history, not circumstance. Cultural factors are also unlikely to explain the difference, since both clients share the same general market context, making a shared cultural influence an unlikely explanation for their differing individual reactions.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0058",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Demonstrate connections between company actions and results",
+    "question": "A financial services firm invests heavily in training its customer service representatives to resolve client account issues on the first call rather than transferring or escalating them. Over the following year, the firm sees a measurable increase in client account retention and referral business. This outcome best illustrates",
+    "options": {
+      "A": "that referral business depends mainly on general economic conditions rather than on any specific service-quality initiative the firm undertakes.",
+      "B": "the connection between a company action (service training) and a business result (retention and referrals).",
+      "C": "that retention rates are driven mainly by the interest rates offered on accounts, independent of how service calls are handled.",
+      "D": "a decline in operating costs caused by reduced marketing spending."
+    },
+    "answer": "B",
+    "explanation": "The firm took a deliberate action—investing in first-call resolution training—and saw a direct, measurable business result in higher retention and referrals, which demonstrates the connection between company actions and results. Attributing referral business mainly to general economic conditions directly contradicts the outcome described, where improved service coincided with more referrals during the same period. The scenario never mentions interest rates, so attributing retention mainly to rates ignores the stated cause of the training program. The scenario also does not mention any reduction in marketing spending or operating costs, making that explanation unsupported by the facts given.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0059",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Evaluate vendor performance",
+    "question": "A regional credit union's procurement team reviews its shredding-and-document-destruction vendor annually. Over the past year, the vendor missed two of twelve scheduled pickups, but its per-unit pricing remains the lowest of any bidder in the market. Which additional factor should the credit union weigh most heavily before renewing the contract?",
+    "options": {
+      "A": "Whether the vendor's missed pickups created a period of unsecured, unshredded confidential records on-site",
+      "B": "Whether the vendor's invoices are itemized in the same font used by the credit union's other vendors",
+      "C": "Whether the vendor's sales representative attended the same business school as the procurement manager",
+      "D": "Whether the vendor offers a loyalty discount for signing a five-year contract instead of a one-year contract"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Vendor performance evaluation must weigh risk exposure created by service failures, not just price; missed pickups of confidential-document destruction directly create compliance and data-security risk, which outweighs low cost. B is irrelevant cosmetic detail with no bearing on performance. C is a personal/social factor with no legitimate role in vendor evaluation and raises an ethics concern rather than a valid criterion. D concerns contract length/pricing incentives but does not address the operational risk the missed pickups already created.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0060",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Resolve supplier quality issues",
+    "question": "A wealth-management firm outsources printing of client statements to a third-party mail house. For the third consecutive month, statements have arrived with data misaligned in the printed tables, forcing staff to manually verify figures before mailing. What is the most effective first step in resolving this recurring supplier quality issue?",
+    "options": {
+      "A": "Terminate the printing contract at once and begin a search for a replacement mail-house vendor before the next billing cycle",
+      "B": "Document the specific defect pattern and hold a root-cause discussion with the supplier before deciding on next steps",
+      "C": "Instruct in-house staff to permanently reformat every incoming statement by hand before it goes out to clients each month",
+      "D": "Reduce the volume of statements sent to that supplier without informing them why"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Effective supplier quality resolution starts with documenting the defect and conducting root-cause analysis collaboratively, which identifies whether the issue is a template, software, or process error before further action is taken. A is premature since the cause is unidentified and quickly ending the contract to search for a new vendor is costly and disruptive before resolution is attempted. C treats the symptom rather than the cause and is not sustainable as a permanent, month-after-month fix. D fails to address the root cause and withholds information the supplier needs to correct the problem, weakening the business relationship.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0061",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Streamline work processes",
+    "question": "An investment brokerage's client-onboarding process currently requires a new account application to pass through six separate employees for approval, each performing a similar identity-verification check. Onboarding now averages nine business days, and clients are opening accounts with competitors that onboard in under two days. What change would most directly streamline this process without compromising compliance?",
+    "options": {
+      "A": "Add a seventh approval step to catch any remaining verification errors",
+      "B": "Consolidate the redundant identity-verification checks into a single automated compliance checkpoint",
+      "C": "Require paper applications by certified mail so each reviewer can verify identity from an original document",
+      "D": "Rotate the six employees through the approval steps weekly to build cross-training"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Streamlining work processes means eliminating redundant, duplicative steps; consolidating repeated identity checks into one automated checkpoint cuts cycle time while preserving the compliance function. A adds further delay and duplication rather than removing it. C keeps all six reviewers and adds mail transit on top, so the duplicate identity checks that cause the nine-day cycle survive in a slower medium. D may build employee skill but does nothing to reduce the number of redundant steps causing the delay.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0062",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Maintain data security",
+    "question": "An accountant at a tax-preparation firm wants to work on client returns from a coffee shop using the shop's free public Wi-Fi network. Which action best maintains data security in this situation?",
+    "options": {
+      "A": "Connect directly to the public Wi-Fi network since the firm's antivirus software will block any threats",
+      "B": "Use the firm's company-issued VPN to encrypt the connection before accessing any client files",
+      "C": "Turn off the laptop's screen lock temporarily so files load faster on the public network",
+      "D": "Ask the coffee shop employee to share the Wi-Fi password with other customers so the network seems legitimate"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. A VPN encrypts data in transit, protecting sensitive client financial information from interception on an unsecured public network, which is the appropriate data-security control in this scenario. A is false and dangerous; antivirus software does not protect data traveling over an unencrypted network from interception. C actively weakens security by removing a basic access control. D has no bearing on encryption or protection of the accountant's own data and does not address the risk at all.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0063",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain accident procedures",
+    "question": "During a client meeting at a bank branch, an employee slips on a wet floor near the entrance and injures her wrist. Per proper accident procedures, what should the branch manager do immediately after ensuring the employee receives medical attention?",
+    "options": {
+      "A": "Wait until the end of the week to see if other employees report similar incidents before recording anything",
+      "B": "Document the incident in writing, including time, location, and conditions, while the details are still fresh",
+      "C": "Ask the injured employee to write and sign a statement saying the floor was dry to avoid liability",
+      "D": "Remove the wet-floor sign so customers do not become alarmed about the branch's safety"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Proper accident procedure requires prompt, accurate documentation of the incident's circumstances immediately after care is provided, which supports safety follow-up, insurance claims, and prevention of recurrence. A delays reporting and risks losing accurate details, violating proper procedure. C is unethical and potentially fraudulent, fabricating facts to limit liability rather than reporting truthfully. D removes a hazard warning that should stay in place until the hazard is corrected, increasing risk to others.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0064",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Manage bid process",
+    "question": "A corporate finance office is soliciting bids from software vendors to replace its expense-reporting system. One vendor's account executive, who golfs regularly with the finance director, submits a bid that arrives two days after the stated deadline. How should the bid process be managed to remain fair and defensible?",
+    "options": {
+      "A": "Accept the late bid because the vendor has a strong personal relationship with the finance director",
+      "B": "Reject the late bid or apply the same late-bid rule that would apply to any other vendor",
+      "C": "Extend the deadline for all vendors by two days without documenting a business reason",
+      "D": "Allow the finance director to score that vendor's bid personally, given his familiarity with the product"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. A properly managed bid process applies deadline rules consistently and impartially to every vendor regardless of personal relationships, preserving fairness and defensibility. A introduces favoritism and undermines the integrity of the process. C retroactively changes rules without justification, which is also unfair unless applied transparently and for a documented reason affecting all bidders equally, not just to rescue one late bid. D creates a conflict of interest since the director's personal relationship with the bidder compromises impartial evaluation.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0065",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Coordinate activities with departments",
+    "question": "A bank's marketing department launches a promotional campaign offering a bonus for opening new checking accounts, but does not notify the branch operations team in advance. On launch day, branch staff are unprepared for the surge in walk-in customers and cannot process accounts efficiently. What does this scenario best illustrate the need for?",
+    "options": {
+      "A": "Hiring additional marketing staff so future campaigns can be designed and launched more quickly than this one was",
+      "B": "Cross-departmental coordination before initiatives that affect multiple teams' workloads",
+      "C": "Discontinuing all future promotional campaigns entirely in order to avoid any further operational disruption to branches",
+      "D": "Reducing the bonus amount offered to new customers so that overall walk-in demand at branches stays more manageable"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. The breakdown occurred because marketing failed to coordinate with operations before launch; proper interdepartmental coordination ensures affected teams can staff and prepare for increased workload. A does not address the coordination failure, since the issue was communication, not how quickly the marketing team can design campaigns. C is an overreaction that eliminates a valuable growth tool rather than fixing the coordination gap. D might reduce demand somewhat but does not solve the underlying process failure of departments not communicating.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0066",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain employee role in expense control",
+    "question": "A junior analyst at an investment firm notices that the office regularly orders premium overnight shipping for documents that could be sent via standard mail without affecting any deadlines. What is the analyst's most appropriate role in controlling this expense?",
+    "options": {
+      "A": "Ignore the issue since expense decisions are solely the responsibility of upper management",
+      "B": "Continue placing the same overnight shipping orders to avoid seeming disruptive to established routine",
+      "C": "Raise the observation with a supervisor and suggest switching to standard shipping when deadlines allow",
+      "D": "Personally instruct the mailroom staff to stop using overnight shipping without informing any manager"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Every employee shares responsibility for controlling operating expenses; the appropriate action is to identify the unnecessary cost and raise it through proper channels for a decision. A wrongly assumes expense control is not an employee-level responsibility. B perpetuates the unnecessary cost despite recognizing the problem. D oversteps the analyst's authority by unilaterally changing a process without informing management, which could create its own operational problems.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0067",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Describe quality culture",
+    "question": "A financial services call center rewards employees purely on the number of calls handled per hour, with no measure tied to accuracy or customer satisfaction. Representatives increasingly rush through calls, leading to a rise in client complaints about incorrect account information. Which change would best build a stronger quality culture in this call center?",
+    "options": {
+      "A": "Increase the call-volume target further to push representatives to work even faster",
+      "B": "Incorporate accuracy and customer-satisfaction metrics alongside call volume in performance evaluations",
+      "C": "Eliminate all performance metrics so representatives feel no pressure at all",
+      "D": "Post a break-room leaderboard ranking representatives by call volume so everyone sees who handles the most calls"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. A quality culture values accuracy and customer outcomes, not just speed; adding quality metrics alongside volume realigns incentives toward correct, satisfactory service. A worsens the root cause by increasing pressure to rush. C removes accountability entirely rather than redirecting it toward quality. D takes the volume-only incentive that caused the complaints and adds public ranking to it, raising the pressure to rush while still measuring nothing about whether the account information given out was correct.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0068",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Discuss the nature of debtor-creditor relationships",
+    "question": "A small manufacturing company falls behind on payments to its equipment lessor after a slow sales quarter. The lessor did not require the company to sign a formal loan agreement, but the company voluntarily entered into the lease knowing it created an obligation to pay. What type of debtor-creditor relationship does this best describe?",
+    "options": {
+      "A": "An implied relationship that arose from the company's use of the equipment before any formal lease paperwork was signed",
+      "B": "A voluntary relationship in which both parties knowingly entered into an agreement establishing the obligation",
+      "C": "An involuntary relationship imposed on the company without its consent or awareness",
+      "D": "A customary relationship based mainly on informal industry practice with no binding legal effect"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Because the company knowingly and willingly signed the lease agreement understanding the resulting payment obligation, this is a voluntary debtor-creditor relationship. A is incorrect because the obligation here traces to a lease the company voluntarily entered, not to conduct preceding any agreement; nothing in the scenario has the equipment used before the lease existed. C is incorrect because the company consented to the lease; nothing was imposed without its knowledge. D is incorrect because the obligation is legally binding under the signed lease, not merely an informal custom with no enforceable effect.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0069",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe methods used to protect intellectual property",
+    "question": "A fintech startup develops a unique proprietary algorithm for detecting fraudulent transactions and wants to prevent competitors from learning how it works, without disclosing the algorithm's details in a public filing. Which method of intellectual property protection best fits this need?",
+    "options": {
+      "A": "Filing a patent application, which requires publicly disclosing exactly how the fraud-detection algorithm works in exchange for protection",
+      "B": "Registering a trademark on the company's product name and logo",
+      "C": "Protecting the algorithm as a trade secret through confidentiality agreements and restricted access",
+      "D": "Filing for a copyright on the written user manual that accompanies the software, rather than on the algorithm's underlying logic"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Trade secret protection is appropriate when a company wants to keep proprietary processes confidential indefinitely without public disclosure, using confidentiality agreements and access restrictions. A is incorrect because a patent requires publicly disclosing exactly how the invention works in exchange for exclusive rights, which defeats the goal of secrecy. B protects brand identifiers like names and logos, not the underlying algorithm. D protects only the expression in the written manual, not the algorithm's functional logic itself.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0070",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain the nature of agency relationships",
+    "question": "A financial advisor is granted authority by a client to make investment decisions and execute trades on the client's behalf within agreed parameters. When the advisor executes a trade within those parameters, who is legally bound by the transaction?",
+    "options": {
+      "A": "Only the financial advisor, since the client never directly executed the trade",
+      "B": "The client (principal), because the advisor (agent) acted within the scope of the authority granted",
+      "C": "The brokerage firm's compliance department exclusively, regardless of the advisor's authority",
+      "D": "Neither party, until the client separately signs a document approving the specific trade after execution"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. In an agency relationship, when an agent acts within the scope of authority granted by the principal, the principal is legally bound by the agent's actions, which is why the client is bound by the trade. A is incorrect because an agent acting within authorized limits binds the principal, not merely themselves. C is incorrect since the compliance department is not a party to the agency relationship formed between the client and advisor. D is incorrect because agency authority means the trade is binding at the time of execution within the granted parameters, not contingent on a later separate approval.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0071",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Discuss the role of administrative law",
+    "question": "A securities brokerage disagrees with a monetary penalty issued against it by a federal financial regulatory agency for a recordkeeping violation. Before the brokerage can take the matter to a federal court, what does administrative law typically require it to do first?",
+    "options": {
+      "A": "Exhaust the agency's internal administrative appeals and hearing process",
+      "B": "Pay a lobbyist to have Congress overturn the specific penalty",
+      "C": "Publicly announce its disagreement with the agency through a press release",
+      "D": "Simply ignore the penalty until the agency drops the matter on its own"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Administrative law generally requires parties to exhaust available administrative remedies, such as internal agency appeals and hearings, before seeking judicial review in federal court. B is not a legitimate legal remedy for challenging a specific agency penalty and does not follow the administrative process. C has no legal effect on the penalty or the administrative appeals process. D is not a valid legal strategy and could result in additional penalties or enforcement action for noncompliance.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0072",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Evaluate information quality/sources",
+    "question": "A junior equity research analyst at an investment bank is drafting a report on a mid-cap manufacturer. She finds three anonymous online forum posts praising the stock as undervalued, alongside the company's most recent audited 10-K filing and financial statements. To meet professional research standards, which source should she prioritize as most reliable for her analysis?",
+    "options": {
+      "A": "The company's audited 10-K filing, because it is prepared under regulatory oversight and subject to independent verification",
+      "B": "The forum posts, because they reflect real-time investor sentiment",
+      "C": "Whichever source most strongly supports her initial investment thesis",
+      "D": "An average of all four sources, since blending anonymous commentary with audited filings smooths out any one source's individual bias"
+    },
+    "answer": "A",
+    "explanation": "The audited 10-K filing is correct because it is prepared under regulatory oversight, subject to independent auditor verification, and legally required to be accurate, making it the most reliable source of the group. The forum posts (B) are unverifiable, anonymous, and reflect opinion rather than vetted fact. Choosing whichever source supports her existing thesis (C) is confirmation bias, not sound source evaluation, and undermines objective analysis. Averaging the four (D) assumes the forum posts' errors are random noise that will cancel; they are unverified opinion, and blending them into an audited filing degrades the filing rather than refining it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0073",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Draw conclusions from analysis",
+    "question": "A financial analyst reviewing a retail chain's quarterly data notices that same-store sales grew 3% while total company revenue grew 9%, and the number of store locations increased by 8% during the same period. What conclusion can the analyst most accurately draw from this data?",
+    "options": {
+      "A": "The company's per-store profitability is likely declining, since revenue increasingly comes from new locations rather than from stores already operating",
+      "B": "Most of the company's revenue growth is attributable to store expansion rather than improved performance at existing locations",
+      "C": "Customer loyalty has weakened across the chain, since same-store sales grew far more slowly than the company's overall revenue during the period",
+      "D": "The company should close its weakest-performing store locations"
+    },
+    "answer": "B",
+    "explanation": "The data supports concluding that revenue growth is driven mainly by opening new stores (8% location growth) rather than by gains at existing locations, since same-store sales grew just 3% while total revenue grew 9%. Concluding that per-store profitability is declining (A) reaches past the data: the analyst has three growth rates and no cost or margin figures, and where revenue originates says nothing about what it costs to earn. Concluding that customer loyalty has weakened (C) is not supported either, since same-store sales still grew, just more slowly than overall revenue; a growth-rate gap is not evidence of eroding loyalty. Recommending store closures (D) is an action, not a conclusion, and the data doesn't identify which specific stores are underperforming.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0074",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Explain legal issues in information management",
+    "question": "A regional bank's analytics team wants to build a marketing model using customers' account balances, transaction histories, and loan repayment records. The compliance officer reminds the team that federal law restricts how financial institutions may share and use customers' nonpublic personal information for such purposes. Which piece of legislation is the compliance officer most likely referencing?",
+    "options": {
+      "A": "Sarbanes-Oxley Act",
+      "B": "Fair Labor Standards Act",
+      "C": "Gramm-Leach-Bliley Act",
+      "D": "Americans with Disabilities Act"
+    },
+    "answer": "C",
+    "explanation": "The Gramm-Leach-Bliley Act specifically requires financial institutions to explain their information-sharing practices to customers and to safeguard sensitive, nonpublic personal financial data, making it the correct answer. The Sarbanes-Oxley Act (A) governs corporate financial reporting accuracy and internal controls, not customer data privacy. The Fair Labor Standards Act (B) addresses minimum wage and overtime rules for employees, unrelated to customer information. The Americans with Disabilities Act (D) prohibits discrimination based on disability and has no bearing on financial data privacy.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0075",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Discuss data mining",
+    "question": "A credit card company wants to identify which customer characteristics are most strongly linked to loan default, without starting from a specific hypothesis. It plans to feed years of anonymized account data into an algorithm and let it surface unexpected patterns and relationships on its own. Which of the following approaches is the company describing?",
+    "options": {
+      "A": "Descriptive statistics reporting",
+      "B": "A/B testing",
+      "C": "Manual ledger auditing",
+      "D": "Data mining"
+    },
+    "answer": "D",
+    "explanation": "Data mining is correct because it involves analyzing large volumes of data to discover previously unknown patterns and relationships without a predefined hypothesis, exactly as described. Descriptive statistics (A) summarizes and condenses already-known data rather than uncovering hidden patterns. A/B testing (B) compares the performance of two predetermined variants and requires a specific hypothesis to test. Manual ledger auditing (C) verifies the accuracy of existing recorded transactions; it does not discover new behavioral patterns across large data sets.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0076",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Interpret data mining findings",
+    "question": "After running a data-mining algorithm on five years of loan applications, a bank's risk team finds a strong statistical association between applicants who list \"self-employed\" as their occupation and higher default rates. Before changing lending policy, what should the risk team do first?",
+    "options": {
+      "A": "Investigate whether the association reflects a true underlying risk factor or is confounded by other variables, such as income volatility",
+      "B": "Deny loan applications from every applicant who lists self-employment as an occupation, applying the finding as a blanket underwriting rule going forward",
+      "C": "Set the finding aside without further review, since data-mining correlations rarely translate into defensible lending policy changes without additional context",
+      "D": "Publish the finding externally to warn other lenders about self-employed borrowers"
+    },
+    "answer": "A",
+    "explanation": "The risk team should first investigate whether the correlation reflects a genuine causal risk factor or is actually driven by a confounding variable like inconsistent income, since correlation alone does not establish causation. Turning the finding into a blanket underwriting rule against every self-employed applicant acts on an unverified association and could constitute unlawful discriminatory lending practice. Setting the finding aside without review ignores the legitimate value data mining can provide once properly interpreted, treating a promising lead as worthless. Publishing the finding externally is premature and inappropriate before the association has been validated and could unfairly stigmatize an entire applicant group.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0077",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Access information in database systems",
+    "question": "A treasury analyst needs a report listing every wire transfer over $10,000 processed last quarter, pulling matching records from both the domestic-transactions table and the international-transactions table. Which database tool should the analyst use to combine and filter records from these two related tables in a single request?",
+    "options": {
+      "A": "A word-processing mail merge",
+      "B": "A multi-table query using a join",
+      "C": "A single-table sort function",
+      "D": "A pivot table of manually retyped records"
+    },
+    "answer": "B",
+    "explanation": "A multi-table query using a join is correct because it allows the analyst to combine and filter matching records across the domestic and international tables in one request based on shared fields. A mail merge (A) is designed to populate form letters or documents, not to retrieve or combine database records. A single-table sort (C) can only reorder records within one table and cannot pull data from two separate tables simultaneously. Retyping the records into a pivot table (D) leaves the database untouched and reintroduces by hand the very transcription errors a query avoids.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0078",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Interpret statistical findings",
+    "question": "A financial planner reviews the 10-year returns of two mutual funds. Fund X has an average annual return of 8% with a standard deviation of 4%. Fund Y has an average annual return of 8% with a standard deviation of 14%. What can the planner accurately conclude about these two funds?",
+    "options": {
+      "A": "Fund Y has offered an identical risk profile to Fund X because their average returns are equal",
+      "B": "Fund X has historically been less volatile than Fund Y despite their similar average returns",
+      "C": "Fund Y is the better long-term investment because a higher standard deviation guarantees higher future returns",
+      "D": "Fund X's lower standard deviation means it will always outperform Fund Y going forward"
+    },
+    "answer": "B",
+    "explanation": "Fund X's lower standard deviation (4% vs. 14%) indicates its historical returns have fluctuated less around the average, meaning it has been less volatile than Fund Y even though both funds share the same average return. Claiming identical risk profiles (A) ignores that standard deviation measures dispersion, which clearly differs between the funds. Standard deviation measures volatility, not a guarantee of future performance, so higher standard deviation does not guarantee higher returns (C). Similarly, lower past volatility does not guarantee future outperformance (D); standard deviation is a historical risk measure, not a predictor of which fund will earn more going forward.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0079",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Translate research findings into recommendations",
+    "question": "Market research commissioned by a personal finance app shows that 68% of surveyed users under age 30 abandon the loan-application process when it requires more than five data-entry screens. Which recommendation would most appropriately translate this finding into action for the product team?",
+    "options": {
+      "A": "Eliminate the loan-application feature entirely for users under 30",
+      "B": "Redesign the loan application to reduce the number of required screens for younger users",
+      "C": "Raise interest rates for users under 30 to discourage them from applying",
+      "D": "Ignore the finding, since older users did not report the same abandonment issue"
+    },
+    "answer": "B",
+    "explanation": "Reducing the number of required screens directly addresses the specific pain point the research identified, making it the most appropriate recommendation. Eliminating the feature entirely (A) is an overcorrection that removes a valuable product rather than fixing the identified friction point. Raising interest rates (C) is unrelated to the usability problem and would be an unethical, discriminatory response to a design issue. Ignoring the finding because it doesn't apply to older users (D) disregards clear, actionable data about a significant segment of the user base.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0080",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Explain the nature and scope of financial-information management",
+    "question": "The controller of a mid-sized manufacturing firm is explaining to new hires that the financial-information management function is not limited to the accounting department pulling monthly reports. Which statement best reflects the true nature and scope of financial-information management within the firm?",
+    "options": {
+      "A": "It encompasses the people, processes, and technology used to collect, process, and distribute financial data across the entire organization, not just accounting",
+      "B": "It falls under the IT department, whose role is maintaining the servers, databases, and access controls holding the firm's financial records",
+      "C": "It applies mainly to publicly traded companies that must meet SEC reporting requirements",
+      "D": "It ends once financial statements are filed at year-end"
+    },
+    "answer": "A",
+    "explanation": "Financial-information management involves the combination of people, processes, and technology used to gather, process, and distribute financial data throughout an organization, supporting decisions well beyond the accounting department alone. Framing it as IT infrastructure (B) mistakes one component for the whole: servers, databases, and access controls store the data, but the function is the people and processes that collect it, interpret it, and route it to decision-makers. Limiting it to publicly traded companies (C) ignores that private and nonprofit organizations manage financial information too, independent of SEC reporting duties. Framing it as ending after year-end statement filing (D) misses that financial data continues to support planning and decisions all year long.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0081",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Explain the role of ethics in financial-information management",
+    "question": "A financial-information manager at a private equity firm discovers that a colleague has been selectively omitting unfavorable line items from internal reports sent to the investment committee, making certain portfolio companies appear more profitable than they actually are. What ethical principle is being violated?",
+    "options": {
+      "A": "Segregation of duties",
+      "B": "The obligation to present complete and accurate financial information rather than a selectively favorable picture",
+      "C": "The requirement to file quarterly reports with the SEC covering each portfolio company's results",
+      "D": "The confidentiality of employee salary data"
+    },
+    "answer": "B",
+    "explanation": "Ethical financial-information management requires presenting complete, honest, and accurate data so decision-makers can rely on it; selectively omitting unfavorable figures to mislead the investment committee directly violates this principle. Segregation of duties (A) is an internal-control concept about dividing responsibilities to prevent fraud, not about the honesty of report content. SEC quarterly reporting (C) governs public issuers' filings; these are internal reports at a private equity firm, so no such filing duty is engaged and the omissions violate an ethical duty rather than a reporting rule. Employee salary confidentiality (D) is unrelated to the misrepresentation of portfolio company performance described here.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0082",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Describe the use of technology in financial-information management",
+    "question": "A multinational corporation's finance department implements a system that automatically consolidates transaction data from its subsidiaries' local accounting systems in different countries into a single, real-time reporting dashboard for headquarters. What benefit is this technology primarily providing?",
+    "options": {
+      "A": "It eliminates the need for the finance department to track each subsidiary's compliance with its own country's local financial reporting regulations going forward",
+      "B": "It guarantees that every subsidiary will report identical profit margins once the same consolidation software is applied across all their local accounting systems",
+      "C": "It allows managers to access timely, unified financial data across the organization instead of waiting on delayed manual compilation",
+      "D": "It fully replaces the need for a financial-information manager"
+    },
+    "answer": "C",
+    "explanation": "The core benefit of the consolidation technology is giving headquarters managers timely, unified access to financial data across all subsidiaries rather than waiting on slow, manual data compilation from each country. The system does not exempt the finance department from tracking each subsidiary's local regulatory compliance (A); consolidation is a reporting convenience, not a regulatory shield. Applying the same software does not force or guarantee identical profit margins across subsidiaries (B), since each subsidiary's actual performance still varies. Technology supports and enhances the financial-information manager's role rather than eliminating the need for that position entirely (D).",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0083",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Demonstrate budgeting applications",
+    "question": "A nonprofit's program director wants budgeting software that will force her to justify every dollar of next year's expenses rather than simply adjusting last year's figures, since program needs have changed significantly. Which budgeting approach should the software support?",
+    "options": {
+      "A": "Incremental budgeting",
+      "B": "Fixed budgeting",
+      "C": "Historical trend budgeting",
+      "D": "Zero-based budgeting"
+    },
+    "answer": "D",
+    "explanation": "Zero-based budgeting requires managers to justify every expense from scratch each period rather than relying on prior figures, which is exactly what the director needs given the significant change in program requirements. Incremental budgeting (A) does the opposite, adjusting the previous year's budget by a set percentage without requiring fresh justification. Fixed budgeting (B) sets a static amount regardless of activity changes and does not involve line-by-line justification. Historical trend budgeting (C) relies on past spending patterns to project future budgets, which would not account for the significant shift in program needs she is facing.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0084",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Demonstrate financial analysis applications",
+    "question": "A small business owner wants financial analysis software that will project how changes in sales volume, unit price, and fixed costs would each separately affect next year's net income, so she can decide which lever to focus on. Which financial analysis application feature is she describing?",
+    "options": {
+      "A": "Sensitivity (what-if) analysis",
+      "B": "Payroll processing and direct-deposit scheduling for employees",
+      "C": "Accounts-receivable aging and customer collections tracking",
+      "D": "Depreciation scheduling for fixed assets over time"
+    },
+    "answer": "A",
+    "explanation": "Sensitivity, or what-if, analysis lets users change individual input variables like sales volume, price, or fixed costs one at a time to see the isolated effect on an outcome such as net income, which is exactly what the owner needs. Payroll processing and direct-deposit scheduling (B) manage employee wage calculations and timing and have nothing to do with projecting income scenarios. Accounts-receivable aging and collections tracking (C) tracks how long customer invoices have been outstanding, not projected changes in income drivers. Depreciation scheduling (D) tracks the declining book value of assets over time and does not model the impact of sales, price, or cost changes.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0085",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Describe techniques used to analyze customer financial information",
+    "question": "An auto loan company wants to estimate the likelihood that a new applicant will default, based on patterns identified from thousands of past borrowers with similar income, debt levels, and payment histories. Which technique is the company using to analyze the applicant's financial information?",
+    "options": {
+      "A": "Credit-scoring models that generate a statistical risk score from historical borrower data",
+      "B": "A manual interview asking the applicant to self-report their trustworthiness",
+      "C": "A random lottery-style selection process",
+      "D": "A flat approval rate applied equally to all applicants regardless of financial history"
+    },
+    "answer": "A",
+    "explanation": "Credit-scoring models use statistical patterns drawn from large sets of historical borrower data, such as income, debt levels, and payment history, to generate an objective risk score for a new applicant, matching the technique described. A self-reported trustworthiness interview (B) is subjective and unreliable compared to data-driven scoring. A random lottery-style selection (C) ignores financial data entirely and involves no analysis at all. Applying a flat approval rate to everyone regardless of history (D) defeats the purpose of analyzing individual financial information to assess risk.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0086",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Discuss non-traditional uses for financial information",
+    "question": "A hospital system's finance department shares patient billing and cost data with its clinical operations team, who use it to identify which medical procedures generate the highest costs relative to patient outcomes, in order to improve treatment protocols. This represents which use of financial information?",
+    "options": {
+      "A": "A traditional use, treating this as routine information the finance team already reports externally each quarter",
+      "B": "An illegal use, since sharing patient billing and cost data outside finance would violate internal data-privacy and access-control policies",
+      "C": "A non-traditional use, applying financial data to support clinical and operational decision-making beyond standard accounting reporting",
+      "D": "A use restricted solely to determining employee bonuses"
+    },
+    "answer": "C",
+    "explanation": "Using financial data to inform clinical operations and treatment-protocol decisions is a non-traditional use, extending financial information beyond its standard role in accounting and external reporting to support broader organizational decision-making. Calling it a traditional use (A) mischaracterizes the standard role of financial data, which is typically limited to routine, already-reported accounting figures rather than clinical decision support. Calling it illegal (B) misreads internal policy as a prohibition: access controls govern who may see the data, and clinical operations reviewing cost and outcome data is an authorized internal use, not a breach. The scenario has nothing to do with employee bonuses (D), so that option misrepresents the described use entirely.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0087",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Determine organizational goals",
+    "question": "A regional credit union's leadership team has published a five-year strategic plan calling for a 15% increase in loan originations while cutting default rates by 3 percentage points. A new loan officer reviews the plan before her first team meeting. What is the most useful reason for her to identify these organizational goals before she begins making decisions on individual loan applications?",
+    "options": {
+      "A": "So she can justify approving every applicant who clears the minimum credit score, without weighing how that affects the stated default-rate target",
+      "B": "So her day-to-day underwriting decisions stay aligned with what the credit union is trying to achieve",
+      "C": "So she can estimate roughly what her personal year-end bonus might be before the fiscal year officially closes and figures are finalized",
+      "D": "So she has a documented reason to decline attending future strategic planning meetings that the leadership team schedules"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Understanding organizational goals allows an employee to make daily decisions—such as which loans to underwrite and how aggressively to pursue growth versus risk control—that support the larger direction of the business rather than working against it. Option A is wrong because it uses the plan as cover for ignoring half of it: the plan pairs loan growth with a 3-point default-rate cut, so approving everyone above the score floor serves one goal by defeating the other. Option C is wrong because personal bonus calculations are a self-interested motive unrelated to understanding organizational direction. Option D is wrong because knowing organizational goals should encourage continued engagement with planning, not provide a reason to avoid it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0088",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Demonstrate problem-solving",
+    "question": "A junior financial analyst discovers that a client's quarterly reconciliation report does not match the bank statement by $4,200. The deadline to submit the reconciliation to the client is in two hours. Which approach best demonstrates effective problem-solving in this situation?",
+    "options": {
+      "A": "Submit the reconciliation on time with a note promising the discrepancy will be investigated after the deadline",
+      "B": "Ask a coworker to sign off on the report so responsibility is shared",
+      "C": "Systematically trace each transaction to isolate the source of the discrepancy before submitting anything",
+      "D": "Adjust the numbers so the report balances and matches the bank statement"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Effective problem-solving requires identifying the root cause of an issue through a logical, systematic process—tracing transactions—before taking further action, even under time pressure. Option A is wrong because it treats the deadline as the problem to solve: the client receives a reconciliation the analyst already knows is off by $4,200, and the disclosure note does not make the figures usable. Option B is wrong because having a coworker sign off does not resolve the discrepancy or address the underlying problem. Option D is wrong because manually forcing the numbers to balance is falsifying financial records, which is unethical and could constitute fraud.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0089",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Use time management",
+    "question": "A financial advisor has back-to-back client meetings scheduled all day, plus an urgent compliance filing due by 5:00 p.m. and a routine internal training video assigned for the week. Which time-management approach best reflects sound prioritization?",
+    "options": {
+      "A": "Complete the training video first since it appeared earliest on the task list, planning to fit the compliance filing in before the day ends",
+      "B": "Cancel all client meetings so the entire day can be spent on the filing",
+      "C": "Block time for the compliance filing around existing client meetings and postpone the training video to later in the week",
+      "D": "Wait until after the client meetings to decide what to prioritize"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Sound time management means ranking tasks by urgency and consequence: the compliance filing has a same-day deadline and regulatory implications, so it should be scheduled around fixed commitments like client meetings, while the training video—which has no hard deadline—can be deferred. Option A is wrong because list order is not priority: it spends the day's first block on the one task with no deadline and leaves the 5:00 p.m. regulatory filing to whatever time the client meetings happen to leave. Option B is wrong because canceling client meetings is an overreaction that damages client relationships when the filing could instead be fit around the schedule. Option D is wrong because failing to plan in advance risks missing the filing deadline.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0090",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Utilize job-search strategies",
+    "question": "A recent finance graduate wants to find an entry-level position at a regional investment firm but has had no luck applying through the firm's general online portal. Which job-search strategy is most likely to improve her chances of getting noticed by the firm's hiring managers?",
+    "options": {
+      "A": "Reaching out to alumni who work at the firm through a professional networking platform to request an informational conversation",
+      "B": "Resubmitting the identical online application every week through the general portal, hoping the repeated volume catches a recruiter's eye",
+      "C": "Waiting for a recruiter to contact her directly without taking further action",
+      "D": "Applying through the firm's general portal alone and skipping outreach to any other similar firms"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Networking with alumni or other contacts already inside a target organization is one of the most effective job-search strategies because personal referrals and informational conversations often surface unadvertised openings and get a resume in front of a hiring manager directly. Option B is wrong because the portal has already screened out that exact application; resending it weekly changes nothing a recruiter would evaluate differently and puts no person inside the firm in touch with her. Option C is wrong because passively waiting for contact is not a proactive job-search strategy. Option D is wrong because limiting outreach to a single firm's general portal and skipping other similar firms narrows opportunities rather than expanding them.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0091",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Interview for jobs",
+    "question": "During a second-round interview for a financial analyst position, the hiring manager asks, 'Tell me about a time you found an error in a report and how you handled it.' Which response best demonstrates effective interviewing technique?",
+    "options": {
+      "A": "A vague statement that the candidate is 'extremely detail-oriented'",
+      "B": "A specific example describing the situation, the action taken to correct the error, and the resulting outcome",
+      "C": "A claim that her reports have not contained an error worth mentioning during her career so far",
+      "D": "A question back to the interviewer asking why that matters"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Effective interview responses to behavioral questions use a specific, structured example that describes the situation, the action taken, and the result, giving the interviewer concrete evidence of the candidate's skills. Option A is wrong because a vague, unsupported claim provides no evidence and fails to answer the actual question asked. Option C is wrong because it declines the question rather than answering it, and an error-free career reads as either implausible or as an unwillingness to discuss mistakes, neither of which shows the interviewer anything. Option D is wrong because deflecting the question with another question fails to demonstrate the requested competency and can appear evasive.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0092",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Prepare résumés",
+    "question": "A candidate applying for a corporate finance role has ten years of experience, including three internships early in her career and several finance-related certifications earned in the last two years. Which approach to organizing her résumé would most effectively highlight her qualifications to a hiring manager?",
+    "options": {
+      "A": "Listing every task from her three early-career internships in exhaustive detail, ahead of her more recent professional certifications",
+      "B": "Omitting all employment dates entirely so the reader has no way at all to tell how much total experience she has actually accumulated",
+      "C": "Listing her full ten years of jobs in a random, non-chronological order to keep the résumé's format more visually interesting to read",
+      "D": "Emphasizing her most recent, most relevant professional experience and certifications, with older internships summarized briefly"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. An effective résumé for an experienced candidate emphasizes recent, relevant accomplishments and credentials near the top, while condensing older, less relevant items like early internships—this helps a hiring manager quickly see her current qualifications. Option A is wrong because it spends the resume's opening space on ten-year-old internships and pushes the recent certifications down, so the hiring manager meets her weakest credentials first. Option B is wrong because omitting all dates is a common résumé red flag that can suggest the candidate is hiding something and typically confuses rather than helps the reader. Option C is wrong because résumés should be organized logically, usually in reverse chronological order, not randomly.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0093",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain advancement patterns",
+    "question": "A teller at a community bank has been in her current position for four years and wants to move into a branch manager role. She researches how previous employees moved from teller to supervisor to branch manager positions at the bank. Why is researching this advancement pattern a valuable step in her career planning?",
+    "options": {
+      "A": "It creates an expectation that she will be promoted on a fixed schedule as each stage's typical time in role elapses",
+      "B": "It allows her to identify the typical experience and skills needed at each step so she can prepare accordingly",
+      "C": "It replaces the need to build relevant skills or experience",
+      "D": "It is a step required by the bank's internal human-resources policy before any employee may formally apply for a promotion"
+    },
+    "answer": "B",
+    "explanation": "Understanding a typical advancement pattern within an organization helps an employee identify what experience, skills, and milestones are usually expected at each career stage, allowing her to proactively prepare for the next step. Reading the pattern as a fixed timetable (A) mistakes what past employees typically did for what she is owed; the typical durations describe a trend, and openings and performance still decide when she moves. Believing it replaces the need to build skills (C) is wrong because the research is meant to guide skill-building, not substitute for it. Treating it as an HR-mandated prerequisite (D) invents a formal requirement that doesn't exist; the research is a personal planning tool, not a policy step.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0094",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Utilize professional-development resources",
+    "question": "A commercial loan officer wants to stay current on changes in lending regulations and best practices without leaving his job. Which of the following would best help him accomplish this goal?",
+    "options": {
+      "A": "Relying mainly on informal conversations with clients about their personal finance experiences to stay current on regulatory changes",
+      "B": "Skipping industry publications and compliance bulletins on the assumption that lending regulations change too infrequently to be worth tracking closely",
+      "C": "Enrolling in continuing-education courses and attending industry association webinars relevant to lending",
+      "D": "Waiting for his supervisor to summarize any regulatory changes verbally"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Continuing-education courses and industry association webinars are established professional-development resources specifically designed to keep practitioners current on regulatory and best-practice changes while they continue working. Option A is wrong because client conversations about personal finances are not a reliable or comprehensive source of regulatory information. Option B is wrong because lending regulations do change with meaningful frequency, and the assumption otherwise increases compliance risk. Option D is wrong because passively waiting for a supervisor's informal summary is not a proactive or reliable professional-development strategy.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0095",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Reinforce service orientation through communication",
+    "question": "A wealth management associate ends every client call by saying, 'Is there anything else I can help you with today, or any other financial goals you'd like to discuss?' How does this practice reinforce a service orientation?",
+    "options": {
+      "A": "It signals to the client that the associate is genuinely available and attentive to their ongoing needs",
+      "B": "It shortens the call so the associate can move to the next client faster",
+      "C": "It fulfills a scripted call-closing requirement that has no real effect on the client relationship",
+      "D": "It discourages the client from raising additional concerns"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Closing a call by explicitly inviting further questions communicates attentiveness and genuine willingness to help, reinforcing a service-oriented mindset in how the associate communicates. Option B is wrong because inviting additional questions typically extends rather than shortens a call. Option C is wrong because the invitation does real work even where a script prompts it: the client is told the door is open, which is the effect the option denies. Option D is wrong because the phrasing is designed to encourage, not discourage, the client from raising further concerns.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0096",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Adapt communication to cultural and social differences among clients",
+    "question": "A financial planner is meeting with a client who recently immigrated and prefers a formal, indirect communication style, taking time to build personal rapport before discussing business matters. Which approach best demonstrates adapting communication to this client's cultural preferences?",
+    "options": {
+      "A": "Insisting on strictly discussing account numbers and returns to save time",
+      "B": "Using the same fast-paced, casual approach used with all other clients",
+      "C": "Spending the first part of the meeting on relationship-building conversation before transitioning to financial topics",
+      "D": "Asking the client to adopt the planner's direct, fast-paced style so future meetings run to a consistent format"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Adapting communication to cultural and social differences means recognizing and respecting a client's preferred pace and style—in this case, allowing time for rapport-building before moving into business discussion. Option A is wrong because skipping directly to numbers ignores the client's preference and could feel abrupt or disrespectful. Option B is wrong because applying the same approach to every client regardless of their background fails to adapt communication at all. Option D is wrong because a consistent format serves the planner's convenience, not the client; adaptation means the professional moves toward the client's preferred pace and register, not the reverse.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0097",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Build and maintain relationships with customers",
+    "question": "A financial services firm notices that many clients only hear from their advisor when it is time to renew an annual contract. Which change would most likely help advisors build and maintain stronger long-term relationships with these clients?",
+    "options": {
+      "A": "Sending a generic mass email to all clients once a year",
+      "B": "Scheduling periodic check-in calls throughout the year to discuss the client's evolving goals, not just at renewal time",
+      "C": "Reaching out to clients when a new product launches so they hear about opportunities that may fit their portfolio",
+      "D": "Limiting contact to whatever the client happens to initiate"
+    },
+    "answer": "B",
+    "explanation": "Building and maintaining strong customer relationships requires ongoing, proactive engagement that shows genuine interest in the client's evolving needs, not just contact tied to a transaction or renewal. Sending a generic annual mass email (A) is too infrequent and impersonal to build a meaningful relationship. Product-launch outreach (C) is still driven by the firm's calendar rather than the client's, so contact happens when there is something to sell instead of when the client's goals may have shifted. Limiting contact to what the client initiates (D) is a passive approach that does not proactively strengthen the relationship.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0098",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle difficult customers",
+    "question": "A visibly upset client calls a bank branch, raising his voice because a wire transfer he expected to be completed the same day was delayed due to a system error. Which response by the customer service representative best demonstrates effective handling of a difficult customer?",
+    "options": {
+      "A": "Matching the client's raised tone and volume to make clear to him that yelling on the call will not be tolerated by staff",
+      "B": "Placing the client on hold indefinitely and waiting for him to calm down entirely on his own before anyone returns to the line",
+      "C": "Remaining calm, acknowledging his frustration, and explaining the specific steps being taken to resolve the delay",
+      "D": "Transferring the call at once to a completely different department without giving the client any explanation at all for the handoff"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Effectively handling a difficult customer involves staying calm, validating the customer's frustration, and providing clear, concrete information about resolution steps, which helps de-escalate the situation and rebuild trust. Option A is wrong because matching an angry, raised tone escalates conflict rather than resolving it. Option B is wrong because leaving a frustrated client on hold indefinitely is dismissive and likely to increase, not reduce, his frustration. Option D is wrong because transferring the call without any explanation leaves the client confused and unheard, worsening the experience.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0099",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Discuss the nature of customer relationship management",
+    "question": "A regional bank implements a system that tracks each client's account history, past service issues, product preferences, and communication notes so that any employee interacting with the client has full context. This initiative is best described as an investment in which aspect of the business?",
+    "options": {
+      "A": "Customer relationship management, aimed at coordinating consistent, informed interactions across the organization",
+      "B": "A one-time marketing campaign that consumes budget this quarter but has no lasting operational purpose once the promotion ends",
+      "C": "A payroll system upgrade intended to streamline internal processing that has nothing to do with client interactions",
+      "D": "A tool built exclusively for the compliance department to support its periodic internal audits of employee conduct and recordkeeping"
+    },
+    "answer": "A",
+    "explanation": "Customer relationship management (CRM) refers to the strategies and systems organizations use to organize and share client information so every employee can provide consistent, informed, and personalized service. Calling it a one-time marketing campaign (B) misses that CRM is an ongoing operational system, not a single promotional push. Calling it a payroll upgrade (C) confuses an internal HR process with a system built around tracking client interactions. Calling it a tool built exclusively for compliance audits (D) is too narrow -- while compliance may draw on some of the same data, the system is designed for organization-wide customer interactions, not solely for audit purposes.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-icdc-2-0100",
+    "cluster": "finance",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Describe the use of technology in customer relationship management",
+    "question": "An insurance company adopts a customer relationship management platform that automatically flags clients whose policies are up for renewal and suggests personalized coverage options based on their claims history. What is the primary benefit of using this technology in managing customer relationships?",
+    "options": {
+      "A": "It eliminates the need for any employee to ever contact the client",
+      "B": "It allows the company to send identical, non-personalized renewal offers to every client at once in order to save staff time each quarter",
+      "C": "It replaces the company's obligation to comply with state and federal insurance regulations governing client communications",
+      "D": "It enables employees to anticipate client needs and personalize outreach based on organized, accessible data"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Technology used in customer relationship management organizes client data so that employees can anticipate needs, personalize communication, and act on timely information such as upcoming renewals. Option A is wrong because the technology supports employee outreach rather than eliminating the need for human contact with clients. Option B is wrong because the value of the technology lies in enabling personalized, individualized offers, not identical mass offers sent to save time. Option C is wrong because CRM technology assists relationship management but does not replace legal or regulatory compliance obligations.",
+    "difficulty": "easy",
+    "verified": true
+  }
+]

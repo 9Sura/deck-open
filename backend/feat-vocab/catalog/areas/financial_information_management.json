@@ -1,0 +1,104 @@
+{
+  "area": "financial_information_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/financial_information_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Revenue",
+      "definition": "Income a business earns from selling its products or services.",
+      "whyItMatters": "Revenue trends are the starting point for judging performance and growth.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Expense",
+      "definition": "A cost a business incurs to operate, such as salaries, rent, or materials.",
+      "whyItMatters": "Analyzing expenses reveals where competitors can control cost and lift profit.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Invoice",
+      "definition": "A document a seller issues to request payment for goods or services provided.",
+      "whyItMatters": "Invoices drive accounts-receivable timing and payment terms.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Accounts payable",
+      "definition": "Money a business owes to suppliers for goods or services already received.",
+      "whyItMatters": "Payables shape the cash position competitors must manage.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Accounts receivable",
+      "definition": "Money owed to a business by customers for goods or services already delivered.",
+      "whyItMatters": "Receivables affect cash flow timing and collection decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Profit margin",
+      "definition": "The percentage of revenue left as profit after expenses are subtracted.",
+      "whyItMatters": "Margins show how efficiently a business turns sales into profit.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Financial ratio",
+      "definition": "A comparison of two financial figures that reveals a relationship or trend.",
+      "whyItMatters": "Ratios let competitors size up financial health quickly.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Working capital",
+      "definition": "Current assets minus current liabilities — a measure of short-term financial health.",
+      "whyItMatters": "Working capital shows whether a business can cover immediate obligations.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Accrual",
+      "definition": "Recording revenue or expense when it is incurred, not when cash changes hands.",
+      "whyItMatters": "Accrual accounting reveals true profitability beyond the cash view.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Trial balance",
+      "definition": "A list of all ledger accounts and balances used to check that debits equal credits.",
+      "whyItMatters": "Trial balances verify the accuracy of financial records in case work.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Financial statement analysis",
+      "definition": "Examining financial statements to evaluate performance, profitability, and position.",
+      "whyItMatters": "It lets competitors diagnose problems and back recommendations with data.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Budget variance",
+      "definition": "The difference between a budgeted amount and the actual amount spent or earned.",
+      "whyItMatters": "Variances flag where a plan and reality diverge, prompting corrective action.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    }
+  ]
+}

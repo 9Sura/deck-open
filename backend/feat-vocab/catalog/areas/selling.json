@@ -1,0 +1,128 @@
+{
+  "area": "selling",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/selling.txt"
+  ],
+  "terms": [
+    {
+      "term": "Selling",
+      "definition": "Helping customers make purchase decisions through planned communication.",
+      "whyItMatters": "Selling vocabulary supports recommendations about staff, service, and revenue.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Selling process",
+      "definition": "The structured steps that move a customer from awareness to purchase.",
+      "whyItMatters": "Knowing the process helps competitors execute each stage well.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Prospecting",
+      "definition": "Identifying and qualifying potential customers who may need an offering.",
+      "whyItMatters": "Effective prospecting builds the foundation for successful sales.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Approach",
+      "definition": "The opening contact and strategy used to engage a potential customer.",
+      "whyItMatters": "A professional approach sets the first impression that drives interest.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Needs assessment",
+      "definition": "Asking questions to understand a customer's problems, goals, and requirements.",
+      "whyItMatters": "Assessing needs ensures recommendations truly solve the customer's problem.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product features and benefits",
+      "definition": "A product's characteristics and the value those characteristics give.",
+      "whyItMatters": "Competitors must separate features from benefits to sell effectively.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Feature-benefit selling",
+      "definition": "Connecting a product feature to the benefit the customer receives.",
+      "whyItMatters": "It turns product facts into customer value.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Sales presentation",
+      "definition": "A structured pitch showing how an offering meets the customer's needs.",
+      "whyItMatters": "A compelling presentation moves a prospect toward purchase.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Objection handling",
+      "definition": "Responding to a customer's concerns in a helpful, persuasive way.",
+      "whyItMatters": "Handling objections improves trust and conversion.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Closing the sale",
+      "definition": "Asking for the order or finalizing the agreement to complete the sale.",
+      "whyItMatters": "Knowing when and how to close prevents lost opportunities.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Suggestive selling",
+      "definition": "Recommending additional products based on the customer's current purchase.",
+      "whyItMatters": "Suggestive selling raises transaction value and meets more needs.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Upselling",
+      "definition": "Offering a higher-value or premium version of a product.",
+      "whyItMatters": "Upselling grows revenue per customer with a better-fit product.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Follow-up",
+      "definition": "Contacting a customer after the sale to confirm satisfaction and build loyalty.",
+      "whyItMatters": "Follow-up creates repeat business and turns customers into advocates.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Building clientele",
+      "definition": "Developing a base of regular customers who return to buy again.",
+      "whyItMatters": "A strong clientele provides stable revenue and drives growth.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Buying motives",
+      "definition": "The emotional and rational reasons a customer makes a purchase.",
+      "whyItMatters": "Understanding motives helps position products around what matters.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    }
+  ]
+}

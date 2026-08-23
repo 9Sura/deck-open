@@ -1,0 +1,622 @@
+{
+  "version": 1,
+  "cluster": "finance",
+  "event": {
+    "code": "FTDM",
+    "name": "Financial Services Team Decision Making",
+    "format": "team"
+  },
+  "instructionalAreas": [
+    "financial_analysis",
+    "customer_relations",
+    "operations",
+    "economics",
+    "financial_information_management"
+  ],
+  "sourceNotes": [
+    "Seeded from FTDM roleplay performance indicators and finance cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Money",
+      "slug": "money",
+      "definition": "Anything widely accepted as payment for goods, services, and debts.",
+      "whyItMatters": "The functions of money underpin every pricing, saving, and exchange decision in finance events.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Inventory",
+      "slug": "inventory",
+      "definition": "The stock of goods or materials a business holds for sale or use.",
+      "whyItMatters": "Inventory management balances meeting demand against storage cost.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Revenue",
+      "slug": "revenue",
+      "definition": "Income a business earns from selling its products or services.",
+      "whyItMatters": "Revenue trends are the starting point for judging performance and growth.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Income",
+      "slug": "income",
+      "definition": "Money received from work, investments, or other sources over a period of time.",
+      "whyItMatters": "Competitors must connect sources of income to budgets, savings, and financial goals.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Purchase order",
+      "slug": "purchase-order",
+      "definition": "A formal document requesting goods or services from a vendor at set terms.",
+      "whyItMatters": "Purchase orders create the paper trail for efficient procurement.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Expense",
+      "slug": "expense",
+      "definition": "A cost a business incurs to operate, such as salaries, rent, or materials.",
+      "whyItMatters": "Analyzing expenses reveals where competitors can control cost and lift profit.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Credit",
+      "slug": "credit",
+      "definition": "The ability to borrow money or obtain goods now and pay for them later.",
+      "whyItMatters": "Understanding the purpose and cost of credit is central to personal-finance and lending scenarios.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Vendor",
+      "slug": "vendor",
+      "definition": "A supplier that provides goods or services to a business.",
+      "whyItMatters": "Vendor choice drives product quality, cost, and supply reliability.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Invoice",
+      "slug": "invoice",
+      "definition": "A document a seller issues to request payment for goods or services provided.",
+      "whyItMatters": "Invoices drive accounts-receivable timing and payment terms.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Saving",
+      "slug": "saving",
+      "definition": "Setting aside income now for future use instead of spending it.",
+      "whyItMatters": "The need to save and invest anchors recommendations about goals, emergencies, and growth.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Safety procedures",
+      "slug": "safety-procedures",
+      "definition": "Documented steps employees follow to prevent workplace accidents and injuries.",
+      "whyItMatters": "Following them protects employees and limits liability.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Accounts payable",
+      "slug": "accounts-payable",
+      "definition": "Money a business owes to suppliers for goods or services already received.",
+      "whyItMatters": "Payables shape the cash position competitors must manage.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Financial goal",
+      "slug": "financial-goal",
+      "definition": "A specific money target a person or business plans to reach within a set time frame.",
+      "whyItMatters": "Goals turn vague advice into measurable, prioritized financial recommendations.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Work prioritization",
+      "slug": "work-prioritization",
+      "definition": "Ranking tasks by importance and urgency to meet deadlines.",
+      "whyItMatters": "Prioritizing ensures critical work and resources come first.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Accounts receivable",
+      "slug": "accounts-receivable",
+      "definition": "Money owed to a business by customers for goods or services already delivered.",
+      "whyItMatters": "Receivables affect cash flow timing and collection decisions.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Net worth",
+      "slug": "net-worth",
+      "definition": "Total assets minus total liabilities.",
+      "whyItMatters": "Net worth gives a one-number snapshot of financial position that competitors interpret before advising.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Quality control",
+      "slug": "quality-control",
+      "definition": "Inspecting products and services to ensure they meet set standards.",
+      "whyItMatters": "It catches defects early, protecting satisfaction and reducing waste.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Profit margin",
+      "slug": "profit-margin",
+      "definition": "The percentage of revenue left as profit after expenses are subtracted.",
+      "whyItMatters": "Margins show how efficiently a business turns sales into profit.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Cost of credit",
+      "slug": "cost-of-credit",
+      "definition": "The total amount, including interest and fees, paid to borrow money.",
+      "whyItMatters": "Comparing the true cost of credit lets competitors judge whether borrowing is worthwhile.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Standard operating procedure",
+      "slug": "standard-operating-procedure",
+      "definition": "A documented, step-by-step method for a recurring task.",
+      "whyItMatters": "SOPs improve consistency, training, quality, and safety.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Financial ratio",
+      "slug": "financial-ratio",
+      "definition": "A comparison of two financial figures that reveals a relationship or trend.",
+      "whyItMatters": "Ratios let competitors size up financial health quickly.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Tax liability",
+      "slug": "tax-liability",
+      "definition": "The total amount of tax a person or business legally owes to the government.",
+      "whyItMatters": "Tax liabilities affect take-home income and the real return on financial decisions.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Customer inquiry",
+      "slug": "customer-inquiry",
+      "definition": "A question or request from a customer seeking information or help.",
+      "whyItMatters": "Prompt, accurate responses signal genuine customer commitment.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Project management",
+      "slug": "project-management",
+      "definition": "Planning, executing, and monitoring work to hit objectives within time and budget.",
+      "whyItMatters": "It lets managers coordinate resources and deliver on schedule.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "slug": "unemployment-rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Working capital",
+      "slug": "working-capital",
+      "definition": "Current assets minus current liabilities — a measure of short-term financial health.",
+      "whyItMatters": "Working capital shows whether a business can cover immediate obligations.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Investment",
+      "slug": "investment",
+      "definition": "Using money to buy assets expected to grow in value or produce income.",
+      "whyItMatters": "Investment vocabulary supports recommendations about growth, risk, and long-term goals.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Complaint handling",
+      "slug": "complaint-handling",
+      "definition": "The process of addressing and resolving customer concerns.",
+      "whyItMatters": "Handled well, a complaint becomes a loyalty opportunity.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Purchasing",
+      "slug": "purchasing",
+      "definition": "Acquiring the goods and services a business needs to operate.",
+      "whyItMatters": "Smart purchasing shapes inventory, quality, and supplier relationships.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Functions of price",
+      "slug": "functions-of-price",
+      "definition": "The role prices play in balancing supply and demand while signaling value and scarcity.",
+      "whyItMatters": "Prices coordinate the market; competitors must price to match demand.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Accrual",
+      "slug": "accrual",
+      "definition": "Recording revenue or expense when it is incurred, not when cash changes hands.",
+      "whyItMatters": "Accrual accounting reveals true profitability beyond the cash view.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Diversification",
+      "slug": "diversification",
+      "definition": "Spreading investments across different assets to reduce overall risk.",
+      "whyItMatters": "Diversification is the standard answer to lowering investment risk in finance events.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Difficult customer",
+      "slug": "difficult-customer",
+      "definition": "A customer who is unhappy, demanding, or hard to work with.",
+      "whyItMatters": "Managing them calmly prevents escalation and shows professionalism.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Data security",
+      "slug": "data-security",
+      "definition": "Measures that protect confidential business and customer information from unauthorized access.",
+      "whyItMatters": "Good data security prevents costly breaches and keeps trust.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Consumer spending",
+      "slug": "consumer-spending",
+      "definition": "The total money households spend on goods and services.",
+      "whyItMatters": "Spending drives most economic activity and business revenue.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Trial balance",
+      "slug": "trial-balance",
+      "definition": "A list of all ledger accounts and balances used to check that debits equal credits.",
+      "whyItMatters": "Trial balances verify the accuracy of financial records in case work.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0027",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Business Law",
+  "performanceIndicators": [
+    {
+      "area": "Business Law",
+      "pi": "Discuss the nature of environmental law",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Describe methods used to protect intellectual property",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Explain the nature of import/export law",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Discuss the role of administrative law",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain management's role in customer relations.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain communication techniques that support and encourage a speaker.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe the role of customer voice in branding.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "You will have up to 30 minutes to read the 21st Century Skills, the Performance Indicators, and the Case Study Situation on the following pages, and to prepare your comprehensive solution to the case. You will then have up to 15 minutes to make your presentation to the judge and to respond to the judge's questions. Both members of the participant team must participate in the presentation and in answering the questions. Participants will be evaluated on how well the performance indicators listed for this event are met. All notes and materials are to be turned in to the judge at the end of the allotted time.",
+  "situation": "You are the licensing manager and the compliance manager at LOOPWORKS SOFTWARE COOPERATIVE, a consumer app developer owned and operated by the people who work there. LoopWorks built a personal-finance app that layers an environmental-impact score onto everyday purchases, and the score has become the feature outside clients most want to license. The general manager (judge) has asked the two of you to review one pending licensing decision and recommend how to proceed.\n\nLoopWorks protects the scoring algorithm as a trade secret rather than a patent, since patenting would require publishing the method the co-op considers its real advantage. Two existing clients already use the score under limited, non-exclusive agreements: a regional grocery chain that prints it on shelf tags, and an overseas appliance manufacturer that cites it on packaging sold abroad. Both agreements promised each client priority partnership status once LoopWorks was ready to expand licensing, without defining what priority would mean in practice.\n\nBoth clients have now asked for exclusive rights, and the two requests cannot both be granted. The grocery chain wants the score kept off any competitor's shelves nationwide. The manufacturer wants exclusive rights abroad, where a foreign environmental-marketing regulator is reviewing whether the score's claims meet that country's administrative rules before it can be printed on any product sold there. Granting either client exclusivity would require breaking the priority promise made to the other.\n\nThe manufacturer relationship carries extra weight: LoopWorks spent a year and a substantial share of its member-approved budget adapting the algorithm's data exports to satisfy that country's import and disclosure rules, a cost the co-op justified against a forecast that overseas licensing revenue would grow steadily once the regulator cleared the score. That regulator's decision is still pending, and nothing in the forecast holds if the manufacturer walks away over an exclusivity dispute before the review concludes. The grocery chain's domestic business carries no comparable regulatory uncertainty.\n\nLoopWorks has built its brand on member ownership and on customers trusting the score more than a competitor's, and the general manager (judge) worries that mishandling either client damages that trust with the consumers who see the score every day. The general manager (judge) wants you to recommend which client, if either, should receive exclusive rights, and how LoopWorks should manage its relationship with whichever client does not receive them.\n\nThe general manager (judge) will greet you and your partner at the start of the meeting and ask to hear your recommendation. The general manager (judge) will listen to your full presentation, then ask questions about the recommendation and about how LoopWorks should carry it out, and will thank you both once the presentation and the questions are finished.",
+  "judgeCharacterization": "You are the general manager of LOOPWORKS SOFTWARE COOPERATIVE. Business background is the same as the situation above. Two existing clients, a regional grocery chain and an overseas appliance manufacturer, have each asked for exclusive rights to the co-op's environmental-impact scoring algorithm, and granting either request means breaking the priority partnership promised to the other. You want the licensing manager and the compliance manager to recommend which client, if either, should receive exclusive rights, and how LoopWorks should manage the relationship with whichever client does not receive them.",
+  "judgeQuestions": [
+    "If we grant one client exclusive rights, what should we do next to keep the relationship with the other client from breaking down?",
+    "If the regulator abroad does not clear the score the way we've forecast, what should we do next about the manufacturer relationship?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "both clients were promised priority partnership status in their existing agreements",
+        "the manufacturer's regulatory review abroad is still pending and the compliance investment was justified against a forecast that depends on it clearing"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "both clients were promised priority partnership status in their existing agreements",
+        "the manufacturer's regulatory review abroad is still pending and the compliance investment was justified against a forecast that depends on it clearing"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 445,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "consumer app developer",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "an obligation to two clients whose interests conflict",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "ask what happens next if the recommendation is followed"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0027",
+      "shelfSimilarity": 0.0723,
+      "shelfNearest": "BLTDM-0008",
+      "exemplarSimilarity": 0.0518,
+      "gateVersion": 5
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-29-PFL",
+  "date": "2026-07-29",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc-plus",
+  "instructionalArea": "Financial Analysis",
+  "performanceIndicators": [
+    "Explain need to save/invest",
+    "Explain legal considerations for finance",
+    "Describe types of business models"
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking",
+    "Problem Solving",
+    "Creativity and Innovation"
+  ],
+  "participantInstructions": "The Personal Financial Literacy event is presented through your reading of the 21st Century Skills, Performance Indicators, and the situation section. You will have 10 minutes to prepare, 10 minutes for presentation, and no time for judge questions. Your performance will be evaluated based on how well you meet the provided performance indicators.",
+  "situation": "You are Emily Chen, a financial analyst at Financial Foresight Inc., a leading personal finance consultancy founded in 1985 with over three decades of experience helping individuals navigate the complexities of personal finance. The company has grown to serve thousands of clients across North America and offers tailored advice on everything from investment strategies to retirement planning. Currently, you are working closely with Sarah Johnson, a client who is at a critical juncture in her financial journey.\n\nSarah Johnson (Client): At 35 years old, Sarah is deeply concerned about securing her children’s future education while also ensuring she can retire comfortably by the age of 65. Her annual salary stands at $90,000, and she currently saves 20% of her income for various mutual funds and stocks. However, with two children aged 10 and 12 respectively facing college tuition costs of $40,000 per year each, Sarah is torn between increasing her savings rate to cover these significant expenses or shifting more assets into riskier investments that could yield higher returns but also come with greater volatility. Additionally, she recently received an inheritance from her late aunt, a windfall that presents both opportunities and risks. Sarah wants to make the most of this unexpected financial boost while ensuring it does not jeopardize her long-term goals.\n\nDr. Robert Lee (Financial Advisor): Dr. Lee, a seasoned financial advisor at Financial Foresight Inc., strongly advises against high-risk investments due to potential capital losses, especially given Sarah’s current stage in life where she needs stability more than ever. He emphasizes the importance of maintaining a conservative approach to ensure that any downturns in the market do not undermine her ability to cover essential expenses such as college tuition and retirement savings. Dr. Lee believes that while higher returns might seem attractive, they often come with significant risks that could jeopardize Sarah’s financial security.\n\nJennifer Park (Investment Manager): Jennifer, an experienced investment manager at Financial Foresight Inc., encourages a more aggressive approach towards investments to maximize potential gains. She argues that given the current economic climate and market trends, there are opportunities for substantial returns if one is willing to take calculated risks. Jennifer suggests allocating a portion of Sarah’s inheritance into high-growth sectors like technology or renewable energy, which have shown promising performance in recent years. However, she acknowledges the need for careful consideration due to Sarah’s specific financial situation and goals.\n\nFinancial Foresight Inc., while known for its comprehensive approach to personal finance management, faces several binding constraints that limit the options available to Sarah. One of these is a legal requirement stipulating that Sarah must maintain at least 10% of her income in liquid savings to cover emergencies or unexpected expenses. Additionally, there is a budget constraint related to college tuition costs, which total $80,000 annually for Sarah’s two children. This significant annual expense places considerable pressure on Sarah’s financial resources and necessitates careful planning to ensure that she can meet these obligations without compromising her long-term goals.\n\nFurthermore, the risk tolerance levels recommended by Dr. Lee represent a critical consideration in this scenario. A conservative approach, as advised by Dr. Lee, aims to protect capital from potential losses, ensuring stability during market fluctuations. However, this strategy may limit Sarah’s ability to achieve higher returns that could be crucial for reaching her retirement goals and covering college tuition expenses.\n\nIn summary, Emily Chen must analyze Sarah’s financial situation thoroughly, considering the legal requirements, budget constraints, and risk management strategies while balancing the differing perspectives of Dr. Robert Lee and Jennifer Park. The goal is to recommend a course of action that maximizes Sarah’s financial security without compromising her long-term goals or exposing her to undue risks.\n\nYour task is to analyze Sarah’s financial situation and recommend the most appropriate course of action for her future financial security while balancing legal considerations, stakeholder interests, and risk management strategies. Michael Thompson will begin by greeting you and asking for your analysis and recommendations.",
+  "judgeCharacterization": "You are Michael Thompson, supervisor at Financial Foresight Inc., evaluating Emily Chen’s presentation on Sarah Johnson's financial situation. Your task is to assess the feasibility of her proposed plan while considering legal requirements, stakeholder interests, and risk management strategies.",
+  "judgeQuestions": [
+    "Justify which option you chose and weigh it against the alternative you rejected.",
+    "Assess how you would measure whether Sarah has met the requirement for liquid savings.",
+    "Dr. Lee argues that a conservative investment approach is necessary to avoid significant losses. Defend your recommendation against that argument."
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [
+        "Sarah Johnson (Client) - Secure children's education and comfortable retirement",
+        "Dr. Robert Lee (Financial Advisor) - Recommends conservative approach to avoid loss of capital",
+        "Jennifer Park (Investment Manager) - Encourages aggressive investment for higher returns"
+      ],
+      "constraints": [
+        "Legal requirement: Maintain at least 10% in liquid savings",
+        "Budget constraint: College tuition per child is $40,000/year",
+        "Risk tolerance: Recommend conservative approach to avoid significant losses"
+      ],
+      "conflicts": [
+        "Sarah's desire for college education vs. need for retirement security",
+        "Dr. Lee's conservative advice vs. Jennifer Park's aggressive strategy"
+      ],
+      "exhibit": "EXHIBIT 1: FINANCIAL OVERVIEW"
+    },
+    "corroborated": {
+      "stakeholders": [
+        "Sarah Johnson (Client) - Secure children's education and comfortable retirement",
+        "Dr. Robert Lee (Financial Advisor) - Recommends conservative approach to avoid loss of capital",
+        "Jennifer Park (Investment Manager) - Encourages aggressive investment for higher returns"
+      ],
+      "constraints": [
+        "Legal requirement: Maintain at least 10% in liquid savings",
+        "Budget constraint: College tuition per child is $40,000/year",
+        "Risk tolerance: Recommend conservative approach to avoid significant losses"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": false,
+      "failedKnobs": [
+        "K3"
+      ],
+      "issues": [
+        "K3: no labelled data exhibit found"
+      ]
+    },
+    "situationWords": 658,
+    "generator": {
+      "model": "qwen2.5:14b-instruct",
+      "passes": 2
+    },
+    "defects": [
+      "prompt-leak:QUALITY BAR",
+      "boilerplate:denies-judge-questions"
+    ]
+  }
+}

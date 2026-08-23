@@ -1,0 +1,503 @@
+{
+  "version": 1,
+  "clusters": {
+    "entrepreneurship": {
+      "cluster": "entrepreneurship",
+      "label": "Entrepreneurship",
+      "examName": "Entrepreneurship Cluster",
+      "eventCount": 3,
+      "termCount": 150,
+      "events": {
+        "ENT": {
+          "code": "ENT",
+          "name": "Entrepreneurship Series",
+          "file": "ENT/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "channel_management",
+            "customer_relations",
+            "economics",
+            "entrepreneurship",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "marketing_information_management",
+            "operations",
+            "product_service_management",
+            "promotion"
+          ]
+        },
+        "ETDM": {
+          "code": "ETDM",
+          "name": "Entrepreneurship Team Decision Making",
+          "file": "ETDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "customer_relations",
+            "economics",
+            "entrepreneurship",
+            "human_resources_management",
+            "marketing",
+            "operations",
+            "product_service_management",
+            "promotion",
+            "risk_management"
+          ]
+        },
+        "PEN": {
+          "code": "PEN",
+          "name": "Principles of Entrepreneurship",
+          "file": "PEN/vocab.json",
+          "termCount": 50,
+          "format": "principles",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "entrepreneurship",
+            "human_resources_management",
+            "information_management",
+            "marketing",
+            "professional_development"
+          ]
+        }
+      }
+    },
+    "finance": {
+      "cluster": "finance",
+      "label": "Finance Cluster",
+      "examName": "Finance Cluster",
+      "eventCount": 5,
+      "termCount": 250,
+      "events": {
+        "ACT": {
+          "code": "ACT",
+          "name": "Accounting Applications Series",
+          "file": "ACT/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "financial_analysis",
+            "financial_information_management",
+            "information_management",
+            "professional_development"
+          ]
+        },
+        "BFS": {
+          "code": "BFS",
+          "name": "Business Finance Series",
+          "file": "BFS/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "economics",
+            "financial_analysis",
+            "financial_information_management",
+            "professional_development"
+          ]
+        },
+        "FTDM": {
+          "code": "FTDM",
+          "name": "Financial Services Team Decision Making",
+          "file": "FTDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "customer_relations",
+            "economics",
+            "financial_analysis",
+            "financial_information_management",
+            "operations"
+          ]
+        },
+        "PFN": {
+          "code": "PFN",
+          "name": "Principles of Finance",
+          "file": "PFN/vocab.json",
+          "termCount": 50,
+          "format": "principles",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "financial_analysis",
+            "information_management",
+            "operations",
+            "professional_development"
+          ]
+        },
+        "PFL": {
+          "code": "PFL",
+          "name": "Personal Financial Literacy",
+          "file": "PFL/vocab.json",
+          "termCount": 50,
+          "format": "principles",
+          "tags": [
+            "economics",
+            "financial_analysis",
+            "financial_information_management",
+            "risk_management"
+          ]
+        }
+      }
+    },
+    "hospitality": {
+      "cluster": "hospitality",
+      "label": "Hospitality & Tourism",
+      "examName": "Hospitality and Tourism Cluster",
+      "eventCount": 6,
+      "termCount": 300,
+      "events": {
+        "HLM": {
+          "code": "HLM",
+          "name": "Hotel and Lodging Management Series",
+          "file": "HLM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "customer_relations",
+            "economics",
+            "financial_analysis",
+            "marketing",
+            "operations",
+            "pricing",
+            "product_service_management",
+            "professional_development",
+            "promotion",
+            "selling"
+          ]
+        },
+        "HTDM": {
+          "code": "HTDM",
+          "name": "Hospitality Services Team Decision Making",
+          "file": "HTDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "customer_relations",
+            "economics",
+            "marketing",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "PHT": {
+          "code": "PHT",
+          "name": "Principles of Hospitality and Tourism",
+          "file": "PHT/vocab.json",
+          "termCount": 50,
+          "format": "principles",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "professional_development"
+          ]
+        },
+        "QSRM": {
+          "code": "QSRM",
+          "name": "Quick Serve Restaurant Management Series",
+          "file": "QSRM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "operations",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "RFSM": {
+          "code": "RFSM",
+          "name": "Restaurant and Food Service Management Series",
+          "file": "RFSM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "operations",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "TTDM": {
+          "code": "TTDM",
+          "name": "Travel and Tourism Team Decision Making",
+          "file": "TTDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "customer_relations",
+            "market_planning",
+            "marketing",
+            "product_service_management",
+            "promotion"
+          ]
+        }
+      }
+    },
+    "marketing": {
+      "cluster": "marketing",
+      "label": "Marketing Cluster",
+      "examName": "Marketing Cluster",
+      "eventCount": 11,
+      "termCount": 550,
+      "events": {
+        "AAM": {
+          "code": "AAM",
+          "name": "Apparel and Accessories Marketing Series",
+          "file": "AAM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "customer_relations",
+            "economics",
+            "market_planning",
+            "marketing",
+            "marketing_information_management",
+            "operations",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "ASM": {
+          "code": "ASM",
+          "name": "Automotive Services Marketing Series",
+          "file": "ASM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "market_planning",
+            "marketing",
+            "promotion",
+            "selling"
+          ]
+        },
+        "BSM": {
+          "code": "BSM",
+          "name": "Business Services Marketing Series",
+          "file": "BSM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "customer_relations",
+            "emotional_intelligence",
+            "market_planning",
+            "marketing",
+            "pricing",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "BTDM": {
+          "code": "BTDM",
+          "name": "Buying and Merchandising Team Decision Making",
+          "file": "BTDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "channel_management",
+            "economics",
+            "market_planning",
+            "product_service_management",
+            "selling"
+          ]
+        },
+        "FMS": {
+          "code": "FMS",
+          "name": "Food Marketing Series",
+          "file": "FMS/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "operations",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "MCS": {
+          "code": "MCS",
+          "name": "Marketing Communications Series",
+          "file": "MCS/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "customer_relations",
+            "emotional_intelligence",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "product_service_management",
+            "promotion"
+          ]
+        },
+        "MTDM": {
+          "code": "MTDM",
+          "name": "Marketing Management Team Decision Making",
+          "file": "MTDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "market_planning",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "PMK": {
+          "code": "PMK",
+          "name": "Principles of Marketing",
+          "file": "PMK/vocab.json",
+          "termCount": 50,
+          "format": "principles",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "operations",
+            "professional_development"
+          ]
+        },
+        "RMS": {
+          "code": "RMS",
+          "name": "Retail Merchandising Series",
+          "file": "RMS/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "customer_relations",
+            "economics",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "marketing_information_management",
+            "operations",
+            "pricing",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "SEM": {
+          "code": "SEM",
+          "name": "Sports and Entertainment Marketing Series",
+          "file": "SEM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "channel_management",
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "information_management",
+            "market_planning",
+            "pricing",
+            "product_service_management",
+            "promotion",
+            "selling"
+          ]
+        },
+        "STDM": {
+          "code": "STDM",
+          "name": "Sports and Entertainment Marketing Team Decision Making",
+          "file": "STDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "channel_management",
+            "customer_relations",
+            "economics",
+            "market_planning",
+            "marketing",
+            "promotion"
+          ]
+        }
+      }
+    },
+    "pbm": {
+      "cluster": "pbm",
+      "label": "Business Admin Core",
+      "examName": "Business Administration Core",
+      "eventCount": 3,
+      "termCount": 150,
+      "events": {
+        "BLTDM": {
+          "code": "BLTDM",
+          "name": "Business Law and Ethics Team Decision Making",
+          "file": "BLTDM/vocab.json",
+          "termCount": 50,
+          "format": "team",
+          "tags": [
+            "business_law",
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "marketing"
+          ]
+        },
+        "HRM": {
+          "code": "HRM",
+          "name": "Human Resources Management Series",
+          "file": "HRM/vocab.json",
+          "termCount": 50,
+          "format": "series",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "human_resources_management",
+            "information_management"
+          ]
+        },
+        "PBM": {
+          "code": "PBM",
+          "name": "Principles of Business Management and Administration",
+          "file": "PBM/vocab.json",
+          "termCount": 50,
+          "format": "principles",
+          "tags": [
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "information_management"
+          ]
+        }
+      }
+    }
+  }
+}

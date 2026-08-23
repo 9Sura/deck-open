@@ -1,0 +1,128 @@
+{
+  "area": "promotion",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/promotion.txt"
+  ],
+  "terms": [
+    {
+      "term": "Promotion",
+      "definition": "Communication that informs, persuades, and reminds customers about offerings.",
+      "whyItMatters": "Promotion choices must fit the audience, message, and budget.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Promotional mix",
+      "definition": "The blend of advertising, publicity, sales promotion, and personal selling.",
+      "whyItMatters": "A mix lets competitors recommend more than one communication path.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Advertising",
+      "definition": "Paid, nonpersonal communication delivered through media to large audiences.",
+      "whyItMatters": "Advertising builds broad brand awareness efficiently and at scale.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Sales promotion",
+      "definition": "Short-term incentives like coupons, contests, and discounts that spur purchases.",
+      "whyItMatters": "Promotions drive quick sales, trial, and inventory clearance.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Personal selling",
+      "definition": "Direct, person-to-person communication to inform, persuade, and build relationships.",
+      "whyItMatters": "It enables customized pitches and problem-solving for high-value sales.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Public relations",
+      "definition": "Activities that build positive relationships with the public and media.",
+      "whyItMatters": "PR manages image, trust, and credibility through third-party voices.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Publicity",
+      "definition": "Unpaid media coverage generated through PR, news, and referrals.",
+      "whyItMatters": "Publicity builds credibility through sources other than paid ads.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Advertising media",
+      "definition": "The channels ads run on — TV, radio, print, digital, outdoor, and social.",
+      "whyItMatters": "Choosing the right media reaches the target audience cost-effectively.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Direct marketing",
+      "definition": "Targeted messages sent straight to individuals by mail, email, or phone.",
+      "whyItMatters": "Direct marketing allows personalized, measurable, one-to-one engagement.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Word-of-mouth marketing",
+      "definition": "Customer recommendations and referrals that spread opinions about a product.",
+      "whyItMatters": "Word-of-mouth builds organic advocacy and trust beyond paid ads.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Advertisement components",
+      "definition": "An ad's key elements — headline, copy, visuals, call to action, and branding.",
+      "whyItMatters": "Each component ensures the ad communicates its message persuasively.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Integrated marketing communication",
+      "definition": "Coordinating all promotion for one consistent message across channels.",
+      "whyItMatters": "Consistency across touchpoints reinforces the message and maximizes impact.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Digital promotion",
+      "definition": "Marketing through online channels such as social media, email, and search.",
+      "whyItMatters": "Digital promotion reaches audiences efficiently with measurable results.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Target audience",
+      "definition": "The specific group a promotional message is designed to reach.",
+      "whyItMatters": "Defining the audience shapes the message, media, and timing.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Advertising regulation",
+      "definition": "Government and industry rules governing ad claims, content, and disclosure.",
+      "whyItMatters": "Compliance protects consumers and shields a business from liability.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "version": 1,
+  "cluster": "entrepreneurship",
+  "event": {
+    "code": "PEN",
+    "name": "Principles of Entrepreneurship",
+    "format": "principles"
+  },
+  "instructionalAreas": [
+    "information_management",
+    "customer_relations",
+    "entrepreneurship",
+    "economics",
+    "communication_skills"
+  ],
+  "sourceNotes": [
+    "Seeded from PEN roleplay performance indicators and entrepreneurship cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Information management",
+      "slug": "information-management",
+      "definition": "The process of collecting, organizing, storing, using, and protecting information so a business can make decisions.",
+      "whyItMatters": "PEN roleplays ask students to explain what information should be collected and how it should be managed.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Information needs",
+      "slug": "information-needs",
+      "definition": "The specific information a business must have to answer a question, solve a problem, or make a decision.",
+      "whyItMatters": "Identifying information needs keeps data collection focused and useful.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Customer feedback",
+      "slug": "customer-feedback",
+      "definition": "Comments, ratings, complaints, suggestions, or other information customers provide about their experience.",
+      "whyItMatters": "The 2026 PEN scenario centers on collecting and using feedback for a mobile mechanic service.",
+      "tags": [
+        "information_management",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Customer rating",
+      "slug": "customer-rating",
+      "definition": "A scored evaluation, often online, that summarizes a customer's opinion of a business.",
+      "whyItMatters": "Ratings influence trust, search visibility, and new-customer decisions for small ventures.",
+      "tags": [
+        "information_management",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Technology impact",
+      "slug": "technology-impact",
+      "definition": "The way digital tools, platforms, systems, or devices change how a business operates and serves customers.",
+      "whyItMatters": "Principles competitors should connect technology to speed, accuracy, customer access, and data quality.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Positive customer relations",
+      "slug": "positive-customer-relations",
+      "definition": "Consistent actions that build customer satisfaction, trust, loyalty, and goodwill.",
+      "whyItMatters": "PEN roleplays reward answers that show how service behavior supports the company's image.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Customer service mindset",
+      "slug": "customer-service-mindset",
+      "definition": "An attitude that prioritizes understanding and helping customers before, during, and after a sale.",
+      "whyItMatters": "This term helps students explain service behavior instead of only listing actions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A business focus on meeting customer needs through helpful communication and reliable support.",
+      "whyItMatters": "PEN students can use this when explaining how employees reinforce image through communication.",
+      "tags": [
+        "customer_relations",
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Company image",
+      "slug": "company-image",
+      "definition": "The overall impression customers and the public have of a business.",
+      "whyItMatters": "Employee performance and communication can strengthen or weaken the image a new business needs.",
+      "tags": [
+        "customer_relations",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Employee performance",
+      "slug": "employee-performance",
+      "definition": "How well employees carry out their duties, meet standards, and represent the business.",
+      "whyItMatters": "In customer-facing ventures, performance directly affects reviews, repeat business, and reputation.",
+      "tags": [
+        "customer_relations",
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Entrepreneurship",
+      "slug": "entrepreneurship",
+      "definition": "The process of recognizing an opportunity, organizing resources, and taking risk to create or grow a business.",
+      "whyItMatters": "This is the foundation term for the event and helps frame most principles-level scenarios.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Risk-taking",
+      "slug": "risk-taking",
+      "definition": "The willingness to make decisions when outcomes are uncertain and losses are possible.",
+      "whyItMatters": "Entrepreneurship questions frequently connect risk-taking with work ethic, confidence, and venture creation.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Work ethic",
+      "slug": "work-ethic",
+      "definition": "A pattern of responsibility, effort, persistence, and reliability in work.",
+      "whyItMatters": "Work ethic is a common trait used to evaluate entrepreneurial readiness.",
+      "tags": [
+        "entrepreneurship",
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Private enterprise",
+      "slug": "private-enterprise",
+      "definition": "An economy where individuals and businesses own resources and make decisions to earn profit.",
+      "whyItMatters": "Principles students should understand why profit, competition, and ownership matter to entrepreneurs.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Profit motive",
+      "slug": "profit-motive",
+      "definition": "The desire to earn profit from business activity.",
+      "whyItMatters": "Profit motive explains why entrepreneurs invest time, money, and effort into ventures.",
+      "tags": [
+        "economics",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The economic relationship between how much of something is available and how much customers want to buy.",
+      "whyItMatters": "This helps students explain pricing, shortages, customer demand, and market opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Persuasive communication",
+      "slug": "persuasive-communication",
+      "definition": "Communication designed to influence someone while using clear reasoning, tone, evidence, and body language.",
+      "whyItMatters": "Principles roleplays require students to explain and persuade in a short meeting with a judge.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Online review response",
+      "slug": "online-review-response",
+      "definition": "A public or private reply to customer feedback that addresses concerns and protects the business's reputation.",
+      "whyItMatters": "The 2026 PEN judge questions ask how the business should respond to negative customer feedback.",
+      "tags": [
+        "information_management",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Information",
+      "slug": "information",
+      "definition": "Facts and figures that have been processed into a meaningful, usable form for decisions.",
+      "whyItMatters": "Competitors must know that raw data becomes useful only once it is organized and interpreted.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Entrepreneur",
+      "slug": "entrepreneur",
+      "definition": "A person who spots an opportunity and creates, owns, and runs a new venture.",
+      "whyItMatters": "Entrepreneurship events center on the owner's role in decisions and strategy.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Active listening",
+      "slug": "active-listening",
+      "definition": "Giving full attention, checking understanding, and responding thoughtfully to a speaker.",
+      "whyItMatters": "Judges expect competitors to handle questions and concerns clearly.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Data",
+      "slug": "data",
+      "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
+      "whyItMatters": "All information management begins with knowing what counts as reliable data.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Opportunity recognition",
+      "slug": "opportunity-recognition",
+      "definition": "Identifying unmet market needs or underserved customer segments.",
+      "whyItMatters": "Judges assess how well competitors spot a genuine market need.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Nonverbal cues",
+      "slug": "nonverbal-cues",
+      "definition": "Signals such as facial expressions, gestures, and posture that carry meaning without words.",
+      "whyItMatters": "Reading cues lets competitors adjust to a customer's or judge's reaction.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Database",
+      "slug": "database",
+      "definition": "An organized, computer-managed collection of related data that can be stored and retrieved systematically.",
+      "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Feasibility study",
+      "slug": "feasibility-study",
+      "definition": "An analysis of whether a business idea is achievable, viable, and sustainable.",
+      "whyItMatters": "It justifies recommendations and addresses resource constraints.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Group discussion",
+      "slug": "group-discussion",
+      "definition": "A structured conversation among several people to share ideas and reach conclusions.",
+      "whyItMatters": "Team events depend on effective group discussion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Spreadsheet",
+      "slug": "spreadsheet",
+      "definition": "A software application that organizes data in rows and columns for calculation and analysis.",
+      "whyItMatters": "Spreadsheets are a core business tool competitors are expected to use comfortably.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Bootstrapping",
+      "slug": "bootstrapping",
+      "definition": "Funding a venture from personal savings and reinvested revenue, not outside capital.",
+      "whyItMatters": "Many scenarios require building a business with limited resources.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Professional email",
+      "slug": "professional-email",
+      "definition": "A formal written message with a clear subject, correct grammar, and appropriate tone.",
+      "whyItMatters": "Written events reward mastery of email conventions.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Business records",
+      "slug": "business-records",
+      "definition": "Documents and files that capture a business's transactions, operations, and decisions.",
+      "whyItMatters": "Accurate records are required for compliance, accountability, and historical reference.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Sole proprietorship",
+      "slug": "sole-proprietorship",
+      "definition": "An unincorporated business owned by one person who keeps all profit and liability.",
+      "whyItMatters": "Business structure shapes taxes, liability, and control for a new venture.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Business letter",
+      "slug": "business-letter",
+      "definition": "A formal document in standard format used for official outside communication.",
+      "whyItMatters": "Judges expect correct formatting, tone, and structure.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Information system",
+      "slug": "information-system",
+      "definition": "The combination of hardware, software, data, and people used to collect, process, store, and share information.",
+      "whyItMatters": "Understanding systems is key when competitors evaluate technology investments.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Partnership",
+      "slug": "partnership",
+      "definition": "An unincorporated business owned by two or more people sharing profit and liability.",
+      "whyItMatters": "Structure decisions matter when multiple founders share ownership and risk.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Communication styles",
+      "slug": "communication-styles",
+      "definition": "Distinct ways of delivering information chosen to fit the audience.",
+      "whyItMatters": "Adapting style builds rapport and persuades more effectively.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Environmental scan",
+      "slug": "environmental-scan",
+      "definition": "A systematic review of external conditions, competitor activity, and market trends.",
+      "whyItMatters": "Scanning the environment lets competitors spot opportunities and threats before deciding.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Corporation",
+      "slug": "corporation",
+      "definition": "A legal entity separate from its owners that limits liability and can sell stock.",
+      "whyItMatters": "Scaling ventures often incorporate to attract investors and protect founders.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    }
+  ]
+}

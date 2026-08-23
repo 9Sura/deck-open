@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "mkt-association-2-0001",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify impact of product life cycles",
+    "question": "Cacao & Co. has sold its Classic Dark Bar in the same package for eight years. Sales grew rapidly for the first three years but have been flat for the last two, and several competitors now offer nearly identical bars at lower prices, forcing Cacao & Co. to run frequent discounts just to maintain shelf space. Which stage of the product life cycle is the Classic Dark Bar most likely experiencing, and what does this mean for the brand?",
+    "options": {
+      "A": "Maturity — the brand should differentiate or refresh the bar to defend its position",
+      "B": "Introduction — the brand should raise prices to recover launch costs",
+      "C": "Growth — the brand should expand distribution as quickly as possible",
+      "D": "Decline — the brand should discontinue the bar immediately"
+    },
+    "answer": "A",
+    "explanation": "Maturity — Cacao & Co.'s Classic Dark Bar shows classic maturity-stage signals: sales have leveled off after an earlier growth period, several competitors now offer close substitutes, and the brand must discount just to hold its shelf space. During maturity, a brand typically needs to differentiate or refresh a mature product—through new packaging, flavors, or messaging—to defend its market position rather than simply riding out flat sales. Introduction is wrong because bars in that stage are newly launched and have not yet built two years of steady demand or competitive imitation; raising prices to recover launch costs would also be premature and out of step with a crowded, competitive market. Growth is wrong because sales are described as flat, not rising, and expanding distribution aggressively is a growth-stage move, not a response to stalled sales. Decline is wrong because nothing in the scenario indicates sales are falling or that consumer interest has disappeared—discontinuing the bar immediately would abandon a product that is still selling steadily, just no longer growing.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0002",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain ethics in product/service management",
+    "question": "Meadow Paws Pet Foods discovers that replacing wheat gluten with a cheaper filler in its \"Premium Recipe\" dog food would cut costs by 15% without technically violating any labeling law, but it would slightly reduce the food's protein content. Which action best reflects ethical product management?",
+    "options": {
+      "A": "Make the substitution quietly and keep the current label, price, and \"Premium\" claim in place so that sales are unaffected",
+      "B": "Disclose the ingredient change on the label and adjust the \"Premium\" claim to reflect the new formula",
+      "C": "Make the substitution and disclose the new formula to major retail buyers while leaving the consumer label alone",
+      "D": "Delay the change until a competitor reformulates its premium recipe first"
+    },
+    "answer": "B",
+    "explanation": "Disclose the ingredient change on the label and adjust the \"Premium\" claim to reflect the new formula. Ethical product management requires that a meaningful change to what is in the bag be communicated honestly to the people who buy it, especially when a cheaper filler lowers the protein content of a food still sold as \"Premium.\" Making the substitution quietly and keeping the current label, price, and \"Premium\" claim in place is the clearest failure: customers keep paying a premium price for a product that no longer matches its description, and technical compliance with labeling law does not make that honest. Disclosing the new formula to major retail buyers while leaving the consumer label alone is better than silence but still withholds the change from the pet owners who actually feed the food, treating disclosure as a trade courtesy rather than an obligation to the customer. Delaying the change until a competitor reformulates first sidesteps the ethical question entirely, since whether a substitution should be disclosed does not depend on what a rival does.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0003",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify idea-generation techniques",
+    "question": "The product-development team at Ridgeline Outdoor Gear wants new tent-design ideas. During the session, the facilitator has the group call out as many ideas as possible, encourages wild suggestions, and prohibits anyone from criticizing or evaluating an idea until the session ends. Which idea-generation technique is the team using?",
+    "options": {
+      "A": "Focus group",
+      "B": "Synectics",
+      "C": "Brainstorming",
+      "D": "Benchmarking"
+    },
+    "answer": "C",
+    "explanation": "Brainstorming — the facilitator's approach of encouraging a high volume of ideas, welcoming unusual suggestions, and forbidding criticism until the session ends matches the defining rules of brainstorming, a technique designed to maximize idea quantity before any evaluation occurs. A focus group is wrong because it is a research method used to gather opinions about an existing topic or product from a small group, not a technique for generating brand-new product ideas. Synectics is wrong because it relies specifically on metaphors and analogies to spark connections between unrelated concepts, which isn't described here. Benchmarking is wrong because it involves comparing a company's products or processes against a competitor's or industry standard, not generating original ideas as a group.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0004",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain product mix",
+    "question": "Willow Creek Home currently sells three lines of bedding, four lines of bath towels, and two lines of kitchen linens. When it decided to add a new line of table linens, it increased its number of product lines. Which product-mix dimension did Willow Creek Home change by adding this new line?",
+    "options": {
+      "A": "Depth",
+      "B": "Consistency",
+      "C": "Length",
+      "D": "Width"
+    },
+    "answer": "D",
+    "explanation": "Width — the number of separate product lines a company carries is called the width of its product mix, and Willow Creek Home increased its width by adding an entirely new line, table linens, alongside its existing bedding, bath, and kitchen linen lines. Depth is wrong because depth refers to the variety of sizes, colors, or styles within a single existing line, not the addition of a brand-new line. Consistency is wrong because it describes how closely related a company's product lines are in use or production, not a count of lines. Length is wrong because it is not a standard product-mix dimension; the recognized dimensions are width, depth, and consistency.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0005",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe product bundling",
+    "question": "Sunrise Bicycle Co. sells a \"Commuter Starter Kit\" that combines a road bike, a helmet, and a repair kit for one all-inclusive price, rather than selling each item separately. Which strategy is Sunrise Bicycle Co. using?",
+    "options": {
+      "A": "Two-part pricing",
+      "B": "Product bundling",
+      "C": "Trading up",
+      "D": "Product positioning"
+    },
+    "answer": "B",
+    "explanation": "Product bundling — Sunrise Bicycle Co. is combining the bike, helmet, and repair kit into a single all-inclusive price rather than selling each item separately, which is the definition of product bundling. Two-part pricing is wrong because that strategy involves charging a base fee plus a separate usage fee, such as an admission price plus a charge per activity, not combining several distinct products into one package. Trading up is wrong because that strategy means adding a higher-priced product or line to a product mix, not packaging existing items together. Product positioning is wrong because positioning refers to how a product is presented in consumers' minds relative to competitors, not how items are packaged and priced together.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0006",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain corporate branding",
+    "question": "Nova Holdings owns a coffee chain, a bakery, and a catering service, each with its own product name, but the company places the same iconic Nova \"N\" logo and consistent color scheme on every location, receipt, and vehicle so customers recognize any Nova-owned business at a glance. This approach is an example of",
+    "options": {
+      "A": "private branding",
+      "B": "product branding",
+      "C": "corporate branding",
+      "D": "generic branding"
+    },
+    "answer": "C",
+    "explanation": "Corporate branding — Nova Holdings is applying one consistent logo, color scheme, and reputation across every business it owns regardless of the individual products or names each business uses, which is the definition of corporate branding. Private branding is wrong because that occurs when a retailer sells products under its own store brand name rather than the manufacturer's name, which is not what is described. Product branding is wrong because that focuses on branding an individual product rather than unifying an entire company's businesses under one identity. Generic branding is wrong because generic products intentionally avoid any brand identity at all, the opposite of what Nova Holdings is doing.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0007",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify customer touch points",
+    "question": "Terra Box, a monthly subscription company for eco-friendly household products, is reviewing all the ways it interacts with customers to strengthen its brand. Which of the following is an example of a customer touchpoint?",
+    "options": {
+      "A": "A quarterly meeting where warehouse staff discuss shipping delays",
+      "B": "An internal memo updating employees on the new logo",
+      "C": "A training session for new customer-service hires",
+      "D": "A personalized thank-you card included in each customer's box"
+    },
+    "answer": "D",
+    "explanation": "A personalized thank-you card included in each customer's box — touchpoints are the direct interactions a business has with its customers that reinforce the brand, and a thank-you card that a customer actually receives and reads is a clear touchpoint. A quarterly meeting about shipping delays is wrong because it is an internal discussion among warehouse staff, not an interaction with customers. An internal memo about the new logo is wrong for the same reason—it reaches employees, not customers. A training session for new customer-service hires is wrong because it prepares employees to interact with customers later but is not itself a point of contact with a customer.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0008",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain warranties and guarantees",
+    "question": "Frost-Line Appliances offers a two-year guarantee promising to repair or replace any refrigerator that fails due to a manufacturing defect, at no cost to the customer. Which of the following best explains why Frost-Line offers this guarantee?",
+    "options": {
+      "A": "To protect the producer and the seller by clearly defining responsibilities for defects",
+      "B": "To satisfy a federal law requiring every major appliance to carry a two-year repair-or-replace guarantee",
+      "C": "To extend the refrigerator's useful life past two years",
+      "D": "To shift the cost of repairing manufacturing defects onto the dealers that stock the refrigerators"
+    },
+    "answer": "A",
+    "explanation": "To protect the producer and the seller by clearly defining responsibilities for defects — Frost-Line's guarantee states exactly what the company will do, and for how long, if a manufacturing defect appears, which reassures buyers while limiting the company to claims within that defined scope. No federal law requires every major appliance to carry a two-year repair-or-replace guarantee; guarantees like this one are voluntary promises a company makes to compete, which is why their terms differ from brand to brand. Extending the refrigerator's useful life past two years is not something a guarantee does: it governs what happens if the unit fails, not how long the unit lasts. Shifting the cost of repairing defects onto the dealers inverts the arrangement, since the guarantee is the producer's own promise to repair or replace at no cost to the customer rather than a cost passed down the channel.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0009",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain role of promotion",
+    "question": "Hollow Oak Brewing just released a new seasonal pumpkin ale and wants current customers to know it exists, understand what makes it different from competitors' pumpkin ales, and remember to buy it again before the season ends. Which marketing function is Hollow Oak Brewing primarily relying on to inform, persuade, and remind its customers?",
+    "options": {
+      "A": "Pricing",
+      "B": "Channel management",
+      "C": "Promotion",
+      "D": "Product/service management"
+    },
+    "answer": "C",
+    "explanation": "Promotion — informing customers about a new product, persuading them of its unique qualities, and reminding them to purchase again before the season ends are all classic responsibilities of the promotion function. Pricing is wrong because it involves determining and adjusting what to charge for the ale, not communicating information about it. Channel management is wrong because it deals with how the beer physically moves from the brewery to the customer, not with informing or persuading customers. Product/service management is wrong because it focuses on developing and maintaining the ale itself, not on communicating about it to customers.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0010",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe ethics in promotion",
+    "question": "Voltage Energy's ad team drafted a commercial claiming its new drink \"cures fatigue instantly,\" even though no scientific study supports this claim, because focus-group testing showed the phrase increased purchase intent. Which action would best reflect ethical promotion practices?",
+    "options": {
+      "A": "Air the commercial as written and point to the focus-group results if a regulator questions the fatigue claim",
+      "B": "Add a small-print disclaimer that results vary while leaving the spoken \"cures fatigue instantly\" claim",
+      "C": "Replace the phrase with \"clinically shown to erase fatigue,\" which tested even stronger",
+      "D": "Revise the ad copy to include only claims the company can substantiate with evidence"
+    },
+    "answer": "D",
+    "explanation": "Revise the ad copy to include only claims the company can substantiate with evidence — ethical promotion requires that advertising claims be truthful and supportable, so the unsupported \"cures fatigue instantly\" line must be removed or rewritten to something Voltage can actually prove, even though it tested well. Airing the commercial and pointing to the focus-group results if a regulator asks confuses consumer appeal with evidence: purchase intent measures what persuades people, not whether the drink does anything for fatigue. Adding a small-print disclaimer that results vary while the spoken claim stays in place leaves the deception working, because the impression viewers take away is still the unsubstantiated one. Replacing the phrase with \"clinically shown to erase fatigue\" makes the problem worse rather than better, since it invokes clinical evidence the company does not have.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0011",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe technology in promotion",
+    "question": "Aster Boutique uses an app feature that automatically sends a discount notification to a shopper's phone whenever the shopper walks within two blocks of one of its store locations. Which promotional technology is Aster Boutique using?",
+    "options": {
+      "A": "Geofencing / location-based mobile marketing",
+      "B": "Search engine optimization",
+      "C": "Customer relationship management software",
+      "D": "Point-of-sale scanning data"
+    },
+    "answer": "A",
+    "explanation": "Geofencing / location-based mobile marketing — Aster Boutique's app automatically triggers a message based on the shopper's physical proximity to a store location, which is the defining feature of geofencing technology. Search engine optimization is wrong because it involves improving a website's ranking in search results, not sending location-triggered notifications. Customer relationship management software is wrong because it is used to organize and track customer data and interactions, not to detect a shopper's real-time location. Point-of-sale scanning data is wrong because it records information about purchases at checkout, not a customer's location before they enter the store.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0012",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe regulation of promotion",
+    "question": "Regulators determine that Lumière Skincare's ads implied its serum could \"erase wrinkles overnight,\" a claim the company could not support. As a result, regulators require Lumière to run new ads for six months explicitly correcting the false impression left by the earlier campaign. This regulatory action is known as",
+    "options": {
+      "A": "a cease-and-desist order",
+      "B": "corrective advertising",
+      "C": "a trademark infringement claim",
+      "D": "an antitrust injunction"
+    },
+    "answer": "B",
+    "explanation": "Corrective advertising — when regulators require a company to run new advertising specifically to fix a false impression left by an earlier misleading campaign, that remedy is called corrective advertising, exactly what Lumière is being required to do. A cease-and-desist order is wrong because that would only stop the original ads from running, not require new ads that correct the false impression. A trademark infringement claim is wrong because it relates to unauthorized use of another company's brand identity, not false advertising claims. An antitrust injunction is wrong because it addresses anticompetitive business practices, not misleading advertising content.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0013",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain advertising media",
+    "question": "To reach commuters throughout downtown, Riverside Dental Group purchases ad space on the exterior of city buses that travel established routes past its office all day. This is an example of __________ media.",
+    "options": {
+      "A": "broadcast",
+      "B": "direct mail",
+      "C": "print",
+      "D": "transit"
+    },
+    "answer": "D",
+    "explanation": "Transit — advertising placed on the exterior of vehicles that travel established routes, such as city buses, is a form of transit media, a category of out-of-home advertising. Broadcast is wrong because that refers to media transmitted over airwaves, such as television and radio, not physical ads on vehicles. Direct mail is wrong because that involves promotional materials sent to a customer's home or business, not ads displayed on buses. Print is wrong because print media refers to publications like newspapers and magazines, not signage on transportation.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0014",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe word-of-mouth channels",
+    "question": "Bloom Yoga Studio identifies its most enthusiastic members and mails them a \"friend pass\" kit containing referral cards, talking points about new class offerings, and a discount code to share with friends who might be interested in joining. Which type of word-of-mouth promotion is Bloom Yoga Studio using?",
+    "options": {
+      "A": "Amplified word-of-mouth",
+      "B": "Organic word-of-mouth",
+      "C": "Personal selling",
+      "D": "Sales promotion"
+    },
+    "answer": "A",
+    "explanation": "Amplified word-of-mouth — Bloom Yoga Studio is proactively equipping its most enthusiastic members with referral cards, talking points, and discount codes specifically so they will spread the word, which is the deliberate, campaign-driven approach that defines amplified word-of-mouth. Organic word-of-mouth is wrong because it occurs naturally when satisfied customers share their experiences without any prompting or materials from the business. Personal selling is wrong because it involves direct, planned communication between a salesperson and a prospect, not customers promoting the studio to their friends. Sales promotion is wrong because it refers to short-term incentives like contests or coupons aimed directly at buyers, not a strategy built around customer referrals.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0015",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain direct marketing channels",
+    "question": "Sterling Home Renovations mails a personalized catalog directly to the homes of past customers, featuring products related to their previous purchases, with a coupon code that tracks responses. Which promotional channel is Sterling using?",
+    "options": {
+      "A": "Public relations",
+      "B": "Direct marketing",
+      "C": "Institutional advertising",
+      "D": "Sales promotion"
+    },
+    "answer": "B",
+    "explanation": "Direct marketing — Sterling Home Renovations is sending a personalized catalog straight to individual customers' homes and using a trackable coupon code to measure responses, which are hallmarks of direct marketing. Public relations is wrong because it involves managing the company's public image and relationships with audiences, not sending targeted sales materials to individual customers. Institutional advertising is wrong because that type of advertising promotes a company's image or goodwill rather than delivering a personalized, trackable offer. Sales promotion is wrong because it typically refers to short-term incentives distributed broadly, not a personalized mailing sent directly to a specific customer's address.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0016",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Identify sales-promotion communication channels",
+    "question": "Kettle & Vine Popcorn inserts a \"buy two, get one free\" coupon into the Sunday newspaper to encourage shoppers to try a new flavor. Which sales-promotion communication channel is the company using?",
+    "options": {
+      "A": "Publicity",
+      "B": "Personal selling",
+      "C": "Couponing",
+      "D": "Product placement"
+    },
+    "answer": "C",
+    "explanation": "Couponing — offering a \"buy two, get one free\" coupon through a newspaper insert to encourage trial of a new flavor is a classic example of couponing, a sales-promotion communication channel. Publicity is wrong because it refers to free, nonpersonal media coverage that a company does not pay for or control, not a coupon the company creates and distributes itself. Personal selling is wrong because it involves direct, one-on-one communication with a customer, not a printed discount offer. Product placement is wrong because that involves featuring a product within media such as television or film, not distributing a coupon.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0017",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain selling function",
+    "question": "At Restwell Mattress Gallery, a salesperson spends fifteen minutes asking a customer about their sleep position, any back pain, and budget before recommending three specific mattress models that fit those needs. This activity best illustrates which marketing function?",
+    "options": {
+      "A": "Selling",
+      "B": "Pricing",
+      "C": "Marketing-information management",
+      "D": "Product/service management"
+    },
+    "answer": "A",
+    "explanation": "Selling — the salesperson is gathering information about the customer's needs (sleep position, back pain, budget) and matching those needs to specific mattress models, which is the essence of the selling function: identifying customer needs and satisfying them with the right product. Pricing is wrong because the scenario centers on matching needs to products, not on setting or adjusting the mattress's price. Marketing-information management is wrong because that function focuses on gathering and analyzing data to guide business decisions generally, not on a one-on-one interaction to make a sale. Product/service management is wrong because it involves developing and maintaining the mattress line itself, not the interaction between a salesperson and a customer.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0018",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain customer service in selling",
+    "question": "In addition to selling refrigerators, Northgate Appliance offers free delivery, professional installation, and a courtesy phone call 60 days after purchase to make sure the unit is working properly. These add-on activities are examples of",
+    "options": {
+      "A": "terms-of-sale policies",
+      "B": "customer service",
+      "C": "product bundling",
+      "D": "sales promotion"
+    },
+    "answer": "B",
+    "explanation": "Customer service — free delivery, installation, and a follow-up courtesy call are all activities performed to support the customer after the sale, which is the definition of customer service. Terms-of-sale policies is wrong because those relate to discounts, credit, and payment terms, not delivery, installation, or follow-up calls. Product bundling is wrong because bundling means combining multiple products into one package and price, not providing services around a single product. Sales promotion is wrong because that refers to short-term incentives designed to stimulate a purchase, not ongoing service provided after the sale is made.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0019",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain company selling policies",
+    "question": "Brightline Electronics requires every salesperson to greet a customer within 30 seconds of entering the store and prohibits discussing competitors' products by name on the sales floor. These rules are examples of the company's",
+    "options": {
+      "A": "terms-of-sale policies",
+      "B": "service policies",
+      "C": "selling-activity policies",
+      "D": "installation policies"
+    },
+    "answer": "C",
+    "explanation": "Selling-activity policies — rules that tell salespeople how to interact with customers on the floor, such as greeting customers quickly and avoiding certain topics, are selling-activity policies, which guide how salespeople should approach and deal with customers. Terms-of-sale policies is wrong because those govern pricing, discounts, and credit arrangements, not floor behavior. Service policies is wrong because those address the support a company provides after a sale, not how salespeople greet or speak with customers during the sale. Installation policies is wrong because those are a narrower type of service policy dealing specifically with setting up a product, which isn't mentioned here.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0020",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain building clientele",
+    "question": "Because stylist Renata keeps detailed notes on each client's preferences and follows up with personalized birthday offers, most of her chair time is now filled by repeat clients and their referrals, and the salon has cut its advertising budget in half. Which benefit of building a clientele does this best illustrate?",
+    "options": {
+      "A": "Increased personal knowledge for the stylist",
+      "B": "Greater job satisfaction for the stylist",
+      "C": "Improved product features",
+      "D": "Reduced selling costs for the business"
+    },
+    "answer": "D",
+    "explanation": "Reduced selling costs for the business — because repeat clients and their referrals now fill most of Renata's schedule, the salon spends far less to attract new business, cutting its advertising budget in half, which shows how building a loyal clientele lowers a business's selling costs. Increased personal knowledge for the stylist is wrong because that is a benefit to the individual stylist, not a demonstrated business-level cost benefit described in the scenario. Greater job satisfaction for the stylist is wrong for the same reason—it is a personal benefit, not the business outcome highlighted here. Improved product features is wrong because nothing in the scenario involves changing the haircuts or services themselves; the benefit described is financial, related to selling costs.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0021",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain legal/ethical selling considerations",
+    "question": "A salesperson at Harbor Auto Sales knows that a used sedan on the lot was previously flooded, even though the damage isn't visible and the car passed a basic inspection. A customer who has no way of knowing this history is ready to buy the car. What should the salesperson do?",
+    "options": {
+      "A": "Disclose the flood history to the customer before completing the sale",
+      "B": "Say nothing, since the car passed inspection and the damage isn't visible",
+      "C": "Mention it only if the customer specifically asks about flooding",
+      "D": "Offer a small discount instead of disclosing the flood history"
+    },
+    "answer": "A",
+    "explanation": "Disclose the flood history to the customer before completing the sale — ethical and legal selling practices require salespeople to disclose known, material facts about a product's history that a reasonable buyer would want to know before purchasing, even if it isn't visible or hasn't affected a basic inspection. Saying nothing because the car passed inspection is wrong because passing a basic inspection does not erase the salesperson's knowledge of the car's flood history or the customer's right to that information. Waiting until the customer specifically asks is wrong because withholding known, material information unless directly questioned is still a form of deception by omission. Offering a small discount instead of disclosing is wrong because a discount does not substitute for honesty about a fact that could affect the customer's decision to buy the car at all.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0022",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Analyze product features/benefits",
+    "question": "When selling a cordless drill, a hardware-store salesperson tells a contractor, \"This brushless motor means you'll spend less time recharging batteries and more time finishing jobs on schedule.\" By connecting the drill's motor to the contractor's need to stay on schedule, the salesperson is emphasizing the product's",
+    "options": {
+      "A": "feature only, without benefit",
+      "B": "benefit to the customer",
+      "C": "price advantage",
+      "D": "warranty terms"
+    },
+    "answer": "B",
+    "explanation": "Benefit to the customer — by connecting the drill's brushless motor (a feature) to the contractor's desire to finish jobs on schedule with less downtime, the salesperson is translating a feature into a benefit the customer personally values. Feature only, without benefit is wrong because the salesperson goes beyond stating the motor type and explicitly ties it to an outcome the contractor cares about. Price advantage is wrong because no pricing information is mentioned in the statement at all. Warranty terms is wrong because the statement addresses battery life and recharge time, not any promise to repair or replace the drill.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0023",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Discuss motivational theories affecting buying behavior",
+    "question": "A father purchases a top-of-the-line home security system, explaining that ever since a break-in occurred two houses down, he \"just needs to know my family is protected at night.\" According to Maslow's hierarchy of needs, which level of need is primarily motivating this purchase?",
+    "options": {
+      "A": "Physiological needs",
+      "B": "Self-actualization needs",
+      "C": "Safety needs",
+      "D": "Esteem needs"
+    },
+    "answer": "C",
+    "explanation": "Safety needs — the father's purchase is driven by a desire to protect his family and feel secure after a nearby break-in, which reflects Maslow's safety needs, the level of the hierarchy concerned with security and protection from harm. Physiological needs is wrong because those refer to basic survival needs like food, water, and sleep, not protection from crime. Self-actualization needs is wrong because that level involves pursuing personal growth and reaching one's full potential, which is unrelated to installing a security system out of fear. Esteem needs is wrong because those involve the desire for respect, recognition, or status, not the desire to keep one's family physically safe.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0024",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain pricing function",
+    "question": "After reviewing rising ingredient costs and comparing competitors' rates, Harvest Table Meal Kits raises the price of its premium plan while adding a free recipe card each week to maintain perceived value. This decision-making process best illustrates the marketing function of",
+    "options": {
+      "A": "product/service management",
+      "B": "channel management",
+      "C": "promotion",
+      "D": "pricing"
+    },
+    "answer": "D",
+    "explanation": "Pricing — reviewing cost changes, comparing competitors' rates, and adjusting the price while managing perceived value are all core responsibilities of the pricing function, which focuses on determining and adjusting prices to maximize return and meet customers' perceptions of value. Product/service management is wrong because it centers on developing and maintaining the meal kits themselves, not on setting their price. Channel management is wrong because it deals with how meal kits are distributed to customers, not what customers are charged. Promotion is wrong because it focuses on communicating with customers about the product, not on the cost decisions described in the scenario.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0025",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Describe ethics in pricing",
+    "question": "Managers from three unaffiliated gas stations in the same town use a private group chat to agree that all three will raise their prices by the same amount on the same day, so customers have no lower-priced option nearby. This coordinated pricing decision is an example of",
+    "options": {
+      "A": "everyday low pricing",
+      "B": "price discrimination",
+      "C": "price fixing",
+      "D": "predatory pricing"
+    },
+    "answer": "C",
+    "explanation": "Price fixing — when competing businesses coordinate to raise prices together instead of competing independently, they eliminate customers' ability to find a lower price nearby, which is the definition of illegal price fixing. Everyday low pricing is wrong because that is a legitimate strategy in which a single business commits to consistently low prices, not an agreement among competitors. Price discrimination is wrong because that involves one business charging different customers different prices for the same product, not multiple businesses agreeing on the same price. Predatory pricing is wrong because that involves a business setting prices unrealistically low to drive out competition, the opposite of what is happening here.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0026",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain legal considerations for pricing",
+    "question": "A sneaker manufacturer sells the identical shoe model to two retailers of similar size and purchase volume but charges one retailer a noticeably lower wholesale price with no cost-based justification, putting the other retailer at a competitive disadvantage. This pricing practice raises legal concerns related to",
+    "options": {
+      "A": "price fixing",
+      "B": "price discrimination",
+      "C": "predatory pricing",
+      "D": "resale price maintenance"
+    },
+    "answer": "B",
+    "explanation": "Price discrimination — charging two similarly situated retailers different wholesale prices for the identical product, without any cost-based justification, raises legal concerns about price discrimination, since one buyer is put at an unfair competitive disadvantage. Price fixing is wrong because that involves competing sellers agreeing on prices among themselves, not one manufacturer charging different prices to different buyers. Predatory pricing is wrong because that involves pricing far below cost to eliminate a competitor, which is not described here. Resale price maintenance is wrong because that involves a manufacturer dictating the price at which a retailer must resell a product, not the wholesale price the manufacturer itself charges different retailers.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0027",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain factors affecting pricing decisions",
+    "question": "Alpine Ridge Ski Resort charges significantly higher lift-ticket prices during holiday weeks, when nearly every slope is at capacity, and lower prices on weekdays when visitor traffic is light. Which factor is most directly influencing Alpine Ridge's pricing decisions?",
+    "options": {
+      "A": "Consumer demand",
+      "B": "Production costs",
+      "C": "Government regulation",
+      "D": "Distribution channel length"
+    },
+    "answer": "A",
+    "explanation": "Consumer demand — Alpine Ridge charges more when demand is highest, during holiday weeks when slopes are packed, and less when demand is light on weekdays, which shows that consumer demand is the main factor driving its pricing decisions. Production costs is wrong because there is no indication that it costs the resort more to operate during holiday weeks than on weekdays. Government regulation is wrong because nothing in the scenario involves a law or regulatory requirement affecting lift-ticket prices. Distribution channel length is wrong because ski resorts sell lift tickets directly to visitors, and channel length is not a factor discussed in the scenario at all.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0028",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channel management",
+    "question": "Ember & Wick Candle Co. must decide which distributors to use, how to keep them motivated, and how to resolve disputes when shipments arrive late, all while making sure candles reach store shelves efficiently. Together, these responsibilities describe the company's",
+    "options": {
+      "A": "promotional mix",
+      "B": "channel management",
+      "C": "pricing strategy",
+      "D": "product mix"
+    },
+    "answer": "B",
+    "explanation": "Channel management — selecting distributors, keeping them motivated, resolving disputes over late shipments, and ensuring candles reach store shelves efficiently are all core responsibilities of channel management, which oversees the relationships and activities that move products from producer to consumer. Promotional mix is wrong because it involves the combination of communication tools used to inform and persuade customers, not decisions about distributors and shipments. Pricing strategy is wrong because it concerns what to charge for the candles, not how they are distributed. Product mix is wrong because it refers to the total assortment of products a company offers, not how those products move through the distribution channel.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0029",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channels of distribution",
+    "question": "Blaze Trail Hot Sauce sells every bottle either at farmers' markets or through its own website, with no wholesalers, distributors, or retailers involved at any point. Blaze Trail is using a __________ channel of distribution.",
+    "options": {
+      "A": "direct",
+      "B": "indirect",
+      "C": "dual",
+      "D": "reverse"
+    },
+    "answer": "A",
+    "explanation": "Direct — Blaze Trail sells every bottle through its own farmers'-market booths and website, with no wholesalers, distributors, or retailers involved, which is the definition of a direct channel of distribution. Indirect is wrong because that type of channel involves one or more intermediaries between the producer and the consumer, which is explicitly not the case here. Dual is wrong because a dual channel involves using both a direct and an indirect channel simultaneously, and only a direct channel is described. Reverse is wrong because a reverse channel moves products backward from consumer to producer, such as for recycling or returns, not forward to the original customer.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0030",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain legal considerations in channel management",
+    "question": "A furniture manufacturer tells a regional distributor that it may continue carrying the manufacturer's furniture line only if the distributor agrees to stop selling a rival manufacturer's furniture altogether. This type of arrangement could raise legal concerns under",
+    "options": {
+      "A": "copyright law",
+      "B": "consumer-protection labeling law",
+      "C": "wage and hour law",
+      "D": "antitrust law"
+    },
+    "answer": "D",
+    "explanation": "Antitrust law — requiring a distributor to drop a competing manufacturer's product line as a condition of continuing to carry the furniture manufacturer's line could unreasonably restrain trade and reduce competition, which is exactly what antitrust laws are designed to prevent. Copyright law is wrong because it protects original creative works, not distribution agreements between a manufacturer and a distributor. Consumer-protection labeling law is wrong because it governs the accuracy of information on product labels, not exclusive-dealing arrangements between channel members. Wage and hour law is wrong because it regulates employee pay and working hours, which has nothing to do with a manufacturer's distribution requirements.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0031",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channel-member relationships",
+    "question": "A major appliance manufacturer shares monthly sales data with its dealers, contributes co-op advertising funds, and hosts joint training sessions so its dealers feel supported rather than simply told what to sell. This approach is intended to strengthen the manufacturer's",
+    "options": {
+      "A": "control over the prices its dealers charge at retail",
+      "B": "positioning against rival appliance brands",
+      "C": "channel-member relationships",
+      "D": "promotional budget"
+    },
+    "answer": "C",
+    "explanation": "Channel-member relationships — sharing monthly sales data, contributing co-op advertising funds, and hosting joint training sessions are all ways a manufacturer builds trust and cooperation with its dealers so they feel supported rather than simply told what to sell, which is what strengthening channel-member relationships means. Control over the prices its dealers charge at retail is a different aim altogether, and none of the described actions set, police, or even mention a dealer's price. Positioning against rival appliance brands concerns how consumers perceive the product relative to competitors, which is shaped by advertising and product design aimed at buyers, not by how the manufacturer treats its dealers. Promotional budget is wrong because although co-op advertising funds involve promotional spending, that money is one of several supports extended to dealers; the scenario is about the relationship those supports build, not about managing a budget.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0032",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain affinity partner relationships",
+    "question": "A national bookstore chain partners with a coffee brand so that members of the bookstore's rewards program automatically earn points at any café inside the coffee brand's stores, and the coffee brand's loyalty members get bookstore discounts in return. This mutually beneficial arrangement between the two companies is an example of a(n)",
+    "options": {
+      "A": "franchise agreement",
+      "B": "corporate merger",
+      "C": "vertical integration",
+      "D": "affinity partnership"
+    },
+    "answer": "D",
+    "explanation": "Affinity partnership — the bookstore chain and the coffee brand are two separate companies that have joined together so members of each other's loyalty programs receive shared benefits, which is the definition of an affinity partnership between organizations serving a common group of customers. A franchise agreement is wrong because that involves one company paying to operate under another's established business model and brand, not two independent companies cross-promoting loyalty benefits. A corporate merger is wrong because that means the two companies would combine into a single organization, not remain separate while partnering on rewards. Vertical integration is wrong because that involves a company acquiring or controlling different stages of its own supply chain, not partnering with an unrelated company on a loyalty program.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0033",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Describe need for marketing data",
+    "question": "Hopfield Brewing, a regional craft brewery, is deciding whether to launch a new seasonal sour ale in three neighboring states. Before committing to the launch, the owners spend several weeks gathering data on regional taste preferences and competitors' sour-ale sales. What is the best reason for the brewery to gather this marketing data first?",
+    "options": {
+      "A": "It helps the brewery understand customer preferences and reduces the risk of an unsuccessful launch.",
+      "B": "It reveals which competitor's sour ale sells best so the brewery can copy that recipe instead of developing one",
+      "C": "It replaces the brewery's need to test the recipe before distributing it.",
+      "D": "It allows the brewery to set a price without considering its production costs."
+    },
+    "answer": "A",
+    "explanation": "It helps the brewery understand customer preferences and reduces the risk of an unsuccessful launch. Gathering data on regional taste preferences and competitors' sour-ale sales tells Hopfield what drinkers in those three states actually want and how similar beers already perform, which makes the launch an informed decision instead of a guess and lowers the chance of an expensive failure. Option B is incorrect because identifying the best-selling competing sour ale in order to copy its recipe is not why a brewery researches a market: competitor sales data shows what demand exists, not a formula to imitate, and duplicating a rival's product would surrender the brewery's own position rather than reduce risk. Option C is incorrect because gathering marketing data does not eliminate the need for recipe or product testing, which is a separate step. Option D is incorrect because marketing data does not allow a business to ignore production costs; costs must still be factored into any pricing decision.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0034",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Identify data monitored for marketing decisions",
+    "question": "Vela Fitness Studio tracks monthly membership renewals, class attendance counts, and social-media engagement to decide whether to add a new yoga class to its schedule. Which of the following is the type of data most directly monitored for this marketing decision?",
+    "options": {
+      "A": "The building's utility and maintenance schedule",
+      "B": "The instructors' certification renewal dates",
+      "C": "Customer participation trends and engagement metrics",
+      "D": "The studio's payroll tax withholding records"
+    },
+    "answer": "C",
+    "explanation": "Customer participation trends and engagement metrics. Class attendance counts, renewal rates, and social-media engagement are all measures of how customers are responding to the studio's offerings, which is exactly the kind of data marketers monitor to decide whether to add or change a product like a class. The building's utility and maintenance schedule is a facilities record, not a marketing input. The instructors' certification renewal dates are a human-resources or compliance record unrelated to customer response. The studio's payroll tax withholding records are a financial and legal record that has no bearing on whether to add a new class.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0035",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Explain ethics in marketing-information management",
+    "question": "Terra Cheese Co. surveyed customers about a proposed new cheese flavor, and the results were mixed, with almost half of respondents saying they disliked the flavor profile. The marketing manager must decide how to present the findings to company leadership. Which action would be the most ethical way to handle the results?",
+    "options": {
+      "A": "Removing the negative responses from the report so leadership sees only favorable results",
+      "B": "Presenting the survey data in its complete, unaltered form, including the unfavorable results",
+      "C": "Instructing the survey team to reword customer comments so they sound more positive",
+      "D": "Sharing individual respondents' names and comments with the sales team without their consent"
+    },
+    "answer": "B",
+    "explanation": "Presenting the survey data in its complete, unaltered form, including the unfavorable results. Ethical marketing-information management requires researchers to report findings honestly, even when the results are not what the business hoped to see, so that leadership can make sound decisions. Removing the negative responses would manipulate the findings to support a predetermined conclusion, which is unethical. Instructing the team to reword customer comments to sound more positive is a form of falsifying data. Sharing respondents' names and comments without consent violates respondents' right to privacy and confidentiality.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0036",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Discuss marketing research issues",
+    "question": "SkyCrate, a drone-delivery startup, mails a survey to rural households to gauge interest in drone delivery, but many of the intended recipients live in areas with unreliable postal service and never receive or return the survey. As a result, only a small fraction of the intended sample responds. Which marketing research issue does this best illustrate?",
+    "options": {
+      "A": "Sugging, in which a marketer poses as a researcher and uses the survey itself as the opening move in a pitch to sell a product",
+      "B": "A leading question, whose wording steers respondents toward the favorable answer the researcher is hoping to record",
+      "C": "Sample bias, which arises when a researcher builds the sample from the households easiest to contact",
+      "D": "Non-response error, which occurs when a large share of intended respondents cannot be reached"
+    },
+    "answer": "D",
+    "explanation": "Non-response error, which occurs when a large share of intended respondents cannot be reached. Unreliable postal service kept most of the intended rural households from ever receiving or returning the survey, so SkyCrate's findings rest on a small fraction of the sample it set out to measure, which is the definition of non-response error. Sugging describes a marketer who poses as a researcher and uses the survey as the opening move in a sales pitch; SkyCrate is gathering genuine interest data, not selling drones. A leading question is a wording problem, in which the phrasing steers respondents toward the favorable answer, and the stem says nothing about how the questions were worded. Sample bias would mean SkyCrate built its sample from the households that were easiest to contact; instead it drew the sample it wanted and then failed to reach part of it, which is a response problem rather than a selection problem.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0037",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Describe primary and secondary research",
+    "question": "Before launching a new granola-bar line, Trailhead Provisions reviewed recent USDA reports on snack consumption and a nutrition-industry association's demographic study, then conducted its own in-house taste tests with target customers. Which of the following activities described is an example of secondary research?",
+    "options": {
+      "A": "Reviewing the existing USDA and industry association reports",
+      "B": "Conducting new in-house taste tests with target customers",
+      "C": "Distributing a fresh customer survey about preferred flavors",
+      "D": "Running a controlled taste-test experiment comparing two recipes"
+    },
+    "answer": "A",
+    "explanation": "Reviewing the existing USDA and industry association reports. Secondary research uses information that was already collected by other organizations for a different purpose, such as government or industry reports, rather than data gathered specifically for the company's own project. Conducting new in-house taste tests is primary research because Trailhead Provisions collected the data itself for this specific purpose. Distributing a fresh customer survey is also primary research, since it is new data collected directly for this project. Running a controlled taste-test experiment is likewise primary research because it generates original data through a new experiment designed by the company.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0038",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Discuss sampling plans",
+    "question": "GreenPlate, a subscription meal-kit service, wants feedback specifically from subscribers who have used the service for more than two years, believing their opinions on long-term retention are the most valuable. Which sampling approach best fits GreenPlate's goal?",
+    "options": {
+      "A": "Simple random sampling, giving every current subscriber an equal chance of being drawn for the feedback survey",
+      "B": "Systematic sampling, taking every tenth name from the subscriber list until the response quota is met",
+      "C": "Judgment sampling, selecting subscribers based on their tenure and experience",
+      "D": "Cluster sampling, surveying every subscriber in a few randomly drawn delivery regions"
+    },
+    "answer": "C",
+    "explanation": "Judgment sampling, selecting subscribers based on their tenure and experience. Judgment sampling, also called expert sampling, has the researcher handpick respondents who hold the specific experience the study needs, which is exactly GreenPlate's goal of hearing from subscribers of more than two years. Simple random sampling gives every current subscriber an equal chance of being drawn, so a two-week subscriber is as likely to be selected as a three-year one and the long-term voices GreenPlate wants could be missed. Systematic sampling takes every tenth name from the subscriber list, and that fixed interval selects on list position rather than on tenure. Cluster sampling surveys every subscriber in a few randomly drawn delivery regions, which sorts respondents by geography; any region contains new and long-term subscribers alike, so it does not isolate the group whose opinions GreenPlate values.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0039",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Evaluate questionnaire design",
+    "question": "A boutique hotel chain drafted the following survey question: \"Don't you agree that our staff's friendliness makes this the best hotel in town?\" A researcher reviewing the questionnaire should flag this question because it",
+    "options": {
+      "A": "is too vague for guests to answer accurately",
+      "B": "leads respondents toward a favorable answer",
+      "C": "only allows guests to respond with a number",
+      "D": "fails to give guests an option to remain neutral"
+    },
+    "answer": "B",
+    "explanation": "Leads respondents toward a favorable answer through its biased wording. Beginning the question with \"Don't you agree\" and pairing it with a strong positive claim pressures respondents to answer in a way that confirms the hotel's desired conclusion, which is the hallmark of a leading question. The question is not too vague, since it specifically names the staff's friendliness and asks about it directly. It is not a numeric-response question, since it asks for agreement with an opinion rather than a number. While the question does not offer a neutral option, that is a secondary concern; the primary design flaw a researcher would flag is the leading, biased phrasing itself.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0040",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing strategies",
+    "question": "Chapter & Verse, a used bookstore, wants to increase sales specifically among college students, so it partners with the local university bookstore to offer trade-in credit for used textbooks. This approach best illustrates which marketing strategy concept?",
+    "options": {
+      "A": "Diversification into unrelated product categories",
+      "B": "Undifferentiated marketing aimed at the entire book-buying public",
+      "C": "Product life-cycle extension through repackaging",
+      "D": "Target marketing focused on a specific customer segment"
+    },
+    "answer": "D",
+    "explanation": "Target marketing focused on a specific customer segment. By designing a partnership and offer specifically for college students, Chapter & Verse is directing its marketing efforts at a defined segment of the overall book-buying public rather than trying to appeal to everyone equally. Diversification into unrelated product categories does not apply because the bookstore is not adding new, unrelated products. Undifferentiated marketing aimed at the entire market is the opposite of what is happening, since the bookstore is narrowing its focus rather than broadening it. Product life-cycle extension through repackaging is unrelated, since no product is being repackaged or extended in this scenario.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0041",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain market and market identification",
+    "question": "A specialty pet-food brand notices that its highest sales come from health-conscious dog owners between the ages of 25 and 40 who shop at pet boutiques rather than big-box stores. By identifying this specific group, the brand is defining its",
+    "options": {
+      "A": "target market",
+      "B": "product mix",
+      "C": "channel of distribution",
+      "D": "promotional budget"
+    },
+    "answer": "A",
+    "explanation": "Target market. A target market is the specific group of customers a business decides to focus its marketing efforts toward, and identifying health-conscious dog owners aged 25 to 40 who shop at pet boutiques is exactly this kind of market identification. The product mix refers to the assortment of goods and services a business offers, not the group of customers it serves. The channel of distribution is the path a product takes from producer to consumer, which is not what is being described. The promotional budget is the amount of money set aside for advertising and promotion, which is unrelated to identifying a customer group.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0042",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing planning",
+    "question": "Before writing a formal marketing plan, the owners of Ember & Ash Candle Co. spend several weeks researching competitors, reviewing past sales history, and setting measurable growth objectives for the next two years. This activity best illustrates",
+    "options": {
+      "A": "a product bundling strategy",
+      "B": "a break-even analysis calculation",
+      "C": "the marketing-planning process",
+      "D": "a price skimming strategy"
+    },
+    "answer": "C",
+    "explanation": "The marketing-planning process. Marketing planning is the ongoing process of researching the market, reviewing past performance, and setting objectives that will guide the eventual marketing plan, which is exactly what Ember & Ash Candle Co. is doing. Product bundling refers to combining several products and selling them as one unit, which is not described here. Break-even analysis is a financial calculation of the point at which total revenue equals total costs, not a description of researching and setting objectives. Price skimming is a pricing strategy of charging a high initial price for a new product, which has no connection to this scenario.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0043",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing plans",
+    "question": "The finished written document for Ember & Ash Candle Co. outlines its target markets, marketing mix, budget, and a timeline of activities for the coming year. This document is best described as the company's",
+    "options": {
+      "A": "mission statement",
+      "B": "marketing plan",
+      "C": "income statement",
+      "D": "code of conduct"
+    },
+    "answer": "B",
+    "explanation": "Marketing plan. A marketing plan is a written document that details a business's target markets, marketing mix, budget, and timeline for carrying out its marketing strategy, which matches the document described. A mission statement is a brief summary of why the business exists, not a detailed plan of marketing activities and budgets. An income statement is a financial document that summarizes revenue and expenses over a period of time, not a marketing document. A code of conduct is a set of rules addressing employee behavior and ethics, which is unrelated to target markets or marketing budgets.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0044",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain role of situation analysis",
+    "question": "Before deciding whether to add a mobile grooming van to its services, Furry Friends Pet Spa studied its competitors' pricing, current economic conditions affecting discretionary pet spending, and its own strengths in customer loyalty. This process helped the company",
+    "options": {
+      "A": "calculate the break-even point for the new van",
+      "B": "design a compensation plan for new groomers",
+      "C": "forecast how many grooming appointments the new van would book each month",
+      "D": "assess its internal and external environment before planning"
+    },
+    "answer": "D",
+    "explanation": "Assess its internal and external environment before planning. A situation analysis examines a business's internal strengths and weaknesses, such as Furry Friends' customer loyalty, alongside external factors, such as competitors' pricing and economic conditions affecting discretionary pet spending, in order to guide a decision, which is exactly what the spa did. Calculating the break-even point for the new van is a financial calculation that comes later, once specific cost and price figures are known. Designing a compensation plan for new groomers is a staffing decision unrelated to reviewing competitors and economic conditions. Forecasting how many grooming appointments the new van would book each month is a demand projection that produces a single estimate for one option; the spa was scanning the broad conditions surrounding the decision, not projecting the van's sales.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0045",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain sales forecasts",
+    "question": "Based on last winter's strong sales and an unusually warm forecast for the upcoming season, a regional ski-and-snowboard rental outfitter predicts it will rent 15% fewer units of equipment than it did last year. The outfitter is using this forecast primarily to",
+    "options": {
+      "A": "plan how much inventory and staff to have ready",
+      "B": "determine its long-term mission statement",
+      "C": "set the retail prices charged by its competitors",
+      "D": "evaluate the ethics of its advertising claims"
+    },
+    "answer": "A",
+    "explanation": "Plan how much inventory and staff to have ready. Businesses commonly use sales forecasts to plan purchases and staffing levels, and a predicted 15% drop in rentals tells the outfitter it should scale back the amount of equipment it stocks and the number of employees it schedules for the season. Determining a long-term mission statement is a broader strategic exercise unrelated to a single season's rental forecast. Setting the retail prices charged by competitors is not something the outfitter controls or would use a sales forecast to do. Evaluating the ethics of advertising claims is a matter of business ethics, not a use of sales-forecast data.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0046",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain supply and demand",
+    "question": "When a sudden shortage of raw cacao caused several small-batch chocolatiers to raise their prices at the same time, even though consumer demand for chocolate had not changed, this situation best illustrates",
+    "options": {
+      "A": "price fixing among competing businesses",
+      "B": "a decrease in demand for chocolate",
+      "C": "reduced supply raising price while demand holds steady",
+      "D": "an increase in the elasticity of demand for chocolate"
+    },
+    "answer": "C",
+    "explanation": "The effect of reduced supply on price when demand stays constant. Basic supply and demand explains that when the supply of a good decreases while demand remains the same, the price of that good will rise, which is exactly what happened when a cacao shortage pushed up chocolate prices. Price fixing occurs when competitors secretly agree to coordinate prices, but here each chocolatier independently reacted to the same rise in input costs. Demand for chocolate did not decrease in this scenario; the stem specifically states that consumer demand stayed the same. Elasticity of demand describes how sensitive quantity demanded is to a price change, which is not what is being described here.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0047",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe functions of prices in markets",
+    "question": "When the price of lumber spiked during a construction boom, some custom furniture makers shifted toward producing smaller, less lumber-intensive pieces, while budget-conscious customers postponed large furniture purchases. This situation shows that prices function in a market economy to",
+    "options": {
+      "A": "eliminate the need for any government regulation",
+      "B": "signal producers and consumers how to allocate resources",
+      "C": "guarantee equal profits for every furniture maker",
+      "D": "determine the ethical standards followed by an industry"
+    },
+    "answer": "B",
+    "explanation": "Signal producers and consumers how to allocate resources. Rising lumber prices signaled furniture makers to shift production toward less lumber-intensive goods and signaled customers to delay large purchases, which shows how prices guide both producers' and consumers' decisions about how to use limited resources. Prices do not eliminate the need for government regulation; regulation exists for reasons separate from price signals. Prices do not guarantee equal profits for every business, since some makers may adapt more successfully than others. Prices are an economic signal, not a determinant of an industry's ethical standards.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0048",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain competition",
+    "question": "In a small town, dozens of independent lawn-care companies offer nearly identical mowing and landscaping services, and no single company is able to influence the market price for basic yard maintenance. This describes a market with",
+    "options": {
+      "A": "a monopoly, in which a single seller controls the market",
+      "B": "an oligopoly, dominated by a small number of large sellers",
+      "C": "monopolistic competition, in which each seller can set its own price",
+      "D": "a high degree of competition among many similar sellers"
+    },
+    "answer": "D",
+    "explanation": "A high degree of competition among many similar sellers. When many businesses offer nearly identical services and no single company can influence the market price, the market is highly competitive, approaching the conditions of pure competition. A monopoly involves a single seller controlling the entire market, which contradicts the scenario's dozens of independent companies. An oligopoly is dominated by a small number of large sellers, not the many small companies described here. Monopolistic competition allows each seller some ability to set its own price based on differentiation, but the scenario specifically states that no company can influence the market price, ruling this out.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0049",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain diminishing returns",
+    "question": "A food truck collective adds cooks one at a time to work its single service window during the lunch rush. Adding a second cook noticeably speeds up how quickly orders go out, but adding a third and then a fourth cook barely changes the number of meals served, since only one grill and one window are available. This best illustrates",
+    "options": {
+      "A": "the law of diminishing returns",
+      "B": "an increase in the collective's fixed costs",
+      "C": "a rise in consumer demand for the food truck",
+      "D": "the effects of price fixing among food trucks"
+    },
+    "answer": "A",
+    "explanation": "The law of diminishing returns. The law of diminishing returns states that as one input, such as labor, increases while other inputs, such as equipment and window space, stay fixed, output eventually increases at a slower rate and levels off, which matches the food truck's experience of adding cooks with little added benefit. This scenario does not describe an increase in fixed costs, since the grill and window remain the same; only the number of workers changes. There is no indication that consumer demand for the food truck increased at all. Price fixing involves competitors coordinating prices, which is unrelated to staffing one truck's single window.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0050",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe inflation's impact",
+    "question": "Over the past year, the cost of ingredients for a farm-to-table restaurant chain's signature dishes rose steadily even though the recipes and portion sizes stayed the same, forcing the chain to raise its menu prices to protect its profit margin. This situation best illustrates the impact of",
+    "options": {
+      "A": "a trade deficit",
+      "B": "diminishing returns",
+      "C": "a period of inflation",
+      "D": "a tight money supply"
+    },
+    "answer": "C",
+    "explanation": "Inflation. Inflation is a general rise in prices throughout the economy, and rising ingredient costs that force a restaurant chain to raise its menu prices without any change to its recipes or portions is a direct example of inflation's impact on a business. A trade deficit occurs when a country imports more than it exports, which is unrelated to a restaurant's ingredient costs. Diminishing returns describes a situation where adding more of one input yields smaller increases in output, which does not describe rising prices. A tight money supply refers to a limited amount of money available for lending, which is a separate economic condition from rising ingredient prices.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0051",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain interest-rate fluctuations",
+    "question": "A regional credit union notices that as the central bank loosens monetary policy and increases the amount of money available for lending, more members apply for auto loans. This happens because a looser money supply typically makes it",
+    "options": {
+      "A": "more expensive for members to borrow money, since lenders push interest rates up",
+      "B": "cheaper for members to borrow money, since interest rates tend to fall",
+      "C": "impossible for most members to qualify for a loan",
+      "D": "mandatory for members to repay loans over a shorter term"
+    },
+    "answer": "B",
+    "explanation": "Cheaper for members to borrow money, since interest rates tend to fall. When the central bank loosens monetary policy, more money is available to lend, and that larger supply of loanable funds tends to push interest rates down, lowering the cost of an auto loan and drawing more applicants, which is what the credit union observes. Borrowing becoming more expensive because lenders push interest rates up is what happens under the opposite policy: when money is tightened, funds for lending are scarce and rates rise. A looser money supply does not make it impossible for most members to qualify for a loan; credit generally becomes more accessible, not less. And the money supply does not dictate a loan's repayment term, which is set in the agreement between the credit union and the member.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0052",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Assess information needs",
+    "question": "Before building a customer-loyalty app, a specialty coffee roaster's marketing team first meets to determine exactly which customer data points, such as purchase frequency, favorite drinks, and typical visit times, will actually be useful for personalizing offers. This step is an example of",
+    "options": {
+      "A": "conducting a situation analysis",
+      "B": "evaluating information quality",
+      "C": "storing information securely",
+      "D": "assessing information needs"
+    },
+    "answer": "D",
+    "explanation": "Assessing information needs. Determining exactly which data points will actually be useful before collecting any data is the process of assessing information needs, since it defines what information is required before the business goes out to obtain it. A situation analysis is a broader review of a business's internal and external environment, not a determination of specific data points needed for an app. Evaluating information quality happens after information has already been collected, when a business judges how reliable or credible that information is. Storing information securely is a later step that occurs after data has been collected, not before it is identified as needed.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0053",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Evaluate information quality/sources",
+    "question": "A tech-repair shop owner finds two online estimates of the local smartphone-repair market's size: one is an anonymous blog post with no data cited, and the other is a report from a national trade association based on survey data from 500 repair shops. Choosing to rely on the trade association's report instead of the anonymous blog demonstrates",
+    "options": {
+      "A": "evaluating the quality and credibility of information sources",
+      "B": "conducting primary research for the shop",
+      "C": "performing data mining on the shop's own records",
+      "D": "drawing conclusions from a completed analysis"
+    },
+    "answer": "A",
+    "explanation": "Evaluating the quality and credibility of information sources. Comparing an anonymous, uncited blog post to a trade association's report backed by survey data from 500 repair shops and choosing the more credible source is a clear example of evaluating information quality. This is not primary research, because the shop owner did not collect new data directly but instead reviewed information already published by others. It is not data mining, since no large internal database is being analyzed for hidden patterns. It is not drawing conclusions from analysis, because the owner has not yet analyzed any data; the owner is simply selecting a trustworthy source to use.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0054",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Discuss data mining",
+    "question": "An e-sports arena analyzes years of ticket-purchase and concession-sales records stored in its database and uncovers a previously unnoticed pattern: attendees who buy VIP tickets are also highly likely to purchase a specific limited-edition merchandise item. Discovering this hidden pattern in existing records is an example of",
+    "options": {
+      "A": "conducting a customer-satisfaction survey",
+      "B": "performing an environmental scan",
+      "C": "conducting data mining on existing records",
+      "D": "writing a situation analysis"
+    },
+    "answer": "C",
+    "explanation": "Data mining. Data mining is the process of analyzing large amounts of existing data to uncover hidden patterns and relationships, such as discovering that VIP ticket buyers are also likely to buy a specific merchandise item. A customer-satisfaction survey would involve collecting new, primary data directly from customers, not analyzing existing records. An environmental scan involves monitoring broad external trends in the business environment, not searching an internal database for purchasing patterns. A situation analysis is a broad review of a business's internal and external environment, not the specific discovery of a data pattern.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0055",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Interpret statistical findings",
+    "question": "A children's museum's research shows that the mean family spends $42 per visit, but a staff member points out that half of all families actually spend less than $28, because a small number of large group bookings skew the average upward. Recognizing this difference between the mean and the median is an example of",
+    "options": {
+      "A": "designing a new visitor questionnaire to capture spending by group size",
+      "B": "interpreting statistical findings accurately",
+      "C": "collecting new primary data from families as they leave the museum",
+      "D": "building a new sampling plan for future visitors"
+    },
+    "answer": "B",
+    "explanation": "Interpreting statistical findings accurately. Reading statistics correctly means understanding what the numbers actually say: here, recognizing that the $42 mean sits well above the $28 median because a few large group bookings pull the average upward, so the typical family spends considerably less than the mean suggests. Designing a new visitor questionnaire to capture spending by group size is an instrument-building step that comes before data is collected, whereas the staff member is working with results the museum already has. Collecting new primary data from families as they leave the museum would gather fresh information, but no new data is being gathered; the mean and median at issue come from research already completed. Building a new sampling plan for future visitors decides who will be surveyed next time, which is a design decision rather than an act of making sense of figures already in hand.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0056",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Translate research findings into recommendations",
+    "question": "After research shows that most of an online tutoring platform's customers cancel their subscriptions within the first month because they find it difficult to schedule sessions, the marketing team proposes redesigning the scheduling interface and adding automated reminders. Proposing these specific changes based on the research results is an example of",
+    "options": {
+      "A": "conducting exploratory research on the platform",
+      "B": "assessing the platform's information needs",
+      "C": "mining the platform's customer data",
+      "D": "translating research findings into recommendations"
+    },
+    "answer": "D",
+    "explanation": "Translating research findings into recommendations. Taking the results of completed research, such as the finding that scheduling difficulty drives early cancellations, and turning them into specific proposed actions, such as redesigning the interface and adding reminders, is the process of translating research findings into recommendations. Conducting exploratory research is an earlier step used to define a problem, which has already occurred here since the cause of cancellations is already known. Assessing information needs happens before research begins, not after findings have already been produced. Mining customer data refers to discovering hidden patterns within a database, not proposing specific recommendations based on findings already identified.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0057",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain time value of money",
+    "question": "The owner of a landscaping company is offered $10,000 today for referring clients to a supplier, or $10,000 in three years under the same referral agreement. Financially, the owner should prefer the payment today mainly because",
+    "options": {
+      "A": "money available now can be invested and earn returns over time",
+      "B": "the supplier would subtract a discount rate from the $10,000 before paying it in three years",
+      "C": "booking the fee now moves it into an earlier tax year and erases the tax owed",
+      "D": "cash held on hand cannot lose value"
+    },
+    "answer": "A",
+    "explanation": "Money available now can be invested and earn returns over time. The time value of money holds that a dollar in hand today is worth more than the same dollar years from now, because today's dollar can be put to work earning a return during the three years the owner would otherwise spend waiting; both offers are for the identical $10,000, so those three years are the whole difference. The idea that the supplier would subtract a discount rate from the $10,000 before paying it misreads discounting: a discount rate is an analytical tool for comparing amounts across time, not a deduction anyone takes out of the payment, and the stem states the later offer is the full $10,000. Booking the fee now does move the revenue into an earlier tax year, but that accelerates the tax rather than erasing it, and it is not what makes the earlier payment more valuable. Cash held on hand can certainly lose value: inflation erodes the purchasing power of idle money, which is a reason to invest a payment received today rather than a reason today's payment is preferable.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0058",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain purposes and importance of credit",
+    "question": "A young couple wants to open a small urban farming co-op but does not have enough savings to purchase greenhouse equipment upfront. By taking out a small-business loan to buy the equipment now and repaying it over the next two years as the co-op generates revenue, the couple is demonstrating the purpose of credit, which is to",
+    "options": {
+      "A": "eliminate the couple's need to ever earn future income",
+      "B": "avoid ever having to repay the borrowed funds",
+      "C": "allow a purchase now to be paid for with future income",
+      "D": "guarantee that the co-op will become profitable"
+    },
+    "answer": "C",
+    "explanation": "Allow a purchase now to be paid for with future income. Credit lets individuals and businesses buy goods or services immediately and pay for them over time using income they expect to earn in the future, which is exactly what the couple is doing by financing the greenhouse equipment and repaying the loan from future co-op revenue. Credit does not eliminate the need to earn future income; in fact, it depends on future income being available to repay the loan. Credit must be repaid, so the idea that the couple would avoid ever repaying the funds is incorrect. Taking out a loan does not guarantee that a business will become profitable; profitability depends on many other factors.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0059",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Calculate cost of credit",
+    "question": "Devon is comparing two financing offers for new espresso equipment at his coffee cart business: Offer 1 charges 6% annual interest, and Offer 2 charges 9% annual interest on the same loan amount and repayment term. To determine which offer truly costs him less, Devon should primarily compare the",
+    "options": {
+      "A": "brand reputation of each lender",
+      "B": "total finance charges he will pay under each interest rate",
+      "C": "size of the down payment each lender requires",
+      "D": "length of the warranty on the espresso equipment"
+    },
+    "answer": "B",
+    "explanation": "The total finance charges he will pay under each interest rate. Calculating the cost of credit means determining the actual dollar amount of interest, or finance charges, that will be paid over the life of a loan, which is the only way for Devon to know which offer, at 6% versus 9%, truly costs him less. The brand reputation of each lender does not reflect the dollar cost of borrowing. While a down payment can affect the amount financed, the stem specifies the loan amount and term are the same, so the interest rate and resulting finance charges are what Devon needs to compare. The warranty length on the equipment is a product feature unrelated to the cost of the financing itself.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0060",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe cash flow statements",
+    "question": "The owner of a craft distillery wants to know whether the business actually has enough cash on hand each month to pay suppliers and payroll, even though the income statement shows the business is profitable. Which financial document should the owner review to answer this specific question?",
+    "options": {
+      "A": "Balance sheet",
+      "B": "Mission statement",
+      "C": "Marketing plan",
+      "D": "Cash flow statement"
+    },
+    "answer": "D",
+    "explanation": "Cash flow statement. A cash flow statement tracks the actual cash moving into and out of a business over a period of time, which reveals whether the distillery has enough cash on hand to pay its suppliers and payroll, even if the income statement shows an overall profit. A balance sheet lists a business's assets, liabilities, and owner's equity at a single point in time, but it does not show the flow of cash in and out during a period. A mission statement is a summary of why a business exists and has no financial data. A marketing plan outlines target markets and promotional strategy, which has nothing to do with tracking cash on hand.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0061",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain balance sheets",
+    "question": "At the end of the fiscal year, the owner of a boutique hotel chain lists everything the business owns, everything it owes, and the resulting owner's equity, all as of December 31. This document is the hotel chain's",
+    "options": {
+      "A": "balance sheet",
+      "B": "cash flow statement",
+      "C": "sales forecast",
+      "D": "situation analysis"
+    },
+    "answer": "A",
+    "explanation": "Balance sheet. A balance sheet shows a business's assets, liabilities, and owner's equity as of a specific point in time, which matches the hotel chain owner listing everything the business owns and owes as of December 31. A cash flow statement tracks cash moving into and out of a business over a period of time rather than showing a single point-in-time snapshot of assets and liabilities. A sales forecast is a prediction of future sales, not a listing of current assets and liabilities. A situation analysis is a broad review of a business's internal and external environment, not a financial statement.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0062",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Demonstrate a customer service mindset",
+    "question": "While helping a customer choose a bike at a ride-share bike company's retail counter, an employee receives a personal text message but leaves the phone in a pocket and continues answering the customer's questions about tire sizes. This employee is best demonstrating",
+    "options": {
+      "A": "a high level of self-esteem",
+      "B": "a tolerance for ambiguity",
+      "C": "a strong customer service mindset",
+      "D": "an accommodating negotiating style"
+    },
+    "answer": "C",
+    "explanation": "A customer service mindset by staying focused on the customer. Maintaining a customer service mindset requires employees to devote their full attention to the customer in front of them and avoid distractions, such as personal text messages, which is exactly what the employee did by ignoring the phone. Self-esteem refers to how a person feels about themselves, which is not demonstrated by this action. Tolerance for ambiguity is the willingness to take action despite incomplete information, which does not apply to this straightforward customer interaction. A negotiating style describes how a person handles bargaining situations, not how they handle distractions while serving a customer.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0063",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle customer/client complaints",
+    "question": "A customer calls a smart home security company upset that their alarm system falsely triggered three times overnight. Before offering a refund or explaining the company's troubleshooting policy, the representative should first",
+    "options": {
+      "A": "state the company's return policy word for word",
+      "B": "listen carefully to understand exactly what went wrong for this customer",
+      "C": "transfer the customer to a different department immediately",
+      "D": "offer a refund for last month's monitoring fee before asking what the system did"
+    },
+    "answer": "B",
+    "explanation": "Listen carefully to understand exactly what went wrong for this customer. The first step in handling a complaint is to hear the customer out and pin down the specific problem, here three overnight false alarms, so the representative addresses the actual issue rather than guessing at a solution. Stating the company's return policy word for word before listening answers a question the customer has not asked and makes an already-upset caller feel unheard. Transferring the customer to a different department immediately hands off a complaint no one has yet diagnosed, forcing the customer to start the story over. Offering a refund for last month's monitoring fee before asking what the system did is the same mistake in a friendlier form: the stem places the refund after this first step, and money neither tells the company why the alarm triggered nor keeps it from triggering again.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0064",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Determine ways of reinforcing the company's image",
+    "question": "A walking-tour company requires every guide to wear the same branded rain jacket, use a consistent greeting at the start of each tour, and end every tour with the same signature phrase. This practice is primarily intended to",
+    "options": {
+      "A": "increase the guides' hourly wages",
+      "B": "reduce the cost of tour supplies",
+      "C": "comply with local tourism regulations",
+      "D": "reinforce a consistent brand image"
+    },
+    "answer": "D",
+    "explanation": "Reinforce a consistent brand image across every customer interaction. Requiring every guide to use the same branded clothing, greeting, and closing phrase ensures that customers have the same recognizable experience no matter which guide they encounter, which reinforces the company's brand image. This practice has no direct effect on the guides' hourly wages. It is not primarily a cost-saving measure related to tour supplies, since matching jackets and scripted phrases are about image, not expense reduction. There is no indication in the scenario that these practices are required by local tourism regulations.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0065",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Discuss the nature of customer relationship management",
+    "question": "Rather than treating every transaction as a one-time sale, an artisanal ice-pop cart business tracks repeat customers' favorite flavors and sends them a reminder text when a favorite flavor returns each summer. This approach reflects the nature of",
+    "options": {
+      "A": "customer relationship management, which focuses on building long-term relationships with customers",
+      "B": "break-even analysis, which finds the sales volume where costs are covered",
+      "C": "situation analysis, which reviews the internal strengths and external market conditions a business faces",
+      "D": "price fixing, an illegal pricing pact among rivals"
+    },
+    "answer": "A",
+    "explanation": "Customer relationship management, which focuses on building long-term relationships with customers. By tracking individual customers' favorite flavors and reaching out when a favorite returns each summer, the cart treats buyers as ongoing relationships rather than one-time transactions, which is the essence of customer relationship management. Break-even analysis finds the sales volume at which costs are covered; it is a cost-and-revenue calculation that says nothing about tracking who buys what. Situation analysis reviews the internal strengths and external market conditions a business faces, a planning-stage scan of the environment rather than the ongoing cultivation of named repeat customers. Price fixing is an illegal pricing pact among competing sellers; the cart is changing how it communicates with its own customers, not what rivals charge.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0066",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Describe the use of technology in customer relationship management",
+    "question": "A local radio station uses customer relationship management software to automatically track which advertisers have renewed their contracts, flag upcoming renewal dates, and log every call made by the sales team. This use of technology primarily helps the station",
+    "options": {
+      "A": "eliminate the need for a sales team entirely",
+      "B": "set the station's on-air broadcast schedule",
+      "C": "organize and track customer account details",
+      "D": "determine the station's programming content"
+    },
+    "answer": "C",
+    "explanation": "Organize and track customer interactions and account details efficiently. Customer relationship management software is designed to help a business organize records of customer accounts, log interactions, and flag important dates such as contract renewals, which is exactly what the radio station is using it to do. The software does not eliminate the need for a sales team; it supports the sales team by organizing information, but sales representatives still build and manage the advertiser relationships. Setting the station's on-air broadcast schedule is a programming decision unrelated to tracking advertiser accounts. Determining the station's programming content is also a separate function from managing advertiser relationships and contract renewals.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0067",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain the nature of effective verbal communications",
+    "question": "The general manager of a boutique hotel notices that front-desk staff often trail off mid-sentence when explaining the cancellation policy to guests over the phone, causing confusion and repeat calls. Which change would most directly make the staff's verbal communication more effective?",
+    "options": {
+      "A": "Deliver complete, clearly organized statements before ending each call",
+      "B": "Read the cancellation policy verbatim from a printed reference card",
+      "C": "End each call quickly so hold times stay short for other guests",
+      "D": "Require staff to speak more softly so guests must listen closely"
+    },
+    "answer": "A",
+    "explanation": "Deliver complete, clearly organized statements before ending each call. Effective verbal communication requires organizing thoughts before speaking and finishing each idea completely so the listener is not left confused, which directly addresses the guests' repeat calls. Reading the policy verbatim from a card may keep the wording consistent, but it does not fix the underlying habit of trailing off and can sound stiff and unnatural rather than genuinely communicative. Ending calls quickly to shorten hold times would make the incomplete explanations worse, not better, since guests would have even less time to get their questions answered. Speaking more softly does nothing to improve clarity or completeness and would likely make the message harder, not easier, for guests to understand.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0068",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Interpret others' nonverbal cues",
+    "question": "During an in-home consultation, a solar-panel sales representative notices the homeowner has crossed her arms, avoided eye contact, and repeatedly checked her phone since he began discussing financing options. What should the rep conclude from these nonverbal cues, and how should he respond?",
+    "options": {
+      "A": "She is simply cold, so he should offer to turn up the thermostat",
+      "B": "Her behavior is unrelated to the pitch, so he should keep to the script",
+      "C": "She is disengaged, so he should pause and address her concerns",
+      "D": "She is ready to sign, so he should present the contract right away"
+    },
+    "answer": "C",
+    "explanation": "She is disengaged, so he should pause and address her concerns. Crossed arms, avoided eye contact, and checking a phone are classic nonverbal signals of discomfort or disengagement, and they began right when financing came up, so the rep should stop and find out what is bothering her rather than pushing forward. Assuming she is simply cold ignores the clear timing and pattern of the cues and would lead the rep to address the wrong problem. Assuming the behavior is unrelated to the pitch dismisses cues that clearly appeared alongside a specific topic, which is a mistake in reading nonverbal communication. Concluding she is ready to sign misreads withdrawal cues as enthusiasm, which would likely make her feel pressured and less likely to buy.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0069",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Employ communication styles appropriate to target audience",
+    "question": "A children's museum's marketing coordinator announces a new dinosaur exhibit using the same formal, detail-heavy prose in both the parents' email newsletter and the museum's teen-focused Instagram account. Engagement on Instagram comes in far below expectations. What should the coordinator do differently?",
+    "options": {
+      "A": "Send the identical formal announcement to both audiences again",
+      "B": "Add more attendance statistics to the Instagram post for credibility",
+      "C": "Remove the announcement from Instagram since teens rarely read it",
+      "D": "Rewrite the Instagram post in a shorter, more casual, teen-friendly style"
+    },
+    "answer": "D",
+    "explanation": "Rewrite the Instagram post in a shorter, more casual, teen-friendly style. Employing an appropriate communication style means adapting tone, length, and format to the audience; teens on Instagram respond better to short, casual, visual messaging than to the formal prose that suits a parent newsletter. Sending the identical formal message again repeats the exact approach that already failed to engage the Instagram audience. Adding more statistics would make the post even denser and more formal, moving further away from what a teen audience finds engaging. Removing the announcement entirely abandons the audience rather than adapting the message to reach them, which is the actual skill being tested.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0070",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write persuasive messages",
+    "question": "A credit union's email urging members to switch to paperless statements states only, \"This change reduces our mailing costs.\" Member response to the campaign is very low. To make the message more persuasive, what should the credit union add?",
+    "options": {
+      "A": "A longer list of the credit union's regional mailing vendors",
+      "B": "Clear member benefits, such as faster access and less clutter",
+      "C": "A strict deadline with no explanation of why it matters",
+      "D": "Technical specifications about the credit union's printers"
+    },
+    "answer": "B",
+    "explanation": "Clear member benefits, such as faster access and less clutter. Persuasive messages succeed by showing the reader what is in it for them, so highlighting member-focused benefits like faster access, less paper clutter, and added security would give members a real reason to act. Listing mailing vendors describes an internal detail members have no reason to care about and does nothing to persuade them. Adding a strict deadline without any explanation of the benefit creates pressure without motivation, which tends to breed resistance rather than buy-in. Technical specifications about the printers are irrelevant to the member and would not make the message more compelling.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0071",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Choose and use appropriate channel for workplace communication",
+    "question": "A warehouse operations manager learns that a forklift model used on the floor has been recalled due to a brake defect and must stop being used immediately. Which channel should the manager use to communicate this?",
+    "options": {
+      "A": "An immediate in-person shift announcement or urgent floor page",
+      "B": "A note posted on the breakroom bulletin board for next week",
+      "C": "A memo attached to next month's printed company newsletter",
+      "D": "An email that employees can read at their own convenience"
+    },
+    "answer": "A",
+    "explanation": "An immediate in-person shift announcement or urgent floor page. Choosing the right channel means matching the urgency of the message to a channel that reaches everyone right away; a safety recall demands an immediate, hard-to-miss announcement so no one keeps operating the defective forklift. A bulletin board note for next week is far too slow and easy to overlook for a safety issue that needs action today. A memo folded into next month's newsletter would reach employees weeks after the danger exists. An email that employees read whenever convenient risks someone using the recalled forklift before ever seeing the message.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0072",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain how digital communications expose business to risk",
+    "question": "Hoping to process a refund quickly, an employee at a print shop texts a coworker a screenshot containing a customer's full credit card number and order history through an unsecured personal messaging app. What risk does this action best illustrate?",
+    "options": {
+      "A": "Digital messages are easy to misread when tone is missing",
+      "B": "Group chats can bury an urgent customer request",
+      "C": "Constant texts can distract staff",
+      "D": "Digital messages can expose sensitive data and create legal liability"
+    },
+    "answer": "D",
+    "explanation": "Digital messages can expose sensitive data and create legal liability. Sending a screenshot of a customer's full credit card number and order history through an unsecured personal messaging app puts payment data onto a channel the print shop does not control, where it can be intercepted, stored on a personal phone, or forwarded onward, exposing the business to data-breach liability and to the rules governing how card data is handled. Digital messages being easy to misread when tone is missing is a real hazard of text-based communication, but nothing here turned on tone: the message was understood, and the problem is what it contained. Group chats burying an urgent customer request is a genuine risk of busy channels, yet this was a direct message to a single coworker and it went through. Constant texts distracting staff is likewise a real cost of always-on messaging, and the stem shows the opposite, since the message was sent to move a refund along faster. Each of those is a risk digital communication can create; the one this scenario illustrates is the exposure of sensitive customer data.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0073",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Recognize and respond to ethical dilemmas",
+    "question": "A bookkeeper at an aquarium supply store discovers that the owner has been slightly inflating quarterly sales figures reported to a supplier in order to qualify for better credit terms. What is the most appropriate response for the bookkeeper?",
+    "options": {
+      "A": "Continue reporting the inflated figures since the owner decided",
+      "B": "Say nothing and wait to see if the supplier ever notices",
+      "C": "Report the figures accurately and raise the concern with the owner",
+      "D": "Inflate next quarter's figures further to secure more credit"
+    },
+    "answer": "C",
+    "explanation": "Report the figures accurately and raise the concern with the owner. Recognizing and responding to an ethical dilemma means the bookkeeper should not participate in the misrepresentation and should address it directly with the person responsible, since falsifying figures to a supplier is dishonest and could expose the business to serious legal and financial risk. Continuing to report inflated figures because the owner authorized it still makes the bookkeeper complicit in the deception. Saying nothing and hoping the supplier does not notice avoids the problem instead of resolving it. Inflating the figures even further compounds the unethical behavior rather than correcting it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0074",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use conflict-resolution skills",
+    "question": "Two co-managers at a plant nursery are in a tense disagreement about how to split the marketing budget between print ads and social media, and the discussion has stalled. What conflict-resolution approach is most likely to move the discussion forward productively?",
+    "options": {
+      "A": "Have each manager restate their original position more firmly",
+      "B": "Focus on shared goals and negotiate a workable compromise",
+      "C": "Let whichever manager has more seniority decide without debate",
+      "D": "Postpone the decision until the disagreement fades on its own"
+    },
+    "answer": "B",
+    "explanation": "Focus on shared goals and negotiate a workable compromise. Effective conflict resolution reframes a stalled disagreement around common objectives, such as growing nursery sales, so both parties can find common ground and a workable compromise, like splitting the budget or testing both channels. Restating original positions more firmly only entrenches both sides further and increases tension instead of resolving it. Letting seniority decide without discussion may end the disagreement but does not resolve it collaboratively and can damage the relationship. Postponing the decision indefinitely avoids the conflict rather than using skills to work through it, and the budget still needs to be allocated.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0075",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Adjust to change",
+    "question": "A cashier who has used the same cash box for ten years at a farmers market co-op is told that a new digital point-of-sale system will be required starting next month. Which response best demonstrates the ability to adjust to change?",
+    "options": {
+      "A": "Approach the new system with an open mind and seek out training",
+      "B": "Refuse to use the system until it is proven better than the old one",
+      "C": "Keep using the cash box quietly alongside the new system",
+      "D": "Complain to customers about the switch to gain their sympathy"
+    },
+    "answer": "A",
+    "explanation": "Approach the new system with an open mind and seek out training. Adjusting to change means accepting new circumstances with a positive attitude and taking initiative to build the skills needed to succeed under them, such as attending training on the new system. Refusing to use the system until it is proven better resists the change rather than adjusting to it. Continuing to use the old cash box alongside the new system undermines the transition instead of adapting to it. Complaining to customers does nothing to help the cashier adjust and could damage the co-op's reputation.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0076",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate negotiation skills",
+    "question": "A purchasing agent for a custom furniture maker learns that a longtime lumber supplier has raised prices 15 percent. The agent wants to lower costs without damaging the relationship. What negotiation approach best serves this goal?",
+    "options": {
+      "A": "Threaten to end the relationship unless prices return to normal",
+      "B": "Accept the new prices without any discussion to avoid conflict",
+      "C": "Ask a different department to handle the supplier from now on",
+      "D": "Propose a volume discount that benefits both sides of the deal"
+    },
+    "answer": "D",
+    "explanation": "Propose a volume discount that benefits both sides of the deal. Strong negotiation skills seek a solution where both parties gain something, and a volume discount lowers the furniture maker's costs while still rewarding the supplier with guaranteed larger orders, preserving the relationship. Threatening to end the relationship is an aggressive tactic that risks losing a reliable supplier entirely rather than negotiating a workable outcome. Accepting the new prices without any discussion gives up the chance to negotiate at all. Handing the matter to a different department avoids negotiating rather than demonstrating the skill directly.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0077",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Overcome office politics/turf wars",
+    "question": "At a mobile app development agency, the design team and the engineering team both insist on leading client presentations, and the resulting friction is delaying projects. What should a team lead do to overcome this turf war?",
+    "options": {
+      "A": "Let the two teams compete informally until one gives up",
+      "B": "Exclude both teams from all future client presentations",
+      "C": "Clarify shared roles and set up a collaborative process",
+      "D": "Assign presentations to whichever team complains loudest"
+    },
+    "answer": "C",
+    "explanation": "Clarify shared roles and set up a collaborative process. Overcoming office politics and turf wars requires defining clear, fair roles so both teams understand their contribution and stop competing for ownership, such as having design open the presentation and engineering handle technical questions. Letting the teams compete informally allows the turf war to continue and further delays projects. Excluding both teams removes the people with the most relevant client knowledge and does not resolve the underlying conflict. Rewarding whichever team complains most reinforces the political behavior instead of overcoming it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0078",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess long-term impact on others",
+    "question": "A regional manager for a bike-share company is considering cutting the maintenance budget to boost this quarter's profit numbers. Before making the decision, what should the manager most carefully consider?",
+    "options": {
+      "A": "Whether competitors have made similar budget cuts recently",
+      "B": "How the cut affects rider safety and mechanic workload later",
+      "C": "Whether the cut could be reversed at quarter's end if needed",
+      "D": "How quickly the savings will appear on this month's report"
+    },
+    "answer": "B",
+    "explanation": "How the cut affects rider safety and mechanic workload later. Assessing long-term impact on others means looking beyond the immediate financial benefit to how the decision affects riders and employees over time, since deferred maintenance can lead to unsafe bikes and overburdened mechanics well after the quarter ends. Whether competitors made similar cuts does not address the actual consequences of this decision on the people affected by it. Whether the cut can be reversed later focuses on convenience for the company rather than the impact on others. How quickly savings appear on a report is a short-term financial concern, not an assessment of long-term impact on people.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0079",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Monitor projects/correct actions",
+    "question": "A project manager overseeing the renovation of a boutique fitness studio realizes the flooring contractor is two weeks behind schedule. What should the project manager do first?",
+    "options": {
+      "A": "Find the cause of the delay and adjust the project plan",
+      "B": "Cancel the flooring contract and start over with a new vendor",
+      "C": "Wait until the final walkthrough to address the issue",
+      "D": "Ignore the delay since the opening date can be pushed back"
+    },
+    "answer": "A",
+    "explanation": "Find the cause of the delay and adjust the project plan. Monitoring a project and correcting actions means investigating why a task has fallen behind and making a targeted adjustment, such as adding resources or revising the timeline, as soon as the delay is discovered. Canceling the contract and starting over is a drastic step that could cause even greater delays before understanding the actual cause. Waiting until the final walkthrough lets the problem grow unaddressed for weeks. Ignoring the delay and assuming the opening date can simply move treats monitoring as optional, which defeats the purpose of tracking project progress at all.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0080",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Evaluate vendor performance",
+    "question": "A craft brewery's procurement lead is comparing two hop suppliers. Supplier X offers the lowest price but has missed delivery windows three times this year. Supplier Y costs more but has never missed a delivery and consistently meets quality specifications. Based on vendor evaluation practices, which factor should weigh most heavily in the decision?",
+    "options": {
+      "A": "Whichever supplier has been in business longer, since years in the trade signal steady service",
+      "B": "Whichever supplier sits closest to the brewery, since short routes cut freight costs",
+      "C": "Supplier X's lower price, since procurement is measured on cost savings",
+      "D": "Supplier Y's reliability, since missed deliveries halt production"
+    },
+    "answer": "D",
+    "explanation": "Supplier Y's reliability, since missed deliveries halt production. Vendor evaluation weighs delivery performance and quality alongside price, and Supplier X's three missed delivery windows this year are the decisive fact: hops that arrive late stop a brew schedule, and idle tanks and lost batches cost far more than the price gap Supplier X offers. Whichever supplier has been in business longer is a weak proxy, because years in the trade describe a company's history rather than its current delivery record, and the stem gives that record directly. Whichever supplier sits closest to the brewery treats freight distance as decisive; proximity may trim shipping costs, but a nearby supplier that misses delivery windows still halts production. Supplier X's lower price is the tempting choice and the one vendor evaluation exists to correct: judging procurement on cost savings alone ignores the far larger cost of the disruptions those missed deliveries cause.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0081",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Maintain inventory",
+    "question": "A candle maker's retail manager notices that the shop's best-selling scent sells out every month, even though demand has been steady for six months. What inventory practice would most directly prevent these stockouts?",
+    "options": {
+      "A": "Discontinue the scent since it clearly sells too quickly",
+      "B": "Order more inventory only once the shelf is fully empty",
+      "C": "Set a reorder point that triggers a new order in advance",
+      "D": "Raise the price on the scent to slow down its sales"
+    },
+    "answer": "C",
+    "explanation": "Set a reorder point that triggers a new order in advance. Maintaining inventory properly means establishing a reorder point based on known, steady demand so a new order is placed while stock is still on hand, preventing the shelf from ever going empty. Discontinuing a best-selling scent would eliminate a proven source of revenue rather than fix the ordering process. Waiting until the shelf is completely empty to reorder guarantees a gap in availability, which is the exact problem occurring now. Raising the price to slow sales addresses demand rather than fixing the inventory practice that is actually broken.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0082",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Resolve supplier quality issues",
+    "question": "A specialty cheese producer's quality control manager finds that the latest milk shipment from a dairy supplier fails the required fat-content specification. What is the most appropriate first step to resolve this supplier quality issue?",
+    "options": {
+      "A": "Use the shipment anyway and adjust the recipe to compensate",
+      "B": "Contact the supplier, document the issue, require a new shipment",
+      "C": "Terminate the contract with the dairy supplier immediately",
+      "D": "Blend the failed milk with another supplier's milk in secret"
+    },
+    "answer": "B",
+    "explanation": "Contact the supplier, document the issue, require a new shipment. Resolving a supplier quality issue starts with formally documenting the problem and working with the supplier to correct it, holding the shipment to the agreed specification before it enters production. Using the shipment anyway and adjusting the recipe risks inconsistent product quality and does not address the root cause with the supplier. Terminating the contract immediately, without first giving the supplier a chance to correct the issue, is an extreme step that skips the standard resolution process. Blending the failed milk in secretly hides a quality failure rather than resolving it and could seriously harm product safety and the producer's reputation.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0083",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Streamline work processes",
+    "question": "A mobile car-detailing service's technicians spend significant time each day driving back to the shop to restock cleaning supplies between appointments. What change would best streamline this work process?",
+    "options": {
+      "A": "Stock each technician's van with full supplies each morning",
+      "B": "Require technicians to work later hours to recover lost time",
+      "C": "Reduce the number of appointments scheduled each day",
+      "D": "Have technicians buy their own supplies out of pocket"
+    },
+    "answer": "A",
+    "explanation": "Stock each technician's van with full supplies each morning. Streamlining a work process means removing an unnecessary step, in this case the repeated round trips to the shop, by ensuring each van already carries everything needed for the day's appointments. Requiring technicians to work later hours accepts the wasted time and simply extends the workday instead of eliminating the inefficiency. Reducing the number of appointments lowers the company's revenue and capacity rather than fixing the underlying process problem. Having technicians pay for their own supplies does nothing to reduce the wasted driving time and unfairly shifts a business cost onto employees.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0084",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain supply-chain collaboration",
+    "question": "An eco-tourism agency works with independent hotels, tour guides, and a local van service to build vacation packages. When all four partners begin sharing real-time booking data instead of updating each other manually, double-booked excursions drop sharply. This result best illustrates the value of",
+    "options": {
+      "A": "reducing the total number of partners in the supply chain",
+      "B": "shifting all bookings to control of a single dominant partner",
+      "C": "cutting out most communication between the various partners",
+      "D": "supply-chain collaboration among the four channel partners"
+    },
+    "answer": "D",
+    "explanation": "Supply-chain collaboration among the four channel partners. When separate businesses in a distribution chain share real-time information and coordinate their activities, the entire chain runs more smoothly, which is exactly what supply-chain collaboration means and what eliminated the double-booking problem here. The scenario does not involve reducing the number of partners; all four remain part of the arrangement. It does not involve one partner dominating the others; the improvement comes from shared data among equals. Far from cutting out communication, the fix depended on partners communicating more, and in real time, than before.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0085",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Analyze employer expectations",
+    "question": "A new landscaping crew member is told by the supervisor to \"use good judgment\" about which client lawns to prioritize during an unusually rainy week. What should the crew member do to correctly analyze this employer expectation?",
+    "options": {
+      "A": "Skip every appointment until the rain has fully stopped",
+      "B": "Prioritize whichever clients live closest to their own home",
+      "C": "Ask questions and observe past practice to learn what it means",
+      "D": "Assume the instruction is optional and keep the original schedule"
+    },
+    "answer": "C",
+    "explanation": "Ask questions and observe past practice to learn what it means. Analyzing employer expectations means figuring out the specific standards behind a vague instruction, which is best done by asking the supervisor questions and watching how similar situations have been handled before, such as prioritizing clients whose lawns need service most urgently. Skipping all appointments assumes an extreme interpretation the supervisor never stated. Prioritizing by personal convenience, such as proximity to home, ignores the business need behind the instruction. Assuming the instruction is optional and sticking to the original schedule disregards the supervisor's guidance entirely rather than analyzing what it actually requires.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0086",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Use time management",
+    "question": "A freelance drone photographer has booked three property shoots in one afternoon and still has a week's worth of unedited footage waiting. What time-management strategy would best help the photographer meet all commitments?",
+    "options": {
+      "A": "Accept even more shoots during the current busy season",
+      "B": "Block dedicated editing time and prioritize tasks by deadline",
+      "C": "Edit footage in the order it was originally shot each week",
+      "D": "Skip meals and sleep until the whole backlog is cleared"
+    },
+    "answer": "B",
+    "explanation": "Block dedicated editing time and prioritize tasks by deadline. Effective time management involves scheduling specific blocks of time for important tasks and ordering work by which deadlines are most pressing, which would let the photographer complete the shoots and steadily work through the editing backlog. Accepting even more shoots adds to an already overloaded schedule instead of managing the existing workload. Editing in the original shooting order rather than by deadline could mean urgent client deliveries are finished last. Skipping meals and sleep is not a time-management technique; it sacrifices well-being without actually organizing the work more efficiently.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0087",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Demonstrate problem-solving",
+    "question": "An independent bookstore's foot traffic has dropped sharply since a new highway bypass rerouted traffic away from downtown. Which response best demonstrates effective problem-solving?",
+    "options": {
+      "A": "Study the cause of the drop and test new strategies like delivery",
+      "B": "Close the store early every day given the fewer customers",
+      "C": "Wait several months to see if traffic patterns change alone",
+      "D": "Blame the city planning department and take no further action"
+    },
+    "answer": "A",
+    "explanation": "Study the cause of the drop and test new strategies like delivery. Demonstrating problem-solving means identifying the root cause of a challenge and actively developing and testing solutions, such as launching delivery service or hosting community events to draw customers who no longer drive past the store. Closing early reduces the store's chances of making any sales rather than addressing the loss of foot traffic. Waiting passively for months without taking action does not solve the problem; it simply delays dealing with it. Blaming an outside party and taking no action ignores the business's own ability to adapt and respond to changed circumstances.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0088",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Follow chain of command",
+    "question": "A junior employee at a vintage clothing resale shop strongly disagrees with the store manager's new pricing policy. What is the most appropriate way for the employee to raise this concern?",
+    "options": {
+      "A": "Quietly change the prices back without telling anyone",
+      "B": "Post a complaint about the policy on the shop's social media",
+      "C": "Convince coworkers to ignore the new policy as a group",
+      "D": "Raise the concern respectfully with the manager directly"
+    },
+    "answer": "D",
+    "explanation": "Raise the concern respectfully with the manager directly. Following the chain of command means addressing workplace disagreements with the appropriate person, in this case the manager who set the policy, rather than working around that authority. Changing the prices back unilaterally overrides the manager's decision without any discussion. Posting the complaint publicly on social media airs an internal disagreement outside the company and could damage the shop's reputation. Organizing coworkers to ignore the policy as a group undermines management's authority instead of raising the concern through it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0089",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain advancement patterns",
+    "question": "An entry-level dispatch associate at a regional trucking company asks HR what typically leads to a promotion to operations supervisor. Based on common advancement patterns, what should HR most accurately explain?",
+    "options": {
+      "A": "Promotions go to the associate with the longest tenure, since seniority outranks performance",
+      "B": "Finishing an outside certification course is what triggers a supervisor promotion",
+      "C": "Advancement comes from performance, added duties, and experience",
+      "D": "Advancement is decided by an annual company-wide lottery"
+    },
+    "answer": "C",
+    "explanation": "Advancement comes from performance, added duties, and experience. Common advancement patterns have an employee earn promotion over time by performing well, taking on responsibility beyond the current role, and accumulating the experience a supervisor's job requires, which is what HR can accurately describe to the dispatch associate. Promotions going to the associate with the longest tenure because seniority outranks performance describes a rule some workplaces apply to narrow matters such as shift bidding, but it is not how a supervisory role is filled, where how well someone has done the work is precisely what is being judged. Finishing an outside certification course can strengthen a candidate, yet no single course triggers a promotion; a credential supports a record of performance and added responsibility rather than substituting for it. Advancement decided by an annual company-wide lottery has nothing to do with real career progression, which rewards demonstrated capability rather than chance.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0090",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe the nature of legally binding contracts",
+    "question": "A pool installation company's owner verbally promises a homeowner a discount if she refers three neighbors within a month. The homeowner refers three neighbors, but the owner later refuses to honor the discount, claiming nothing was in writing. Is the owner's promise likely a legally binding contract?",
+    "options": {
+      "A": "No, because contracts must always be in writing to be valid",
+      "B": "Yes, since offer, acceptance, and consideration were exchanged",
+      "C": "No, because verbal deals with customers are never enforceable",
+      "D": "Yes, but only because the homeowner recorded the conversation"
+    },
+    "answer": "B",
+    "explanation": "Yes, since offer, acceptance, and consideration were exchanged. A legally binding contract requires an offer, acceptance, and consideration, and this scenario has all three: the owner offered a discount, the homeowner accepted by referring neighbors, and both sides exchanged something of value. Claiming contracts must always be written is incorrect, since many verbal contracts, including this one, are legally enforceable. Saying verbal agreements with customers are never enforceable is also false as a general rule of contract law. Whether or not the homeowner recorded the conversation does not create the legal obligation; the obligation exists because the elements of a valid contract were already met.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0091",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain the nature of agency relationships",
+    "question": "A manufacturer's representative sells medical devices to hospitals on behalf of a manufacturer but never takes ownership of the devices at any point. This arrangement best illustrates",
+    "options": {
+      "A": "an agency relationship, where the agent acts for the principal",
+      "B": "a wholesaler relationship, since goods pass through a middle party",
+      "C": "a franchise relationship, using the manufacturer's brand name",
+      "D": "a joint venture, since both parties share ownership of devices"
+    },
+    "answer": "A",
+    "explanation": "An agency relationship, where the agent acts for the principal. In an agency relationship, an agent is authorized to act on behalf of a principal, such as selling products, without ever taking title to the goods, which is exactly the arrangement described. Calling this a wholesaler relationship is incorrect because wholesalers take ownership of goods before reselling them, which does not happen here. It is not a franchise relationship, since the representative is not operating an independently owned business under the manufacturer's brand and format. It is not a joint venture either, because a joint venture involves shared ownership and shared risk in a business undertaking, not a sales representative acting for a manufacturer.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0092",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe methods used to protect intellectual property",
+    "question": "The founder of an indie video game studio wants to protect the studio's distinctive character artwork and the underlying source code of its game engine from being copied by competitors. Which combination of legal protections is most appropriate?",
+    "options": {
+      "A": "A tariff applied to competing games sold internationally",
+      "B": "A trademark on the code, since code cannot be copyrighted",
+      "C": "A patent on the artwork, since patents cover creative designs",
+      "D": "Copyright on both the artwork and code as original works"
+    },
+    "answer": "D",
+    "explanation": "Copyright on both the artwork and code as original works. Copyright law protects original creative and expressive works, including artwork and computer source code, from being copied without permission, making it the appropriate protection for both assets described. A tariff is a tax on imported or exported goods and has nothing to do with protecting intellectual property from being copied. Trademarks protect brand identifiers such as names, logos, and slogans, not source code, and the claim that code cannot be copyrighted is false. Patents protect inventions and functional processes, not artistic or creative works like character artwork, so a patent would be the wrong tool here.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0093",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Identify the basic torts relating to business enterprises",
+    "question": "A competitor spreads false claims to major retailers that a specialty pet food company's products have caused pet illnesses, even though no evidence supports this, in order to win shelf space. This action would most likely be classified as which business tort?",
+    "options": {
+      "A": "Breach of an existing contract between the two competitors",
+      "B": "Negligence in handling the pet food company's products",
+      "C": "Defamation of the pet food company's business reputation",
+      "D": "Trespass on the pet food company's physical property"
+    },
+    "answer": "C",
+    "explanation": "Defamation of the pet food company's business reputation. Defamation is the tort of making a false statement that damages another party's reputation, and knowingly spreading unsupported claims about a competitor's products to harm its business relationships fits this definition. Breach of contract involves failing to fulfill the terms of an agreement between parties, which is not what occurred here since no contract existed between the two competitors. Negligence involves a failure to exercise reasonable care that causes accidental harm, but this act was a deliberate false statement, not carelessness. Trespass involves unlawfully entering or interfering with another party's property, which does not apply to spreading false statements about a company's products.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0094",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain buying behavior factors",
+    "question": "A specialty coffee roaster notices that sales of its premium single-origin blend rise more sharply after positive reviews from local social media influencers than after the roaster's own paid ads. This pattern best illustrates the influence of which buying behavior factor?",
+    "options": {
+      "A": "Psychological factors, treating price sensitivity as decisive",
+      "B": "Social factors, since reference groups shape buying decisions",
+      "C": "Economic factors, since income level determines all buying",
+      "D": "Personal factors, treating age as the main driver of purchases"
+    },
+    "answer": "B",
+    "explanation": "Social factors, since reference groups shape buying decisions. Social buying-behavior factors include the influence of reference groups, such as respected local figures or influencers, whose opinions shape what others choose to buy, which is what is driving the extra sales here. Describing this as a psychological factor centered on price sensitivity does not fit, since price was not mentioned or changed in the scenario. Economic factors relate to income and the general state of the economy, not to the influence of an influencer's review. Personal factors like age may play some role in consumer behavior generally, but the scenario specifically points to influencer opinion, which is a social influence, not an age-based one.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0095",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Discuss employee actions that achieve company results",
+    "question": "A gift shop cashier at a children's museum begins proactively suggesting a matching book with every stuffed-animal purchase, without being asked to by management. Sales of book-and-toy combinations increase noticeably. This scenario best illustrates how",
+    "options": {
+      "A": "employee actions, like suggestive selling, can drive real results",
+      "B": "formal sales training is what changes how front-line employees treat customers",
+      "C": "seasonal traffic explains most sales increases",
+      "D": "product displays drive add-on sales"
+    },
+    "answer": "A",
+    "explanation": "Employee actions, like suggestive selling, can drive real results. The cashier decided on her own to recommend a matching book with each stuffed-animal purchase, which is textbook suggestive selling, and sales of book-and-toy combinations rose noticeably, a direct line from one front-line employee's behavior to a measurable company result. Formal sales training is not what changed behavior here: the stem states the cashier began suggesting the book without being asked by management, so the initiative was hers rather than a program's. Seasonal traffic explaining most sales increases points to a cause the stem does not offer, and what rose was specifically the book-and-toy combination, the exact pairing the cashier was recommending, not overall museum attendance. Product displays driving add-on sales names a real merchandising tactic, but nothing in the gift shop was rearranged or displayed differently; the add-on came from what the cashier said at the register.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0096",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Demonstrate connections between company actions and results",
+    "question": "A community credit union begins offering free financial-literacy workshops to local high school students. A year later, new youth account openings have risen substantially. What does this scenario best demonstrate?",
+    "options": {
+      "A": "Youth account openings are unrelated to community programs",
+      "B": "Financial-literacy workshops have no effect on credit union results",
+      "C": "Only advertising, not community outreach, drives account growth",
+      "D": "Company actions like outreach connect to measurable results"
+    },
+    "answer": "D",
+    "explanation": "Company actions like outreach connect to measurable results. The rise in youth account openings following the workshops shows a clear, traceable connection between a specific company action, community outreach, and a measurable business outcome. Claiming account openings are unrelated to community programs contradicts the very pattern described in the scenario. Saying the workshops had no effect ignores the substantial rise in accounts that followed them. Insisting only advertising drives account growth overlooks the fact that no advertising campaign was mentioned; the growth followed directly from the community program itself.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0097",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Discuss human resources management",
+    "question": "A fast-growing orthodontics practice with five locations has been handling hiring, payroll, and training inconsistently across offices, with no single person responsible for these functions. What is the most likely benefit of establishing a dedicated human resources management function?",
+    "options": {
+      "A": "It would remove the need for any office managers at each site",
+      "B": "It would guarantee that no employee ever leaves the company",
+      "C": "It would coordinate hiring and training consistently across sites",
+      "D": "It would replace the need for any payroll system entirely"
+    },
+    "answer": "C",
+    "explanation": "It would coordinate hiring and training consistently across sites. Human resources management exists to standardize and coordinate functions like hiring, training, and policy enforcement across an organization, which would directly solve the inconsistency the practice is experiencing across its five offices. Eliminating office managers is not a function of HR and is unrelated to the problem described. Guaranteeing no employee ever leaves is an unrealistic outcome that no HR function can promise. Replacing the need for a payroll system entirely confuses HR's coordinating role with a specific software tool; HR would typically oversee payroll consistency, not eliminate the need for a system altogether.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0098",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Orient new employees",
+    "question": "A new delivery driver at an event rental company is handed the keys to a company van on the first day with no introduction to safety procedures, company policies, or coworkers. What is the most significant problem with this approach?",
+    "options": {
+      "A": "The company should have required the driver to buy the van",
+      "B": "The company failed to orient the employee, raising error risk",
+      "C": "Nothing is wrong, since experienced drivers skip orientation",
+      "D": "The company should have delayed the driver's start date"
+    },
+    "answer": "B",
+    "explanation": "The company failed to orient the employee, raising error risk. Orienting new employees means introducing them to company policies, safety procedures, and coworkers so they can perform their job correctly and feel connected to the organization, and skipping this step leaves the driver unprepared and more likely to make costly or unsafe mistakes. Requiring the employee to purchase a van makes no sense in this context and does not relate to orientation at all. Claiming nothing is wrong ignores that even experienced drivers need to learn this specific company's policies and procedures. Delaying the start date by months is an unnecessary and impractical overcorrection when a proper first-day orientation would solve the problem.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0099",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Explain risk management",
+    "question": "A home renovation contractor requires every subcontractor to carry liability insurance and hold a valid license before working on any client project. This practice is best described as an example of",
+    "options": {
+      "A": "risk management, since it limits exposure to potential losses",
+      "B": "market segmentation, targeting one subcontractor audience",
+      "C": "product differentiation, distinguishing the contractor's work",
+      "D": "channel management, controlling the flow of subcontractors"
+    },
+    "answer": "A",
+    "explanation": "Risk management, since it limits exposure to potential losses. Risk management involves taking deliberate steps to reduce a business's exposure to financial or legal loss, and requiring insurance and licensing from every subcontractor protects the contractor if a subcontractor causes damage or gets injured on the job. This is not market segmentation, which involves dividing customers into groups based on shared characteristics, not screening subcontractors. It is not product differentiation, since the requirement does not change or distinguish the service offered to clients. It is not channel management, which concerns moving goods and services from producer to consumer, not vetting the contractors who perform the work.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-association-2-0100",
+    "cluster": "marketing",
+    "level": "Association",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Conduct risk assessment of an event",
+    "question": "An organizer of an outdoor community food festival is deciding whether to proceed as planned given a forecast showing a moderate chance of severe thunderstorms. Before making the decision, what should the organizer do first?",
+    "options": {
+      "A": "Cancel automatically since any storm chance is too risky",
+      "B": "Ignore the forecast since weather predictions are unreliable",
+      "C": "Let each vendor decide individually with no festival-wide plan",
+      "D": "Assess the storm's likely impact on attendees, vendors, and costs"
+    },
+    "answer": "D",
+    "explanation": "Assess the storm's likely impact on attendees, vendors, and costs. Conducting a risk assessment of an event means systematically evaluating how likely a threat is to occur and how severe its consequences would be before deciding how to respond, which here means weighing attendee safety, vendor losses, and financial costs before choosing whether to proceed, postpone, or add contingency plans. Canceling automatically at the first mention of any storm chance skips the assessment process entirely and may waste the event unnecessarily. Ignoring the forecast dismisses relevant risk information without evaluating it. Allowing each vendor to decide individually creates an inconsistent, uncoordinated response instead of a single, informed, festival-wide risk assessment.",
+    "difficulty": "easy",
+    "verified": true
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "area": "channel_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/channel_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Channel of distribution",
+      "definition": "The path a product takes from producer or provider to the final customer.",
+      "whyItMatters": "Channel choices affect convenience, cost, access, and customer experience.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Direct channel",
+      "definition": "A distribution path where a producer sells straight to customers with no intermediaries.",
+      "whyItMatters": "Direct channels maximize control and margin but demand more sales and logistics effort.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Indirect channel",
+      "definition": "A distribution path where one or more intermediaries sit between producer and customer.",
+      "whyItMatters": "Indirect channels widen reach and share costs but reduce producer control.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Intermediary",
+      "definition": "A business between producer and customer, such as a retailer, wholesaler, or agent.",
+      "whyItMatters": "Intermediaries expand reach but add cost and control tradeoffs.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Wholesaler",
+      "definition": "An intermediary that buys goods in bulk from producers and resells them to retailers.",
+      "whyItMatters": "Wholesalers aggregate inventory and provide the logistics that enable retail networks.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Retailer",
+      "definition": "An intermediary that buys from wholesalers or producers and sells to final consumers.",
+      "whyItMatters": "Retailers provide the accessible point of sale that completes the distribution chain.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Agent",
+      "definition": "An intermediary that helps buy or sell on a producer's behalf without taking title to goods.",
+      "whyItMatters": "Agents lower channel cost by handling transactions without holding inventory.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Intensive distribution",
+      "definition": "A strategy to make a product available in as many outlets as possible.",
+      "whyItMatters": "It maximizes convenience and market penetration for high-demand goods.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Selective distribution",
+      "definition": "Selling through a limited number of carefully chosen intermediaries in an area.",
+      "whyItMatters": "It balances accessibility with brand control and partner profitability.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Exclusive distribution",
+      "definition": "Appointing only one or a few intermediaries to sell in a territory.",
+      "whyItMatters": "It gives partners strong incentives and control, ideal for premium products.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Supply chain",
+      "definition": "The sequence of organizations that produce and deliver a product from materials to customer.",
+      "whyItMatters": "Understanding it lets a business optimize cost, quality, and delivery in channel decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Channel conflict",
+      "definition": "Disagreement between channel members over goals, territories, or profits.",
+      "whyItMatters": "Conflict damages efficiency; resolving it is key to long-term channel health.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Channel-member relationship",
+      "definition": "The ongoing cooperation between a producer and its intermediary partners.",
+      "whyItMatters": "Strong relationships reduce conflict, align incentives, and improve performance.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Affinity partner",
+      "definition": "A non-competing business that partners to offer complementary products to shared customers.",
+      "whyItMatters": "Affinity partnerships extend reach and value without adding intermediaries.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Logistics",
+      "definition": "The management of the flow of goods — storage, transportation, and delivery.",
+      "whyItMatters": "Logistics efficiency drives channel cost, speed, and customer satisfaction.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    }
+  ]
+}

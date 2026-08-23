@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0007",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Business Law",
+  "performanceIndicators": [
+    {
+      "area": "Business Law",
+      "pi": "Identify the basic torts relating to business enterprises",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Comply with the spirit and intent of laws and regulations",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Explain the nature of agency relationships",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Describe the nature of customs regulations",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of product/service branding.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Recognize and respond to ethical dilemmas.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Reinforce service orientation through communication.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "This is a team decision-making event that requires two (2) participants. The event is presented to the participant team through its reading of the 21st Century Skills, the Performance Indicators, and the Case Study Situation. The participant team has thirty (30) minutes to review the case study situation, develop a solution, and prepare its presentation. The participant team then has fifteen (15) minutes to present its recommendation to the judge and respond to the judge's questions. Both members of the participant team must participate in the presentation and in answering the judge's questions. All notes and materials are turned in to the judge at the end of the presentation.",
+  "situation": "You are the operations manager and the compliance manager, the participant team, at ANCHORLINE PACKAGING CO., a regional supplier of tamper-evident, compliance-grade packaging for pharmaceutical and nutraceutical manufacturers. The vice president of operations (judge) has asked the participant team to meet before the end of the day. Anchorline built its name over eighteen years on a spotless customs and quality record, and the vice president of operations (judge) now wants the participant team's joint recommendation on a matter that has already reached the ownership group and cannot wait for the next scheduled review.\n\nAnchorline's growth has come from serving pharmaceutical clients who depend on its packaging to protect both product safety and their own brand names on the shelf. Six months ago the company opened its first plant outside its home state, its first true out-of-state expansion, built around a multi-year contract with a large new client. That plant runs on imported barrier film that must be logged against its customs entry paperwork before every changeover, a rule that exists because pharmaceutical clients audit that chain of custody directly during their own supplier reviews.\n\nThe new plant has three lines, and orders booked before the ribbon cutting already fill them past capacity most weeks. Two weeks ago the flagship line's supervisor, Anchorline's strongest performer and the person most responsible for the plant hitting its startup targets, skipped the customs logging step during a changeover so the line would not lose an hour it needed to finish the new client's rush order on schedule. That hour instead came out of a long-standing customer's contracted run, which shipped four days late.\n\nThe long-standing customer noticed and asked why a newer account came first. Nothing was contaminated and no shipment was rejected at customs, but the compliance file for that changeover is incomplete, and an unannounced audit could surface the gap within weeks. Some on the leadership team want the supervisor formally disciplined to keep the file defensible, even though pulling him off the line for any stretch would slow the ramp-up. Others want the matter handled quietly, though a lighter response could read, to the next employee tempted by the same shortcut, as permission.\n\nThe vice president of operations (judge) wants a recommendation on how to respond to the supervisor's decision to bypass a documented compliance step, and on how the plant should decide whose order comes first the next time its lines are booked past capacity. Any answer needs to hold up if the long-standing customer asks how Anchorline treats a rule it expects every employee to follow, and if the supervisor's own crews ask why leadership responded to this shortcut differently than it would to anyone else's.\n\nThe vice president of operations (judge) will greet the participant team at the start of the meeting and ask the team to walk through its recommendation for the supervisor and for how the plant assigns its limited line time going forward. The vice president of operations (judge) has not indicated a preference either way and wants to hear the team's reasoning in full. After the team presents and answers questions, the vice president of operations (judge) will thank the team for its work and close the meeting.",
+  "judgeCharacterization": "You are the vice president of operations (judge) of ANCHORLINE PACKAGING CO. Business background is the same as the situation above. You have asked the operations manager and the compliance manager (participant team) to recommend how to respond to the flagship line supervisor who bypassed the required customs logging step to protect the new client's rush order, a decision that pushed a long-standing customer's contracted shipment four days late. You want the participant team's recommendation for the supervisor and for how the plant should decide whose order comes first the next time its three lines are booked past capacity.\n\nYou will greet the participant team, listen to its recommendation, and ask the following questions:",
+  "judgeQuestions": [
+    "If you discipline the supervisor, how would you know a year from now whether that was the right call?",
+    "What will you tell the long-standing customer about why its order was pushed back?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the customs logging requirement for every changeover",
+        "the multi-year contract with the new client that the plant was built around",
+        "the long-standing customer's contracted shipment date"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the customs logging requirement for every changeover",
+        "the multi-year contract with the new client that the plant was built around",
+        "the long-standing customer's contracted shipment date"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 534,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "packaging supplier to a regulated industry",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "the discipline of a high performer who broke a rule",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "ask how they would know afterwards whether the decision was right"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0007",
+      "shelfSimilarity": 0.0662,
+      "shelfNearest": "BLTDM-0001",
+      "exemplarSimilarity": 0.0442,
+      "gateVersion": 5
+    }
+  }
+}

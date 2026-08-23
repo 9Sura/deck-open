@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-08-01-BLTDM",
+  "date": "2026-08-01",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc-plus",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    "Write professional emails",
+    "Respond to customer inquiries",
+    "Describe the nature of customs regulations",
+    "Participate in group discussions",
+    "Explain private enterprise",
+    "Describe the United States' judicial system",
+    "Explain the role of ethics in customer relationship management"
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking",
+    "Problem Solving",
+    "Communication and Collaboration",
+    "Creativity and Innovation"
+  ],
+  "participantInstructions": "This event is presented through the participant's reading of the 21st Century Skills, Performance Indicators, and the case study situation. The preparation time is 30 minutes; the presentation time is 15 minutes for two participants to present together. No judge questions are included in this event format. All members of the team must participate in the presentation and answer any questions posed by the judges. Participants will be evaluated on how well they meet the performance indicators, and all notes and materials must be turned in at the end.",
+  "situation": "You are Jennifer Lee, a Legal Compliance Officer at Global Trade Solutions (GTS), a mid-sized international logistics company based in New York City. Your colleague, Michael Chen, is the Customer Service Manager. You have been asked to meet with your supervisor, Vice President of Operations, Sarah Johnson, regarding an ethical dilemma that has arisen involving customs regulations and customer service.\n\nGlobal Trade Solutions specializes in handling shipments for small and medium-sized businesses across North America and Europe. Founded in 2010, GTS started as a small operation focusing on New York State but quickly expanded its reach to Canada and several European countries by 2015. The company prides itself on its commitment to compliance and transparency but also values maintaining strong client relationships. Recently, GTS received a shipment from one of its long-standing clients, Tech Innovations Inc., which included electronics that were slightly over the declared value. Upon discovery by customs authorities in Canada, the discrepancy has caused delays and additional fees for Tech Innovations Inc.\n\nTech Innovations Inc. is an established private enterprise with a significant market share in their sector. They rely heavily on GTS to manage their international shipments efficiently. The company's CEO, Linda Martinez, has reached out expressing concern over the delay and potential financial impact of the customs issues. Meanwhile, your compliance team has identified several other clients who have similarly under-declared values but are currently undetected.\n\nJennifer Lee believes that full transparency is crucial for maintaining ethical standards within GTS. She argues that proactively informing all affected customers about the issue would prevent future legal complications and uphold the company’s commitment to integrity. However, this approach could strain relationships with clients who may see it as an unnecessary intrusion into their business practices, leading them to seek alternative logistics providers.\n\nMichael Chen emphasizes the importance of client satisfaction and operational efficiency at GTS. He argues that resolving each case individually when they arise would be less disruptive for clients while still addressing compliance issues. This strategy minimizes immediate disruptions caused by proactive disclosure but risks overlooking deeper systemic problems that could lead to repeated violations and increased scrutiny from regulatory bodies.\n\nLinda Martinez, CEO of Tech Innovations Inc., is concerned about the financial impact of customs delays and additional fees resulting from undeclared values in shipments. She sees potential for significant damage to her company’s reputation if such issues become public knowledge through GTS's proactive disclosure policy. Moreover, she fears that addressing these issues now could set a precedent for increased scrutiny on future transactions, complicating business operations.\n\nThe decision at hand must balance legal compliance and customer relations, requiring careful consideration of both ethical standards and operational efficiency. Jennifer Lee advocates for transparency to prevent further complications, while Michael Chen supports an approach focused on resolving each issue individually as it arises. Linda Martinez highlights the potential financial and reputational risks associated with proactive disclosure but also acknowledges the importance of long-term compliance.\n\nBinding constraints include specific limits such as regulatory requirements set by customs authorities in North America and Europe regarding declared values for imported goods, which mandate precise documentation to avoid penalties and delays. Additionally, GTS's internal policy on customer confidentiality restricts how much information can be shared with clients about other customers' shipments without explicit consent. These factors complicate the decision-making process and underscore the need for a balanced approach that respects both legal obligations and client expectations.\n\nThe company background reveals that since its founding in 2010, GTS has grown from handling 50 shipments per month to managing over 3,000 monthly transactions by 2022. This growth has been driven by strategic partnerships with key clients like Tech Innovations Inc., which relies on GTS for consistent and reliable logistics services. However, this expansion also brought increased scrutiny from customs authorities regarding compliance issues such as under-declared values in shipments.\n\nYour meeting will begin with Sarah Johnson greeting you and Michael Chen. She will ask for your analysis of the situation and recommendations on how to proceed.",
+  "judgeCharacterization": "Business background is the same as the situation above. Sarah Johnson wants Jennifer Lee and Michael Chen to analyze whether GTS should proactively inform all affected customers about the customs issue or handle each case individually upon discovery. She will ask questions that probe their reasoning and decision-making processes regarding compliance, customer relations, and ethical standards.",
+  "judgeQuestions": [
+    "Justify which option you chose and weigh it against the alternative you rejected.",
+    "Assess how you would measure whether legal compliance has actually been met.",
+    "Linda Martinez argues that proactive communication will damage client trust irreparably. Defend your recommendation against this argument."
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [
+        "Linda Martinez - CEO of Tech Innovations Inc., focused on maintaining trust through proactive communication",
+        "Sarah Johnson - VP Operations, concerned about operational efficiency and compliance",
+        "Michael Chen - Customer Service Manager, balancing customer satisfaction and company policy"
+      ],
+      "constraints": [
+        "Proactive communication may cause short-term financial strain for clients",
+        "Individual case resolution delays shipments and affects client trust",
+        "Maintaining legal compliance is a hard requirement"
+      ],
+      "conflicts": [
+        "Proactive communication conflicts with individual case resolution to avoid immediate issues",
+        "Operational efficiency conflicts with maintaining long-term customer relationships",
+        "Legal compliance conflicts with customer service standards"
+      ],
+      "exhibit": "EXHIBIT 1: CUSTOMS FEES AND FINES"
+    },
+    "corroborated": {
+      "stakeholders": [
+        "Linda Martinez - CEO of Tech Innovations Inc., focused on maintaining trust through proactive communication",
+        "Sarah Johnson - VP Operations, concerned about operational efficiency and compliance",
+        "Michael Chen - Customer Service Manager, balancing customer satisfaction and company policy"
+      ],
+      "constraints": [
+        "Proactive communication may cause short-term financial strain for clients",
+        "Individual case resolution delays shipments and affects client trust",
+        "Maintaining legal compliance is a hard requirement"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": false,
+      "failedKnobs": [
+        "K3",
+        "K7"
+      ],
+      "issues": [
+        "K7: situation is 661 words, floor is 700",
+        "K3: no labelled data exhibit found"
+      ]
+    },
+    "situationWords": 661,
+    "generator": {
+      "model": "qwen2.5:14b-instruct",
+      "passes": 2
+    },
+    "defects": [
+      "prompt-leak:QUALITY BAR",
+      "boilerplate:denies-judge-questions"
+    ]
+  }
+}

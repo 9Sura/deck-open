@@ -1,0 +1,136 @@
+{
+  "area": "entrepreneurship",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/entrepreneurship.txt"
+  ],
+  "terms": [
+    {
+      "term": "Entrepreneur",
+      "definition": "A person who spots an opportunity and creates, owns, and runs a new venture.",
+      "whyItMatters": "Entrepreneurship events center on the owner's role in decisions and strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Opportunity recognition",
+      "definition": "Identifying unmet market needs or underserved customer segments.",
+      "whyItMatters": "Judges assess how well competitors spot a genuine market need.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Feasibility study",
+      "definition": "An analysis of whether a business idea is achievable, viable, and sustainable.",
+      "whyItMatters": "It justifies recommendations and addresses resource constraints.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Bootstrapping",
+      "definition": "Funding a venture from personal savings and reinvested revenue, not outside capital.",
+      "whyItMatters": "Many scenarios require building a business with limited resources.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Sole proprietorship",
+      "definition": "An unincorporated business owned by one person who keeps all profit and liability.",
+      "whyItMatters": "Business structure shapes taxes, liability, and control for a new venture.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Partnership",
+      "definition": "An unincorporated business owned by two or more people sharing profit and liability.",
+      "whyItMatters": "Structure decisions matter when multiple founders share ownership and risk.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Corporation",
+      "definition": "A legal entity separate from its owners that limits liability and can sell stock.",
+      "whyItMatters": "Scaling ventures often incorporate to attract investors and protect founders.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Limited liability company",
+      "definition": "A hybrid structure combining corporate liability protection with partnership flexibility.",
+      "whyItMatters": "An LLC suits small ventures wanting protection without complex governance.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Franchising",
+      "definition": "An arrangement granting the right to operate under an established brand and model.",
+      "whyItMatters": "Franchising is a lower-risk path competitors may recommend over an original build.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Intellectual property",
+      "definition": "Legal protections such as patents, trademarks, copyrights, and trade secrets.",
+      "whyItMatters": "Protecting IP matters when advantage depends on innovation or brand identity.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Business ethics",
+      "definition": "Moral principles guiding honest, fair, responsible business decisions.",
+      "whyItMatters": "Ethical reasoning is tested; competitors must balance profit with integrity.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Scalability",
+      "definition": "A business's capacity to grow revenue and reach without a matching rise in cost.",
+      "whyItMatters": "Judges assess whether a proposed venture can grow efficiently.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Minimum viable product",
+      "definition": "A basic first version of a product used to test demand and gather feedback.",
+      "whyItMatters": "An MVP validates an idea cheaply before heavy development.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Pivot",
+      "definition": "A major shift in a venture's direction, product, or market based on feedback.",
+      "whyItMatters": "Entrepreneurs must adapt and justify course corrections when assumptions fail.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "International trade",
+      "definition": "The exchange of goods, services, and capital across national borders.",
+      "whyItMatters": "A PI targets small-business opportunity in tariffs, logistics, and culture abroad.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Angel investor",
+      "definition": "An individual who funds an early-stage startup in exchange for equity.",
+      "whyItMatters": "Angels are a realistic funding source competitors weigh against loans or savings.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    }
+  ]
+}

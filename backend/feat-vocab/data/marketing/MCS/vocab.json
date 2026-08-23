@@ -1,0 +1,625 @@
+{
+  "version": 1,
+  "cluster": "marketing",
+  "event": {
+    "code": "MCS",
+    "name": "Marketing Communications Series",
+    "format": "series"
+  },
+  "instructionalAreas": [
+    "promotion",
+    "information_management",
+    "customer_relations",
+    "emotional_intelligence",
+    "market_planning",
+    "marketing",
+    "product_service_management"
+  ],
+  "sourceNotes": [
+    "Seeded from MCS roleplay performance indicators and marketing cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Promotion",
+      "slug": "promotion",
+      "definition": "Communication that informs, persuades, and reminds customers about offerings.",
+      "whyItMatters": "Promotion choices must fit the audience, message, and budget.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Information",
+      "slug": "information",
+      "definition": "Facts and figures that have been processed into a meaningful, usable form for decisions.",
+      "whyItMatters": "Competitors must know that raw data becomes useful only once it is organized and interpreted.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Emotional intelligence",
+      "slug": "emotional-intelligence",
+      "definition": "The ability to understand and manage emotions in yourself and others.",
+      "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Marketing strategy",
+      "slug": "marketing-strategy",
+      "definition": "The overall approach a business uses to reach customers and meet marketing goals.",
+      "whyItMatters": "Case studies require strategies that fit business objectives and market conditions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Marketing",
+      "slug": "marketing",
+      "definition": "The process of creating, communicating, and delivering value to customers.",
+      "whyItMatters": "This is the umbrella concept behind many cluster and roleplay decisions.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Product/service management",
+      "slug": "product-service-management",
+      "definition": "Planning, developing, marketing, and managing offerings across their life.",
+      "whyItMatters": "It ensures offerings meet customer needs and generate sustainable revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Promotional mix",
+      "slug": "promotional-mix",
+      "definition": "The blend of advertising, publicity, sales promotion, and personal selling.",
+      "whyItMatters": "A mix lets competitors recommend more than one communication path.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Data",
+      "slug": "data",
+      "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
+      "whyItMatters": "All information management begins with knowing what counts as reliable data.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-esteem",
+      "slug": "self-esteem",
+      "definition": "A realistic sense of your own value and capabilities.",
+      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Market identification",
+      "slug": "market-identification",
+      "definition": "Discovering and defining the markets where a business can sell its offering.",
+      "whyItMatters": "Identifying the right market is the foundation of any marketing plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Brand image",
+      "slug": "brand-image",
+      "definition": "The overall impression customers have of a business or product.",
+      "whyItMatters": "Image affects trust, loyalty, and perceived value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Product life cycle",
+      "slug": "product-life-cycle",
+      "definition": "The stages a product passes through: introduction, growth, maturity, and decline.",
+      "whyItMatters": "The stage a product is in drives its marketing, pricing, and distribution.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Advertising",
+      "slug": "advertising",
+      "definition": "Paid, nonpersonal communication delivered through media to large audiences.",
+      "whyItMatters": "Advertising builds broad brand awareness efficiently and at scale.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Database",
+      "slug": "database",
+      "definition": "An organized, computer-managed collection of related data that can be stored and retrieved systematically.",
+      "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-confidence",
+      "slug": "self-confidence",
+      "definition": "Belief in your ability to perform well and reach your goals.",
+      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Target market",
+      "slug": "target-market",
+      "definition": "The specific customer group a business chooses as its primary marketing audience.",
+      "whyItMatters": "Recommendations are stronger when they name a specific audience.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Consumer",
+      "slug": "consumer",
+      "definition": "A person who buys and uses goods and services.",
+      "whyItMatters": "Naming the consumer keeps recommendations grounded in who actually benefits.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Product mix",
+      "slug": "product-mix",
+      "definition": "The full range of products and services a company offers.",
+      "whyItMatters": "Product-mix decisions shape positioning, resources, and revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Sales promotion",
+      "slug": "sales-promotion",
+      "definition": "Short-term incentives like coupons, contests, and discounts that spur purchases.",
+      "whyItMatters": "Promotions drive quick sales, trial, and inventory clearance.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Spreadsheet",
+      "slug": "spreadsheet",
+      "definition": "A software application that organizes data in rows and columns for calculation and analysis.",
+      "whyItMatters": "Spreadsheets are a core business tool competitors are expected to use comfortably.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Initiative",
+      "slug": "initiative",
+      "definition": "Taking independent action to solve problems or seize opportunities.",
+      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Marketing plan",
+      "slug": "marketing-plan",
+      "definition": "A written document laying out marketing objectives, strategies, and tactics for a period.",
+      "whyItMatters": "The plan guides all promotional and customer-facing decisions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Goods",
+      "slug": "goods",
+      "definition": "Tangible products that satisfy customer needs and wants.",
+      "whyItMatters": "Distinguishing goods from services shapes how a business markets and delivers value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Product line",
+      "slug": "product-line",
+      "definition": "A group of related products sold under one brand or category.",
+      "whyItMatters": "Line decisions balance customer choice against cost and complexity.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Personal selling",
+      "slug": "personal-selling",
+      "definition": "Direct, person-to-person communication to inform, persuade, and build relationships.",
+      "whyItMatters": "It enables customized pitches and problem-solving for high-value sales.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Business records",
+      "slug": "business-records",
+      "definition": "Documents and files that capture a business's transactions, operations, and decisions.",
+      "whyItMatters": "Accurate records are required for compliance, accountability, and historical reference.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Integrity",
+      "slug": "integrity",
+      "definition": "Acting truthfully and holding to strong moral principles in all dealings.",
+      "whyItMatters": "Integrity builds the trust that a business reputation depends on.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Situation analysis",
+      "slug": "situation-analysis",
+      "definition": "An assessment of internal and external factors affecting a business's marketing.",
+      "whyItMatters": "Understanding the situation must come before any recommendation.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Services",
+      "slug": "services",
+      "definition": "Intangible activities that satisfy customer needs and wants.",
+      "whyItMatters": "Services require different quality, staffing, and marketing choices than goods.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Product bundling",
+      "slug": "product-bundling",
+      "definition": "Grouping related products and selling them as one package.",
+      "whyItMatters": "Bundling raises transaction value and perceived value.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Public relations",
+      "slug": "public-relations",
+      "definition": "Activities that build positive relationships with the public and media.",
+      "whyItMatters": "PR manages image, trust, and credibility through third-party voices.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Information system",
+      "slug": "information-system",
+      "definition": "The combination of hardware, software, data, and people used to collect, process, store, and share information.",
+      "whyItMatters": "Understanding systems is key when competitors evaluate technology investments.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Ethical dilemma",
+      "slug": "ethical-dilemma",
+      "definition": "A situation where two or more moral principles conflict and demand judgment.",
+      "whyItMatters": "Recognizing and resolving dilemmas is central to leadership and compliance.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "SWOT analysis",
+      "slug": "swot-analysis",
+      "definition": "A review of a business's strengths, weaknesses, opportunities, and threats.",
+      "whyItMatters": "SWOT gives a structured frame for the situation analysis behind a plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Customer value",
+      "slug": "customer-value",
+      "definition": "The benefit a customer believes they receive compared with the cost or effort.",
+      "whyItMatters": "Value helps explain why a customer chooses one offer over another.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Corporate branding",
+      "slug": "corporate-branding",
+      "definition": "Building a company's overall reputation and identity across its offerings.",
+      "whyItMatters": "Strong corporate branding creates loyalty and justifies premium pricing.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Publicity",
+      "slug": "publicity",
+      "definition": "Unpaid media coverage generated through PR, news, and referrals.",
+      "whyItMatters": "Publicity builds credibility through sources other than paid ads.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Environmental scan",
+      "slug": "environmental-scan",
+      "definition": "A systematic review of external conditions, competitor activity, and market trends.",
+      "whyItMatters": "Scanning the environment lets competitors spot opportunities and threats before deciding.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-control",
+      "slug": "self-control",
+      "definition": "The ability to manage impulses, emotions, and reactions under pressure.",
+      "whyItMatters": "Self-control prevents costly mistakes and keeps interactions professional.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Market segmentation",
+      "slug": "market-segmentation",
+      "definition": "Dividing a market into distinct groups of customers with similar needs.",
+      "whyItMatters": "Segmentation lets a business target specific customer groups effectively.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Buying behavior",
+      "slug": "buying-behavior",
+      "definition": "The way customers decide what, when, where, and why to purchase.",
+      "whyItMatters": "Understanding buying-behavior factors lets competitors target the right message and offer.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Product positioning",
+      "slug": "product-positioning",
+      "definition": "How a product is differentiated in the market and in customers' minds.",
+      "whyItMatters": "Clear positioning conveys unique value and targets the right segments.",
+      "tags": [
+        "marketing",
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Advertising media",
+      "slug": "advertising-media",
+      "definition": "The channels ads run on — TV, radio, print, digital, outdoor, and social.",
+      "whyItMatters": "Choosing the right media reaches the target audience cost-effectively.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    }
+  ]
+}

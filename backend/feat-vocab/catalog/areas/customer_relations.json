@@ -1,0 +1,120 @@
+{
+  "area": "customer_relations",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/customer_relations.txt"
+  ],
+  "terms": [
+    {
+      "term": "Customer relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Customer inquiry",
+      "definition": "A question or request from a customer seeking information or help.",
+      "whyItMatters": "Prompt, accurate responses signal genuine customer commitment.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Complaint handling",
+      "definition": "The process of addressing and resolving customer concerns.",
+      "whyItMatters": "Handled well, a complaint becomes a loyalty opportunity.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Difficult customer",
+      "definition": "A customer who is unhappy, demanding, or hard to work with.",
+      "whyItMatters": "Managing them calmly prevents escalation and shows professionalism.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Company image",
+      "definition": "The public perception and reputation a business holds in the marketplace.",
+      "whyItMatters": "Every interaction either reinforces or erodes that image.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Business policy",
+      "definition": "Rules and procedures a company sets to guide operations and customer interactions.",
+      "whyItMatters": "Interpreting policy fairly to customers builds trust and prevents disputes.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Customer relationship management (CRM)",
+      "definition": "Systems and strategies for managing customer data, interactions, and relationships.",
+      "whyItMatters": "CRM tracks preferences and delivers personalized service at scale.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Customer lifetime value (CLV)",
+      "definition": "The total profit a business expects from a customer over the whole relationship.",
+      "whyItMatters": "CLV guides how much to invest in retention and service.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    }
+  ]
+}

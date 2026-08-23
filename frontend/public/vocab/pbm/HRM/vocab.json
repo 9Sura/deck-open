@@ -1,0 +1,621 @@
+{
+  "version": 1,
+  "cluster": "pbm",
+  "event": {
+    "code": "HRM",
+    "name": "Human Resources Management Series",
+    "format": "series"
+  },
+  "instructionalAreas": [
+    "emotional_intelligence",
+    "human_resources_management",
+    "information_management",
+    "economics",
+    "communication_skills",
+    "customer_relations"
+  ],
+  "sourceNotes": [
+    "Seeded from HRM roleplay performance indicators and business administration core exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Job description",
+      "slug": "job-description",
+      "definition": "A written summary of a job's duties, qualifications, and expectations.",
+      "whyItMatters": "Job descriptions guide hiring, training, and evaluation.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/HRM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Employee relations",
+      "slug": "employee-relations",
+      "definition": "HR activities that maintain positive relationships between employees and the business.",
+      "whyItMatters": "Employee relations supports morale, retention, and conflict handling.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/HRM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Workplace culture",
+      "slug": "workplace-culture",
+      "definition": "The shared values, norms, and behaviors within an organization.",
+      "whyItMatters": "Culture affects hiring, service, communication, and performance.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/HRM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Emotional intelligence",
+      "slug": "emotional-intelligence",
+      "definition": "The ability to understand and manage emotions in yourself and others.",
+      "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Human resources management",
+      "slug": "human-resources-management",
+      "definition": "The function that recruits, develops, and manages employees to meet organizational goals.",
+      "whyItMatters": "HR decisions shape staffing quality, service delivery, and culture.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Information",
+      "slug": "information",
+      "definition": "Facts and figures that have been processed into a meaningful, usable form for decisions.",
+      "whyItMatters": "Competitors must know that raw data becomes useful only once it is organized and interpreted.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Active listening",
+      "slug": "active-listening",
+      "definition": "Giving full attention, checking understanding, and responding thoughtfully to a speaker.",
+      "whyItMatters": "Judges expect competitors to handle questions and concerns clearly.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-esteem",
+      "slug": "self-esteem",
+      "definition": "A realistic sense of your own value and capabilities.",
+      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Recruitment",
+      "slug": "recruitment",
+      "definition": "The process of finding and attracting qualified candidates for open positions.",
+      "whyItMatters": "Effective recruitment ensures a business has the talent to meet its needs.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Data",
+      "slug": "data",
+      "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
+      "whyItMatters": "All information management begins with knowing what counts as reliable data.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Nonverbal cues",
+      "slug": "nonverbal-cues",
+      "definition": "Signals such as facial expressions, gestures, and posture that carry meaning without words.",
+      "whyItMatters": "Reading cues lets competitors adjust to a customer's or judge's reaction.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-confidence",
+      "slug": "self-confidence",
+      "definition": "Belief in your ability to perform well and reach your goals.",
+      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Job analysis",
+      "slug": "job-analysis",
+      "definition": "A systematic study of a job's duties, responsibilities, and required skills.",
+      "whyItMatters": "It informs hiring standards and identifies the right competencies for a role.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Database",
+      "slug": "database",
+      "definition": "An organized, computer-managed collection of related data that can be stored and retrieved systematically.",
+      "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Group discussion",
+      "slug": "group-discussion",
+      "definition": "A structured conversation among several people to share ideas and reach conclusions.",
+      "whyItMatters": "Team events depend on effective group discussion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Initiative",
+      "slug": "initiative",
+      "definition": "Taking independent action to solve problems or seize opportunities.",
+      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Spreadsheet",
+      "slug": "spreadsheet",
+      "definition": "A software application that organizes data in rows and columns for calculation and analysis.",
+      "whyItMatters": "Spreadsheets are a core business tool competitors are expected to use comfortably.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Professional email",
+      "slug": "professional-email",
+      "definition": "A formal written message with a clear subject, correct grammar, and appropriate tone.",
+      "whyItMatters": "Written events reward mastery of email conventions.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Integrity",
+      "slug": "integrity",
+      "definition": "Acting truthfully and holding to strong moral principles in all dealings.",
+      "whyItMatters": "Integrity builds the trust that a business reputation depends on.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Onboarding",
+      "slug": "onboarding",
+      "definition": "The process of orienting and integrating new employees into the organization.",
+      "whyItMatters": "Strong onboarding speeds productivity and conveys company values and procedures.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Business records",
+      "slug": "business-records",
+      "definition": "Documents and files that capture a business's transactions, operations, and decisions.",
+      "whyItMatters": "Accurate records are required for compliance, accountability, and historical reference.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Business letter",
+      "slug": "business-letter",
+      "definition": "A formal document in standard format used for official outside communication.",
+      "whyItMatters": "Judges expect correct formatting, tone, and structure.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Ethical dilemma",
+      "slug": "ethical-dilemma",
+      "definition": "A situation where two or more moral principles conflict and demand judgment.",
+      "whyItMatters": "Recognizing and resolving dilemmas is central to leadership and compliance.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Training and development",
+      "slug": "training-and-development",
+      "definition": "Programs that build employee skills and knowledge for current and future roles.",
+      "whyItMatters": "Training improves performance, cuts turnover, and prepares people for advancement.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Information system",
+      "slug": "information-system",
+      "definition": "The combination of hardware, software, data, and people used to collect, process, store, and share information.",
+      "whyItMatters": "Understanding systems is key when competitors evaluate technology investments.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Communication styles",
+      "slug": "communication-styles",
+      "definition": "Distinct ways of delivering information chosen to fit the audience.",
+      "whyItMatters": "Adapting style builds rapport and persuades more effectively.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-control",
+      "slug": "self-control",
+      "definition": "The ability to manage impulses, emotions, and reactions under pressure.",
+      "whyItMatters": "Self-control prevents costly mistakes and keeps interactions professional.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Performance appraisal",
+      "slug": "performance-appraisal",
+      "definition": "A formal review of how well an employee meets job expectations.",
+      "whyItMatters": "Appraisals surface strengths and gaps and link development to compensation.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Environmental scan",
+      "slug": "environmental-scan",
+      "definition": "A systematic review of external conditions, competitor activity, and market trends.",
+      "whyItMatters": "Scanning the environment lets competitors spot opportunities and threats before deciding.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Verbal communication",
+      "slug": "verbal-communication",
+      "definition": "Sharing information through spoken words, including tone, pace, and clarity.",
+      "whyItMatters": "Roleplay and presentation events hinge on articulate speech.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Adaptability",
+      "slug": "adaptability",
+      "definition": "The capacity to adjust your approach and mindset when circumstances change.",
+      "whyItMatters": "Adaptability is vital for navigating market shifts and organizational change.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Compensation",
+      "slug": "compensation",
+      "definition": "The wages, salaries, bonuses, and other financial rewards given for work.",
+      "whyItMatters": "Fair, competitive pay attracts talent, motivates performance, and aids retention.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Data visualization",
+      "slug": "data-visualization",
+      "definition": "Presenting data as charts, graphs, and diagrams to reveal patterns and insights.",
+      "whyItMatters": "Visuals communicate findings faster and more persuasively than raw numbers.",
+      "tags": [
+        "communication_skills",
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "slug": "unemployment-rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Written communication",
+      "slug": "written-communication",
+      "definition": "Expressing ideas through written text organized for clarity and professionalism.",
+      "whyItMatters": "Written events score organization, grammar, tone, and persuasion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Customer inquiry",
+      "slug": "customer-inquiry",
+      "definition": "A question or request from a customer seeking information or help.",
+      "whyItMatters": "Prompt, accurate responses signal genuine customer commitment.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    }
+  ]
+}

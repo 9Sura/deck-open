@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0028",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Explain marketing and its importance in a global environment.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Discuss the relationship between promotion and marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe property features that influence customer appeal.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Coordinate channel management with other marketing activities.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain the use of social media for digital marketing.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the nature of effective written communication.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Treat others with dignity and respect.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "This is a team decision-making event that requires two (2) participants. The event is presented to the participant team through its reading of the 21st Century Skills, the Performance Indicators, and the Case Study Situation. The participant team has thirty (30) minutes to review the case study situation, develop a solution, and prepare its presentation. The participant team then has fifteen (15) minutes to present its recommendation to the judge and respond to the judge's questions. Both members of the participant team must participate in the presentation and in answering the judge's questions. All notes and materials are turned in to the judge at the end of the presentation.",
+  "situation": "You are the Marketing Director and the Franchise Relations Manager for OAKMILL SANDWICH CO., a fast-casual sandwich franchise built around bread baked fresh in every store each morning. The vice president of franchise operations (judge) has called you in ahead of an executive review to talk through a proposal moving through the newly combined leadership team. Oakmill is nine months into a merger with a similarly sized competitor, and today's conversation is about how that merger should change the way bread reaches the counter.\n\nOakmill grew its brand on the promise that customers could watch their bread come out of the oven before it went into their sandwich, and franchise marketing has leaned on that image in every campaign the company has run. Nine months ago Oakmill merged with Crescent Route Sandwiches, a chain roughly its own size that instead bakes bread overnight at three regional commissaries and trucks it to stores each morning at a noticeably lower cost per store. The combined company's board has asked operations to find the savings the merger was supposed to deliver.\n\nThe integration team has proposed converting every Oakmill location to the Crescent Route commissary model within eighteen months, projecting meaningful savings on labor and ingredient waste system-wide. Converting would also end the daily in-store baking Oakmill franchisees have built their local reputations on. It touches something the marketing and franchise teams did not expect: a large share of Oakmill's original franchise agreements grant each franchisee an exclusive territory in which no one else supplying the Oakmill name may bake bread on the premises for sale under the brand.\n\nThose territory clauses were written when Oakmill was still standalone, to guarantee franchisees that no company-run commissary would ever undercut the bakery counter customers came to watch. Converting a licensed territory to centrally baked bread without amending that language would put Oakmill at odds with agreements it signed itself; leaving those territories on in-store baking indefinitely would keep two separate supply chains running and forgo much of the savings the board is counting on. The vice president (judge) wants the team's analysis of both paths and a clear recommendation for handling the licensed territories.\n\nOakmill franchisees who hold territory rights argue the bakery is the reason customers choose their stores over the sandwich shop next door, and that losing it would cost more in walk-in traffic than the commissary would ever save in labor. Crescent Route's regional operators, who already run the centralized model profitably, argue that one combined supply chain is the only way the merger pays for itself, and that maintaining two baking systems indefinitely will raise costs rather than lower them.\n\nThe vice president of franchise operations (judge) will greet the participant team at the start of the meeting and ask to hear their ideas on how Oakmill should handle the conversion given the licensing commitments already in place, listening for a specific recommendation on the affected territories. After the presentation and the questions that follow, the vice president (judge) will thank the team for their time and close the meeting.",
+  "judgeCharacterization": "You are the vice president of franchise operations (judge) of OAKMILL SANDWICH CO., a fast-casual sandwich franchise built around bread baked fresh in every store each morning. Business background is the same as the situation above. You have asked the Marketing Director and the Franchise Relations Manager (participant team) to analyze whether converting every location to the centralized commissary model that came over with the Crescent Route merger is worth what it would cost the company in the licensed territories, and to recommend how to handle those territories.\n\nYou will greet the participant team, listen to its recommendation, and ask the following questions:",
+  "judgeQuestions": [
+    "Is it worth considering a phased rollout that leaves the licensed territories on in-store baking until their agreements can be renegotiated?",
+    "Would offering franchisees in those territories a stake in a shared regional bakery be worth exploring instead of a single central commissary?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "Oakmill's original franchise agreements grant certain franchisees an exclusive right to bake bread on-premises within their territory",
+        "The combined company's board expects the merger to deliver cost savings across the system"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "Oakmill's original franchise agreements grant certain franchisees an exclusive right to bake bread on-premises within their territory",
+        "The combined company's board expects the merger to deliver cost savings across the system"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 510,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "franchise sandwich chain",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "a licensing agreement's territory limits",
+        "dilemma_archetype": "an efficiency that costs the company its differentiator",
+        "question_shape": "ask whether a specific alternative is worth considering"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0028",
+      "shelfSimilarity": 0.0671,
+      "shelfNearest": "BLTDM-0006",
+      "exemplarSimilarity": 0.0406,
+      "gateVersion": 5
+    }
+  }
+}

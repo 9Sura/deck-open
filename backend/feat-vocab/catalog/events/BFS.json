@@ -1,0 +1,35 @@
+{
+  "code": "BFS",
+  "terms": [
+    {
+      "term": "Loan",
+      "definition": "Borrowed money that must be repaid, usually with interest.",
+      "whyItMatters": "Business finance scenarios often compare borrowing choices and repayment risk.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BFS",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Creditworthiness",
+      "definition": "A borrower's ability and willingness to repay debt.",
+      "whyItMatters": "Creditworthiness affects access to financing and interest rates.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BFS",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Return on investment",
+      "definition": "A measure of gain or benefit compared with the cost of an investment.",
+      "whyItMatters": "ROI helps justify business spending.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BFS",
+        "backend/test-gen-model/data"
+      ]
+    }
+  ]
+}

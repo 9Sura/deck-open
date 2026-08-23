@@ -1,0 +1,136 @@
+{
+  "area": "communication_skills",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/communication_skills.txt"
+  ],
+  "terms": [
+    {
+      "term": "Active listening",
+      "definition": "Giving full attention, checking understanding, and responding thoughtfully to a speaker.",
+      "whyItMatters": "Judges expect competitors to handle questions and concerns clearly.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Nonverbal cues",
+      "definition": "Signals such as facial expressions, gestures, and posture that carry meaning without words.",
+      "whyItMatters": "Reading cues lets competitors adjust to a customer's or judge's reaction.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Group discussion",
+      "definition": "A structured conversation among several people to share ideas and reach conclusions.",
+      "whyItMatters": "Team events depend on effective group discussion.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Professional email",
+      "definition": "A formal written message with a clear subject, correct grammar, and appropriate tone.",
+      "whyItMatters": "Written events reward mastery of email conventions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Business letter",
+      "definition": "A formal document in standard format used for official outside communication.",
+      "whyItMatters": "Judges expect correct formatting, tone, and structure.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Communication styles",
+      "definition": "Distinct ways of delivering information chosen to fit the audience.",
+      "whyItMatters": "Adapting style builds rapport and persuades more effectively.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Verbal communication",
+      "definition": "Sharing information through spoken words, including tone, pace, and clarity.",
+      "whyItMatters": "Roleplay and presentation events hinge on articulate speech.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Written communication",
+      "definition": "Expressing ideas through written text organized for clarity and professionalism.",
+      "whyItMatters": "Written events score organization, grammar, tone, and persuasion.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Graphic aids",
+      "definition": "Visual tools such as charts and diagrams that reinforce a message.",
+      "whyItMatters": "Competitors must select and justify aids that support their analysis.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Data visualization",
+      "definition": "Presenting numbers and trends visually so patterns are clear.",
+      "whyItMatters": "Visuals make recommendations look credible and actionable.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Professional writing formats",
+      "definition": "Standard structures for business documents such as memos, reports, and proposals.",
+      "whyItMatters": "Judges expect the correct format for each document type.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Workplace communication channel",
+      "definition": "The medium — email, phone, in person, memo — chosen for a message.",
+      "whyItMatters": "Justifying channel choice signals professional maturity.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Social media brand",
+      "definition": "The identity and reputation a person projects through their online presence.",
+      "whyItMatters": "A personal social media brand can boost or damage credibility.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Executive summary",
+      "definition": "A short opening section of a report that distills key findings and recommendations.",
+      "whyItMatters": "Written events reward a crisp, decision-ready summary.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Persuasive message",
+      "definition": "A communication built to convince an audience through logic and appeal.",
+      "whyItMatters": "Competitors must move customers and stakeholders toward an outcome.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Digital communication risk",
+      "definition": "The legal, reputational, and compliance exposure created by electronic business messages.",
+      "whyItMatters": "Poor digital choices carry real legal and brand consequences.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    }
+  ]
+}

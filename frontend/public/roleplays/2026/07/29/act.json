@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-29-ACT",
+  "date": "2026-07-29",
+  "code": "ACT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc-plus",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial Analysis",
+  "performanceIndicators": [
+    "Apply for a consumer loan",
+    "Assess interests and skills",
+    "Apply information to tasks",
+    "Use operating systems",
+    "Prepare income tax forms"
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking",
+    "Problem Solving",
+    "Communication and Collaboration",
+    "Creativity and Innovation"
+  ],
+  "participantInstructions": "The event is presented through the participant's reading of the 21st Century Skills, Performance Indicators, and the situation section. The preparation time is 10 minutes, presentation time is 10 minutes, and there are no judge question minutes for this event. Participants will be evaluated on how well they meet the performance indicators listed below. All notes and materials must be turned in at the end of the event.",
+  "situation": "You are Jane Smith, the financial analyst at ClearSky Financial Services. Your supervisor, Mr. Thomas Lee, has tasked you with analyzing a potential business loan application for a startup company called GreenLeaf Innovations. The company is seeking a $150,000 loan to expand its operations and develop new eco-friendly products. You must determine whether the loan should be approved based on financial data provided by GreenLeaf Innovations.\n\nGreenSky Financial Services specializes in providing loans to small businesses with innovative ideas that align with sustainable practices. Founded in 2010, ClearSky has grown significantly over the years, expanding its portfolio from a handful of clients in its first year to more than 500 today. The company's mission is not only to support startups but also to contribute positively to environmental conservation efforts through its lending policies and initiatives.\n\nClearSky Financial Services has a strong reputation for supporting startups and maintaining strict financial standards. Your team of analysts relies heavily on accurate financial analysis to make lending decisions, ensuring both profitability and alignment with the company's mission. Since 2015, ClearSky has been recognized annually by Green Business Network as one of the top lenders in sustainable finance.\n\nMr. Thomas Lee is concerned about maintaining ClearSky's reputation and ensuring financial stability while supporting GreenLeaf Innovations' growth. Mr. Lee has been with ClearSky since its inception and has a keen eye for identifying promising startups that align with the company’s mission. However, he also places great importance on risk management to protect the company from potential losses.\n\nJohn Doe from the marketing department believes that approving the loan will enhance ClearSky's visibility in the sustainable business market. John argues that by supporting GreenLeaf Innovations, ClearSky can position itself as a leader in environmental finance and attract more clients interested in green initiatives. He emphasizes the need for ClearSky to maintain its competitive edge through proactive support of eco-friendly ventures.\n\nSarah Chen, the compliance officer, argues that the loan may expose ClearSky to regulatory risks due to potential environmental liabilities. Sarah points out that GreenLeaf Innovations' proposed expansion includes developing products with untested materials that could pose significant environmental hazards if not managed properly. She is concerned about the company’s exposure to legal ramifications and reputational damage should any issues arise from these new products.\n\nGreenSky Financial Services has strict policies regarding loans exceeding 10% of the company's total equity and requires a minimum debt-to-equity ratio of 0.5 for new clients. The startup must also provide detailed financial projections showing profitability within two years, which is currently uncertain based on their data. ClearSky’s internal guidelines mandate that any loan application must meet these criteria to ensure long-term viability and minimize risks.\n\nThe binding constraints include a requirement that all loans cannot exceed 10% of the company's total equity. For GreenSky Financial Services, this means that no single loan can be larger than $300,000 (which is 10% of their total equity). Additionally, ClearSky has a strict policy requiring new clients to maintain a debt-to-equity ratio below 0.5 within the first year after receiving a loan. This ensures that startups have sufficient capital and financial stability to support their growth.\n\nGreenLeaf Innovations presents an interesting case for ClearSky Financial Services as it aligns with the company's mission but also poses challenges in terms of risk management and regulatory compliance. The decision on whether to approve the $150,000 loan will require a careful balance between supporting innovative eco-friendly ventures and adhering to strict financial policies.\n\nYou need to analyze GreenLeaf Innovations' financial health, assess the risks involved with approving the loan, and make a recommendation to Mr. Thomas Lee on whether ClearSky should proceed with the loan application. The decision must consider not only the potential benefits for both companies but also the broader implications for ClearSky’s reputation and long-term financial stability.",
+  "exhibit": {
+    "title": "FINANCIAL DATA OF GREENLEAF INNOVATIONS",
+    "rows": [
+      "Current assets: $250,000",
+      "Current liabilities: $175,000",
+      "Total equity: $300,000",
+      "Projected revenue for the next year: $600,000",
+      "Projected expenses for the next year: $480,000"
+    ]
+  },
+  "judgeCharacterization": "Business background is the same as the situation above. Mr. Thomas Lee wants you to analyze GreenLeaf Innovations’ financial data and recommend whether ClearSky Financial Services should approve their $150,000 loan request based on your analysis of profitability, regulatory compliance, and alignment with ClearSky's mission.",
+  "judgeQuestions": [
+    "Justify which option you chose and weigh it against the alternative you rejected.",
+    "Assess how you would measure whether GreenLeaf Innovations has actually met the minimum debt-to-equity ratio requirement for new clients.",
+    "Sarah Chen argues that approving the loan may expose ClearSky to regulatory risks due to potential environmental liabilities. Defend your recommendation against that argument."
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [
+        "Thomas Lee - Maintain financial stability and reputation",
+        "John Doe - Enhance visibility in sustainable business market",
+        "Sarah Chen - Ensure compliance with regulatory standards"
+      ],
+      "constraints": [
+        "Loans exceeding 10% of total equity",
+        "Minimum debt-to-equity ratio of 0.5 for new clients",
+        "Detailed financial projections showing profitability within two years"
+      ],
+      "conflicts": [
+        "Maintaining reputation vs. supporting innovative startups",
+        "Regulatory compliance vs. market visibility",
+        "Financial stability vs. environmental impact"
+      ],
+      "exhibit": "EXHIBIT 1: FINANCIAL DATA OF GREENLEAF INNOVATIONS"
+    },
+    "corroborated": {
+      "stakeholders": [
+        "Thomas Lee - Maintain financial stability and reputation",
+        "John Doe - Enhance visibility in sustainable business market",
+        "Sarah Chen - Ensure compliance with regulatory standards"
+      ],
+      "constraints": [
+        "Loans exceeding 10% of total equity",
+        "Minimum debt-to-equity ratio of 0.5 for new clients",
+        "Detailed financial projections showing profitability within two years"
+      ],
+      "exhibit": true
+    },
+    "gate": {
+      "passed": false,
+      "failedKnobs": [
+        "K3"
+      ],
+      "issues": [
+        "K3: exhibit is inside or below the situation; it belongs between PERFORMANCE INDICATORS and the situation header"
+      ]
+    },
+    "situationWords": 649,
+    "generator": {
+      "model": "qwen2.5:14b-instruct",
+      "passes": 2
+    },
+    "defects": [
+      "boilerplate:denies-judge-questions"
+    ]
+  }
+}

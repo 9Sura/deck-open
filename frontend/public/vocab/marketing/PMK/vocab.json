@@ -1,0 +1,623 @@
+{
+  "version": 1,
+  "cluster": "marketing",
+  "event": {
+    "code": "PMK",
+    "name": "Principles of Marketing",
+    "format": "principles"
+  },
+  "instructionalAreas": [
+    "economics",
+    "operations",
+    "professional_development",
+    "communication_skills",
+    "customer_relations",
+    "emotional_intelligence"
+  ],
+  "sourceNotes": [
+    "Seeded from PMK roleplay performance indicators and marketing cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Inventory",
+      "slug": "inventory",
+      "definition": "The stock of goods or materials a business holds for sale or use.",
+      "whyItMatters": "Inventory management balances meeting demand against storage cost.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Work ethic",
+      "slug": "work-ethic",
+      "definition": "A pattern of responsibility, effort, persistence, and reliability at work.",
+      "whyItMatters": "Work ethic is tied to performance, trust, and advancement in workplace scenarios.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Active listening",
+      "slug": "active-listening",
+      "definition": "Giving full attention, checking understanding, and responding thoughtfully to a speaker.",
+      "whyItMatters": "Judges expect competitors to handle questions and concerns clearly.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Emotional intelligence",
+      "slug": "emotional-intelligence",
+      "definition": "The ability to understand and manage emotions in yourself and others.",
+      "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Purchase order",
+      "slug": "purchase-order",
+      "definition": "A formal document requesting goods or services from a vendor at set terms.",
+      "whyItMatters": "Purchase orders create the paper trail for efficient procurement.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Chain of command",
+      "slug": "chain-of-command",
+      "definition": "The line of authority defining who reports to whom in an organization.",
+      "whyItMatters": "Knowing when and how to escalate is a frequent judgment point in roleplays.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Nonverbal cues",
+      "slug": "nonverbal-cues",
+      "definition": "Signals such as facial expressions, gestures, and posture that carry meaning without words.",
+      "whyItMatters": "Reading cues lets competitors adjust to a customer's or judge's reaction.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-esteem",
+      "slug": "self-esteem",
+      "definition": "A realistic sense of your own value and capabilities.",
+      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Vendor",
+      "slug": "vendor",
+      "definition": "A supplier that provides goods or services to a business.",
+      "whyItMatters": "Vendor choice drives product quality, cost, and supply reliability.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Time management",
+      "slug": "time-management",
+      "definition": "Organizing, planning, and prioritizing tasks to stay productive and meet deadlines.",
+      "whyItMatters": "Timed events reward competitors who prioritize and finish efficiently.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Group discussion",
+      "slug": "group-discussion",
+      "definition": "A structured conversation among several people to share ideas and reach conclusions.",
+      "whyItMatters": "Team events depend on effective group discussion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-confidence",
+      "slug": "self-confidence",
+      "definition": "Belief in your ability to perform well and reach your goals.",
+      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Safety procedures",
+      "slug": "safety-procedures",
+      "definition": "Documented steps employees follow to prevent workplace accidents and injuries.",
+      "whyItMatters": "Following them protects employees and limits liability.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Professional appearance",
+      "slug": "professional-appearance",
+      "definition": "Appropriate grooming, dress, and hygiene for the workplace.",
+      "whyItMatters": "First impressions are judged in interviews and face-to-face roleplay.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Professional email",
+      "slug": "professional-email",
+      "definition": "A formal written message with a clear subject, correct grammar, and appropriate tone.",
+      "whyItMatters": "Written events reward mastery of email conventions.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Initiative",
+      "slug": "initiative",
+      "definition": "Taking independent action to solve problems or seize opportunities.",
+      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Work prioritization",
+      "slug": "work-prioritization",
+      "definition": "Ranking tasks by importance and urgency to meet deadlines.",
+      "whyItMatters": "Prioritizing ensures critical work and resources come first.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Company protocols",
+      "slug": "company-protocols",
+      "definition": "Established procedures employees are expected to follow for consistent operations.",
+      "whyItMatters": "Adhering to protocols shows respect for organizational structure.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Business letter",
+      "slug": "business-letter",
+      "definition": "A formal document in standard format used for official outside communication.",
+      "whyItMatters": "Judges expect correct formatting, tone, and structure.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Integrity",
+      "slug": "integrity",
+      "definition": "Acting truthfully and holding to strong moral principles in all dealings.",
+      "whyItMatters": "Integrity builds the trust that a business reputation depends on.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Quality control",
+      "slug": "quality-control",
+      "definition": "Inspecting products and services to ensure they meet set standards.",
+      "whyItMatters": "It catches defects early, protecting satisfaction and reducing waste.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Rules of conduct",
+      "slug": "rules-of-conduct",
+      "definition": "Behavioral and ethical standards defining acceptable workplace actions.",
+      "whyItMatters": "Violating conduct rules is a common failure point in roleplay scenarios.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Communication styles",
+      "slug": "communication-styles",
+      "definition": "Distinct ways of delivering information chosen to fit the audience.",
+      "whyItMatters": "Adapting style builds rapport and persuades more effectively.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Ethical dilemma",
+      "slug": "ethical-dilemma",
+      "definition": "A situation where two or more moral principles conflict and demand judgment.",
+      "whyItMatters": "Recognizing and resolving dilemmas is central to leadership and compliance.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Standard operating procedure",
+      "slug": "standard-operating-procedure",
+      "definition": "A documented, step-by-step method for a recurring task.",
+      "whyItMatters": "SOPs improve consistency, training, quality, and safety.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Problem-solving",
+      "slug": "problem-solving",
+      "definition": "A systematic approach to identifying issues, analyzing causes, and implementing solutions.",
+      "whyItMatters": "Competitors are judged on working through challenges and proposing action.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Verbal communication",
+      "slug": "verbal-communication",
+      "definition": "Sharing information through spoken words, including tone, pace, and clarity.",
+      "whyItMatters": "Roleplay and presentation events hinge on articulate speech.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Self-control",
+      "slug": "self-control",
+      "definition": "The ability to manage impulses, emotions, and reactions under pressure.",
+      "whyItMatters": "Self-control prevents costly mistakes and keeps interactions professional.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "slug": "unemployment-rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Project management",
+      "slug": "project-management",
+      "definition": "Planning, executing, and monitoring work to hit objectives within time and budget.",
+      "whyItMatters": "It lets managers coordinate resources and deliver on schedule.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
+      "term": "Creativity",
+      "slug": "creativity",
+      "definition": "Generating novel ideas and original solutions beyond conventional approaches.",
+      "whyItMatters": "DECA scenarios reward creative thinking when handling business challenges.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Written communication",
+      "slug": "written-communication",
+      "definition": "Expressing ideas through written text organized for clarity and professionalism.",
+      "whyItMatters": "Written events score organization, grammar, tone, and persuasion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Customer inquiry",
+      "slug": "customer-inquiry",
+      "definition": "A question or request from a customer seeking information or help.",
+      "whyItMatters": "Prompt, accurate responses signal genuine customer commitment.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Adaptability",
+      "slug": "adaptability",
+      "definition": "The capacity to adjust your approach and mindset when circumstances change.",
+      "whyItMatters": "Adaptability is vital for navigating market shifts and organizational change.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Functions of price",
+      "slug": "functions-of-price",
+      "definition": "The role prices play in balancing supply and demand while signaling value and scarcity.",
+      "whyItMatters": "Prices coordinate the market; competitors must price to match demand.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Purchasing",
+      "slug": "purchasing",
+      "definition": "Acquiring the goods and services a business needs to operate.",
+      "whyItMatters": "Smart purchasing shapes inventory, quality, and supplier relationships.",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    }
+  ]
+}

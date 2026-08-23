@@ -1,0 +1,556 @@
+@import "tailwindcss";
+
+/* ------------------------------------------------------------------ *
+ * DECK — "refined hand-drawn" theme (ours, not Aniko's)
+ * Warm cream ground · soft-charcoal ink · coral signature + teal + butter.
+ * Palette + fonts wired as Tailwind v4 tokens via @theme.
+ * ------------------------------------------------------------------ */
+
+:root {
+  /* ground + ink */
+  --paper: #fbf7ef;      /* warm cream */
+  --paper-2: #f4eee1;    /* deeper cream for recessed surfaces */
+  --ink: #2a2622;        /* soft charcoal — friendlier than #000 */
+
+  /* signature + supports — DECA brand: royal blue · navy · gold */
+  --accent: #0b5fba;     /* DECA royal blue — the signature (loops, CTAs) */
+  --accent-ink: #0a4c94; /* deeper blue for text/links on cream */
+  --support: #1b3b66;    /* DECA navy — secondary accent */
+  --support-ink: #16324f;
+  --highlight: #f5b301;  /* DECA gold — highlighter, focus, "correct" */
+  --highlight-ink: #8a6300;
+
+  /* neutrals */
+  --muted: #6f665b;      /* warm gray body/eyebrow text */
+  --line: #e6ddcb;       /* warm hairline / faint rules */
+  --dot: rgba(42, 38, 34, 0.07); /* sketchbook dot-grid */
+
+  /* ---- theme-aware primitives (light defaults; dark blocks flip them) ---- */
+  --highlight-blend: multiply;              /* <Highlight> swab blend (screen on dark) */
+  --on-accent: var(--paper);                /* readable text on solid bg-accent fills */
+  --btn-shadow: 3px 3px 0 0 var(--ink);     /* sticker button hard offset */
+  --frame-shadow: 0 10px 22px rgba(42, 38, 34, 0.1); /* <SketchFrame> lift */
+  --font-stat: var(--font-sans);            /* numerals; Terminal remaps to mono */
+  --snow: rgba(255, 255, 255, 0.9);         /* snowfall particle color; First Snow recolors it */
+
+  /* difficulty badge tints — border / fill / text, per easy·medium·hard */
+  --diff-easy-line: #bcd6b0; --diff-easy-bg: #e8f0e2; --diff-easy-ink: #4a6b40;
+  --diff-med-line: #e6c988;  --diff-med-bg: #faedc9;  --diff-med-ink: #8a6300;
+  --diff-hard-line: #deae9e; --diff-hard-bg: #f4e2da; --diff-hard-ink: #8a3b2a;
+  /* navigator difficulty dots (saturated, survive on any ground) */
+  --diff-easy-dot: #7fae6e; --diff-med-dot: #d6a94a; --diff-hard-dot: #c56a52;
+
+  /* ---- answer-result tints — correct / wrong / skip -------------------- *
+   * Deliberately SEPARATE from the --diff-* difficulty tints. The two mean
+   * different things and only these three sit side by side (the quiz
+   * navigator rail), where they must also stay distinct from the plain
+   * --paper (unvisited) and --paper-2 (visited, unanswered) cells. Every
+   * theme overrides ALL of these, because a theme that re-grounds --paper-2
+   * can collide with a tint it inherited (issue #20: First Bloom's mint
+   * --paper-2 was ΔE 2.9 from the old green "correct" fill — invisible).
+   * Rule for new themes: keep every fill ≥ ΔE 10 from the other two results,
+   * ≥ ΔE 8 from --paper/--paper-2, and each ink ≥ 4.5:1 on its own fill. */
+  --result-correct-line: #6ca355; --result-correct-bg: #d3ecc8; --result-correct-ink: #2f6320;
+  --result-wrong-line: #cf6a4c;   --result-wrong-bg: #fbd6c8;   --result-wrong-ink: #8f3520;
+  --result-skip-line: #9c9384;    --result-skip-bg: #d6d2c9;    --result-skip-ink: #544c41;
+}
+
+/* ================================================================== *
+ * Themes — each block redefines the SAME token names so the cascade
+ * re-skins everything downstream. Classic = the :root defaults above
+ * (no attribute). Unset tokens fall back to :root, so blocks list only
+ * what changes. See theming plan §2.
+ * ================================================================== */
+
+/* Golden Hour — warm light refresh: amber signature, sunnier cream. */
+[data-theme="golden-hour"] {
+  --paper: #fcf6ea;
+  --paper-2: #f5ecd8;
+  --ink: #33291f;
+  --accent: #e08a2e;
+  --accent-ink: #8f5414;      /* deepened so links clear AA on cream (was #a5641b, 4.4) */
+  --support: #1b3b66;
+  --support-ink: #16324f;
+  --highlight: #f5b301;
+  --highlight-ink: #8a6300;
+  --muted: #726757;           /* deepened for AA on recessed cream */
+  --line: #ece0c8;
+  --dot: rgba(51, 41, 31, 0.07);
+  --on-accent: #33291f;       /* espresso text on bright amber fills (cream fails at 2.5) */
+  --frame-shadow: 0 10px 22px rgba(51, 41, 31, 0.12);
+  /* difficulty tints inherit Classic's warm light palette (still reads on cream) */
+  /* result tints — warmer cream ground needs its own skip gray to stay off --paper-2 */
+  --result-correct-line: #6ca355; --result-correct-bg: #d5ecca; --result-correct-ink: #2f6320;
+  --result-wrong-line: #cf6a4c;   --result-wrong-bg: #fbd6c8;   --result-wrong-ink: #8f3520;
+  --result-skip-line: #a69c88;    --result-skip-bg: #ded9cd;    --result-skip-ink: #5c5445;
+}
+
+/* Terminal — first dark mode: charcoal, phosphor green + amber, mono numerals. */
+[data-theme="terminal"] {
+  --paper: #16181c;
+  --paper-2: #1d2024;
+  --ink: #e6e6e3;
+  --accent: #4ade80;
+  --accent-ink: #86efac;
+  --support: #38bdf8;
+  --support-ink: #7dd3fc;
+  --highlight: #fbbf24;
+  --highlight-ink: #fcd34d;
+  --muted: #8b8f8a;
+  --line: rgba(230, 230, 227, 0.14);
+  --dot: rgba(230, 230, 227, 0.08);
+  --highlight-blend: screen;
+  --btn-shadow: 2px 2px 0 0 color-mix(in srgb, var(--ink) 40%, transparent);
+  --frame-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+  --font-stat: var(--font-mono);
+  --diff-easy-line: rgba(74, 222, 128, 0.5);   --diff-easy-bg: rgba(74, 222, 128, 0.13);  --diff-easy-ink: #86efac;
+  --diff-med-line: rgba(251, 191, 36, 0.5);    --diff-med-bg: rgba(251, 191, 36, 0.13);   --diff-med-ink: #fcd34d;
+  --diff-hard-line: rgba(248, 113, 113, 0.55); --diff-hard-bg: rgba(248, 113, 113, 0.15); --diff-hard-ink: #fca5a5;
+  --diff-easy-dot: #4ade80; --diff-med-dot: #fbbf24; --diff-hard-dot: #f87171;
+  /* result tints — translucent over charcoal; skip is a neutral white wash so it
+     separates from both the phosphor results and the bare --paper-2 cells */
+  --result-correct-line: rgba(74, 222, 128, 0.65); --result-correct-bg: rgba(74, 222, 128, 0.2);  --result-correct-ink: #86efac;
+  --result-wrong-line: rgba(248, 113, 113, 0.68);  --result-wrong-bg: rgba(248, 113, 113, 0.22);  --result-wrong-ink: #fca5a5;
+  --result-skip-line: rgba(230, 230, 227, 0.36);   --result-skip-bg: rgba(230, 230, 227, 0.15);   --result-skip-ink: #aeb2ac;
+}
+
+/* First Snow — seasonal dark: brightened midnight indigo, frost-white ink, snowfall overlay. */
+[data-theme="first-snow"] {
+  --paper: #213456;
+  --paper-2: #1a2a49;
+  --ink: #f2f7fc;
+  --accent: #8fd4ff;
+  --accent-ink: #bfe6ff;
+  --support: #b8c8de;
+  --support-ink: #d6e1ee;
+  --highlight: #ffd674;
+  --highlight-ink: #ffe6a0;
+  --muted: #a7b6ce;
+  --line: rgba(242, 247, 252, 0.18);
+  --dot: rgba(242, 247, 252, 0.1);
+  --highlight-blend: screen;
+  --frame-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
+  --snow: rgba(245, 250, 255, 0.95);
+  /* difficulty tints — translucent over indigo, light ink for on-dark text (from Blueprint) */
+  --diff-easy-line: rgba(122, 174, 110, 0.55); --diff-easy-bg: rgba(122, 174, 110, 0.16); --diff-easy-ink: #c9e9bf;
+  --diff-med-line: rgba(214, 169, 74, 0.55);   --diff-med-bg: rgba(214, 169, 74, 0.16);   --diff-med-ink: #f3d896;
+  --diff-hard-line: rgba(210, 122, 96, 0.6);   --diff-hard-bg: rgba(210, 122, 96, 0.18);  --diff-hard-ink: #f4bdac;
+  --diff-easy-dot: #8fc47c; --diff-med-dot: #e0b85a; --diff-hard-dot: #e08768;
+  /* result tints — deepened over indigo so correct/wrong clear the ground, plus a
+     frost-white skip wash that reads apart from the bare --paper-2 cells */
+  --result-correct-line: rgba(122, 174, 110, 0.68); --result-correct-bg: rgba(122, 174, 110, 0.26); --result-correct-ink: #c9e9bf;
+  --result-wrong-line: rgba(210, 122, 96, 0.72);    --result-wrong-bg: rgba(210, 122, 96, 0.28);    --result-wrong-ink: #f4bdac;
+  --result-skip-line: rgba(242, 247, 252, 0.36);    --result-skip-bg: rgba(242, 247, 252, 0.12);    --result-skip-ink: #bcc9dc;
+}
+
+/* First Bloom — seasonal light (spring): fresh green signature, blossom-pink
+ * support, airy mint-cream ground; blossom-petal overlay. */
+[data-theme="first-bloom"] {
+  --paper: #f3faef;
+  --paper-2: #e8f3e0;
+  --ink: #2b3327;
+  --accent: #3f9d5a;
+  --accent-ink: #256b3a;       /* deep leaf-green for links on cream (AA) */
+  --support: #d76a94;          /* blossom pink secondary */
+  --support-ink: #a63a68;
+  --highlight: #f6c945;
+  --highlight-ink: #866200;
+  --muted: #6a7263;
+  --line: #d9e8cf;
+  --dot: rgba(43, 51, 39, 0.07);
+  --on-accent: #f6fbf2;        /* near-white on the green fills */
+  --frame-shadow: 0 10px 22px rgba(43, 51, 39, 0.1);
+  /* difficulty tints inherit Classic's warm light palette (reads on mint cream) */
+  /* result tints — this theme's ground IS green, so "correct" has to sit far deeper
+     than Classic's pale mint (which was indistinguishable from --paper-2), and skip
+     goes sage-neutral rather than reusing the ground. */
+  --result-correct-line: #4f9539; --result-correct-bg: #bfe3af; --result-correct-ink: #245b16;
+  --result-wrong-line: #cf6a4c;   --result-wrong-bg: #fbd4c6;   --result-wrong-ink: #8f3520;
+  --result-skip-line: #a3a89d;    --result-skip-bg: #dbdcd6;    --result-skip-ink: #575d51;
+}
+
+/* Midsummer — seasonal light (summer): a warm SUNSET — coral & sun-gold over an
+ * apricot sky (a full-bleed --sky gradient), plum-dusk ink; dandelion-seed drift. */
+[data-theme="midsummer"] {
+  --sky: linear-gradient(180deg, #f8dcea 0%, #fde3cf 42%, #ffd7a6 100%);
+  --paper: #fde3cf;            /* warm apricot — surfaces sit on the sky */
+  --paper-2: #f8d3b6;
+  --ink: #3a2333;              /* deep dusk plum */
+  --accent: #e85d3c;           /* sunset coral — the signature */
+  --accent-ink: #bb3f26;       /* deepened coral for links on apricot (AA) */
+  --support: #cf3f7d;          /* horizon magenta secondary */
+  --support-ink: #a52c60;
+  --highlight: #f4a72a;        /* low-sun gold */
+  --highlight-ink: #855200;
+  --muted: #7a5751;            /* warm taupe (deepened for AA on apricot) */
+  --line: #f1d2bb;
+  --dot: rgba(58, 35, 51, 0.07);
+  --on-accent: #fff4ec;        /* warm white on the coral fills */
+  --frame-shadow: 0 10px 22px rgba(58, 35, 51, 0.12);
+  /* difficulty tints inherit Classic's warm light palette (reads on apricot) */
+  /* result tints — "wrong" swings crimson instead of Classic's terracotta, which
+     was too close a neighbour to the apricot ground. */
+  --result-correct-line: #5f9c4c; --result-correct-bg: #d3ecca; --result-correct-ink: #2c5f1f;
+  --result-wrong-line: #cd4b62;   --result-wrong-bg: #fbccd4;   --result-wrong-ink: #8d2032;
+  --result-skip-line: #ad9f95;    --result-skip-bg: #e6ded8;    --result-skip-ink: #665a52;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-support: var(--support);
+  --color-support-ink: var(--support-ink);
+  --color-highlight: var(--highlight);
+  --color-highlight-ink: var(--highlight-ink);
+
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-marker: var(--font-marker);
+  --font-mono: var(--font-mono);
+}
+
+/* Kill the elastic overscroll "rubber-band" so a page can't be dragged past the
+   sticky nav (top) or the footer (bottom) into empty background. Set on the scroll
+   root; also disables mobile pull-to-refresh, which we don't use. */
+html {
+  overscroll-behavior: none;
+}
+
+body {
+  overscroll-behavior: none;
+  /* --sky is an OPTIONAL gradient a theme can set for a full-bleed sky (only
+     Midsummer's sunset uses it today); every other theme falls back to the
+     solid --paper, so surfaces/cards stay solid regardless. */
+  background: var(--sky, var(--paper));
+  /* Anchor the sky to the VIEWPORT, not the document. Without this the gradient
+     stretches over the full scroll height, so long pages (question bank, vocab,
+     tests) end on the harsh bottom stop; fixed keeps a consistent soft sunset on
+     every screen. No-op for the solid-color themes. */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: var(--ink);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Themed scrollbars ------------------------------------------- *
+ * An inked, thin scrollbar that matches the notebook palette instead of the
+ * OS default. Applied to `*` so it covers the page AND every internal scroll
+ * container (dropdowns, the settings/theme picker panel, long dialogs). Colors
+ * are mixed from --ink/--paper, so they adapt to every theme (light, dark,
+ * seasonal) with no per-theme tokens. Reduced-motion is unaffected.
+ * ------------------------------------------------------------------ */
+/* Firefox ONLY. Chrome 121+ ignores the ::-webkit-scrollbar rules below if
+   `scrollbar-width`/`scrollbar-color` are set on the same element, so these
+   standard props are scoped to engines WITHOUT ::-webkit-scrollbar support. */
+@supports not selector(::-webkit-scrollbar) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--ink) 45%, transparent) transparent;
+  }
+}
+/* Chromium + Safari: the inked pill. No standard scrollbar props here, so Chrome
+   keeps rendering these instead of falling back to its default renderer. */
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  /* padding-box + a paper-colored border insets the thumb so it reads as a
+     rounded inked pill floating in the track, not a solid bar. */
+  background: color-mix(in srgb, var(--ink) 42%, transparent);
+  border: 3px solid var(--paper);
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--ink) 62%, transparent);
+  background-clip: padding-box;
+}
+
+/* ---- Hand-drawn chrome ------------------------------------------- *
+ * Cheap CSS "drawn box": lopsided giant border-radii read as an inked,
+ * slightly-wobbling rectangle. Used for dense/small controls (inputs,
+ * buttons); Cards/result panels use the SVG <SketchFrame> for true wobble.
+ * ------------------------------------------------------------------ */
+
+@utility hand-border {
+  border: 2px solid var(--ink);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+
+@utility hand-border-2 {
+  border: 2px solid var(--ink);
+  border-radius: 15px 225px 15px 255px / 225px 15px 255px 15px;
+}
+
+/* Softer hand-drawn pill for buttons. */
+@utility hand-pill {
+  border-radius: 130px 12px 130px 12px / 12px 130px 12px 130px;
+}
+
+/* Radius-only variants — for controls that set their own border color. */
+@utility sketch-radius {
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+
+@utility sketch-radius-2 {
+  border-radius: 15px 225px 15px 255px / 225px 15px 255px 15px;
+}
+
+/* ---- Surfaces & rules -------------------------------------------- */
+
+@utility dashed-rule {
+  border: none;
+  border-top: 1.5px dashed var(--line);
+}
+
+/* Sketchbook dot-grid — friendly, modern; not ruled notebook paper. */
+@utility dot-grid {
+  background-image: radial-gradient(var(--dot) 1.3px, transparent 1.4px);
+  background-size: 22px 22px;
+  background-position: -11px -11px;
+}
+
+/* Faint paper grain for tactility (self-contained inline SVG turbulence). */
+@utility paper-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
+}
+
+/* Hand-annotation font (Shantell Sans) — eyebrows, labels, marker notes. */
+@utility marker {
+  font-family: var(--font-marker), var(--font-display), cursive;
+  font-weight: 600;
+  letter-spacing: 0.005em;
+}
+
+/* Numerals — counts/scores. Sans on light themes (no visible change), mono
+ * under Terminal via --font-stat, for the "study machine" feel. Tabular so
+ * digits don't jitter as counts tick. */
+@utility stat {
+  font-family: var(--font-stat), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- Snowfall overlay (First Snow / seasonal effects) ------------- *
+ * Compositor-only: animate transform + opacity, never top/left. Each flake
+ * drifts from above the viewport to below it, with per-flake left/size/
+ * duration/delay/drift supplied inline from its index (no RNG). Color reads
+ * the --snow token so future seasons recolor the same machinery. The Snowfall
+ * component returns null under reduced motion, so the global !important guard
+ * below never gets a chance to freeze a flake mid-fall. See first-snow plan §3.
+ * ------------------------------------------------------------------ */
+@keyframes snow-fall {
+  0% {
+    transform: translate3d(0, -10vh, 0);
+    opacity: 0;
+  }
+  12% {
+    opacity: var(--flake-opacity, 0.9);
+  }
+  88% {
+    opacity: var(--flake-opacity, 0.9);
+  }
+  100% {
+    transform: translate3d(var(--flake-drift, 0px), 110vh, 0);
+    opacity: 0;
+  }
+}
+
+@utility snowflake {
+  position: absolute;
+  top: 0;
+  color: var(--snow);
+  will-change: transform;
+  animation-name: snow-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+/* ---- First Bloom · petals ---------------------------------------------- *
+ * Two nested clocks: the outer .petal only falls (linear); the inner
+ * .petal-blade sways + rocks on its own shorter clock (ease-in-out, alternate).
+ * ------------------------------------------------------------------------ */
+@keyframes petal-fall-y {
+  0%   { transform: translate3d(0, -10vh, 0); opacity: 0; }
+  10%  { opacity: var(--petal-opacity, 0.8); }
+  90%  { opacity: var(--petal-opacity, 0.8); }
+  100% { transform: translate3d(0, 110vh, 0); opacity: 0; }
+}
+@keyframes petal-sway {
+  from { transform: translate3d(calc(var(--sway, 16px) * -1), 0, 0) rotate(-14deg); }
+  to   { transform: translate3d(var(--sway, 16px), 0, 0) rotate(20deg); }
+}
+@utility petal {
+  position: absolute;
+  top: 0;
+  will-change: transform;
+  animation-name: petal-fall-y;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@utility petal-blade {
+  display: block;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  animation-name: petal-sway;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* ---- Midsummer · dandelion seeds --------------------------------------- *
+ * The mirror of the petals: outer .seed only RISES bottom→top (linear); inner
+ * .seed-tuft sways + rocks on its own shorter clock (ease-in-out, alternate).
+ * ------------------------------------------------------------------------ */
+@keyframes seed-rise {
+  0%   { transform: translate3d(0, 110vh, 0); opacity: 0; }
+  10%  { opacity: var(--seed-opacity, 0.75); }
+  90%  { opacity: var(--seed-opacity, 0.75); }
+  100% { transform: translate3d(0, -12vh, 0); opacity: 0; }
+}
+@keyframes seed-sway {
+  from { transform: translate3d(calc(var(--sway, 18px) * -1), 0, 0) rotate(-16deg); }
+  to   { transform: translate3d(var(--sway, 18px), 0, 0) rotate(16deg); }
+}
+@utility seed {
+  position: absolute;
+  top: 0;
+  will-change: transform;
+  animation-name: seed-rise;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@utility seed-tuft {
+  display: block;
+  width: 100%;
+  height: 100%;
+  will-change: transform;
+  animation-name: seed-sway;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* Respect reduced motion globally as a safety net. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* --------------------------------------------------------- TOOL CAROUSEL
+ * Slow, continuous "revolve" (marquee). The track holds two copies of the
+ * cards and translates -50%, so the loop is seamless. Pauses on hover/focus.
+ * Under reduced motion the global net above stops the animation (fill-mode
+ * none reverts the transform to 0); we switch the viewport to manual scroll
+ * so every card stays reachable.
+ * ------------------------------------------------------------------------ */
+@keyframes deck-revolve {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-revolve {
+  animation: deck-revolve 40s linear infinite;
+  will-change: transform;
+}
+.revolve-viewport { overflow: hidden; }
+.revolve-mask {
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);
+}
+@media (prefers-reduced-motion: reduce) {
+  .revolve-viewport { overflow-x: auto; overflow-y: hidden; }
+}
+
+/* Focus backdrop: dims + blurs the revolving belt behind a centered card.
+ * Paper-tinted so it reads on every theme (dark themes → dark veil). */
+.revolve-backdrop {
+  background: color-mix(in srgb, var(--paper) 58%, transparent);
+  -webkit-backdrop-filter: blur(7px) saturate(0.9);
+          backdrop-filter: blur(7px) saturate(0.9);
+}
+
+/* "VP of Roleplay" special badge — a gold tag with a light shine that sweeps
+ * across it. Theme-aware (built from tokens); the sweep stops for reduced motion. */
+.roleplay-badge {
+  position: relative;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--highlight) 32%, var(--paper));
+  color: var(--highlight-ink);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--highlight-ink) 22%, transparent);
+}
+.roleplay-badge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    110deg,
+    transparent 35%,
+    color-mix(in srgb, #fff 70%, transparent) 50%,
+    transparent 65%
+  );
+  transform: translateX(-120%);
+  animation: roleplay-sweep 3s ease-in-out infinite;
+}
+@keyframes roleplay-sweep {
+  0% { transform: translateX(-120%); }
+  55%, 100% { transform: translateX(120%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .roleplay-badge::after { animation: none; opacity: 0; }
+}
+
+/* "Chief Developer" badge — a premium BLACK pill with gold text, a soft gold
+ * glow, and a bright sheen that sweeps across. Flashier than the VP badge; the
+ * dark body is fixed (always reads as "black") while text/glow use the gold
+ * token so it re-tints per theme. Sweep stops under reduced motion. */
+.chief-badge {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(135deg, #211d18 0%, #2d2922 50%, #17140f 100%);
+  color: var(--highlight);
+  box-shadow:
+    0 3px 12px rgba(0, 0, 0, 0.4),
+    0 0 12px color-mix(in srgb, var(--highlight) 30%, transparent),
+    inset 0 0 0 1px color-mix(in srgb, var(--highlight) 45%, transparent);
+  text-shadow: 0 0 8px color-mix(in srgb, var(--highlight) 45%, transparent);
+}
+.chief-badge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    110deg,
+    transparent 30%,
+    color-mix(in srgb, var(--highlight) 65%, #fff) 50%,
+    transparent 70%
+  );
+  transform: translateX(-130%);
+  animation: chief-shine 2.6s ease-in-out infinite;
+}
+@keyframes chief-shine {
+  0% { transform: translateX(-130%); }
+  55%, 100% { transform: translateX(130%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chief-badge::after { animation: none; opacity: 0; }
+}

@@ -1,0 +1,136 @@
+{
+  "area": "financial_analysis",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/financial_analysis.txt"
+  ],
+  "terms": [
+    {
+      "term": "Money",
+      "definition": "Anything widely accepted as payment for goods, services, and debts.",
+      "whyItMatters": "The functions of money underpin every pricing, saving, and exchange decision in finance events.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Income",
+      "definition": "Money received from work, investments, or other sources over a period of time.",
+      "whyItMatters": "Competitors must connect sources of income to budgets, savings, and financial goals.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Credit",
+      "definition": "The ability to borrow money or obtain goods now and pay for them later.",
+      "whyItMatters": "Understanding the purpose and cost of credit is central to personal-finance and lending scenarios.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Saving",
+      "definition": "Setting aside income now for future use instead of spending it.",
+      "whyItMatters": "The need to save and invest anchors recommendations about goals, emergencies, and growth.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Financial goal",
+      "definition": "A specific money target a person or business plans to reach within a set time frame.",
+      "whyItMatters": "Goals turn vague advice into measurable, prioritized financial recommendations.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Net worth",
+      "definition": "Total assets minus total liabilities.",
+      "whyItMatters": "Net worth gives a one-number snapshot of financial position that competitors interpret before advising.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Cost of credit",
+      "definition": "The total amount, including interest and fees, paid to borrow money.",
+      "whyItMatters": "Comparing the true cost of credit lets competitors judge whether borrowing is worthwhile.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Tax liability",
+      "definition": "The total amount of tax a person or business legally owes to the government.",
+      "whyItMatters": "Tax liabilities affect take-home income and the real return on financial decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Investment",
+      "definition": "Using money to buy assets expected to grow in value or produce income.",
+      "whyItMatters": "Investment vocabulary supports recommendations about growth, risk, and long-term goals.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Diversification",
+      "definition": "Spreading investments across different assets to reduce overall risk.",
+      "whyItMatters": "Diversification is the standard answer to lowering investment risk in finance events.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Financial-services provider",
+      "definition": "An institution such as a bank, credit union, or brokerage that offers money-management products.",
+      "whyItMatters": "Choosing the right provider is a recurring judgment in personal-finance scenarios.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Time value of money",
+      "definition": "The principle that a dollar today is worth more than a dollar in the future because it can earn a return.",
+      "whyItMatters": "This concept justifies interest, discounting, and why saving early beats saving late.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Cash flow statement",
+      "definition": "A financial statement reporting the cash flowing into and out of a business over a period.",
+      "whyItMatters": "Cash flow reveals whether a business can pay its bills even when it reports a profit.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Balance sheet",
+      "definition": "A financial statement showing a business's assets, liabilities, and equity at a single point in time.",
+      "whyItMatters": "The balance sheet is where competitors read financial position and solvency.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Income statement",
+      "definition": "A financial statement showing revenue, expenses, and profit over a period of time.",
+      "whyItMatters": "It is the primary tool for judging whether operations are profitable.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Liquidity",
+      "definition": "How easily an asset can be converted to cash without losing much value.",
+      "whyItMatters": "Liquidity explains why a profitable business can still run short of cash.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    }
+  ]
+}

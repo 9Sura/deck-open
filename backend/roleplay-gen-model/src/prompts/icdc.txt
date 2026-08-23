@@ -1,0 +1,138 @@
+DIFFICULTY AND FIDELITY — ICDC TIER
+This block SUPERSEDES the "DIFFICULTY (scale to the provided competition level)" section
+above. Ignore that section's District / State / ICDC descriptions entirely.
+
+This tier is DECA's own format at DECA's own scale. Difficulty comes from the JUDGMENT the
+decision demands, never from adding people, figures, or pages. Every rule below is measured
+off the 396 real published DECA roleplays in this project's corpus, and the corpus is the
+authority wherever your instinct disagrees with it.
+
+Do not announce, label, number, or otherwise refer to any of these rules in your output —
+they shape the scenario, they are never mentioned in it.
+
+WHERE ICDC DIFFICULTY ACTUALLY COMES FROM
+An ICDC case is not a District case with more moving parts bolted on. It is the same shape,
+turned on a harder question. Raise difficulty by these means and no others:
+  - the trade-off is between two GOODS, not between a good option and a bad one;
+  - the right answer depends on a judgment call the facts genuinely underdetermine;
+  - the obvious first move has a real cost that only becomes visible on reflection;
+  - the participant must weigh an obligation to one party against an obligation to another.
+Raising difficulty by adding a fourth stakeholder, a budget table, or three hundred more
+words is EXACTLY the failure this tier exists to prevent.
+
+SECTION ORDER — THIS IS DECA'S ORDER
+Output the sections in exactly this order, and put nothing else between them:
+
+  1. the event code / level line, then the event name in capitals
+  2. CAREER CLUSTER          (only if this event has one)
+  3. INSTRUCTIONAL AREA
+  4. PARTICIPANT INSTRUCTIONS
+  5. 21st CENTURY SKILLS     (only if this event includes it)
+  6. PERFORMANCE INDICATORS
+  7. the situation section (use the header given in the user message)
+  8. JUDGE ROLE-PLAY CHARACTERIZATION, then the numbered judge questions
+
+There is no other section. In particular there is no exhibit, no data block, no appendix,
+and no attachment — see F3.
+
+F1 — ONE SCENARIO, ONE JUDGE. The case presents a SINGLE business situation, presented to
+the one judge who is in the room with the participant. That judge holds a role in the
+scenario (owner, supervisor, vice president, client) and is the person being presented to.
+Do not write a case that only makes sense if several parties are present. Do not open a
+second storyline. The participant has to walk into a room and talk to one person about one
+decision; write the case that supports that.
+
+F2 — ROLES, NOT A CAST. Name the COMPANY, in capitals, and any rival or partner company.
+Do NOT give personal names to the people in the scenario. Real DECA cases refer to people by
+their role — "the owner (judge)", "the applicant", "an employee", "the store manager", "a
+supplier" — and roughly three quarters of the corpus names no individual at all. Follow that.
+
+At most TWO parties beyond the judge and the participant have any stake in the decision, and
+you do not have to use two. You are not building a set of competing constituencies whose
+demands must be reconciled; that is not what this event is. Where a second party's interest
+matters, state it in a clause, not in a paragraph of its own.
+
+Every time you refer to the judge's role in the situation and in the judge characterization,
+append "(judge)" the way the corpus does: "the owner (judge) has asked you to...".
+
+F3 — NO EXHIBIT, NO DATA BLOCK. Zero of the 396 real roleplays in the corpus carry one.
+Never emit a heading beginning "EXHIBIT", never emit a labelled block of figures, and never
+attach a table. Any figure the decision genuinely turns on goes in the PROSE, as a plain
+sentence.
+
+Be sparing with figures. A real case carries perhaps one or two — "over 200 employees",
+"close to 15 years" — and they set the scene rather than drive an arithmetic answer. If the
+participant would need a calculator to reach your recommendation, the case is wrong for this
+event: rewrite the decision so it turns on judgment instead. Do not construct a budget that
+covers all but a remainder, a per-day capacity limit, and a deadline that collides with
+another deadline. That is a different exercise wearing this event's headings.
+
+F4 — DECIDABLE. Every fact needed to reason to a defensible recommendation must be ON THE
+PAGE. The participant must never need an outside lookup, an industry benchmark you did not
+supply, or a number you did not state. Do not ask for a calculation whose inputs are missing.
+
+F5 — NO DOMINANT OPTION. There must be at least 2 genuinely defensible courses of action,
+and the prose must make the real cost of each one visible. If a competent competitor could
+identify one obviously correct answer in ten seconds, the roleplay has failed. This is where
+the difficulty of this tier lives — spend your effort here.
+
+F6 — JUDGE QUESTIONS: exactly 2, or 3 when the case genuinely carries a third. The corpus
+runs 2 questions in 302 of 396 cases and 3 in 89; four or more is outside it.
+
+Write them the way DECA writes them — short, plainly phrased, and answerable from the
+scenario. They are conversation openers for the judge, not rubric items. These are real
+examples of the register to hit:
+  1. Are there any issues you feel are illegal, or just unethical?
+  2. Can an employer enforce workplace rules when employees are not at work?
+  3. If we hire the applicant or don't hire the applicant, what more should we communicate?
+
+Do NOT write questions in evaluator voice. Do not open a question with "Justify",
+"Assess how you would measure", "Weigh", "Critique", or "Defend your recommendation
+against". Do not name a stakeholder and quote their position back at the participant. Every
+one of those is an artefact of a rubric, and none of them appears in the corpus.
+
+F7 — LENGTH. The situation section alone MUST land between SITUATION_WORD_MIN and
+SITUATION_WORD_MAX words, not counting the section header. BOTH ENDS ARE REAL. This band is
+computed from the mean length of THIS EVENT's own published cases, so the top of it is
+already the long end of what DECA prints. Over the maximum, the case is longer than any real
+case of this event and the extra words are costing the competitor time, not teaching them
+anything.
+
+Write it as SITUATION_PARA_HINT paragraphs of SITUATION_PARA_WORDS each, on the corpus's own
+plan: assign the participant's role and the judge's role; establish the company and the
+background the decision turns on; lay out the problem; state what the judge wants analysed,
+decided, or recommended; close with the meeting framing. If you are over the maximum, cut
+scenario, not sentences — remove a complication rather than compressing prose that is
+already doing work.
+
+F8 — NO TELEGRAPHING. The situation must never name, rank, or recommend the answer. Do not
+write "the obvious choice", "clearly the best", "the only viable option", or any equivalent.
+Present the facts and the competing considerations and stop.
+
+ABOUT THE EXAMPLE ROLEPLAY
+The example roleplay, if one is provided, is a real published DECA case. It shows FORMAT,
+and at this tier the format is the point — match its shape, its register, its length and its
+restraint exactly. What your case must exceed is the DIFFICULTY OF THE JUDGMENT it asks for,
+and nothing else. Never reuse its company, its people, or its scenario.
+
+SELF-REPORT TAIL (required)
+After the final line of the roleplay, and only there, append this block exactly:
+
+=== SELF-REPORT ===
+PARTIES: <role> - <their interest> | <role> - <their interest>
+CONSTRAINTS: <constraint> | <constraint>
+OPTIONS: <course of action> - <what it really costs> | <course of action> - <what it really costs>
+=== END SELF-REPORT ===
+
+Rules for the tail:
+  - PARTIES lists everyone with a stake in the decision BESIDES the judge and the
+    participant(s). List AT MOST TWO. Listing more is F2 failing, and the tail is where it
+    is caught. If nobody else has a stake, write "PARTIES:" and nothing after it.
+  - CONSTRAINTS lists what genuinely binds the decision — a policy, a contract, an
+    obligation, a commitment already made. There is no minimum and there is no requirement
+    that any two of them collide. Do not invent a numeric limit to fill this line.
+  - OPTIONS lists the courses of action a competent competitor could defend, with what each
+    one really costs. There must be at least TWO. This is F5 and it is the line that matters.
+  - Every role, constraint, and option you list must appear in the situation prose. The tail
+    is machine-checked against the prose; do not list anything you did not write.
+  - The tail is removed before the roleplay is stored and is never seen by a competitor.

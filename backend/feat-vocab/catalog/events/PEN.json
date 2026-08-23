@@ -1,0 +1,212 @@
+{
+  "code": "PEN",
+  "terms": [
+    {
+      "term": "Information management",
+      "definition": "The process of collecting, organizing, storing, using, and protecting information so a business can make decisions.",
+      "whyItMatters": "PEN roleplays ask students to explain what information should be collected and how it should be managed.",
+      "areas": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Information needs",
+      "definition": "The specific information a business must have to answer a question, solve a problem, or make a decision.",
+      "whyItMatters": "Identifying information needs keeps data collection focused and useful.",
+      "areas": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Customer feedback",
+      "definition": "Comments, ratings, complaints, suggestions, or other information customers provide about their experience.",
+      "whyItMatters": "The 2026 PEN scenario centers on collecting and using feedback for a mobile mechanic service.",
+      "areas": [
+        "information_management",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Customer rating",
+      "definition": "A scored evaluation, often online, that summarizes a customer's opinion of a business.",
+      "whyItMatters": "Ratings influence trust, search visibility, and new-customer decisions for small ventures.",
+      "areas": [
+        "information_management",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Technology impact",
+      "definition": "The way digital tools, platforms, systems, or devices change how a business operates and serves customers.",
+      "whyItMatters": "Principles competitors should connect technology to speed, accuracy, customer access, and data quality.",
+      "areas": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Positive customer relations",
+      "definition": "Consistent actions that build customer satisfaction, trust, loyalty, and goodwill.",
+      "whyItMatters": "PEN roleplays reward answers that show how service behavior supports the company's image.",
+      "areas": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Customer service mindset",
+      "definition": "An attitude that prioritizes understanding and helping customers before, during, and after a sale.",
+      "whyItMatters": "This term helps students explain service behavior instead of only listing actions.",
+      "areas": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "definition": "A business focus on meeting customer needs through helpful communication and reliable support.",
+      "whyItMatters": "PEN students can use this when explaining how employees reinforce image through communication.",
+      "areas": [
+        "customer_relations",
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Company image",
+      "definition": "The overall impression customers and the public have of a business.",
+      "whyItMatters": "Employee performance and communication can strengthen or weaken the image a new business needs.",
+      "areas": [
+        "customer_relations",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Employee performance",
+      "definition": "How well employees carry out their duties, meet standards, and represent the business.",
+      "whyItMatters": "In customer-facing ventures, performance directly affects reviews, repeat business, and reputation.",
+      "areas": [
+        "customer_relations",
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Entrepreneurship",
+      "definition": "The process of recognizing an opportunity, organizing resources, and taking risk to create or grow a business.",
+      "whyItMatters": "This is the foundation term for the event and helps frame most principles-level scenarios.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Risk-taking",
+      "definition": "The willingness to make decisions when outcomes are uncertain and losses are possible.",
+      "whyItMatters": "Entrepreneurship questions frequently connect risk-taking with work ethic, confidence, and venture creation.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Work ethic",
+      "definition": "A pattern of responsibility, effort, persistence, and reliability in work.",
+      "whyItMatters": "Work ethic is a common trait used to evaluate entrepreneurial readiness.",
+      "areas": [
+        "entrepreneurship",
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Private enterprise",
+      "definition": "An economy where individuals and businesses own resources and make decisions to earn profit.",
+      "whyItMatters": "Principles students should understand why profit, competition, and ownership matter to entrepreneurs.",
+      "areas": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Profit motive",
+      "definition": "The desire to earn profit from business activity.",
+      "whyItMatters": "Profit motive explains why entrepreneurs invest time, money, and effort into ventures.",
+      "areas": [
+        "economics",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "definition": "The economic relationship between how much of something is available and how much customers want to buy.",
+      "whyItMatters": "This helps students explain pricing, shortages, customer demand, and market opportunity.",
+      "areas": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Persuasive communication",
+      "definition": "Communication designed to influence someone while using clear reasoning, tone, evidence, and body language.",
+      "whyItMatters": "Principles roleplays require students to explain and persuade in a short meeting with a judge.",
+      "areas": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Online review response",
+      "definition": "A public or private reply to customer feedback that addresses concerns and protects the business's reputation.",
+      "whyItMatters": "The 2026 PEN judge questions ask how the business should respond to negative customer feedback.",
+      "areas": [
+        "information_management",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ]
+    }
+  ]
+}

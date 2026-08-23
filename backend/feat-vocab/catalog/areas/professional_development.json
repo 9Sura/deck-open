@@ -1,0 +1,136 @@
+{
+  "area": "professional_development",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/professional_development.txt"
+  ],
+  "terms": [
+    {
+      "term": "Work ethic",
+      "definition": "A pattern of responsibility, effort, persistence, and reliability at work.",
+      "whyItMatters": "Work ethic is tied to performance, trust, and advancement in workplace scenarios.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Chain of command",
+      "definition": "The line of authority defining who reports to whom in an organization.",
+      "whyItMatters": "Knowing when and how to escalate is a frequent judgment point in roleplays.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Time management",
+      "definition": "Organizing, planning, and prioritizing tasks to stay productive and meet deadlines.",
+      "whyItMatters": "Timed events reward competitors who prioritize and finish efficiently.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Professional appearance",
+      "definition": "Appropriate grooming, dress, and hygiene for the workplace.",
+      "whyItMatters": "First impressions are judged in interviews and face-to-face roleplay.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Company protocols",
+      "definition": "Established procedures employees are expected to follow for consistent operations.",
+      "whyItMatters": "Adhering to protocols shows respect for organizational structure.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Rules of conduct",
+      "definition": "Behavioral and ethical standards defining acceptable workplace actions.",
+      "whyItMatters": "Violating conduct rules is a common failure point in roleplay scenarios.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Problem-solving",
+      "definition": "A systematic approach to identifying issues, analyzing causes, and implementing solutions.",
+      "whyItMatters": "Competitors are judged on working through challenges and proposing action.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Creativity",
+      "definition": "Generating novel ideas and original solutions beyond conventional approaches.",
+      "whyItMatters": "DECA scenarios reward creative thinking when handling business challenges.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Systematic behavior",
+      "definition": "An orderly, methodical approach to tasks and decisions that follows a logical structure.",
+      "whyItMatters": "Judges favor structured reasoning over a scattered approach.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Goal setting",
+      "definition": "Establishing clear, specific objectives for performance over a set time frame.",
+      "whyItMatters": "Goal-oriented thinking signals ambition and strategic planning.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Work-life balance",
+      "definition": "The equilibrium between time spent on work and on personal life.",
+      "whyItMatters": "Awareness of balance reflects emotional intelligence and sustainable habits.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Job interview",
+      "definition": "A formal conversation used to assess a candidate's fit, skills, and alignment with a role.",
+      "whyItMatters": "Interview performance is directly tested and drives job-search success.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Résumé",
+      "definition": "A concise written summary of education, experience, skills, and achievements for job applications.",
+      "whyItMatters": "A strong résumé is the foundation of any job-search strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Professional networking",
+      "definition": "Building and maintaining relationships with professionals to exchange knowledge and opportunity.",
+      "whyItMatters": "Networking is essential for discovering and advancing career opportunities.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Career progression",
+      "definition": "The advancement path within an organization based on skills, performance, and leadership.",
+      "whyItMatters": "Understanding progression guides career decisions in higher-level scenarios.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Innovation skills",
+      "definition": "The ability to conceive new approaches and adapt to changing business environments.",
+      "whyItMatters": "Employers prize innovation; demonstrating it signals future-focused leadership.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    }
+  ]
+}

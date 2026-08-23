@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "fin-district-1-0001",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain forms of financial exchange",
+    "question": "Farmer Dale gives his neighbor a bushel of wheat in exchange for the use of a tiller for one weekend. No money changes hands in this arrangement. Which form of financial exchange does this represent?",
+    "options": {
+      "A": "Barter",
+      "B": "Credit transaction",
+      "C": "Electronic funds transfer",
+      "D": "Cash transaction"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is barter. Barter is the direct exchange of goods or services for other goods or services without the use of money, exactly as Farmer Dale and his neighbor did. A credit transaction is incorrect because no promise of future payment is involved; both parties exchanged value immediately. Electronic funds transfer is incorrect because that requires an electronic transfer of money between accounts, and no money was used here. A cash transaction is incorrect because cash, a form of currency, was never exchanged in this scenario.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0002",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Identify types of currency",
+    "question": "A merchant in the 1800s accepts a paper note stating that the bearer can redeem it for a fixed amount of gold at the government treasury. Which type of currency does this note represent?",
+    "options": {
+      "A": "Fiat currency",
+      "B": "Representative currency",
+      "C": "Commodity currency",
+      "D": "Cryptocurrency"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is representative currency, because the note itself has no intrinsic value but can be exchanged for a commodity, in this case gold, held by an issuing authority. Fiat currency is incorrect because fiat money has value only because a government declares it legal tender, not because it is backed by or redeemable for a commodity. Commodity currency is incorrect because that term describes money that has value in itself, such as an actual gold coin, not a paper claim on gold. Cryptocurrency is incorrect because it is a decentralized digital currency and did not exist in the 1800s.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0003",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe functions of money",
+    "question": "A bakery prices a custom wedding cake at $250 so that customers can compare its cost to other bakery items and to products sold elsewhere. In this situation, money is primarily serving which function?",
+    "options": {
+      "A": "Store of value",
+      "B": "Medium of exchange",
+      "C": "Unit of account",
+      "D": "Standard of deferred payment"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is unit of account, because money is being used to express and compare the value of the cake against other goods, which is exactly what the unit-of-account function does. Store of value is incorrect because that function refers to money's ability to hold value over time for future use, not to expressing a price. Medium of exchange is incorrect because that function refers to money actually changing hands during a purchase, which has not yet occurred in this scenario. Standard of deferred payment is incorrect because that function applies to debts or contracts settled in the future, not to simply listing a price.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0004",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe sources of income",
+    "question": "Maria works part-time at a retail store and also owns shares of stock that pay her quarterly dividends. The dividend payments she receives are best classified as which source of income?",
+    "options": {
+      "A": "Earned income from wages",
+      "B": "Earned income from self-employment",
+      "C": "Transfer payment income",
+      "D": "Unearned income from investments"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is unearned income from investments, because dividends are payments generated from owning an asset rather than from performing labor. Earned income from wages is incorrect because wages are payment for hours worked at a job, which describes her retail pay, not the dividends. Earned income from self-employment is incorrect because Maria does not own or operate the business paying the dividends. Transfer payment income is incorrect because transfer payments come from government programs, such as unemployment benefits, not from stock ownership.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0005",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain time value of money",
+    "question": "A financial advisor tells a client that receiving $5,000 today is worth more to her than receiving the same $5,000 five years from now, even with no risk of default. Which financial principle explains this advice?",
+    "options": {
+      "A": "Time value of money",
+      "B": "Opportunity cost",
+      "C": "Inflation risk",
+      "D": "Diversification"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is time value of money, which holds that money available now can be invested or earn interest, making it worth more than the same amount received later. Opportunity cost is incorrect because that concept refers to the value of the next-best alternative given up when making a choice, not the timing of a single payment. Inflation risk is incorrect because that term specifically refers to the danger that rising prices will erode purchasing power, which is only one reason among several that money loses value over time. Diversification is incorrect because that concept relates to spreading investments across different assets to reduce risk, not to the timing of cash receipts.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0006",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain purposes and importance of credit",
+    "question": "A newly married couple uses a store credit card to purchase furniture for their apartment and agrees to repay the balance over the next six months. What is the primary purpose credit serves for the couple in this situation?",
+    "options": {
+      "A": "To eliminate the couple's need for insurance",
+      "B": "To allow the purchase of goods before full payment is available",
+      "C": "To increase the couple's net worth immediately",
+      "D": "To avoid paying any interest charges"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is that credit allows the purchase of goods before full payment is available, letting the couple furnish their apartment now while spreading out payments. Eliminating the need for insurance is incorrect because credit and insurance serve entirely different financial purposes. Increasing net worth immediately is incorrect because taking on a credit balance creates a liability, which actually decreases net worth until it is repaid. Avoiding interest charges is incorrect because most store credit cards charge interest on unpaid balances, so using credit does not guarantee interest-free payments.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0007",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Set financial goals",
+    "question": "Jordan writes down that she wants to save $3,000 for a used car within one year and $40,000 for a house down payment within ten years. Writing down these targets is an example of which financial planning activity?",
+    "options": {
+      "A": "Preparing a balance sheet",
+      "B": "Reconciling a bank statement",
+      "C": "Setting financial goals",
+      "D": "Calculating net worth"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is setting financial goals, since Jordan is identifying specific, measurable targets with timeframes to guide her saving decisions. Preparing a balance sheet is incorrect because that involves listing current assets and liabilities at a point in time, not future savings targets. Reconciling a bank statement is incorrect because that process compares a checkbook register to a bank's records to catch errors. Calculating net worth is incorrect because that involves subtracting current liabilities from current assets, not planning for future goals.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0008",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Develop personal budget",
+    "question": "Before each month begins, Marcus lists his expected income and assigns specific dollar amounts to rent, groceries, transportation, and savings so that he does not overspend. Marcus is engaging in which financial activity?",
+    "options": {
+      "A": "Reconciling his bank statement",
+      "B": "Calculating his net worth",
+      "C": "Applying for a consumer loan",
+      "D": "Developing a personal budget"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is developing a personal budget, because Marcus is planning ahead by allocating expected income across specific expense categories before spending occurs. Reconciling his bank statement is incorrect because that task involves comparing his own records to the bank's statement after transactions have already posted. Calculating his net worth is incorrect because that requires totaling assets and subtracting liabilities, not planning monthly spending. Applying for a consumer loan is incorrect because Marcus is not borrowing money or completing a loan application in this scenario.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0009",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Determine personal net worth",
+    "question": "To find out how much she is truly worth financially, Elena adds up the value of her car, savings account, and furniture, then subtracts her credit card balance and remaining student loan debt. What is Elena calculating?",
+    "options": {
+      "A": "Personal net worth",
+      "B": "Gross income before deductions",
+      "C": "Cash flow",
+      "D": "Credit score"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is personal net worth, which is total assets minus total liabilities, exactly what Elena computes by adding her car, savings, and furniture and subtracting her card balance and student loans. Gross income before deductions is what she earns over a period before taxes and withholding come out; it is a flow of earnings and involves neither the things she owns nor the debts she owes. Cash flow is incorrect because that measures money moving in and out over a period of time, not a snapshot of assets and liabilities. Credit score is incorrect because that is a numerical rating of creditworthiness calculated by credit bureaus, not something Elena can compute by listing her own assets and debts.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0010",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Interpret a pay stub",
+    "question": "Devon notices that his pay stub shows $2,000 in gross pay for the period but only $1,550 was deposited into his checking account. Which section of his pay stub explains this difference?",
+    "options": {
+      "A": "Year-to-date earnings",
+      "B": "Deductions",
+      "C": "Pay period dates",
+      "D": "Employer identification number"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is deductions, which lists taxes, insurance premiums, and retirement contributions withheld from gross pay, accounting for the gap between gross and net pay. Year-to-date earnings is incorrect because that section only totals earnings and withholdings across the calendar year, it does not explain a single period's difference. Pay period dates is incorrect because that section simply states the range of dates the paycheck covers and has no bearing on the dollar amount withheld. Employer identification number is incorrect because that is an identifying number for the employer used for tax reporting, not a figure related to withholdings.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0011",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Maintain financial records",
+    "question": "A small bakery owner files every receipt, invoice, and bank deposit slip into labeled monthly folders so she can track spending and prepare for tax season. This practice best illustrates which activity?",
+    "options": {
+      "A": "Reconciling bank statements",
+      "B": "Preparing a balance sheet",
+      "C": "Maintaining financial records",
+      "D": "Protecting against identity theft"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is maintaining financial records, since organizing and storing receipts, invoices, and deposit slips over time is the core of good recordkeeping. Reconciling bank statements is incorrect because that specific task involves comparing account records to a bank statement to check for discrepancies, not general filing of documents. Preparing a balance sheet is incorrect because that is a single financial report summarizing assets and liabilities, not the ongoing process of organizing source documents. Protecting against identity theft is incorrect because that involves safeguarding personal information from misuse, which is a different goal than organizing business records.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0012",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Calculate cost of credit",
+    "question": "Before taking out a $2,000 personal loan, Priya compares the total amount she will repay, including all interest and fees, against the $2,000 she is borrowing. What is Priya calculating?",
+    "options": {
+      "A": "Principal balance",
+      "B": "Credit score",
+      "C": "Net worth",
+      "D": "Cost of credit"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is cost of credit, which is the total amount a borrower pays for the privilege of borrowing, including interest and fees, beyond the original amount borrowed. Principal balance is incorrect because that refers only to the original amount borrowed, $2,000, not the added cost of borrowing it. Credit score is incorrect because that is a numerical rating of a borrower's creditworthiness, not a dollar figure representing repayment cost. Net worth is incorrect because that measures total assets minus total liabilities, which is unrelated to the cost of a specific loan.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0013",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Make responsible financial decisions",
+    "question": "Instead of buying a new video game console with his paycheck, Tyler deposits the money into his emergency savings account because his car may need repairs soon. What is Tyler demonstrating?",
+    "options": {
+      "A": "Making a responsible financial decision",
+      "B": "Controlling debt",
+      "C": "Reconciling his register against his monthly bank statement",
+      "D": "Applying for a consumer loan to cover the purchase"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is making a responsible financial decision, since Tyler weighed a want against a foreseeable need and chose the option that protects him. Reconciling his register against the monthly bank statement is a real task, but it means matching his own records to the bank's to find discrepancies, which is checking an account rather than deciding what to do with a paycheck. Applying for a consumer loan to cover the purchase is what Tyler would be doing had he bought the console without the cash for it, whereas he is adding to savings rather than borrowing. Controlling debt is incorrect because Tyler has no existing debt in this scenario that he is managing or paying down.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0014",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Pay bills",
+    "question": "To avoid late fees and maintain good standing with her utility provider, Ana sets up automatic monthly payments from her checking account. Ana's action primarily relates to which financial activity?",
+    "options": {
+      "A": "Protecting against identity theft",
+      "B": "Paying bills",
+      "C": "Reconciling bank statements",
+      "D": "Controlling debt"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is paying bills, since Ana is ensuring her recurring utility obligation is satisfied on time through automatic payment. Protecting against identity theft is incorrect because that involves safeguarding personal and financial information from theft, not scheduling routine payments. Reconciling bank statements is incorrect because that involves comparing recorded transactions to the bank's statement, which is a separate task from making the payment itself. Controlling debt is incorrect because a utility bill is a routine expense, not revolving or outstanding debt that needs to be managed down.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0015",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Control debt",
+    "question": "After noticing his credit card balances kept growing, Sam stopped using the cards, transferred the balances to a lower-interest personal loan, and began paying more than the minimum due each month. What is Sam primarily working to do?",
+    "options": {
+      "A": "Establish a credit history",
+      "B": "Increase his net worth immediately",
+      "C": "Control debt",
+      "D": "Set a new financial goal"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is control debt, because Sam is taking direct action to stop his balances from growing and to pay them down faster through lower interest and larger payments. Establishing a credit history is incorrect because Sam already has credit accounts open; he is managing existing debt rather than building a first-time credit record. Increasing his net worth immediately is incorrect because paying down debt improves net worth gradually over time, not instantly. Setting a new financial goal is incorrect because Sam is executing a debt-reduction plan, not writing down a new target to achieve.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0016",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe financial-services providers",
+    "question": "A consumer is looking for a single institution that offers a checking account, a savings account, and a small personal loan, all with membership-based, not-for-profit ownership. Which type of financial-services provider best fits this description?",
+    "options": {
+      "A": "Insurance company",
+      "B": "Investment brokerage",
+      "C": "Payroll processing firm",
+      "D": "Credit union"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is credit union, a not-for-profit, member-owned financial institution that commonly offers checking accounts, savings accounts, and consumer loans. Insurance company is incorrect because that type of provider primarily sells policies to protect against financial loss, not everyday banking or loan services. Investment brokerage is incorrect because that type of firm focuses on buying and selling securities for clients, not checking accounts or personal loans. Payroll processing firm is incorrect because that type of business handles employee wage calculations and tax withholdings for employers, not consumer banking services.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0017",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain investments",
+    "question": "Instead of keeping all of his savings in a low-interest savings account, Raj purchases shares of a mutual fund, hoping its value will grow significantly over the next 20 years. What is Raj engaging in?",
+    "options": {
+      "A": "An investment",
+      "B": "Budgeting",
+      "C": "A consumer loan",
+      "D": "Debt control"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is an investment, since Raj is committing money to an asset with the expectation that it will grow in value over the long term, accepting some risk for potential reward. Budgeting is incorrect because that involves planning income and expenses, not purchasing assets for growth. A consumer loan is incorrect because Raj is not borrowing money; he is putting his own money into the mutual fund. Debt control is incorrect because there is no existing debt being managed in this scenario, only money being invested.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0018",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe cash flow statements",
+    "question": "A restaurant owner wants to know exactly how much cash came in from customers and how much cash went out for rent, payroll, and food supplies during the month of March. Which financial statement should she review?",
+    "options": {
+      "A": "Balance sheet",
+      "B": "Cash flow statement",
+      "C": "Income statement",
+      "D": "Personal budget"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is cash flow statement, which specifically tracks actual cash received and cash paid out by the business over a given period. Balance sheet is incorrect because it reports assets, liabilities, and equity at a single point in time rather than the flow of cash during a period. Income statement is incorrect because it reports revenues and expenses to show profit or loss, which can include non-cash items and does not track actual cash movement. Personal budget is incorrect because that document plans an individual's expected income and expenses, not a business's recorded cash activity.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0019",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain balance sheets",
+    "question": "A business owner wants to know exactly what his company owns, what it owes, and its overall worth as of December 31. Which financial statement provides this information?",
+    "options": {
+      "A": "Income statement",
+      "B": "Cash flow statement",
+      "C": "Balance sheet",
+      "D": "Sales budget"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is balance sheet, a financial statement that captures a business's assets, liabilities, and owner's equity as of a specific date. Income statement is incorrect because it shows revenues and expenses over a period of time to reveal profit or loss, not a snapshot of assets and liabilities. Cash flow statement is incorrect because it tracks cash inflows and outflows over a period rather than the company's overall worth on a given date. Sales budget is incorrect because that document estimates future sales-related expenditures and revenue, not the current financial position of the company.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0020",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe income statements",
+    "question": "To determine whether the company earned a profit or suffered a loss during the past quarter, the accountant reviews revenues, cost of goods sold, and operating expenses recorded in which document?",
+    "options": {
+      "A": "Balance sheet",
+      "B": "Cash flow statement",
+      "C": "Personal budget",
+      "D": "Income statement"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is income statement, also called a profit-and-loss statement, which summarizes revenues and expenses over a period to show whether a business earned a profit or incurred a loss. Balance sheet is incorrect because it reports assets, liabilities, and equity at one point in time rather than profitability over a period. Cash flow statement is incorrect because it tracks the movement of cash in and out of the business rather than calculating overall profit or loss. Personal budget is incorrect because that document plans an individual's income and expenses and has no bearing on a company's quarterly profitability.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0021",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Distinguish between economic goods and services",
+    "question": "A tutoring company sells one-on-one homework help sessions, while a bookstore sells textbooks. From an economics standpoint, the tutoring sessions are best classified as",
+    "options": {
+      "A": "services, because they are intangible tasks performed for customers",
+      "B": "goods, because the worked examples and notes the student keeps afterward are tangible items",
+      "C": "goods, because the company produces sessions on a schedule and can store unsold ones",
+      "D": "services, because the student can resell a session to a classmate later"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. A service is an intangible task performed by one party for another; the tutoring session is the tutor's time and effort, and when it ends there is nothing to hold. Option B points at something real, since the student does keep worked examples, but those are incidental by-products of the session rather than the thing bought, and the customer paid for the hour of instruction rather than for the paper. Option C applies the right test and fails it: services are perishable, so an unbooked hour cannot be shelved and sold later the way an unsold textbook can. Option D is wrong because a service is performed for a particular customer and cannot be transferred, unlike a physical good such as a textbook.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0022",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain the concept of economic resources",
+    "question": "A furniture maker needs wood, a skilled carpenter, a workshop, and money to purchase tools before production can begin. The carpenter's labor and skill represent which type of economic resource?",
+    "options": {
+      "A": "Natural resources",
+      "B": "Capital resources",
+      "C": "Human resources",
+      "D": "Entrepreneurial resources"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Human resources refer to the labor, skill, and effort people contribute to production, which describes the carpenter's work. Option A is wrong because natural resources are raw materials supplied by nature, such as the wood itself. Option B is wrong because capital resources are the tools, equipment, and money used to produce goods, not the worker's labor. Option D is wrong because entrepreneurial resources refer to the risk-taking and organizing ability of the business owner who combines the other resources, not the carpenter performing the labor.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0023",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain supply and demand",
+    "question": "A severe drought destroys much of a region's wheat crop while consumer demand for bread remains unchanged. Based on the laws of supply and demand, what will most likely happen to the price of bread?",
+    "options": {
+      "A": "The price will decrease because farmers will sell surplus wheat quickly",
+      "B": "The price will remain the same because demand has not changed",
+      "C": "The price will increase because supply has decreased relative to demand",
+      "D": "The price will decrease because bakeries will substitute a cheaper grain"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. When supply falls while demand stays constant, the reduced availability relative to demand pushes prices upward. Option A is wrong because a drought creates a shortage, not a surplus, of wheat. Option B is wrong because a shift in supply alone, even with unchanged demand, still changes the equilibrium price. Option D describes a possible long-term business response but does not reflect the immediate market price effect of a supply decrease, which is a price increase.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0024",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe functions of prices in markets",
+    "question": "When the price of a popular smartphone rises sharply after a shortage, some customers switch to a competing brand, while the manufacturer ramps up production. This scenario best illustrates prices functioning as",
+    "options": {
+      "A": "a way for government to control inflation directly",
+      "B": "a signal that allocates resources and guides buyer and seller behavior",
+      "C": "a fixed measure of what the manufacturer spent to produce each unit of the phone",
+      "D": "a tool used only to calculate business taxes"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Prices act as signals in a market economy, carrying information that leads buyers to adjust what they purchase and sellers to adjust what they produce, which is how resources get reallocated; the stem shows both responses at once. Option A is wrong because prices here are set by market forces rather than by direct government control. Option C is wrong because price is not a readout of production cost: what the phone costs to build did not change, yet the price rose on scarcity and demand, which is exactly how the signal is carried. Option D is wrong because taxes are a separate government function unrelated to how prices guide market behavior.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0025",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe types of business activities",
+    "question": "A company mines iron ore, another company melts and shapes that ore into steel beams, and a third company assembles the beams into a bridge. The steel-shaping company is primarily engaged in which type of business activity?",
+    "options": {
+      "A": "Production",
+      "B": "Extraction",
+      "C": "Marketing",
+      "D": "Distribution"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Production involves converting raw materials or resources into a more finished, usable product, which describes turning iron ore into steel beams. Option B is wrong because extraction refers to removing raw materials directly from nature, which is the mining company's role. Option C is wrong because marketing involves promoting and selling products to customers, not manufacturing them. Option D is wrong because distribution involves moving finished products to where they are needed, not transforming raw materials.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0026",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain organizational design of businesses",
+    "question": "At a regional retail chain, store managers must get approval from a district manager for nearly every decision, including minor scheduling changes, and the district manager reports to a small executive team at headquarters. This structure best reflects",
+    "options": {
+      "A": "a decentralized organization with wide spans of control",
+      "B": "a centralized organization with a tall hierarchy",
+      "C": "a flat organization with broad employee autonomy",
+      "D": "a matrix organization with dual reporting lines"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. A centralized organization concentrates decision-making authority at higher levels, and requiring approval for even minor decisions through multiple management layers reflects a tall hierarchy. Option A is wrong because decentralized organizations push decision-making down to lower levels, the opposite of what is described. Option C is wrong because a flat structure has few management layers and high employee autonomy, not multiple approval layers. Option D is wrong because a matrix structure involves employees reporting to two different managers for different functions, which is not described here.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0027",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain business ethics",
+    "question": "A sales representative discovers a defect in a product that could cause it to malfunction but is not required by law to disclose it. She tells the customer about the defect anyway before completing the sale. Her action best demonstrates",
+    "options": {
+      "A": "legal compliance, since disclosing a known product defect before a sale is what consumer-protection law requires",
+      "B": "business ethics, by acting in the customer's best interest beyond legal minimums",
+      "C": "poor salesmanship, since volunteering a product's weakness before closing works against her employer",
+      "D": "corporate social responsibility, since her employer's code of conduct directs her to disclose"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Business ethics is doing what is right when nothing compels it, and disclosing a defect she was free to conceal, at the risk of the sale, is that choice exactly. Option A inverts the stem: it claims the disclosure was legally required, when the stem states she was under no such obligation, and that absence of obligation is what makes the act ethical rather than merely compliant. Option C raises a real commercial objection, but a representative who lets a customer buy a product she knows may malfunction trades the customer's trust for one sale, and accepting a cost to act on a value is what the stem depicts. Option D names a real concept, but corporate social responsibility describes commitments a company makes toward society, and the stem describes one employee's own decision with no company code or program behind it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0028",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain economic systems",
+    "question": "In Country X, the government owns and directs nearly all major industries, sets production quotas, and determines the prices of most goods with minimal private business activity. Country X's economy most closely resembles a",
+    "options": {
+      "A": "market economy",
+      "B": "mixed economy",
+      "C": "command economy",
+      "D": "traditional economy"
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. A command economy is one in which the government owns resources and makes the central decisions about production and pricing, matching the description of Country X. Option A is wrong because a market economy relies on private ownership and consumer/producer decisions with minimal government control. Option B is wrong because a mixed economy blends significant private enterprise with some government involvement, whereas Country X has minimal private activity. Option D is wrong because a traditional economy bases decisions on customs and rituals rather than centralized government planning.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0029",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Identify factors affecting profit",
+    "question": "A restaurant's food costs rise sharply due to a shortage of a key ingredient, but the owner keeps menu prices unchanged to retain price-sensitive customers. What is the most likely effect on the restaurant's profit?",
+    "options": {
+      "A": "Profit will decrease because expenses have risen while revenue stays the same",
+      "B": "Profit will increase because customer volume stays steady",
+      "C": "Profit will stay the same because the restaurant's total revenue has not changed at all",
+      "D": "Profit will increase because ingredient shortages raise perceived value"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Profit is revenue minus expenses, so when food costs rise and menu prices hold, each meal leaves less behind; revenue is flat, expenses are higher, and profit falls by the amount costs rose. Option B is wrong because steady customer volume holds revenue up but does nothing about the higher costs now eating into the margin on each sale. Option C confuses revenue with profit, and revenue genuinely is unchanged, which is what makes it tempting, but profit is what remains after expenses and the expense side is precisely what moved. Option D is wrong because perceived value from a shortage does not automatically translate into higher profit when prices are held constant.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0030",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Determine factors affecting business risk",
+    "question": "A startup that manufactures a single product line for only one large retail client is evaluating its risk exposure. Which factor most significantly increases this startup's business risk?",
+    "options": {
+      "A": "Having a diversified customer base",
+      "B": "Maintaining low fixed costs relative to competitors",
+      "C": "Operating in a stable, well-regulated industry",
+      "D": "Relying on a single product and a single major customer"
+    },
+    "answer": "D",
+    "explanation": "Correct answer: D. Dependence on one product line and one major customer concentrates risk, since losing that client or product demand could threaten the entire business. Option A is wrong because diversification of customers typically reduces, not increases, risk. Option C is wrong because a stable, well-regulated industry generally lowers uncertainty rather than raising it. Option B is wrong because low fixed costs relative to competitors is generally an advantage that reduces financial risk, not a factor that increases it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0031",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain competition",
+    "question": "In a small town, only one company provides electricity because the high infrastructure costs make it impractical for a second firm to enter the market. This market structure is best described as",
+    "options": {
+      "A": "pure competition",
+      "B": "monopolistic competition",
+      "C": "oligopoly",
+      "D": "monopoly"
+    },
+    "answer": "D",
+    "explanation": "Correct answer: D. A monopoly exists when a single seller controls the entire market and high barriers to entry, such as massive infrastructure costs, prevent competitors from entering, as with the electric utility. Option A is wrong because pure competition involves many sellers of identical products with no single firm controlling price. Option B is wrong because monopolistic competition involves many firms selling differentiated products, not a single provider. Option C is wrong because an oligopoly involves a small number of firms sharing market dominance, not just one.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0032",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss unemployment rates",
+    "question": "During an economic downturn, a factory permanently closes and lays off its entire workforce because consumer demand for its product has collapsed nationwide. This type of unemployment is best classified as",
+    "options": {
+      "A": "frictional unemployment",
+      "B": "seasonal unemployment",
+      "C": "structural unemployment",
+      "D": "cyclical unemployment"
+    },
+    "answer": "D",
+    "explanation": "Correct answer: D. Cyclical unemployment results from downturns in the overall business cycle, when reduced demand across the economy leads to layoffs, as described in the factory closure. Option A is wrong because frictional unemployment refers to short-term job searching between jobs, not economy-wide demand collapse. Option B is wrong because seasonal unemployment results from predictable seasonal changes in demand, not a broad economic downturn. Option C is wrong because structural unemployment results from a mismatch between workers' skills and available jobs, often due to technology or industry shifts, not a temporary downturn.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0033",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Orient new employees",
+    "question": "A new hire's first day includes a tour of the facility, an introduction to her supervisor and team, an overview of the employee handbook, and instructions on how to log into company systems. This process is best described as",
+    "options": {
+      "A": "employee orientation",
+      "B": "performance appraisal",
+      "C": "job recruitment",
+      "D": "succession planning"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Employee orientation introduces new hires to the company's people, policies, and procedures so they can transition smoothly into their role, matching the activities described. Option B is wrong because performance appraisal is an ongoing evaluation of an employee's job performance, not a first-day introduction. Option C is wrong because job recruitment involves attracting and selecting candidates before they are hired, which has already occurred here. Option D is wrong because succession planning involves preparing employees for future leadership roles, not introducing a brand-new hire to the company.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0034",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Recognize and overcome biases/stereotypes",
+    "question": "A finance manager is reviewing loan applications and notices she automatically assumes applicants who work in the restaurant industry will have unstable income, even when their financial documents show steady earnings. To make fair lending decisions, she should",
+    "options": {
+      "A": "evaluate each application based on the documented financial evidence rather than assumptions about the industry",
+      "B": "rely on her accumulated experience with applicants from that industry to move through the files faster",
+      "C": "ask a colleague to approve any restaurant-industry applications so she is not responsible",
+      "D": "add an extra verification step only for applicants in industries she considers risky"
+    },
+    "answer": "A",
+    "explanation": "Evaluating each application on the documented financial evidence is correct because it is the step that actually overcomes the bias: the manager already holds proof, in the form of steady earnings on the statements, that her assumption about restaurant income is wrong in these cases, and the remedy is to let the document rather than the industry decide. Option B is the bias itself described as an asset, since the accumulated impression of restaurant applicants is precisely what the paperwork contradicts, and using it to speed up review makes the pattern faster rather than fairer. Passing the decision to a colleague avoids the problem instead of correcting the manager's own judgment. Adding extra verification for industries she personally considers risky is itself a discriminatory practice built on the same stereotype, not a solution to it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0035",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess risks of personal decisions",
+    "question": "Deshawn, a junior financial analyst, is considering investing a large portion of his personal savings in his employer's stock after hearing a rumor that a merger will soon boost the share price. Before making this decision, Deshawn should primarily consider that",
+    "options": {
+      "A": "employees typically learn merger details ahead of the public, so acting on the rumor now would give him a timing advantage",
+      "B": "concentrating savings in one stock based on a rumor exposes him to significant, unverified risk",
+      "C": "his employer's stock carries less risk than a diversified fund because he can watch the company from the inside",
+      "D": "personal investment choices rest on judgment rather than the formal risk analysis businesses use"
+    },
+    "answer": "B",
+    "explanation": "Concentrating a large share of his savings in one stock on the strength of a rumor is correct because assessing risk means weighing how likely a loss is and what it would cost, and he would be committing money he depends on against information he has not verified. Option A describes a belief many employees hold, and rumors do circulate internally, but a rumor is not confirmation, and if the detail were genuine and nonpublic then trading on it would expose him to insider-trading liability rather than an advantage. Option C is the familiarity bias by name: knowing a company from the inside feels like information, but his job, his salary, and his savings would then all depend on the same employer, which concentrates his exposure rather than reducing it. Option D is wrong because personal financial decisions carry real consequences and warrant the same assessment of likelihood and loss that business decisions receive.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0036",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate honesty and integrity",
+    "question": "While reconciling a client's brokerage account, a financial associate discovers that a small clerical error in the client's favor has gone unnoticed for months, resulting in the client having more funds than they should. The associate should",
+    "options": {
+      "A": "leave the error alone since the client benefits and no one has complained",
+      "B": "wait to see if the client notices before taking any action",
+      "C": "quietly adjust future statements without mentioning the past discrepancy",
+      "D": "correct the account and disclose the error to the client and the firm"
+    },
+    "answer": "D",
+    "explanation": "Correcting the account and disclosing the error to the client and the firm is correct because honesty and integrity require transparency about mistakes, even ones that benefit someone, to maintain accurate records and trust. Leaving the error alone perpetuates inaccurate records and is dishonest by omission. Quietly adjusting future statements without disclosure hides the past discrepancy rather than resolving it honestly. Waiting to see if the client notices delays a necessary correction and reflects a lack of proactive integrity.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0037",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Show empathy",
+    "question": "A bank teller is helping a customer who becomes visibly upset after learning that a large check she deposited will take several extra days to clear, leaving her unable to pay an urgent bill. The teller's best response is to",
+    "options": {
+      "A": "walk the customer through the bank's funds-availability schedule so she understands exactly why the hold applies",
+      "B": "acknowledge the customer's frustration and calmly explore what options might help her situation",
+      "C": "tell the customer that everyone experiences hold delays and she should not worry",
+      "D": "offer to waive the fee on her next transaction as compensation for the inconvenience the hold has caused"
+    },
+    "answer": "B",
+    "explanation": "Acknowledging the customer's frustration and calmly exploring what might help demonstrates empathy: it names the feeling she is showing and then treats her real problem, an urgent bill she now cannot pay, as something to work on together. Option A gives her accurate information, and a clear account of the funds-availability schedule is worth having, but it answers a question she did not ask, since she already knows the check is held, and explaining the rule in more detail addresses the policy rather than the person. Telling her that everyone experiences delays minimizes her specific concern rather than addressing it. Option D is a real service-recovery gesture, but a fee waiver on a future transaction hands her something she did not ask for while today's bill goes unpaid, substituting a concession for an understanding of what she needs.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0038",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use conflict-resolution skills",
+    "question": "Two members of an accounting team disagree over how to categorize a large expense, and the disagreement is beginning to delay the month-end close. The team lead should",
+    "options": {
+      "A": "poll the rest of the accounting team and categorize the expense according to whichever treatment the majority of the department prefers at close",
+      "B": "separate the two employees onto different account groups so neither has to agree with the other about how expenses are categorized",
+      "C": "facilitate a discussion where both employees explain their reasoning and agree on a resolution based on accounting standards",
+      "D": "decide the categorization himself from how a similar expense was handled last year and tell both employees the matter is closed"
+    },
+    "answer": "C",
+    "explanation": "Facilitating a discussion where both employees explain their reasoning and settle the question against accounting standards is correct because effective conflict resolution resolves the substance of the disagreement using objective criteria, and it leaves both parties able to apply the same rule the next time it arises. Polling the department ends the delay but decides an accounting question by popularity, when how an expense is classified is governed by the applicable standard rather than by what most of the team would prefer. Separating the two onto different account groups removes the friction without settling anything, and it guarantees that one expense type is treated two ways in a single set of books. Deciding it himself from last year's treatment is fast but skips the reasoning, and prior-year precedent carries no authority if the earlier entry was itself wrong.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0039",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate adaptability",
+    "question": "A financial planning firm suddenly switches from paper-based client files to a new cloud-based portfolio management system. An advisor who has used paper files for fifteen years finds the transition frustrating. The most effective way for the advisor to handle this change is to",
+    "options": {
+      "A": "continue keeping paper backups of everything to avoid relying on the new system",
+      "B": "request a permanent exemption from using the new software",
+      "C": "actively learn the new system and adjust daily workflows to use it effectively",
+      "D": "delegate all data entry into the new system to a junior assistant indefinitely"
+    },
+    "answer": "C",
+    "explanation": "Actively learning the new system and adjusting workflows demonstrates adaptability by embracing the change and building the skills needed to work effectively within it. Keeping paper backups indefinitely resists the change rather than adapting to it. Requesting a permanent exemption avoids adaptation altogether. Permanently delegating the task to a junior assistant avoids personal adjustment and does not build the advisor's own competence with the new system.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0040",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Explain feedback for growth",
+    "question": "A new financial analyst receives a performance review noting that her client reports, while accurate, are often too technical for clients to understand. The primary reason this type of feedback benefits the analyst is that it",
+    "options": {
+      "A": "identifies a specific, actionable area where she can improve to better serve clients",
+      "B": "confirms that her analytical work meets the firm's standards, so her reports need no change in the coming cycle",
+      "C": "identifies a personal trait she should work on, since being technical reflects who she is by nature",
+      "D": "ranks her against the department's other analysts so she can see where she currently places"
+    },
+    "answer": "A",
+    "explanation": "Feedback that names a specific, changeable behavior is valuable because it tells the analyst what to do differently, namely write client reports in language clients can follow, and that is a target she can act on now. Option B reads only the first half of the review: the work was called accurate, but the reviewer named a problem alongside that, and treating the praise as the whole message discards the part that carries the direction. Option C mistakes a behavior for a trait, since how much technical detail she includes is a choice she can vary by audience, and framing it as a fixed characteristic makes the feedback impossible to act on. Option D describes a real appraisal practice, but comparative ranking tells her where she stands rather than what to change, and this review identified a specific gap instead of a position.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0041",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Maintain confidentiality",
+    "question": "During a lunch break, an employee at an investment firm overhears a coworker mention a client's upcoming large withdrawal that could affect the client's portfolio strategy. Later, at a family gathering, the employee is asked about interesting things happening at work. The employee should",
+    "options": {
+      "A": "share the general topic of the withdrawal but leave out the client's name",
+      "B": "discuss it only with immediate family members since they will not repeat it",
+      "C": "avoid disclosing any client-specific information regardless of who is asking",
+      "D": "mention the situation in vague terms if it seems like an interesting story"
+    },
+    "answer": "C",
+    "explanation": "Avoiding disclosure of any client-specific information regardless of who is asking is correct because confidentiality obligations extend to all client information, and even casual conversations outside work can compromise client trust and violate firm policy. Sharing the general topic without the client's name still risks revealing sensitive information depending on context. Discussing it with family members is not an acceptable exception since confidentiality does not depend on the listener's trustworthiness. Mentioning it in vague terms still involves disclosing information that should remain confidential entirely.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0042",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Persuade others",
+    "question": "A financial advisor wants to convince a hesitant client to diversify a heavily concentrated stock portfolio. The most effective persuasive approach is to",
+    "options": {
+      "A": "insist the client follow the recommendation without further explanation",
+      "B": "cite the average portfolio allocation held by the firm's other clients in the same age bracket and recommend that he match it",
+      "C": "wait for the client to experience a loss before raising the topic again",
+      "D": "present data on the client's specific risk exposure and explain how diversification aligns with the client's stated goals"
+    },
+    "answer": "D",
+    "explanation": "Presenting data on the client's own risk exposure and connecting diversification to the goals he has already stated is effective persuasion because it argues from evidence about him and appeals to interests he has himself endorsed. Insisting that he follow the recommendation without explanation asserts authority instead of building understanding and gives him no reason to agree. Citing what the firm's other clients in his age bracket hold is a genuine persuasive appeal, but it argues from what other people do rather than from this client's concentration and goals, so a client whose situation differs from the average has been given nothing that applies to him. Waiting for a loss to occur is passive and leaves the exposure in place, which is the outcome the advisor is trying to prevent.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0043",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Foster positive working relationships",
+    "question": "A finance department is made up of employees from several different teams who rarely interact outside of required meetings, leading to miscommunication during the quarterly budgeting process. To foster stronger working relationships among these employees, a manager should",
+    "options": {
+      "A": "require each team to submit budget figures independently with no cross-team communication",
+      "B": "create opportunities for informal collaboration and open communication across teams throughout the year",
+      "C": "wait until the annual budget deadline to address any relationship issues that arise",
+      "D": "assign a single employee to handle all cross-team communication permanently"
+    },
+    "answer": "B",
+    "explanation": "Creating opportunities for informal collaboration and open communication throughout the year fosters positive working relationships by building familiarity and trust before high-pressure situations like budgeting arise. Requiring independent submission with no cross-team communication actively discourages relationship-building and increases miscommunication. Waiting until the deadline to address relationship issues is reactive rather than preventive. Assigning one employee as the sole communication channel limits relationship development among the broader team rather than fostering it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0044",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Interpret/adapt to business culture",
+    "question": "A financial analyst transfers from a firm's casual, informal regional office to its corporate headquarters, where communication is highly formal and decisions go through several layers of approval. To succeed in the new environment, the analyst should",
+    "options": {
+      "A": "observe how colleagues communicate and make decisions, then adjust her approach to fit the headquarters culture",
+      "B": "request a written copy of the headquarters communication standards and follow it exactly, treating anything the document omits as unchanged from her old office",
+      "C": "keep the informal style from the regional office so that headquarters colleagues can see for themselves the benefits of a less formal approach",
+      "D": "wait for her manager to correct her whenever she breaks a headquarters norm, then adjust her behavior after each correction"
+    },
+    "answer": "A",
+    "explanation": "Observing how colleagues communicate and make decisions and then adjusting to fit is correct because business culture lives mostly in unwritten norms, such as how formal a message should be and how many approvals a decision needs, and those are learned by watching the people who already follow them. Requesting the written standards and following them exactly captures whatever part of the culture has been documented, but the habits that distinguish this office are the ones no document states, and treating omissions as permission to keep her old style reproduces the mismatch. Keeping the informal style so headquarters can see its benefits is advocacy rather than adaptation, and a newly transferred analyst has neither the standing nor the track record to move an established culture. Waiting to be corrected does surface the norms eventually, but it makes her manager's time the mechanism and ensures she learns each norm by first breaking it in front of the people whose judgment she needs.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0045",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Conduct risk assessment of an event",
+    "question": "Before launching a new mobile investment app, a financial services company evaluates the likelihood of a cybersecurity breach and estimates the potential financial and reputational damage such a breach could cause. This process is best described as",
+    "options": {
+      "A": "budgeting for the app's marketing launch",
+      "B": "performing a routine compliance audit",
+      "C": "forecasting quarterly revenue projections",
+      "D": "conducting a risk assessment of the event"
+    },
+    "answer": "D",
+    "explanation": "Conducting a risk assessment of the event is correct because the company is systematically identifying a potential negative event, evaluating its likelihood, and estimating its impact before launch, which is the core of risk assessment. Budgeting for marketing focuses on promotional spending, not identifying and evaluating risks. A routine compliance audit checks adherence to existing regulations rather than proactively estimating the likelihood and impact of a specific threat. Forecasting quarterly revenue projections deals with expected income, not the evaluation of a potential adverse event.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0046",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Demonstrate active listening skills",
+    "question": "A loan officer is meeting with a small-business owner who is nervous about applying for a line of credit. Throughout the meeting, the loan officer maintains eye contact, nods at appropriate points, and periodically restates the owner's concerns in her own words before responding. Which active listening technique is the loan officer using when she restates the owner's concerns?",
+    "options": {
+      "A": "Paraphrasing to confirm understanding",
+      "B": "Interrupting to speed up the meeting",
+      "C": "Multitasking while the client speaks",
+      "D": "Changing the subject to a related topic"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Paraphrasing, or restating a speaker's message in the listener's own words, confirms that the listener understood the message correctly and shows the speaker they are being heard, which is a core active listening technique. Interrupting (B) is the opposite of active listening because it cuts off the speaker before the message is complete. Multitasking (C) signals divided attention and is a barrier to active listening, not a technique for it. Changing the subject (D) shifts focus away from the speaker's concern rather than confirming understanding of it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0047",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Employ communication styles appropriate to target audience",
+    "question": "A financial-planning firm is preparing two versions of the same retirement-savings explanation: one for a group of first-time investors in their twenties and one for a room of certified financial planners at an industry conference. Which approach best reflects employing a communication style appropriate to each target audience?",
+    "options": {
+      "A": "Deliver the identical technical version to both rooms so that the young investors are held to the same professional standard and no detail is lost",
+      "B": "Use everyday language and relatable examples for the young investors, and technical terminology and data-driven detail for the planners",
+      "C": "Use technical terminology and data-driven detail for the young investors, and everyday language for the planners",
+      "D": "Read the same slide deck to both groups but slow the pace and repeat each section for the young investors so they have more time with it"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Employing a communication style appropriate to the target audience means matching vocabulary, tone, and depth to what the audience already knows: first-time investors need plain language and relatable comparisons, while certified planners can work directly with technical terms and data. Option A keeps the content complete but ignores that the novice audience cannot decode it, and detail that is not understood is not received, so nothing is actually preserved by holding both rooms to one standard. Option C reverses the appropriate styles, using the most technical language on the audience least equipped to follow it. Option D adapts delivery rather than style, since slowing down and repeating gives the novices more exposure to vocabulary they still do not have, which changes the pace of the message without changing how accessible it is.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0048",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Make oral presentations",
+    "question": "An intern in a bank's finance department has been asked to present quarterly branch performance data to senior managers. She has strong data but is worried the presentation will feel like a list of numbers. Which strategy would most improve the effectiveness of her oral presentation?",
+    "options": {
+      "A": "Add a chart for every figure in the dataset so the managers can see the underlying numbers as she talks through them",
+      "B": "Skip an introduction and conclusion so she can cover more data points",
+      "C": "Organize the data around a clear narrative with an introduction, key takeaways, and a strong conclusion",
+      "D": "Avoid eye contact with the managers so she does not lose her place in her notes"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Effective oral presentations are built around a narrative, with an introduction, organized takeaways, and a conclusion, which is what turns a set of figures into something an audience can follow and remember. Option A is a real presentation technique and visuals do help, but charting every figure gives the audience more data rather than a thread through it, which leaves her with exactly the problem the stem describes. Skipping the introduction and conclusion (B) removes the structure the audience needs to understand context and significance. Avoiding eye contact (D) reduces audience engagement and is a poor delivery practice, not a strength.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0049",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write professional emails",
+    "question": "An accounts-receivable clerk needs to email a client whose payment is 15 days past due. The company wants to preserve the business relationship while making the urgency clear. Which email approach best reflects professional email-writing standards?",
+    "options": {
+      "A": "Open by apologizing at length for the intrusion, mention the outstanding balance in the closing line, and invite the client to reply whenever it is convenient",
+      "B": "Attach the full account history, copy the client's accounting department and your own manager, and let the documents convey the urgency without stating a request",
+      "C": "Send the firm's standard collections notice quoting the contract's late-fee clause and the interest accruing on the unpaid balance to date",
+      "D": "Use a clear subject line, a courteous but direct explanation of the overdue balance, and a specific requested action with a due date"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. A professional email carries a subject line that identifies the topic, states its purpose courteously but directly, and names the action required and the date it is needed, which conveys urgency without straining the relationship. Option A protects the relationship and abandons the urgency: an apology-heavy message that mentions the balance in passing and invites a reply at the client's convenience gives the client no reason to treat the matter as pressing. Option B substitutes volume for clarity, since attaching the full history and copying additional people leaves the client to infer what is being asked, and widening the audience on a 15-day delay strains the relationship rather than preserving it. Option C conveys urgency and abandons the relationship, since a standard collections notice citing late-fee and interest clauses treats an ordinary overdue balance as a legal matter rather than a business conversation.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0050",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write persuasive messages",
+    "question": "A credit union wants to encourage existing checking-account customers to open a high-yield savings account. Which message is the strongest example of a persuasive written message?",
+    "options": {
+      "A": "\"Our high-yield savings account earns 4x the national average rate, so your money grows faster while staying just as accessible. Open one in minutes through your existing online banking login.\"",
+      "B": "\"We offer a savings account. It has an interest rate. You may be interested in opening one.\"",
+      "C": "\"Our high-yield savings account features tiered interest rates, no minimum balance requirement, unlimited transfers between linked accounts, and monthly electronic statements. Rates are variable and subject to change.\"",
+      "D": "\"Founded in 1954, our credit union now serves more than 80,000 members across the region and was recently named one of the state's top-rated financial cooperatives by an independent ratings agency.\""
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. A persuasive message names a concrete benefit to the reader (a rate four times the national average), supports it with a comparison the reader can weigh, and closes with an action that is easy to take. Option B states facts flatly and gives the reader no reason to act on them. Option C is a feature and disclosure list: it is accurate and more detailed than the key, but it describes the product rather than giving the reader a reason to want it, which is the difference between informing and persuading. Option D is about the credit union rather than the reader, and an institution's founding date and membership count are not benefits the reader receives.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0051",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Use data visualization techniques",
+    "question": "A financial analyst needs to show how a company's revenue was distributed across four product lines last quarter within a single slide. Which data visualization would most clearly communicate this information?",
+    "options": {
+      "A": "A single paragraph listing each product line's revenue in a sentence",
+      "B": "A pie chart showing each product line's share of total revenue",
+      "C": "A line graph tracking one company's stock price over ten years",
+      "D": "A word cloud generated from the company's earnings call transcript"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. A pie chart is designed to show how parts relate to a whole, making it the appropriate visualization for displaying how revenue is distributed as proportions across product lines. A paragraph of numbers (A) is not a visualization and is harder to interpret at a glance than a chart. A line graph (C) is best suited for showing a trend over time, such as stock price history, not a one-time distribution across categories. A word cloud (D) visualizes word frequency in text, not numeric revenue proportions, so it would not communicate this data at all.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0052",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Choose and use appropriate channel for workplace communication",
+    "question": "A finance department manager needs to inform the full accounting team about a change to the expense-reimbursement deadline that takes effect next week and requires no immediate discussion. Which channel is most appropriate for this communication?",
+    "options": {
+      "A": "Scheduling a one-hour team meeting so the manager can walk through the new deadline and answer any questions in person",
+      "B": "Adding the new deadline to the agenda of the department's regular meeting scheduled for next month",
+      "C": "Sending a clear, written email to the whole team that states the new deadline and effective date",
+      "D": "Posting the change only on a personal social media account"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. A change that affects everyone but needs no discussion belongs in writing to the whole group at once: email reaches every member simultaneously and leaves a dated record they can check when the deadline arrives. Option A delivers the information reliably but spends an hour of the entire team's time on an update the stem says requires no discussion at all. Option B uses a real channel and does reach everyone, but the timing defeats it, since the deadline takes effect next week and a meeting next month would brief the team after they had already missed it. Posting on a personal social media account (D) is an unprofessional and unreliable channel for internal workplace communication.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0053",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Interpret others' nonverbal cues",
+    "question": "During a budget review meeting, a department head presents a proposal while her colleague across the table crosses his arms, avoids eye contact, and repeatedly glances at the clock. Based on interpreting nonverbal cues, what should the presenter most reasonably conclude?",
+    "options": {
+      "A": "The colleague fully supports the proposal and is eager to approve it",
+      "B": "The colleague's body language suggests possible disagreement, discomfort, or disengagement that may need to be addressed",
+      "C": "The colleague's crossed arms and clock-watching confirm he has decided to vote against the proposal, so she should now withdraw it",
+      "D": "The colleague is simply cold and needs the thermostat adjusted"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Crossed arms, avoided eye contact, and repeated clock-watching are commonly read as signals of resistance, discomfort, or disengagement, and a skilled communicator treats them as a prompt to check in rather than as proof of a position. Option A misreads clearly closed-off body language as enthusiastic support. Option C makes the opposite misreading but the same kind of error: it treats the cues as conclusive evidence of a decision the colleague has not stated, when nonverbal signals indicate possible feelings and have to be confirmed by asking rather than acted on as fact. Option D offers an unrelated physical explanation that does not account for this specific combination of cues in a meeting context.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0054",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Select and use appropriate graphic aids",
+    "question": "A finance intern is building a presentation to show how a company's total operating expenses have changed over the past five years. Which graphic aid would best serve this purpose?",
+    "options": {
+      "A": "A line graph showing operating expenses plotted year by year",
+      "B": "A single pie chart showing this year's expense categories only",
+      "C": "A photograph of the company's headquarters building",
+      "D": "A table listing employees' names and job titles"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. A line graph is the appropriate graphic aid for showing how a numeric value, such as operating expenses, changes over a period of time, since it visually displays trends across sequential years. A pie chart of one year's categories (B) shows a snapshot proportion, not a multi-year trend. A photograph of the building (C) provides no financial data and is irrelevant to the expense trend. A table of employee names and titles (D) is unrelated to operating expenses and would not communicate the requested information.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0055",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Analyze company resources to ascertain policies and procedures",
+    "question": "A new hire in a bank's compliance office needs to find out the correct steps for reporting a suspected policy violation. Where should the employee look first to properly analyze the company's established policies and procedures?",
+    "options": {
+      "A": "Ask a coworker for a quick guess based on memory",
+      "B": "Review the company's employee handbook and compliance manual",
+      "C": "Search a general internet forum for how other companies handle violations",
+      "D": "Wait until the annual company meeting to ask about it"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Analyzing company resources such as the employee handbook and compliance manual is the reliable way to ascertain a company's specific, official policies and procedures for a situation like reporting a violation. Asking a coworker for a quick guess (A) risks inaccurate or outdated information since it is not based on an actual company resource. Searching a general internet forum (C) reflects other companies' practices, not this company's actual policy. Waiting for the annual meeting (D) is impractical and unnecessarily delays addressing a time-sensitive compliance matter.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0056",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain marketing and its importance",
+    "question": "A financial services firm has excellent investment products but struggles to attract new clients because few people in the community know the firm exists or understand its services. Which statement best explains why marketing is important in this situation?",
+    "options": {
+      "A": "Marketing matters here because it is the selling function, so the firm needs representatives closing more individual prospects rather than broader awareness",
+      "B": "Marketing only matters for retail businesses, not financial services firms",
+      "C": "Marketing creates awareness of the firm's offerings and communicates value to potential clients, which is essential for generating business",
+      "D": "Marketing is solely the responsibility of the accounting department"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Marketing identifies customer needs and communicates the value of a firm's services to the right audience, which is precisely what this firm lacks: the products are strong, but few people know the firm exists, and awareness is the gap between the two. Option A narrows marketing down to selling. Personal selling is one part of marketing, but a larger sales effort cannot close prospects who have never heard of the firm, so it works on the one thing the stem says is not the problem. Option B is incorrect because marketing is essential across all industries, including financial services, not just retail. Option D is incorrect because marketing is a distinct business function, not a responsibility of accounting.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0057",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain buying behavior factors",
+    "question": "A financial advisory firm notices that clients nearing retirement tend to choose conservative, low-risk investment products, while younger clients tend to choose higher-growth, higher-risk options. Which factor most directly explains this difference in buying behavior?",
+    "options": {
+      "A": "The firm's office location",
+      "B": "The firm's brand image and its reputation among local investors",
+      "C": "The day of the week clients schedule appointments",
+      "D": "The clients' life stage and associated financial goals and risk tolerance"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Life stage is a personal buying-behavior factor that shapes financial priorities and risk tolerance; clients nearing retirement typically prioritize preserving capital, while younger clients have more time to recover from a downturn and often pursue growth. Option B names a real buying-behavior factor, since brand image does influence which firm a client chooses, but every client described has already chosen this firm, so the firm's reputation cannot explain why two groups inside it buy different products. Office location (A) is a convenience factor unrelated to investment risk preference. The day of the week for appointments (C) is a scheduling detail with no bearing on investment choice.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0058",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Demonstrate connections between company actions and results",
+    "question": "A regional bank launches a new initiative in which every teller is trained to proactively mention relevant financial products, such as savings accounts or credit cards, during routine customer transactions. Over the next two quarters, the bank sees a noticeable increase in new product sign-ups. What does this outcome best demonstrate?",
+    "options": {
+      "A": "A direct connection between an employee-focused company action and a measurable business result",
+      "B": "That the rise in sign-ups reflects seasonal demand for savings products rather than anything the tellers were trained to do",
+      "C": "That the cost of the training was justified by the additional revenue the new sign-ups produced over the two quarters",
+      "D": "That training initiatives always fail to influence sales figures"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. The bank took a specific, employee-focused action, training every teller to raise relevant products during routine transactions, and a measurable result followed over the next two quarters, which is what a connection between a company action and a business result looks like. Option B raises a real alternative explanation, and seasonality is worth ruling out, but the stem describes a deliberate action followed by movement in the exact outcome it targeted and offers nothing pointing to a seasonal cause, so preferring the untested explanation is not the better reading. Option C reaches past what was measured, since the stem reports sign-ups rather than revenue or the cost of the training, and the outcome shown cannot establish that the initiative paid for itself. Option D is a sweeping generalization that is disproven by this very example of a successful training initiative.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0059",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Follow equipment instructions",
+    "question": "Deshawn is training to use a new industrial paper cutter at the print shop where he works. Before operating the machine alone, what should Deshawn do first?",
+    "options": {
+      "A": "Read and follow the manufacturer's operating manual for the machine",
+      "B": "Ask a coworker to demonstrate the cutter once and then begin using it",
+      "C": "Adjust the blade settings based on his own judgment to speed up production",
+      "D": "Wait until the shop is less busy so he can experiment with the settings"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A, reading and following the manufacturer's operating manual. Equipment instructions, such as those in an operating manual, are written by the manufacturer to ensure the equipment is used safely and correctly, and employees should consult them before operating unfamiliar machinery. Watching a coworker demonstrate the machine once (B) is not a substitute for understanding the official instructions, since informal demonstrations may omit important safety steps. Adjusting blade settings based on personal judgment (C) ignores the manufacturer's specifications and could damage the equipment or cause injury. Waiting to experiment during slower periods (D) still involves guessing rather than following the actual instructions, which is unsafe regardless of timing.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0060",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain accident procedures",
+    "question": "A warehouse employee slips on a wet floor and injures her wrist. According to standard workplace accident procedures, what should a coworker who witnesses the fall do first?",
+    "options": {
+      "A": "Complete the company's written incident report form before taking any other action",
+      "B": "Assess the situation and get help or first aid for the injured employee",
+      "C": "Wait until the end of the shift to mention it to a supervisor",
+      "D": "Move the injured employee to a chair so she can keep working"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B, assessing the situation and getting help or first aid for the injured employee. Standard accident procedures put the injured person first: a witness checks what has happened and summons assistance, because prompt care limits the harm. Option A is a real and required part of accident procedure, since the incident does have to be documented, but the paperwork follows the response rather than preceding it, and filling out a form while a coworker sits injured on the floor delays the one step that is time-critical. Waiting until the end of the shift to report the incident (C) delays necessary treatment and documentation, which most workplace policies require to happen right away. Moving the injured employee (D) could worsen an injury, especially where a fracture or sprain is possible, and having her keep working ignores her wellbeing.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0061",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain project management",
+    "question": "A marketing team is assigned to launch a new product within six months. The team leader creates a document outlining tasks, deadlines, assigned team members, and a budget before any work begins. This document is best described as part of",
+    "options": {
+      "A": "quality control",
+      "B": "vendor evaluation",
+      "C": "project management",
+      "D": "inventory control"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C, project management. Project management is the process of planning, organizing, and overseeing tasks, resources, timelines, and budgets to accomplish a specific goal, which is exactly what the team leader's document does for the product launch. Quality control (A) refers to methods used to ensure products or services meet established standards, not to planning tasks and budgets. Vendor evaluation (B) involves assessing the performance of suppliers, which is unrelated to organizing a product launch timeline. Inventory control (D) involves managing stock levels of goods, not coordinating a team's project tasks and deadlines.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0062",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Maintain inventory",
+    "question": "A retail store manager notices that the point-of-sale system shows 40 units of a popular jacket in stock, but a physical count reveals only 32 units on the shelves and in the stockroom. What should the manager do to maintain accurate inventory records?",
+    "options": {
+      "A": "Ignore the discrepancy since it is a minor difference in unit count",
+      "B": "Update the system to match the physical count and investigate the cause",
+      "C": "Order 8 additional units to make the physical count match the system",
+      "D": "Wait until the next scheduled count several months later to make changes"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B, updating the system to match the physical count and investigating the cause. Maintaining inventory requires reconciling recorded quantities with actual physical counts and identifying reasons for discrepancies, such as theft, damage, or recording errors, so future records stay accurate. Ignoring the discrepancy (A) allows inaccurate records to persist and could mask a larger problem like shrinkage. Ordering additional units to force the counts to match (C) is dishonest and does not address the actual cause of the shortage. Waiting months to make corrections (D) leaves the business making decisions, such as reordering, based on faulty data in the meantime.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0063",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Manage bid process",
+    "question": "A construction company needs a supplier for steel beams on a large project. The purchasing manager sends the project specifications to five suppliers and asks each to submit a sealed proposal detailing price, delivery timeline, and quality guarantees. This purchasing manager is engaging in",
+    "options": {
+      "A": "a bid process",
+      "B": "vendor performance evaluation",
+      "C": "inventory forecasting",
+      "D": "quality-control monitoring"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A, a bid process. A bid process involves inviting multiple suppliers to submit competing proposals based on the same specifications so a business can compare price, timeline, and quality before selecting a vendor, exactly as described in the scenario. Vendor performance evaluation (B) occurs after a vendor has already been working with the company, assessing how well they met expectations over time, not during initial supplier selection. Inventory forecasting (C) involves predicting future stock needs, not soliciting supplier proposals. Quality-control monitoring (D) involves checking whether goods or services meet standards after they are received, not the process of collecting competitive bids.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0064",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Describe quality culture",
+    "question": "At a manufacturing plant, every employee from the CEO to the assembly-line workers is expected to identify defects, suggest process improvements, and take ownership of product quality rather than leaving it solely to the quality-control department. This describes a company with a strong",
+    "options": {
+      "A": "supply chain",
+      "B": "quality culture",
+      "C": "risk-management plan",
+      "D": "purchasing policy"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B, quality culture. A quality culture exists when an organization's values and practices make every employee, regardless of position, responsible for maintaining and improving quality rather than relegating it to a single department. A supply chain (A) refers to the network of organizations involved in moving goods from raw materials to the final customer, not employee attitudes toward quality. A risk-management plan (C) focuses on identifying and mitigating potential hazards or losses, not shared responsibility for product quality. A purchasing policy (D) governs how a business buys goods and services from vendors, which is unrelated to a company-wide commitment to quality.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0065",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain employee role in expense control",
+    "question": "Maria works in an office and notices that many employees leave their computers and lights on overnight, even when not in use. She starts a habit of turning off her equipment and lights before leaving each day and encourages her team to do the same. Maria's actions best illustrate",
+    "options": {
+      "A": "an employee's role in controlling business expenses",
+      "B": "a company's role in setting the annual operating budget",
+      "C": "a manager's responsibility for vendor selection",
+      "D": "the finance department's role in preparing financial statements"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A, an employee's role in controlling business expenses. Employees contribute to expense control through everyday actions, such as conserving energy and reducing waste, which lower the company's operating costs even though they are not part of formal budgeting. A company's role in setting the annual operating budget (B) refers to a broader organizational planning process performed by management, not individual conservation habits. A manager's responsibility for vendor selection (C) involves choosing suppliers, which is unrelated to Maria's energy-saving habits. The finance department's role in preparing financial statements (D) involves formal reporting of financial results, not day-to-day employee behavior.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0066",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Streamline work processes",
+    "question": "A customer service call center notices that representatives spend a significant amount of time manually looking up account information in three separate systems before assisting a caller. Management decides to integrate the three systems into a single dashboard that representatives can access instantly. This change is an example of",
+    "options": {
+      "A": "streamlining work processes",
+      "B": "expanding the supply chain",
+      "C": "increasing vendor competition",
+      "D": "conducting a quality-control audit"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A, streamlining work processes. Streamlining involves simplifying or reorganizing tasks and systems to eliminate unnecessary steps and improve efficiency, which is exactly what happens when the three systems are combined into a single dashboard. Expanding the supply chain (B) refers to adding more suppliers or partners to the network that delivers goods, which is unrelated to internal software integration. Increasing vendor competition (C) involves encouraging multiple suppliers to compete for business, not consolidating internal tools. Conducting a quality-control audit (D) involves reviewing whether products or services meet standards, not redesigning a workflow for efficiency.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0067",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain supply chain",
+    "question": "A coffee company sources beans from farms in Colombia, has them processed at a facility in the United States, roasted at a regional plant, and then distributed to retail stores nationwide. The complete network of organizations and activities involved in getting the beans from the farm to the store shelf is best described as the company's",
+    "options": {
+      "A": "quality-control system",
+      "B": "supply chain",
+      "C": "risk-management plan",
+      "D": "bid process"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B, supply chain. A supply chain refers to the entire network of suppliers, processors, manufacturers, distributors, and retailers involved in moving a product from its raw materials to the final customer, which matches the coffee company's farm-to-shelf journey described in the scenario. A quality-control system (A) refers specifically to methods used to ensure products meet standards, not the full network of organizations involved in production and distribution. A risk-management plan (C) addresses potential hazards or losses, not the physical flow of goods. A bid process (D) involves soliciting competing proposals from suppliers, which is a narrower activity that may occur within, but does not define, the overall supply chain.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0068",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe methods used to protect intellectual property",
+    "question": "A small software company develops a unique mobile app and wants to prevent competitors from copying its underlying source code and creative design elements for 70 years after the death of the developer. Which method of intellectual-property protection should the company use?",
+    "options": {
+      "A": "Patent",
+      "B": "Copyright",
+      "C": "Trademark",
+      "D": "Trade secret"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B, copyright. A copyright protects original creative works, such as software code and design elements, and in the United States typically lasts for the life of the author plus 70 years, matching the protection described in the scenario. A patent (A) protects inventions and processes for a limited term, generally 20 years, and is not measured by the life of the creator. A trademark (C) protects brand names, logos, and symbols used to identify goods or services, not the underlying code or creative content of an app. A trade secret (D) protects confidential business information through secrecy rather than formal registration, and it does not have a fixed duration tied to the creator's life.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0069",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe the nature of legally binding contracts",
+    "question": "Carlos, age 16, signs an agreement to purchase a used car from a dealership, promising to pay in monthly installments. A few weeks later, Carlos wants to cancel the deal. Under contract law, what is most likely true about this agreement?",
+    "options": {
+      "A": "The contract is automatically void because minors cannot legally sign anything",
+      "B": "The contract is fully binding and Carlos has no legal ability to cancel it",
+      "C": "The contract may be voidable at Carlos's option because he is a minor",
+      "D": "The contract becomes binding only once Carlos turns 21 years old"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C, the contract may be voidable at Carlos's option because he is a minor. Contracts require legally competent parties, and minors generally have the legal capacity to disaffirm, or cancel, most contracts they enter into, which protects them from being held to agreements made before reaching the age of majority. Saying the contract is automatically void (A) is incorrect because minors' contracts are typically voidable, not automatically void, meaning they remain in effect unless the minor chooses to cancel them. Stating the contract is fully binding with no ability to cancel (B) ignores the legal protections afforded to minors. Claiming the contract only becomes binding once Carlos turns 21 (D) misstates the age of majority, which is 18 in most states, and misrepresents how voidable contracts function.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0070",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain the nature of agency relationships",
+    "question": "A homeowner hires a real estate agent to list and sell her house. The agent negotiates with buyers and signs a purchase agreement on the homeowner's behalf, within the authority the homeowner granted. This relationship, in which the agent acts for and represents the homeowner in dealings with third parties, is best described as",
+    "options": {
+      "A": "an agency relationship",
+      "B": "a debtor-creditor relationship",
+      "C": "a tort liability arrangement",
+      "D": "an administrative law proceeding"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A, an agency relationship. An agency relationship exists when one party, the agent, is authorized to act on behalf of another party, the principal, in dealings with third parties, which precisely describes the real estate agent acting for the homeowner. A debtor-creditor relationship (B) involves one party owing money to another, which does not describe the agent-homeowner arrangement. Tort liability (C) refers to civil wrongs that cause harm or loss, unrelated to an authorized representative relationship. An administrative law proceeding (D) involves government agencies enforcing regulations, not a private arrangement between a homeowner and an agent.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0071",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain types of business ownership",
+    "question": "Two friends, an accountant and a graphic designer, want to start a business together. They agree to share profits, losses, and management responsibilities equally, and both will be personally liable for any business debts. Which type of business ownership are they forming?",
+    "options": {
+      "A": "Corporation",
+      "B": "Sole proprietorship",
+      "C": "General partnership",
+      "D": "Limited liability company"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C, general partnership. A general partnership is formed when two or more people agree to co-own a business, sharing profits, losses, and management duties, with each partner personally liable for business debts, which matches the friends' arrangement exactly. A corporation (A) is a separate legal entity owned by shareholders that shields owners from personal liability, unlike the personal liability described here. A sole proprietorship (B) is owned and operated by a single individual, not two co-owners sharing responsibilities. A limited liability company (D) provides its owners with limited personal liability protection, which contradicts the scenario stating both friends will be personally liable for business debts.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0072",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Assess information needs",
+    "question": "A regional sales manager is preparing to launch a new product line next quarter and wants to build a rollout plan. Before she begins collecting any data at all, what should she do first?",
+    "options": {
+      "A": "Determine the specific business questions the launch decision must answer",
+      "B": "Purchase a syndicated market research report covering the product category from a data vendor",
+      "C": "Build a database structured to hold the sales figures once the rollout produces them",
+      "D": "Survey competitors' retail prices across major stores"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is determining the specific business questions the launch decision must answer, because assessing information needs means fixing what she has to know, such as the target customer, the price point, and the channel, before spending anything to find it out. Purchasing a syndicated category report is a real and often useful step, but bought before the questions are set it is a guess about relevance, since she cannot yet tell whether it covers what her decision turns on. Building a database is a storage decision whose structure depends on what data she ends up needing, so it cannot sensibly come first. Surveying competitor prices is one possible data-collection task, but jumping straight to it skips the needs-assessment step and may waste effort gathering data she doesn't actually need.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0073",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Evaluate information quality/sources",
+    "question": "An intern researching packaging trends finds two reports: one published by the industry's trade association citing verifiable government trade statistics, and one from an anonymous blog post with no sources cited. Which factor should most influence her decision to rely on the trade association's report?",
+    "options": {
+      "A": "The trade association's report is longer",
+      "B": "The credibility and verifiability of the source",
+      "C": "The trade association's report was free to access",
+      "D": "The blog post uses more graphics and formatting"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is the credibility and verifiability of the source. Evaluating information quality means checking whether a source is reputable, current, and its claims can be traced back to verifiable data, which the trade association report offers and the anonymous blog does not. Length has no bearing on accuracy or reliability, so a longer document isn't automatically higher quality. Cost is irrelevant to whether information is trustworthy; free sources can be accurate or inaccurate regardless of price. Attractive formatting or graphics can make a source look more polished without making its underlying claims any more credible or verifiable.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0074",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Store information",
+    "question": "A growing law firm currently keeps client case files in labeled paper folders in a locked cabinet, making it difficult for multiple attorneys to access the same file at once. To store this information so it can be retrieved securely and simultaneously by authorized staff, the firm should switch to which method?",
+    "options": {
+      "A": "Keeping duplicate paper folders in a second cabinet",
+      "B": "Emailing scanned files to each attorney individually",
+      "C": "A secure, permission-based cloud document-management system",
+      "D": "Printing a master index and mailing copies to each attorney"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is a secure, permission-based cloud document-management system, since it allows multiple authorized users to store and retrieve the same file simultaneously while controlling access. Duplicating paper folders still limits simultaneous access, doubles physical storage needs, and risks the copies becoming out of sync. Emailing scanned files individually creates multiple uncontrolled copies scattered across inboxes rather than one centrally stored, secure record. Printing and mailing a master index does not solve the underlying storage problem and is slower and less secure than an electronic system with access permissions.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0075",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Explain legal issues in information management",
+    "question": "An online retailer has collected thousands of customers' email addresses through checkout forms and is considering selling that list to an unrelated third-party marketing company. Before doing so, the retailer must primarily consider which legal issue?",
+    "options": {
+      "A": "Whether the retailer holds a registered trademark on the brand name shown on the checkout forms the addresses came from",
+      "B": "Whether proceeds from the sale should be booked as ordinary revenue or as a gain on an intangible asset",
+      "C": "Whether the marketing company will indemnify the retailer against complaints from recipients",
+      "D": "Whether selling the data violates privacy laws or the retailer's stated privacy policy"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is whether selling the data violates privacy laws or the retailer's stated privacy policy, since a business that collects personal information is bound both by data-privacy regulation and by the promises it made customers at the point of collection; if the sale breaches either, no other question matters. Trademark registration is a genuine legal issue, but it protects the retailer's brand name against use by others and says nothing about whether customer data may be transferred to a third party. How to book the proceeds is an accounting question about classifying money after a sale, which assumes the sale is permitted rather than establishing that it is. An indemnity from the buyer is a real contract term worth negotiating, but it allocates the cost of complaints between the two companies and cannot make an unlawful transfer lawful, so it is secondary to whether the sale may occur at all.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0076",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Describe the Internet",
+    "question": "A company with offices in five countries wants its employees worldwide to instantly share files and video-conference using a single, publicly accessible global network of interconnected computer networks. Which technology are they relying on?",
+    "options": {
+      "A": "The Internet",
+      "B": "A single office's local area network (LAN)",
+      "C": "A private intranet visible only within one building",
+      "D": "A standalone desktop hard drive"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is the Internet, the global system of interconnected networks that allows computers anywhere in the world to exchange data, which is exactly what lets the company's five international offices communicate instantly. A local area network (LAN) only connects devices within one office or building, not across countries. A private intranet is restricted to a single organization's internal network within a location, not a global public network. A standalone hard drive stores data locally on one device and cannot connect offices around the world at all.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0077",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Demonstrate web-search skills",
+    "question": "A researcher wants her search engine to return only web pages containing the exact phrase \"supply chain disruption\" together, rather than pages that merely mention those words separately anywhere on the page. Which search technique should she use?",
+    "options": {
+      "A": "Type the words without any punctuation",
+      "B": "Enclose the phrase in quotation marks",
+      "C": "Type the phrase entirely in capital letters",
+      "D": "Add several unrelated hashtags before the phrase"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is enclosing the phrase in quotation marks, which most search engines interpret as an instruction to match that exact sequence of words rather than the words individually. Typing the words without punctuation is effectively the default search and will return pages with the words scattered anywhere, not just together. Capitalization does not affect how most search engines match text, since searches are typically case-insensitive. Adding unrelated hashtags would narrow or skew results toward those tags and does not force an exact-phrase match.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0078",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Demonstrate spreadsheet applications",
+    "question": "An accountant wants her month-end report to automatically recalculate net income whenever she updates the revenue or expense figures, without her having to redo any math by hand. Which spreadsheet feature should she use to accomplish this?",
+    "options": {
+      "A": "A named range that labels the revenue and expense cells for easier reference",
+      "B": "Conditional formatting that highlights the net income cell in red",
+      "C": "Formulas that reference the revenue and expense cells",
+      "D": "A printed paper copy of the report"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is formulas that reference the revenue and expense cells, because a formula recomputes its result whenever a referenced cell changes, which is the automatic recalculation she is asking for. A named range is a real spreadsheet feature and does make formulas easier to read, but naming a cell labels it and nothing more; the arithmetic would still have to be redone by hand. Conditional formatting is also real, and it would change how the net income cell looks once a rule is met, but it alters appearance rather than value and cannot produce the figure. A printed paper copy is a fixed, non-interactive record and also cannot update automatically.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0079",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Discuss data mining",
+    "question": "A national retailer wants to sift through five years of point-of-sale transactions to uncover previously unknown purchasing patterns, such as which product combinations are frequently bought together. This process is best described as",
+    "options": {
+      "A": "Data entry",
+      "B": "Data storage",
+      "C": "Financial statement preparation",
+      "D": "Data mining"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is data mining, which involves analyzing large volumes of existing data to discover hidden patterns, trends, or relationships that were not previously known, exactly what the retailer is doing with its transaction history. Data entry refers to the initial input of raw data into a system, not the later analysis of it. Data storage simply refers to holding data in a location such as a database or server and does not involve searching for patterns. Financial statement preparation involves compiling formal reports like income statements or balance sheets, not exploratory pattern analysis of transaction records.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0080",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Explain the nature and scope of financial-information management",
+    "question": "A company's finance team is responsible for collecting transaction data, analyzing spending trends, preparing budgets, and ensuring reports meet regulatory standards. Collectively, these interconnected activities are best described as",
+    "options": {
+      "A": "Financial-information management",
+      "B": "Inventory control",
+      "C": "Production scheduling",
+      "D": "Human resources administration"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is financial-information management, which encompasses the full range of activities involved in obtaining, analyzing, safeguarding, and applying financial data to support business decisions and compliance. Inventory control focuses on tracking and managing physical stock levels, not financial data collection and reporting. Production scheduling deals with planning the timing and sequence of manufacturing operations, unrelated to financial reporting. Human resources administration covers hiring, employee records, and workforce policies, not budgeting or financial-data analysis.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0081",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Explain the role of ethics in financial-information management",
+    "question": "A staff accountant discovers that the CFO wants her to shift several December sales into January's ledger so that next quarter's numbers look stronger to investors. Ethically, the accountant should",
+    "options": {
+      "A": "Comply immediately since the CFO holds a higher position",
+      "B": "Refuse to make the change and report the discrepancy through appropriate internal channels",
+      "C": "Make the change as instructed but email the CFO's request to herself so responsibility rests with him",
+      "D": "Wait until after the report is published to mention it to a coworker"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is refusing to make the change and reporting the discrepancy through appropriate internal channels, since moving December sales into January misstates the period the revenue belongs to, and doing it so a quarter looks stronger to investors is misreporting no matter who asks for it. Complying because the CFO outranks her ignores the accountant's ethical and often legal duty to report accurately. Emailing herself a record of the instruction is a real instinct and the record might matter later, but she would still have made the entry, so the misleading statements reach investors either way and a saved message does not undo a misstatement she chose to book. Waiting until after the report is published to mention it to a coworker allows the misleading information to reach investors first and fails to prevent the harm.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0082",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Describe the use of technology in financial-information management",
+    "question": "A mid-size company replaces its paper ledgers and separate department spreadsheets with a single cloud-based accounting platform that updates automatically across departments as transactions occur. This change primarily illustrates how technology",
+    "options": {
+      "A": "Increases the amount of physical file storage needed",
+      "B": "Eliminates the company's need for any financial audits",
+      "C": "Improves the accuracy and speed of shared financial data",
+      "D": "Removes the need for management to review financial reports"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is that it improves the accuracy and speed of shared financial data, since a real-time cloud platform reduces manual re-entry errors and lets all departments work from the same updated figures instantly. The change actually reduces physical file storage rather than increasing it, since paper ledgers are being replaced. Automating data entry does not eliminate the need for audits, which independently verify that records and controls are accurate. Faster, more accurate data also does not remove management's responsibility to review reports; if anything, better data supports more informed review.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0083",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Demonstrate budgeting applications",
+    "question": "A marketing manager is preparing next year's departmental budget and wants software that will automatically flag any line item where actual spending exceeds the planned amount by more than 10%. Which budgeting application feature is she using?",
+    "options": {
+      "A": "A consolidation function that rolls each department's budget into a company-wide total",
+      "B": "A handwritten expense ledger",
+      "C": "A forecasting function that projects next year's spending from prior-year actuals",
+      "D": "A variance-tracking function that alerts her to over-budget items"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is a variance-tracking function that alerts her to over-budget items, since budgeting applications compare actual figures against planned ones and flag deviations past a set threshold, which is exactly the 10% rule she described. A consolidation function is a real budgeting feature, but it aggregates separate departmental budgets into one company-wide view, combining figures rather than testing them against a plan, so nothing would ever be flagged. A forecasting function is also real, and it projects future spending from past actuals, but it estimates what a coming period will cost instead of monitoring whether the current one is running over. A handwritten ledger requires manual comparison and cannot automatically flag anything.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0084",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Demonstrate financial analysis applications",
+    "question": "Before recommending whether a client company should be approved for a business loan, a bank analyst uses software to calculate the company's current ratio and quick ratio from its balance sheet. This process is an example of",
+    "options": {
+      "A": "A financial analysis application",
+      "B": "Inventory management software",
+      "C": "Market research software",
+      "D": "Payroll processing software"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is a financial analysis application, since calculating liquidity ratios such as the current ratio and quick ratio from balance sheet data is a core function of software designed to analyze a company's financial health. Inventory management software tracks stock levels and reordering, not liquidity ratios. Market research software gathers and analyzes customer or market data, not balance sheet figures. Payroll processing software calculates employee wages and withholdings, which is unrelated to assessing a loan applicant's financial ratios.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0085",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Describe techniques used to analyze customer financial information",
+    "question": "A retailer's credit department reviews a customer's payment history, outstanding debt, and income level before deciding whether to extend a $5,000 line of store credit. Which technique is the department using?",
+    "options": {
+      "A": "Environmental scanning of the economic and industry trends affecting retail demand",
+      "B": "Analyzing the customer's financial information to assess creditworthiness",
+      "C": "Data mining for new marketing segments",
+      "D": "Forecasting future inventory needs"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is analyzing the customer's financial information to assess creditworthiness, since payment history, outstanding debt, and income level are the standard inputs for judging whether a customer is a good credit risk. Environmental scanning studies conditions outside the business, such as where retail demand is heading, rather than the finances of one applicant, so it could not tell the department whether this customer will repay. Data mining for marketing segments looks for broad purchasing patterns across many customers to guide promotions, not a single credit decision. Forecasting inventory needs relates to stock planning and has nothing to do with a customer's ability to repay credit.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0086",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Financial-Information Management",
+    "performanceIndicator": "Discuss non-traditional uses for financial information",
+    "question": "Beyond preparing traditional statements like the income statement and balance sheet, a company uses its customer purchase and payment data to help design personalized loyalty-reward tiers for its best customers. This represents",
+    "options": {
+      "A": "Traditional external financial reporting to shareholders and regulators",
+      "B": "Routine tax-compliance filing prepared for government agencies",
+      "C": "A non-traditional use of financial information",
+      "D": "A standard internal audit of the company's controls"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is a non-traditional use of financial information: the purchase and payment records were captured for accounting, and the company is now using them to design loyalty tiers, a marketing purpose the data was never collected to serve. Traditional external financial reporting means assembling those same records into standardized statements for shareholders and regulators, which is the conventional use the stem contrasts this against. Routine tax-compliance filing prepares required returns for government agencies and is likewise a purpose the data was gathered for in the first place. A standard internal audit examines the company's controls and the reliability of its records, checking the data rather than repurposing it to build customer rewards.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0087",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Maintain personal appearance",
+    "question": "Priya works as a teller at a community credit union that requires business-casual attire. On a hot summer day, she decides to wear a wrinkled t-shirt and flip-flops because the office air conditioning is broken. Which of the following best explains why this choice could hurt Priya professionally?",
+    "options": {
+      "A": "Her appearance signals a lack of professionalism to customers and coworkers, even if her work is otherwise excellent.",
+      "B": "Any harm is limited to a note in her personnel file, since a dress-code lapse is a purely internal matter",
+      "C": "Customers will assume the credit union is going out of business.",
+      "D": "Her productivity will automatically decrease because of the clothing choice."
+    },
+    "answer": "A",
+    "explanation": "Maintaining a professional appearance builds trust and credibility with customers and coworkers, and a wrinkled t-shirt and flip-flops at a teller window undercut that impression however well Priya does the work itself, which is the professional cost the question asks about. Option B treats the lapse as paperwork that stops at HR, but the point of a customer-facing dress code is that the appearance is seen: the members she serves and the colleagues beside her form an impression that no file note governs. Customers would not conclude the business is failing from one employee's clothing, making C incorrect. Clothing choice does not automatically change productivity, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0088",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Set personal goals",
+    "question": "Diego, a new financial analyst, wants to earn a promotion to senior analyst within three years. He writes down the specific certifications he needs, the skills he must develop, and a timeline for each milestone. This process best demonstrates",
+    "options": {
+      "A": "delegating tasks to reduce his own workload.",
+      "B": "setting personal goals with measurable steps toward achievement.",
+      "C": "following the chain of command in his department.",
+      "D": "adhering to his company's ethical code of conduct."
+    },
+    "answer": "B",
+    "explanation": "Diego is defining specific, measurable objectives and a timeline to reach a desired outcome, which is the essence of personal goal-setting. He is not assigning work to others, so A is incorrect. Following the chain of command involves reporting through proper channels, which is not described here, making C incorrect. Adhering to a code of conduct concerns ethical behavior, not career planning, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0089",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Follow chain of command",
+    "question": "Marcus, a junior accountant, disagrees with a budget decision made by his department's finance director. Instead of emailing the company's CEO directly to complain, Marcus first raises his concerns with his immediate supervisor. Marcus's action demonstrates",
+    "options": {
+      "A": "delegating the disagreement upward so his supervisor becomes accountable for it",
+      "B": "following the chain of command within the organization.",
+      "C": "escalating a routine disagreement past the level where it should be settled",
+      "D": "exercising his right to appeal a management decision formally"
+    },
+    "answer": "B",
+    "explanation": "Following the chain of command means taking a concern to the level directly above you before going any higher, which is what Marcus did by raising the budget question with his own supervisor instead of emailing the CEO. Option A names a real behavior, but delegating upward means handing a task off so someone senior owns it, and Marcus is raising a disagreement for discussion while keeping his own position in it. Option C describes the opposite of his action: escalation carries a matter above the level that should handle it, and the CEO email he chose not to send is what escalation would have looked like here. Option D points to a real process, but a formal appeal is a defined procedure for contesting a decision after it has been through channels, and Marcus is having a first conversation with his supervisor.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0090",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Demonstrate creativity",
+    "question": "A regional bank's marketing team is asked to design a new way to explain complex loan terms to first-time homebuyers. Instead of using the standard brochure, one employee proposes an interactive online tool that lets customers adjust loan variables and see results in real time. This proposal is best described as an example of",
+    "options": {
+      "A": "creativity in generating a unique approach to an existing problem.",
+      "B": "time management in completing tasks efficiently.",
+      "C": "adherence to established company protocols.",
+      "D": "problem-solving through a step-by-step troubleshooting process."
+    },
+    "answer": "A",
+    "explanation": "Creativity is the ability to generate unique ideas and approaches; proposing an entirely new format for explaining loan terms reflects this skill. The scenario does not describe completing tasks faster or more efficiently, so B is incorrect. The employee is deviating from the standard brochure rather than following existing protocols, making C incorrect. While related to solving a communication problem, the scenario emphasizes originality of idea rather than a systematic troubleshooting process, so D is a less precise fit than A.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0091",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Prepare résumés",
+    "question": "Jasmine is applying for an entry-level position in a bank's loan department. She lists her GPA, relevant coursework, a part-time job at a retail store, and volunteer work organizing a school fundraiser, tailoring the descriptions to highlight math and customer-service skills relevant to banking. Jasmine is demonstrating effective techniques for",
+    "options": {
+      "A": "writing a follow-up letter after an interview.",
+      "B": "networking with professionals in her desired field.",
+      "C": "preparing a résumé tailored to a specific position.",
+      "D": "completing a standard job application form."
+    },
+    "answer": "C",
+    "explanation": "Jasmine is compiling and tailoring her experiences and skills to fit a specific job, which is the core purpose of preparing an effective résumé. A follow-up letter is sent after an interview to reiterate interest, which is not described here, making A incorrect. Networking involves building professional relationships and contacts, not organizing document content, so B is incorrect. Completing a job application involves filling out a specific employer form, which differs from the résumé-writing process described, making D incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0092",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Interview for jobs",
+    "question": "During a job interview for a financial-services internship, the interviewer asks Tyrell to describe a time he resolved a conflict with a coworker. Tyrell pauses, organizes his thoughts, and answers using a specific example with a clear situation, action, and result. This approach best demonstrates effective interviewing because Tyrell",
+    "options": {
+      "A": "avoided answering a difficult question directly.",
+      "B": "provided a specific, organized response that directly addressed the question asked.",
+      "C": "changed the subject to a topic he felt more comfortable discussing.",
+      "D": "asked the interviewer to repeat the question multiple times."
+    },
+    "answer": "B",
+    "explanation": "Effective interviewing includes giving clear, specific, and organized answers that directly respond to the interviewer's question, which is exactly what Tyrell did. He did not avoid the question, since he answered it directly, making A incorrect. He did not change the subject, so C is incorrect. There is no indication he asked for repeated clarification, making D incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0093",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain need for ongoing education",
+    "question": "A certified financial planner has practiced for fifteen years but recently enrolled in continuing-education courses on new digital investment platforms and updated tax regulations. Which of the following best explains why this ongoing education is important for her career?",
+    "options": {
+      "A": "It documents her expertise for clients, since a course certificate carries more weight with them than years of practice",
+      "B": "It allows her to remain current with evolving industry practices, technology, and regulations.",
+      "C": "It shifts responsibility for any tax-law error onto the course provider once she completes their program",
+      "D": "It is required only for employees who are new to the finance industry."
+    },
+    "answer": "B",
+    "explanation": "Ongoing education matters because the technology, regulations, and accepted practices in finance keep moving, and a planner who stops learning is working from rules that have since changed, which is why fifteen years of experience does not substitute for coursework on new platforms and updated tax law. Option A is a real reason professionals collect credentials, but it locates the value in what the certificate signals to clients rather than in what she now knows, and the courses would be worth taking even if no client ever saw them. Option C misplaces liability: completing a provider's program does not transfer professional responsibility for her own advice to whoever taught it, and she remains accountable for the work she signs. The need for ongoing education applies to professionals at all experience levels, not just those new to the field, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0094",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Utilize professional-development resources",
+    "question": "An assistant branch manager at a bank wants to strengthen her leadership skills before applying for a branch manager position. She researches webinars offered by a national banking association, subscribes to an industry newsletter, and joins a mentorship program through her employer. This behavior best illustrates",
+    "options": {
+      "A": "utilizing professional-development resources to build career-relevant skills.",
+      "B": "job-search strategies for finding new employment opportunities.",
+      "C": "networking techniques used to secure informal job referrals.",
+      "D": "assessing personal interests and skills for the first time."
+    },
+    "answer": "A",
+    "explanation": "She is actively seeking out webinars, newsletters, and mentorship programs, all of which are professional-development resources used to build skills relevant to career advancement. She is not searching for a new job at another company, so B is incorrect. While mentorship can involve networking, the scenario centers on skill-building resources rather than seeking referrals, making C a weaker fit. The scenario does not describe her assessing her interests for the first time, since she already knows she wants to be a branch manager, making D incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0095",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle customer/client complaints",
+    "question": "A customer calls an insurance company upset because her claim payment was delayed by three weeks. The representative listens without interrupting, apologizes for the inconvenience, verifies the claim status, and explains the exact steps being taken to resolve it that day. This approach best demonstrates",
+    "options": {
+      "A": "ignoring the complaint until the customer calms down.",
+      "B": "effectively handling a customer complaint by listening and providing a clear resolution path.",
+      "C": "transferring the customer to a different department to avoid responsibility.",
+      "D": "offering a refund immediately without investigating the issue."
+    },
+    "answer": "B",
+    "explanation": "Effectively handling a complaint involves listening carefully, acknowledging the issue, and providing clear next steps toward resolution, exactly as the representative did. The representative did not ignore the complaint, so A is incorrect. There is no transfer to another department described, making C incorrect. The representative investigated the claim status rather than immediately issuing a refund, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0096",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Develop rapport with customers",
+    "question": "A loan officer meets with a small business owner applying for a line of credit. Before discussing numbers, the officer asks about the business's history, remembers details from a previous conversation, and expresses genuine interest in the owner's goals. This behavior primarily helps the loan officer",
+    "options": {
+      "A": "verify the accuracy of the financial statements the owner filed with the credit application",
+      "B": "satisfy the federal disclosure requirements that apply before a credit decision",
+      "C": "develop rapport that builds trust and a stronger working relationship.",
+      "D": "shorten the overall loan approval timeline."
+    },
+    "answer": "C",
+    "explanation": "Asking about the business's history, recalling details from an earlier conversation, and showing genuine interest in the owner's goals build rapport, and rapport is what makes a borrower candid and willing to keep banking with the officer. Option A names a real part of lending, but submitted statements are verified against documents and third-party records rather than through conversation about the owner's history, and nothing the officer does here checks a figure. Option B is also real, since disclosures are required before a credit decision, but they are delivered as specified documents on a set schedule and friendly conversation satisfies none of them. While a good relationship may help communication, rapport-building itself does not directly shorten the formal approval timeline, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0097",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Adapt communication to cultural and social differences among clients",
+    "question": "A wealth management advisor is meeting with a new client who recently immigrated and prefers formal titles and indirect communication about financial concerns. The advisor adjusts her tone, uses more formal language, and avoids overly casual small talk. This adjustment best demonstrates",
+    "options": {
+      "A": "adapting communication to cultural and social differences among clients.",
+      "B": "interpreting company policy to avoid legal liability.",
+      "C": "reinforcing the firm's brand by presenting an identical formal style to every client",
+      "D": "handling a difficult customer's complaint about fees."
+    },
+    "answer": "A",
+    "explanation": "The advisor changes her tone, her formality, and her use of small talk to match what this client's background leads him to expect, which is adapting communication to cultural and social differences among clients. Option C names a real practice, since firms do work to present a consistent brand voice, but an identical style delivered to every client is the opposite of what she did: her adjustment was made for this client in particular. There is no mention of legal policy interpretation, so B is incorrect. The scenario does not describe a complaint or a difficult customer situation, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0098",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Identify company's brand promise",
+    "question": "A regional bank advertises itself as \"the bank that never keeps you waiting,\" and trains all tellers to greet customers within 60 seconds of entering the branch. This training is directly tied to the bank's efforts to",
+    "options": {
+      "A": "increase the interest rates offered on savings accounts.",
+      "B": "reduce the number of employees needed per branch.",
+      "C": "uphold its brand promise of fast, attentive service.",
+      "D": "comply with federal banking regulations on wait times."
+    },
+    "answer": "C",
+    "explanation": "The bank's advertised commitment to quick service is its brand promise, and training tellers to greet customers quickly ensures that promise is delivered consistently. Interest rates are unrelated to wait-time training, so A is incorrect. The training does not reduce staffing levels, making B incorrect. There is no indication this is a federal regulatory requirement, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0099",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Discuss the nature of customer relationship management",
+    "question": "A credit card company uses software to track each customer's purchase history, past service calls, and preferred contact method so that any representative who answers a call can quickly personalize the interaction. This system primarily supports the company's efforts in",
+    "options": {
+      "A": "customer relationship management to maintain consistent, personalized service.",
+      "B": "environmental scanning to identify economic and competitive trends.",
+      "C": "inventory management to track product availability.",
+      "D": "risk management to prevent fraudulent transactions."
+    },
+    "answer": "A",
+    "explanation": "Customer relationship management involves using tools and data to understand and serve customers consistently across interactions, which is exactly what this tracking software accomplishes. Environmental scanning monitors conditions outside the company, such as the economy, competitors, and regulation, rather than the history of individual customers, so B is incorrect. Inventory management concerns tracking products, not customer service history, making C incorrect. While fraud prevention may use some customer data, the scenario describes personalized service tracking, not fraud detection, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "fin-district-1-0100",
+    "cluster": "finance",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle difficult customers",
+    "question": "A customer at a brokerage firm raises his voice and accuses a representative of hiding fees after seeing an unexpected charge on his statement. The representative keeps her tone calm, avoids matching his anger, and asks specific questions to identify exactly which charge concerns him before responding. Which best explains why this approach is effective for handling a difficult customer?",
+    "options": {
+      "A": "It ends the conversation quickly so the representative can move on to other calls.",
+      "B": "It shifts blame to another department to protect the representative's reputation.",
+      "C": "It de-escalates the situation by staying calm and gathering facts before responding.",
+      "D": "It requires the representative to agree with the customer's accusation immediately."
+    },
+    "answer": "C",
+    "explanation": "Staying calm and asking clarifying questions helps de-escalate tension and ensures the representative addresses the actual issue rather than reacting emotionally, which is the correct approach to handling a difficult customer. The goal is not simply to end the call quickly, so A is incorrect. The representative is not shifting blame elsewhere, making B incorrect. Effective de-escalation does not require agreeing with an accusation before verifying the facts, so D is incorrect.",
+    "difficulty": "easy",
+    "verified": true
+  }
+]

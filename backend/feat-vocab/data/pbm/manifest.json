@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "cluster": "pbm",
+  "label": "Business Admin Core",
+  "examName": "Business Administration Core",
+  "seededFrom": {
+    "testGenModel": [
+      "backend/test-gen-model/data/pbm"
+    ],
+    "roleplayGenModel": [
+      "backend/roleplay-gen-model/data/events.json",
+      "backend/roleplay-gen-model/data/BLTDM",
+      "backend/roleplay-gen-model/data/HRM",
+      "backend/roleplay-gen-model/data/PBM"
+    ]
+  },
+  "events": [
+    {
+      "code": "BLTDM",
+      "name": "Business Law and Ethics Team Decision Making",
+      "file": "BLTDM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "HRM",
+      "name": "Human Resources Management Series",
+      "file": "HRM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "PBM",
+      "name": "Principles of Business Management and Administration",
+      "file": "PBM/vocab.json",
+      "termCount": 50
+    }
+  ]
+}

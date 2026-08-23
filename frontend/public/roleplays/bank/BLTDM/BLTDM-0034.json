@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0034",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of marketing management.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of channels of distribution.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Analyze the impact of technology on retailing.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the principles of supply and demand.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the concept of marketing strategies.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Develop promotional materials.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Motivate team members.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "This is a team decision making event for two participants. Your team will have 30 minutes to read the 21st Century Skills, the Performance Indicators, and the Case Study Situation, and to prepare your presentation. You will then have up to 15 minutes to present your recommendation to the judge and respond to any follow-up questions. Both members of the team must take part in the presentation and in answering the judge's questions. Your team will be evaluated on how well each performance indicator listed above is met. All of your notes and materials will be turned in to the judge at the end of the presentation.",
+  "situation": "You and your teammate are the Marketing Director and the Programs Manager for IRONGATE YOUTH SPORTS, a community operator of youth soccer, basketball, and flag football leagues. The company's owner (judge) has asked you to meet about a naming conflict affecting fall travel registration. Registration deadlines are two weeks away, and the owner (judge) wants your recommendation before deciding whether to send a legal letter to a competitor.\n\nIRONGATE has run leagues across the metro area for eighteen years, built mainly on word-of-mouth and in-person sign-up nights at local schools. Its flagship division, marketed for the past decade as the Founders League, has long been the region's most recognized travel program. Three years ago, PLAYMAKER SPORTS GROUP entered the market with app-based registration, real-time schedule alerts, and lower fees, and has drawn steadily on IRONGATE's enrollment. Fall registrations have fallen for two straight seasons, pushing the owner (judge) to modernize IRONGATE's own registration channel and rebuild its promotional presence before winter sign-ups begin.\n\nLast month, Playmaker began marketing a new fall travel bracket under the name Founders Cup, close enough to IRONGATE's trademarked Founders League that families in three neighborhoods have registered with Playmaker believing it was IRONGATE's own program. Roughly sixty families have already enrolled and paid Playmaker's lower fee. Many of them live along the Riverside corridor, where Playmaker's Founders Cup is currently the only travel program within walking distance of public transit, and IRONGATE has never placed a team there.\n\nIRONGATE's attorney confirms the trademark claim is strong and a cease-and-desist letter would likely force Playmaker to rename Founders Cup before the season starts. Enforcing the trademark now would end the confusion and protect the brand IRONGATE has spent eighteen years building, but it would strip Riverside families of their only nearby fall program weeks before games begin, since Playmaker has no comparable program ready. Holding off until after the season ends would preserve those families' access this fall, but would let the confusion, and the enrollment losses it is causing, continue longer.\n\nThe owner (judge) wants a recommendation on how to handle the naming conflict, along with a plan for how IRONGATE should strengthen its position regardless of which path is chosen: how to compete through its distribution and registration channels against a technology-forward rival, what a revised promotional campaign should emphasize, and how to keep registration staff motivated through a season already clouded by falling enrollment and confusion over which program is which.\n\nWhen you arrive, the owner (judge) will greet you and ask you to walk through your recommendation and the reasoning behind it. Be ready to explain how you weighed the interests on each side of the decision, since the owner (judge) intends to ask about that directly. After your presentation and the questions that follow, the owner (judge) will thank you for your work and end the meeting.",
+  "judgeCharacterization": "You are the owner of IRONGATE YOUTH SPORTS, a community operator of youth soccer, basketball, and flag football leagues (judge). Business background is the same as the situation above. You want the team's recommendation on how to handle the naming conflict with Playmaker Sports Group's newly marketed Founders Cup bracket, along with a plan for strengthening IRONGATE's marketing, distribution, and staff morale heading into fall registration.\n\nAsk the participants the following questions:",
+  "judgeQuestions": [
+    "How would we know, a few months from now, whether this decision turned out to be the right one?",
+    "How would you keep the registration staff motivated while enrollment keeps sliding?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "IRONGATE's trademark on the Founders League name, which its attorney confirms is strong and enforceable",
+        "Registration deadlines two weeks away, leaving little time for either company to rebuild a program before the season starts"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "IRONGATE's trademark on the Founders League name, which its attorney confirms is strong and enforceable",
+        "Registration deadlines two weeks away, leaving little time for either company to rebuild a program before the season starts"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 476,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "youth sports league operator",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "an intellectual property claim over a product name",
+        "dilemma_archetype": "a fair outcome for one group that is unfair to another",
+        "question_shape": "ask how they would know afterwards whether the decision was right"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0034",
+      "shelfSimilarity": 0.0782,
+      "shelfNearest": "BLTDM-0003",
+      "exemplarSimilarity": 0.0388,
+      "gateVersion": 5
+    }
+  }
+}

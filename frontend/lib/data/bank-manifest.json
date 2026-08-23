@@ -1,0 +1,1612 @@
+{
+  "version": 2,
+  "sets": {
+    "marketing-district-1": {
+      "cluster": "marketing",
+      "level": "District",
+      "set": 1,
+      "file": "marketing-district-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Product/Service Management": 8,
+        "Promotion": 8,
+        "Selling": 7,
+        "Marketing-Information Management": 7,
+        "Market Planning": 6,
+        "Economics": 6,
+        "Communication Skills": 6,
+        "Emotional Intelligence": 6,
+        "Operations": 6,
+        "Channel Management": 5,
+        "Information Management": 5,
+        "Financial Analysis": 5,
+        "Professional Development": 5,
+        "Customer Relations": 5,
+        "Pricing": 4,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 27,
+        "B": 26,
+        "C": 23,
+        "D": 24
+      },
+      "difficultyCounts": {
+        "easy": 74,
+        "medium": 23,
+        "hard": 3
+      }
+    },
+    "marketing-association-1": {
+      "cluster": "marketing",
+      "level": "Association",
+      "set": 1,
+      "file": "marketing-association-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Product/Service Management": 8,
+        "Promotion": 8,
+        "Selling": 7,
+        "Marketing-Information Management": 7,
+        "Market Planning": 6,
+        "Economics": 6,
+        "Communication Skills": 6,
+        "Emotional Intelligence": 6,
+        "Operations": 6,
+        "Channel Management": 5,
+        "Information Management": 5,
+        "Financial Analysis": 5,
+        "Professional Development": 5,
+        "Customer Relations": 5,
+        "Pricing": 4,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 26,
+        "C": 24,
+        "D": 24
+      },
+      "difficultyCounts": {
+        "easy": 45,
+        "medium": 44,
+        "hard": 11
+      }
+    },
+    "marketing-icdc-1": {
+      "cluster": "marketing",
+      "level": "ICDC",
+      "set": 1,
+      "file": "marketing-icdc-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Product/Service Management": 8,
+        "Promotion": 8,
+        "Selling": 7,
+        "Marketing-Information Management": 7,
+        "Market Planning": 6,
+        "Economics": 6,
+        "Communication Skills": 6,
+        "Emotional Intelligence": 6,
+        "Operations": 6,
+        "Channel Management": 5,
+        "Information Management": 5,
+        "Financial Analysis": 5,
+        "Professional Development": 5,
+        "Customer Relations": 5,
+        "Pricing": 4,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 24,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 33,
+        "medium": 51,
+        "hard": 16
+      }
+    },
+    "marketing-district-2": {
+      "cluster": "marketing",
+      "level": "District",
+      "set": 2,
+      "file": "marketing-district-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Product/Service Management": 8,
+        "Promotion": 8,
+        "Selling": 7,
+        "Marketing-Information Management": 7,
+        "Market Planning": 6,
+        "Economics": 6,
+        "Communication Skills": 6,
+        "Emotional Intelligence": 6,
+        "Operations": 6,
+        "Channel Management": 5,
+        "Information Management": 5,
+        "Financial Analysis": 5,
+        "Customer Relations": 5,
+        "Professional Development": 5,
+        "Pricing": 4,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 24,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 78,
+        "medium": 21,
+        "hard": 1
+      }
+    },
+    "marketing-association-2": {
+      "cluster": "marketing",
+      "level": "Association",
+      "set": 2,
+      "file": "marketing-association-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Product/Service Management": 8,
+        "Promotion": 8,
+        "Selling": 7,
+        "Marketing-Information Management": 7,
+        "Market Planning": 6,
+        "Economics": 6,
+        "Communication Skills": 6,
+        "Emotional Intelligence": 6,
+        "Operations": 6,
+        "Channel Management": 5,
+        "Information Management": 5,
+        "Financial Analysis": 5,
+        "Customer Relations": 5,
+        "Professional Development": 5,
+        "Pricing": 4,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 24,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 67,
+        "medium": 23,
+        "hard": 10
+      }
+    },
+    "marketing-icdc-2": {
+      "cluster": "marketing",
+      "level": "ICDC",
+      "set": 2,
+      "file": "marketing-icdc-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Product/Service Management": 8,
+        "Promotion": 8,
+        "Selling": 7,
+        "Marketing-Information Management": 7,
+        "Market Planning": 6,
+        "Economics": 6,
+        "Communication Skills": 6,
+        "Emotional Intelligence": 6,
+        "Operations": 6,
+        "Channel Management": 5,
+        "Information Management": 5,
+        "Customer Relations": 5,
+        "Financial Analysis": 5,
+        "Professional Development": 5,
+        "Pricing": 4,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 26,
+        "C": 24,
+        "D": 24
+      },
+      "difficultyCounts": {
+        "easy": 47,
+        "medium": 44,
+        "hard": 9
+      }
+    },
+    "pbm-district-1": {
+      "cluster": "pbm",
+      "level": "District",
+      "set": 1,
+      "file": "pbm-district-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 16,
+        "Communication Skills": 15,
+        "Financial Analysis": 14,
+        "Economics": 13,
+        "Operations": 13,
+        "Information Management": 10,
+        "Professional Development": 8,
+        "Customer Relations": 5,
+        "Human Resources Management": 2,
+        "Business Law": 2,
+        "Strategic Management": 1,
+        "Marketing": 1
+      },
+      "letterDistribution": {
+        "A": 25,
+        "B": 25,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 72,
+        "medium": 26,
+        "hard": 2
+      }
+    },
+    "pbm-association-1": {
+      "cluster": "pbm",
+      "level": "Association",
+      "set": 1,
+      "file": "pbm-association-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 16,
+        "Communication Skills": 15,
+        "Financial Analysis": 14,
+        "Economics": 13,
+        "Operations": 13,
+        "Information Management": 10,
+        "Professional Development": 8,
+        "Customer Relations": 5,
+        "Human Resources Management": 2,
+        "Business Law": 2,
+        "Strategic Management": 1,
+        "Marketing": 1
+      },
+      "letterDistribution": {
+        "A": 25,
+        "B": 25,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 16,
+        "medium": 75,
+        "hard": 9
+      }
+    },
+    "pbm-icdc-1": {
+      "cluster": "pbm",
+      "level": "ICDC",
+      "set": 1,
+      "file": "pbm-icdc-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 16,
+        "Communication Skills": 15,
+        "Financial Analysis": 14,
+        "Economics": 13,
+        "Operations": 13,
+        "Information Management": 10,
+        "Professional Development": 8,
+        "Customer Relations": 5,
+        "Human Resources Management": 2,
+        "Business Law": 2,
+        "Strategic Management": 1,
+        "Marketing": 1
+      },
+      "letterDistribution": {
+        "A": 25,
+        "B": 25,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 30,
+        "medium": 57,
+        "hard": 13
+      }
+    },
+    "pbm-district-2": {
+      "cluster": "pbm",
+      "level": "District",
+      "set": 2,
+      "file": "pbm-district-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 16,
+        "Communication Skills": 15,
+        "Financial Analysis": 14,
+        "Economics": 13,
+        "Operations": 13,
+        "Information Management": 10,
+        "Professional Development": 8,
+        "Customer Relations": 5,
+        "Human Resources Management": 2,
+        "Business Law": 2,
+        "Strategic Management": 1,
+        "Marketing": 1
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 24,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 54,
+        "medium": 44,
+        "hard": 2
+      }
+    },
+    "pbm-association-2": {
+      "cluster": "pbm",
+      "level": "Association",
+      "set": 2,
+      "file": "pbm-association-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 16,
+        "Communication Skills": 15,
+        "Financial Analysis": 14,
+        "Economics": 13,
+        "Operations": 13,
+        "Information Management": 10,
+        "Professional Development": 8,
+        "Customer Relations": 5,
+        "Human Resources Management": 2,
+        "Business Law": 2,
+        "Strategic Management": 1,
+        "Marketing": 1
+      },
+      "letterDistribution": {
+        "A": 25,
+        "B": 25,
+        "C": 25,
+        "D": 25
+      },
+      "difficultyCounts": {
+        "easy": 50,
+        "medium": 48,
+        "hard": 2
+      }
+    },
+    "pbm-icdc-2": {
+      "cluster": "pbm",
+      "level": "ICDC",
+      "set": 2,
+      "file": "pbm-icdc-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 16,
+        "Communication Skills": 15,
+        "Financial Analysis": 14,
+        "Economics": 13,
+        "Operations": 13,
+        "Information Management": 10,
+        "Professional Development": 8,
+        "Customer Relations": 5,
+        "Human Resources Management": 2,
+        "Business Law": 2,
+        "Strategic Management": 1,
+        "Marketing": 1
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 24,
+        "C": 24,
+        "D": 26
+      },
+      "difficultyCounts": {
+        "easy": 49,
+        "medium": 41,
+        "hard": 10
+      }
+    },
+    "finance-district-1": {
+      "cluster": "finance",
+      "level": "District",
+      "set": 1,
+      "file": "finance-district-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Financial Analysis": 20,
+        "Economics": 12,
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Information Management": 8,
+        "Professional Development": 8,
+        "Financial-Information Management": 7,
+        "Customer Relations": 6,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 1,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 30,
+        "B": 29,
+        "C": 25,
+        "D": 16
+      },
+      "difficultyCounts": {
+        "easy": 60,
+        "medium": 34,
+        "hard": 6
+      }
+    },
+    "finance-district-2": {
+      "cluster": "finance",
+      "level": "District",
+      "set": 2,
+      "file": "finance-district-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Financial Analysis": 20,
+        "Economics": 12,
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Information Management": 8,
+        "Professional Development": 8,
+        "Financial-Information Management": 7,
+        "Customer Relations": 6,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 1,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 23,
+        "B": 27,
+        "C": 29,
+        "D": 21
+      },
+      "difficultyCounts": {
+        "easy": 49,
+        "medium": 44,
+        "hard": 7
+      }
+    },
+    "finance-association-1": {
+      "cluster": "finance",
+      "level": "Association",
+      "set": 1,
+      "file": "finance-association-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Financial Analysis": 20,
+        "Economics": 12,
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Information Management": 8,
+        "Professional Development": 8,
+        "Financial-Information Management": 7,
+        "Customer Relations": 6,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 1,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 21,
+        "B": 32,
+        "C": 29,
+        "D": 18
+      },
+      "difficultyCounts": {
+        "easy": 55,
+        "medium": 39,
+        "hard": 6
+      }
+    },
+    "finance-association-2": {
+      "cluster": "finance",
+      "level": "Association",
+      "set": 2,
+      "file": "finance-association-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Financial Analysis": 20,
+        "Economics": 12,
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Information Management": 8,
+        "Professional Development": 8,
+        "Financial-Information Management": 7,
+        "Customer Relations": 6,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 1,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 24,
+        "B": 28,
+        "C": 27,
+        "D": 21
+      },
+      "difficultyCounts": {
+        "easy": 48,
+        "medium": 39,
+        "hard": 13
+      }
+    },
+    "finance-icdc-1": {
+      "cluster": "finance",
+      "level": "ICDC",
+      "set": 1,
+      "file": "finance-icdc-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Financial Analysis": 20,
+        "Economics": 12,
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Information Management": 8,
+        "Professional Development": 8,
+        "Financial-Information Management": 7,
+        "Customer Relations": 6,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 1,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 20,
+        "B": 34,
+        "C": 30,
+        "D": 16
+      },
+      "difficultyCounts": {
+        "easy": 52,
+        "medium": 38,
+        "hard": 10
+      }
+    },
+    "finance-icdc-2": {
+      "cluster": "finance",
+      "level": "ICDC",
+      "set": 2,
+      "file": "finance-icdc-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Financial Analysis": 20,
+        "Economics": 12,
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Information Management": 8,
+        "Professional Development": 8,
+        "Financial-Information Management": 7,
+        "Customer Relations": 6,
+        "Business Law": 4,
+        "Marketing": 3,
+        "Human Resources Management": 1,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 22,
+        "B": 40,
+        "C": 28,
+        "D": 10
+      },
+      "difficultyCounts": {
+        "easy": 43,
+        "medium": 52,
+        "hard": 5
+      }
+    },
+    "hospitality-district-2": {
+      "cluster": "hospitality",
+      "level": "District",
+      "set": 2,
+      "file": "hospitality-district-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Customer Relations": 8,
+        "Economics": 8,
+        "Product/Service Management": 8,
+        "Professional Development": 7,
+        "Selling": 6,
+        "Information Management": 6,
+        "Promotion": 6,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Financial Analysis": 4,
+        "Business Law": 3,
+        "Marketing": 2,
+        "Human Resources Management": 2,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 23,
+        "B": 31,
+        "C": 27,
+        "D": 19
+      },
+      "difficultyCounts": {
+        "easy": 50,
+        "medium": 46,
+        "hard": 4
+      }
+    },
+    "hospitality-association-1": {
+      "cluster": "hospitality",
+      "level": "Association",
+      "set": 1,
+      "file": "hospitality-association-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Customer Relations": 8,
+        "Economics": 8,
+        "Product/Service Management": 8,
+        "Professional Development": 7,
+        "Selling": 6,
+        "Information Management": 6,
+        "Promotion": 6,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Financial Analysis": 4,
+        "Business Law": 3,
+        "Marketing": 2,
+        "Human Resources Management": 2,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 25,
+        "B": 31,
+        "C": 26,
+        "D": 18
+      },
+      "difficultyCounts": {
+        "easy": 25,
+        "medium": 66,
+        "hard": 9
+      }
+    },
+    "hospitality-association-2": {
+      "cluster": "hospitality",
+      "level": "Association",
+      "set": 2,
+      "file": "hospitality-association-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Customer Relations": 8,
+        "Economics": 8,
+        "Product/Service Management": 8,
+        "Professional Development": 7,
+        "Selling": 6,
+        "Information Management": 6,
+        "Promotion": 6,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Financial Analysis": 4,
+        "Business Law": 3,
+        "Marketing": 2,
+        "Human Resources Management": 2,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 27,
+        "B": 29,
+        "C": 25,
+        "D": 19
+      },
+      "difficultyCounts": {
+        "easy": 40,
+        "medium": 54,
+        "hard": 6
+      }
+    },
+    "hospitality-icdc-1": {
+      "cluster": "hospitality",
+      "level": "ICDC",
+      "set": 1,
+      "file": "hospitality-icdc-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Customer Relations": 8,
+        "Economics": 8,
+        "Product/Service Management": 8,
+        "Professional Development": 7,
+        "Selling": 6,
+        "Information Management": 6,
+        "Promotion": 6,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Financial Analysis": 4,
+        "Business Law": 3,
+        "Marketing": 2,
+        "Human Resources Management": 2,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 20,
+        "B": 37,
+        "C": 28,
+        "D": 15
+      },
+      "difficultyCounts": {
+        "easy": 33,
+        "medium": 57,
+        "hard": 10
+      }
+    },
+    "hospitality-icdc-2": {
+      "cluster": "hospitality",
+      "level": "ICDC",
+      "set": 2,
+      "file": "hospitality-icdc-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Customer Relations": 8,
+        "Economics": 8,
+        "Product/Service Management": 8,
+        "Professional Development": 7,
+        "Selling": 6,
+        "Information Management": 6,
+        "Promotion": 6,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Financial Analysis": 4,
+        "Business Law": 3,
+        "Marketing": 2,
+        "Human Resources Management": 2,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 23,
+        "B": 31,
+        "C": 27,
+        "D": 19
+      },
+      "difficultyCounts": {
+        "easy": 29,
+        "medium": 61,
+        "hard": 10
+      }
+    },
+    "hospitality-district-1": {
+      "cluster": "hospitality",
+      "level": "District",
+      "set": 1,
+      "file": "hospitality-district-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 11,
+        "Communication Skills": 10,
+        "Operations": 9,
+        "Customer Relations": 8,
+        "Economics": 8,
+        "Product/Service Management": 8,
+        "Professional Development": 7,
+        "Selling": 6,
+        "Information Management": 6,
+        "Promotion": 6,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Financial Analysis": 4,
+        "Business Law": 3,
+        "Marketing": 2,
+        "Human Resources Management": 2,
+        "Strategic Management": 1
+      },
+      "letterDistribution": {
+        "A": 28,
+        "B": 28,
+        "C": 24,
+        "D": 20
+      },
+      "difficultyCounts": {
+        "easy": 62,
+        "medium": 32,
+        "hard": 6
+      }
+    },
+    "entrepreneurship-district-1": {
+      "cluster": "entrepreneurship",
+      "level": "District",
+      "set": 1,
+      "file": "entrepreneurship-district-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 10,
+        "Communication Skills": 9,
+        "Financial Analysis": 8,
+        "Product/Service Management": 7,
+        "Economics": 7,
+        "Operations": 7,
+        "Promotion": 6,
+        "Professional Development": 6,
+        "Information Management": 5,
+        "Selling": 5,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Channel Management": 4,
+        "Customer Relations": 4,
+        "Business Law": 3,
+        "Marketing": 3,
+        "Risk Management": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 25,
+        "B": 28,
+        "C": 25,
+        "D": 22
+      },
+      "difficultyCounts": {
+        "easy": 68,
+        "medium": 24,
+        "hard": 8
+      }
+    },
+    "entrepreneurship-district-2": {
+      "cluster": "entrepreneurship",
+      "level": "District",
+      "set": 2,
+      "file": "entrepreneurship-district-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 10,
+        "Communication Skills": 9,
+        "Financial Analysis": 8,
+        "Product/Service Management": 7,
+        "Economics": 7,
+        "Operations": 7,
+        "Promotion": 6,
+        "Professional Development": 6,
+        "Information Management": 5,
+        "Selling": 5,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Channel Management": 4,
+        "Customer Relations": 4,
+        "Business Law": 3,
+        "Marketing": 3,
+        "Risk Management": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 28,
+        "B": 31,
+        "C": 24,
+        "D": 17
+      },
+      "difficultyCounts": {
+        "easy": 66,
+        "medium": 29,
+        "hard": 5
+      }
+    },
+    "entrepreneurship-association-1": {
+      "cluster": "entrepreneurship",
+      "level": "Association",
+      "set": 1,
+      "file": "entrepreneurship-association-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 10,
+        "Communication Skills": 9,
+        "Financial Analysis": 8,
+        "Product/Service Management": 7,
+        "Economics": 7,
+        "Operations": 7,
+        "Promotion": 6,
+        "Professional Development": 6,
+        "Information Management": 5,
+        "Selling": 5,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Channel Management": 4,
+        "Customer Relations": 4,
+        "Business Law": 3,
+        "Marketing": 3,
+        "Risk Management": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 29,
+        "B": 30,
+        "C": 24,
+        "D": 17
+      },
+      "difficultyCounts": {
+        "easy": 35,
+        "medium": 56,
+        "hard": 9
+      }
+    },
+    "entrepreneurship-association-2": {
+      "cluster": "entrepreneurship",
+      "level": "Association",
+      "set": 2,
+      "file": "entrepreneurship-association-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 10,
+        "Communication Skills": 9,
+        "Financial Analysis": 8,
+        "Product/Service Management": 7,
+        "Economics": 7,
+        "Operations": 7,
+        "Promotion": 6,
+        "Professional Development": 6,
+        "Information Management": 5,
+        "Selling": 5,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Channel Management": 4,
+        "Customer Relations": 4,
+        "Business Law": 3,
+        "Marketing": 3,
+        "Risk Management": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 26,
+        "B": 32,
+        "C": 24,
+        "D": 18
+      },
+      "difficultyCounts": {
+        "easy": 52,
+        "medium": 40,
+        "hard": 8
+      }
+    },
+    "entrepreneurship-icdc-2": {
+      "cluster": "entrepreneurship",
+      "level": "ICDC",
+      "set": 2,
+      "file": "entrepreneurship-icdc-2.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 10,
+        "Communication Skills": 9,
+        "Financial Analysis": 8,
+        "Product/Service Management": 7,
+        "Economics": 7,
+        "Operations": 7,
+        "Promotion": 6,
+        "Professional Development": 6,
+        "Information Management": 5,
+        "Selling": 5,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Channel Management": 4,
+        "Customer Relations": 4,
+        "Business Law": 3,
+        "Marketing": 3,
+        "Risk Management": 3,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 25,
+        "B": 31,
+        "C": 25,
+        "D": 19
+      },
+      "difficultyCounts": {
+        "easy": 38,
+        "medium": 52,
+        "hard": 10
+      }
+    },
+    "entrepreneurship-icdc-1": {
+      "cluster": "entrepreneurship",
+      "level": "ICDC",
+      "set": 1,
+      "file": "entrepreneurship-icdc-1.json",
+      "count": 100,
+      "areaCounts": {
+        "Emotional Intelligence": 10,
+        "Communication Skills": 9,
+        "Financial Analysis": 8,
+        "Product/Service Management": 7,
+        "Economics": 7,
+        "Operations": 7,
+        "Information Management": 6,
+        "Promotion": 6,
+        "Professional Development": 6,
+        "Selling": 5,
+        "Market Planning": 5,
+        "Pricing": 4,
+        "Channel Management": 4,
+        "Customer Relations": 4,
+        "Business Law": 3,
+        "Risk Management": 3,
+        "Marketing": 2,
+        "Human Resources Management": 2,
+        "Strategic Management": 2
+      },
+      "letterDistribution": {
+        "A": 24,
+        "B": 37,
+        "C": 23,
+        "D": 16
+      },
+      "difficultyCounts": {
+        "easy": 25,
+        "medium": 61,
+        "hard": 14
+      }
+    }
+  },
+  "pools": {
+    "pbm-association-pool": {
+      "cluster": "pbm",
+      "level": "Association",
+      "file": "pbm-association-pool.json",
+      "count": 838,
+      "areaCounts": {
+        "Operations": 140,
+        "Financial Analysis": 135,
+        "Emotional Intelligence": 127,
+        "Economics": 103,
+        "Information Management": 88,
+        "Communication Skills": 87,
+        "Professional Development": 61,
+        "Customer Relations": 32,
+        "Business Law": 28,
+        "Marketing": 15,
+        "Strategic Management": 12,
+        "Human Resources Management": 10
+      },
+      "letterDistribution": {
+        "A": 214,
+        "B": 215,
+        "C": 208,
+        "D": 201
+      },
+      "difficultyCounts": {
+        "easy": 528,
+        "medium": 252,
+        "hard": 58
+      }
+    },
+    "marketing-district-pool": {
+      "cluster": "marketing",
+      "level": "District",
+      "file": "marketing-district-pool.json",
+      "count": 903,
+      "areaCounts": {
+        "Emotional Intelligence": 111,
+        "Operations": 106,
+        "Financial Analysis": 92,
+        "Economics": 90,
+        "Information Management": 75,
+        "Communication Skills": 63,
+        "Professional Development": 59,
+        "Promotion": 43,
+        "Marketing-Information Management": 41,
+        "Pricing": 40,
+        "Customer Relations": 34,
+        "Business Law": 32,
+        "Product/Service Management": 30,
+        "Selling": 26,
+        "Market Planning": 20,
+        "Channel Management": 13,
+        "Marketing": 11,
+        "Strategic Management": 9,
+        "Human Resources Management": 8
+      },
+      "letterDistribution": {
+        "A": 233,
+        "B": 228,
+        "C": 223,
+        "D": 219
+      },
+      "difficultyCounts": {
+        "easy": 524,
+        "medium": 345,
+        "hard": 34
+      }
+    },
+    "marketing-association-pool": {
+      "cluster": "marketing",
+      "level": "Association",
+      "file": "marketing-association-pool.json",
+      "count": 910,
+      "areaCounts": {
+        "Emotional Intelligence": 113,
+        "Operations": 108,
+        "Economics": 91,
+        "Financial Analysis": 91,
+        "Information Management": 78,
+        "Communication Skills": 64,
+        "Professional Development": 60,
+        "Promotion": 45,
+        "Marketing-Information Management": 40,
+        "Pricing": 38,
+        "Customer Relations": 34,
+        "Product/Service Management": 32,
+        "Business Law": 31,
+        "Selling": 25,
+        "Market Planning": 19,
+        "Channel Management": 12,
+        "Marketing": 10,
+        "Human Resources Management": 10,
+        "Strategic Management": 9
+      },
+      "letterDistribution": {
+        "A": 232,
+        "B": 231,
+        "C": 228,
+        "D": 219
+      },
+      "difficultyCounts": {
+        "easy": 559,
+        "medium": 317,
+        "hard": 34
+      }
+    },
+    "marketing-icdc-pool": {
+      "cluster": "marketing",
+      "level": "ICDC",
+      "file": "marketing-icdc-pool.json",
+      "count": 919,
+      "areaCounts": {
+        "Emotional Intelligence": 112,
+        "Operations": 112,
+        "Economics": 94,
+        "Financial Analysis": 94,
+        "Information Management": 76,
+        "Communication Skills": 68,
+        "Professional Development": 59,
+        "Promotion": 42,
+        "Pricing": 38,
+        "Marketing-Information Management": 37,
+        "Customer Relations": 35,
+        "Business Law": 34,
+        "Product/Service Management": 29,
+        "Selling": 27,
+        "Market Planning": 18,
+        "Channel Management": 15,
+        "Marketing": 11,
+        "Strategic Management": 10,
+        "Human Resources Management": 8
+      },
+      "letterDistribution": {
+        "A": 238,
+        "B": 232,
+        "C": 226,
+        "D": 223
+      },
+      "difficultyCounts": {
+        "easy": 562,
+        "medium": 321,
+        "hard": 36
+      }
+    },
+    "pbm-district-pool": {
+      "cluster": "pbm",
+      "level": "District",
+      "file": "pbm-district-pool.json",
+      "count": 852,
+      "areaCounts": {
+        "Financial Analysis": 142,
+        "Operations": 141,
+        "Emotional Intelligence": 133,
+        "Economics": 108,
+        "Information Management": 88,
+        "Communication Skills": 82,
+        "Professional Development": 64,
+        "Customer Relations": 30,
+        "Business Law": 27,
+        "Marketing": 15,
+        "Human Resources Management": 12,
+        "Strategic Management": 10
+      },
+      "letterDistribution": {
+        "A": 218,
+        "B": 215,
+        "C": 211,
+        "D": 208
+      },
+      "difficultyCounts": {
+        "easy": 485,
+        "medium": 305,
+        "hard": 62
+      }
+    },
+    "pbm-icdc-pool": {
+      "cluster": "pbm",
+      "level": "ICDC",
+      "file": "pbm-icdc-pool.json",
+      "count": 808,
+      "areaCounts": {
+        "Operations": 132,
+        "Emotional Intelligence": 131,
+        "Financial Analysis": 126,
+        "Economics": 95,
+        "Information Management": 86,
+        "Communication Skills": 83,
+        "Professional Development": 64,
+        "Customer Relations": 32,
+        "Business Law": 27,
+        "Marketing": 14,
+        "Strategic Management": 10,
+        "Human Resources Management": 8
+      },
+      "letterDistribution": {
+        "A": 207,
+        "B": 206,
+        "C": 199,
+        "D": 196
+      },
+      "difficultyCounts": {
+        "easy": 512,
+        "medium": 260,
+        "hard": 36
+      }
+    },
+    "finance-district-pool": {
+      "cluster": "finance",
+      "level": "District",
+      "file": "finance-district-pool.json",
+      "count": 1029,
+      "areaCounts": {
+        "Emotional Intelligence": 157,
+        "Operations": 141,
+        "Financial Analysis": 137,
+        "Economics": 127,
+        "Communication Skills": 111,
+        "Information Management": 107,
+        "Professional Development": 93,
+        "Customer Relations": 50,
+        "Business Law": 45,
+        "Financial-Information Management": 18,
+        "Marketing": 15,
+        "Human Resources Management": 14,
+        "Strategic Management": 14
+      },
+      "letterDistribution": {
+        "A": 276,
+        "B": 270,
+        "C": 246,
+        "D": 237
+      },
+      "difficultyCounts": {
+        "easy": 483,
+        "medium": 481,
+        "hard": 65
+      }
+    },
+    "finance-association-pool": {
+      "cluster": "finance",
+      "level": "Association",
+      "file": "finance-association-pool.json",
+      "count": 942,
+      "areaCounts": {
+        "Emotional Intelligence": 149,
+        "Operations": 127,
+        "Communication Skills": 112,
+        "Economics": 109,
+        "Financial Analysis": 102,
+        "Information Management": 101,
+        "Professional Development": 96,
+        "Customer Relations": 49,
+        "Business Law": 38,
+        "Financial-Information Management": 16,
+        "Human Resources Management": 15,
+        "Marketing": 14,
+        "Strategic Management": 14
+      },
+      "letterDistribution": {
+        "A": 241,
+        "B": 239,
+        "C": 234,
+        "D": 228
+      },
+      "difficultyCounts": {
+        "easy": 423,
+        "medium": 457,
+        "hard": 62
+      }
+    },
+    "finance-icdc-pool": {
+      "cluster": "finance",
+      "level": "ICDC",
+      "file": "finance-icdc-pool.json",
+      "count": 957,
+      "areaCounts": {
+        "Emotional Intelligence": 148,
+        "Operations": 129,
+        "Communication Skills": 115,
+        "Financial Analysis": 109,
+        "Economics": 108,
+        "Information Management": 105,
+        "Professional Development": 93,
+        "Customer Relations": 49,
+        "Business Law": 40,
+        "Financial-Information Management": 18,
+        "Strategic Management": 15,
+        "Marketing": 14,
+        "Human Resources Management": 14
+      },
+      "letterDistribution": {
+        "A": 244,
+        "B": 241,
+        "C": 240,
+        "D": 232
+      },
+      "difficultyCounts": {
+        "easy": 420,
+        "medium": 472,
+        "hard": 65
+      }
+    },
+    "hospitality-district-pool": {
+      "cluster": "hospitality",
+      "level": "District",
+      "file": "hospitality-district-pool.json",
+      "count": 815,
+      "areaCounts": {
+        "Operations": 140,
+        "Emotional Intelligence": 112,
+        "Economics": 86,
+        "Financial Analysis": 78,
+        "Communication Skills": 66,
+        "Information Management": 63,
+        "Professional Development": 55,
+        "Customer Relations": 35,
+        "Product/Service Management": 31,
+        "Promotion": 27,
+        "Pricing": 26,
+        "Business Law": 26,
+        "Selling": 19,
+        "Market Planning": 19,
+        "Marketing": 13,
+        "Human Resources Management": 10,
+        "Strategic Management": 9
+      },
+      "letterDistribution": {
+        "A": 211,
+        "B": 207,
+        "C": 200,
+        "D": 197
+      },
+      "difficultyCounts": {
+        "easy": 490,
+        "medium": 303,
+        "hard": 22
+      }
+    },
+    "hospitality-association-pool": {
+      "cluster": "hospitality",
+      "level": "Association",
+      "file": "hospitality-association-pool.json",
+      "count": 825,
+      "areaCounts": {
+        "Operations": 150,
+        "Emotional Intelligence": 110,
+        "Economics": 90,
+        "Financial Analysis": 80,
+        "Information Management": 66,
+        "Communication Skills": 62,
+        "Professional Development": 55,
+        "Customer Relations": 35,
+        "Product/Service Management": 31,
+        "Business Law": 28,
+        "Promotion": 26,
+        "Pricing": 26,
+        "Selling": 20,
+        "Market Planning": 16,
+        "Marketing": 13,
+        "Human Resources Management": 9,
+        "Strategic Management": 8
+      },
+      "letterDistribution": {
+        "A": 211,
+        "B": 207,
+        "C": 208,
+        "D": 199
+      },
+      "difficultyCounts": {
+        "easy": 514,
+        "medium": 273,
+        "hard": 38
+      }
+    },
+    "hospitality-icdc-pool": {
+      "cluster": "hospitality",
+      "level": "ICDC",
+      "file": "hospitality-icdc-pool.json",
+      "count": 843,
+      "areaCounts": {
+        "Operations": 146,
+        "Emotional Intelligence": 118,
+        "Economics": 89,
+        "Financial Analysis": 86,
+        "Information Management": 68,
+        "Communication Skills": 62,
+        "Professional Development": 56,
+        "Customer Relations": 38,
+        "Promotion": 31,
+        "Product/Service Management": 29,
+        "Pricing": 26,
+        "Business Law": 26,
+        "Selling": 21,
+        "Market Planning": 16,
+        "Marketing": 13,
+        "Human Resources Management": 10,
+        "Strategic Management": 8
+      },
+      "letterDistribution": {
+        "A": 216,
+        "B": 213,
+        "C": 208,
+        "D": 206
+      },
+      "difficultyCounts": {
+        "easy": 527,
+        "medium": 279,
+        "hard": 37
+      }
+    },
+    "entrepreneurship-district-pool": {
+      "cluster": "entrepreneurship",
+      "level": "District",
+      "file": "entrepreneurship-district-pool.json",
+      "count": 869,
+      "areaCounts": {
+        "Emotional Intelligence": 114,
+        "Financial Analysis": 109,
+        "Operations": 109,
+        "Economics": 90,
+        "Communication Skills": 63,
+        "Professional Development": 63,
+        "Information Management": 56,
+        "Selling": 38,
+        "Customer Relations": 32,
+        "Risk Management": 32,
+        "Product/Service Management": 27,
+        "Promotion": 27,
+        "Pricing": 25,
+        "Business Law": 25,
+        "Market Planning": 20,
+        "Channel Management": 13,
+        "Strategic Management": 11,
+        "Marketing": 8,
+        "Human Resources Management": 7
+      },
+      "letterDistribution": {
+        "A": 222,
+        "B": 219,
+        "C": 217,
+        "D": 211
+      },
+      "difficultyCounts": {
+        "easy": 500,
+        "medium": 335,
+        "hard": 34
+      }
+    },
+    "entrepreneurship-association-pool": {
+      "cluster": "entrepreneurship",
+      "level": "Association",
+      "file": "entrepreneurship-association-pool.json",
+      "count": 878,
+      "areaCounts": {
+        "Emotional Intelligence": 117,
+        "Operations": 111,
+        "Financial Analysis": 109,
+        "Economics": 91,
+        "Communication Skills": 66,
+        "Professional Development": 64,
+        "Information Management": 58,
+        "Selling": 34,
+        "Risk Management": 34,
+        "Customer Relations": 32,
+        "Promotion": 28,
+        "Pricing": 26,
+        "Business Law": 26,
+        "Product/Service Management": 24,
+        "Market Planning": 19,
+        "Channel Management": 13,
+        "Marketing": 10,
+        "Strategic Management": 9,
+        "Human Resources Management": 7
+      },
+      "letterDistribution": {
+        "A": 226,
+        "B": 226,
+        "C": 216,
+        "D": 210
+      },
+      "difficultyCounts": {
+        "easy": 525,
+        "medium": 312,
+        "hard": 41
+      }
+    },
+    "entrepreneurship-icdc-pool": {
+      "cluster": "entrepreneurship",
+      "level": "ICDC",
+      "file": "entrepreneurship-icdc-pool.json",
+      "count": 895,
+      "areaCounts": {
+        "Emotional Intelligence": 119,
+        "Operations": 113,
+        "Financial Analysis": 112,
+        "Economics": 93,
+        "Communication Skills": 64,
+        "Professional Development": 64,
+        "Information Management": 57,
+        "Selling": 38,
+        "Risk Management": 35,
+        "Customer Relations": 33,
+        "Product/Service Management": 29,
+        "Promotion": 28,
+        "Pricing": 28,
+        "Business Law": 23,
+        "Market Planning": 21,
+        "Channel Management": 12,
+        "Marketing": 10,
+        "Strategic Management": 9,
+        "Human Resources Management": 7
+      },
+      "letterDistribution": {
+        "A": 232,
+        "B": 226,
+        "C": 221,
+        "D": 216
+      },
+      "difficultyCounts": {
+        "easy": 544,
+        "medium": 324,
+        "hard": 27
+      }
+    }
+  }
+}

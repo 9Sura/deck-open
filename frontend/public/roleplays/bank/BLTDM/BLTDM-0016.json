@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0016",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Take responsibility for decisions and actions.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Evaluate learning.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain the use of social media for digital marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Persuade others.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the nature of staff communication.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of positive customer relations.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Draw conclusions based on information analysis.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The Business Law and Ethics Team Decision Making Event is presented to you through your reading of the 21st Century Skills, the Performance Indicators, and the Case Study Situation. You will have thirty (30) minutes to review the 21st Century Skills, the Performance Indicators, and the Case Study Situation to develop your strategy. You will then have up to fifteen (15) minutes to make your presentation to the judge and respond to the judge's questions. Both members of the participant team must take part in the presentation and in answering the judge's questions. You will be evaluated on how well your presentation reflects your ability to meet the performance indicators of this event. All notes and materials are to be turned in to the judge at the end of the event.",
+  "situation": "You are to assume the roles of data security coordinator and customer relations coordinator at CROSS RIDGE FREIGHT LINES, a regional trucking carrier that has hauled refrigerated freight across the Midwest under three generations of the same family. The owner (judge) built the company's growth on a network of independent owner-operators rather than company drivers, and has asked you to meet about a security incident that surfaced late last week inside the payroll system that pays those owner-operators.\n\nA vendor that processes weekly settlement payments to roughly one hundred forty owner-operators notified Cross Ridge on Thursday that an outside party had accessed the portal where those drivers submit routing numbers and Social Security numbers for tax reporting. The vendor's own investigation is still narrow, and Cross Ridge does not yet know exactly how many accounts were viewed, only that the exposure window lasted twelve days before anyone noticed the unusual login activity.\n\nIT has confirmed the access point is closed, and legal counsel says state law requires notifying only the owner-operators whose specific records were confirmed viewed, a number counsel currently puts at under twenty. Notifying only that narrow group costs almost nothing and meets the letter of the law, but the vendor cannot yet rule out that its logs are incomplete, and a handful of owner-operators are already comparing notes about unfamiliar charges in a private social media group for the fleet.\n\nThe owner (judge) could instead notify the entire roster of owner-operators, pay for credit monitoring, and post an explanation on the company's social media pages before drivers post their own version of events, an approach that would cost far more and openly signal to competing carriers and shipping clients that Cross Ridge had a breach at all. The owner (judge) wants your team's analysis of what the company owes the owner-operators against what broader disclosure would cost the carrier's standing with the shipping clients who trust it with their freight.\n\nDispatch staff are already fielding calls from confused owner-operators and need direction on what they may say before any official notice goes out, and the customer service team that handles the shipping clients has asked whether this incident should be mentioned to them at all before a client raises it first. The owner (judge) wants a specific recommendation on who is told, when, and through what channel, along with how the company would know afterward whether the choice actually protected the people it was meant to protect.\n\nThe owner (judge) will greet you and ask you to present your recommendation for how Cross Ridge should respond to the breach and communicate with those it affects. The owner (judge) will listen to your presentation and then ask you questions about it. At the conclusion of your presentation and the questions that follow, the owner (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the owner of Cross Ridge Freight Lines, the third generation of your family to run the carrier. Business background is the same as the situation above.\n\nYou have asked two members of your team to analyze how the company should respond to a security incident affecting the payroll portal used by your owner-operators, and to recommend who should be notified, when, and through what channel, weighing what the owner-operators are owed against what broader disclosure would cost the carrier's standing with its shipping clients.\n\nDuring the presentation, you will ask the participants the following questions:",
+  "judgeQuestions": [
+    "How would we know, a few months from now, whether this was the right call?",
+    "What should dispatch tell an owner-operator who calls today, before anything has been decided?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "state law requiring notification only of confirmed-viewed records",
+        "the vendor's incomplete investigation of the breach's true scope"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [
+        "F5"
+      ],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 473,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "trucking carrier using owner-operators",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a data breach and who must be told",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "ask how they would know afterwards whether the decision was right"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0016",
+      "shelfSimilarity": 0.0674,
+      "shelfNearest": "BLTDM-0004",
+      "exemplarSimilarity": 0.0972,
+      "gateVersion": 5
+    }
+  }
+}

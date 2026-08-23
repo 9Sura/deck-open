@@ -1,0 +1,70 @@
+DECK — licensing
+================
+
+This repository contains two different kinds of work, under two different
+licences. Which one applies depends on the file.
+
+--------------------------------------------------------------------------
+1. CODE — MIT License
+--------------------------------------------------------------------------
+
+Applies to all source code: everything under frontend/ except public/, all of
+backend/, and every configuration file.
+
+Copyright (c) 2026 Kelton Yu and the DECK contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------
+2. STUDY MATERIAL — CC BY-NC-SA 4.0
+--------------------------------------------------------------------------
+
+Applies to the generated study content:
+
+  frontend/public/question-bank/     practice questions, answers, explanations
+  frontend/public/vocab/             event vocabulary catalogs
+  frontend/public/roleplays/         roleplay scenarios and dealt days
+  backend/feat-vocab/data/           the vocab source those catalogs sync from
+
+Licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License (CC BY-NC-SA 4.0).
+
+  https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You may share and adapt this material for noncommercial purposes, with
+attribution, under the same licence. Noncommercial is deliberate: this project
+is free study material for students and is not licensed for resale or for
+inclusion in a paid product.
+
+--------------------------------------------------------------------------
+3. NOT COVERED
+--------------------------------------------------------------------------
+
+The photographs under frontend/public/team/ are the property of the people
+pictured and are included with their permission for use on this project's
+own pages. They are not licensed for reuse.
+
+--------------------------------------------------------------------------
+4. TRADEMARKS
+--------------------------------------------------------------------------
+
+DECK is not affiliated with, endorsed by, or sponsored by DECA Inc. or MBA
+Research. DECA is a trademark of DECA Inc. It is used here only to describe
+what this practice material is for. All practice material in this repository
+is original and AI-generated; none of it is official DECA content.

@@ -1,0 +1,620 @@
+{
+  "version": 1,
+  "cluster": "pbm",
+  "event": {
+    "code": "BLTDM",
+    "name": "Business Law and Ethics Team Decision Making",
+    "format": "team"
+  },
+  "instructionalAreas": [
+    "business_law",
+    "customer_relations",
+    "communication_skills",
+    "economics",
+    "emotional_intelligence",
+    "marketing"
+  ],
+  "sourceNotes": [
+    "Seeded from BLTDM roleplay performance indicators and business administration core exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Consideration",
+      "slug": "consideration",
+      "definition": "Something of value exchanged by each party in a contract.",
+      "whyItMatters": "This term helps teams analyze whether an agreement is valid.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BLTDM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Liability",
+      "slug": "liability",
+      "definition": "Legal responsibility for a debt, damage, or obligation.",
+      "whyItMatters": "Liability helps competitors discuss risk and accountability.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BLTDM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Conflict of interest",
+      "slug": "conflict-of-interest",
+      "definition": "A situation where personal interests could interfere with fair business judgment.",
+      "whyItMatters": "Ethics cases often turn on identifying and managing conflicts.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BLTDM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Contract",
+      "slug": "contract",
+      "definition": "A legally enforceable agreement between two or more parties.",
+      "whyItMatters": "Business-law roleplays turn on whether promises, rights, and duties are enforceable.",
+      "tags": [
+        "business_law"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Active listening",
+      "slug": "active-listening",
+      "definition": "Giving full attention, checking understanding, and responding thoughtfully to a speaker.",
+      "whyItMatters": "Judges expect competitors to handle questions and concerns clearly.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Emotional intelligence",
+      "slug": "emotional-intelligence",
+      "definition": "The ability to understand and manage emotions in yourself and others.",
+      "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Marketing",
+      "slug": "marketing",
+      "definition": "The process of creating, communicating, and delivering value to customers.",
+      "whyItMatters": "This is the umbrella concept behind many cluster and roleplay decisions.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Nonverbal cues",
+      "slug": "nonverbal-cues",
+      "definition": "Signals such as facial expressions, gestures, and posture that carry meaning without words.",
+      "whyItMatters": "Reading cues lets competitors adjust to a customer's or judge's reaction.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Self-esteem",
+      "slug": "self-esteem",
+      "definition": "A realistic sense of your own value and capabilities.",
+      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Brand image",
+      "slug": "brand-image",
+      "definition": "The overall impression customers have of a business or product.",
+      "whyItMatters": "Image affects trust, loyalty, and perceived value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Tort",
+      "slug": "tort",
+      "definition": "A wrongful act or infringement of a right that causes injury and creates civil liability.",
+      "whyItMatters": "Businesses must understand what conduct exposes them to lawsuits and damages.",
+      "tags": [
+        "business_law"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Group discussion",
+      "slug": "group-discussion",
+      "definition": "A structured conversation among several people to share ideas and reach conclusions.",
+      "whyItMatters": "Team events depend on effective group discussion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Self-confidence",
+      "slug": "self-confidence",
+      "definition": "Belief in your ability to perform well and reach your goals.",
+      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Consumer",
+      "slug": "consumer",
+      "definition": "A person who buys and uses goods and services.",
+      "whyItMatters": "Naming the consumer keeps recommendations grounded in who actually benefits.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Negligence",
+      "slug": "negligence",
+      "definition": "Failure to exercise reasonable care that results in injury or loss to another.",
+      "whyItMatters": "It is the most common tort in business and a leading source of liability claims.",
+      "tags": [
+        "business_law"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Professional email",
+      "slug": "professional-email",
+      "definition": "A formal written message with a clear subject, correct grammar, and appropriate tone.",
+      "whyItMatters": "Written events reward mastery of email conventions.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Initiative",
+      "slug": "initiative",
+      "definition": "Taking independent action to solve problems or seize opportunities.",
+      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Goods",
+      "slug": "goods",
+      "definition": "Tangible products that satisfy customer needs and wants.",
+      "whyItMatters": "Distinguishing goods from services shapes how a business markets and delivers value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Patent",
+      "slug": "patent",
+      "definition": "An exclusive right granted by government to protect a new, useful invention.",
+      "whyItMatters": "Competitors must recognize what innovations a business can legally protect from copying.",
+      "tags": [
+        "business_law"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Business letter",
+      "slug": "business-letter",
+      "definition": "A formal document in standard format used for official outside communication.",
+      "whyItMatters": "Judges expect correct formatting, tone, and structure.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Integrity",
+      "slug": "integrity",
+      "definition": "Acting truthfully and holding to strong moral principles in all dealings.",
+      "whyItMatters": "Integrity builds the trust that a business reputation depends on.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Services",
+      "slug": "services",
+      "definition": "Intangible activities that satisfy customer needs and wants.",
+      "whyItMatters": "Services require different quality, staffing, and marketing choices than goods.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Trademark",
+      "slug": "trademark",
+      "definition": "A symbol, word, or phrase that identifies and distinguishes a business or product.",
+      "whyItMatters": "Brands are valuable assets; competitors must understand trademark protection and infringement.",
+      "tags": [
+        "business_law"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Communication styles",
+      "slug": "communication-styles",
+      "definition": "Distinct ways of delivering information chosen to fit the audience.",
+      "whyItMatters": "Adapting style builds rapport and persuades more effectively.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Ethical dilemma",
+      "slug": "ethical-dilemma",
+      "definition": "A situation where two or more moral principles conflict and demand judgment.",
+      "whyItMatters": "Recognizing and resolving dilemmas is central to leadership and compliance.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Customer value",
+      "slug": "customer-value",
+      "definition": "The benefit a customer believes they receive compared with the cost or effort.",
+      "whyItMatters": "Value helps explain why a customer chooses one offer over another.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Copyright",
+      "slug": "copyright",
+      "definition": "Protection granted to original works of authorship such as writing, music, and art.",
+      "whyItMatters": "Digital content and creative works are critical assets in modern business.",
+      "tags": [
+        "business_law"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Verbal communication",
+      "slug": "verbal-communication",
+      "definition": "Sharing information through spoken words, including tone, pace, and clarity.",
+      "whyItMatters": "Roleplay and presentation events hinge on articulate speech.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Self-control",
+      "slug": "self-control",
+      "definition": "The ability to manage impulses, emotions, and reactions under pressure.",
+      "whyItMatters": "Self-control prevents costly mistakes and keeps interactions professional.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Buying behavior",
+      "slug": "buying-behavior",
+      "definition": "The way customers decide what, when, where, and why to purchase.",
+      "whyItMatters": "Understanding buying-behavior factors lets competitors target the right message and offer.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Intellectual property",
+      "slug": "intellectual-property",
+      "definition": "Creations of the mind — such as inventions, brands, and works — protected by law.",
+      "whyItMatters": "Competitors must recognize what a business can protect and how.",
+      "tags": [
+        "business_law"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Customer inquiry",
+      "slug": "customer-inquiry",
+      "definition": "A question or request from a customer seeking information or help.",
+      "whyItMatters": "Prompt, accurate responses signal genuine customer commitment.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Written communication",
+      "slug": "written-communication",
+      "definition": "Expressing ideas through written text organized for clarity and professionalism.",
+      "whyItMatters": "Written events score organization, grammar, tone, and persuasion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "slug": "unemployment-rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Adaptability",
+      "slug": "adaptability",
+      "definition": "The capacity to adjust your approach and mindset when circumstances change.",
+      "whyItMatters": "Adaptability is vital for navigating market shifts and organizational change.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Marketing mix",
+      "slug": "marketing-mix",
+      "definition": "The blend of product, price, place, and promotion used to reach a target market.",
+      "whyItMatters": "The four Ps are the standard framework for building a marketing recommendation.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    }
+  ]
+}

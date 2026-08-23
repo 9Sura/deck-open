@@ -1,0 +1,35 @@
+{
+  "code": "ACT",
+  "terms": [
+    {
+      "term": "Accounting equation",
+      "definition": "Assets equal liabilities plus owner's equity.",
+      "whyItMatters": "Accounting events often require competitors to interpret how transactions affect business position.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ACT",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Income statement",
+      "definition": "A financial statement showing revenue, expenses, and profit over a period.",
+      "whyItMatters": "Income statements help evaluate operating performance.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ACT",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Cost of goods sold",
+      "definition": "The direct cost of inventory or materials sold to customers.",
+      "whyItMatters": "COGS affects gross profit and pricing decisions.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ACT",
+        "backend/test-gen-model/data"
+      ]
+    }
+  ]
+}

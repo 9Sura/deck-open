@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-28-HRM",
+  "date": "2026-07-28",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc-plus",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    "Use conflict-resolution skills",
+    "Analyze specialization/division of labor",
+    "Handle telephone calls in a businesslike manner",
+    "Describe functions of prices in markets",
+    "Determine factors affecting business risk"
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking",
+    "Problem Solving",
+    "Creativity and Innovation",
+    "Communication and Collaboration"
+  ],
+  "participantInstructions": "The event is presented through the participant's reading of the 21st Century Skills, Performance Indicators, and the situation section. The participant will have 10 minutes to prepare, 10 minutes to present their analysis and recommendations, and no time for judge questions. The participant will be evaluated on how well they meet the performance indicators listed below, and all notes and materials must be turned in at the end.",
+  "situation": "You are Samantha Lee, the Human Resources Manager at TechTrends Inc., a mid-sized technology company specializing in software development and IT solutions. Your immediate supervisor is Vice President of Operations, Mr. James Chen. Founded in 2015, TechTrends has grown from a small startup to a reputable player in the tech industry with over 300 employees spread across multiple departments. The company's portfolio includes custom software applications for various industries and IT solutions tailored to meet specific client needs. Over the past five years, TechTrends has seen consistent growth, expanding its office space twice and adding new divisions such as cybersecurity and data analytics.\n\nRecently, TechTrends signed a major contract with a leading healthcare provider, which significantly increased project demand across all departments, particularly in software development, quality assurance, and systems analysis. The company's current staffing levels are insufficient to meet these demands without compromising on the quality of work or employee well-being. As the HR Manager, you have been tasked with addressing this urgent need for additional skilled labor while adhering to strict budget constraints.\n\nMr. James Chen, the Vice President of Operations, has informed you that the company is facing a budget constraint of $40,000 for additional hiring and training this quarter. This amount must be carefully allocated to ensure it covers all necessary expenses related to recruitment, onboarding, and initial training for new hires. Furthermore, there are legal constraints regarding employee work hours to ensure compliance with labor regulations, such as the Fair Labor Standards Act (FLSA) in the United States.\n\nThe company's division of labor shows significant specialization among employees, which complicates cross-training efforts. For instance, software developers typically specialize in specific programming languages or frameworks, and quality assurance engineers often have expertise in particular testing methodologies or tools. This specialization means that it is challenging to find a developer who can seamlessly transition into QA roles without extensive training. Additionally, market prices for specialized IT professionals have increased due to high demand, making external recruitment expensive.\n\nMr. Chen has asked you to analyze the situation and recommend a course of action that balances budget constraints, legal compliance, and project requirements while minimizing business risk. At the meeting, Mr. Chen will greet you and ask to hear your ideas regarding how to address this challenge. Afterward, he will conclude by thanking you.\n\nMr. James Chen, as Vice President of Operations, is focused on ensuring that TechTrends meets its contractual obligations and maintains a high standard of service delivery for all clients. He believes that the solution lies in hiring additional staff immediately, even if it means exceeding the current budget constraints temporarily. Mr. Chen argues that failing to meet project deadlines could result in significant financial penalties or damage to the company's reputation. However, this approach is at odds with Samantha Lee’s perspective as HR Manager, who prioritizes maintaining a sustainable and healthy work environment for employees.\n\nSamantha Lee understands the importance of meeting project demands but also recognizes the potential risks associated with overworking current staff or hiring inexperienced new hires without proper training. She believes that an effective strategy would involve leveraging existing resources more efficiently, such as cross-training current employees to take on additional roles temporarily and negotiating extended deadlines with clients where possible. This approach aims to mitigate burnout among current employees while ensuring the company remains compliant with labor laws.\n\nThe Legal Department at TechTrends Inc., headed by Ms. Emily Wong, emphasizes the importance of adhering strictly to labor regulations to avoid legal penalties and maintain a positive public image. Ms. Wong argues that any hiring or training initiatives must be conducted in compliance with local employment laws regarding working hours, overtime pay, and employee rights. This stance limits flexibility when it comes to addressing immediate staffing shortages through unconventional means like extending work hours significantly beyond the standard 40-hour week.\n\nTechTrends Inc.'s financial department, led by Mr. David Kim, highlights that the company's current budget allocation for hiring new staff is limited to $40,000 this quarter. This constraint necessitates careful planning and prioritization of expenditures related to recruitment and training activities. Given the high market rates for skilled IT professionals, Mr. Kim suggests exploring cost-effective alternatives such as internships or part-time hires while ensuring that these measures do not compromise project quality.\n\nThe binding constraints facing TechTrends Inc. include a strict budget limit of $40,000 for additional hiring and training this quarter, legal requirements to comply with labor regulations concerning working hours and overtime pay, and the specialized nature of roles within IT departments which complicates cross-training efforts. These limitations create significant challenges in finding immediate solutions that balance project demands, financial constraints, and employee well-being.\n\nAt the meeting, Mr. Chen will greet you and ask to hear your ideas regarding how to address this challenge. Afterward, he will conclude by thanking you for your insights and contributions toward resolving this critical issue facing TechTrends Inc.",
+  "exhibit": {
+    "title": "CURRENT STAFFING LEVELS AND PROJECT DEMAND",
+    "rows": [
+      "| Position | Current Staffing | Project Demand |",
+      "| Software Developer | 25 | 30 |",
+      "| Quality Assurance Engineer | 15 | 18 |",
+      "| Systems Analyst | 10 | 14 |"
+    ]
+  },
+  "judgeCharacterization": "You are Vice President of Operations at TechTrends Inc., tasked with overseeing operations and ensuring that project demands are met within budget constraints and legal compliance. Your role is to understand the HR Manager's analysis and recommendations regarding staffing needs for the new contract, especially considering the current division of labor, market prices, and budget limitations.",
+  "judgeQuestions": [
+    "Justify which option you chose and weigh it against the alternative you rejected.",
+    "Assess how you would measure whether the specific constraint on employee work hours has actually been met.",
+    "Mr. Chen argues that any hiring beyond the budget will lead to financial strain for the company. Defend your recommendation against that argument."
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [
+        "Samantha Lee - HR Manager, responsible for meeting staffing needs",
+        "James Chen - Vice President of Operations, focused on budget constraints and legal compliance",
+        "Major Client - requires timely project delivery with high-quality work"
+      ],
+      "constraints": [
+        "Budget constraint of $40,000 for hiring and training",
+        "Legal constraint regarding employee work hours",
+        "High market prices for specialized IT professionals"
+      ],
+      "conflicts": [
+        "Budget constraint conflicts with the need to hire additional staff",
+        "Legal constraints conflict with meeting project deadlines",
+        "Market prices conflict with budget limitations"
+      ],
+      "exhibit": "EXHIBIT 1: CURRENT STAFFING LEVELS AND PROJECT DEMAND"
+    },
+    "corroborated": {
+      "stakeholders": [
+        "Samantha Lee - HR Manager, responsible for meeting staffing needs",
+        "James Chen - Vice President of Operations, focused on budget constraints and legal compliance",
+        "Major Client - requires timely project delivery with high-quality work"
+      ],
+      "constraints": [
+        "Budget constraint of $40,000 for hiring and training",
+        "Legal constraint regarding employee work hours",
+        "High market prices for specialized IT professionals"
+      ],
+      "exhibit": true
+    },
+    "gate": {
+      "passed": false,
+      "failedKnobs": [
+        "K3"
+      ],
+      "issues": [
+        "K3: exhibit is inside or below the situation; it belongs between PERFORMANCE INDICATORS and the situation header"
+      ]
+    },
+    "situationWords": 831,
+    "generator": {
+      "model": "qwen2.5:14b-instruct",
+      "passes": 2
+    },
+    "defects": [
+      "boilerplate:denies-judge-questions"
+    ]
+  }
+}

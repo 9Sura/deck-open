@@ -1,0 +1,628 @@
+{
+  "version": 1,
+  "cluster": "marketing",
+  "event": {
+    "code": "SEM",
+    "name": "Sports and Entertainment Marketing Series",
+    "format": "series"
+  },
+  "instructionalAreas": [
+    "channel_management",
+    "communication_skills",
+    "economics",
+    "pricing",
+    "market_planning",
+    "customer_relations",
+    "selling",
+    "product_service_management",
+    "information_management",
+    "promotion",
+    "emotional_intelligence"
+  ],
+  "sourceNotes": [
+    "Seeded from SEM roleplay performance indicators and marketing cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Channel of distribution",
+      "slug": "channel-of-distribution",
+      "definition": "The path a product takes from producer or provider to the final customer.",
+      "whyItMatters": "Channel choices affect convenience, cost, access, and customer experience.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Active listening",
+      "slug": "active-listening",
+      "definition": "Giving full attention, checking understanding, and responding thoughtfully to a speaker.",
+      "whyItMatters": "Judges expect competitors to handle questions and concerns clearly.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Break-even point",
+      "slug": "break-even-point",
+      "definition": "The sales level where total revenue equals total costs.",
+      "whyItMatters": "Break-even shows the minimum sales a price or product strategy needs to be viable.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Marketing strategy",
+      "slug": "marketing-strategy",
+      "definition": "The overall approach a business uses to reach customers and meet marketing goals.",
+      "whyItMatters": "Case studies require strategies that fit business objectives and market conditions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Selling",
+      "slug": "selling",
+      "definition": "Helping customers make purchase decisions through planned communication.",
+      "whyItMatters": "Selling vocabulary supports recommendations about staff, service, and revenue.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product/service management",
+      "slug": "product-service-management",
+      "definition": "Planning, developing, marketing, and managing offerings across their life.",
+      "whyItMatters": "It ensures offerings meet customer needs and generate sustainable revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Information",
+      "slug": "information",
+      "definition": "Facts and figures that have been processed into a meaningful, usable form for decisions.",
+      "whyItMatters": "Competitors must know that raw data becomes useful only once it is organized and interpreted.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Promotion",
+      "slug": "promotion",
+      "definition": "Communication that informs, persuades, and reminds customers about offerings.",
+      "whyItMatters": "Promotion choices must fit the audience, message, and budget.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Emotional intelligence",
+      "slug": "emotional-intelligence",
+      "definition": "The ability to understand and manage emotions in yourself and others.",
+      "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Direct channel",
+      "slug": "direct-channel",
+      "definition": "A distribution path where a producer sells straight to customers with no intermediaries.",
+      "whyItMatters": "Direct channels maximize control and margin but demand more sales and logistics effort.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Nonverbal cues",
+      "slug": "nonverbal-cues",
+      "definition": "Signals such as facial expressions, gestures, and posture that carry meaning without words.",
+      "whyItMatters": "Reading cues lets competitors adjust to a customer's or judge's reaction.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Markup",
+      "slug": "markup",
+      "definition": "The amount or percentage added to a product's cost to set its selling price.",
+      "whyItMatters": "Markup links cost directly to a pricing recommendation.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Market identification",
+      "slug": "market-identification",
+      "definition": "Discovering and defining the markets where a business can sell its offering.",
+      "whyItMatters": "Identifying the right market is the foundation of any marketing plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Selling process",
+      "slug": "selling-process",
+      "definition": "The structured steps that move a customer from awareness to purchase.",
+      "whyItMatters": "Knowing the process helps competitors execute each stage well.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product life cycle",
+      "slug": "product-life-cycle",
+      "definition": "The stages a product passes through: introduction, growth, maturity, and decline.",
+      "whyItMatters": "The stage a product is in drives its marketing, pricing, and distribution.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Data",
+      "slug": "data",
+      "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
+      "whyItMatters": "All information management begins with knowing what counts as reliable data.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Promotional mix",
+      "slug": "promotional-mix",
+      "definition": "The blend of advertising, publicity, sales promotion, and personal selling.",
+      "whyItMatters": "A mix lets competitors recommend more than one communication path.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Self-esteem",
+      "slug": "self-esteem",
+      "definition": "A realistic sense of your own value and capabilities.",
+      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Indirect channel",
+      "slug": "indirect-channel",
+      "definition": "A distribution path where one or more intermediaries sit between producer and customer.",
+      "whyItMatters": "Indirect channels widen reach and share costs but reduce producer control.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Group discussion",
+      "slug": "group-discussion",
+      "definition": "A structured conversation among several people to share ideas and reach conclusions.",
+      "whyItMatters": "Team events depend on effective group discussion.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Profit margin",
+      "slug": "profit-margin",
+      "definition": "The percentage of revenue left as profit after costs are subtracted.",
+      "whyItMatters": "Margin reflects pricing effectiveness against financial goals.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Target market",
+      "slug": "target-market",
+      "definition": "The specific customer group a business chooses as its primary marketing audience.",
+      "whyItMatters": "Recommendations are stronger when they name a specific audience.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Prospecting",
+      "slug": "prospecting",
+      "definition": "Identifying and qualifying potential customers who may need an offering.",
+      "whyItMatters": "Effective prospecting builds the foundation for successful sales.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product mix",
+      "slug": "product-mix",
+      "definition": "The full range of products and services a company offers.",
+      "whyItMatters": "Product-mix decisions shape positioning, resources, and revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Database",
+      "slug": "database",
+      "definition": "An organized, computer-managed collection of related data that can be stored and retrieved systematically.",
+      "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Advertising",
+      "slug": "advertising",
+      "definition": "Paid, nonpersonal communication delivered through media to large audiences.",
+      "whyItMatters": "Advertising builds broad brand awareness efficiently and at scale.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Self-confidence",
+      "slug": "self-confidence",
+      "definition": "Belief in your ability to perform well and reach your goals.",
+      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Intermediary",
+      "slug": "intermediary",
+      "definition": "A business between producer and customer, such as a retailer, wholesaler, or agent.",
+      "whyItMatters": "Intermediaries expand reach but add cost and control tradeoffs.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Professional email",
+      "slug": "professional-email",
+      "definition": "A formal written message with a clear subject, correct grammar, and appropriate tone.",
+      "whyItMatters": "Written events reward mastery of email conventions.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Pricing strategy",
+      "slug": "pricing-strategy",
+      "definition": "A plan for setting prices to meet business objectives and positioning.",
+      "whyItMatters": "A sound strategy is central to case presentations and positioning.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Marketing plan",
+      "slug": "marketing-plan",
+      "definition": "A written document laying out marketing objectives, strategies, and tactics for a period.",
+      "whyItMatters": "The plan guides all promotional and customer-facing decisions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Approach",
+      "slug": "approach",
+      "definition": "The opening contact and strategy used to engage a potential customer.",
+      "whyItMatters": "A professional approach sets the first impression that drives interest.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product line",
+      "slug": "product-line",
+      "definition": "A group of related products sold under one brand or category.",
+      "whyItMatters": "Line decisions balance customer choice against cost and complexity.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Spreadsheet",
+      "slug": "spreadsheet",
+      "definition": "A software application that organizes data in rows and columns for calculation and analysis.",
+      "whyItMatters": "Spreadsheets are a core business tool competitors are expected to use comfortably.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Sales promotion",
+      "slug": "sales-promotion",
+      "definition": "Short-term incentives like coupons, contests, and discounts that spur purchases.",
+      "whyItMatters": "Promotions drive quick sales, trial, and inventory clearance.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Initiative",
+      "slug": "initiative",
+      "definition": "Taking independent action to solve problems or seize opportunities.",
+      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Wholesaler",
+      "slug": "wholesaler",
+      "definition": "An intermediary that buys goods in bulk from producers and resells them to retailers.",
+      "whyItMatters": "Wholesalers aggregate inventory and provide the logistics that enable retail networks.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Business letter",
+      "slug": "business-letter",
+      "definition": "A formal document in standard format used for official outside communication.",
+      "whyItMatters": "Judges expect correct formatting, tone, and structure.",
+      "tags": [
+        "communication_skills"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Cost-plus pricing",
+      "slug": "cost-plus-pricing",
+      "definition": "Setting price by adding a standard markup to a product's cost.",
+      "whyItMatters": "It is a foundational method when a price must ensure cost recovery.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Situation analysis",
+      "slug": "situation-analysis",
+      "definition": "An assessment of internal and external factors affecting a business's marketing.",
+      "whyItMatters": "Understanding the situation must come before any recommendation.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    }
+  ]
+}

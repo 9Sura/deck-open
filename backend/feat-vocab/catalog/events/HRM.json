@@ -1,0 +1,35 @@
+{
+  "code": "HRM",
+  "terms": [
+    {
+      "term": "Job description",
+      "definition": "A written summary of a job's duties, qualifications, and expectations.",
+      "whyItMatters": "Job descriptions guide hiring, training, and evaluation.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/HRM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Employee relations",
+      "definition": "HR activities that maintain positive relationships between employees and the business.",
+      "whyItMatters": "Employee relations supports morale, retention, and conflict handling.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/HRM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Workplace culture",
+      "definition": "The shared values, norms, and behaviors within an organization.",
+      "whyItMatters": "Culture affects hiring, service, communication, and performance.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/HRM",
+        "backend/test-gen-model/data"
+      ]
+    }
+  ]
+}

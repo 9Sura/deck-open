@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-28-MTDM",
+  "date": "2026-07-28",
+  "code": "MTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc-plus",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    "Identify promotional mix elements",
+    "Explain the concept of economic resources",
+    "Write informational messages",
+    "Determine ways of reinforcing the company's image",
+    "Demonstrate a customer service mindset",
+    "Choose and use appropriate channel for workplace communication",
+    "Describe factors in product positioning"
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking",
+    "Problem Solving",
+    "Creativity and Innovation",
+    "Communication and Collaboration"
+  ],
+  "participantInstructions": "This event is presented through the participant's reading of the 21st Century Skills, Performance Indicators, and the situation section. The preparation time is 30 minutes for both participants to read and prepare their responses. The presentation time is 15 minutes total, with each team member contributing equally during the presentation. There will be no judge questions following the presentation. Participants will be evaluated on how well they meet the performance indicators listed below. All notes and materials must be turned in at the end of the event.",
+  "situation": "You are part of the marketing management team at Tech Innovators Inc., an established technology firm that specializes in developing cutting-edge software solutions. Founded in 2010, Tech Innovators has grown exponentially over the past decade, expanding from a small startup to a major player in the tech industry with a portfolio of innovative products and a dedicated customer base spanning across North America and Europe. The company's flagship product, SmartSuite, is a comprehensive software solution designed for enterprise clients seeking advanced data analytics capabilities. In addition to SmartSuite, Tech Innovators offers several other solutions such as QuickLink, a streamlined communication tool aimed at small businesses, and CloudVault, an encrypted cloud storage service that caters to privacy-conscious consumers.\n\nAs the company's market share has grown, so have its operational challenges. Your supervisor, Alex Thompson, has tasked you and your teammate with addressing a pressing issue: whether to launch a new product line or invest in marketing campaigns for existing products. The decision is critical as it will impact both short-term financial performance and long-term strategic positioning.\n\nTech Innovators Inc. operates within a highly competitive tech industry where innovation is key but financial constraints are tight. The company currently offers several software solutions that cater to different market segments, including small businesses and large enterprises. Despite the success of these offerings, there is pressure to expand into new markets with innovative products while also maintaining strong sales in existing ones.\n\nAlex Thompson, the company's CFO, is particularly concerned about the financial feasibility of launching a new product line. He believes that investing an additional $750,000 in R&D and production might strain the company’s already tight budget, potentially jeopardizing other critical areas such as customer service and operational efficiency. Alex emphasizes the importance of maintaining financial discipline to ensure long-term stability and growth.\n\nMeanwhile, Jane Doe, the CEO, is pushing for innovation and expansion into new markets. She envisions Tech Innovators Inc. becoming a leader in emerging technologies like artificial intelligence (AI) and Internet of Things (IoT). Jane believes that launching a new product line would not only enhance the company's reputation as an innovator but also open up lucrative opportunities in untapped sectors such as healthcare and smart cities.\n\nIn this meeting, you will present your analysis on whether Tech Innovators Inc. should launch a new product line or enhance marketing campaigns for existing products. You must consider economic resources, promotional mix elements, customer service, and channel selection in making your recommendation. The judge will begin by greeting you and asking to hear your ideas; after the presentation, Alex Thompson will conclude by thanking you.\n\nAlex Thompson views the current market conditions as highly volatile and uncertain. He argues that investing heavily in a new product line could expose Tech Innovators Inc. to significant financial risk if the product fails to meet expectations or faces intense competition from established players. Additionally, he points out that the company's existing marketing budget is already stretched thin to support multiple campaigns across various platforms. Allocating an additional $750,000 for a new product launch would require cutting back on other essential areas such as customer service and operational improvements, which could harm long-term growth prospects.\n\nOn the other hand, Jane Doe sees launching a new product line as a strategic imperative to maintain competitive edge in the rapidly evolving tech landscape. She believes that by entering emerging markets early, Tech Innovators Inc. can establish itself as an industry leader and secure a strong market position before competitors catch up. Additionally, she argues that investing in innovation will attract top talent and generate valuable intellectual property, which could lead to future revenue streams through licensing agreements or partnerships.\n\nBoth Alex Thompson and Jane Doe have valid concerns and perspectives on the issue at hand. However, their goals are fundamentally incompatible: while Alex prioritizes financial stability and risk management, Jane focuses on growth and market leadership. This divergence highlights the need for a balanced approach that considers both short-term financial constraints and long-term strategic objectives.\n\nMoreover, there are binding constraints that limit the company's ability to pursue either option without significant repercussions. For instance, Tech Innovators Inc. has committed to maintaining a minimum cash reserve of $2 million at all times to ensure liquidity during economic downturns or unexpected expenses. Launching a new product line would require dipping into these reserves, potentially leaving the company vulnerable if unforeseen challenges arise.\n\nAdditionally, the company's marketing strategy is already heavily reliant on digital channels such as social media and online advertising, which have limited scalability due to saturation in some markets. Enhancing existing campaigns through these channels may yield diminishing returns unless new approaches are explored, further complicating the decision-making process.\n\nIn conclusion, the dilemma facing Tech Innovators Inc. requires a nuanced approach that balances financial prudence with strategic foresight. As you and your teammate prepare for the meeting, it is crucial to present a comprehensive analysis of both options while acknowledging the inherent trade-offs involved.",
+  "exhibit": {
+    "title": "CURRENT MARKETING BUDGET AND PROJECTED EXPENSES",
+    "rows": [
+      "Current marketing budget: $500,000 (allocated across various campaigns for SmartSuite, QuickLink, and CloudVault)",
+      "Projected expenses for launching a new product line: $750,000 (estimated costs include R&D, production, distribution, and promotional activities)",
+      "Projected expenses for enhancing existing products' marketing campaigns: $400,000 (focused on expanding reach through digital advertising, social media engagement, and direct mail)"
+    ]
+  },
+  "judgeCharacterization": "Business background is the same as the situation above.\n\nAlex Thompson, CFO of Tech Innovators Inc., has tasked the marketing management team with analyzing whether the company should launch a new product line or enhance its existing products' marketing campaigns. You must present your recommendation and analysis on economic resources, promotional mix elements, customer service, and channel selection.",
+  "judgeQuestions": [
+    "Justify which option you chose and weigh it against the alternative you rejected.",
+    "Assess how you would measure whether financial constraints have actually been met.",
+    "Jane Doe argues that expanding into new markets is crucial for long-term growth. Defend your recommendation against that argument."
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [
+        "Alex Thompson - CFO, concerned about financial viability",
+        "Jane Doe - CEO, pushing for innovation and expansion",
+        "Small Business Segment Manager - Wants to maintain current product lines' marketing budgets"
+      ],
+      "constraints": [
+        "Current marketing budget of $500,000",
+        "Projected expenses for launching a new product line of $750,000",
+        "Projected expenses for enhancing existing products' campaigns of $400,000"
+      ],
+      "conflicts": [
+        "Financial constraints conflict with the need for innovation and expansion into new markets",
+        "Maintaining current product lines' marketing budgets conflicts with the desire to expand into new markets"
+      ],
+      "exhibit": "EXHIBIT 1: CURRENT MARKETING BUDGET AND PROJECTED EXPENSES"
+    },
+    "corroborated": {
+      "stakeholders": [
+        "Alex Thompson - CFO, concerned about financial viability",
+        "Jane Doe - CEO, pushing for innovation and expansion",
+        "Small Business Segment Manager - Wants to maintain current product lines' marketing budgets"
+      ],
+      "constraints": [
+        "Current marketing budget of $500,000",
+        "Projected expenses for launching a new product line of $750,000",
+        "Projected expenses for enhancing existing products' campaigns of $400,000"
+      ],
+      "exhibit": true
+    },
+    "gate": {
+      "passed": false,
+      "failedKnobs": [
+        "K3"
+      ],
+      "issues": [
+        "K3: exhibit 'EXHIBIT 1: CURRENT MARKETING BUDGET AND ' has 3 numbers, floor is 4",
+        "K3: exhibit is inside or below the situation; it belongs between PERFORMANCE INDICATORS and the situation header"
+      ]
+    },
+    "situationWords": 882,
+    "generator": {
+      "model": "qwen2.5:14b-instruct",
+      "passes": 2
+    },
+    "defects": [
+      "boilerplate:denies-judge-questions"
+    ]
+  }
+}

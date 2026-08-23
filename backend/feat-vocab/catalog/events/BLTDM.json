@@ -1,0 +1,35 @@
+{
+  "code": "BLTDM",
+  "terms": [
+    {
+      "term": "Consideration",
+      "definition": "Something of value exchanged by each party in a contract.",
+      "whyItMatters": "This term helps teams analyze whether an agreement is valid.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BLTDM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Liability",
+      "definition": "Legal responsibility for a debt, damage, or obligation.",
+      "whyItMatters": "Liability helps competitors discuss risk and accountability.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BLTDM",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Conflict of interest",
+      "definition": "A situation where personal interests could interfere with fair business judgment.",
+      "whyItMatters": "Ethics cases often turn on identifying and managing conflicts.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BLTDM",
+        "backend/test-gen-model/data"
+      ]
+    }
+  ]
+}

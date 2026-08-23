@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "pbm-association-1-0001",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Show empathy",
+    "question": "A team lead at a logistics company notices that a normally reliable dispatcher has been unusually withdrawn and just made a small scheduling error, shortly after mentioning a family emergency in passing. What should the team lead do?",
+    "options": {
+      "A": "Privately check in with the dispatcher, acknowledge that things seem difficult right now, and offer to temporarily redistribute part of the workload",
+      "B": "Send the dispatcher a note containing the employee assistance program's contact details and the leave request form, leaving them to decide what to do with it",
+      "C": "Quietly move part of the dispatcher's route assignments to another team member without raising the family situation or the scheduling error with them",
+      "D": "Give the dispatcher space by leaving the subject alone entirely, on the view that a family emergency is private and unwelcome to raise in the workplace"
+    },
+    "answer": "A",
+    "explanation": "A is correct: empathy here means naming what the team lead can see, without prying into it, and pairing that acknowledgment with concrete relief, which addresses both the dispatcher's state and the workload that produced the error. B is wrong because sending resources without a conversation delivers the mechanics of support while withholding the human part of it; a withdrawn employee handed a form and a phone number is being processed, not heard. C is wrong because redistributing the work silently gives the practical help but takes the decision away from the dispatcher, who may read the change as a judgment on their reliability precisely when they are already struggling. D is wrong because saying nothing treats privacy and empathy as the same thing: the dispatcher volunteered the emergency and their behavior has changed visibly, so an offer to talk respects the boundary while silence leaves them to carry it alone.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0002",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use conflict-resolution skills",
+    "question": "Two sales associates at a mid-size marketing firm are in an ongoing dispute over which of them should receive commission credit for a shared client account, and the tension is starting to affect the broader team's morale. As their supervisor, what is the BEST action?",
+    "options": {
+      "A": "Bring both associates into a single meeting straight away and have them argue the commission claim out in front of each other until one of them concedes the account",
+      "B": "Meet with each associate individually to understand their perspective, then bring them together to agree on a resolution based on documented contributions",
+      "C": "Split the commission evenly between the two so that neither associate is seen to have won the dispute",
+      "D": "Apply whatever the written compensation plan says about shared accounts without meeting either associate"
+    },
+    "answer": "B",
+    "explanation": "B is correct: hearing each associate alone surfaces what each believes they contributed, and bringing them together afterward around the documented record settles the credit on evidence while repairing the working relationship the team's morale depends on. A is wrong because a joint meeting held before either has been heard privately turns the dispute into a contest in front of an audience, hardening both positions; the format the key uses is the same meeting, but only after the supervisor understands each side. C is wrong because an even split is a settlement rather than a resolution: it ignores what the documentation shows about who did the work, and the associate who contributed more reads it as a penalty. D is wrong because applying the plan without speaking to either associate resolves the payment while leaving the conflict and its effect on the team untouched, and the plan cannot say who did what on this account.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0003",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate self-control",
+    "question": "During a heated budget review meeting, a colleague publicly and sharply criticizes the spending decisions on your project in front of senior leadership. What is the BEST response?",
+    "options": {
+      "A": "Cut in with a point-by-point rebuttal of each figure while the colleague is still speaking",
+      "B": "Stay quiet through the rest of the meeting and let the criticism stand unanswered",
+      "C": "Pause, acknowledge the concern calmly, and offer to review the specific figures together after the meeting",
+      "D": "Raise the colleague's own budget overruns to show leadership that the criticism is not being made in good faith"
+    },
+    "answer": "C",
+    "explanation": "C is correct because staying composed, acknowledging the concern, and proposing a constructive follow-up demonstrates self-control under pressure. A is wrong because cutting in mid-sentence is the impulse the situation is testing; leadership sees a reaction rather than an answer, and the figures get argued in front of an audience instead of checked. B is wrong because going silent is suppression rather than self-control: the feelings are simply held in, and the unanswered criticism becomes what senior leadership remembers about the project. D is wrong because it answers a spending question with a counterattack, which trades composure for a score and puts the colleague's record on trial rather than the budget.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0004",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Adjust to change",
+    "question": "A warehouse employee who has used the same paper-based tracking process for years is frustrated after the company rolls out new inventory management software. What should the employee do?",
+    "options": {
+      "A": "Keep the paper tracking sheets running alongside the new software until the system has proven itself, so that no record is lost during the changeover",
+      "B": "Ask a coworker who is comfortable with the software to enter the warehouse data on their behalf while the paper process carries on in the background",
+      "C": "Raise objections with management and press for a return to the previous process",
+      "D": "Attend the training sessions, practice using the new system, and share specific, constructive feedback with the implementation team"
+    },
+    "answer": "D",
+    "explanation": "D is correct: adapting to a change means learning the new system in earnest and routing frustration into feedback the implementation team can act on, which serves both the employee and the rollout. A is wrong because a shadow paper system is resistance wearing the clothes of caution: the two records drift apart, the company cannot trust either, and the employee postpones the learning the change requires. B is wrong because delegating the entry keeps the work moving while leaving the employee no more capable than before, and it quietly transfers their job to a coworker. C is wrong because pressing to reverse the rollout treats the change as the thing to be fixed; raising concerns is legitimate, but as an alternative to learning the system it is avoidance rather than adjustment.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0005",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Recognize and overcome biases/stereotypes",
+    "question": "A hiring manager reviewing resumes for an open analyst position notices they consistently favor candidates who attended the same university they did, even when other applicants have comparable qualifications. What should the hiring manager do to overcome this bias?",
+    "options": {
+      "A": "Use a standardized, structured interview process with the same core questions and scoring criteria for every candidate",
+      "B": "Weigh cultural fit alongside qualifications, using the manager's read of each candidate in the interview",
+      "C": "Add a second interviewer from the same university to cross-check the hiring manager's shortlist before any offers go out",
+      "D": "Remove school names from the resumes but keep the same unstructured interview format for every candidate"
+    },
+    "answer": "A",
+    "explanation": "A is correct because standardized criteria and questions reduce the influence of personal bias and ensure candidates are evaluated on relevant, consistent factors. B is wrong because a manager's read on fit is precisely the channel this bias travels through: shared background feels like rapport, and rapport is what is already tipping the decisions. C is wrong because a reviewer drawn from the same university brings the same affinity to the shortlist; a second opinion checks bias when it comes from a different vantage point, and this one duplicates it. D is wrong because it fixes the resume stage and leaves the interview open: the university surfaces within minutes of an unstructured conversation, and the same preference resumes there.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0006",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Maintain confidentiality",
+    "question": "An HR coordinator processed a coworker's request for medical leave and now a different coworker, who is friends with the employee, asks what the medical issue is. What should the HR coordinator do?",
+    "options": {
+      "A": "Confirm the dates the employee will be out and the expected return date while withholding the medical reason, since the team's scheduling depends on it",
+      "B": "Politely explain that personal medical details can't be discussed and suggest the coworker ask the employee directly if they'd like to know",
+      "C": "Confirm that the leave involves a personal health matter without naming the specific condition",
+      "D": "Direct the coworker to the employee's manager, who approved the leave and can decide what may be shared"
+    },
+    "answer": "B",
+    "explanation": "B is correct: medical information given to HR in the course of a leave request is confidential, and declining while pointing the coworker to the employee keeps the choice to disclose where it belongs, with the employee. A is wrong because the coworker is a friend making a personal inquiry, not a manager with a scheduling need; releasing the leave dates to them discloses information from a confidential medical file to someone with no business reason for it. C is wrong because narrowing the disclosure does not remove it: confirming a health matter still reveals protected information the employee chose to share with HR alone. D is wrong because the manager has no more authority to release medical details than the coordinator does, so the referral relocates the request rather than declining it and invites a second person to disclose.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0007",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use assertiveness",
+    "question": "An employee already managing a full workload is assigned an additional project with an unreasonably tight deadline by their manager. What should the employee do?",
+    "options": {
+      "A": "Accept the deadline and quietly work extra hours, raising the workload issue at the next review",
+      "B": "Ask a coworker to mention the workload problem to the manager on her behalf",
+      "C": "Directly and respectfully explain the current workload to the manager and propose a revised, realistic timeline",
+      "D": "Take the project and let the older deadlines slip, since the newest assignment is what the manager asked for"
+    },
+    "answer": "C",
+    "explanation": "C is correct because assertiveness means clearly and respectfully communicating one's own needs and proposing a workable solution, rather than staying silent or reacting aggressively. A is wrong because absorbing the work in silence hides the capacity problem from the one person who can fix it, and raising it months later at a review is too late to affect this deadline. B is wrong because routing the message through a coworker is indirect: the employee's own concern arrives secondhand, and the manager cannot negotiate a timeline with someone who is not there. D is wrong because trading one deadline away without saying so is a unilateral decision made in silence; the manager finds out when the earlier work is already late.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0008",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate negotiation skills",
+    "question": "A small business owner values a key supplier but the supplier has just proposed a 15% price increase that would hurt profit margins. What is the BEST approach?",
+    "options": {
+      "A": "Accept the full increase and pass the entire cost through to customers as a price rise",
+      "B": "Move the account to a lower-priced supplier that has not been vetted for quality or reliability",
+      "C": "Refuse the increase and hold the supplier to the current contract price until it expires",
+      "D": "Propose a longer-term contract with a larger volume commitment in exchange for a smaller price increase"
+    },
+    "answer": "D",
+    "explanation": "D is correct because it creates a mutually beneficial trade-off, using leverage (volume and contract length) to negotiate a better outcome for both parties. A is wrong because it concedes the full 15% without asking for anything back and moves the margin problem onto customers, who may simply buy less. B is wrong because it treats price as the only term that matters and trades a supplier the owner values for an unknown one, risking quality and delivery to solve a margin issue that was open to negotiation. C is wrong because refusing outright offers the supplier nothing and invites the increase again the moment the contract ends, with the relationship worse than before.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0009",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Solicit feedback",
+    "question": "A retail store manager recently changed the employee shift-scheduling process and wants to know how it is actually working for the team. What should the manager do?",
+    "options": {
+      "A": "Hold brief, regular check-ins and use an anonymous survey to directly ask employees about their experience with the new process",
+      "B": "Track shift-swap requests and call-out rates as indirect signals of how the new schedule is landing with staff",
+      "C": "Ask the shift supervisors to summarize what they have been hearing from their teams",
+      "D": "Wait for the annual engagement survey results to show whether the change is working"
+    },
+    "answer": "A",
+    "explanation": "A is correct: soliciting feedback means going to the employees and asking, and pairing regular check-ins with an anonymous channel gets both the candid answers and the ones people will say out loud. B is wrong because swap requests and call-outs are behavioral traces, not feedback: they can tell the manager that something is wrong without telling her what, and a schedule that people dislike but comply with leaves no trace at all. C is wrong because supervisors report a filtered version, shaped by what their teams are willing to tell them and by the supervisors' own view of a process they help run. D is wrong because the annual survey arrives months from now, is not specific to the scheduling change, and leaves problems running in the meantime.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0010",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Foster open communication",
+    "question": "A production manager known for reacting harshly to bad news realizes employees have started delaying reports of supply chain problems until they become serious. What should the manager do?",
+    "options": {
+      "A": "Announce a formal accountability standard that treats late escalation of a supply problem as a performance issue at review time",
+      "B": "Establish regular, low-pressure check-ins focused on problem-solving and thank employees for raising issues early",
+      "C": "Route supply reports through the shift leads first, so the manager hears each problem secondhand once it has been vetted",
+      "D": "Open an anonymous reporting channel so employees can flag supply problems without attaching their names to bad news"
+    },
+    "answer": "B",
+    "explanation": "B is correct because framing communication around problem-solving rather than blame, and reinforcing early reporting with positive feedback, rebuilds trust and encourages openness. A is wrong because attaching review consequences to late reports adds more of the fear that caused the delays; employees hide problems longer rather than surface them. C is wrong because inserting shift leads as a filter delays the news further and leaves the manager's reaction, the actual cause, untouched. D is wrong because anonymity works around the manager instead of repairing the relationship, and it strips the reporter's identity from reports that need follow-up questions to be useful.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0011",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use consensus-building skills",
+    "question": "A cross-functional product team is split between two competing marketing campaign concepts, and the disagreement is stalling the project timeline. What should the project lead do?",
+    "options": {
+      "A": "Merge the strongest elements of both concepts into a single compromise campaign so each side sees its work represented",
+      "B": "Put the two concepts to a majority vote and proceed with whichever one collects more votes from the team",
+      "C": "Facilitate a discussion where the team identifies shared evaluation criteria and works through the pros and cons of each concept together",
+      "D": "Escalate the choice to the marketing director so the project can move forward on a decision from above"
+    },
+    "answer": "C",
+    "explanation": "C is correct: consensus building works by getting the team to agree on how the choice should be judged, then reasoning through the concepts against those shared criteria, which produces both a decision and the commitment to carry it out. A is wrong because splitting the difference is compromise rather than consensus: the team never agrees on what makes a campaign good, and a concept assembled from two halves can lose the coherence that made either one work. B is wrong because a vote counts preferences without reconciling them, so it ends the stall while leaving the losing side unconvinced and no clearer on why the winning concept is stronger. D is wrong because a decision handed down from the director unblocks the timeline but bypasses the team entirely, which is the opposite of building agreement among the people who must execute it.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0012",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Motivate team members",
+    "question": "A sales team's morale is low after missing its quarterly target, and the manager needs to re-energize the team for the next quarter. What is the BEST approach?",
+    "options": {
+      "A": "Lower the coming quarter's target to a number the team can clear, so that an early win rebuilds their confidence before the real goal returns",
+      "B": "Book an offsite team-building day with an outside speaker to lift the mood before the new quarter's selling starts in earnest",
+      "C": "Offer a large cash bonus as the single incentive attached to hitting the new quarterly target",
+      "D": "Set incremental, achievable goals, recognize small wins along the way, and connect those wins to the team's larger purpose"
+    },
+    "answer": "D",
+    "explanation": "D is correct: motivation after a miss is rebuilt by making progress visible and meaningful, which is what incremental goals, recognized wins, and a link to the team's larger purpose provide. A is wrong because moving the goalposts manufactures a win the team knows it did not earn; incremental goals break a real target into reachable steps, whereas a lowered target replaces the target, and the credibility of the next one goes with it. B is wrong because an offsite lifts the mood for a day without touching what deflated it: the team still faces the same quarter with the same target and no clearer sense of how to reach it. C is wrong because a single cash incentive addresses the payoff for hitting the number rather than the belief that it can be hit, and a team that has just missed the target reads a bonus attached to it as a reward it will not collect.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0013",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Coach others",
+    "question": "A newly hired financial associate submits a client report containing several avoidable calculation errors. What should the supervisor do?",
+    "options": {
+      "A": "Meet one-on-one with the associate, walk through the errors together, and ask guiding questions to help them identify how to avoid similar mistakes",
+      "B": "Correct every error personally and return the report with the fixes marked in the margin, so the associate can see exactly what the right figures should have been",
+      "C": "Enroll the associate in the firm's general financial modeling refresher course and revisit the quality of their work once the course has been completed",
+      "D": "Route the associate's future reports through a second reviewer who will catch calculation errors before any client sees them"
+    },
+    "answer": "A",
+    "explanation": "A is correct: coaching works through guided discovery, and walking the errors through together while asking questions that lead the associate to the fix is what builds the judgment to catch the next one. B is wrong because a marked-up copy tells the associate the answers rather than developing their reasoning; they see what was wrong without working out why it happened, which is correction rather than coaching. C is wrong because a general course is not aimed at these specific, avoidable mistakes, and deferring the conversation until it finishes leaves the associate without feedback on the report they just submitted. D is wrong because a second reviewer is a control that protects the client's copy while leaving the associate's skill untouched; the errors keep occurring and someone else keeps absorbing them.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0014",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Lead change",
+    "question": "A company is merging with another organization, and employees will need to adopt new processes and systems. What should the manager do to lead this change effectively?",
+    "options": {
+      "A": "Wait until the new systems are fully finalized before telling employees anything, so the message avoids creating uncertainty",
+      "B": "Clearly communicate the reasons and benefits behind the change, and involve employees early in planning the transition",
+      "C": "Roll the new processes out one department at a time and let each learn from the last",
+      "D": "Offer retention bonuses so employees stay in place through the transition period"
+    },
+    "answer": "B",
+    "explanation": "B is correct: people adopt a change they understand and helped shape, so explaining the reasoning and the benefits and drawing employees into planning the transition is what converts compliance into commitment during a merger. A is wrong because silence does not prevent uncertainty, it concentrates it: employees in a merger know something is coming, and withholding the rationale until everything is settled fills the gap with rumor and forecloses the involvement that builds ownership. C is wrong because phasing is a sound implementation tactic that says nothing about leading people through the change; each department in turn still meets the new processes without knowing why they exist or having had a hand in them. D is wrong because a bonus buys attendance rather than adoption: it addresses the risk that people leave, not the resistance of the people who stay.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0015",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Treat others with dignity and respect",
+    "question": "A warehouse supervisor needs to address an employee's chronic lateness, and the supervisor is aware the employee has recently been dealing with a difficult personal situation. What should the supervisor do?",
+    "options": {
+      "A": "Issue the written warning that the attendance policy calls for, without discussing the personal situation with the employee",
+      "B": "Move the employee to a later shift without asking whether that would help their situation",
+      "C": "Address the issue privately and respectfully, express genuine concern, clarify expectations, and mention available support resources",
+      "D": "Ask a coworker who is close to the employee to raise the lateness with them informally"
+    },
+    "answer": "C",
+    "explanation": "C is correct: dignity and accountability are not in tension here, and a private conversation that names the expectation while acknowledging the person and pointing to support does both. A is wrong because the policy step may well be warranted, but issued without a conversation it treats the employee as a case rather than a person, and the supervisor already knows something that bears on the lateness and asks nothing about it. B is wrong because rearranging someone's shift without consulting them presumes to know what they need; a well-meant change imposed silently can miss the actual problem and reads as a decision made about the employee rather than with them. D is wrong because delegating the conversation to a friend hands off the supervisor's responsibility and widens the circle of people who know about the employee's personal situation, which is the opposite of respecting it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0016",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Exhibit cultural sensitivity",
+    "question": "An account manager is preparing for a first video call with a new client team based in another country with different business communication norms. What should the account manager do?",
+    "options": {
+      "A": "Use the firm's standard call agenda and informal tone, since business norms are converging worldwide",
+      "B": "Open the call by asking the client team to describe their own cultural norms so the account manager can adapt on the spot",
+      "C": "Keep the first call short and formal, deferring any rapport-building until the norms become clear over later calls",
+      "D": "Research the client's cultural norms in advance and adjust greetings, tone, and communication style accordingly"
+    },
+    "answer": "D",
+    "explanation": "D is correct because exhibiting cultural sensitivity means proactively learning about and adapting to another culture's communication expectations before engaging with them. A is wrong because it assumes domestic norms travel; the stem states this client team's norms differ, and an informal tone is exactly what many business cultures read as careless. B is wrong because it puts the work of accommodation on the client in the opening minutes of a first call, asks them to speak for a whole culture, and signals that no preparation was done. C is wrong because retreating into brevity and formality is still an unadapted default rather than an adjustment; it postpones the relationship and can itself land as cold in cultures where an unhurried opening carries the respect.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0017",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle difficult customers",
+    "question": "A retail customer is loudly and angrily complaining at the checkout counter that a product they purchased last week is defective. What should the associate do?",
+    "options": {
+      "A": "Stay calm, listen to the full complaint without interrupting, acknowledge the customer's frustration, and then offer a resolution",
+      "B": "Walk the customer away from the checkout line to a quieter corner of the sales floor before hearing any of the details of the complaint",
+      "C": "Offer a full refund at once, before hearing the details, to end the disturbance in front of the other customers waiting in the checkout line",
+      "D": "Explain the store's defective-merchandise procedure and the paperwork the customer must complete before a replacement can be issued"
+    },
+    "answer": "A",
+    "explanation": "A is correct: an angry customer needs to be heard before anything else will land, so staying composed, listening the complaint out, naming the frustration, and then moving to a remedy is the sequence that de-escalates and resolves. B is wrong because moving the customer is a reasonable second step but not a first one: relocating someone who has not yet been listened to reads as being managed out of sight, and it usually raises the temperature rather than lowering it. C is wrong because a refund offered to stop the noise treats the scene as the problem instead of the defect, and a customer whose complaint was bought off without being heard leaves unsatisfied even with their money back. D is wrong because procedure delivered to someone who is already angry answers a question they have not asked yet; the process matters, but it comes after the complaint has been acknowledged.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0018",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle customer/client complaints",
+    "question": "A restaurant guest complains that their meal arrived incorrect and cold. What should the server do?",
+    "options": {
+      "A": "Apologize and carry the incorrect meal back to the kitchen to be reheated and returned to the table as quickly as possible",
+      "B": "Apologize, promptly replace the meal at no charge, and offer an additional gesture such as a discount on the visit",
+      "C": "Bring the manager to the table to decide how the complaint should be handled",
+      "D": "Replace the meal with the correct dish and charge the guest the regular price"
+    },
+    "answer": "B",
+    "explanation": "B is correct: the guest received the wrong food, cold, so resolving the complaint takes an apology, the correct meal at no charge, and a gesture that acknowledges the meal was spoiled rather than merely fixed. A is wrong because reheating addresses the temperature and leaves the substance: the dish is the wrong one, so it would come back hot and still not be what the guest ordered. C is wrong because fetching the manager passes a straightforward, fully remediable complaint up the chain, which makes the guest wait and tells them the server could not help them. D is wrong because charging full price for the replacement asks the guest to pay in full for an order the kitchen got wrong, which settles the food while leaving the guest worse off than if the meal had been right the first time.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0019",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Develop rapport with customers",
+    "question": "A financial advisor is meeting a new client for the first time to discuss investment options. What should the advisor do first?",
+    "options": {
+      "A": "Open by presenting the firm's top-performing portfolios to show the client what is available",
+      "B": "Have the client fill out the firm's standard risk-tolerance questionnaire before any conversation begins",
+      "C": "Ask about the client's personal goals and financial concerns, and listen actively before making any recommendations",
+      "D": "Share the advisor's credentials and a few client success stories to establish credibility up front"
+    },
+    "answer": "C",
+    "explanation": "C is correct because developing rapport starts with genuinely understanding the client's individual needs and concerns, which builds trust before any recommendations are made. A is wrong because leading with products puts the recommendation before the diagnosis; the client has not said what he is trying to accomplish, so top performance is being offered against unknown goals. B is wrong because a form collects data without building a relationship: it scores the client's tolerance for loss and never reaches what he is saving for or what worries him. D is wrong because credentials establish the advisor's competence rather than a connection with the client, and a first meeting spent on the advisor's record leaves the client's situation undiscussed.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0020",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Interpret business policies to customers/clients",
+    "question": "A customer wants to return a defective television purchased 45 days ago, but the electronics store's return policy only allows returns within 30 days. What should the associate do?",
+    "options": {
+      "A": "Recite the thirty-day window from the policy card word for word and close the conversation there, since the policy language itself is what the customer needs to hear",
+      "B": "Escalate the request to a manager right away so that someone with override authority can decide whether this television qualifies for an exception",
+      "C": "Issue store credit as a one-time courtesy without mentioning the thirty-day limit that applies",
+      "D": "Clearly explain the return policy terms, the reasoning behind the timeframe, and any available alternatives such as a manufacturer warranty claim"
+    },
+    "answer": "D",
+    "explanation": "D is correct: interpreting a policy means making it usable to the customer, which is the terms, the reason the timeframe exists, and the routes still open, such as the manufacturer's warranty on a defective set. A is wrong because reciting the policy states it without interpreting it: the customer learns the answer is no but not why the window exists or that a defect may be covered by the manufacturer regardless of the store's return period. B is wrong because escalating hands the customer to someone else before the associate has explained anything, and the defect described may be a warranty matter rather than an exception request in the first place. C is wrong because a silent courtesy leaves the customer with no understanding of the policy at all, and granting an unexplained exception sets an expectation the store will not meet consistently.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0021",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Adapt communication to cultural and social differences among clients",
+    "question": "A customer service representative notices that a client from a culture with an indirect communication style seems hesitant in email replies, and the representative isn't sure how to interpret the tone. What should the representative do?",
+    "options": {
+      "A": "Ask polite, open-ended clarifying questions and adjust their own communication style to be more patient and less blunt",
+      "B": "Keep the same direct tone, since a consistent style across every client is the fairest and least confusing approach to take",
+      "C": "Move the exchange to a phone call and ask the client to state plainly whether they intend to proceed with the order or not",
+      "D": "Read the client's replies literally and act on exactly what the words say, without inferring anything beyond them at all"
+    },
+    "answer": "A",
+    "explanation": "A is correct because adapting communication to cultural differences requires seeking clarity respectfully and adjusting one's own style rather than assuming meaning. B is wrong because treating every client the same is not the same as treating every client well: a tone that reads as efficient in one culture reads as abrupt in another, and consistency here preserves the mismatch. C is wrong because it presses someone whose culture communicates indirectly to be direct on the spot, which asks the client to do the adapting and makes the hesitation more likely, not less. D is wrong because in an indirect style the meaning sits in what is implied and left unsaid, so a literal reading discards the part of the message that carries the answer.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0022",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Orient new employees",
+    "question": "A new hire starts at a manufacturing plant and is unsure of daily safety procedures, where key facilities are located, or who to ask for help. What should the company do?",
+    "options": {
+      "A": "Assign the handbook and a set of online safety modules to be finished during the first week at the new hire's own pace",
+      "B": "Provide a structured onboarding program that includes an assigned mentor, a facility tour, and hands-on safety training",
+      "C": "Have the new hire shadow a rotating group of experienced operators for the first week without a set curriculum",
+      "D": "Give a short verbal briefing on the day's tasks each morning until the new hire settles in"
+    },
+    "answer": "B",
+    "explanation": "B is correct because a structured onboarding program with mentorship and hands-on training ensures the new employee understands safety procedures and expectations from day one, reducing risk and confusion. A is wrong because generic modules cannot teach this plant's layout or its specific procedures, and reading about a safety step is not the same as being walked through it on the floor. C is wrong because shadowing without a curriculum or a single owner means no one is accountable for what the new hire has and has not seen; each operator assumes another already covered it. D is wrong because a daily task briefing tells the new hire what to do today and never covers the facility, the safety procedures, or who to ask for help.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0023",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Explain ethics in HR",
+    "question": "An HR manager discovers that a hiring manager has consistently been favoring referrals from friends over more qualified external applicants for open positions. What should the HR manager do?",
+    "options": {
+      "A": "Introduce a structured scorecard and a second interviewer for that manager's future openings, without raising the pattern with him",
+      "B": "Report the pattern to the legal department as a possible discrimination claim",
+      "C": "Address the issue directly with the hiring manager and ensure hiring decisions follow fair, unbiased, merit-based standards",
+      "D": "Write a referral policy that caps how many hires may come from employee referrals"
+    },
+    "answer": "C",
+    "explanation": "C is correct: HR ethics turns on hiring being decided by merit, and addressing the manager directly while holding decisions to fair, unbiased standards corrects the behavior and the process the organization depends on. A is wrong because a scorecard constrains the manager's future choices without ever telling him that his pattern was a problem: the process improves, the judgment behind it goes unexamined, and a manager who prefers his friends will find room inside a structured format. B is wrong because a legal referral treats favoritism toward friends as a discrimination matter, which requires bias against a protected class that the stem does not describe; it escalates past the direct conversation the situation calls for. D is wrong because a numerical cap regulates how many referrals get hired while accepting the practice of preferring them, so referrals under the cap still beat better-qualified applicants and the merit standard is still not applied.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0024",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Conduct risk assessment of an event",
+    "question": "A company is planning to launch a new product line in an international market for the first time. What should management do BEFORE finalizing the launch plan?",
+    "options": {
+      "A": "Contract with a local distribution partner and rely on their familiarity with the market to surface whatever regulatory or cultural obstacles the launch is likely to encounter",
+      "B": "Purchase currency hedges and political risk insurance covering the new market, so that the financial consequences of the launch are contained before the plan is finalized",
+      "C": "Commission market demand research to size the opportunity and confirm that buyers want the product at the planned price point",
+      "D": "Systematically identify potential risks, such as regulatory, currency, cultural, and competitive factors, and evaluate their likelihood and potential impact"
+    },
+    "answer": "D",
+    "explanation": "D is correct: risk assessment means identifying the range of exposures a first international launch creates and rating each by likelihood and impact, which is what lets management plan before committing resources. A is wrong because a partner's familiarity is a source of information, not an assessment; it delegates the judgment, covers whatever the partner happens to notice, and produces no rating of likelihood or impact management can plan against. B is wrong because hedging and insurance are risk responses, and a response cannot be selected or priced before the exposures are identified; buying coverage first assumes the answer to the question the assessment exists to ask. C is wrong because demand research measures whether the market wants the product, which is a different question from what could go wrong: a product with confirmed demand can still fail on regulatory approval, currency movement, or cultural fit.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0025",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain communication techniques that support and encourage a speaker",
+    "question": "During a brainstorming session at a digital advertising agency, an account manager notices that Priya, a newer team member, hesitates after another employee interrupts her mid-sentence twice. The account manager wants Priya to feel comfortable finishing her thought. What is the BEST action for the account manager to take?",
+    "options": {
+      "A": "Briefly restate the portion of the idea Priya already shared, make eye contact with her, and invite her to continue explaining it.",
+      "B": "Move on to the next agenda item to protect the schedule, and add Priya's idea to a parking-lot list the group will revisit at the end.",
+      "C": "Ask the employee who interrupted to restate Priya's point in his own words, so the group hears the idea and he practices listening.",
+      "D": "Suggest Priya write the idea up in a follow-up email, promising the account manager will circulate it to the group with her name on it."
+    },
+    "answer": "A",
+    "explanation": "A is correct because restating what was said and inviting the speaker to continue are supportive listening techniques that build confidence and show the speaker her contribution is valued. B is wrong because a parking-lot entry still ends her turn at the moment she hesitated; the interruption goes unanswered and she learns that hesitating costs her the floor. C is wrong because the person who cut her off ends up narrating her idea, which takes ownership away from Priya rather than returning the floor to her. D is wrong because moving the idea to email removes the interactive, supportive exchange the moment calls for, and crediting her later does not restore her voice in the room.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0026",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Demonstrate active listening skills",
+    "question": "A customer service representative at a telecom company is on the phone with a customer who is frustrated about a billing error and is describing the problem in detail. The representative is simultaneously typing a reply to an unrelated internal email. What should the representative do to best demonstrate active listening?",
+    "options": {
+      "A": "Issue a courtesy credit while the customer is still describing the error, so she sees a fast response.",
+      "B": "Stop typing the email, give the caller full attention, and paraphrase the billing issue before responding.",
+      "C": "Keep typing while listening, since the representative can take in the billing details and finish the internal email at once.",
+      "D": "Transfer the caller to the billing department right away so a specialist can hear the details firsthand."
+    },
+    "answer": "B",
+    "explanation": "B is correct because active listening requires eliminating distractions, focusing fully on the speaker, and confirming understanding through paraphrasing before responding. A is wrong because issuing a credit before the customer has finished explaining the error is a reflex, not listening, and it may not match what actually went wrong on the bill. C is wrong because divided attention is the opposite of active listening: the customer can hear the typing, and details given while the representative is composing other text are the details most likely to be missed. D is wrong because handing the call off before demonstrating any listening forces the customer to start the explanation over with someone new.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0027",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Ask relevant questions",
+    "question": "A packaging designer receives a brief from a client that simply states, 'redesign our snack box to look more modern and appeal to younger buyers.' No further details are provided. What is the BEST action for the designer to take before beginning the redesign?",
+    "options": {
+      "A": "Begin sketching several modern design concepts based on current packaging trends.",
+      "B": "Research competitor snack packaging aimed at younger buyers for inspiration.",
+      "C": "Ask the client clarifying questions about the target age range, budget, and timeline for the redesign.",
+      "D": "Assume the client wants a minimalist design since that trend currently appeals to younger consumers."
+    },
+    "answer": "C",
+    "explanation": "C is correct because asking relevant clarifying questions ensures the designer understands the client's actual expectations before investing time in a direction that may not match the client's needs. A and B are wrong because starting design work or research without clarified parameters risks wasted effort if the concepts don't match the client's real target or budget. D is wrong because assuming intent instead of confirming it can lead to a finished product the client never wanted.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0028",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Interpret others' nonverbal cues",
+    "question": "A founder pitching a new subscription box service to a panel of investors notices that, halfway through the financial projections slide, several panelists cross their arms and begin glancing at their phones. What is the BEST action for the founder to take?",
+    "options": {
+      "A": "Skip ahead to the product demo and leave the financial projections for the question period at the end of the pitch.",
+      "B": "Raise the volume and pick up the delivery pace to project more energy into the room.",
+      "C": "Close out the pitch and offer to send the deck for the panel to read later.",
+      "D": "Pause, briefly re-engage the panel by asking if they'd like more detail on a specific number, and adjust the pacing."
+    },
+    "answer": "D",
+    "explanation": "D is correct because recognizing disengagement cues and responding by checking in and adjusting keeps the audience involved and addresses a possible information gap. A is wrong because it guesses at the cause of the cue rather than checking it, and it defers the projections, which are exactly what investors are evaluating. B is wrong because volume and pace treat disengagement as a problem of delivery when the panel disengaged during a specific slide, and a louder pitch to folded arms tends to read as pressure. C is wrong because ending the pitch abandons the room; a deck sent for later reading cannot answer the questions the panel is silently forming.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0029",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Provide legitimate responses to inquiries",
+    "question": "A new retail associate is asked by a customer whether a discontinued jacket can still be exchanged for a different size. The associate is unsure of the current exchange policy for discontinued items. What is the BEST action for the associate to take?",
+    "options": {
+      "A": "Tell the customer she will check the current policy with a supervisor and provide an accurate answer shortly.",
+      "B": "Tell the customer the exchange should be fine and process it at the register right away.",
+      "C": "Tell the customer that discontinued items are final sale, since that is how most stores handle clearance merchandise.",
+      "D": "Offer the customer store credit as a goodwill gesture, since it settles the request without looking up the exchange policy at all."
+    },
+    "answer": "A",
+    "explanation": "A is correct because verifying accurate information before responding ensures the customer receives a legitimate, correct answer rather than a guess. B is wrong because a guess made in the customer's favor is still a guess: if the policy excludes discontinued items, the associate has processed an exchange the store may reverse, which is worse for the customer than a short wait. C is wrong because what most stores do is not this store's policy, and stating an industry assumption as fact may deny the customer an exchange she is actually entitled to. D is wrong because it substitutes an unauthorized remedy for the answer she asked for; the associate still does not know the policy, and store credit may not be what the exchange rules provide.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0030",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Employ communication styles appropriate to target audience",
+    "question": "A software engineer is asked to present the technical specifications of a new inventory system to the company's sales team, most of whom have no technical background. What is the BEST approach for the engineer to take?",
+    "options": {
+      "A": "Present the engineering team's slide deck unchanged and pause after each slide to define any terms the sales team asks about.",
+      "B": "Translate the technical details into plain-language benefits and practical impacts for sales tasks, using minimal jargon.",
+      "C": "Lead with the system's architecture and database design, so the sales team understands why the tool's numbers can be trusted.",
+      "D": "Send the full technical specification document ahead of time and use the meeting to answer whatever questions come up in the room."
+    },
+    "answer": "B",
+    "explanation": "B is correct because adapting content and vocabulary to the audience's background ensures the sales team understands how the system affects their work. A is wrong because defining terms on request patches vocabulary while leaving the deck organized around engineering concerns; it also asks the audience to identify what they do not know, which is the thing they are least able to do. C is wrong because architecture answers a question the sales team is not asking: their confidence comes from seeing the system handle their own inventory tasks, not from the database design underneath. D is wrong because it moves the translation work onto the audience: specifications written for engineers will mostly go unread, and unread material produces no questions to answer.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0031",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Defend ideas objectively",
+    "question": "An operations manager proposes switching to a new inventory-tracking software during a leadership meeting. A colleague immediately criticizes the plan, saying the cost is too high. What is the BEST action for the operations manager to take?",
+    "options": {
+      "A": "Withdraw the proposal for now and bring it back once the colleague's cost concern has cooled off",
+      "B": "Note that the colleague has opposed the last three software proposals and ask leadership to weigh that pattern",
+      "C": "Calmly present data on projected cost savings and efficiency gains that support the proposal.",
+      "D": "Concede that the cost is too high and offer to find a cheaper tool with fewer of the features the team needs"
+    },
+    "answer": "C",
+    "explanation": "C is correct because defending an idea objectively means responding to criticism with relevant facts and evidence rather than emotion or personal attacks. A is wrong because withdrawing leaves the objection standing as the last word; time does not answer a cost argument, and the proposal returns to the same room with the same unaddressed concern. B is wrong because it asks leadership to discount the colleague rather than to weigh the cost, which is an argument about the person instead of the proposal and leaves the cost question untouched. D is wrong because it accepts the objection without testing it against the savings figures and gives up the capability the team needs to buy peace in the meeting.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0032",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Handle telephone calls in a businesslike manner",
+    "question": "A receptionist at a law firm is eating lunch at her desk when the phone rings with an incoming client call. What is the BEST action for the receptionist to take?",
+    "options": {
+      "A": "Let the call go to voicemail and return it in a few minutes once she has finished eating.",
+      "B": "Answer the call right away and ask the caller to hold for a moment before she has finished chewing her lunch.",
+      "C": "Answer with a brief greeting and route the caller straight through to an attorney's line so she can get back to her lunch.",
+      "D": "Quickly clear her mouth, answer promptly with a professional greeting, and give the caller full attention."
+    },
+    "answer": "D",
+    "explanation": "D is correct because handling calls in a businesslike manner requires a prompt, clear, professional greeting and full attention regardless of what else is happening. A is wrong because a client reaching a law firm's main line and getting voicemail during business hours is left wondering whether anyone is there; the callback comes on the receptionist's schedule, not the client's. B is wrong because it trades one problem for another: the greeting still goes out through a full mouth, and parking the caller on hold delays them just as much as the two seconds it would have taken to swallow first. C is wrong because a transfer made without asking what the caller needs is a guess at the right destination, and it is being made to end the call rather than to serve it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0033",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Facilitate group discussions",
+    "question": "During a cross-departmental meeting about a new product launch, one participant repeatedly dominates the conversation, leaving little opportunity for others to contribute. As facilitator, what is the BEST action to take?",
+    "options": {
+      "A": "Politely redirect by thanking the dominant speaker for their input and directly inviting other participants to share their views.",
+      "B": "Let the discussion run its course, since participants who have something worth adding will speak up when they are ready to.",
+      "C": "Wait until the meeting ends, then privately ask the dominant speaker to leave more room for others next time.",
+      "D": "Impose a two-minute speaking limit on every participant for the rest of the meeting and enforce it with a visible timer on the table."
+    },
+    "answer": "A",
+    "explanation": "A is correct because effective facilitation involves managing airtime tactfully so all voices are heard without embarrassing anyone. B is wrong because it assumes airtime distributes itself; in practice the quieter participants are being talked over, and waiting for them to assert themselves is what facilitation is supposed to replace. C is wrong because the feedback lands after the launch meeting is over: the cross-departmental input the session existed to gather is already lost, and only the next meeting benefits. D is wrong because a blanket timer treats every participant as the problem and chops up substantive contributions to solve the behavior of one person.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0034",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Make oral presentations",
+    "question": "An analyst is preparing to deliver a quarterly sales report to senior leadership and is nervous that the audience will lose interest during the data-heavy sections. What is the BEST way for the analyst to keep the presentation engaging?",
+    "options": {
+      "A": "Walk through the full spreadsheet on screen and read each quarter's figures aloud so leadership sees the complete data set.",
+      "B": "Use visuals such as charts alongside brief verbal highlights of key trends, pausing for questions.",
+      "C": "Open with a short story about a customer win and keep the quarterly numbers to a single summary slide.",
+      "D": "Send the full report ahead of the meeting and use the session for discussion, assuming leadership has read it."
+    },
+    "answer": "B",
+    "explanation": "B is correct because pairing visuals with concise verbal explanations and interaction keeps a data-heavy presentation engaging and comprehensible. A is wrong because reading a spreadsheet aloud gives leadership every number and no trend; completeness is what makes the data-heavy sections lose the room in the first place. C is wrong because an anecdote engages the audience by replacing the analysis rather than clarifying it: a quarterly sales report exists to show the trends, and one summary slide cannot carry them. D is wrong because it assumes the report was read, and a discussion with an unprepared room produces silence rather than engagement.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0035",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write professional emails",
+    "question": "An operations assistant needs to email a vendor about a shipment that arrived five days late, disrupting production. What is the BEST approach for the assistant's email?",
+    "options": {
+      "A": "Send a formal notice citing the delivery clause of the supply contract and reserving the company's right to claim damages for the production time that was lost",
+      "B": "Write a warm note mentioning that the shipment ran a little behind and avoiding any dwelling on the production impact, so the working relationship stays comfortable",
+      "C": "Write a clear, factual email describing the delay's impact, referencing the order details, and requesting a specific resolution or timeline.",
+      "D": "Address the email to the vendor's chief executive and copy every manager on both sides, so that the seriousness of the delay is visible to everyone at once"
+    },
+    "answer": "C",
+    "explanation": "C is correct: a professional email of this kind states the facts, ties them to the order it concerns, names the impact, and asks for something specific, which gives the vendor what it needs to act and leaves a written record. A is wrong because a contractual notice reserving damages is an escalation, and opening with it before the vendor has been asked to explain or fix the delay commits the relationship to a legal posture the situation has not yet earned. B is wrong because a note that softens the disruption away removes the very information the vendor needs: if the email does not convey that production stopped, the vendor has no reason to treat the delay as serious or to change anything. D is wrong because routing a first contact to the chief executive and copying both management teams skips the account manager who can actually resolve it, and the audience it creates makes the vendor defensive rather than cooperative.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0036",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write persuasive messages",
+    "question": "A marketing intern believes the company should adopt a new social media scheduling tool and wants to convince her manager to approve the purchase. What is the BEST approach for the intern's message to the manager?",
+    "options": {
+      "A": "Note that two competing agencies already use the tool and that the team risks looking behind without it.",
+      "B": "Walk through the tool's full feature list in detail, so the manager can weigh every capability and reach his own conclusion.",
+      "C": "Ask the manager to sit through a vendor demonstration and let the salesperson make the case for the purchase.",
+      "D": "Present specific benefits, such as time saved and improved posting consistency, supported by a brief cost comparison."
+    },
+    "answer": "D",
+    "explanation": "D is correct because a persuasive message should highlight concrete benefits and evidence that address the reader's priorities, such as efficiency and cost. A is wrong because it argues from what other agencies do rather than from what the tool would do for this team; a manager weighing a purchase still has no evidence of a benefit here. B is wrong because a full feature list gives the manager capabilities instead of reasons, and leaving him to draw his own conclusion is the opposite of persuading him. C is wrong because it hands the argument to a salesperson whose interest is the sale, and it spends the manager's time instead of the intern's on making the case.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0037",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain how digital communications expose business to risk",
+    "question": "An accountant is about to hit 'reply all' on an email thread that includes an external partner, and the message contains a client's confidential financial figures meant only for internal staff. What is the BEST action for the accountant to take?",
+    "options": {
+      "A": "Stop before sending, remove the external partner from the recipient list, and confirm the figures should be shared before sending anything.",
+      "B": "Reply to all as drafted but add a confidentiality notice at the top of the message asking the external partner to treat the client's figures as privileged.",
+      "C": "Send the reply and then use the mail client's message recall feature to retract the email from the external partner's inbox after it has arrived.",
+      "D": "Reply to all as drafted, then notify the firm's compliance officer so that the disclosure can be logged and handled through the incident process."
+    },
+    "answer": "A",
+    "explanation": "A is correct because recognizing the risk of exposing confidential data and correcting the recipient list before sending prevents a real breach of confidentiality. B is wrong because a confidentiality notice is a request, not a control: the figures reach the external partner the moment the message sends, and the exposure has already happened. C is wrong because recall works within a single mail system and does not reach an outside organization's inbox, so the accountant would be relying on a feature that cannot retrieve the message. D is wrong because logging a breach the accountant chose to cause is not risk management; the incident process exists for exposures that could not be prevented, and this one could.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0038",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Choose and use appropriate channel for workplace communication",
+    "question": "A warehouse manager learns just before the morning shift begins that the start time has been moved up two hours due to a delivery schedule change, and this affects all 40 warehouse staff. What is the BEST channel for the manager to use to communicate this?",
+    "options": {
+      "A": "Send a detailed memo through interoffice mail to be distributed over the next few days.",
+      "B": "Use the plant's group text alert system and post a sign at the entrance so all staff are reached immediately.",
+      "C": "Wait until the next scheduled weekly staff meeting to announce the change.",
+      "D": "Mention the change individually to the first few employees who arrive and rely on them to spread the word."
+    },
+    "answer": "B",
+    "explanation": "B is correct because urgent, time-sensitive information affecting many people requires a fast, direct channel that reliably reaches everyone before they are affected. A is wrong because interoffice mail is far too slow for information needed immediately. C is wrong because waiting for a future meeting means most staff will already have missed the schedule change. D is wrong because relying on informal word-of-mouth risks incomplete or inaccurate information reaching staff.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0039",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Participate in a staff meeting",
+    "question": "During a weekly staff meeting, a project coordinator is asked to give a status update on a client project that is slightly behind schedule. What is the BEST way for the coordinator to participate?",
+    "options": {
+      "A": "Report that the project is behind and offer to send the details to anyone who wants them",
+      "B": "Report that the project is on track and try to close the gap before the next weekly meeting",
+      "C": "Concisely summarize progress, explain the cause of the delay, and state the plan to get back on track.",
+      "D": "Walk the meeting through every task completed since the project started, in order"
+    },
+    "answer": "C",
+    "explanation": "C is correct because effective participation in a staff meeting means giving a clear, relevant update that informs the team and shows a proactive plan. A is wrong because it gives the team the headline and withholds the cause and the plan; the people who could adjust their own work around the delay are in the room now, and an offer to send details later does not reach them here. B is wrong because it reports a status the coordinator knows to be false in the hope of fixing it quietly, which denies the team a week of warning and makes the eventual disclosure worse. D is wrong because an exhaustive task history spends the meeting's time and buries the two things the team needs, the cause of the delay and the recovery plan.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0040",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Balance personal/professional responsibilities",
+    "question": "An employee learns her child's school called about an urgent issue on the same afternoon a major project deadline is due. What is the BEST action for the employee to take?",
+    "options": {
+      "A": "Ignore the school's call completely and focus only on the deadline.",
+      "B": "Leave work immediately without telling anyone and address the deadline later.",
+      "C": "Quietly stop working on the project and spend the rest of the day resolving the personal matter without notifying her supervisor.",
+      "D": "Notify her supervisor of the situation, delegate or reschedule what she can, and address the urgent personal matter."
+    },
+    "answer": "D",
+    "explanation": "D is correct because balancing responsibilities means communicating proactively and making reasonable adjustments rather than letting one obligation silently fail. A is wrong because ignoring a potentially serious matter involving her child is not a responsible balance of priorities. B is wrong because leaving without notifying anyone leaves the team unaware and unable to adjust, which can jeopardize the deadline. C is wrong because failing to communicate with her supervisor prevents the team from adjusting expectations or providing support.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0041",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Follow rules of conduct",
+    "question": "A sales associate is asked by a coworker to clock him in early on the timekeeping system because he is running late, even though he has not yet arrived at the store. What is the BEST action for the associate to take?",
+    "options": {
+      "A": "Decline the request and explain that falsifying time records violates company policy.",
+      "B": "Clock him in early this one time since he is usually punctual and it seems harmless.",
+      "C": "Clock him in early but tell him he owes her a favor in return.",
+      "D": "Ignore the request and say nothing to the coworker or a supervisor."
+    },
+    "answer": "A",
+    "explanation": "A is correct because following rules of conduct requires refusing to participate in dishonest practices like falsifying records, regardless of the relationship with the coworker. B is wrong because it is still a policy violation and sets a harmful precedent no matter how minor it seems. C is wrong because it also violates policy and turns the violation into a personal transaction. D is wrong because saying nothing does not clearly uphold the rule and leaves the associate's position ambiguous, whereas declining directly enforces the standard of conduct.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0042",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Follow chain of command",
+    "question": "An employee strongly disagrees with a scheduling decision made by her direct supervisor and believes it is unfair. What is the BEST action for the employee to take first?",
+    "options": {
+      "A": "Email the supervisor's boss directly, since a complaint about a supervisor's scheduling decision cannot be settled by that same supervisor.",
+      "B": "Request a private conversation with her direct supervisor to discuss her concerns before escalating further.",
+      "C": "Raise the scheduling decision with the HR department instead, since HR owns the scheduling policy that applies across the company.",
+      "D": "Bring the scheduling concern to the whole team at the next staff meeting so that others affected can weigh in on it."
+    },
+    "answer": "B",
+    "explanation": "B is correct because following the chain of command means addressing concerns with one's direct supervisor first before escalating to higher levels. A is wrong because it assumes the supervisor cannot reconsider her own decision; a scheduling call is squarely within her authority to revisit, and going over her head before asking removes the fastest route to a fix. C is wrong because HR is a lateral move that still bypasses the supervisor: the issue is a specific decision, not the policy behind it, and HR would refer it back down anyway. D is wrong because raising it to the assembled team turns an individual concern into a public challenge to the supervisor rather than a direct conversation with her.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0043",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Make decisions",
+    "question": "An assistant manager must choose between two suppliers for a new product line: one offers a lower price but slower delivery, and the other offers a higher price with faster, more reliable delivery. What is the BEST approach for the assistant manager to make this decision?",
+    "options": {
+      "A": "Default to the cheaper supplier and treat unit cost as the factor that settles a sourcing choice of this kind",
+      "B": "Choose the cheaper supplier and carry extra safety stock to absorb the longer lead time, accepting the added holding cost as the price of it",
+      "C": "Identify the business's priorities, such as required delivery timelines, weigh each supplier's trade-offs against those priorities, and select accordingly.",
+      "D": "Run the first several orders with each supplier in turn and keep whichever one causes fewer problems"
+    },
+    "answer": "C",
+    "explanation": "C is correct: a sound decision starts from what the business actually needs, and once the required delivery timeline is explicit, each supplier's trade-off can be judged against it rather than in the abstract. A is wrong because it substitutes a standing rule for a decision: unit cost matters, but whether it outweighs slower delivery depends on the priorities the manager has not yet identified, which is the step the question asks about. B is wrong because safety stock is a real way to buy tolerance for a long lead time, yet it is chosen here before anyone has established that the business can carry that inventory or that its delivery needs allow it; it commits to the cheap supplier and then pays to make it work. D is wrong because sequential trials defer the decision rather than making it, and they spend real orders learning what the requirements and the suppliers' terms could have told the manager beforehand.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0044",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Demonstrate problem-solving",
+    "question": "A retail store manager notices that a particular product has run out of stock on the sales floor three times in the past month, even though the warehouse inventory reports show adequate supply. What is the BEST action for the manager to take?",
+    "options": {
+      "A": "Raise the shelf's par level so more units sit on the floor between restocking rounds, absorbing the gap without changing how restocking is scheduled",
+      "B": "Direct staff to walk the aisle each hour and refill the shelf whenever they find it empty",
+      "C": "Order a full physical count of the warehouse on the assumption that the inventory report overstates what is on hand",
+      "D": "Investigate the restocking process to identify the root cause of the discrepancy, such as a scheduling gap or reporting error, and correct it."
+    },
+    "answer": "D",
+    "explanation": "D is correct: the shelf empties while the warehouse reports stock, so something between the two is failing, and problem-solving means finding that cause and correcting it rather than compensating for it. A is wrong because a higher par level buys time before the shelf empties without changing why it empties; if a restocking shift is being missed, the larger facing runs out too, later in the month. B is wrong because hourly walks add labor to catch the symptom sooner, which treats an empty shelf as the problem when the problem is whatever keeps producing one. C is wrong because it acts on one assumed cause: the report is a candidate, but so is the restocking schedule, and a full count is an expensive way to test a guess the manager has not yet narrowed.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0045",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Use time management",
+    "question": "An employee has three competing deadlines due by the end of the week: a client report, a team presentation, and routine data entry. What is the BEST way for the employee to manage her time?",
+    "options": {
+      "A": "Prioritize tasks based on deadlines and business impact, and schedule dedicated blocks of time for each accordingly.",
+      "B": "Work on whichever task she feels most engaged with at the moment, on the theory that motivation produces her best output.",
+      "C": "Clear the routine data entry first to cut down the open items, then split the days that remain evenly between the other two.",
+      "D": "Work all three tasks in parallel, switching among them through each day so that every deadline gets some attention daily."
+    },
+    "answer": "A",
+    "explanation": "A is correct because effective time management involves prioritizing tasks by urgency and importance and planning time deliberately to complete them. B is wrong because motivation does not track business impact: the client report is due whether or not she feels like writing it, so mood-led sequencing leaves the highest-stakes work for whenever it happens to appeal. C is wrong on two counts: it spends the freshest hours on the lowest-value task, and an even split of the remainder ignores that the report and the presentation do not need equal time. D is wrong because constant switching pays the cost of restarting each task repeatedly and still makes no decision about which deadline matters most.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0046",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain worker rights",
+    "question": "A new hourly employee asks the HR coordinator whether she is entitled to overtime pay if she works more than 40 hours in a week. What is the BEST action for the HR coordinator to take?",
+    "options": {
+      "A": "Tell her that overtime is approved case by case by her manager, so she should ask before working past 40 hours.",
+      "B": "Clearly explain the applicable wage and hour laws and the company's policy regarding overtime eligibility and pay.",
+      "C": "Direct her to the overtime section of the employee handbook, since the written policy is the authoritative answer on pay.",
+      "D": "Tell her that hourly employees are exempt from overtime rules until they finish the 90-day probationary period."
+    },
+    "answer": "B",
+    "explanation": "B is correct because HR staff should be able to clearly explain applicable worker rights, such as wage and hour regulations, so employees understand their entitlements. A is wrong because it confuses permission to work extra hours with entitlement to be paid for them: a manager may control scheduling, but once a non-exempt employee has worked past 40 hours the pay is owed by law, not by the manager's choice. C is wrong because company policy is not the top authority on pay; wage and hour law sits above the handbook, and pointing to the handbook alone leaves out the part she actually asked about. D is wrong because it invents an exemption that does not exist: overtime eligibility turns on how the job is classified, not on how long the employee has been there.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0047",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Use networking techniques",
+    "question": "A young professional attends an industry conference hoping to build valuable long-term professional relationships. What is the BEST networking approach for her to take?",
+    "options": {
+      "A": "Prepare a polished elevator pitch about her own background and deliver it to as many attendees as she can reach across the conference",
+      "B": "Draw up a shortlist of the most senior executives on the attendee list and spend her time getting introduced to those names",
+      "C": "Engage in genuine conversations, ask about others' work and interests, and follow up afterward to maintain the connection.",
+      "D": "Attend the scheduled sessions quietly and send connection requests afterward to everyone whose name she noted from the panels"
+    },
+    "answer": "C",
+    "explanation": "C is correct: durable professional relationships come from two-way conversation and from following up, which is what turns a conference introduction into a contact who remembers her a year later. A is wrong because a rehearsed pitch delivered widely makes her the subject of every exchange: she covers the room without learning anything about anyone, and a pitch is broadcast rather than conversation. B is wrong because seniority is a poor filter for a long-term network: the executives she targets have the least time to give a new professional, while the peers she skips are the people whose careers will move alongside hers. D is wrong because a connection request sent to a name from a panel carries no relationship to maintain; the follow-up in the key works because there was a conversation to follow up on, and here there was none.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0048",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain buying behavior factors",
+    "question": "A marketing analyst at a skincare company is studying why customers in a particular age group consistently choose higher-priced products from brands endorsed by social media influencers, even when cheaper alternatives perform similarly. Which buying behavior factor BEST explains this pattern?",
+    "options": {
+      "A": "Economic factors, since a higher price signals higher quality and buyers are rationally paying for the better product.",
+      "B": "Situational factors, since an endorsement appearing in a social feed is the surrounding circumstance that prompts each purchase.",
+      "C": "Functional factors, since the product's measured performance is what drives the repeat choice.",
+      "D": "Social and psychological factors, since perceived status and trust in influencers shape the purchase decision."
+    },
+    "answer": "D",
+    "explanation": "D is correct because the customers' choice is driven by social influence and psychological association with trusted figures rather than price or pure performance, which is a classic social/psychological buying behavior factor. A is wrong because the stem states the cheaper alternatives perform similarly, so there is no quality difference to pay for; a price-quality inference that survives contrary evidence is a perception, which places it under psychological factors rather than economic ones. B is wrong because situational factors are the occasion and setting of a purchase, such as time pressure or where the buying happens; a consistent preference across an entire age group is a durable pattern, not a circumstance of one occasion. C is wrong because the scenario states similar performance among alternatives, ruling out functional performance as the primary driver.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0049",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain time value of money",
+    "question": "A manufacturing company is negotiating with a supplier over a piece of equipment. The supplier offers two options: pay $50,000 today, or pay $56,000 in 12 months with no stated interest. The company's cost of capital (discount rate) is 8%. What should the financial manager do?",
+    "options": {
+      "A": "Grow the $50,000 at the firm's 8% cost of capital to $54,000 over the year, and since that exceeds the $50,000 the supplier wants today, treat the deferred option as leaving the firm ahead",
+      "B": "Pay the $50,000 now, since discounting the $56,000 future payment at the firm's 8% cost of capital shows it costs more in present-value terms than paying today",
+      "C": "Subtract 8% from the $56,000 to value it at about $51,520 today, and read that as close enough to $50,000 that keeping the cash on hand for the year is the better use of it",
+      "D": "Note that the $6,000 premium is 12% on $50,000, and since that runs above the firm's 8% cost of capital, treat the supplier as offering financing on favorable terms and defer the payment"
+    },
+    "answer": "B",
+    "explanation": "B is correct: discounting $56,000 one year at 8% gives $56,000 / 1.08, about $51,850, which is more than the $50,000 the supplier wants today, so paying now is the cheaper option in present-value terms. A is wrong because it compares the $54,000 the firm could accumulate against the wrong figure: the deferred option requires $56,000 at the end of the year, not $50,000, and $54,000 falls $2,000 short of it. C is wrong on the arithmetic and on the reading: discounting divides by 1.08 rather than subtracting 8%, and even the $51,520 it produces is above $50,000, which argues for paying today rather than deferring. D is wrong because it inverts the comparison: paying an implied 12% to a supplier when capital costs the firm 8% means the deferral is expensive, not favorable, and a rate above the cost of capital is the reason to decline it.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0050",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain purposes and importance of credit",
+    "question": "A boutique clothing wholesaler receives a large order from a new retail client who requests trade credit (net-30 terms) instead of paying upfront. The client's credit report shows a solid payment history but no history with this particular supplier. What should the wholesaler do?",
+    "options": {
+      "A": "Extend a smaller initial credit limit with net-30 terms to establish a payment track record before increasing the credit line",
+      "B": "Deny credit entirely until the client has five years of established credit history, and require cash-only sales indefinitely",
+      "C": "Extend the full requested credit limit without conditions since the payment history is described as solid",
+      "D": "Ignore the credit report and rely only on the client's word since they seem trustworthy"
+    },
+    "answer": "A",
+    "explanation": "A is correct: it reflects the purpose of credit as a tool for building a business relationship while managing risk, starting conservatively and expanding as trust is established. B is wrong because it is overly restrictive, ignores a solid payment history, and risks losing a valuable client. C is wrong because extending the full limit without conditions ignores the lack of history with this specific supplier. D is wrong because relying on the client's word instead of documented credit data skips necessary due diligence.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0051",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Calculate cost of credit",
+    "question": "A restaurant owner needs $20,000 in short-term financing, to be repaid in exactly one year. Lender X charges a 6% flat fee plus 10% annual interest; Lender Y charges no fee but 14% annual interest. Which action reflects correctly calculating the true cost of credit?",
+    "options": {
+      "A": "Choose Lender X because its fee is a one-time cost rather than a recurring rate, making the loan cheaper overall",
+      "B": "Choose Lender X because its 6% fee applies to the interest charged rather than to the loan principal, adding roughly $120 to the total cost of the loan",
+      "C": "Choose Lender Y because after adding Lender X's flat fee to its interest, Lender X's total cost of credit is actually higher than Lender Y's",
+      "D": "Split the loan evenly between the two lenders so the blended cost of credit lands between the two options"
+    },
+    "answer": "C",
+    "explanation": "C is correct: Lender X's total cost is $1,200 (fee) + $2,000 (interest) = $3,200, an effective 16%, while Lender Y's cost is $2,800, an effective 14% -- making Lender Y cheaper overall. A is wrong because a one-time fee still adds real cost that must be included in the comparison. B is wrong because it applies the fee to the wrong base: the 6% is charged on the $20,000 borrowed, which is $1,200, not 6% of the $2,000 in interest. Using the smaller figure makes Lender X look like it costs $2,120 when it actually costs $3,200. D is wrong because a blend of a cheaper and a costlier option costs more than taking the cheaper option alone; averaging the two structures cannot beat the better one.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0052",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Control debt",
+    "question": "A construction company's debt-to-equity ratio has risen from 1.2 to 2.5 over two years, and lenders are now hesitant to extend further financing. Cash flow remains steady but is heavily consumed by servicing existing loans. What should management do first to control the company's debt?",
+    "options": {
+      "A": "Take out an additional short-term loan to cover daily operating expenses so cash flow is freed up for debt payments",
+      "B": "Direct all available cash to the smallest loan balances first, so the number of outstanding loans drops quickly",
+      "C": "Reclassify the long-term loans as operating leases so the reported debt-to-equity ratio falls back toward 1.2",
+      "D": "Develop a structured debt-repayment plan that prioritizes the highest-interest obligations while temporarily limiting new borrowing"
+    },
+    "answer": "D",
+    "explanation": "D is correct: prioritizing high-interest debt while curbing new borrowing is a standard, responsible approach to controlling and reducing debt. A is wrong because taking on more debt increases the ratio further and adds risk instead of controlling it. B is wrong because clearing small balances first leaves the expensive debt running: the count of loans falls while the interest the company pays each month barely moves, and cash flow is already being consumed by servicing. C is wrong because relabeling the borrowings changes how the debt is presented rather than how much of it exists; the obligations and the payments are unchanged, and lenders reading the statements are the ones being misled.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0053",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain investments",
+    "question": "A nonprofit organization has a $75,000 cash surplus that its board plans to spend on a building renovation in six months. The treasurer must decide where to place the funds until then. What is the BEST action?",
+    "options": {
+      "A": "Place the funds in a short-term, low-risk instrument such as a money market account or short-term CD that matures before the funds are needed",
+      "B": "Invest the full amount in a diversified stock index fund, since spreading the money across many different holdings removes the risk of losing principal",
+      "C": "Buy a five-year municipal bond and sell it on the secondary market in six months, capturing the higher yield without giving up access to the cash",
+      "D": "Ladder the surplus across three two-year certificates of deposit so that portions of the principal come due at regular intervals over the term"
+    },
+    "answer": "A",
+    "explanation": "A is correct: it matches the short investment horizon and low risk tolerance, protecting principal while earning a modest return. B is wrong about what diversification does: spreading holdings reduces the risk tied to any one company, but it does not remove market risk, so a broad index can still be down when the renovation bill arrives in six months. C is wrong because a bond sold before maturity is sold at market price, and if rates rise the treasurer books a loss on principal; the yield is only locked in if the bond is held the full five years. D is wrong because no rung of a two-year ladder matures inside the six-month window, so every dollar would have to be pulled early and pay a withdrawal penalty.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0054",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe insurance",
+    "question": "A regional trucking company owns 40 delivery vehicles that operate on interstate highways daily, carrying customer goods worth tens of thousands of dollars per load. Which insurance decision is the BEST action?",
+    "options": {
+      "A": "Purchase state-minimum liability coverage and raise the deductible, since the fleet's clean driving record makes a large claim unlikely this year",
+      "B": "Carry commercial auto liability alone and rely on the limited carrier liability set out in federal cargo rules to cap any claims on the goods in transit",
+      "C": "Purchase a combination of commercial auto liability and cargo insurance to cover both third-party damages and the value of goods in transit",
+      "D": "Buy cargo insurance and let each driver's personal auto policy cover collisions, since it is the drivers who hold the licenses to operate the vehicles"
+    },
+    "answer": "C",
+    "explanation": "C is correct: comprehensive coverage of both liability exposure and cargo value protects the business against the range of risks it actually faces in transit. A is wrong because it prices coverage off a past record rather than the exposure ahead: state minimums sit far below what a highway collision can cost, and no amount of deductible tuning covers the cargo, which is uninsured under this choice. B is wrong because carrier liability rules make the trucking company answerable for loss of the goods it hauls; the rules assign the responsibility rather than relieve it, so declining cargo coverage leaves the company paying those claims itself. D is wrong because personal auto policies exclude commercial use, so a collision on a delivery run would fall outside the driver's coverage and land on the company with no policy behind it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0055",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain accounting",
+    "question": "A new small-business owner asks their bookkeeper why the business needs formal accounting records instead of just tracking money in a personal notebook. What is the BEST explanation the bookkeeper should give?",
+    "options": {
+      "A": "Accounting exists to produce the figures the business must report on its tax return, so the notebook should give way to a system organized around the filing requirements the owner faces each year",
+      "B": "Accounting provides an organized, standardized system for recording, classifying, and summarizing financial transactions so the owner and other stakeholders can make informed decisions",
+      "C": "Accounting is the practice of entering each sale and expense in date order as it happens, so a formal system matters because it captures a complete chronological record of what the business took in and paid out",
+      "D": "Accounting's purpose is to give an outside auditor something to verify, so records matter chiefly at the point when someone external asks to inspect them"
+    },
+    "answer": "B",
+    "explanation": "B is correct: accounting is an information system, and its defining purpose is to record, classify, and summarize transactions into statements the owner and outside stakeholders can act on. A is wrong because tax reporting is one use of accounting output, not its purpose; a system built solely around filing requirements would still leave the owner without the classified, summarized information needed to run the business between filings. C is wrong because it describes only the recording step, which is what the personal notebook already does; without classifying entries into accounts and summarizing them, a chronological list does not answer the owner's question about why formal records are better. D is wrong because it makes accounting's value external and occasional, whereas auditing is a separate function that verifies records already prepared and presupposes the accounting system the question is asking about.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0056",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Discuss ethics in accounting",
+    "question": "A staff accountant is asked by the finance director to record next quarter's already-signed sales contracts as revenue in the current quarter to help the company meet an earnings target for investors. What should the accountant do?",
+    "options": {
+      "A": "Record the contracts now, since a signed contract is legally enforceable and the resulting revenue is reasonably assured to arrive",
+      "B": "Record half of the contract value now and half next quarter, so the revenue is matched to the two reporting periods",
+      "C": "Record the revenue as directed but disclose the timing change in a footnote to the financial statements so that readers are informed of it",
+      "D": "Decline the request and explain that recognizing revenue before it is earned violates accounting principles and reporting ethics"
+    },
+    "answer": "D",
+    "explanation": "D is correct: it upholds proper revenue recognition and ethical financial reporting standards, protecting the integrity of the financial statements. A is wrong because enforceability is not the test for recognition: revenue is earned when the company delivers what it promised, and a contract signed for next quarter's work has no performance behind it yet. B is wrong because splitting the amount does not make either half earned; half of next quarter's revenue is still pulled into a period in which nothing was delivered, and matching applies expenses to revenue, not revenue to whichever periods are convenient. C is wrong because a footnote does not cure a misstated figure: the revenue line still reports work that has not been performed, and disclosing that you knew makes it a deliberate misstatement rather than an accident.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0057",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain technology in accounting",
+    "question": "A small retail business currently records all transactions by hand in ledger books, leading to frequent errors and delays in generating monthly financial statements. What is the BEST action for the owner to take?",
+    "options": {
+      "A": "Adopt cloud-based accounting software that automates transaction recording, reduces manual errors, and generates real-time financial statements",
+      "B": "Move the ledgers into spreadsheet files on the office computer, so that the columns total themselves and the books are no longer written out by hand",
+      "C": "Engage an outside bookkeeper to collect the handwritten ledgers each month and prepare the monthly financial statements from what those pages contain",
+      "D": "Have a second employee re-add each ledger page at month-end to catch arithmetic errors"
+    },
+    "answer": "A",
+    "explanation": "A is correct: accounting technology attacks both problems the stem names at their source, because software records transactions once, computes rather than transcribes, and assembles statements on demand instead of at the end of a manual cycle. B is wrong because a spreadsheet automates the arithmetic while leaving every figure to be keyed in by hand, so the mis-entry that causes most of these errors survives the move, and statements still have to be built manually each month. C is wrong because a bookkeeper brings expertise to the same handwritten source: the manual recording and its errors happen before the bookkeeper sees anything, and the monthly collection cycle is the delay the owner is trying to remove. D is wrong because a second reader is a detective control that finds some errors after they are made, adds labor, and does nothing about the delay in producing the statements.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0058",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe cash flow statements",
+    "question": "A subscription software company reports strong net income on its income statement but is struggling to pay suppliers on time. Management wants to understand why. What should the CFO do first?",
+    "options": {
+      "A": "Pull the receivables aging report on the assumption that slow-paying customers are the cause and start collection calls on the oldest balances",
+      "B": "Draw on the company's revolving credit line to cover supplier payments while the shortfall continues",
+      "C": "Review the cash flow statement to identify whether operating, investing, or financing activities are consuming more cash than net income suggests",
+      "D": "Renegotiate longer payment terms with suppliers so the due dates line up with when cash actually arrives"
+    },
+    "answer": "C",
+    "explanation": "C is correct: net income and cash diverge for reasons the income statement cannot show, and the cash flow statement is what localizes the gap to operating, investing, or financing activity before any remedy is chosen. A is wrong because it starts from an assumed cause: receivables are one candidate, but a subscription company can just as easily be consuming cash through capitalized development or debt repayment, and collection calls made on a guess act before the diagnosis. B is wrong because a credit line funds the shortfall without explaining it; the company borrows to cover a drain it has not identified, which postpones the problem at interest. D is wrong because stretching supplier terms rearranges when cash leaves rather than finding where it is going, and it shifts the strain onto the suppliers the stem says are already being paid late.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0059",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain balance sheets",
+    "question": "A retail chain's CFO wants to assess the company's financial position, including what it owns and owes, at the end of the fiscal year for a lender's loan application. Which financial statement should the CFO rely on primarily, and why?",
+    "options": {
+      "A": "The income statement, because a lender's chief concern is whether the chain earns enough profit to cover the loan payments",
+      "B": "The balance sheet, because it presents assets, liabilities, and owner's equity as of a specific point in time",
+      "C": "The cash flow statement, because it shows the cash the chain generated and therefore what it can afford to repay",
+      "D": "The statement of owner's equity, because it reports the owners' remaining stake in the company at the fiscal year's end"
+    },
+    "answer": "B",
+    "explanation": "B is correct: the balance sheet is the statement that reports assets, liabilities, and equity at a specific date, which is exactly the financial position a lender wants to review. A is wrong because the income statement covers performance across a period and reports revenues and expenses; profitability says nothing about what the chain owns and owes, which is what the CFO asked for. C is wrong because the cash flow statement traces cash moving in and out over the year and stops at the cash balance; it leaves out inventory, property, and the debts a lender must weigh against them. D is wrong because it reports only the equity portion at year end: it is a point-in-time figure, but the assets and liabilities that make up the position are absent from it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0060",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe income statements",
+    "question": "A startup's investors want to know whether the company generated a profit or loss during the most recent quarter, including a breakdown of revenues and expenses. What should the finance manager provide?",
+    "options": {
+      "A": "The balance sheet, since it lists total assets which indicate whether the company is profitable",
+      "B": "A cash flow statement, since profit is best measured by the amount of cash collected during the quarter",
+      "C": "A personal net worth statement for the founders to demonstrate financial stability",
+      "D": "The income statement, since it reports revenues, expenses, and net income or loss for the specific quarter"
+    },
+    "answer": "D",
+    "explanation": "D is correct: the income statement is specifically designed to show revenues, expenses, and the resulting profit or loss over a defined period. A is wrong because the balance sheet shows financial position, not profitability directly. B is wrong because cash collected does not equal profit under accrual accounting, so cash flow and net income can differ significantly. C is wrong because the founders' personal net worth is unrelated to the company's quarterly operating performance.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0061",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain finance in business",
+    "question": "A mid-sized manufacturer wants to fund a $2 million plant expansion. Taking on debt would increase fixed interest obligations but preserve ownership control; issuing equity would dilute ownership but avoid fixed repayment obligations. Cash flow is currently stable, but the industry is cyclical. What should management do?",
+    "options": {
+      "A": "Weigh the cyclical industry risk against the fixed repayment burden of debt, and consider a mix of financing that limits fixed obligations during downturns while preserving as much ownership control as feasible",
+      "B": "Fund the expansion entirely with debt, since interest payments are tax-deductible while dividend payments are not, which makes borrowing the lower-cost source of capital and leaves the founders' ownership stake undiluted",
+      "C": "Fund the expansion entirely with equity, since issuing shares carries no repayment obligation and costs the company nothing until it chooses to declare a dividend",
+      "D": "Delay the expansion until retained earnings can cover the full $2 million, so the plant is added with no fixed obligations and no dilution of the current owners' stake"
+    },
+    "answer": "A",
+    "explanation": "A is correct: the decision turns on matching the financing structure to the risk described, and a cyclical industry with fixed interest obligations is exactly the case where a blend that limits mandatory payments during downturns while conserving ownership is the sound choice. B is wrong on the finance: the tax deductibility of interest is real, but treating it as decisive ignores that a cyclical industry's cash flow is precisely what fixed interest is dangerous against, and the expected cost of financial distress can exceed the tax shield. C is wrong because equity is not free: shareholders require a return, and the cost of equity is generally higher than the cost of debt, so 'costs nothing until a dividend is declared' misstates where equity's cost lies. D is wrong because self-funding avoids both risks by forgoing the expansion itself, which surrenders the competitive timing the stem raises and ignores that the company's cash flow is currently stable enough to support some financing.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0062",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe budgets",
+    "question": "Halfway through the fiscal year, a marketing department has already spent 70% of its annual budget, while other departments are on pace. The department director wants to avoid ending the year over budget. What is the BEST action?",
+    "options": {
+      "A": "Submit a budget amendment to finance now, asking that the department's annual allocation be raised to match the pace at which it has actually been spending",
+      "B": "Freeze every discretionary line in the department for the remainder of the year, halting all planned campaign activity and spending until the new fiscal year opens",
+      "C": "Analyze which specific expense categories are driving the overspending, then adjust remaining spending plans to stay within the approved annual budget",
+      "D": "Ask finance to transfer unspent funds out of another department's allocation and into marketing's"
+    },
+    "answer": "C",
+    "explanation": "C is correct: budget control works by finding the variance before acting on it, so identifying which expense categories ran ahead is what makes the remaining plan adjustable in a way that lands inside the approved figure. A is wrong because an amendment asks for the budget to accommodate the spending rather than the reverse, and the director's stated aim is to finish inside the approved annual budget; it also requests more money without being able to say what the money went to. B is wrong because a blanket freeze is the unanalyzed opposite of overspending: it stops the department's most productive campaigns alongside its least, and half a year with no marketing activity is a real cost incurred to avoid a variance that targeted cuts could close. D is wrong because the stem says the other departments are on pace, so there is no underspend to draw on, and moving another unit's allocation covers marketing's overrun without correcting it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0063",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Assess information needs",
+    "question": "A marketing manager is planning a product launch campaign and has three weeks to prepare. Before gathering any data, what should the manager do first?",
+    "options": {
+      "A": "Define specifically what information is needed, such as target demographics, competitor pricing, and past campaign performance, and why each matters to the launch decisions",
+      "B": "Inventory every report and dashboard the company already holds, then work out which of the launch questions those existing sources happen to answer already",
+      "C": "Set the research budget and the three-week timeline first, then gather whatever information those constraints turn out to allow",
+      "D": "Select the survey and focus-group methods the team will run, then work out what the launch decisions require"
+    },
+    "answer": "A",
+    "explanation": "A is correct: assessing information needs means naming the decisions the launch turns on and the information each one requires, which is what makes any later search targeted rather than opportunistic. B is wrong because it starts from supply rather than need: the manager learns what the company happens to have, and the questions that matter most to the launch are exactly the ones least likely to be answered by reports built for other purposes. C is wrong because budget and timeline are constraints on the search, not a definition of it; fixing them first tells the manager how much she can spend without telling her what she is buying. D is wrong because choosing surveys and focus groups commits to instruments before the questions exist, and a method selected first tends to redefine the need to fit what it can measure.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0064",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Evaluate information quality/sources",
+    "question": "An analyst researching a competitor's pricing strategy finds three online sources with conflicting figures: an anonymous blog post, the competitor's official investor report, and a three-year-old news article. Which source should the analyst treat as most reliable, and why?",
+    "options": {
+      "A": "The anonymous blog post, because an insider writing without attribution has no incentive to flatter the numbers",
+      "B": "The competitor's official investor report, because it is a primary source, recent, and subject to regulatory accuracy standards",
+      "C": "The three-year-old news article, because a professional newsroom fact-checks its figures before publishing them",
+      "D": "All three weighted equally, since triangulating across independent sources beats trusting a single one"
+    },
+    "answer": "B",
+    "explanation": "B is correct: evaluating information quality means favoring primary, current, and accountable sources, and a regulated investor report meets all three criteria. A is wrong because the analyst cannot confirm the author is an insider at all; anonymity removes both accountability and any way to assess the writer's access, and freedom from one incentive is not evidence of accuracy. C is wrong because fact-checking establishes that the figures were right when published, and pricing three years old cannot describe a competitor's current strategy no matter how carefully it was verified. D is wrong because triangulation assumes the sources are of comparable quality; blending an unverifiable post and stale reporting into a regulated filing drags the estimate away from the best figure available.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0065",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Draw conclusions from analysis",
+    "question": "A retail chain's sales data shows a 15% decline in one region over the past two quarters, while all other regions grew. Store traffic counts in that region are flat, but the average transaction value has dropped sharply. What conclusion should the analyst draw before recommending action?",
+    "options": {
+      "A": "A competitor that opened nearby has captured the region's higher-value purchases, which is what pulled the average transaction value down while visits held steady",
+      "B": "Local economic conditions have pushed the region's shoppers to trade down to cheaper items on each visit they make",
+      "C": "The chain's discounting in that region has been too deep, which is what cut the revenue earned per transaction",
+      "D": "Since traffic is stable but transaction value dropped, the decline is likely linked to factors like reduced basket size, pricing, or product mix rather than store visits"
+    },
+    "answer": "D",
+    "explanation": "D is correct: the data supports a conclusion about where the decline sits, not why it happened. Stable traffic with falling transaction value locates the problem inside the basket, in size, pricing, or mix, and rules out fewer visits. A is wrong because no competitor appears anywhere in the data given; it is a plausible hypothesis, but the traffic and transaction figures cannot distinguish it from any other explanation for smaller baskets, so drawing it as a conclusion reaches past the evidence. B is wrong for the same reason: the stem reports no economic data for the region, and trading down is one of several causes that would produce this pattern rather than the one the figures identify. C is wrong because nothing in the data describes the chain's pricing actions, and deeper discounting is again a candidate cause of lower transaction value rather than a conclusion the analysis supports.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0066",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Explain role of information systems",
+    "question": "A growing retail chain with 25 stores currently tracks inventory separately at each location using spreadsheets, causing frequent stockouts and overstock issues. What role should an integrated information system play in solving this?",
+    "options": {
+      "A": "Centralize real-time inventory data across all stores so that managers can view, share, and respond to stock levels company-wide as they happen",
+      "B": "Collect each store's spreadsheet at the close of every week and consolidate the figures into a single company-wide inventory report for headquarters to review",
+      "C": "Standardize the spreadsheet template every store uses, so that inventory figures are recorded in the same format and the same order at each of the 25 locations",
+      "D": "Store the historical inventory counts in a single archive that the auditors can search at year-end"
+    },
+    "answer": "A",
+    "explanation": "A is correct: the chain's stores cannot see each other's stock, so an integrated system's role is to hold one live picture of inventory that every manager can read and act on while the stock position is still current. B is wrong because a weekly consolidation reports the past: by the time headquarters reads it, the stockout has already happened and the overstock is already sitting in a back room, and store managers still cannot see one another's positions between reports. C is wrong because a common template makes 25 spreadsheets look alike without connecting them; the data stays in 25 places, and a manager who needs stock still has no way to find out which store is holding it. D is wrong because an audit archive serves a compliance need with historical counts, which is a legitimate use of stored data but not the real-time visibility the stockout and overstock problem requires.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0067",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Describe business records",
+    "question": "An HR department is updating its process for maintaining employee personnel files, which include performance reviews, disciplinary notices, and payroll history. What is the BEST practice for maintaining these business records?",
+    "options": {
+      "A": "Store the personnel files on a shared drive that any manager in the company can open, so the records are easy to find the moment they are needed",
+      "B": "Maintain organized, secure, and confidential records with controlled access, retained according to legal recordkeeping requirements",
+      "C": "Purge each employee's file as soon as that employee leaves the company, since the records no longer serve any active business purpose",
+      "D": "Keep the files in a locked cabinet in the HR office with no index and no retention schedule."
+    },
+    "answer": "B",
+    "explanation": "B is correct: proper business recordkeeping requires organization, security, confidentiality, controlled access, and compliance with legal retention rules. A is wrong because controlled access means access limited to those with a business need for the specific file; opening performance reviews and disciplinary notices to every manager company-wide is broad access, not controlled access. C is wrong because retention obligations for payroll and personnel records run for years after employment ends, so purging at departure destroys records the company is required to keep. D is wrong because security is only part of the standard: an unindexed cabinet with no retention schedule is locked but disorganized, and nothing tells HR what must be kept or when it may go.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0068",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Maintain customer records",
+    "question": "A customer service representative resolves a billing complaint for a customer, including issuing a refund and promising to update the customer's account preferences. What should the representative do immediately after the call?",
+    "options": {
+      "A": "Wait until the end of the week to batch-update several customer records at once to save time",
+      "B": "Rely on memory to update the account the next time the customer calls in",
+      "C": "Tell the customer to update their own account preferences online instead of recording anything internally",
+      "D": "Immediately log the complaint, resolution, refund, and updated preferences in the customer record system"
+    },
+    "answer": "D",
+    "explanation": "D is correct: accurate, timely recordkeeping ensures the customer's history and resolution are documented for future service interactions and accountability. A is wrong because batching updates risks errors, omissions, or lost information before the update actually occurs. B is wrong because relying on memory is unreliable and is not a legitimate recordkeeping practice. C is wrong because shifting the task to the customer does not ensure the company's own service and complaint records are accurately maintained.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0069",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Describe business trends",
+    "question": "A shopping mall's foot traffic has declined steadily for three consecutive years, even as national retail sales have grown. Mall management is deciding how to respond. What should management do based on this trend?",
+    "options": {
+      "A": "Treat the three-year slide as ordinary cyclical variation and extend the existing trend line forward, on the view that a mall's traffic moves in multi-year waves that correct without any intervention by management",
+      "B": "Raise the promotional and advertising budget to pull traffic back toward its prior level, treating the shortfall as a demand-generation problem that can be solved without first identifying what changed for shoppers",
+      "C": "Investigate underlying causes of the declining trend, such as changing shopping habits or online competition, and adjust the mall's strategy accordingly, including tenant mix and e-commerce partnerships",
+      "D": "Lower tenant rents to hold occupancy steady, on the view that keeping the storefronts filled will bring shopper traffic back on its own"
+    },
+    "answer": "C",
+    "explanation": "C is correct: a trend that runs counter to the national market is a signal to diagnose before acting, and adjusting tenant mix and e-commerce partnerships follows from what the diagnosis finds. A is wrong because cyclical variation is a real pattern but does not fit these facts: the decline is steady across three years while the national market grew, which points to a structural shift rather than a wave that self-corrects. B is wrong because advertising can only lift traffic if the cause is low awareness; if shoppers have moved to online channels, a larger promotional budget spends against a cause that was never identified. D is wrong because rent concessions address tenant retention, which is a consequence of falling traffic rather than its source, and full storefronts do not themselves bring shoppers back.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0070",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Interpret statistical findings",
+    "question": "A customer satisfaction survey of 400 respondents shows 62% satisfaction with a margin of error of plus or minus 5 percentage points. A regional manager wants to compare this to last year's 65% satisfaction score, which had a similar sample size and margin of error. How should the manager interpret this year's finding?",
+    "options": {
+      "A": "Conclude that satisfaction fell three points and set a recovery target, since 62% and 65% are the best available estimates of each year's true value",
+      "B": "Recognize that because the confidence intervals overlap, the difference between 62% and 65% may not represent a statistically meaningful change",
+      "C": "Report the decline as real, since both surveys used a similar sample size and margin of error, which makes the two scores directly comparable to each other",
+      "D": "Average this year's 62% with last year's 65% and report the resulting 63.5% to leadership as evidence that satisfaction has held steady over both years."
+    },
+    "answer": "B",
+    "explanation": "B is correct: correctly interpreting statistical findings requires accounting for the margin of error, and overlapping confidence intervals mean the apparent difference may not be statistically significant. A is wrong because it treats each point estimate as the true value: with a margin of plus or minus 5 points, this year's result spans 57% to 67% and last year's spans 60% to 70%, so a three-point drop is well inside what sampling alone can produce. C is wrong because matching sample sizes make the two surveys comparable but do not shrink either interval; the ranges still overlap heavily, so comparability is not the same as a real difference. D is wrong because averaging the two years answers a question the manager did not ask and asserts stability as a finding, when the honest reading is that the data cannot distinguish the two years.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0071",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Discuss data mining",
+    "question": "A grocery chain has years of point-of-sale transaction data and wants to identify which products are frequently purchased together to improve store layout and promotions. What is the BEST action?",
+    "options": {
+      "A": "Run a clustering analysis over the transaction data to group shoppers into segments that behave alike, then arrange the stores around those segments",
+      "B": "Build a time-series forecast from the full transaction history to project how many units of each product will sell across each of the coming quarters",
+      "C": "Apply data mining techniques, such as association or market basket analysis, to the full transaction database to uncover actual purchasing patterns",
+      "D": "Rank every product by the total units it sold across the transaction history and group the highest-selling items together near the front of the store"
+    },
+    "answer": "C",
+    "explanation": "C is correct: the chain wants to know which products travel together in the same basket, and association or market basket analysis is the data mining technique built to find exactly those co-occurrence patterns across a full transaction history. A is wrong because clustering groups the shoppers rather than the products: it can tell the chain what kinds of customers it has, while the question asks which items appear in the same basket, which is a relationship between products that a customer segmentation does not surface. B is wrong because a forecast projects volume forward in time; it answers how much of each product will sell, not which products sell alongside each other, so it addresses a different question with the same data. D is wrong because a ranking by total units measures popularity one product at a time, and two items can both be top sellers while rarely appearing in the same basket, so shelving them together does not follow from the ranking.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0072",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Explain database access tools",
+    "question": "A business analyst needs to pull a list of customers who purchased a specific product category in the last quarter and spent over $500, without submitting a formal request to the IT department each time. What should the analyst do?",
+    "options": {
+      "A": "Submit a ticket asking the IT department to write a custom report covering this combination of product category, date range, and spending level",
+      "B": "Open the sales dashboard the reporting team publishes and read the closest customer figures off the charts that have already been built into it",
+      "C": "Ask IT to export the full customer table so the analyst can filter it in a spreadsheet",
+      "D": "Use the database's built-in query or report-builder tool to filter customer records by product category, date range, and spending threshold"
+    },
+    "answer": "D",
+    "explanation": "D is correct: a query or report-builder is the access tool designed for exactly this, letting the analyst express category, date, and spend as filter conditions and return the matching records without routing the request through IT. A is wrong because a custom-report ticket is the formal request the stem rules out: it works, but the analyst waits on IT's queue for every new question, and the criteria will change with the next one. B is wrong because a published dashboard answers the questions it was built for; its filters are fixed, so it can show aggregate figures without isolating the individual customers who meet all three of these criteria. C is wrong because exporting the whole table moves the filtering into a spreadsheet that was not built for it, and it puts every customer record, including those irrelevant to the question, onto the analyst's machine.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0073",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain supply and demand",
+    "question": "A boutique coffee roaster's harvest yield of single-origin beans stayed the same as last year, but a wave of new customers discovered the brand through social media, and the price of the beans has since risen sharply. What is the BEST explanation for this price increase?",
+    "options": {
+      "A": "Demand for the beans increased while supply remained constant, pushing the market price upward.",
+      "B": "Supply of the beans decreased while demand remained constant, pushing the market price upward.",
+      "C": "Both supply and demand decreased by the same amount, which raised the price.",
+      "D": "The government imposed a price ceiling on specialty coffee, forcing prices higher."
+    },
+    "answer": "A",
+    "explanation": "A is correct: with the harvest (supply) unchanged and demand rising due to new customer interest, the price rises to a new equilibrium along an unchanged supply curve. B is wrong because the scenario states the harvest yield, i.e., supply, did not change. C is wrong because supply did not decrease at all, and a simultaneous decrease in both would not necessarily raise price. D is wrong because a price ceiling caps prices and would not explain a sharp increase; nothing in the scenario indicates government price controls.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0074",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe functions of prices in markets",
+    "question": "A regional hardware chain raises the price of portable generators just before hurricane season. As a result, panic-buying slows and more households are able to obtain a generator before supplies run out. What market function does this price increase illustrate?",
+    "options": {
+      "A": "Prices functioning as a form of advertising to attract new customers.",
+      "B": "Prices functioning as a rationing mechanism that allocates a scarce good among buyers.",
+      "C": "Prices functioning as a signal that tells producers to bring more generators to the market.",
+      "D": "Prices functioning as a reward mechanism that lifts the store's profit margin during a demand peak."
+    },
+    "answer": "B",
+    "explanation": "B is correct: by rising, price discourages excessive buying by any one household and spreads the limited supply of generators across more buyers, which is the rationing function of price. A is wrong because raising price is not an advertising technique. C is wrong because signaling is a real function of price, but it acts on producers deciding what to make; the outcome described here happens on the buyers' side of the market, where fewer generators per household left more households supplied. D is wrong because a wider margin is a result the store may enjoy, not a function the price is performing in the market, and the stem measures the effect in generators reaching households rather than in profit.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0075",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain the role of business in society",
+    "question": "A manufacturing company voluntarily funds a local job-training program and reduces plant emissions below the legally required minimum, even though neither action is mandated. What role of business in society does this BEST represent?",
+    "options": {
+      "A": "Investing in the workforce and environment to lower long-run operating costs.",
+      "B": "Exceeding legal standards to reduce the risk of future regulatory penalties.",
+      "C": "Meeting social responsibilities that go beyond profit-making to benefit the community.",
+      "D": "Using community programs as advertising to build the brand's public image."
+    },
+    "answer": "C",
+    "explanation": "C is correct: voluntarily investing in the community and exceeding environmental requirements demonstrates the socially responsible role businesses can play beyond simply generating profit. A is wrong because it recasts both actions as cost control; training people the company may not hire and cutting emissions below the required level spend money without a cost saving attached, which is why the stem calls them voluntary. B is wrong because compliance risk management aims at the legal minimum, and the company went past it on its own initiative rather than to fend off a penalty it was not facing. D is wrong because nothing in the scenario ties either action to promotion; treating community investment as advertising assumes a marketing motive the stem does not give.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0076",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss the global business environment",
+    "question": "A U.S. furniture exporter learns that the currency of its largest overseas trading partner has weakened significantly against the dollar, making the exporter's products more expensive for buyers in that country. What should the exporter do to BEST respond to this change in the global business environment?",
+    "options": {
+      "A": "Relocate production of the exported line into the partner's country, so that costs and revenues both sit in the same weakened local currency",
+      "B": "Invoice the partner in U.S. dollars so the exporter's receipts hold their value whatever the rate does",
+      "C": "Hold pricing steady and wait for the exchange rate to drift back toward its historical average",
+      "D": "Reprice products or negotiate forward currency contracts to offset the reduced competitiveness caused by the unfavorable exchange rate."
+    },
+    "answer": "D",
+    "explanation": "D is correct: the exporter's problem is that its goods now cost more in the buyer's money, and repricing or locking in a forward rate acts directly on that competitiveness and on the currency exposure behind it. A is wrong because moving production abroad is a genuine natural hedge, but it answers a currency movement with a permanent restructuring of the business, at a cost and on a timescale far out of proportion to the exposure, and it would strand the exporter if the rate reversed. B is wrong because dollar invoicing protects what the exporter receives while making the buyer's problem worse: the buyer still faces the higher price in local currency, so the lost competitiveness the stem describes is unchanged and the risk is simply pushed across the table. C is wrong because waiting for reversion is a bet on the currency rather than a response to it; rates need not return to any average on a useful schedule, and sales are being lost while the exporter waits.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0077",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain business ethics",
+    "question": "A regional sales manager discovers that a top-performing sales representative has been telling customers the product carries a lifetime warranty when it actually carries only a one-year warranty, in order to close deals faster. What is the BEST ethical action for the manager to take?",
+    "options": {
+      "A": "Correct the misinformation with affected customers, retrain the representative on accurate claims, and enforce truthful selling practices going forward.",
+      "B": "Quietly honor the lifetime warranty for every customer the representative sold to, absorbing the cost so that no buyer learns the paperwork said otherwise",
+      "C": "Discipline the representative under the sales conduct policy and treat the matter as resolved once the personnel file reflects the violation",
+      "D": "Refer the matter to the legal department and hold off contacting customers until counsel determines whether a spoken promise is enforceable"
+    },
+    "answer": "A",
+    "explanation": "A is correct: customers were told something untrue, so the ethical response reaches all three parts of the problem, correcting the customers who were misled, retraining the representative, and enforcing accurate claims going forward. B is wrong because honoring the promise conceals the deception rather than correcting it: the customers still believe a false thing about what they bought, the company absorbs an obligation it never priced, and the representative learns the claim works. C is wrong because it addresses the employee while leaving the misled customers holding a warranty they do not have; the harm the stem describes is to the customers, and a personnel entry does not reach it. D is wrong because it treats a known misrepresentation as a question of the company's legal exposure rather than a selling-practices problem, and waiting on that determination leaves customers uncorrected in the meantime.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0078",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Identify the impact of entrepreneurship on economies",
+    "question": "A small town sees several new technology startups open within a year, resulting in new local jobs, additional tax revenue for the town, and new products entering the market. This situation BEST illustrates which impact of entrepreneurship on an economy?",
+    "options": {
+      "A": "Entrepreneurship shifts existing jobs between firms without changing a region's total employment.",
+      "B": "Entrepreneurship can drive economic growth by creating jobs, generating tax revenue, and introducing innovation.",
+      "C": "Entrepreneurship lowers a local government's tax base by drawing revenue away from established firms.",
+      "D": "Entrepreneurship raises consumer prices by adding new products that compete for the same demand."
+    },
+    "answer": "B",
+    "explanation": "B is correct: new job creation, added tax revenue, and product innovation are classic positive economic impacts of entrepreneurial activity. A is wrong because the stem describes new local jobs rather than jobs moved from one employer to another; startups here added to the town's employment instead of redistributing it. C is wrong because the stem reports additional tax revenue for the town, and new firms broaden the tax base rather than draining it. D is wrong because adding competing products increases the supply available to buyers, which tends to push prices down rather than up.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0079",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain private enterprise",
+    "question": "A group of investors opens a private medical clinic that is owned and operated independently of the government, with services and pricing decisions driven by the investors' pursuit of profit and patient choice. Which economic concept are the investors exercising?",
+    "options": {
+      "A": "A command economy, in which a central authority directs what is produced and at what price.",
+      "B": "A worker cooperative, in which the clinic's own employees hold ownership and share its surplus.",
+      "C": "Private enterprise, in which individuals own and operate businesses for profit with minimal government control.",
+      "D": "A regulated public utility, in which a government body sets the prices the provider may charge."
+    },
+    "answer": "C",
+    "explanation": "C is correct: the clinic is owned by private parties, operated independently of government, and run for profit with pricing set by its owners, which is what private enterprise means. A is wrong because a command economy has a central authority deciding what gets produced and at what price, and the stem places those decisions with the investors instead. B is wrong because a cooperative is owned by its members, typically the workers, who share in the surplus, whereas this clinic is owned by a group of outside investors. D is wrong because a regulated utility operates under a government body that sets its prices, which is the opposite of the pricing freedom the stem describes the investors exercising.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0080",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Identify factors affecting profit",
+    "question": "A bakery's total sales revenue increased this quarter, yet its profit margin shrank significantly, largely because the cost of flour and energy rose sharply during the same period. Which factor BEST explains the bakery's reduced profit?",
+    "options": {
+      "A": "A shift in the product mix toward lower-margin items sold at the same volume.",
+      "B": "A decline in the number of units the bakery sold over the quarter.",
+      "C": "A reduction in the prices the bakery charged for its baked goods.",
+      "D": "Rising input and operating costs that outpaced revenue growth, cutting into the profit margin."
+    },
+    "answer": "D",
+    "explanation": "D is correct: revenue rose while margin fell, which means expenses grew faster than sales, and the stem names the flour and energy increases that did it. A is wrong because a shift toward lower-margin products would compress the margin, but nothing in the stem describes what the bakery sold changing; the stem attributes the squeeze to input costs. B is wrong because total sales revenue increased, so a fall in units would have to be offset by higher prices, and neither is described; a volume decline is not what the scenario reports. C is wrong because a price cut would tend to reduce revenue, and the stem states revenue rose, so lower selling prices do not fit the facts given.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0081",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Determine factors affecting business risk",
+    "question": "A manufacturer sells nearly all of its output to a single large retail chain and has no other significant customers. Which business risk factor is MOST significant for this manufacturer?",
+    "options": {
+      "A": "High customer concentration, which creates vulnerability if that single buyer reduces or ends the relationship.",
+      "B": "Supplier concentration, which leaves the manufacturer exposed if a single input source raises prices or stops shipping.",
+      "C": "High operating leverage, which magnifies losses when production volume falls.",
+      "D": "Geographic concentration, which ties the business to conditions in one regional market."
+    },
+    "answer": "A",
+    "explanation": "A is correct: nearly all output goes to one buyer, so that buyer's decision to cut orders or leave would remove nearly all revenue at once, which is the defining exposure the scenario describes. B is wrong because it points at the wrong side of the business: the stem describes concentration among the manufacturer's customers, and says nothing about how many sources supply its inputs. C is wrong because operating leverage is a real risk factor arising from the mix of fixed and variable costs, and the stem gives no information about the manufacturer's cost structure. D is wrong because geographic concentration is exposure to one region's conditions, whereas the manufacturer's exposure runs to one company; a single retail chain can be spread across many regions and still be one customer.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0082",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain competition",
+    "question": "In an air-travel market where three airlines control nearly 90 percent of all routes, one airline raises its fares and the other two quickly raise theirs as well, without any formal agreement between them. What market structure and competitive behavior does this scenario describe?",
+    "options": {
+      "A": "Perfect competition, where numerous small firms act as price takers.",
+      "B": "An oligopoly, where a few dominant firms closely watch and react to each other's pricing decisions.",
+      "C": "A pure monopoly, where a single firm sets prices without any rivals.",
+      "D": "Monopolistic competition, with many firms selling highly differentiated products independently of rivals' prices."
+    },
+    "answer": "B",
+    "explanation": "B is correct: a market dominated by a small number of firms that closely mirror each other's pricing decisions is characteristic of an oligopoly. A is wrong because perfect competition involves many firms with no pricing power, not three dominant airlines. C is wrong because a monopoly has only one firm, not three competitors. D is wrong because monopolistic competition involves many firms making largely independent pricing decisions, not close interdependence.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0083",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Determine the relationship between government and business",
+    "question": "A food manufacturer must undergo periodic inspections and follow labeling requirements set by a federal agency before its products can be sold nationwide. What BEST describes this relationship between government and business?",
+    "options": {
+      "A": "The government is providing a public service by testing products on the manufacturer's behalf.",
+      "B": "The government is promoting business by certifying the products so the manufacturer can advertise federal approval.",
+      "C": "The government is regulating business activity to protect public health and ensure fair, safe practices.",
+      "D": "The government is acting as a business partner, sharing responsibility for the safety of the products that reach shelves."
+    },
+    "answer": "C",
+    "explanation": "C is correct: inspections and labeling requirements are regulatory functions the government uses to protect consumers and maintain fair business practices. A is wrong because the inspections are enforcement conducted on the public's behalf, not testing performed as a service for the manufacturer; the firm cannot decline them the way it could decline a service. B is wrong because the requirements exist to protect consumers, not to help the manufacturer market itself, and promotion of business is a separate government role from regulation. D is wrong because a regulator and the firm it regulates are not partners: the agency sets and enforces the standard, while responsibility for the safety of the products stays with the manufacturer.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0084",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe taxes",
+    "question": "A retailer collects an additional percentage of each customer's purchase price at checkout and later remits that amount to the state government. Which type of tax is being described?",
+    "options": {
+      "A": "An income tax, since the amount collected is a percentage of the retailer's annual earnings.",
+      "B": "A property tax assessed on the retailer's store real estate.",
+      "C": "An excise tax, since the state collects a set amount on each unit the retailer sells to a consumer.",
+      "D": "A sales tax, a consumption-based tax collected from customers at the point of purchase."
+    },
+    "answer": "D",
+    "explanation": "D is correct: a tax added to the purchase price and collected from the customer at checkout is a sales tax. A is wrong because the percentage described is applied to each customer's purchase price and paid by the customer, not calculated on what the retailer earns; income tax is assessed on profit after the year's results are known. B is wrong because property tax is assessed on real estate value, not sales transactions. C is wrong because an excise tax is levied on particular goods at a fixed amount per unit and is normally built into the shelf price, whereas the scenario describes a percentage added to any purchase at checkout.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0085",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain productivity",
+    "question": "A factory installs new automated equipment and reorganizes its assembly line. Using the same number of labor hours as before, total output increases by 20 percent. What economic concept does this BEST illustrate?",
+    "options": {
+      "A": "An increase in productivity, meaning more output is produced per unit of labor input.",
+      "B": "An increase in aggregate demand, since the factory is now supplying more goods to the market.",
+      "C": "An increase in economies of scale, since producing more units spreads the factory's fixed costs more thinly.",
+      "D": "A substitution of capital for labor, since the machines have replaced part of the assembly workforce."
+    },
+    "answer": "A",
+    "explanation": "A is correct: producing 20 percent more output with the same labor hours is a direct example of increased productivity. B is wrong because the change described is on the supply side: the factory can make more, which is not the same as customers wanting more, and nothing in the scenario says demand moved. C is wrong because economies of scale describe cost per unit falling as a firm expands its scale of production; here output rose from new equipment and a reorganized line at unchanged labor input, which is an efficiency gain rather than a scale effect. D is wrong because no labor was displaced: the scenario specifies the same number of labor hours as before, so the equipment added to what those hours produce instead of replacing them.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0086",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Describe health and safety regulations",
+    "question": "A warehouse supervisor learns that occupational safety regulations require specific procedures for storing flammable materials, but the current storage layout does not fully meet those requirements. What should the supervisor do FIRST?",
+    "options": {
+      "A": "Wait until a government inspector visits to identify any problems.",
+      "B": "Promptly review and correct the storage layout to meet the required safety standards.",
+      "C": "Increase production speed to offset any time lost to future compliance work.",
+      "D": "Ask employees to work carefully around the existing hazard without changing the layout."
+    },
+    "answer": "B",
+    "explanation": "B is correct: once a supervisor becomes aware of a compliance gap involving flammable materials, the appropriate action is to correct it promptly to protect employees and meet regulatory requirements. A is wrong because waiting for an inspection unnecessarily prolongs a known safety hazard. C is wrong because it ignores the safety issue entirely and focuses on unrelated output. D is wrong because relying on caution instead of fixing the hazard does not resolve the underlying noncompliance.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0087",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain security precautions",
+    "question": "An IT manager notices that several employees regularly prop open the secured server room door during the workday for convenience. What is the BEST action for the manager to take?",
+    "options": {
+      "A": "Add a camera pointed at the server room door so propping incidents can be reviewed later.",
+      "B": "Replace the badge reader with a keypad code shared among the staff who need entry.",
+      "C": "Enforce the door-closing policy and reinforce badge-access procedures to protect equipment and data.",
+      "D": "Survey the employees on why they prop the door and relax the policy to match their answers."
+    },
+    "answer": "C",
+    "explanation": "C is correct: reinforcing the existing access policy protects sensitive equipment and data from unauthorized entry, which is the purpose of the security precaution. A is wrong because a camera records who walked through an open door after the fact; it documents the exposure rather than closing it, and the room stands open in the meantime. B is wrong because a shared code destroys the individual accountability the badge system provides: entries can no longer be tied to a person, and the code spreads beyond the staff it was given to. D is wrong because it lets convenience set the security standard; the reason people prop the door is worth knowing, but relaxing access to match the habit leaves the equipment and data exposed.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0088",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Protect company information",
+    "question": "A departing employee's laptop, which still contains active client contracts and shared login credentials, is scheduled to be handed directly to a new hire without any changes. What should the company do to BEST protect confidential company information?",
+    "options": {
+      "A": "Have the new hire sign a confidentiality agreement covering the client contracts before the laptop is handed over, making any misuse a fireable offense",
+      "B": "Disable the departing employee's personal login and leave the rest of the laptop as it is",
+      "C": "Copy the client contracts to the company network drive and delete the local copies before reissuing it",
+      "D": "Wipe the laptop, reset shared credentials, and restrict access to only the files relevant to the new hire's role before reissuing it."
+    },
+    "answer": "D",
+    "explanation": "D is correct: the exposure is the data and the credentials sitting on the device, so wiping it, resetting the shared logins, and granting the new hire access scoped to their role removes the exposure rather than governing it. A is wrong because a confidentiality agreement is an administrative control that creates a consequence after a breach; the contracts and the working logins are still on the laptop, and the shared credentials remain valid for the departing employee too. B is wrong because the shared credentials are the point: they are shared, so disabling one personal login leaves them usable, and the client contracts stay on the disk untouched. C is wrong because moving the contracts addresses one of the two exposures and leaves the other running, since the shared logins on the device are still live and still known to someone who has left the company.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0089",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain project management",
+    "question": "A marketing team is launching a new product campaign that involves multiple departments, several deadlines, and a fixed budget. What should the team lead do to BEST ensure the initiative stays on schedule and within scope?",
+    "options": {
+      "A": "Apply project-management practices, such as defining milestones, assigning responsibilities, and tracking progress against the timeline and budget.",
+      "B": "Hold a standing weekly meeting at which each department reports what it has finished since the last one and what it intends to work on next",
+      "C": "Pad every departmental deadline with extra buffer time so the campaign can absorb slippage without missing its date",
+      "D": "Give one department full ownership of the campaign and let it direct the others as the work proceeds"
+    },
+    "answer": "A",
+    "explanation": "A is correct: milestones, named owners, and progress tracked against the timeline and budget are the practices that hold scope and schedule together when several departments and a fixed budget are involved. B is wrong because a status meeting reports on work without structuring it: nothing in it defines the milestones the campaign must hit, assigns who owns each piece, or measures spending against the budget, so a slipping handoff surfaces as news rather than as a variance. C is wrong because buffer time is a scheduling technique, not a coordination one; padding hides small slips instead of revealing them and does nothing about the budget the team must stay inside. D is wrong because concentrating ownership in one department gives the campaign a decision-maker but not a plan, and a department without authority over the others' resources cannot direct them by position alone.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0090",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Plan projects",
+    "question": "Before beginning a store renovation, a facilities manager wants to minimize disruption to daily business operations. What should the manager do FIRST?",
+    "options": {
+      "A": "Have the contractor start demolition after hours in the first week, so the store keeps trading while the rest of the work is figured out as it goes",
+      "B": "Develop a detailed project plan identifying phases, required resources, and a realistic timeline before renovation begins.",
+      "C": "Collect bids from three contractors and let the winning bidder's proposed build schedule serve as the renovation plan for the store.",
+      "D": "Set the renovation dates around the store's slowest weeks using last year's traffic reports."
+    },
+    "answer": "B",
+    "explanation": "B is correct: creating a detailed plan that accounts for phases, resources, and timing before work begins is the foundation of effective project planning and helps minimize disruption. A is wrong because working out the sequence as the crew goes is planning after the fact; after-hours demolition sounds low-impact but without defined phases the store opens onto whatever state the work was left in. C is wrong because a contractor's schedule is built to finish the build efficiently, not to protect the store's trading day, and it covers none of the resources or phases the manager is responsible for. D is wrong because picking dates addresses timing alone: it names when the work happens but not what happens in what order, or what the store needs on hand while it does.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0091",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Monitor projects/correct actions",
+    "question": "Midway through a software rollout project, the project manager notices that the testing phase is now running two weeks behind the original schedule. What is the BEST action for the manager to take?",
+    "options": {
+      "A": "Add more testers to the testing phase so that the backlog of outstanding test cases clears before the launch date",
+      "B": "Move the launch date out by two weeks and leave the rest of the project plan unchanged",
+      "C": "Reassess the project plan, reallocate resources as needed, and adjust the timeline to bring the project back on track.",
+      "D": "Begin the rollout while the remaining tests run in parallel against the live system"
+    },
+    "answer": "C",
+    "explanation": "C is correct: correcting a project mid-flight means going back to the plan, moving resources where the schedule now needs them, and resetting the timeline on what the work actually requires. A is wrong because adding testers pulls one lever without reassessing anything: the two weeks may have been lost to unclear requirements or a defect backlog that more hands will not clear, and new testers consume the existing team's time before they add capacity. B is wrong because pushing the date absorbs the slip without asking what caused it or whether resources could recover any of it, so the same rate of progress carries into the new date. D is wrong because running the remaining tests against the live system moves the risk onto customers: defects that testing exists to catch are found in production, which is a costlier place to find them than a delayed testing phase.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0092",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain purchasing",
+    "question": "A restaurant manager is responsible for acquiring fresh produce every week at the best combination of price, quality, and delivery reliability. Which core operations function is the manager performing?",
+    "options": {
+      "A": "Inventory control, the process of tracking how much stock is on hand and signaling when the operation needs to reorder it.",
+      "B": "Receiving, the process of inspecting and accepting goods as they arrive at the operation.",
+      "C": "Expediting, the process of following up on orders already placed so they arrive on schedule.",
+      "D": "Purchasing, the process of acquiring the goods and services an operation needs at the right price, quality, and time."
+    },
+    "answer": "D",
+    "explanation": "D is correct: the manager is choosing sources and terms to acquire goods the operation needs, balancing price, quality, and timing, which is what the purchasing function does. A is wrong because inventory control tracks what the restaurant already holds and signals when to reorder; it identifies the need for produce but does not go out and acquire it at negotiated terms. B is wrong because receiving begins when the produce arrives at the door: it verifies that what was ordered is what came, which is downstream of the acquisition decision the stem describes. C is wrong because expediting chases orders that purchasing has already placed, so it addresses delivery timing on an existing commitment rather than the weekly decision of what to buy and from whom.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0093",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Maintain inventory",
+    "question": "A retail store frequently runs out of its best-selling item while simultaneously overstocking several slow-moving products, resulting in lost sales and excess storage costs. What should the manager do to correct this problem?",
+    "options": {
+      "A": "Implement an inventory-tracking and reorder system that adjusts stock levels based on actual sales data for each item.",
+      "B": "Set a single reorder quantity for the whole catalog, based on the store's average monthly unit sales across all products.",
+      "C": "Raise the price of the best-selling item until demand falls to a level that the store's current ordering process can keep up with.",
+      "D": "Discount the slow-moving products to clear them out of the store, and raise the standing order for the best seller by a fixed amount."
+    },
+    "answer": "A",
+    "explanation": "A is correct: adjusting reorder quantities based on actual sales data for each item directly addresses both the stockouts and the overstock problem. B is wrong because an average across the whole catalog is the source of the problem, not the fix: the best seller sells far above that average and the slow movers far below it, so a single quantity understocks one and overstocks the other exactly as before. C is wrong because it throws away sales from the store's strongest product in order to spare a process that should have been fixed instead, and it does nothing about the excess stock. D is wrong because it is a one-time correction rather than a process: the markdown clears today's excess and the fixed bump may cover today's demand, but nothing keeps either aligned as sales shift.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0094",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Select vendors",
+    "question": "A manufacturer must choose between two suppliers for a key component: one offers a lower price but has a history of late deliveries, while the other charges slightly more but consistently delivers on time. What should the manufacturer do?",
+    "options": {
+      "A": "Select the cheaper supplier and write a late-delivery penalty into the contract to cover the reliability gap",
+      "B": "Weigh total value, including cost, reliability, and quality, and select the vendor whose overall performance best supports production needs.",
+      "C": "Accept the cheaper supplier's plan to improve its delivery record and award it the volume on that basis",
+      "D": "Split the volume evenly between the two suppliers so that neither the late deliveries nor the higher prices fall on the whole order"
+    },
+    "answer": "B",
+    "explanation": "B is correct: selecting a vendor means judging total value, so the price gap has to be weighed against a delivery record that keeps the component arriving when production needs it. A is wrong because a penalty clause compensates the manufacturer after a late delivery rather than preventing one: the money arrives, the line still stops, and the cost of an idle plant typically dwarfs the penalty a supplier will agree to. C is wrong because it substitutes the supplier's own promise for its demonstrated record, and the history of late deliveries is the evidence the decision has; an improvement plan is a claim about the future from the party with an interest in the outcome. D is wrong because splitting the volume declines to select at all and imports both problems: the manufacturer still receives late shipments on half its orders and still pays the higher price on the other half, while losing volume leverage with each supplier.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0095",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Evaluate vendor performance",
+    "question": "After a year of working with a new supplier, a purchasing agent must decide whether to renew the supply contract. What should the agent do?",
+    "options": {
+      "A": "Issue a fresh request for proposals to competing suppliers and renew with the incumbent if its quoted pricing still beats the field on unit cost",
+      "B": "Ask the purchasing team for their general impressions of how smoothly the relationship has run this year",
+      "C": "Review measurable performance data, such as on-time delivery rate, defect rate, and pricing, against the standards agreed upon in the contract.",
+      "D": "Pull the supplier's credit report to confirm it is financially sound enough to keep serving the contract"
+    },
+    "answer": "C",
+    "explanation": "C is correct: evaluating a vendor means measuring what it actually delivered against the standards the contract set, and on-time delivery, defect rate, and pricing are the evidence that answers the renewal question. A is wrong because a fresh bidding round benchmarks the market's prices rather than this supplier's performance: it would tell the agent whether the incumbent is cheap, while the year of delivery and quality history that the renewal decision turns on goes unexamined. B is wrong because impressions are subjective and unevenly informed, and they can be shaped by a few memorable incidents rather than by the record across the year. D is wrong because financial stability is a real element of vendor management but speaks to whether the supplier can perform in future, not to whether it met the agreed standards during the year under review.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0096",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Identify quality-control measures",
+    "question": "An electronics assembler wants to catch defective circuit boards before they reach customers. Which approach BEST represents an effective quality-control measure?",
+    "options": {
+      "A": "Adding a final visual check by the packing team, who flag boards with obvious cosmetic flaws before the cartons go out.",
+      "B": "Setting a monthly target for defect reports and rewarding the assembly team when the count stays low.",
+      "C": "Extending the product warranty so that customers can return any defective board free of charge after purchase.",
+      "D": "Implementing in-line inspection checkpoints and sampling tests during production to detect defects early."
+    },
+    "answer": "D",
+    "explanation": "D is correct: catching defects through inspection checkpoints and sampling during the production process is a proactive quality-control measure that prevents defective boards from reaching customers. A is wrong because a cosmetic look-over by packers screens for appearance, not function: a board can look perfect and still fail electrically, which is the defect the assembler needs to catch. B is wrong because it rewards a low defect count rather than accurate detection, which gives the team a reason to report fewer defects rather than find more of them. C is wrong because a warranty is a remedy that operates after a defective board has already reached the customer; it pays for the failure rather than preventing it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0097",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain operating costs",
+    "question": "A restaurant owner notices that rising utility bills are steadily eating into profits even though sales have remained steady. What should the owner do to address this?",
+    "options": {
+      "A": "Analyze and manage operating costs, such as negotiating utility rates, improving energy efficiency, or adjusting staffing schedules.",
+      "B": "Raise menu prices across the board to pass the higher utility bills through to guests, without examining which costs have actually moved",
+      "C": "Switch to lower-cost ingredients so that the savings on food offset the higher utility bills while the utility usage itself stays as it is",
+      "D": "Treat the utility bills as a fixed cost of operating the building and absorb them, since the restaurant has to keep its lights and equipment running"
+    },
+    "answer": "A",
+    "explanation": "A is correct: the squeeze is on the cost side while sales hold steady, so examining the operating costs and acting on the ones that moved, through rates, efficiency, or scheduling, addresses the profit problem where it arises. B is wrong because a price rise answers a cost problem with a revenue change made blind: the owner has not established which costs moved or by how much, and raising prices on steady sales risks the volume that is currently holding up. C is wrong because it offsets one cost with a cut in an unrelated one, leaving the utility usage untouched while trading away food quality; the rising expense continues to rise and the restaurant has spent its ingredient budget to hide it. D is wrong because utilities are not fixed in the sense the option claims: the bill varies with how much energy the restaurant uses, and rates, equipment efficiency, and scheduling are levers, which is why treating them as unmanageable concedes a cost that can be reduced.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0098",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain supply chain",
+    "question": "A clothing brand's single overseas fabric supplier experiences a major shipping disruption, delaying production for several months. What should the company do to strengthen its supply chain going forward?",
+    "options": {
+      "A": "Resume normal orders with the existing supplier and negotiate a shipping-delay penalty clause into the next contract.",
+      "B": "Diversify sourcing by developing relationships with additional suppliers across different regions to reduce disruption risk.",
+      "C": "Hold a much larger safety stock of finished garments in the warehouse to ride out any future interruption at the overseas supplier.",
+      "D": "Increase the order size placed with the same single supplier to lock in future capacity."
+    },
+    "answer": "B",
+    "explanation": "B is correct: developing relationships with multiple suppliers across different regions reduces the company's exposure to a single point of failure in its supply chain. A is wrong because a penalty clause pays the company after a delay happens; it does not produce fabric, so production still stops for months. C is wrong because safety stock buys time rather than supply: it ties up cash in inventory and merely postpones the same stockout if the sole supplier is down for several months. D is wrong because increasing commitment to the same single supplier increases, rather than reduces, the concentration risk.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0099",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe the nature of legally binding contracts",
+    "question": "A small business owner signs a written agreement with a supplier that includes an offer, an acceptance, consideration, and mutual intent to be bound. The owner later wants to cancel the agreement simply because market prices have changed. What determines whether this agreement remains enforceable against the owner?",
+    "options": {
+      "A": "Whether the shift in market prices has made the owner's performance commercially impracticable, which would excuse the owner's duty to perform",
+      "B": "Whether the consideration still looks adequate now that prices have moved against the owner's side of the bargain",
+      "C": "Whether all necessary elements, offer, acceptance, consideration, capacity, and legality, are present, making the contract legally binding.",
+      "D": "Whether the agreement was signed before a notary, which is what gives a written business contract its binding force"
+    },
+    "answer": "C",
+    "explanation": "C is correct: enforceability turns on whether the contract was validly formed, and the elements are offer, acceptance, consideration, capacity, and legality. The stem states the first four were present, so the agreement binds the owner. A is wrong because commercial impracticability is a real doctrine but sets a high bar: an unforeseen event must make performance extremely difficult, and an ordinary movement in market prices is the sort of risk a fixed-price contract exists to allocate. B is wrong because courts examine whether consideration exists, not whether it turned out to be a good bargain; a deal that becomes unfavorable later is still supported by consideration. D is wrong because notarization is a formality that helps prove a signature is genuine, not an element of formation, and most business contracts bind without it.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "pbm-association-1-0100",
+    "cluster": "pbm",
+    "level": "Association",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain the nature of agency relationships",
+    "question": "A real estate agent, acting on behalf of a homeowner, is authorized to sign a listing agreement and negotiate offers. If the agent exceeds that authority by signing a final sales contract without the homeowner's consent, what is the LEGAL consequence?",
+    "options": {
+      "A": "The homeowner is bound to the sale because the agent's own assurances to the buyer that closing the deal fell within her remit created apparent authority covering the sales contract she signed",
+      "B": "The contract is void from the outset, so neither the homeowner nor the buyer can give it any effect afterward",
+      "C": "The agent becomes a party to the sales contract personally and must convey the home to the buyer on its terms",
+      "D": "The homeowner may not be bound by the contract because the agent acted outside the scope of the granted agency authority, unless the homeowner later ratifies the unauthorized act."
+    },
+    "answer": "D",
+    "explanation": "D is correct: an agent binds the principal only within the authority the principal granted, so a signature outside that scope does not bind the homeowner unless she ratifies it afterward, which she remains free to do. A is wrong on the doctrine: apparent authority arises from the principal's own manifestations to the third party, not from the agent's assurances about her own powers; an agent cannot enlarge her authority by claiming to have it. B is wrong because an unauthorized act is not void from the outset, it is unenforceable against the principal unless ratified; treating it as void would eliminate the homeowner's option to accept the sale, which is precisely what she retains. C is wrong because the agent has no title to the home and cannot be made to convey it; an agent who exceeds her authority faces liability to the buyer in damages, not an obligation to perform the sale herself.",
+    "difficulty": "hard",
+    "verified": true
+  }
+]

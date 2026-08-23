@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0031",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Customer Relations",
+  "performanceIndicators": [
+    {
+      "area": "Customer Relations",
+      "pi": "Describe factors affecting business risk.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the role of ethics in customer relationship management.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Identify desirable personality traits important to business.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Streamline work processes.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the role of business in society.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Build product/service brand.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Use creative problem-solving in business activities/decisions.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, the Performance Indicators, and the Case Study Situation. You will have up to 30 minutes to review the case study situation, analyze the business situation, and prepare your presentation. You will then have up to 15 minutes to make your presentation to the judge and to respond to the judge's questions about your presentation. Both members of the participant team must take part in the presentation as well as in answering the judge's questions. You will be evaluated on how well you meet the performance indicators for this event. Turn in all of your notes and materials to the judge when you have completed the event.",
+  "situation": "You are the regional expansion manager and the client services manager at TILLMONT CREDIT GROUP, a credit reporting reseller that pulls, merges, and verifies data from the three national credit bureaus for mortgage lenders, auto dealers, and property managers. TILLMONT has led its home region for eleven years on a reputation for accuracy, consistent turnaround, and analysts who are trained on the company's own verification checklist. The vice president of operations (judge) has asked you to bring the leadership team a recommendation before the end of the week.\n\nTILLMONT has never operated outside its home state, and building lender relationships from nothing usually takes years the company does not want to spend. A well-established loan-document processing firm in a neighboring state has offered a partnership: it will introduce TILLMONT to a dozen mortgage lenders it already serves and route their business through TILLMONT immediately, in exchange for TILLMONT sending the new out-of-state report requests to the firm's existing pool of verification analysts.\n\nThose analysts work as independent contractors for several resellers already, setting their own hours and using their own equipment, and the partner firm will not agree to let TILLMONT dictate their schedules, direct their verification steps, or require its training program. That is a real departure from how TILLMONT normally operates: report analysts are hired directly as employees, trained on the company checklist, and supervised on their calls with lenders, a structure the company credits for its low error rate and its standing with the lenders it already serves.\n\nAccepting the partnership as offered would put TILLMONT into the new market within weeks instead of years and would generate revenue from every report the analysts complete for the introduced lenders. It would also mean TILLMONT no longer directs how those reports get verified, leaving the company unable to guarantee the consistency its lenders and consumers expect from the brand. Restructuring the arrangement so the analysts become TILLMONT employees would preserve that oversight, but the partner firm has indicated it may walk away from the introductions and the revenue if TILLMONT insists on it.\n\nThe vice president of operations (judge) wants a recommendation on whether to accept the partnership on the terms offered, restructure it so the analysts become TILLMONT employees, or propose some other approach, along with how the company would manage the business risk either path creates and protect the brand's reputation for accuracy in a market where TILLMONT has no track record of its own yet.\n\nWhen you enter the office, the judge will greet you and ask you to present your recommendation for how TILLMONT should proceed with the expansion. Walk through your analysis of the partnership as offered, your alternative of bringing the analysts on directly, and the reasoning behind whichever course you recommend. After you present and respond to the judge's questions, the judge will thank you for your time.",
+  "judgeCharacterization": "You are the vice president of operations (judge) at TILLMONT CREDIT GROUP. Business background is the same as the situation above. You have asked the participant team to recommend whether TILLMONT should accept the neighboring-state partnership on the terms offered, restructure it so the analysts become TILLMONT employees, or propose some other approach, and to explain how the company would manage the business risk and protect the brand's reputation for consistency under whichever structure the team recommends.\n\nYou will greet the participant team and ask them to present their recommendation. Ask the following questions after the presentation:",
+  "judgeQuestions": [
+    "A year after this decision, what would tell you the company got it right?",
+    "What would have to happen for you to walk away from this partnership after you have already committed to it?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the partner firm will not let TILLMONT direct, schedule, or train its analysts",
+        "TILLMONT's practice of hiring and supervising its own analysts to guarantee accuracy and its reputation"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the partner firm will not let TILLMONT direct, schedule, or train its analysts"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [
+        "F5"
+      ],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 477,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "credit reporting reseller",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "worker classification as contractor or employee",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "ask how they would know afterwards whether the decision was right"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0031",
+      "shelfSimilarity": 0.0596,
+      "shelfNearest": "BLTDM-0007",
+      "exemplarSimilarity": 0.0218,
+      "gateVersion": 5
+    }
+  }
+}

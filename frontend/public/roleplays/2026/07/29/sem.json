@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-07-29-SEM",
+  "date": "2026-07-29",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc-plus",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    "Ask relevant questions",
+    "Give verbal directions",
+    "Handle difficult customers",
+    "Describe the use of technology in customer relationship management",
+    "Participate in problem-solving groups"
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking",
+    "Problem Solving",
+    "Communication and Collaboration",
+    "Creativity and Innovation"
+  ],
+  "participantInstructions": "The participant will be evaluated on their ability to ask relevant questions, give verbal directions, handle difficult customers, describe the use of technology in customer relationship management, and participate in problem-solving groups. The event is presented through the reading of 21st Century Skills, Performance Indicators, and the situation section. Participants have 10 minutes for preparation, 10 minutes for presentation, and no time allocated for judge questions.",
+  "situation": "You are Emily Chen, a Marketing Coordinator at Thrive Entertainment, a mid-sized sports and entertainment company based in Los Angeles. Your supervisor, Alex Kim, has asked you to address an urgent issue: a prominent sponsor is threatening to withdraw their support due to poor event attendance and negative social media sentiment.\n\nThrive Entertainment specializes in organizing large-scale live events, including concerts, sporting competitions, and interactive fan experiences. Founded 20 years ago by three entrepreneurs with a passion for sports and entertainment, the company has grown steadily through strategic partnerships and innovative marketing campaigns. However, recent challenges have emerged as competitors introduce new technologies and more engaging content, leading to a decline in ticket sales and sponsor interest.\n\nStakeholder A (Sponsor Manager, Jane Lee) is concerned about the financial impact of low attendance and negative sentiment. She believes that continued poor performance will lead to a loss of sponsorships, threatening the company’s revenue stream. Jane argues that sponsors are not seeing adequate returns on their investment due to lower event turnout and less positive social media buzz. This lack of return could result in reduced sponsorship budgets or even complete withdrawal from future events.\n\nStakeholder B (Head of Social Media, Mark Johnson) prioritizes social media engagement and brand visibility. He argues that increased online presence will attract more attendees and improve overall event success. Mark suggests implementing a comprehensive digital marketing strategy to boost engagement across various platforms. This includes targeted ads, influencer partnerships, and interactive content designed to generate buzz before the event dates.\n\nStakeholder C (Event Coordinator, Lisa Park) focuses on delivering high-quality live experiences for fans. She emphasizes the importance of creating engaging in-person events to maintain fan loyalty and drive ticket sales. Lisa believes that enhancing the quality and uniqueness of each event will naturally increase attendance figures as word-of-mouth recommendations grow stronger.\n\nHard constraints include a limited marketing budget of $50,000, a strict deadline of two weeks before the next event, and regulatory requirements that restrict aggressive promotional tactics. These limitations make it challenging to implement large-scale advertising campaigns or engage in extensive outreach efforts without careful planning and execution.\n\nYou must analyze the current situation, decide on a strategy to improve attendance and social media engagement, and present your recommendation. The supervisor will begin by greeting you and asking for your ideas; after presenting and answering any questions, they will conclude by thanking you.\n\nThe company's history reveals that it has faced similar challenges in the past, such as during the initial years of digital transformation when traditional marketing methods were less effective. Thrive Entertainment overcame these hurdles through innovative approaches like leveraging social media influencers for event promotion and offering exclusive VIP packages to attract high-value attendees. However, recent setbacks have highlighted the need for a renewed focus on balancing online engagement with in-person experiences.\n\nJane Lee's concern about financial stability is valid given that sponsors are crucial partners providing significant funding for events. Without their support, Thrive Entertainment may struggle to maintain its current scale of operations and continue offering high-quality entertainment options. On the other hand, Mark Johnson’s emphasis on social media engagement reflects the growing importance of digital platforms in shaping consumer perceptions and driving ticket sales.\n\nLisa Park's focus on delivering exceptional live experiences underscores the enduring value of face-to-face interactions in building long-term fan loyalty. While online presence is critical for initial awareness and interest generation, the actual execution at events remains pivotal for sustained success. However, balancing these priorities within tight budgetary constraints poses a significant challenge.\n\nThe regulatory environment further complicates matters by limiting promotional activities that could otherwise rapidly increase visibility and attendance. For instance, restrictions on direct advertising to minors or excessive data collection practices can hinder expansive marketing efforts aimed at younger demographics who are often key attendees.\n\nGiven the multifaceted nature of this dilemma, Thrive Entertainment faces a critical juncture where strategic decisions will determine its path forward. The upcoming event serves as a pivotal moment to demonstrate improved performance and reassure sponsors about the company’s commitment to excellence in both digital engagement and live experiences.",
+  "exhibit": {
+    "title": "ATTENDANCE AND SOCIAL MEDIA IMPACT",
+    "rows": [
+      "Last month’s event attendance: 75% of capacity",
+      "Average social media engagement per post: 200 likes/comments",
+      "Previous year's event attendance: 95% of capacity",
+      "Previous year's average social media engagement per post: 400 likes/comments"
+    ]
+  },
+  "judgeCharacterization": "Business background is the same as the situation above. The judge (Alex Kim) wants to hear Emily Chen’s analysis of the current situation, her decision on a strategy to improve attendance and social media engagement, and how she plans to execute it within the given constraints.",
+  "judgeQuestions": [
+    "Justify which option you chose and weigh it against the alternative you rejected.",
+    "Assess how you would measure whether the marketing budget has been effectively utilized.",
+    "Jane Lee argues that focusing solely on social media will not address the underlying issue of low attendance. Defend your recommendation against that argument."
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [
+        "Sponsor Manager - financial impact and loss of sponsorships",
+        "Head of Social Media - brand visibility and online presence",
+        "Event Coordinator - fan loyalty and ticket sales"
+      ],
+      "constraints": [
+        "limited marketing budget",
+        "strict deadline",
+        "regulatory requirements"
+      ],
+      "conflicts": [
+        "social media engagement vs. live event quality",
+        "financial constraints vs. promotional tactics",
+        "short-term results vs. long-term growth"
+      ],
+      "exhibit": "EXHIBIT 1: ATTENDANCE AND SOCIAL MEDIA IMPACT"
+    },
+    "corroborated": {
+      "stakeholders": [
+        "Sponsor Manager - financial impact and loss of sponsorships",
+        "Head of Social Media - brand visibility and online presence",
+        "Event Coordinator - fan loyalty and ticket sales"
+      ],
+      "constraints": [
+        "limited marketing budget",
+        "strict deadline",
+        "regulatory requirements"
+      ],
+      "exhibit": true
+    },
+    "gate": {
+      "passed": false,
+      "failedKnobs": [
+        "K3"
+      ],
+      "issues": [
+        "K3: exhibit is inside or below the situation; it belongs between PERFORMANCE INDICATORS and the situation header"
+      ]
+    },
+    "situationWords": 721,
+    "generator": {
+      "model": "qwen2.5:14b-instruct",
+      "passes": 2
+    },
+    "defects": []
+  }
+}

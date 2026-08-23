@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0005",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain ethical considerations in providing information.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Demonstrate fairness.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain the concept of competition.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain company selling policies.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the role of customer service in positioning/image.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe marketing functions and related activities.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the nature of hotel/lodging marketing.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "You will have 30 minutes to review this event's Performance Indicators, the 21st Century Skills, and the Case Study Situation, and to prepare your presentation. You will then have up to 15 minutes to present to the judge and respond to the judge's questions. Both members of the team must participate in the presentation and in answering the judge's questions. You will be evaluated on how well you meet the performance indicators for this event. Turn in all of your notes and other materials to the judge at the conclusion of the presentation.",
+  "situation": "You are the Franchise Operations Manager and the Brand Marketing Manager for AURELIA SKINCARE, an established prestige skincare brand whose signature boutiques operate inside upscale hotel and resort spas across the country. The Vice President of Franchise Development (judge) has asked to meet with you before the next franchisee council to work through a proposed change to the franchise operating manual. Aurelia's boutiques are run under license by independent franchisees who lease their space directly from each hotel property.\n\nAurelia built its reputation on an in-boutique blending bar, where a trained esthetician mixes a custom serum for each guest during the visit. Hotel guests book the service as a spa amenity, and several resort partners list the live blending bar by name in their own marketing. Over the past two years, a direct-to-consumer competitor offering app-based custom formulation shipped overnight has drawn guests who once walked into an Aurelia boutique, and franchise revenue per location has declined for six consecutive quarters.\n\nCorporate has developed a centralized, pre-mixed serum line that would let every boutique restock from one regional warehouse instead of compounding each order on site. The amendment would remove the requirement that a licensed esthetician blend each order, replacing the blending bar with a self-select display. Franchisees have told the council the change would cut ingredient waste and staffing hours meaningfully, easing pressure from thinner margins, but several worry the blending bar is the reason a guest chooses Aurelia over the competitor's app in the first place.\n\nThe franchise agreement guarantees franchisees a minimum gross margin on product sold, a term the new line would satisfy on paper. Several hotel partnership contracts, however, name the blending bar specifically as a listed guest amenity, and swapping it for a retail display without the hotel's sign-off could put those placements at risk. Franchisees are not unanimous: lower-traffic locations favor the switch, while flagship boutiques inside the busiest resorts want the blending bar kept exactly as it is.\n\nThe Vice President of Franchise Development (judge) wants your team's recommendation on whether to amend the operating manual to require the centralized pre-mixed line chainwide, retain the blending bar as the required standard everywhere, or propose some other path through the franchisee council. The recommendation should address how Aurelia treats its franchisees fairly and consistently, protects its standing with hotel partners, and preserves what has separated Aurelia from the app-based competitor in a guest's eyes.\n\nWhen you enter the office, the Vice President of Franchise Development (judge) will greet you and ask you to share your ideas on how Aurelia should proceed. Be ready to explain the reasoning behind your recommendation and how it accounts for the franchisees, the hotel partners, and the brand's position against its new competitor. After you finish your presentation and answer the judge's questions, the judge will thank you for your time and conclude the meeting.",
+  "judgeCharacterization": "You are the Vice President of Franchise Development for AURELIA SKINCARE, an established prestige skincare brand whose signature boutiques operate inside upscale hotel and resort spas across the country. Business background is the same as the situation above.\n\nYou have asked the Franchise Operations Manager and the Brand Marketing Manager to meet with you to recommend whether Aurelia should amend its franchise operating manual to require the centralized pre-mixed serum line chainwide, keep the in-boutique blending bar as the required standard, or propose a different path to bring to the franchisee council. You want a recommendation that treats franchisees fairly, protects Aurelia's standing with its hotel partners, and preserves what sets Aurelia apart from the app-based competitor drawing guests away.\n\nDuring the presentation, ask the participants the following questions:",
+  "judgeQuestions": [
+    "Is there a middle option worth considering, such as keeping the blending bar only at the highest-traffic resort locations?",
+    "How do you make sure franchisees are treated fairly if only some locations keep the blending bar?",
+    "What would you tell a hotel partner whose contract names the blending bar as a listed amenity?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the franchise agreement's minimum gross margin guarantee to franchisees",
+        "hotel partnership contracts that name the blending bar as a listed guest amenity"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the franchise agreement's minimum gross margin guarantee to franchisees",
+        "hotel partnership contracts that name the blending bar as a listed guest amenity"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [
+        "F5"
+      ],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 477,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "cosmetics brand",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a franchise agreement's operating requirements",
+        "dilemma_archetype": "an efficiency that costs the company its differentiator",
+        "question_shape": "ask whether a specific alternative is worth considering"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0005",
+      "shelfSimilarity": 0.0567,
+      "shelfNearest": "BLTDM-0001",
+      "exemplarSimilarity": 0.0694,
+      "gateVersion": 5
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "code": "PFL",
+  "terms": [
+    {
+      "term": "Credit score",
+      "definition": "A number that summarizes a person's credit risk based on credit history.",
+      "whyItMatters": "Credit scores affect loans, interest rates, housing, and financial opportunities.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PFL",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Compound interest",
+      "definition": "Interest calculated on both the original amount and previously earned interest.",
+      "whyItMatters": "Compound interest explains how savings and debt grow over time.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PFL",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Net worth",
+      "definition": "Total assets minus total liabilities.",
+      "whyItMatters": "Net worth gives a snapshot of personal financial position.",
+      "areas": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/PFL",
+        "backend/test-gen-model/data"
+      ]
+    }
+  ]
+}

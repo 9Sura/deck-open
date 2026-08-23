@@ -1,0 +1,120 @@
+{
+  "area": "marketing",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/marketing.txt"
+  ],
+  "terms": [
+    {
+      "term": "Marketing",
+      "definition": "The process of creating, communicating, and delivering value to customers.",
+      "whyItMatters": "This is the umbrella concept behind many cluster and roleplay decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Brand image",
+      "definition": "The overall impression customers have of a business or product.",
+      "whyItMatters": "Image affects trust, loyalty, and perceived value.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Consumer",
+      "definition": "A person who buys and uses goods and services.",
+      "whyItMatters": "Naming the consumer keeps recommendations grounded in who actually benefits.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Goods",
+      "definition": "Tangible products that satisfy customer needs and wants.",
+      "whyItMatters": "Distinguishing goods from services shapes how a business markets and delivers value.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Services",
+      "definition": "Intangible activities that satisfy customer needs and wants.",
+      "whyItMatters": "Services require different quality, staffing, and marketing choices than goods.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Customer value",
+      "definition": "The benefit a customer believes they receive compared with the cost or effort.",
+      "whyItMatters": "Value helps explain why a customer chooses one offer over another.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Buying behavior",
+      "definition": "The way customers decide what, when, where, and why to purchase.",
+      "whyItMatters": "Understanding buying-behavior factors lets competitors target the right message and offer.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Marketing mix",
+      "definition": "The blend of product, price, place, and promotion used to reach a target market.",
+      "whyItMatters": "The four Ps are the standard framework for building a marketing recommendation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Marketing concept",
+      "definition": "A philosophy that focuses all business activities on satisfying customer needs profitably.",
+      "whyItMatters": "It reminds competitors that every tactic should trace back to a real customer need.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Value proposition",
+      "definition": "The bundle of benefits a business promises to deliver to a specific customer group.",
+      "whyItMatters": "A sharp value proposition anchors positioning, messaging, and pricing.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Marketing functions",
+      "definition": "The core marketing activities such as pricing, promotion, selling, and distribution.",
+      "whyItMatters": "Competitors organize their analysis around which marketing functions a decision touches.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Brand equity",
+      "definition": "The added value a strong, well-known brand name gives a product.",
+      "whyItMatters": "Brand equity explains why customers pay more for, and stay loyal to, established brands.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Market share",
+      "definition": "The percentage of total sales in a market captured by one business or product.",
+      "whyItMatters": "Market share quantifies competitive position and the payoff of a growth strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Product positioning",
+      "definition": "The image or place a product occupies in the customer's mind relative to competitors.",
+      "whyItMatters": "Positioning decisions drive messaging, pricing, and which competitors you fight.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    }
+  ]
+}

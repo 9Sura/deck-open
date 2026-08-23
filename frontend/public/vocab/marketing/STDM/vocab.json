@@ -1,0 +1,623 @@
+{
+  "version": 1,
+  "cluster": "marketing",
+  "event": {
+    "code": "STDM",
+    "name": "Sports and Entertainment Marketing Team Decision Making",
+    "format": "team"
+  },
+  "instructionalAreas": [
+    "channel_management",
+    "promotion",
+    "economics",
+    "customer_relations",
+    "market_planning",
+    "marketing"
+  ],
+  "sourceNotes": [
+    "Seeded from STDM roleplay performance indicators and marketing cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Channel of distribution",
+      "slug": "channel-of-distribution",
+      "definition": "The path a product takes from producer or provider to the final customer.",
+      "whyItMatters": "Channel choices affect convenience, cost, access, and customer experience.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Promotion",
+      "slug": "promotion",
+      "definition": "Communication that informs, persuades, and reminds customers about offerings.",
+      "whyItMatters": "Promotion choices must fit the audience, message, and budget.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Marketing strategy",
+      "slug": "marketing-strategy",
+      "definition": "The overall approach a business uses to reach customers and meet marketing goals.",
+      "whyItMatters": "Case studies require strategies that fit business objectives and market conditions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Marketing",
+      "slug": "marketing",
+      "definition": "The process of creating, communicating, and delivering value to customers.",
+      "whyItMatters": "This is the umbrella concept behind many cluster and roleplay decisions.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Direct channel",
+      "slug": "direct-channel",
+      "definition": "A distribution path where a producer sells straight to customers with no intermediaries.",
+      "whyItMatters": "Direct channels maximize control and margin but demand more sales and logistics effort.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Promotional mix",
+      "slug": "promotional-mix",
+      "definition": "The blend of advertising, publicity, sales promotion, and personal selling.",
+      "whyItMatters": "A mix lets competitors recommend more than one communication path.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Market identification",
+      "slug": "market-identification",
+      "definition": "Discovering and defining the markets where a business can sell its offering.",
+      "whyItMatters": "Identifying the right market is the foundation of any marketing plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Brand image",
+      "slug": "brand-image",
+      "definition": "The overall impression customers have of a business or product.",
+      "whyItMatters": "Image affects trust, loyalty, and perceived value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Indirect channel",
+      "slug": "indirect-channel",
+      "definition": "A distribution path where one or more intermediaries sit between producer and customer.",
+      "whyItMatters": "Indirect channels widen reach and share costs but reduce producer control.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Advertising",
+      "slug": "advertising",
+      "definition": "Paid, nonpersonal communication delivered through media to large audiences.",
+      "whyItMatters": "Advertising builds broad brand awareness efficiently and at scale.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Target market",
+      "slug": "target-market",
+      "definition": "The specific customer group a business chooses as its primary marketing audience.",
+      "whyItMatters": "Recommendations are stronger when they name a specific audience.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Consumer",
+      "slug": "consumer",
+      "definition": "A person who buys and uses goods and services.",
+      "whyItMatters": "Naming the consumer keeps recommendations grounded in who actually benefits.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Intermediary",
+      "slug": "intermediary",
+      "definition": "A business between producer and customer, such as a retailer, wholesaler, or agent.",
+      "whyItMatters": "Intermediaries expand reach but add cost and control tradeoffs.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Sales promotion",
+      "slug": "sales-promotion",
+      "definition": "Short-term incentives like coupons, contests, and discounts that spur purchases.",
+      "whyItMatters": "Promotions drive quick sales, trial, and inventory clearance.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Marketing plan",
+      "slug": "marketing-plan",
+      "definition": "A written document laying out marketing objectives, strategies, and tactics for a period.",
+      "whyItMatters": "The plan guides all promotional and customer-facing decisions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Goods",
+      "slug": "goods",
+      "definition": "Tangible products that satisfy customer needs and wants.",
+      "whyItMatters": "Distinguishing goods from services shapes how a business markets and delivers value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Wholesaler",
+      "slug": "wholesaler",
+      "definition": "An intermediary that buys goods in bulk from producers and resells them to retailers.",
+      "whyItMatters": "Wholesalers aggregate inventory and provide the logistics that enable retail networks.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Personal selling",
+      "slug": "personal-selling",
+      "definition": "Direct, person-to-person communication to inform, persuade, and build relationships.",
+      "whyItMatters": "It enables customized pitches and problem-solving for high-value sales.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Situation analysis",
+      "slug": "situation-analysis",
+      "definition": "An assessment of internal and external factors affecting a business's marketing.",
+      "whyItMatters": "Understanding the situation must come before any recommendation.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Services",
+      "slug": "services",
+      "definition": "Intangible activities that satisfy customer needs and wants.",
+      "whyItMatters": "Services require different quality, staffing, and marketing choices than goods.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Retailer",
+      "slug": "retailer",
+      "definition": "An intermediary that buys from wholesalers or producers and sells to final consumers.",
+      "whyItMatters": "Retailers provide the accessible point of sale that completes the distribution chain.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Public relations",
+      "slug": "public-relations",
+      "definition": "Activities that build positive relationships with the public and media.",
+      "whyItMatters": "PR manages image, trust, and credibility through third-party voices.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "SWOT analysis",
+      "slug": "swot-analysis",
+      "definition": "A review of a business's strengths, weaknesses, opportunities, and threats.",
+      "whyItMatters": "SWOT gives a structured frame for the situation analysis behind a plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Customer value",
+      "slug": "customer-value",
+      "definition": "The benefit a customer believes they receive compared with the cost or effort.",
+      "whyItMatters": "Value helps explain why a customer chooses one offer over another.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Agent",
+      "slug": "agent",
+      "definition": "An intermediary that helps buy or sell on a producer's behalf without taking title to goods.",
+      "whyItMatters": "Agents lower channel cost by handling transactions without holding inventory.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Publicity",
+      "slug": "publicity",
+      "definition": "Unpaid media coverage generated through PR, news, and referrals.",
+      "whyItMatters": "Publicity builds credibility through sources other than paid ads.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Market segmentation",
+      "slug": "market-segmentation",
+      "definition": "Dividing a market into distinct groups of customers with similar needs.",
+      "whyItMatters": "Segmentation lets a business target specific customer groups effectively.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Buying behavior",
+      "slug": "buying-behavior",
+      "definition": "The way customers decide what, when, where, and why to purchase.",
+      "whyItMatters": "Understanding buying-behavior factors lets competitors target the right message and offer.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Intensive distribution",
+      "slug": "intensive-distribution",
+      "definition": "A strategy to make a product available in as many outlets as possible.",
+      "whyItMatters": "It maximizes convenience and market penetration for high-demand goods.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Advertising media",
+      "slug": "advertising-media",
+      "definition": "The channels ads run on — TV, radio, print, digital, outdoor, and social.",
+      "whyItMatters": "Choosing the right media reaches the target audience cost-effectively.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "slug": "unemployment-rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Customer inquiry",
+      "slug": "customer-inquiry",
+      "definition": "A question or request from a customer seeking information or help.",
+      "whyItMatters": "Prompt, accurate responses signal genuine customer commitment.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Sales forecast",
+      "slug": "sales-forecast",
+      "definition": "A projection of expected future sales based on analysis and historical data.",
+      "whyItMatters": "Forecasts help plan resources and set realistic marketing objectives.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Marketing mix",
+      "slug": "marketing-mix",
+      "definition": "The blend of product, price, place, and promotion used to reach a target market.",
+      "whyItMatters": "The four Ps are the standard framework for building a marketing recommendation.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Selective distribution",
+      "slug": "selective-distribution",
+      "definition": "Selling through a limited number of carefully chosen intermediaries in an area.",
+      "whyItMatters": "It balances accessibility with brand control and partner profitability.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Direct marketing",
+      "slug": "direct-marketing",
+      "definition": "Targeted messages sent straight to individuals by mail, email, or phone.",
+      "whyItMatters": "Direct marketing allows personalized, measurable, one-to-one engagement.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    }
+  ]
+}

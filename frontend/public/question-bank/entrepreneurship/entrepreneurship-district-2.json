@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "ent-district-2-0001",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Describe emotional intelligence",
+    "question": "During a team meeting, Priya's proposal is criticized harshly by a coworker. Instead of reacting defensively, Priya pauses, notices she feels embarrassed, and calmly asks the coworker to clarify the concern before responding. Priya's behavior best demonstrates",
+    "options": {
+      "A": "a high level of technical skill.",
+      "B": "emotional intelligence.",
+      "C": "poor time management.",
+      "D": "a lack of assertiveness."
+    },
+    "answer": "B",
+    "explanation": "Emotional intelligence is the ability to recognize, understand, and manage one's own emotions while also perceiving and responding appropriately to the emotions of others. Priya identifies her own feeling of embarrassment and chooses a calm, constructive response rather than reacting impulsively, which is the core of emotional intelligence. This scenario has nothing to do with technical skill, which refers to job-specific expertise. It is not poor time management, since the situation does not involve scheduling or deadlines. It also is not a lack of assertiveness; in fact, calmly asking for clarification is an assertive, controlled response rather than a passive one.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0002",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Identify desirable personality traits",
+    "question": "A hiring manager is comparing two finalists for a customer-service position. Both have similar experience, but one candidate consistently follows through on commitments made during the interview process, such as sending requested references on time. This candidate is displaying the desirable personality trait of",
+    "options": {
+      "A": "impulsiveness.",
+      "B": "aggressiveness.",
+      "C": "dependability.",
+      "D": "indifference."
+    },
+    "answer": "C",
+    "explanation": "Dependability is a desirable personality trait that describes a person who can reliably be counted on to follow through on commitments and responsibilities, which is exactly what the candidate demonstrated by submitting references on time. Impulsiveness describes acting without thinking things through, which is not shown here and is generally undesirable. Aggressiveness involves forceful or hostile behavior, which does not apply to this situation. Indifference means a lack of interest or concern, which contradicts the candidate's reliable follow-through.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0003",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate initiative",
+    "question": "While shadowing a shift supervisor at a retail store, an intern notices that the stockroom shelves are disorganized and, without being asked, spends her lunch break reorganizing them so employees can locate merchandise faster. The intern is best described as",
+    "options": {
+      "A": "taking initiative.",
+      "B": "delegating tasks.",
+      "C": "avoiding responsibility.",
+      "D": "seeking feedback."
+    },
+    "answer": "A",
+    "explanation": "Taking initiative means recognizing a need and acting on it voluntarily, without being directed to do so. The intern noticed the disorganized shelves and fixed the problem on her own time, which is a clear example of initiative. Delegating tasks involves assigning work to others, which the intern did not do since she performed the task herself. Avoiding responsibility would mean ignoring the problem or shifting blame, the opposite of what occurred. Seeking feedback involves asking others for input on one's performance, which is unrelated to this scenario.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0004",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess risks of personal decisions",
+    "question": "Diego is offered a chance to leave his stable job to join a friend's new startup for significantly higher potential pay, but the startup has no clients yet and only three months of operating funds. Before accepting, Diego should primarily",
+    "options": {
+      "A": "hand in his resignation right away, so that the founders can see he is committed to the venture.",
+      "B": "ask his current employer for a raise and weigh the new salary against the startup's offer.",
+      "C": "sign a long-term lease near the new office.",
+      "D": "weigh the likelihood of the startup failing against his need for steady income."
+    },
+    "answer": "D",
+    "explanation": "Weighing the likelihood of the startup failing against his need for steady income is the correct answer because assessing the risk of a personal decision requires evaluating potential negative outcomes, such as losing income, against the potential benefits before committing. Resigning right away to signal commitment gives up his steady income before he has measured what losing it would cost him, which takes the risk rather than assessing it. Asking for a raise gathers a real number, but it answers a different question: it tells him what staying is worth without telling him how likely the startup is to fail, which is the uncertainty the decision turns on. Signing a long-term lease adds a new financial obligation before the risk of the job change has even been assessed, which would compound rather than reduce his risk.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0005",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Build trust in relationships",
+    "question": "A new store manager promises employees that their scheduling requests will be reviewed every Friday. For six consecutive weeks, she reviews and responds to every request as promised, even when it takes extra time after her shift. As a result, employees are more willing to bring her problems early. This outcome illustrates the manager",
+    "options": {
+      "A": "delegating authority to shift leads.",
+      "B": "building trust through consistent follow-through.",
+      "C": "reducing labor costs through scheduling software.",
+      "D": "increasing sales through employee motivation."
+    },
+    "answer": "B",
+    "explanation": "Building trust in relationships happens when a person's actions consistently match their words over time, which is exactly what the manager did by reliably reviewing requests every Friday as promised. This consistency, not a single event, is what led employees to feel comfortable approaching her with problems. The scenario does not mention her delegating authority to anyone. It also does not describe any use of scheduling software to cut costs, nor does it discuss sales figures or a motivational program.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0006",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Develop tolerance for ambiguity",
+    "question": "A project manager assigns a team to design a new product feature but gives them only a vague goal: 'make onboarding feel easier.' No specific metrics or steps are provided. A team member who copes well with this situation would most likely",
+    "options": {
+      "A": "hold off on any design work until the manager supplies exact metrics and a step-by-step definition of easier onboarding.",
+      "B": "wait for the manager to change the assignment entirely.",
+      "C": "explore several possible approaches while gathering more information as the project develops.",
+      "D": "raise the lack of direction with coworkers rather than beginning any work on the onboarding feature."
+    },
+    "answer": "C",
+    "explanation": "Developing tolerance for ambiguity means being able to function effectively and make progress even when a situation lacks complete information or clear structure, which is shown by exploring multiple approaches while gathering details along the way. Holding off until exact metrics arrive is a reasonable-sounding request that stalls the project indefinitely, since a goal like easier onboarding is often defined through the design work itself rather than before it. Waiting for the manager to change the assignment is a passive response that avoids dealing with the uncertainty. Raising the lack of direction with coworkers moves the discomfort around the team without converting it into progress, and the feature is no better defined afterward than before.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0007",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Show empathy",
+    "question": "A customer calls a cable company visibly upset because a technician missed a scheduled appointment for the third time. Instead of immediately offering a discount, the representative first says, 'I understand how frustrating it must be to take time off work and have that happen again.' This response is an example of the representative",
+    "options": {
+      "A": "showing empathy toward the customer.",
+      "B": "using upselling techniques.",
+      "C": "following a legal disclosure requirement.",
+      "D": "demonstrating technical troubleshooting skills."
+    },
+    "answer": "A",
+    "explanation": "Showing empathy means recognizing and acknowledging another person's feelings and perspective, which the representative does by naming the customer's frustration before jumping to a solution. This is not an upselling technique, since the representative is not attempting to sell additional products or services. It is not a legal disclosure requirement, as nothing about compliance or required disclosures is involved. It also is not technical troubleshooting, since the representative has not yet addressed the actual service issue.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0008",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Persuade others",
+    "question": "An entrepreneur pitching investors highlights specific data on customer demand, addresses the investors' stated concerns about competition, and connects the product's benefits to the investors' own goal of entering a growing market. This approach is most focused on",
+    "options": {
+      "A": "delegating the investment decision to a board that will weigh the proposal on his behalf.",
+      "B": "filing required legal disclosures.",
+      "C": "conducting an audit that verifies the startup's financial records are accurate.",
+      "D": "persuading the investors by tailoring the message to their interests."
+    },
+    "answer": "D",
+    "explanation": "Persuading others effectively involves shaping a message around the specific interests, concerns, and goals of the audience, which is exactly what the entrepreneur does by addressing the investors' worries and connecting benefits to their goals. This is not about delegating the decision to a board, since the entrepreneur is making the case himself and the investors, not a board, will decide. It is unrelated to filing legal disclosures, which involves regulatory paperwork. It is also not an audit: an audit verifies that figures already recorded are accurate, while the entrepreneur is presenting forward-looking demand data to move an audience toward a decision.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0009",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use conflict-resolution skills",
+    "question": "Two employees disagree over how to split commission on a joint sale, and the disagreement is starting to affect their ability to work together. Their supervisor meets with both of them, has each explain their perspective, and helps them agree on a fair split going forward. The supervisor is primarily using",
+    "options": {
+      "A": "a performance appraisal process.",
+      "B": "conflict-resolution skills.",
+      "C": "a recruitment strategy.",
+      "D": "a market segmentation technique."
+    },
+    "answer": "B",
+    "explanation": "Conflict-resolution skills involve helping opposing parties identify the source of disagreement and reach a mutually acceptable solution, which is exactly what the supervisor does by hearing both perspectives and guiding them to an agreement. This is not a performance appraisal process, which evaluates an employee's job performance over time rather than mediating a dispute. It is not a recruitment strategy, since no hiring is taking place. It is also not a market segmentation technique, which relates to dividing customers into groups, not resolving employee disputes.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0010",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Motivate team members",
+    "question": "A sales team has been missing its monthly targets, and morale is low. Rather than threatening penalties, the sales director sets a visible progress chart, publicly recognizes small wins each week, and ties the team's efforts to a shared goal of opening a new store location. This approach is best described as",
+    "options": {
+      "A": "motivating team members toward a shared objective.",
+      "B": "enforcing a disciplinary policy in response to the team's repeated missed targets.",
+      "C": "conducting a compliance audit of the sales team's reported figures.",
+      "D": "outsourcing the sales function to a third-party firm."
+    },
+    "answer": "A",
+    "explanation": "Motivating team members involves inspiring effort and commitment through recognition, visible progress, and connection to a meaningful shared goal, all of which the director uses instead of relying on threats. This is not a disciplinary policy, since the scenario says the director set penalties aside, and nothing he does carries a consequence for falling short. It is not a compliance audit either: the progress chart displays the team's results to encourage them, whereas an audit would test those figures for accuracy against the records behind them. It is also not outsourcing, since the sales function remains with the internal team rather than being handed to an external party.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0011",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain pricing function",
+    "question": "A new bakery is deciding how much to charge for its signature cupcakes. The owner considers ingredient costs, competitor prices, and how much value customers place on the unique flavor before settling on a price of $4.50 each. This decision-making process best illustrates the role of the",
+    "options": {
+      "A": "distribution function.",
+      "B": "promotion function.",
+      "C": "pricing function.",
+      "D": "financing function."
+    },
+    "answer": "C",
+    "explanation": "The pricing function involves establishing and adjusting the value or cost of a good or service in a way that reflects factors such as production costs, competition, and customer perceived value, which is precisely what the bakery owner does. The distribution function involves getting the product to the customer through various channels, not setting its price. The promotion function involves communicating information about the product to persuade customers to buy it, which is not addressed here. The financing function involves obtaining and managing the capital needed to operate the business, which is unrelated to setting the cupcake price.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0012",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Describe ethics in pricing",
+    "question": "A hardware store dramatically raises the price of generators and batteries immediately after a hurricane warning is issued, knowing that residents have no other nearby option. This pricing practice is widely considered unethical because it",
+    "options": {
+      "A": "reflects the store's normal cost of goods sold.",
+      "B": "matches prices charged by competitors in unaffected areas.",
+      "C": "reduces the store's long-term profitability.",
+      "D": "takes advantage of customers' urgent need during a crisis."
+    },
+    "answer": "D",
+    "explanation": "Ethics in pricing requires businesses to set prices fairly rather than exploiting circumstances that leave customers with no real choice, and raising prices on emergency supplies right after a disaster warning takes unfair advantage of customers' urgent need, which is why this practice, often called price gouging, is considered unethical. The price increase does not reflect the store's normal cost of goods sold, since costs have not actually risen. It also does not match prices in unaffected areas, since those areas are not facing the same emergency-driven demand. While the practice could damage the store's reputation over time, the ethical problem is the exploitation itself, not a claim that profitability decreases.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0013",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain legal considerations for pricing",
+    "question": "Two competing gas stations located across the street from each other secretly agree to both charge $3.79 per gallon so that neither business has to lower prices to compete. This arrangement is illegal because it constitutes",
+    "options": {
+      "A": "price fixing.",
+      "B": "predatory pricing.",
+      "C": "price skimming.",
+      "D": "psychological pricing."
+    },
+    "answer": "A",
+    "explanation": "Price fixing occurs when competing businesses illegally agree to set prices at a certain level instead of letting the market determine prices through competition, which is exactly what the two gas stations did. Predatory pricing involves a business setting prices extremely low, often below cost, to drive competitors out of business, which is the opposite of what happened here. Price skimming is a legal pricing strategy of setting a high initial price on a new product and lowering it over time, which does not apply to this scenario. Psychological pricing involves setting prices that appeal to customers' perceptions, such as pricing an item at $3.99 instead of $4.00, and is unrelated to this illegal agreement.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0014",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain factors affecting pricing decisions",
+    "question": "A regional airline notices that a competitor just launched daily flights on the same route it serves. In response, the airline lowers its fares on that route to remain attractive to price-sensitive travelers. This pricing decision was most directly influenced by",
+    "options": {
+      "A": "the airline's fixed operating costs.",
+      "B": "the level of competition in the market.",
+      "C": "seasonal changes in fuel prices.",
+      "D": "government airline safety regulations."
+    },
+    "answer": "B",
+    "explanation": "The level of competition is a major factor affecting pricing decisions, and the airline lowered its fares specifically because a competitor entered the same route, directly illustrating this influence. Fixed operating costs, such as aircraft leases, do not change simply because a competitor entered the market, so they are not the direct cause here. Seasonal fuel price changes are not mentioned in the scenario and are unrelated to the competitor's entry. Government safety regulations govern operational standards, not fare pricing, and are not a factor in this decision.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0015",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain communication techniques that support and encourage a speaker",
+    "question": "During a weekly staff huddle at his food-truck business, Marcus notices that a new employee is hesitant to share an idea about a new menu item. Which technique would best encourage the employee to keep talking?",
+    "options": {
+      "A": "Checking his phone while nodding occasionally so the employee feels unpressured",
+      "B": "Making eye contact, nodding, and asking a brief follow-up question about the idea",
+      "C": "Waiting until the meeting ends to bring up the idea privately instead",
+      "D": "Restating the agenda so the group can move on to other topics quickly"
+    },
+    "answer": "B",
+    "explanation": "Making eye contact, nodding, and asking a brief follow-up question shows genuine engagement and invites the speaker to continue, which is the essence of supportive, encouraging communication. Checking a phone while nodding sends a mixed, distracted signal rather than genuine encouragement. Waiting to discuss the idea privately later removes the immediate encouragement the hesitant employee needs in the moment. Restating the agenda shifts focus away from the speaker and discourages further sharing rather than supporting it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0016",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Demonstrate active listening skills",
+    "question": "A customer calls a small landscaping company to complain that the crew damaged a section of her lawn. The owner, Priya, wants to demonstrate active listening while the customer explains what happened. What should Priya do first?",
+    "options": {
+      "A": "Break in to explain the company's damage policy so that the call reaches a resolution faster",
+      "B": "Listen fully, then paraphrase the customer's concern back to confirm understanding",
+      "C": "Transfer the call to a crew member who was on site that day",
+      "D": "Take notes silently and promise a callback without responding further"
+    },
+    "answer": "B",
+    "explanation": "Listening fully and then paraphrasing the concern confirms Priya understood the customer correctly and shows the customer she was heard, which is the core of active listening. Breaking in with the damage policy trades understanding for speed: Priya would be applying a policy to a complaint she has not finished hearing, and the customer learns that her account of what happened is not needed. Transferring the call before addressing the concern avoids listening altogether. Taking notes silently without any verbal response fails to confirm understanding, which active listening requires.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0017",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Interpret others' nonverbal cues",
+    "question": "While pitching a new subscription-box service to a potential investor, entrepreneur Dana notices the investor crossing his arms, leaning back, and frequently glancing at his watch. What should Dana most likely conclude and do?",
+    "options": {
+      "A": "The investor is fully persuaded, so Dana should ask for a signed check immediately",
+      "B": "The pitch is running too short, so Dana should add more financial detail",
+      "C": "The investor may be disengaged or skeptical, so Dana should re-engage him with a direct question",
+      "D": "The investor's body language is irrelevant, so Dana should continue reading the prepared script"
+    },
+    "answer": "C",
+    "explanation": "Crossed arms, leaning back, and watch-checking are classic nonverbal cues of disengagement or skepticism, so Dana should interpret these signals and re-engage the investor, for example by asking a direct question to draw him back into the conversation. Concluding the investor is fully persuaded misreads clearly negative body language. Adding more financial detail addresses length, not the disengagement being signaled. Ignoring body language and continuing the script disregards an important, actionable communication signal.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0018",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Employ communication styles appropriate to target audience",
+    "question": "An entrepreneur is preparing two separate updates about her startup's new inventory software: one for the software engineers who built it and one for retail employees who will use it daily. How should she adapt her communication style?",
+    "options": {
+      "A": "Use identical technical language in both updates to maintain consistency",
+      "B": "Send the update to the engineers and let them pass the relevant parts along to the retail staff in their own words",
+      "C": "Use the most simplified version for both groups so nothing is misunderstood",
+      "D": "Use technical, detailed language for the engineers and plain, task-focused language for retail employees"
+    },
+    "answer": "D",
+    "explanation": "Adapting the message to each audience, technical detail for engineers and plain, task-focused instructions for retail employees, ensures both groups understand information relevant to their roles. Using identical technical language would confuse retail employees unfamiliar with the terminology. Routing the update through the engineers puts the translation in the hands of the people furthest from the retail job, and each retelling can drop or distort the detail the staff actually need to run the software. Oversimplifying the message for engineers would omit detail they need to do their jobs effectively.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0019",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Handle telephone calls in a businesslike manner",
+    "question": "A customer calls an online boutique upset that her order arrived a week late during a busy holiday season. How should the customer service representative, Alicia, handle the call?",
+    "options": {
+      "A": "Rush through the call politely to get to the next customer in the queue",
+      "B": "Remain calm, acknowledge the delay professionally, and outline the next steps to resolve it",
+      "C": "Place the customer on hold indefinitely until she calms down",
+      "D": "Explain that the shipping carrier caused the delay and that the boutique is not responsible for it"
+    },
+    "answer": "B",
+    "explanation": "Remaining calm, acknowledging the issue professionally, and clearly outlining next steps demonstrates businesslike telephone handling that resolves the customer's concern while maintaining the company's reputation. Rushing through the call, even politely, fails to properly address the complaint. Placing the customer on hold indefinitely is dismissive and unprofessional. Explaining that the carrier is at fault may even be accurate, but it answers the customer's problem with an assignment of blame; she bought from the boutique, and a businesslike call ends with what happens next rather than with whose fault it was.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0020",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Facilitate group discussions",
+    "question": "During a brainstorming session for a new product launch, two team members keep dominating the conversation while three others say nothing. As the meeting facilitator, what should Jordan do?",
+    "options": {
+      "A": "Redirect by directly inviting the quieter members to share their perspectives",
+      "B": "Let the dominant members continue since they clearly have the strongest ideas",
+      "C": "End the meeting early since not everyone is participating equally",
+      "D": "Assign all decision-making to the two most vocal members going forward"
+    },
+    "answer": "A",
+    "explanation": "Directly inviting quieter members to share balances participation and ensures the group benefits from all perspectives, which is the goal of facilitating a discussion. Allowing the dominant members to continue unchecked ignores the facilitator's responsibility to manage group dynamics. Ending the meeting early abandons the discussion rather than fixing the imbalance. Assigning decision-making solely to the vocal members permanently silences the quieter members instead of drawing them into the discussion.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0021",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write persuasive messages",
+    "question": "A startup founder is drafting an email to convince a local bank to extend a small-business line of credit. Which approach would make the message most persuasive?",
+    "options": {
+      "A": "Listing every operational detail of the business regardless of relevance to the loan",
+      "B": "Using an apologetic tone that emphasizes the business's past financial struggles",
+      "C": "Presenting clear evidence of steady revenue growth and a specific plan for repayment",
+      "D": "Requesting the credit line without providing any supporting financial information"
+    },
+    "answer": "C",
+    "explanation": "Presenting clear evidence of revenue growth along with a specific repayment plan builds a credible, persuasive case that addresses the bank's main concern: risk. Listing irrelevant operational details dilutes the message's persuasive focus. An apologetic tone emphasizing past struggles undermines confidence rather than persuading the reader. Requesting credit without supporting financial information gives the bank no reason to say yes.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0022",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain how digital communications expose business to risk",
+    "question": "An employee at a small marketing firm forwards a client's confidential campaign strategy to a personal email account so she can work on it over the weekend. Which risk does this action best illustrate?",
+    "options": {
+      "A": "Increased advertising costs due to inefficient scheduling",
+      "B": "Reduced employee morale from excessive workload",
+      "C": "Lower search engine rankings for the client's website",
+      "D": "Potential data breach and loss of confidential client information"
+    },
+    "answer": "D",
+    "explanation": "Forwarding confidential information to a personal, less secure account creates a real risk of data breach and loss of control over sensitive client information, a key danger of digital communication. This scenario does not involve advertising costs, employee morale, or search engine rankings; it is specifically about the security risk created by moving confidential data outside company-controlled channels.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0023",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Choose and use appropriate channel for workplace communication",
+    "question": "A warehouse manager needs to notify all shift employees immediately that a forklift has malfunctioned and a section of the floor must be avoided. Which communication channel should she use?",
+    "options": {
+      "A": "An immediate face-to-face announcement or intercom alert to all employees on site",
+      "B": "A detailed memo emailed to be read at the end of the week",
+      "C": "A note posted on the break room bulletin board for employees to notice eventually",
+      "D": "A message left with one supervisor to pass along whenever convenient"
+    },
+    "answer": "A",
+    "explanation": "A safety hazard requires an immediate, direct channel reaching everyone at once, making a face-to-face announcement or intercom alert the appropriate choice. An emailed memo read later fails to address the urgency of an active hazard. A bulletin board note may go unnoticed for hours, risking injury. Relying on one supervisor to relay the message introduces delay and the possibility the message never reaches everyone.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0024",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channel-member relationships",
+    "question": "A small furniture manufacturer sells through independent retail stores. One retailer frequently discounts the manufacturer's products below the suggested price, undercutting other retailers in the same region. What best describes the issue at the heart of this situation?",
+    "options": {
+      "A": "The manufacturer's product quality has declined over time",
+      "B": "A breakdown in the channel-member relationship is creating conflict among distribution partners",
+      "C": "The retailer has switched to a completely different distribution channel for these products",
+      "D": "Consumer demand for the product has permanently decreased"
+    },
+    "answer": "B",
+    "explanation": "When one channel member's pricing behavior creates conflict with other partners in the same distribution network, it reflects a breakdown in the channel-member relationship that the manufacturer must manage. There is no indication that product quality declined or that consumer demand dropped. Nor has the retailer left the channel: it is still buying from the manufacturer and selling to the same customers, and the discounting is happening inside the existing arrangement, which is precisely what makes it a relationship problem rather than a structural one.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0025",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Describe ethical considerations in channel management",
+    "question": "A beverage company discovers that one of its distributors has been telling retailers that a competitor's product contains harmful ingredients, which is false, in order to win more shelf space. What ethical issue does this raise for the beverage company's channel management?",
+    "options": {
+      "A": "The distributor is using a new digital marketing platform",
+      "B": "The distributor's warehouse location has changed",
+      "C": "The distributor is spreading false information, which the company must address to avoid unethical practices in its channel",
+      "D": "The distributor has pushed order volume beyond the levels the company forecast, straining its production"
+    },
+    "answer": "C",
+    "explanation": "Spreading false claims about a competitor is an unethical practice, and the company is responsible for ensuring its channel partners represent it honestly and fairly, making this the central ethical issue. Changes in a distributor's digital marketing platform or its warehouse location are neutral operational details unrelated to the ethical problem of dishonest conduct. Ordering beyond the company's forecast is a real operational strain on production, but it raises a planning and capacity question rather than an ethical one, and it says nothing about how the distributor won the shelf space in the first place.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0026",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain legal considerations in channel management",
+    "question": "A regional bakery supplier wants to require all of its retail partners to sell its products at one fixed retail price and to stop them from also carrying a competitor's baked goods. Before implementing these requirements, what should the supplier consider?",
+    "options": {
+      "A": "Whether the retailers' store hours align with the supplier's delivery schedule",
+      "B": "Whether such requirements could violate antitrust and fair-trade laws restricting price-fixing and exclusive dealing",
+      "C": "Whether the retailers prefer paper or plastic packaging",
+      "D": "Whether the bakery's recipes should be adjusted to match the regional taste preferences of each retailer's shoppers"
+    },
+    "answer": "B",
+    "explanation": "Requiring fixed resale prices and exclusive dealing arrangements can raise serious antitrust and fair-trade law concerns, so the supplier must evaluate the legal implications before implementing such channel policies. Store hours and packaging preferences are operational concerns that do not address the legal risk created by price-fixing and exclusivity requirements. Adjusting recipes to regional tastes is a genuine product decision, but it concerns what the supplier sells rather than the terms it imposes on those who resell it, and no amount of recipe work makes a fixed-price, exclusive-dealing requirement lawful.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0027",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Coordinate channel management with marketing activities",
+    "question": "An athletic apparel company is launching a national advertising campaign for a new running shoe next month. To maximize the campaign's effectiveness, what should the company do with its distribution channels?",
+    "options": {
+      "A": "Ensure retailers have adequate shoe inventory in place before the campaign launches",
+      "B": "Wait until after the campaign ends to notify retailers about the new product",
+      "C": "Focus solely on the advertising creative and leave inventory planning to each retailer independently",
+      "D": "Reduce the number of retail partners carrying the shoe to limit distribution costs during the campaign"
+    },
+    "answer": "A",
+    "explanation": "Coordinating channel management with marketing means ensuring retailers are stocked and ready before a campaign drives consumer demand, so inventory should be in place before launch. Waiting until after the campaign to notify retailers would leave shelves empty when demand peaks. Leaving inventory planning entirely to each retailer risks stockouts and inconsistent availability. Reducing retail partners during a national campaign would limit the very reach the advertising is meant to capture.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0028",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain forms of financial exchange",
+    "question": "A food truck owner accepts a mix of payments from customers: paper bills and coins, a tap-to-pay debit card, and occasionally a digital wallet transfer from a regular customer who prefers not to carry cash. When the owner records the debit card tap-to-pay transaction in her daily sales log, which form of financial exchange is she recording?",
+    "options": {
+      "A": "Barter, a direct trade of goods or services without money",
+      "B": "Currency exchange between two nations' currencies",
+      "C": "Electronic funds transfer",
+      "D": "Promissory note issued to the seller"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C, electronic funds transfer, because a debit card tap-to-pay transaction moves money electronically from the customer's bank account to the business's account without physical cash changing hands. Barter (A) is a direct trade of goods or services with no money involved at all, whereas the tap moves dollars. Currency exchange (B) converts one nation's money into another's, which is not what happens when a domestic debit card is tapped. A promissory note (D) is a written promise to pay a specific sum at a future date, while the debit tap settles the sale on the spot from funds the customer already holds.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0029",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe functions of money",
+    "question": "A landscaping company quotes jobs in dollars, and a homeowner compares three quotes of $450, $500, and $475 before choosing the cheapest one. This scenario best illustrates money serving as a",
+    "options": {
+      "A": "medium of exchange",
+      "B": "measure of value",
+      "C": "store of value",
+      "D": "form of collateral"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B, measure of value, because the homeowner is using dollar amounts as a common standard to compare the relative worth of the three quotes. A medium of exchange (A) refers to money actually being used to complete a purchase, which has not happened yet in this scenario. A store of value (C) refers to money retaining purchasing power over time, which is not what is being illustrated. Collateral (D) is an asset pledged to secure a loan, unrelated to comparing service quotes.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0030",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain time value of money",
+    "question": "A young entrepreneur is deciding whether to accept $10,000 today or $10,000 in three years as a loan repayment from a business partner. She insists on receiving the money today rather than later, even though the dollar amount is identical. Her reasoning is best explained by which financial concept?",
+    "options": {
+      "A": "Diversification reduces investment risk",
+      "B": "Compound interest increases account balances",
+      "C": "Money available today can be invested to earn returns before the later date",
+      "D": "Amortization spreads a loan's repayment into equal installments across its full term"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C because the time value of money holds that a dollar received today is worth more than the same dollar received in the future, since it can be invested or earn interest in the meantime. Diversification (A) is a risk-management strategy unrelated to timing of cash receipt. Compound interest (B) describes how interest itself earns interest, but it does not by itself explain why she prefers earlier receipt of the exact same amount. Amortization (D) describes how a loan is paid down in installments over its term, which concerns the schedule a borrower repays on, not the value of receiving a single lump sum now rather than in three years.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0031",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain purposes and importance of credit",
+    "question": "A new bakery owner wants to purchase a $15,000 commercial oven but only has $6,000 in cash on hand. By taking out an equipment loan for the remaining $9,000, the owner is primarily using credit to",
+    "options": {
+      "A": "eliminate the obligation to repay the $9,000 once the oven is installed and earning revenue",
+      "B": "avoid paying interest by spreading the oven's cost across its useful life",
+      "C": "reduce the $15,000 total price by financing part of the purchase",
+      "D": "acquire needed assets sooner than saving cash would allow"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D because credit allows businesses and individuals to obtain goods or assets now and pay for them over time, letting the bakery owner get the oven immediately rather than waiting to save the full amount. Credit does not cancel the debt once the asset starts earning (A); the loan is owed on its own schedule whether or not the oven ever produces a dollar. Spreading payments across the oven's useful life does not avoid interest (B); it is the very thing interest is charged for, so the longer the term, the more interest accrues. Financing does not reduce the oven's $15,000 price (C); it changes when the owner pays rather than what the equipment costs, and the finance charges push her total outlay above $15,000.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0032",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Determine personal net worth",
+    "question": "A recent graduate lists her assets as a $12,000 car and $3,000 in savings, and her liabilities as a $7,000 car loan and $1,500 in credit card debt. What is her personal net worth?",
+    "options": {
+      "A": "$6,500",
+      "B": "$8,500",
+      "C": "$15,000",
+      "D": "$23,500"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A: net worth equals total assets ($12,000 + $3,000 = $15,000) minus total liabilities ($7,000 + $1,500 = $8,500), which equals $6,500. $8,500 (B) is only her total liabilities, not her net worth. $15,000 (C) is only her total assets, ignoring what she owes. $23,500 (D) incorrectly adds assets and liabilities together instead of subtracting.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0033",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Interpret a pay stub",
+    "question": "An employee reviews her pay stub and notices her gross pay is $1,200 for the period, but the deposit into her bank account was only $920. Which part of the pay stub explains this difference?",
+    "options": {
+      "A": "Year-to-date earnings",
+      "B": "Employer's business address",
+      "C": "Deductions and withholdings",
+      "D": "Pay period start date"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C, deductions and withholdings, because taxes, insurance premiums, and retirement contributions are subtracted from gross pay to arrive at net pay, the amount actually deposited. Year-to-date earnings (A) is a cumulative total for the year and does not explain a single period's difference. The employer's business address (B) is identifying information with no effect on pay amounts. The pay period start date (D) simply indicates the timeframe covered and does not account for the reduction in pay.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0034",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Read and reconcile bank statements",
+    "question": "A small business owner's checkbook register shows a balance of $4,300, but the bank statement shows $4,550. After reviewing both, she finds a $250 deposit that was recorded by the bank but that she forgot to enter in her register, and no other differences exist. What should she do to reconcile the accounts?",
+    "options": {
+      "A": "Contact the bank to dispute the deposit as an error",
+      "B": "Add the $250 deposit to her checkbook register",
+      "C": "Subtract $250 from the bank statement balance",
+      "D": "Ignore the difference since it favors the business"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B: since the bank correctly recorded a real deposit that she simply failed to log, she should add the $250 to her own register so both records match the true balance. Disputing the deposit (A) is unnecessary since the bank's entry is accurate. Subtracting $250 from the bank statement (C) would create a discrepancy since the bank's figure is already correct. Ignoring the difference (D) is poor financial record-keeping and could cause the owner to overspend based on an inaccurate register.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0035",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe cash flow statements",
+    "question": "A retail store had a profitable quarter on its income statement, but the owner is confused because the business struggled to pay rent and suppliers on time during that same period. Which financial statement would best help the owner understand why cash was tight despite reported profit?",
+    "options": {
+      "A": "Balance sheet",
+      "B": "Statement of retained earnings",
+      "C": "Personal budget",
+      "D": "Cash flow statement"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D because a cash flow statement tracks the actual movement of cash in and out of the business across operating, investing, and financing activities, which can reveal timing gaps between earning profit and collecting or spending cash. A balance sheet (A) shows assets, liabilities, and equity at a single point in time but does not explain cash timing issues. A statement of retained earnings (B) tracks accumulated profits kept in the business, not cash movement. A personal budget (C) applies to an individual's finances, not a business's cash operations.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0036",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Demonstrate a customer service mindset",
+    "question": "A customer at an electronics store asks a sales associate a question about a product the associate is unfamiliar with. Instead of guessing or brushing the customer off, the associate says, \"Let me find someone who can answer that accurately for you,\" and walks the customer to a specialist. This response best demonstrates",
+    "options": {
+      "A": "a genuine customer service mindset",
+      "B": "an attempt to avoid making a sale",
+      "C": "poor product knowledge that should be hidden",
+      "D": "a violation of company return policy"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A because prioritizing the customer's need for accurate information, even when it means admitting a knowledge gap, reflects a genuine customer-first attitude central to a customer service mindset. This is not an attempt to avoid a sale (B); connecting the customer to a specialist actually supports making a sale. Admitting unfamiliarity and getting help is the opposite of hiding poor product knowledge (C), which would involve guessing or bluffing. Return policy (D) is unrelated, as no return or refund was discussed.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0037",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle difficult customers",
+    "question": "A customer is shouting angrily at a hotel front desk employee about a room that was not cleaned properly, drawing attention from other guests in the lobby. What is the most appropriate first step for the employee to take?",
+    "options": {
+      "A": "Argue back to defend the housekeeping staff",
+      "B": "Calmly acknowledge the customer's frustration and offer to move the conversation somewhere private",
+      "C": "Tell the customer that he will need to lower his voice or continue the conversation outside, since other guests are disturbed",
+      "D": "Offer a full refund for the night right away, before asking any questions about what was wrong with the room"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B because calmly acknowledging frustration and moving the conversation to a private area de-escalates the situation, shows respect for the customer, and protects the experience of other guests. Arguing back (A) escalates conflict rather than resolving it. Telling the customer to lower his voice or step outside (C) names a real problem, since the lobby audience is a genuine concern, but it puts the demand on the customer and reads as a reprimand, where offering to move somewhere private achieves the same thing as a courtesy. Offering a full refund right away (D) resolves the noise but not the complaint, since the employee still does not know what went wrong, and the refund may be more or less than the situation calls for.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0038",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle customer/client complaints",
+    "question": "A customer emails a clothing retailer complaining that a jacket arrived with a broken zipper. The customer service representative wants to resolve the issue effectively. Which sequence of actions best reflects proper complaint handling?",
+    "options": {
+      "A": "Apologize, ask clarifying questions about the defect, and offer a replacement or refund",
+      "B": "Forward the email to a manager and take no further action",
+      "C": "Immediately explain that defects are the manufacturer's fault and not the retailer's problem",
+      "D": "Ask the customer to repost the complaint on social media for faster processing"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A because effective complaint handling involves acknowledging the problem, gathering details to understand it fully, and offering a fair resolution, which addresses the customer's need and preserves the relationship. Simply forwarding the email without action (B) fails to address the customer promptly. Blaming the manufacturer (C) deflects responsibility instead of resolving the customer's problem. Redirecting the customer to social media (D) is unprofessional and would likely escalate the issue publicly rather than resolve it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0039",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Discuss the nature of customer relationship management",
+    "question": "A coffee shop chain uses a loyalty app that tracks each customer's favorite drinks, birthday, and past complaints, then trains baristas to reference this information during visits. This system primarily supports which business function?",
+    "options": {
+      "A": "Inventory forecasting, which predicts each store's stock needs",
+      "B": "Payroll processing, which pays the chain's baristas",
+      "C": "Supply-chain logistics between warehouses",
+      "D": "Customer relationship management"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D because customer relationship management involves collecting and using customer data to build stronger, more personalized long-term relationships, exactly what the loyalty app enables. Inventory forecasting (A) predicts how much stock each store needs, which is a question about quantities of coffee rather than about who is drinking it. Payroll processing (B) pays the baristas and has nothing to do with what the app records about customers. Supply-chain logistics (C) moves goods between warehouses and stores, upstream of the counter where the barista uses a customer's history.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0040",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe methods used to protect intellectual property",
+    "question": "A small tech startup develops a unique logo and slogan that customers begin to associate strongly with its brand. To legally prevent competitors from using a confusingly similar logo or slogan, the startup should register a",
+    "options": {
+      "A": "trademark",
+      "B": "patent",
+      "C": "copyright",
+      "D": "trade secret"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A, trademark, because trademarks protect brand identifiers such as logos, names, and slogans that distinguish a company's goods or services from competitors. A patent (B) protects new inventions or processes, not brand symbols. A copyright (C) protects original creative works like writing, music, or art, not short brand marks like slogans and logos. A trade secret (D) protects confidential business information, such as formulas or methods, kept hidden from the public, which does not apply to a publicly displayed logo.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0041",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe the nature of legally binding contracts",
+    "question": "A supplier and a retailer verbally agree that the supplier will deliver 500 units of a product next month in exchange for payment upon delivery. Both parties understand the terms and intend to be bound by them. For this verbal agreement to be legally enforceable as a contract, which element is essential?",
+    "options": {
+      "A": "The agreement must be typed rather than handwritten",
+      "B": "Both parties must have exchanged something of value, known as consideration",
+      "C": "A government agency must approve the agreement in advance",
+      "D": "The agreement must include a penalty clause for late delivery"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B because a legally binding contract requires mutual consideration, meaning each party gives something of value, here the units of product in exchange for payment, along with mutual assent and legal purpose. Whether an agreement is typed or handwritten (A) does not determine enforceability, since valid contracts can be oral. Government pre-approval (C) is not a general requirement for standard commercial contracts. A penalty clause for late delivery (D) may be a useful contract term, but it is not a required element for the contract to be legally binding in the first place.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0042",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain types of business ownership",
+    "question": "Two friends want to start a graphic design business together. They want to share profits and decision-making equally, and both are willing to accept unlimited personal liability for any business debts. Which type of business ownership best fits their plan?",
+    "options": {
+      "A": "Corporation",
+      "B": "Sole proprietorship",
+      "C": "General partnership",
+      "D": "Limited liability company"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C, general partnership, because it involves two or more owners who share profits, management responsibilities, and unlimited personal liability for business debts, matching exactly what the friends described. A corporation (A) provides limited liability to its owners through shares, which contradicts their acceptance of unlimited liability. A sole proprietorship (B) has only one owner, but the friends want to co-own the business together. A limited liability company (D) is designed specifically to protect owners from unlimited personal liability, which conflicts with what the two friends are willing to accept.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0043",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify product opportunities",
+    "question": "Devon runs a small pet-grooming shop and notices that many of his customers drive across town because there is no dog daycare in his neighborhood. He begins looking into whether adding daycare services would be worthwhile. Devon is engaged in",
+    "options": {
+      "A": "conducting a warranty audit.",
+      "B": "performing a corporate branding review.",
+      "C": "executing a product bundling strategy.",
+      "D": "identifying a product opportunity."
+    },
+    "answer": "D",
+    "explanation": "Identifying a product opportunity. Devon is recognizing an unmet need in his market (no nearby dog daycare) and evaluating whether offering that service could benefit his business, which is the definition of identifying a product opportunity. A warranty audit reviews existing warranty terms, which is not happening here. A corporate branding review focuses on the company's overall image, not on spotting a gap in services. Product bundling combines existing products/services together for sale, but Devon has not yet decided to offer daycare, let alone bundle it with anything.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0044",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe grades and standards",
+    "question": "A lumber company labels its wood products as \"Select,\" \"No. 1 Common,\" or \"No. 2 Common\" based on the number and size of knots and blemishes in each board. This labeling system is an example of",
+    "options": {
+      "A": "a product warranty.",
+      "B": "a grading system.",
+      "C": "a corporate brand.",
+      "D": "a product life cycle stage."
+    },
+    "answer": "B",
+    "explanation": "A grading system. Grades classify products into categories based on established quality characteristics, such as the size and number of knots in lumber, which is exactly what the lumber company is doing. A warranty is a promise about repair or replacement if a product fails, not a quality classification. A corporate brand refers to the overall identity and reputation of the company, not a quality label on individual products. A product life cycle stage describes where a product is in its market existence (introduction, growth, maturity, decline), which is unrelated to grading lumber by quality.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0045",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain product mix",
+    "question": "A bakery sells three product lines: breads, cakes, and pastries. Within the cake line, it offers birthday cakes, wedding cakes, and cupcakes. The total collection of all product lines the bakery offers is best described as its",
+    "options": {
+      "A": "product width.",
+      "B": "product warranty.",
+      "C": "product mix.",
+      "D": "product standard."
+    },
+    "answer": "C",
+    "explanation": "Product mix. The product mix is the entire assortment of product lines and items a business offers for sale, which in this case includes breads, cakes, and pastries together. Product width (or breadth) refers only to the number of different product lines a company carries, not the full collection of items across all lines. A product warranty is a promise regarding defects or performance, unrelated to the range of products offered. A product standard refers to an established measure of quality or performance, not the assortment of goods sold.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0046",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain corporate branding",
+    "question": "A technology company ensures that its logo, color scheme, tone of advertising, and customer-service philosophy are consistent whether a customer visits its website, a retail store, or calls its support line. This consistency across every consumer interaction reflects the company's efforts in",
+    "options": {
+      "A": "grading its products.",
+      "B": "corporate branding.",
+      "C": "issuing product warranties.",
+      "D": "managing its product mix."
+    },
+    "answer": "B",
+    "explanation": "Corporate branding. Corporate branding involves creating a unified identity and consistent experience for the company as a whole across all touch points, which is what the technology company is doing by aligning its logo, tone, and service philosophy everywhere. Grading products relates to classifying goods by quality standards, not company identity. Issuing product warranties concerns promises about repair or replacement, unrelated to overall brand consistency. Managing the product mix concerns the assortment of products offered, not how the company presents itself to consumers.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0047",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify customer touch points",
+    "question": "A clothing retailer wants to map out every place a shopper interacts with its brand, including its website, in-store fitting rooms, social media ads, and post-purchase emails. This mapping exercise focuses on identifying the retailer's",
+    "options": {
+      "A": "customer touch points.",
+      "B": "grades and standards.",
+      "C": "product bundling options.",
+      "D": "consumer protection provisions."
+    },
+    "answer": "A",
+    "explanation": "Customer touch points. Touch points are every instance where a customer interacts with a brand, such as the website, fitting rooms, ads, and emails described here, so mapping these interactions is identifying touch points. Grades and standards relate to product quality classifications, not points of customer contact. Product bundling refers to combining products for sale together, which is not what the retailer is mapping. Consumer protection provisions are laws safeguarding buyers, unrelated to charting brand interactions.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0048",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain warranties and guarantees",
+    "question": "A furniture store promises that if a couch frame breaks within five years due to a manufacturing defect, the company will repair or replace it at no cost. This promise is an example of a",
+    "options": {
+      "A": "grading standard.",
+      "B": "product bundle.",
+      "C": "warranty.",
+      "D": "touch point."
+    },
+    "answer": "C",
+    "explanation": "Warranty. A warranty is a promise made by a seller or manufacturer to repair, replace, or refund a defective product within a specified time or under specified conditions, exactly as described with the couch frame. A grading standard classifies products by quality characteristics, not promises of repair. A product bundle combines multiple products or services into a single package for sale, which is not what is happening here. A touch point is a point of interaction between the customer and the brand, not a promise about defects.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0049",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe factors in product positioning",
+    "question": "A snack company markets its granola bars as the \"lowest-sugar option on the shelf\" to appeal to health-conscious shoppers, deliberately setting itself apart from competitors that emphasize taste or price. This marketing decision primarily reflects the company's approach to",
+    "options": {
+      "A": "product positioning.",
+      "B": "product grading.",
+      "C": "warranty management.",
+      "D": "database access."
+    },
+    "answer": "A",
+    "explanation": "Product positioning. Positioning involves shaping how consumers perceive a product relative to competitors, and by emphasizing low sugar content over taste or price, the company is deliberately positioning its granola bars in consumers' minds. Product grading involves classifying goods by measurable quality standards, not perception in the marketplace. Warranty management concerns repair or replacement promises, which is unrelated to how the product is perceived. Database access refers to retrieving stored information, which has nothing to do with marketing positioning.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0050",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Assess information needs",
+    "question": "Before launching a new energy drink, a beverage company's marketing team must decide whether it needs data on competitor pricing, consumer taste preferences, or both, and how detailed that data must be. This step of determining exactly what information is required is best described as",
+    "options": {
+      "A": "assessing information needs.",
+      "B": "conducting data mining.",
+      "C": "maintaining customer records.",
+      "D": "monitoring internal records."
+    },
+    "answer": "A",
+    "explanation": "Assessing information needs. This is the process of determining what specific information is necessary to make a decision, which is exactly what the marketing team is doing when deciding what data on pricing and preferences it requires. Data mining involves analyzing large existing datasets for patterns, but the team hasn't yet gathered or analyzed data. Maintaining customer records involves updating existing customer files, not determining research needs. Monitoring internal records involves tracking the company's own operational data, not deciding what external information to seek.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0051",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Evaluate information quality/sources",
+    "question": "While researching competitors, an intern finds two articles about industry sales trends: one published by a respected trade association with cited data, and another posted anonymously on a blog with no sources listed. The intern decides to rely primarily on the trade association's article. This decision-making process best demonstrates",
+    "options": {
+      "A": "storing information.",
+      "B": "evaluating information quality/sources.",
+      "C": "translating research findings into recommendations.",
+      "D": "demonstrating web-search skills."
+    },
+    "answer": "B",
+    "explanation": "Evaluating information quality/sources. The intern is judging the credibility and reliability of two different sources before deciding which to trust, which is the definition of evaluating information quality and sources. Storing information involves saving or filing data for later use, not judging its credibility. Translating research findings into recommendations happens after data has been analyzed, not while assessing source reliability. Demonstrating web-search skills involves the ability to locate information online, not judge its trustworthiness once found.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0052",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Explain legal issues in information management",
+    "question": "An online retailer collects customers' email addresses and purchase histories, then wants to sell that data to a third-party advertiser without notifying customers. A manager raises concerns that this could violate data privacy laws. This concern relates most directly to",
+    "options": {
+      "A": "grades and standards.",
+      "B": "product positioning.",
+      "C": "collaborative/groupware applications.",
+      "D": "legal issues in information management."
+    },
+    "answer": "D",
+    "explanation": "Legal issues in information management. Selling customer data without consent raises questions about compliance with privacy and data-protection laws, which falls squarely under legal issues in information management. Grades and standards concern product quality classification, unrelated to data privacy. Product positioning concerns how a product is perceived by consumers, not how their data is legally handled. Collaborative/groupware applications refer to software tools that let employees work together, not legal compliance regarding data use.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0053",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Interpret statistical findings",
+    "question": "A market research report shows that 68% of surveyed customers rated a new product \"very satisfied,\" with a margin of error of 4%. A product manager reviewing the report must determine what this percentage and margin of error actually mean for how confident the company can be in the results. This task is an example of",
+    "options": {
+      "A": "storing information.",
+      "B": "interpreting statistical findings.",
+      "C": "demonstrating spreadsheet applications.",
+      "D": "conducting environmental scans."
+    },
+    "answer": "B",
+    "explanation": "Interpreting statistical findings. The product manager is making sense of numerical survey results, including what the margin of error implies about confidence in the data, which is the definition of interpreting statistical findings. Storing information simply involves saving or filing data, not analyzing its meaning. Demonstrating spreadsheet applications refers to the technical skill of using spreadsheet software, not interpreting what the numbers mean. Conducting environmental scans involves monitoring broad external trends and conditions, not analyzing a specific survey's statistics.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0054",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Discuss data mining",
+    "question": "A grocery chain analyzes years of point-of-sale transaction data to uncover a previously unnoticed pattern: customers who buy diapers late at night frequently also buy beer. The chain uses this discovery to redesign store layout. This process of digging through large datasets to discover hidden patterns is called",
+    "options": {
+      "A": "grading and standardization.",
+      "B": "environmental scanning.",
+      "C": "product bundling.",
+      "D": "data mining."
+    },
+    "answer": "D",
+    "explanation": "Data mining. Data mining is the process of analyzing large volumes of data to discover patterns and relationships that are not immediately obvious, exactly as the grocery chain did with its transaction records. Grading and standardization involves classifying products by quality characteristics, unrelated to analyzing sales data. Environmental scanning involves monitoring broad external trends like the economy or competitors, not mining a company's own internal transaction data. Product bundling refers to packaging multiple products for sale together, which is a decision that might result from data mining but is not the data-analysis process itself.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0055",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain marketing and its importance",
+    "question": "A startup founder initially believes that marketing is simply advertising a product after it has been made. After studying the field further, she realizes marketing actually encompasses planning, pricing, promoting, and distributing goods to satisfy customer needs from the very beginning of product development. This broader understanding best illustrates why marketing is important because it",
+    "options": {
+      "A": "removes the risk that a well-made product will fail in the marketplace.",
+      "B": "eliminates the need for market research.",
+      "C": "helps create exchanges that satisfy individual and organizational objectives.",
+      "D": "replaces the need for a business plan."
+    },
+    "answer": "C",
+    "explanation": "Helps create exchanges that satisfy individual and organizational objectives. Marketing's importance lies in facilitating exchanges between businesses and customers that satisfy the needs of both parties, which is why understanding it as more than advertising matters for the founder. Marketing does not remove the risk of failure even for a well-made product; plenty of good products are marketed carefully and still find no buyers, because marketing improves the odds of an exchange rather than assuring one. It does not eliminate the need for market research; in fact, marketing relies heavily on research. It also does not replace a business plan, which addresses far more than marketing, such as finance and operations.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0056",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Describe marketing functions and activities",
+    "question": "A skincare company handles setting prices, running social media promotions, managing product packaging, and coordinating shipments to retailers. These varied tasks the company performs to move products from producer to consumer are collectively known as",
+    "options": {
+      "A": "marketing functions.",
+      "B": "consumer protection provisions.",
+      "C": "corporate branding factors.",
+      "D": "information system controls."
+    },
+    "answer": "A",
+    "explanation": "Marketing functions. Marketing functions are the specific activities, such as pricing, promotion, product/service management, and distribution, that businesses use to move goods from producers to consumers, matching exactly what the skincare company is doing. Consumer protection provisions are laws that safeguard buyers, not the company's own operational activities. Corporate branding factors relate to how a company builds its overall identity, not the array of tasks moving product to market. Information system controls refer to safeguards over data and technology systems, unrelated to pricing, promotion, and distribution tasks.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0057",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain buying behavior factors",
+    "question": "A young professional chooses a particular brand of running shoes because her close friends and coworkers all wear the same brand and speak highly of it, even though she has never tried a competing brand. Her purchase decision is most influenced by",
+    "options": {
+      "A": "grades and standards.",
+      "B": "social/reference group influence.",
+      "C": "the product's warranty and return guarantees.",
+      "D": "data mining results."
+    },
+    "answer": "B",
+    "explanation": "Social/reference group influence. Buying behavior is often shaped by the opinions and habits of groups a consumer identifies with, such as friends and coworkers, which is exactly what drove her shoe purchase. Grades and standards refer to formal quality classifications of products, not social influence on purchasing. The product's warranty and return guarantees are real factors that move some buyers, but they are terms she would have had to look up and weigh, and the scenario says her choice followed what her friends and coworkers wear. Data mining results are patterns discovered by companies analyzing data, not a personal factor influencing her own buying decision.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0058",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe economics and economic activities",
+    "question": "A small town's only bakery decides how many loaves of bread to bake each morning based on the limited amount of flour, labor hours, and oven space it has available. This process of deciding how to allocate limited resources to satisfy unlimited wants is best described as",
+    "options": {
+      "A": "marketing.",
+      "B": "economics.",
+      "C": "accounting.",
+      "D": "management."
+    },
+    "answer": "B",
+    "explanation": "Economics. Economics is the study of how individuals and businesses make choices about allocating scarce resources to satisfy unlimited wants and needs; the bakery deciding how to use its limited flour, labor, and equipment is engaging in economic activity. Management is the broader process of planning, organizing, and controlling a business, not specifically the allocation of scarce resources. Accounting tracks and reports financial transactions rather than deciding how to allocate resources. Marketing focuses on identifying and satisfying customer needs, not on resolving scarcity.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0059",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain supply and demand",
+    "question": "A popular food truck sells only 50 tacos per day, but on a Saturday during a downtown festival, over 300 people line up wanting to buy tacos. With the number of tacos available unchanged, what will most likely happen to the price of the tacos at the festival?",
+    "options": {
+      "A": "The price will decrease because the truck wants to sell out quickly.",
+      "B": "The price will rise because demand now exceeds the available supply.",
+      "C": "The price will stay the same because the truck's costs have not changed.",
+      "D": "The price will rise because the government requires it during festivals."
+    },
+    "answer": "B",
+    "explanation": "The price will rise because demand now exceeds the available supply. When demand for a limited quantity of a good increases sharply while supply stays fixed, sellers can charge more because customers are willing to pay a premium to obtain the scarce item. The price would not stay the same just because costs are unchanged, since price is driven by the interaction of supply and demand, not solely by cost. The price would not decrease, since a surge in demand with fixed supply pushes prices upward rather than downward. There is no government mandate involved in this scenario; the price change results purely from market forces.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0060",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Identify the impact of entrepreneurship on economies",
+    "question": "Over the past ten years, a formerly quiet neighborhood has seen dozens of new small businesses open, from coffee shops to repair services, each hiring several local residents. Economists studying the area would most likely credit this growth in jobs and local spending to an increase in",
+    "options": {
+      "A": "government subsidies.",
+      "B": "labor union membership.",
+      "C": "interest-rate reductions.",
+      "D": "entrepreneurial activity."
+    },
+    "answer": "D",
+    "explanation": "Entrepreneurial activity. Entrepreneurs create new businesses that generate jobs, increase local spending, and stimulate further economic growth in a community; the wave of new small businesses hiring local residents is a direct impact of entrepreneurship on the local economy. Interest-rate reductions might make borrowing easier but do not by themselves create new businesses. Labor union membership relates to organized labor negotiating on behalf of existing workers, not to starting new ventures. Government subsidies could support some businesses, but the scenario describes independently opened ventures, which is the hallmark of entrepreneurship.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0061",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Identify factors affecting profit",
+    "question": "A landscaping company's owner notices that even though sales revenue has stayed the same for two years, profit has steadily fallen because fuel prices for the company's trucks and mowers have increased significantly. Which factor is most directly responsible for the decline in profit?",
+    "options": {
+      "A": "Rising operating costs",
+      "B": "Declining customer demand",
+      "C": "Increased market competition",
+      "D": "Lower employee productivity"
+    },
+    "answer": "A",
+    "explanation": "Rising operating costs. Profit is the difference between revenue and expenses, so when a cost such as fuel rises while revenue stays flat, profit shrinks; the scenario specifically identifies increased fuel prices, an operating cost, as the cause. Declining customer demand is ruled out because revenue has remained the same, meaning customers are still buying at the same level. Increased market competition is not mentioned and would typically show up as falling revenue, not steady revenue with rising costs. Lower employee productivity is not indicated anywhere in the scenario, which focuses solely on fuel expenses.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0062",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain competition",
+    "question": "A city currently has only one company that provides trash collection services, and that company charges high rates because residents have no other option. A new company enters the market offering the same service at a lower price. What is the most likely effect of this new company entering the market?",
+    "options": {
+      "A": "The original company's rates will likely decrease as it works to keep customers.",
+      "B": "The original company's rates will likely increase to cover its remaining costs.",
+      "C": "The total number of trash collection customers in the city will decrease.",
+      "D": "The government will regulate the price the new company can charge."
+    },
+    "answer": "A",
+    "explanation": "The original company's rates will likely decrease as it works to keep customers. Competition occurs when two or more businesses vie for the same customers, and it typically pressures firms to lower prices, improve quality, or offer better service to retain their customer base; here, the entry of a lower-priced rival gives the original company incentive to lower its rates. The original company's rates would not rise, since that would drive even more customers to the cheaper competitor. The total number of customers needing trash collection is unlikely to shrink simply because a new provider entered the market. Nothing in the scenario indicates government price regulation is involved.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0063",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain diminishing returns",
+    "question": "A small print shop has one printing press. Adding a second employee to run it increased daily output significantly, but adding a third and fourth employee to the same single press increased output only slightly each time because the workers now have to wait in line to use the machine. This situation illustrates the economic concept of",
+    "options": {
+      "A": "supply and demand.",
+      "B": "diminishing returns.",
+      "C": "economies of scale.",
+      "D": "specialization of labor."
+    },
+    "answer": "B",
+    "explanation": "Diminishing returns. Diminishing returns occur when adding more of one input, such as labor, to a fixed amount of another input, such as the single press, eventually produces smaller and smaller increases in output; the shrinking gains from the third and fourth employees on one machine illustrate this concept. Specialization of labor refers to dividing tasks among workers to increase efficiency, not to the output effects of adding workers to a fixed resource. Economies of scale describe cost savings that occur as overall production volume increases, which is not what is being measured here. Supply and demand explains how prices are set by the interaction of buyers and sellers, unrelated to this production scenario.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0064",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe inflation's impact",
+    "question": "A bakery owner set the price of a loaf of bread at $4 five years ago. Today, the same loaf costs the bakery much more to produce because the price of flour, sugar, and other ingredients has risen steadily each year, forcing the owner to raise the price to $6.50 just to maintain the same profit margin. This ongoing rise in overall price levels over time is best described as",
+    "options": {
+      "A": "a recession.",
+      "B": "deflation.",
+      "C": "inflation.",
+      "D": "a trade deficit."
+    },
+    "answer": "C",
+    "explanation": "Inflation. Inflation is a sustained increase in the general price level of goods and services over time, which erodes purchasing power and forces businesses to raise prices to cover rising costs, exactly as described with the bakery's ingredients. Deflation is the opposite condition, a sustained decrease in prices, which is not what is happening here. A recession refers to a broad decline in economic activity, not specifically to rising prices. A trade deficit occurs when a country imports more than it exports, a concept unrelated to a bakery's ingredient costs.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0065",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain selling function",
+    "question": "A salesperson at an electronics store does more than simply ring up a customer's purchase; she asks questions to understand what the customer needs, recommends compatible accessories, and explains the store's return policy before the sale is finalized. This broader set of activities best illustrates that selling is a",
+    "options": {
+      "A": "clerical task performed after a purchase decision is made.",
+      "B": "process of communication that helps customers make satisfying decisions.",
+      "C": "one-time transaction focused only on completing the payment.",
+      "D": "function limited to answering whatever questions the customer thinks to ask first."
+    },
+    "answer": "B",
+    "explanation": "A process of communication that helps customers make satisfying decisions. The selling function involves determining customer needs and wants and responding through planned communication that influences purchase decisions, exactly as the salesperson does by asking questions and recommending products. It is not merely a clerical task performed after the decision is made, since the salesperson is actively shaping the decision itself. It is not limited to a one-time payment transaction, because selling includes needs discovery and follow-up information like the return policy. Nor is it limited to whatever the customer thinks to ask: this salesperson raises the compatible accessories and the return policy herself, and a customer who did not know to ask about either still leaves informed.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0066",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain company selling policies",
+    "question": "A furniture retailer's employee handbook states that no salesperson may offer a discount greater than 10% without manager approval, and all returns must be accompanied by a receipt within 30 days. These guidelines exist primarily to",
+    "options": {
+      "A": "increase the number of products each salesperson can sell in a day.",
+      "B": "help salespeople avoid the need for product knowledge training.",
+      "C": "replace the need for salespeople to build relationships with customers.",
+      "D": "ensure consistent, fair treatment of customers across all transactions."
+    },
+    "answer": "D",
+    "explanation": "Ensure consistent, fair treatment of customers across all transactions. Company selling policies establish guidelines, such as discount limits and return requirements, so that all customers are treated fairly and consistently regardless of which salesperson helps them. These policies do not increase the volume of products sold in a day, since they are about consistency, not sales speed. They do not eliminate the need for product knowledge training, as salespeople must still know the merchandise to sell effectively. They also do not replace relationship-building, which remains essential to successful selling even within policy guidelines.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0067",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain building clientele",
+    "question": "After every sale, a car salesperson records the customer's contact information, vehicle preferences, and purchase date in a database, then follows up periodically with maintenance reminders and information about new models that match the customer's interests. This ongoing practice is primarily intended to",
+    "options": {
+      "A": "meet a legal requirement for recording vehicle sales.",
+      "B": "reduce the dealership's advertising budget by replacing it with follow-up calls.",
+      "C": "develop a base of repeat customers who return for future purchases.",
+      "D": "comply with the manufacturer's warranty registration process for every vehicle sold on the lot."
+    },
+    "answer": "C",
+    "explanation": "Develop a base of repeat customers who return for future purchases. Building clientele involves maintaining records of customers and following up with them to encourage repeat business and long-term loyalty, which is exactly what the salesperson is doing by tracking preferences and reaching out with relevant offers. This practice is not a legal requirement for recording sales. Nor is it a way to replace the advertising budget: follow-up reaches people who have already bought, while advertising exists to reach people who have not, so the two do different jobs and one cannot stand in for the other. It is not the manufacturer's warranty registration either, which is completed once at delivery and would not call for maintenance reminders or news about new models years later.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0068",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Acquire product information",
+    "question": "Before working her first shift on the sales floor, a new employee at an outdoor gear store spends a full day learning the technical specifications, materials, and intended uses of the store's tents, backpacks, and hiking boots. Why is this step important to her success as a salesperson?",
+    "options": {
+      "A": "It puts her in charge of setting the retail prices for the tents, backpacks, and hiking boots that she has been trained on",
+      "B": "It allows her to accurately answer customer questions and match products to their needs.",
+      "C": "It secures her a higher hourly wage than the employees who have not yet completed the store's product training day",
+      "D": "It removes any need for her to consult a manager about a product question raised on the floor"
+    },
+    "answer": "B",
+    "explanation": "It allows her to accurately answer customer questions and match products to their needs. Acquiring detailed product information equips salespeople to answer customer questions knowledgeably, explain features and benefits, and recommend the right product for each customer's needs. Knowing how a tent is built does not put her in charge of pricing it (A); retail prices are set by buyers and management against cost and competition, and product training confers no such authority. The training does not secure a higher wage (C), since pay is tied to role, experience, or performance rather than to a day of instruction. It also does not remove the need to consult a manager (D): product knowledge answers questions about the merchandise, while the situations that go to a manager tend to involve exceptions, authority, and judgment that no amount of specification training settles.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0069",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Discuss motivational theories affecting buying behavior",
+    "question": "A luxury handbag brand's advertisements focus heavily on how owning one of its bags will make customers feel admired and respected by their peers, rather than on the bag's durability or storage capacity. This marketing approach is most directly appealing to which level of need described in Maslow's hierarchy?",
+    "options": {
+      "A": "Physiological needs",
+      "B": "Safety needs",
+      "C": "Esteem needs",
+      "D": "Self-actualization needs"
+    },
+    "answer": "C",
+    "explanation": "Esteem needs. Maslow's hierarchy identifies esteem needs as the desire for respect, recognition, and status from others, which matches the brand's focus on how the handbag will make customers feel admired by their peers. Physiological needs involve basic survival requirements like food and shelter, which have nothing to do with a luxury handbag's appeal. Safety needs relate to security and protection from harm, not social admiration. Self-actualization needs involve pursuing one's own personal growth and potential, which is a more internally focused motivation than seeking peer admiration.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0070",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Risk Management",
+    "performanceIndicator": "Identify potential business threats and opportunities to protect a business's financial well-being",
+    "question": "The owner of a small chain of ice cream shops notices that a nearby dairy farm has started offering wholesale prices well below the current supplier's rates, while at the same time a competing chain has begun opening stores in the same neighborhoods. To protect the business's financial well-being, the owner should first",
+    "options": {
+      "A": "ignore the cheaper dairy and the new competitor until the monthly sales figures show whether either one has actually moved the shops' revenue.",
+      "B": "raise menu prices across every location right away, so that the added margin covers whatever revenue the competing chain ends up taking.",
+      "C": "evaluate both situations to determine which represents a cost-saving opportunity and which represents a competitive threat.",
+      "D": "close the shops located nearest the competing chain's new stores and move that capacity into neighborhoods it has not entered yet."
+    },
+    "answer": "C",
+    "explanation": "Evaluate both situations to determine which represents a cost-saving opportunity and which represents a competitive threat. Protecting a business's financial well-being starts with identifying potential threats and opportunities in the environment, such as recognizing the cheaper supplier as a possible cost-saving opportunity and the new competitor as a possible threat to sales, before deciding how to respond to each. Waiting for the monthly figures to move surrenders the advantage of seeing both changes early, and by the time a decline shows up in the numbers the cheaper dairy may be under contract to someone else. Raising prices across every location answers a competitive threat by making the competitor's stores the cheaper option, and it does so before any analysis has established that sales are at risk. Closing the nearest shops treats the competitor as decisive before its effect is known and abandons the neighborhoods where the owner already has a foothold.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0071",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Risk Management",
+    "performanceIndicator": "Explain the nature of business continuity planning",
+    "question": "A regional accounting firm keeps all of its client files on a single office server. After a fire destroys the building, the firm loses access to every client's financial records for weeks, causing it to miss tax deadlines and lose several major clients. Which action would have most effectively reduced the impact of this disaster on the firm's operations?",
+    "options": {
+      "A": "Purchasing additional fire insurance covering the building's contents and the value of the records stored inside it.",
+      "B": "Developing a business continuity plan that included off-site data backups and a remote work procedure.",
+      "C": "Requiring every employee to complete additional continuing education hours so the staff stays current on changing tax rules.",
+      "D": "Hiring additional accountants to handle a larger client workload."
+    },
+    "answer": "B",
+    "explanation": "Developing a business continuity plan that included off-site data backups and a remote work procedure. Business continuity planning involves identifying risks to critical operations, such as the loss of a single physical location, and establishing procedures like off-site backups and remote work so the business can keep functioning after a disruption. Additional fire insurance, even written to cover the records, pays the firm for what it lost rather than giving it the files back; a check does not reconstruct a client's return or meet a filing deadline. Continuing education keeps the staff current on tax rules, which is worth doing, but a fully trained accountant with no access to client records still cannot file. Hiring additional accountants would not solve the core problem of records being destroyed and inaccessible.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0072",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Risk Management",
+    "performanceIndicator": "Discuss the nature of risk and reward",
+    "question": "An entrepreneur is deciding whether to invest her savings in expanding her existing, profitable bakery to a second location or to keep the money in a savings account earning minimal interest. Expanding could substantially increase her income, but it could also result in significant losses if the new location fails. This decision illustrates which fundamental business concept?",
+    "options": {
+      "A": "Diminishing returns, since adding more of a single input to a fixed operation eventually yields smaller and smaller gains in output.",
+      "B": "Economies of scale, since spreading fixed costs across a greater number of units lowers the cost of producing each individual one.",
+      "C": "The relationship between risk and reward, since greater potential gains come with greater potential losses.",
+      "D": "Market segmentation, since she must divide the market into groups and choose which one the second location would serve."
+    },
+    "answer": "C",
+    "explanation": "The relationship between risk and reward, since greater potential gains come with greater potential losses. Risk and reward describes the general principle that opportunities offering higher potential returns, such as expanding to a new location, typically come with a higher potential for loss compared to safer options like a savings account. Diminishing returns describes what happens as more of one input is added inside a single fixed operation, so it does not speak to a choice between two separate places to put her savings. Economies of scale is a real effect of higher volume on unit costs, but it describes what she might gain if the second bakery succeeds rather than the trade-off she is weighing, and it says nothing about the chance that it fails. Market segmentation involves dividing a market into groups of similar customers, which is a targeting decision rather than the savings-versus-expansion question in front of her.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0073",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Handle/report emergencies",
+    "question": "A small bakery's oven overheats and starts a small grease fire near the fryer station during the morning rush. What should the shift lead do first?",
+    "options": {
+      "A": "Finish serving the customers currently in line before addressing the fire",
+      "B": "Activate the fire suppression system, evacuate the kitchen, and call for help",
+      "C": "Post about the incident on the bakery's social media to warn customers",
+      "D": "Wait for the owner to arrive before taking any action"
+    },
+    "answer": "B",
+    "explanation": "Activating the fire suppression system, evacuating the kitchen, and calling for help is correct because handling an emergency requires immediate action to protect people and contain the hazard before anything else. Finishing service ignores the immediate danger to staff and customers. Posting on social media wastes critical time and does nothing to address the fire itself. Waiting for the owner delays a response that needs to happen immediately, since emergencies cannot wait for someone with authority to arrive.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0074",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Maintain data security",
+    "question": "An employee at a subscription-box company notices that a coworker has been emailing customer credit card files to a personal account to work on them at home. What should the employee do?",
+    "options": {
+      "A": "Report the incident to a supervisor or the company's data security officer",
+      "B": "Ignore it since the coworker probably has good intentions",
+      "C": "Ask the coworker to also send a copy to their own personal account",
+      "D": "Wait to see if the customer data is ever misused before saying anything"
+    },
+    "answer": "A",
+    "explanation": "Reporting the incident to a supervisor or data security officer is correct because maintaining data security requires employees to flag policy violations immediately so sensitive customer information is protected. Ignoring the behavior allows a security risk to continue unaddressed. Asking for a personal copy would compound the violation rather than correct it. Waiting for misuse to occur is reckless, since the goal of data security is prevention, not reaction after harm has already happened.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0075",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Evaluate vendor performance",
+    "question": "A furniture retailer's main lumber supplier has delivered orders late three months in a row, even though the wood quality remains excellent. What should the retailer do when evaluating this vendor?",
+    "options": {
+      "A": "Ignore the delays since the product quality has not changed",
+      "B": "Immediately terminate the contract without discussing the issue",
+      "C": "Weigh the delivery problems against the quality and cost benefits before deciding",
+      "D": "Increase the order size so the supplier has more lead time and more reason to deliver on schedule"
+    },
+    "answer": "C",
+    "explanation": "Weighing the delivery problems against the quality and cost benefits is correct because evaluating vendor performance means considering all factors, such as reliability, quality, and price, before making a decision. Ignoring the delays overlooks a real performance problem that affects the retailer's own operations. Terminating the contract without discussion is premature and could lose a vendor who provides excellent quality. Increasing the order size is an evaluation the retailer has not earned yet: it commits more of the retailer's business to a vendor whose reliability is the open question, and a supplier already three months behind is more likely to slip further on a larger order than to catch up.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0076",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Resolve supplier quality issues",
+    "question": "A candle company discovers that its latest shipment of wax from a supplier has an inconsistent melting point, causing candles to burn unevenly. What is the best first step to resolve this quality issue?",
+    "options": {
+      "A": "Adjust the candle recipe batch by batch until the inconsistent wax burns evenly enough to sell",
+      "B": "Contact the supplier to report the defect and request a corrective action",
+      "C": "Switch to a different wax supplier without raising the defect with the current one",
+      "D": "Sell the uneven candles at a discount without mentioning the issue"
+    },
+    "answer": "B",
+    "explanation": "Contacting the supplier to report the defect and request a corrective action is correct because resolving supplier quality issues starts with clear communication so the supplier can fix the root cause. Reformulating around the wax batch by batch treats every future shipment as a new puzzle, since the melting point is inconsistent and the recipe that rescues one batch will not fit the next; the defect is in the input, and that is where it has to be fixed. Switching suppliers without explanation forfeits the chance to fix a relationship that may otherwise be valuable. Selling defective candles at a discount without disclosure could damage the company's reputation and does not resolve the underlying supplier problem.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0077",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Streamline work processes",
+    "question": "A print shop notices that orders pass through five separate approval steps before being sent to production, causing delays even for simple, low-risk jobs. What should the shop do to streamline this process?",
+    "options": {
+      "A": "Add a sixth approval step to catch any remaining errors",
+      "B": "Require every order, regardless of size, to go through all five steps",
+      "C": "Create a simplified approval path for small, low-risk orders",
+      "D": "Eliminate all approval steps for every type of order"
+    },
+    "answer": "C",
+    "explanation": "Creating a simplified approval path for small, low-risk orders is correct because streamlining work processes means removing unnecessary steps while still maintaining appropriate controls where they matter. Adding another approval step increases delay rather than reducing it. Requiring all orders to go through every step ignores the fact that low-risk jobs don't need the same scrutiny as larger ones. Eliminating all approval steps removes necessary oversight and could lead to costly production errors.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0078",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain supply-chain collaboration",
+    "question": "A toy manufacturer shares real-time sales data with its plastic-resin supplier so the supplier can plan production accordingly and avoid shortages during the holiday season. This practice best illustrates",
+    "options": {
+      "A": "supply-chain collaboration",
+      "B": "vertical integration",
+      "C": "product differentiation",
+      "D": "market segmentation"
+    },
+    "answer": "A",
+    "explanation": "Supply-chain collaboration is correct because it involves businesses at different points in the supply chain sharing information, such as sales data, to coordinate planning and reduce disruptions like shortages. Vertical integration refers to a company owning multiple stages of production itself, not sharing data with an outside supplier. Product differentiation involves making a product stand out from competitors, which is unrelated to this scenario. Market segmentation involves dividing customers into groups, which also does not describe sharing data with a supplier.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0079",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Comply with equipment policies",
+    "question": "A new employee at a print shop wants to use the industrial paper cutter but has not yet completed the required safety certification for that machine. What should the employee do?",
+    "options": {
+      "A": "Use the machine carefully since they have seen coworkers operate it safely",
+      "B": "Ask a certified coworker to run the machine on their behalf without reporting it",
+      "C": "Wait to use the machine until the required certification is completed",
+      "D": "Use the machine only during slow periods when a manager is not watching"
+    },
+    "answer": "C",
+    "explanation": "Waiting to use the machine until certification is complete is correct because complying with equipment policies means following required training and authorization rules before operating machinery, regardless of how confident the employee feels. Using the machine without certification, even carefully, violates policy and risks injury. Having a coworker operate it secretly on the employee's behalf misrepresents who actually used the equipment. Using it only when unsupervised shows the employee understands the rule is being broken, which does not make it acceptable.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0080",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain market and market identification",
+    "question": "A company that makes ergonomic office chairs wants to determine exactly which group of consumers is most likely to purchase its product. This process is best described as",
+    "options": {
+      "A": "market identification",
+      "B": "product positioning",
+      "C": "channel management",
+      "D": "price skimming"
+    },
+    "answer": "A",
+    "explanation": "Market identification is correct because it is the process of determining and defining the specific group of consumers most likely to buy a company's product. Product positioning involves shaping how a product is perceived relative to competitors, not identifying the customer group. Channel management deals with how products move from producer to consumer, which is unrelated. Price skimming is a pricing strategy of starting high and lowering price over time, not a way of identifying a market.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0081",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain role of situation analysis",
+    "question": "Before launching a new energy drink, a beverage company reviews its own strengths and weaknesses along with external opportunities and threats in the market. This step in the marketing-planning process primarily helps the company",
+    "options": {
+      "A": "print promotional materials for the launch event",
+      "B": "understand its current position before setting marketing goals",
+      "C": "finalize the exact retail price of the product",
+      "D": "hire additional sales staff for the new product line"
+    },
+    "answer": "B",
+    "explanation": "Understanding its current position before setting marketing goals is correct because a situation analysis (such as a SWOT analysis) evaluates internal and external factors so a company can make informed decisions in its marketing plan. Printing promotional materials is an execution task that comes later, after planning. Finalizing an exact retail price is a pricing decision, not the purpose of a situation analysis. Hiring sales staff is a staffing decision unrelated to analyzing the company's market position.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0082",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain sales forecasts",
+    "question": "A ski-equipment retailer uses last year's winter sales figures, current snowfall predictions, and regional population growth to estimate how many units it will sell next season. This estimate is best described as a",
+    "options": {
+      "A": "sales forecast",
+      "B": "break-even analysis",
+      "C": "market share report",
+      "D": "cost-benefit analysis"
+    },
+    "answer": "A",
+    "explanation": "A sales forecast is correct because it is an estimate of future sales based on historical data and relevant external factors, such as weather and population trends, exactly as described in the scenario. A break-even analysis calculates the point at which revenue equals costs, not future unit sales. A market share report shows a company's portion of total industry sales, not a prediction of future sales. A cost-benefit analysis compares the costs and benefits of a decision, which is not what is being calculated here.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0083",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing strategies",
+    "question": "A regional coffee chain decides to focus its efforts on college students by offering study-friendly seating, free Wi-Fi, and student discounts rather than trying to appeal to all coffee drinkers. This approach is an example of a",
+    "options": {
+      "A": "marketing strategy",
+      "B": "financial statement",
+      "C": "production schedule",
+      "D": "risk management plan"
+    },
+    "answer": "A",
+    "explanation": "A marketing strategy is correct because it is an overall plan a business uses to reach a specific target market, such as focusing on college students with tailored offerings. A financial statement reports a company's financial performance and is unrelated to targeting customers. A production schedule outlines the timing of manufacturing activities, not marketing decisions. A risk management plan addresses potential business risks, not how to appeal to a specific customer group.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0084",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing plans",
+    "question": "A new pet-food company creates a written document outlining its target market, pricing strategy, promotional activities, and distribution channels for the upcoming year. This document is best described as a",
+    "options": {
+      "A": "marketing plan",
+      "B": "balance sheet",
+      "C": "organizational chart",
+      "D": "purchase order"
+    },
+    "answer": "A",
+    "explanation": "A marketing plan is correct because it is a written document that outlines a business's marketing objectives and the strategies for target market, pricing, promotion, and distribution needed to achieve them. A balance sheet reports assets, liabilities, and equity, not marketing strategy. An organizational chart shows the structure and reporting relationships within a company, unrelated to marketing. A purchase order is a document used to request goods from a supplier, not a marketing planning document.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0085",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Orient new employees",
+    "question": "A newly hired customer service representative shows up for their first day at a call center. Which activity would best help this employee understand the company's expectations and become productive quickly?",
+    "options": {
+      "A": "Assigning them to handle escalated customer complaints immediately",
+      "B": "Providing an orientation covering company policies, procedures, and job duties",
+      "C": "Having them shadow the CEO for the entire first week",
+      "D": "Sending them home to review the employee handbook alone with no follow-up"
+    },
+    "answer": "B",
+    "explanation": "Providing an orientation covering company policies, procedures, and job duties is correct because orienting new employees is meant to introduce them to expectations, workplace culture, and their specific responsibilities so they can become productive. Assigning escalated complaints immediately overwhelms a new hire before they understand basic procedures. Shadowing the CEO for a week does not address the practical, job-specific information a new call center rep needs. Sending them home with only a handbook and no interaction fails to properly orient them or answer their questions.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0086",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Explain ethics in HR",
+    "question": "During a round of layoffs, a human resources manager is asked by an executive to prioritize keeping younger employees over older, more experienced employees strictly because of their age. What is the ethical concern in this situation?",
+    "options": {
+      "A": "The decision could constitute unlawful age discrimination",
+      "B": "Younger employees typically require less onboarding time",
+      "C": "The company will save money on healthcare costs",
+      "D": "Older employees may retire soon regardless of the layoffs"
+    },
+    "answer": "A",
+    "explanation": "The decision could constitute unlawful age discrimination is correct because ethics in HR requires that employment decisions be based on job performance and qualifications rather than protected characteristics like age. Considering onboarding time is a cost justification, not the ethical concern itself. Saving on healthcare costs is a financial motive that does not excuse discriminatory decision-making. Assuming older employees may retire soon is a biased generalization, not a legitimate or ethical basis for a layoff decision.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0087",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain role of promotion",
+    "question": "Selena manages promotion for a new skincare line. Sales figures have been flat even though her recent campaign generated a lot of buzz and comments online. She realizes her campaign has been missing the true underlying purpose of promotion. Which objective should guide her revised strategy?",
+    "options": {
+      "A": "Increase brand recognition without regard to sales",
+      "B": "Persuade the target market to purchase the products",
+      "C": "Educate competitors about the product's features",
+      "D": "Reduce production costs through media negotiation"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. The ultimate goal of promotion is to persuade consumers that a product will satisfy their needs so they will buy it; buzz and awareness alone are not enough if they do not translate into purchases. Option A is wrong because recognition without sales impact fails to fulfill promotion's purpose. Option C is wrong because promotion targets potential customers, not competitors. Option D is wrong because negotiating media costs is a budgeting concern, not the role of promotion itself.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0088",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain promotion types",
+    "question": "A tea company offers its retailers a 20% trade discount and in-store display kits to encourage them to stock heavily and actively recommend its new product line to shoppers, rather than advertising the product directly to consumers. This approach is an example of a",
+    "options": {
+      "A": "pull promotional strategy",
+      "B": "institutional promotional strategy",
+      "C": "push promotional strategy",
+      "D": "corrective promotional strategy"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. A push strategy directs promotional efforts and incentives at intermediaries, such as retailers, so they will push the product through the channel to consumers, which matches the trade discounts and display kits described. Option A is wrong because a pull strategy targets consumers directly to create demand that pulls the product through the channel. Option B is wrong because institutional promotion builds a company's overall image rather than moving a specific product line through retailers. Option D is wrong because 'corrective' promotion is not a recognized promotional-mix strategy.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0089",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe technology in promotion",
+    "question": "An athletic apparel brand adds an augmented-reality filter to its social media app so shoppers can virtually try on shoes before buying. This use of technology in promotion primarily helps the brand",
+    "options": {
+      "A": "reduce its need for physical distribution",
+      "B": "eliminate the cost of advertising entirely",
+      "C": "enhance the customer experience and engagement",
+      "D": "avoid government regulation of advertising"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Interactive technology like AR try-on filters makes the shopping experience more engaging and personalized, which is the main benefit technology brings to promotion. Option A is wrong because virtual try-on does not remove the need to physically distribute the shoes once purchased. Option B is wrong because developing and maintaining the technology still involves cost; it does not eliminate advertising expense. Option D is wrong because using new technology does not exempt a company from advertising regulations.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0090",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe regulation of promotion",
+    "question": "A dietary supplement company runs ads claiming its product 'cures anxiety,' prompting a government investigation into whether the claim is deceptive. Which agency most likely regulates this type of advertising claim?",
+    "options": {
+      "A": "Federal Trade Commission",
+      "B": "Department of Labor",
+      "C": "Securities and Exchange Commission",
+      "D": "Federal Communications Commission"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. The Federal Trade Commission is the primary agency responsible for preventing false or deceptive advertising claims made by businesses about their products. Option B is wrong because the Department of Labor oversees workplace and employment matters, not advertising content. Option C is wrong because the SEC regulates securities and financial markets, not product advertising claims. Option D is wrong because the FCC regulates broadcast communications and airwaves, not the truthfulness of product claims.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0091",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain direct marketing channels",
+    "question": "A meal-kit company mails personalized catalogs with scannable reorder codes directly to the homes of past customers, allowing them to reorder without visiting a retail store or third-party website. This is an example of which promotional channel?",
+    "options": {
+      "A": "direct marketing",
+      "B": "public relations",
+      "C": "mass-media advertising",
+      "D": "personal selling"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Direct marketing reaches individual customers directly, such as through mail, email, or catalogs, to prompt an immediate response like a reorder, exactly as described. Option B is wrong because public relations involves nonpaid communication intended to build goodwill, not a direct sales channel. Option C is wrong because mass-media advertising reaches broad, undifferentiated audiences rather than personalized past customers. Option D is wrong because personal selling requires direct interpersonal interaction with a salesperson, which is not occurring here.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0092",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain advertisement components",
+    "question": "A print advertisement for a bakery includes an eye-catching photo of pastries, the phrase 'Freshly Baked Daily,' the store's logo, and a phone number customers can call to place orders. The phone number in this ad best exemplifies which basic advertising component?",
+    "options": {
+      "A": "the headline that draws the reader's attention",
+      "B": "the illustration showing the pastries",
+      "C": "slogan",
+      "D": "contact information"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Contact information, such as a phone number, gives consumers a way to respond directly to the ad and take action, which is exactly the phone number's role here. Option A is wrong because the headline is the attention-grabbing text, which in this ad is 'Freshly Baked Daily' rather than the number. Option B is wrong because the illustration is the visual element, which here is the photograph of the pastries. Option C is wrong because a slogan is a memorable catchphrase associated with the brand, not a way to place an order.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0093",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Demonstrate systematic behavior",
+    "question": "Every morning before opening the store, an office manager reviews the exact same checklist in the same order: checking the registers, restocking supplies, then reviewing the day's schedule. This consistent, orderly routine best demonstrates",
+    "options": {
+      "A": "creative thinking",
+      "B": "networking",
+      "C": "career progression",
+      "D": "systematic behavior"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Systematic behavior involves following a consistent, methodical process for completing recurring tasks, which is illustrated by the manager repeating the same checklist in the same order each day. Option A is wrong because creative thinking involves generating new ideas, not repeating an established routine. Option B is wrong because networking involves building professional relationships, which is unrelated to a personal opening routine. Option C is wrong because career progression refers to advancing through job levels over time, not a daily task routine.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0094",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Balance personal/professional responsibilities",
+    "question": "Talia, a new marketing associate, sets a personal rule not to check work email after 7 p.m. unless there is a true emergency, so she can spend evenings with her family without letting her job performance slip. This practice best illustrates Talia's effort to",
+    "options": {
+      "A": "adhere to the company's written protocols governing after-hours email availability",
+      "B": "follow the chain of command when an urgent issue arises late in the evening",
+      "C": "demonstrate problem-solving skills under time pressure",
+      "D": "balance personal and professional responsibilities"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Setting boundaries between work and family time so that neither area is neglected is a direct example of balancing personal and professional responsibilities. Option A is wrong because the rule is Talia's own; the scenario describes no company protocol on after-hours email, and she would be following a policy rather than setting a boundary if there were one. Option B is wrong because the chain of command concerns who an issue is routed to, not when Talia is available, and her rule says nothing about whom she would contact. Option C is wrong because she is not working through a problem under pressure; she is deciding in advance how her time will be divided.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0095",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Use time management",
+    "question": "Before starting his workday, David lists his tasks in order of deadline urgency and blocks specific time slots on his calendar for each one, so he does not spend extra time on low-priority items. David is practicing",
+    "options": {
+      "A": "time management",
+      "B": "decision-making",
+      "C": "goal setting",
+      "D": "delegating within the chain of command"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Prioritizing tasks by urgency and allocating specific blocks of time to complete them is a core time-management technique. Option B is wrong because decision-making involves choosing among alternatives to solve a problem, not organizing a daily schedule. Option C is wrong because goal setting involves defining objectives to achieve, not scheduling the time to complete existing tasks. Option D is wrong because David is organizing his own workload, not assigning tasks to others through a reporting structure.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0096",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Complete job applications",
+    "question": "While filling out an online job application, Priya lists her most recent job first, records exact employment dates, and answers every field, including ones marked optional, to leave a strong impression on the hiring manager. This careful attention to detail best demonstrates",
+    "options": {
+      "A": "effective resume-writing skills",
+      "B": "effective letter-of-application composition skills",
+      "C": "effective job-application completion skills",
+      "D": "effective interview skills"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Accurately and thoroughly filling out every section of a formal job application, including optional fields, is a job-application completion skill. Option A is wrong because a resume is a separate document Priya prepares beforehand, not the application form itself. Option B is wrong because composing a letter of application means writing original prose that argues for her fit, whereas the care described here is in supplying complete and accurate entries in fields the employer defined. Option D is wrong because interviewing is a separate, later stage of the hiring process, not the completion of an application form.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0097",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Prepare résumés",
+    "question": "When revising his resume, Alex changes the line 'Helped with social media' to 'Increased social media engagement by 40% during a semester-long internship.' This revision reflects which best practice for resume preparation?",
+    "options": {
+      "A": "Include quantifiable, measurable accomplishments",
+      "B": "Exaggerate skills and results to stand out to the employer",
+      "C": "List every daily task performed, regardless of relevance",
+      "D": "Omit employment dates to appear more experienced"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Effective resumes use specific, measurable accomplishments, such as a 40% engagement increase, because concrete numbers demonstrate real impact to employers. Option B is wrong because exaggerating or fabricating results is dishonest and can lead to disqualification or termination if discovered. Option C is wrong because resumes should be concise, highlighting relevant achievements rather than listing every daily task. Option D is wrong because omitting dates is misleading and is generally viewed negatively by employers, not considered a best practice.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0098",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain need for ongoing education",
+    "question": "A graphic designer with a decade of experience enrolls in a course to learn new AI-assisted design software that several of her clients have recently adopted, worried that her current skill set will otherwise become outdated. This decision best illustrates the need for",
+    "options": {
+      "A": "career-progression skills",
+      "B": "ongoing education",
+      "C": "mentorship",
+      "D": "professional networking"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Continuing to learn new tools and skills throughout one's career to remain competitive and relevant demonstrates the need for ongoing education. Option A is wrong because career-progression skills refer more broadly to advancing to higher positions, not specifically to updating technical knowledge. Option C is wrong because mentorship involves guidance from a more experienced person, which is not described here. Option D is wrong because professional networking involves building relationships with contacts, not taking a course to learn new software.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0099",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Explain factors affecting management",
+    "question": "A restaurant chain's regional manager must revise staffing and scheduling plans each quarter because of new minimum-wage legislation, an aggressive competitor's expansion into the region, and shifting customer dining habits toward delivery orders. These forces the manager must respond to are examples of",
+    "options": {
+      "A": "internal factors affecting management",
+      "B": "management functions",
+      "C": "risk-management steps",
+      "D": "external factors affecting management"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Legislation, competitor actions, and shifting customer behavior all originate outside the company and are classic external factors that managers must monitor and adapt to. Option A is wrong because internal factors would originate from within the company itself, such as its own policies or staff, not laws or competitors. Option B is wrong because management functions refer to activities like planning, organizing, and controlling, not the external forces prompting the manager's response. Option C is wrong because risk-management steps describe a structured process for handling identified risks, not the external factors themselves.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-district-2-0100",
+    "cluster": "entrepreneurship",
+    "level": "District",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Conduct risk assessment of an event",
+    "question": "A DECA chapter is planning a large community fundraising event and wants to begin a formal risk assessment before finalizing any details. Which of the following should be the chapter's first step in this process?",
+    "options": {
+      "A": "Purchase event-cancellation insurance immediately",
+      "B": "Brainstorm and list every possible risk to the event",
+      "C": "Calculate the estimated financial loss for each identified hazard",
+      "D": "Decide whether the event should be canceled"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Risk assessment begins with identifying as many potential risks as possible before any risks can be evaluated or addressed. Option A is wrong because purchasing insurance is a risk-reduction action taken later, after risks have been identified and evaluated. Option C is wrong because estimating financial loss for each hazard is a later step that depends on first knowing what the risks are. Option D is wrong because deciding whether to proceed with or cancel the event comes only after risks have been identified, estimated, and evaluated.",
+    "difficulty": "hard",
+    "verified": true
+  }
+]

@@ -1,0 +1,618 @@
+{
+  "version": 1,
+  "cluster": "finance",
+  "event": {
+    "code": "BFS",
+    "name": "Business Finance Series",
+    "format": "series"
+  },
+  "instructionalAreas": [
+    "financial_analysis",
+    "professional_development",
+    "economics",
+    "financial_information_management"
+  ],
+  "sourceNotes": [
+    "Seeded from BFS roleplay performance indicators and finance cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Loan",
+      "slug": "loan",
+      "definition": "Borrowed money that must be repaid, usually with interest.",
+      "whyItMatters": "Business finance scenarios often compare borrowing choices and repayment risk.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BFS",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Creditworthiness",
+      "slug": "creditworthiness",
+      "definition": "A borrower's ability and willingness to repay debt.",
+      "whyItMatters": "Creditworthiness affects access to financing and interest rates.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BFS",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Return on investment",
+      "slug": "return-on-investment",
+      "definition": "A measure of gain or benefit compared with the cost of an investment.",
+      "whyItMatters": "ROI helps justify business spending.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/BFS",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Money",
+      "slug": "money",
+      "definition": "Anything widely accepted as payment for goods, services, and debts.",
+      "whyItMatters": "The functions of money underpin every pricing, saving, and exchange decision in finance events.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Work ethic",
+      "slug": "work-ethic",
+      "definition": "A pattern of responsibility, effort, persistence, and reliability at work.",
+      "whyItMatters": "Work ethic is tied to performance, trust, and advancement in workplace scenarios.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Revenue",
+      "slug": "revenue",
+      "definition": "Income a business earns from selling its products or services.",
+      "whyItMatters": "Revenue trends are the starting point for judging performance and growth.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Income",
+      "slug": "income",
+      "definition": "Money received from work, investments, or other sources over a period of time.",
+      "whyItMatters": "Competitors must connect sources of income to budgets, savings, and financial goals.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Chain of command",
+      "slug": "chain-of-command",
+      "definition": "The line of authority defining who reports to whom in an organization.",
+      "whyItMatters": "Knowing when and how to escalate is a frequent judgment point in roleplays.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Expense",
+      "slug": "expense",
+      "definition": "A cost a business incurs to operate, such as salaries, rent, or materials.",
+      "whyItMatters": "Analyzing expenses reveals where competitors can control cost and lift profit.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Credit",
+      "slug": "credit",
+      "definition": "The ability to borrow money or obtain goods now and pay for them later.",
+      "whyItMatters": "Understanding the purpose and cost of credit is central to personal-finance and lending scenarios.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Time management",
+      "slug": "time-management",
+      "definition": "Organizing, planning, and prioritizing tasks to stay productive and meet deadlines.",
+      "whyItMatters": "Timed events reward competitors who prioritize and finish efficiently.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Invoice",
+      "slug": "invoice",
+      "definition": "A document a seller issues to request payment for goods or services provided.",
+      "whyItMatters": "Invoices drive accounts-receivable timing and payment terms.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Saving",
+      "slug": "saving",
+      "definition": "Setting aside income now for future use instead of spending it.",
+      "whyItMatters": "The need to save and invest anchors recommendations about goals, emergencies, and growth.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Professional appearance",
+      "slug": "professional-appearance",
+      "definition": "Appropriate grooming, dress, and hygiene for the workplace.",
+      "whyItMatters": "First impressions are judged in interviews and face-to-face roleplay.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Accounts payable",
+      "slug": "accounts-payable",
+      "definition": "Money a business owes to suppliers for goods or services already received.",
+      "whyItMatters": "Payables shape the cash position competitors must manage.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Financial goal",
+      "slug": "financial-goal",
+      "definition": "A specific money target a person or business plans to reach within a set time frame.",
+      "whyItMatters": "Goals turn vague advice into measurable, prioritized financial recommendations.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Company protocols",
+      "slug": "company-protocols",
+      "definition": "Established procedures employees are expected to follow for consistent operations.",
+      "whyItMatters": "Adhering to protocols shows respect for organizational structure.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Accounts receivable",
+      "slug": "accounts-receivable",
+      "definition": "Money owed to a business by customers for goods or services already delivered.",
+      "whyItMatters": "Receivables affect cash flow timing and collection decisions.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Net worth",
+      "slug": "net-worth",
+      "definition": "Total assets minus total liabilities.",
+      "whyItMatters": "Net worth gives a one-number snapshot of financial position that competitors interpret before advising.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Rules of conduct",
+      "slug": "rules-of-conduct",
+      "definition": "Behavioral and ethical standards defining acceptable workplace actions.",
+      "whyItMatters": "Violating conduct rules is a common failure point in roleplay scenarios.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Profit margin",
+      "slug": "profit-margin",
+      "definition": "The percentage of revenue left as profit after expenses are subtracted.",
+      "whyItMatters": "Margins show how efficiently a business turns sales into profit.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Cost of credit",
+      "slug": "cost-of-credit",
+      "definition": "The total amount, including interest and fees, paid to borrow money.",
+      "whyItMatters": "Comparing the true cost of credit lets competitors judge whether borrowing is worthwhile.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Problem-solving",
+      "slug": "problem-solving",
+      "definition": "A systematic approach to identifying issues, analyzing causes, and implementing solutions.",
+      "whyItMatters": "Competitors are judged on working through challenges and proposing action.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Financial ratio",
+      "slug": "financial-ratio",
+      "definition": "A comparison of two financial figures that reveals a relationship or trend.",
+      "whyItMatters": "Ratios let competitors size up financial health quickly.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Tax liability",
+      "slug": "tax-liability",
+      "definition": "The total amount of tax a person or business legally owes to the government.",
+      "whyItMatters": "Tax liabilities affect take-home income and the real return on financial decisions.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Creativity",
+      "slug": "creativity",
+      "definition": "Generating novel ideas and original solutions beyond conventional approaches.",
+      "whyItMatters": "DECA scenarios reward creative thinking when handling business challenges.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "slug": "unemployment-rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Working capital",
+      "slug": "working-capital",
+      "definition": "Current assets minus current liabilities — a measure of short-term financial health.",
+      "whyItMatters": "Working capital shows whether a business can cover immediate obligations.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Investment",
+      "slug": "investment",
+      "definition": "Using money to buy assets expected to grow in value or produce income.",
+      "whyItMatters": "Investment vocabulary supports recommendations about growth, risk, and long-term goals.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Systematic behavior",
+      "slug": "systematic-behavior",
+      "definition": "An orderly, methodical approach to tasks and decisions that follows a logical structure.",
+      "whyItMatters": "Judges favor structured reasoning over a scattered approach.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Functions of price",
+      "slug": "functions-of-price",
+      "definition": "The role prices play in balancing supply and demand while signaling value and scarcity.",
+      "whyItMatters": "Prices coordinate the market; competitors must price to match demand.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Accrual",
+      "slug": "accrual",
+      "definition": "Recording revenue or expense when it is incurred, not when cash changes hands.",
+      "whyItMatters": "Accrual accounting reveals true profitability beyond the cash view.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Diversification",
+      "slug": "diversification",
+      "definition": "Spreading investments across different assets to reduce overall risk.",
+      "whyItMatters": "Diversification is the standard answer to lowering investment risk in finance events.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Goal setting",
+      "slug": "goal-setting",
+      "definition": "Establishing clear, specific objectives for performance over a set time frame.",
+      "whyItMatters": "Goal-oriented thinking signals ambition and strategic planning.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Consumer spending",
+      "slug": "consumer-spending",
+      "definition": "The total money households spend on goods and services.",
+      "whyItMatters": "Spending drives most economic activity and business revenue.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Trial balance",
+      "slug": "trial-balance",
+      "definition": "A list of all ledger accounts and balances used to check that debits equal credits.",
+      "whyItMatters": "Trial balances verify the accuracy of financial records in case work.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Financial-services provider",
+      "slug": "financial-services-provider",
+      "definition": "An institution such as a bank, credit union, or brokerage that offers money-management products.",
+      "whyItMatters": "Choosing the right provider is a recurring judgment in personal-finance scenarios.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Work-life balance",
+      "slug": "work-life-balance",
+      "definition": "The equilibrium between time spent on work and on personal life.",
+      "whyItMatters": "Awareness of balance reflects emotional intelligence and sustainable habits.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Gross domestic product",
+      "slug": "gross-domestic-product",
+      "definition": "The total market value of all final goods and services a country produces in a year.",
+      "whyItMatters": "GDP is the standard gauge of economic health competitors reference.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Financial statement analysis",
+      "slug": "financial-statement-analysis",
+      "definition": "Examining financial statements to evaluate performance, profitability, and position.",
+      "whyItMatters": "It lets competitors diagnose problems and back recommendations with data.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Time value of money",
+      "slug": "time-value-of-money",
+      "definition": "The principle that a dollar today is worth more than a dollar in the future because it can earn a return.",
+      "whyItMatters": "This concept justifies interest, discounting, and why saving early beats saving late.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Job interview",
+      "slug": "job-interview",
+      "definition": "A formal conversation used to assess a candidate's fit, skills, and alignment with a role.",
+      "whyItMatters": "Interview performance is directly tested and drives job-search success.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Diminishing returns",
+      "slug": "diminishing-returns",
+      "definition": "The principle that adding more of one input eventually yields less added output.",
+      "whyItMatters": "It explains why scaling operations becomes less efficient past a point.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    }
+  ]
+}

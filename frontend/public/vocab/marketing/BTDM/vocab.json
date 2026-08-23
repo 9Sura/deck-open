@@ -1,0 +1,622 @@
+{
+  "version": 1,
+  "cluster": "marketing",
+  "event": {
+    "code": "BTDM",
+    "name": "Buying and Merchandising Team Decision Making",
+    "format": "team"
+  },
+  "instructionalAreas": [
+    "product_service_management",
+    "market_planning",
+    "selling",
+    "economics",
+    "channel_management"
+  ],
+  "sourceNotes": [
+    "Seeded from BTDM roleplay performance indicators and marketing cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Product/service management",
+      "slug": "product-service-management",
+      "definition": "Planning, developing, marketing, and managing offerings across their life.",
+      "whyItMatters": "It ensures offerings meet customer needs and generate sustainable revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Marketing strategy",
+      "slug": "marketing-strategy",
+      "definition": "The overall approach a business uses to reach customers and meet marketing goals.",
+      "whyItMatters": "Case studies require strategies that fit business objectives and market conditions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Selling",
+      "slug": "selling",
+      "definition": "Helping customers make purchase decisions through planned communication.",
+      "whyItMatters": "Selling vocabulary supports recommendations about staff, service, and revenue.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Economic goods",
+      "slug": "economic-goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Channel of distribution",
+      "slug": "channel-of-distribution",
+      "definition": "The path a product takes from producer or provider to the final customer.",
+      "whyItMatters": "Channel choices affect convenience, cost, access, and customer experience.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Product life cycle",
+      "slug": "product-life-cycle",
+      "definition": "The stages a product passes through: introduction, growth, maturity, and decline.",
+      "whyItMatters": "The stage a product is in drives its marketing, pricing, and distribution.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Market identification",
+      "slug": "market-identification",
+      "definition": "Discovering and defining the markets where a business can sell its offering.",
+      "whyItMatters": "Identifying the right market is the foundation of any marketing plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Selling process",
+      "slug": "selling-process",
+      "definition": "The structured steps that move a customer from awareness to purchase.",
+      "whyItMatters": "Knowing the process helps competitors execute each stage well.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "slug": "economic-resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Direct channel",
+      "slug": "direct-channel",
+      "definition": "A distribution path where a producer sells straight to customers with no intermediaries.",
+      "whyItMatters": "Direct channels maximize control and margin but demand more sales and logistics effort.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Product mix",
+      "slug": "product-mix",
+      "definition": "The full range of products and services a company offers.",
+      "whyItMatters": "Product-mix decisions shape positioning, resources, and revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Target market",
+      "slug": "target-market",
+      "definition": "The specific customer group a business chooses as its primary marketing audience.",
+      "whyItMatters": "Recommendations are stronger when they name a specific audience.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Prospecting",
+      "slug": "prospecting",
+      "definition": "Identifying and qualifying potential customers who may need an offering.",
+      "whyItMatters": "Effective prospecting builds the foundation for successful sales.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "slug": "supply-and-demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Indirect channel",
+      "slug": "indirect-channel",
+      "definition": "A distribution path where one or more intermediaries sit between producer and customer.",
+      "whyItMatters": "Indirect channels widen reach and share costs but reduce producer control.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Product line",
+      "slug": "product-line",
+      "definition": "A group of related products sold under one brand or category.",
+      "whyItMatters": "Line decisions balance customer choice against cost and complexity.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Marketing plan",
+      "slug": "marketing-plan",
+      "definition": "A written document laying out marketing objectives, strategies, and tactics for a period.",
+      "whyItMatters": "The plan guides all promotional and customer-facing decisions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Approach",
+      "slug": "approach",
+      "definition": "The opening contact and strategy used to engage a potential customer.",
+      "whyItMatters": "A professional approach sets the first impression that drives interest.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Intermediary",
+      "slug": "intermediary",
+      "definition": "A business between producer and customer, such as a retailer, wholesaler, or agent.",
+      "whyItMatters": "Intermediaries expand reach but add cost and control tradeoffs.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Product bundling",
+      "slug": "product-bundling",
+      "definition": "Grouping related products and selling them as one package.",
+      "whyItMatters": "Bundling raises transaction value and perceived value.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Situation analysis",
+      "slug": "situation-analysis",
+      "definition": "An assessment of internal and external factors affecting a business's marketing.",
+      "whyItMatters": "Understanding the situation must come before any recommendation.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Needs assessment",
+      "slug": "needs-assessment",
+      "definition": "Asking questions to understand a customer's problems, goals, and requirements.",
+      "whyItMatters": "Assessing needs ensures recommendations truly solve the customer's problem.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "slug": "profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Wholesaler",
+      "slug": "wholesaler",
+      "definition": "An intermediary that buys goods in bulk from producers and resells them to retailers.",
+      "whyItMatters": "Wholesalers aggregate inventory and provide the logistics that enable retail networks.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Corporate branding",
+      "slug": "corporate-branding",
+      "definition": "Building a company's overall reputation and identity across its offerings.",
+      "whyItMatters": "Strong corporate branding creates loyalty and justifies premium pricing.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "SWOT analysis",
+      "slug": "swot-analysis",
+      "definition": "A review of a business's strengths, weaknesses, opportunities, and threats.",
+      "whyItMatters": "SWOT gives a structured frame for the situation analysis behind a plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Product features and benefits",
+      "slug": "product-features-and-benefits",
+      "definition": "A product's characteristics and the value those characteristics give.",
+      "whyItMatters": "Competitors must separate features from benefits to sell effectively.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "slug": "productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Retailer",
+      "slug": "retailer",
+      "definition": "An intermediary that buys from wholesalers or producers and sells to final consumers.",
+      "whyItMatters": "Retailers provide the accessible point of sale that completes the distribution chain.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Product positioning",
+      "slug": "product-positioning",
+      "definition": "How a product is differentiated in the market and in customers' minds.",
+      "whyItMatters": "Clear positioning conveys unique value and targets the right segments.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Market segmentation",
+      "slug": "market-segmentation",
+      "definition": "Dividing a market into distinct groups of customers with similar needs.",
+      "whyItMatters": "Segmentation lets a business target specific customer groups effectively.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Feature-benefit selling",
+      "slug": "feature-benefit-selling",
+      "definition": "Connecting a product feature to the benefit the customer receives.",
+      "whyItMatters": "It turns product facts into customer value.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "slug": "inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Agent",
+      "slug": "agent",
+      "definition": "An intermediary that helps buy or sell on a producer's behalf without taking title to goods.",
+      "whyItMatters": "Agents lower channel cost by handling transactions without holding inventory.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Product/service branding",
+      "slug": "product-service-branding",
+      "definition": "Creating a distinct name, symbol, and image for a specific offering.",
+      "whyItMatters": "Product branding helps customers identify and prefer that offering.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Sales forecast",
+      "slug": "sales-forecast",
+      "definition": "A projection of expected future sales based on analysis and historical data.",
+      "whyItMatters": "Forecasts help plan resources and set realistic marketing objectives.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Sales presentation",
+      "slug": "sales-presentation",
+      "definition": "A structured pitch showing how an offering meets the customer's needs.",
+      "whyItMatters": "A compelling presentation moves a prospect toward purchase.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "slug": "unemployment-rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Intensive distribution",
+      "slug": "intensive-distribution",
+      "definition": "A strategy to make a product available in as many outlets as possible.",
+      "whyItMatters": "It maximizes convenience and market penetration for high-demand goods.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Customer touchpoint",
+      "slug": "customer-touchpoint",
+      "definition": "Any moment of interaction between a customer and a company.",
+      "whyItMatters": "Optimizing touchpoints improves experience and builds loyalty.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Marketing objective",
+      "slug": "marketing-objective",
+      "definition": "A specific, measurable goal for what marketing should achieve.",
+      "whyItMatters": "Clear objectives keep strategies and tactics aligned with business goals.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Objection handling",
+      "slug": "objection-handling",
+      "definition": "Responding to a customer's concerns in a helpful, persuasive way.",
+      "whyItMatters": "Handling objections improves trust and conversion.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Functions of price",
+      "slug": "functions-of-price",
+      "definition": "The role prices play in balancing supply and demand while signaling value and scarcity.",
+      "whyItMatters": "Prices coordinate the market; competitors must price to match demand.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Selective distribution",
+      "slug": "selective-distribution",
+      "definition": "Selling through a limited number of carefully chosen intermediaries in an area.",
+      "whyItMatters": "It balances accessibility with brand control and partner profitability.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    },
+    {
+      "term": "Customer voice",
+      "slug": "customer-voice",
+      "definition": "The feedback, preferences, and opinions customers express about offerings.",
+      "whyItMatters": "Listening to the customer voice guides product development and marketing.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Positioning",
+      "slug": "positioning",
+      "definition": "How a product or brand is perceived in customers' minds relative to competitors.",
+      "whyItMatters": "Positioning shapes differentiation and appeal to the target market.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Closing the sale",
+      "slug": "closing-the-sale",
+      "definition": "Asking for the order or finalizing the agreement to complete the sale.",
+      "whyItMatters": "Knowing when and how to close prevents lost opportunities.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Consumer spending",
+      "slug": "consumer-spending",
+      "definition": "The total money households spend on goods and services.",
+      "whyItMatters": "Spending drives most economic activity and business revenue.",
+      "tags": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Exclusive distribution",
+      "slug": "exclusive-distribution",
+      "definition": "Appointing only one or a few intermediaries to sell in a territory.",
+      "whyItMatters": "It gives partners strong incentives and control, ideal for premium products.",
+      "tags": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ]
+    }
+  ]
+}

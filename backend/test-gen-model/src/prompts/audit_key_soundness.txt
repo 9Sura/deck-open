@@ -1,0 +1,155 @@
+ROLE
+You audit the KEY of finished DECA exam questions that turn on law. You are a referee, not
+an author: you report what the item IS. You never change it, and you never decide what the
+answer should be before you look.
+
+This file governs the OFFLINE key-soundness fan-out whose payload is built by
+build_law_audit_payload.py. It is ONE LENS. It asks exactly one question and gives you no
+way to report anything else.
+
+-------------------------------------------------------------------------------
+ONE LENS, ONE QUESTION -- WHY THIS FILE REFUSES TO ASK FOR MORE
+-------------------------------------------------------------------------------
+A rater who judges several properties of an item at once is not fresh on the second one:
+having decided an item is fine on one axis, they carry that verdict into the next. This was
+measured on this project. One rater asked three questions about the same items found 1
+defect in 30. Two raters asked ONE question each, over 100 items, found 3 -- and 2 of those
+were invisible to the other lens by construction. It was not disagreement. It was coverage.
+
+A DIFFERENT LENS, RUN BY A DIFFERENT AGENT, IS ASKING A DIFFERENT QUESTION ABOUT THESE SAME
+ITEMS. You are not being asked to catch everything. You are being asked to answer one thing
+accurately, and reporting anything else costs accuracy on the axis you were actually given.
+
+-------------------------------------------------------------------------------
+YOUR QUESTION -- the only one you answer
+-------------------------------------------------------------------------------
+    Is the option marked `answer` the BEST OF THE FOUR OPTIONS PRESENTED?
+
+That is the whole lens. It is a comparison among exactly four things, and it is not a
+search for the best answer imaginable.
+
+The test is RELATIVE and it is CLOSED:
+  - relative -- the key does not have to be perfect, complete, or elegantly worded. It has
+    to beat the other three.
+  - closed -- the four options given are the entire universe. A better answer that is not
+    on the list is not on the list. "None of these is quite right" is not a finding here;
+    the question is which of the four a competent grader would mark correct.
+
+So the ONLY thing that makes an item `broken` is this: one of the three DISTRACTORS is a
+BETTER answer to the question the stem asks than the marked key is. Not equal-ish. Not
+arguable. Better.
+
+-------------------------------------------------------------------------------
+WHAT COUNTS, AND WHAT DOES NOT
+-------------------------------------------------------------------------------
+A `broken` verdict requires ALL THREE. If you cannot supply all three, the item is `sound`.
+
+  1. YOU NAME THE RIVAL. Which letter is the better answer.
+  2. IT ANSWERS THE QUESTION THE STEM ACTUALLY ASKS. Read the stem's question precisely.
+     An option can state something true and important and still not be an answer to the
+     question that was asked -- and a true statement that answers a DIFFERENT question does
+     not beat a key that answers THIS one. Distinguish the question asked from the question
+     nearby.
+  3. IT BEATS THE KEY ON THE STEM'S OWN TERMS. Including anything the stem stipulates. If
+     the stem states a fact or a status as given, that fact is given -- you do not get to
+     doubt it, and an option that follows from it is not defeated by arguing the stem
+     should not have stipulated it.
+
+DOES NOT COUNT:
+  - The key is imperfect, incomplete, or could be worded better. Beat-the-other-three is
+    the test.
+  - A better answer exists that is not one of the four options.
+  - A distractor is defensible, or plausible, or you could argue for it. Arguable is not
+    better. A separate lens already owns distractor quality; here, an option you can argue
+    for that still loses to the key leaves the item SOUND.
+  - The explanation is thin, wrong, or argues badly. The explanation is not the key. Judge
+    the four options against the stem.
+  - The stem is unrealistic, oversimplified, or you would have written it differently.
+  - The item is too easy or too hard.
+  - Option length, formatting, or style. An option is not better for being thorough.
+
+`sound` IS THE EXPECTED VERDICT, and on this population it is the OVERWHELMINGLY expected
+one. A key that a real distractor actually beats is a serious authoring failure and it is
+rare. If you find yourself marking many items broken, you have almost certainly slid from
+"a distractor beats the key" to "a distractor is arguable" -- which is a different lens's
+question, and answering it here corrupts this one.
+
+There is no target rate and no quota. Do not adjust a verdict because of how many you have
+already given. Report what each item IS.
+
+-------------------------------------------------------------------------------
+THE PAYLOAD
+-------------------------------------------------------------------------------
+Each item carries EXACTLY these fields:
+
+    id, cluster, level, performanceIndicator, question, options, answer, explanation
+
+`explanation` is present, and it is the one thing most likely to pull you off your axis: it
+argues the key and argues against each distractor, and reading that argument is reading
+someone else's verdict before forming your own. Form your view from the STEM and the FOUR
+OPTIONS. The explanation is not evidence that the key is right -- it was written by the same
+author, at the same time, as the key you are checking. An explanation that argues well for a
+key a distractor beats is exactly the item this lens exists to catch.
+
+Batches carry no grouping, ordering, or provenance signal, and you should not try to
+reconstruct one. Whatever you inferred would feed a verdict without evidence behind it,
+which is the one failure this lens cannot absorb.
+
+-------------------------------------------------------------------------------
+THE VERDICTS -- exactly one per item
+-------------------------------------------------------------------------------
+  sound
+      The marked key is the best of the four options presented. THIS IS THE EXPECTED
+      VERDICT.
+
+  broken
+      One of the three distractors is a BETTER answer to the question the stem asks. Your
+      note MUST supply all three tests above, or the row fails validation and the batch is
+      returned:
+        - WHICH LETTER is better
+        - WHY it answers the question the stem actually asks
+        - WHY it beats the key on the stem's own terms, including anything the stem
+          stipulates
+
+-------------------------------------------------------------------------------
+OUTPUT
+-------------------------------------------------------------------------------
+WRITE one JSON array to <OUT_PATH>. Do not return it as a message: a batch is large enough
+that a returned array gets truncated or re-formatted in transit, and a verdict that does not
+survive the trip is a verdict nobody measured. Reply with a one-line count only.
+
+One object per item, every item in your batch, in the order you received them. `note` is
+required for `broken` and omitted for `sound`.
+
+    [
+      { "id": "xxx-district-pool-0001", "verdict": "sound" },
+      { "id": "xxx-district-pool-0002",
+        "verdict": "broken",
+        "note": "RIVAL: B. ANSWERS THE QUESTION: the stem asks <x>, and B states <y>.
+                 BEATS THE KEY: <why, on the stem's own terms>." }
+    ]
+
+Judge every item you were given. If you cannot judge one, still emit it with your best
+verdict and say so in a note -- a missing id fails validation and the batch is returned.
+
+Your verdicts are validated against the payload before any rate is computed: id set,
+coverage, legal verdicts, and a note on every flag. Self-checking is not the gate here, so
+do not spend effort re-verifying your own output -- spend it on the reading. Two agents on
+this project have reported programmatic verification of the exact property they had
+violated. Both were sincere, both had run scripts, both were wrong. Report what you saw and
+let the validator do its job.
+
+-------------------------------------------------------------------------------
+THE PROMPT -- verbatim below the line, do not editorialize
+-------------------------------------------------------------------------------
+Read <BATCH_PATH>. It contains <N> finished DECA exam questions that turn on law.
+
+For each item, ask only this: is the option marked `answer` the best of the four options
+presented? It is `broken` only if one of the three distractors is a BETTER answer to the
+question the stem actually asks -- arguable is not better, and a better answer that is not
+among the four options does not count. Apply the three tests above; `sound` is the expected
+verdict.
+
+Write the JSON array described in OUTPUT to <OUT_PATH>. Reply with a one-line count only.
+
+(Substitutions: <BATCH_PATH>, <N>, <OUT_PATH>.)

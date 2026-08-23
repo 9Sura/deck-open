@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "cluster": "marketing",
+  "label": "Marketing Cluster",
+  "examName": "Marketing Cluster",
+  "seededFrom": {
+    "testGenModel": [
+      "backend/test-gen-model/data/marketing"
+    ],
+    "roleplayGenModel": [
+      "backend/roleplay-gen-model/data/events.json",
+      "backend/roleplay-gen-model/data/AAM",
+      "backend/roleplay-gen-model/data/ASM",
+      "backend/roleplay-gen-model/data/BSM",
+      "backend/roleplay-gen-model/data/BTDM",
+      "backend/roleplay-gen-model/data/FMS",
+      "backend/roleplay-gen-model/data/MCS",
+      "backend/roleplay-gen-model/data/MTDM",
+      "backend/roleplay-gen-model/data/PMK",
+      "backend/roleplay-gen-model/data/RMS",
+      "backend/roleplay-gen-model/data/SEM",
+      "backend/roleplay-gen-model/data/STDM"
+    ]
+  },
+  "events": [
+    {
+      "code": "AAM",
+      "name": "Apparel and Accessories Marketing Series",
+      "file": "AAM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "ASM",
+      "name": "Automotive Services Marketing Series",
+      "file": "ASM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "BSM",
+      "name": "Business Services Marketing Series",
+      "file": "BSM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "BTDM",
+      "name": "Buying and Merchandising Team Decision Making",
+      "file": "BTDM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "FMS",
+      "name": "Food Marketing Series",
+      "file": "FMS/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "MCS",
+      "name": "Marketing Communications Series",
+      "file": "MCS/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "MTDM",
+      "name": "Marketing Management Team Decision Making",
+      "file": "MTDM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "PMK",
+      "name": "Principles of Marketing",
+      "file": "PMK/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "RMS",
+      "name": "Retail Merchandising Series",
+      "file": "RMS/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "SEM",
+      "name": "Sports and Entertainment Marketing Series",
+      "file": "SEM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "STDM",
+      "name": "Sports and Entertainment Marketing Team Decision Making",
+      "file": "STDM/vocab.json",
+      "termCount": 50
+    }
+  ]
+}

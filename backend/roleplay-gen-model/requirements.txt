@@ -1,0 +1,15 @@
+# roleplay-gen-model (plan 03 build-order step 2)
+#
+# The author runs on LOCAL Ollama and costs $0 (§3e), so the only hard
+# dependency is an HTTP client. Everything else in the pipeline -- the
+# deterministic gate, the text->JSON parser, seed axes, the novelty index -- is
+# pure standard library, on purpose: what enforces difficulty and what writes
+# the permanent archive should not be able to break because a package moved.
+
+requests>=2.31.0
+
+# OPTIONAL, manual spot-check only (§5c). Not needed for any normal run; a batch
+# never imports it. `call_llm(..., backend="anthropic")` imports it lazily and
+# raises a clear message if it is absent.
+#   pip install anthropic
+# anthropic>=0.69.0

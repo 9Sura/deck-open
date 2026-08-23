@@ -1,0 +1,153 @@
+ROLE
+You judge the difficulty of finished DECA exam questions. You are a referee, not an author:
+you report what the questions ARE. You never change them, and you never decide what the
+answer should be before you look.
+
+This file governs the OFFLINE difficulty-tagging fan-out whose labels are applied by
+tag_difficulty.py. It produced the pools' tags (plan 04) and the sets' tags (plan 06 §2).
+
+-------------------------------------------------------------------------------
+WHY THIS FILE EXISTS
+-------------------------------------------------------------------------------
+It exists because it did not exist, twice, and both times it cost a measurement.
+
+  - The 1,500-question pool was authored by agents with ad-hoc prompts that were never
+    committed, so system.txt's rules never reached them. authoring.txt was written to fix
+    that (see its own "WHY THIS FILE EXISTS").
+  - Plan 04 then re-tagged those pools with a fan-out prompt that was ALSO never committed.
+    When plan 06 §2 needed to tag the 3,000 sets "exactly as plan 04 re-tagged the pools",
+    plan 04's prompt was gone. It had to be reconstructed from the plan document, and there
+    was no way to prove the reconstruction matched.
+
+That cost real work. A calibration run against plan 04's committed labels disagreed enough
+to look alarming, and roughly 30 agents went into deciding whether the disagreement was
+rater noise or a prompt that had drifted. It was mostly noise (see MEASURED PROPERTIES).
+With the prompt committed, that question is answerable by reading a diff instead.
+
+The rule this file encodes: THE PROMPT IS PART OF THE MEASUREMENT. A distribution produced
+by a prompt nobody can read is not reproducible, and an irreproducible measurement cannot
+referee anything.
+
+-------------------------------------------------------------------------------
+THE PAYLOAD -- WHAT THE RATER MAY SEE
+-------------------------------------------------------------------------------
+Each rater receives a batch of <N> questions carrying EXACTLY these fields:
+
+    id, level, instructionalArea, performanceIndicator, question, options, answer
+
+`answer` is included deliberately: judging how hard a key is to FIND requires knowing which
+option it is.
+
+THE RATER MUST NOT SEE THE EXISTING `difficulty` TAG. This is the single most important
+methodological rule here. Showing it anchors the judgment to the value being replaced, and
+the run will look successful while reproducing the tag it was meant to discard. Build the
+payload with an ALLOWLIST, never by deleting `difficulty` from the question -- a denylist
+silently passes through any tier-bearing field added later.
+
+Verify the stripping against the payload that will actually be sent, not against the
+extractor's intent. Three angles, since a key-only check misses a tier smuggled into a
+string: (1) no `difficulty` key at any depth, (2) no bare tier value anywhere, (3) no
+`"difficulty":` key in the raw text. Match the KEY, not the word -- fin-icdc-2-0026 and
+mkt-icdc-2-0039 legitimately say "difficulty" in English, and a check that cries wolf on
+those is a check people learn to ignore.
+
+-------------------------------------------------------------------------------
+THE PROMPT -- verbatim below the line, do not editorialize
+-------------------------------------------------------------------------------
+The rubric is authoring.txt's "DIFFICULTY -- DO NOT FILL A QUOTA", which is the sole
+authority. The three rules come from plan 04 §3.
+
+Do not elaborate on them. This was tried: rule 3 was expanded into a twelve-line checklist
+capped with "could a test-wise student with NO domain knowledge pick this key?", which is a
+far broader test than "findable by elimination or a length tell" and sweeps in any item with
+any cue at all. It produced a THIRD rubric -- and a bank where `difficulty` means three
+things is worse than one where it means two. Making the rule concrete is how you change it.
+
+TWO SUBSTITUTIONS, and only two: <BATCH_PATH>, and <N> for the batch's actual question
+count. <N> was a hardcoded 50 until plan 07 §4, whose scope is 167 edited items and does
+not divide by 50. ALL 4,500 COMMITTED TAGS (plan 04's pools, plan 06 §2's sets) RAN AT
+N=50 -- recorded here because the prompt is part of the measurement, and a batch size that
+silently varies between runs is exactly the drift this file exists to make readable from a
+diff. The count is descriptive of the batch, never a control. Prefer BALANCED batch sizes
+(tag_difficulty.py --build-payload emits them) over a full-then-remainder split, so that
+per-batch spread reads as between-rater variance rather than as n.
+
+>>> BEGIN PROMPT (substitute <BATCH_PATH> and <N>) >>>
+
+Read the JSON file at <BATCH_PATH>. It contains exactly <N> DECA exam questions, each with an
+id, level, instructionalArea, performanceIndicator, question stem, four options, and the
+marked correct answer.
+
+Judge the DIFFICULTY of each question as written. Emit one label per question.
+
+RUBRIC (verbatim from the bank's authoring standard, which is the sole authority):
+  easy   -- single-fact recall or definition; one clearly correct option.
+  medium -- apply the concept to the described scenario; distractors plausible & same-domain.
+  hard   -- multi-step reasoning/computation, OR discriminating between two genuinely
+            near-correct options.
+
+THREE RULES YOU MUST APPLY:
+
+1. There is NO target distribution. Do not balance your batch. If 45 of your <N> are
+   medium, return 45 medium. Report what the questions are.
+
+2. "hard" is earned by the item, not by its level. An ICDC item is not hard because
+   it is ICDC.
+
+3. Judge the question as written, including its distractors. An item whose key is
+   findable by elimination or by a length/format tell is EASY, whatever its subject
+   matter.
+
+Return a label for ALL <N> questions, using the exact ids from the file.
+
+<<< END PROMPT <<<
+
+Output shape, which tag_difficulty.py already accepts:
+
+    [ { "id": "mkt-district-1-0001", "difficulty": "medium" }, ... ]
+
+-------------------------------------------------------------------------------
+MEASURED PROPERTIES OF THIS INSTRUMENT (plan 06 §2, 2026-07-14)
+-------------------------------------------------------------------------------
+Measured over 100 random pool items, 6 independent raters, 50 questions per batch:
+
+  - Single-rater agreement (fresh vs fresh):        Cohen kappa ~0.60
+  - 3-rater majority consensus (A vs B):            Cohen kappa ~0.67  (lift only +0.07)
+  - Unanimous 3-0 items agree across consensuses:   95%
+  - Split 2-1 items agree across consensuses:       53%  (near coin-flip)
+  - Noise is concentrated at the easy/medium boundary, which is where rule 3's
+    "findable by elimination" demands a judgment the rubric does not operationalize.
+    `hard` is comparatively stable.
+
+CONSEQUENCES, which matter more than the numbers:
+
+  - A single-rater bank-wide distribution carries roughly +/-10pp. That is fine for
+    settling a 46pp question ("are the sets 13% easy or 68% easy?") and TOO COARSE for
+    plan 06 §6's 5-point aspiration bands. Do not steer to a 5-point target with this.
+  - USE ONE RATER PER QUESTION unless you have a reason not to. The pools (plan 04) and
+    the sets (plan 06 §2) were both tagged single-rater; a 3-rater re-tag of one half
+    would put the two halves on different INSTRUMENTS, which is a quieter version of the
+    split-rubric defect plan 06 §2 exists to end. Comparability beats precision here.
+  - If you ever DO want voting, buy it for the confidence signal (95% vs 53%), not for
+    the kappa. Plan 06 §5's authoring loop leans on this tagger as an "independent
+    referee"; a 2-1 split is a coin flip and must not be treated as a verdict.
+  - Comparing a fresh run against a committed label set measures TWO noisy draws, and
+    attributing all the disagreement to the instrument is a mistake that has already been
+    made once. To measure the instrument, compare fresh-vs-fresh.
+
+-------------------------------------------------------------------------------
+APPLYING THE LABELS
+-------------------------------------------------------------------------------
+  - Validate every label part against its payload BEFORE applying: count, id set, tier
+    legality, no foreign ids. The applier is destructive.
+  - Apply SERIALLY, one file per invocation. Every run read-modify-writes the shared
+    manifest.json, so concurrent applies race and lose entries.
+  - `--replace` for a re-tag: the prior tag is what is being discarded, so a missing label
+    must be an error, not a fallback. It validates before writing, so a partial fan-out
+    cannot corrupt a file.
+  - Default (non---replace) mode keeps the prior tag for anything unlabeled. That is the
+    right mode after a CONTENT edit, where only the edited items need relabeling
+    (plan 05 §6).
+  - Verify with verify_bank.py: the invariant proves only `difficulty` moved, and the
+    per-file spread must stay distinct. Uniformity across a section means a quota crept
+    back in -- treat it as a defect, not a coincidence.

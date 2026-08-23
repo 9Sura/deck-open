@@ -1,0 +1,288 @@
+{
+  "code": "ENT",
+  "terms": [
+    {
+      "term": "Unique selling proposition",
+      "definition": "The clear reason a customer should choose one business, product, or service instead of a competitor.",
+      "whyItMatters": "ENT roleplays often ask competitors to identify what makes a new venture meaningfully different.",
+      "areas": [
+        "product_service_management",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Market identification",
+      "definition": "The process of defining the specific group of customers a business is trying to reach.",
+      "whyItMatters": "Helps competitors justify who the business should serve before choosing products, services, or promotions.",
+      "areas": [
+        "market_planning",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Product mix",
+      "definition": "The full set of products and services a business offers to customers.",
+      "whyItMatters": "ENT scenarios frequently ask whether the current mix should expand, contract, or shift for a new customer base.",
+      "areas": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Product-mix expansion",
+      "definition": "A strategy that adds new items to an existing product line.",
+      "whyItMatters": "Useful when recommending new merchandise, add-ons, or service options for an entrepreneurial venture.",
+      "areas": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "definition": "The expectation a brand sets for customers about the value and experience it will consistently deliver.",
+      "whyItMatters": "Strong ENT answers connect proposed services or policies back to the promise the business wants to own.",
+      "areas": [
+        "marketing",
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2020_1.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Brand touchpoint",
+      "definition": "Any interaction where a customer or potential customer encounters a brand.",
+      "whyItMatters": "Touchpoints help explain how ads, websites, store layouts, staff, products, and reviews shape brand image.",
+      "areas": [
+        "marketing",
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Positioning",
+      "definition": "How a business wants customers to perceive its product, service, or brand compared with alternatives.",
+      "whyItMatters": "Positioning links customer service, product mix, pricing, and promotion into one competitive image.",
+      "areas": [
+        "marketing",
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt",
+        "backend/roleplay-gen-model/data/ENT/district_2020_1.txt"
+      ]
+    },
+    {
+      "term": "Customer profile",
+      "definition": "A description of an ideal or likely customer using traits such as demographics, interests, needs, and behavior.",
+      "whyItMatters": "Profiles make recommendations more specific than saying a business should target everyone.",
+      "areas": [
+        "market_planning",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Target market",
+      "definition": "The customer group a business chooses as the main audience for its marketing and sales efforts.",
+      "whyItMatters": "Most ENT roleplays expect a clear target before competitors recommend products, channels, or messages.",
+      "areas": [
+        "market_planning",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Market analysis",
+      "definition": "A study of a market segment to evaluate customer need, ability to buy, access, and opportunity.",
+      "whyItMatters": "Market analysis supports evidence-based recommendations instead of guesses.",
+      "areas": [
+        "market_planning",
+        "marketing_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Marketing research",
+      "definition": "The organized collection and interpretation of information about customers, competitors, and market conditions.",
+      "whyItMatters": "ENT competitors can use research to turn customer feedback or survey data into business recommendations.",
+      "areas": [
+        "marketing_information_management",
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2018_1.txt"
+      ]
+    },
+    {
+      "term": "Actionable business recommendation",
+      "definition": "A specific recommendation that a business can realistically act on using available resources.",
+      "whyItMatters": "Judges reward analysis that turns data into a concrete next step.",
+      "areas": [
+        "marketing_information_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2018_1.txt"
+      ]
+    },
+    {
+      "term": "Channel of distribution",
+      "definition": "The path a product or service takes from the producer or provider to the final customer.",
+      "whyItMatters": "Channel choices affect convenience, cost, customer reach, and the buying experience.",
+      "areas": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2019_1.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Channel strategy",
+      "definition": "A plan for choosing and managing the channels a business will use to deliver products or services.",
+      "whyItMatters": "Entrepreneurs use channel strategy to decide between direct sales, online ordering, retailers, partners, or hybrid access.",
+      "areas": [
+        "channel_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2019_1.txt"
+      ]
+    },
+    {
+      "term": "Promotion",
+      "definition": "Communication used to inform, persuade, or remind customers about a business, product, service, or idea.",
+      "whyItMatters": "ENT scenarios often require choosing the right promotional message and channel for a specific market.",
+      "areas": [
+        "promotion",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2019_2.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Public relations",
+      "definition": "Activities that build and maintain a positive relationship between an organization and its publics.",
+      "whyItMatters": "PR vocabulary helps competitors discuss press, community trust, reputation, and service recovery.",
+      "areas": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2019_2.txt"
+      ]
+    },
+    {
+      "term": "Publicity",
+      "definition": "Unpaid media or public attention that can help or hurt a business's reputation.",
+      "whyItMatters": "Knowing publicity versus paid advertising makes promotional recommendations more precise.",
+      "areas": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Marketing plan",
+      "definition": "A written plan that sets marketing goals, strategies, tactics, budgets, and measures of success.",
+      "whyItMatters": "A marketing plan gives roleplay recommendations structure and makes them easier to evaluate.",
+      "areas": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Marketing strategy",
+      "definition": "The broad approach a business uses to reach customers and achieve marketing goals.",
+      "whyItMatters": "Strategy explains why a tactic fits the customer, business goal, and competitive situation.",
+      "areas": [
+        "market_planning",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Capital resources",
+      "definition": "The money, equipment, facilities, and other assets needed to start or operate a venture.",
+      "whyItMatters": "ENT competitors often must explain what resources a recommendation requires and whether the cost is justified.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2018_2.txt"
+      ]
+    },
+    {
+      "term": "Venture start-up",
+      "definition": "The process of creating, funding, launching, and beginning operations for a new business.",
+      "whyItMatters": "Start-up language helps explain funding, feasibility, resource needs, and early operating choices.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2018_2.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Overhead costs",
+      "definition": "Ongoing business costs that are not tied directly to producing one unit of a product or service.",
+      "whyItMatters": "Cost awareness helps competitors judge whether a proposed service or product mix is sustainable.",
+      "areas": [
+        "operations",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ENT/district_2021_2.txt"
+      ]
+    },
+    {
+      "term": "Private enterprise",
+      "definition": "An economic system in which individuals and businesses own resources and pursue profit with limited government control.",
+      "whyItMatters": "Entrepreneurship exams often connect profit, competition, and risk to private enterprise.",
+      "areas": [
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    },
+    {
+      "term": "Profit motive",
+      "definition": "The desire to earn profit, which encourages people to invest, start businesses, and take business risks.",
+      "whyItMatters": "This is a core economics term behind entrepreneurial decision-making.",
+      "areas": [
+        "economics",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      ]
+    }
+  ]
+}

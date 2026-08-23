@@ -1,0 +1,136 @@
+{
+  "area": "marketing_information_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/marketing_information_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Marketing research",
+      "definition": "The organized collection and analysis of information about markets, customers, and rivals.",
+      "whyItMatters": "Research helps a business understand needs before choosing tactics.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Marketing data",
+      "definition": "Information on customer behavior, market trends, sales, and competitive activity.",
+      "whyItMatters": "Quality data enables predictive insight and competitive advantage.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Primary research",
+      "definition": "Original data collected firsthand through surveys, interviews, or experiments.",
+      "whyItMatters": "It gives firsthand customer and market insight for a specific question.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Secondary research",
+      "definition": "Analysis of existing data from published reports, statistics, and studies.",
+      "whyItMatters": "It is cost-effective for understanding market context before original research.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Qualitative research",
+      "definition": "Methods that explore motivations and attitudes through open-ended responses.",
+      "whyItMatters": "Qualitative insight reveals why customers decide, sharpening messaging.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Quantitative research",
+      "definition": "Methods that measure numeric data through surveys and statistical analysis.",
+      "whyItMatters": "Quantitative findings give statistical proof to justify marketing decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Sampling",
+      "definition": "Selecting a representative subset of a population to study instead of everyone.",
+      "whyItMatters": "Sound sampling cuts cost and time while keeping conclusions valid.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Sampling plan",
+      "definition": "A strategy defining the target population, sample size, and selection method.",
+      "whyItMatters": "A solid plan is what makes research findings trustworthy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Survey",
+      "definition": "A tool that gathers information from respondents through questions.",
+      "whyItMatters": "Surveys are the most common way to learn customer needs and satisfaction.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Questionnaire design",
+      "definition": "Creating clear, unbiased questions that collect reliable data.",
+      "whyItMatters": "Good design yields valid data; poor design introduces error.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Research study design",
+      "definition": "A plan outlining the method, variables, population, and analysis for a study.",
+      "whyItMatters": "Design choices decide whether research answers the business question.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Data collection",
+      "definition": "Gathering information from sources via surveys, interviews, or observation.",
+      "whyItMatters": "Accurate collection is the foundation for every downstream decision.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Marketing-information system",
+      "definition": "An integrated set of processes that gathers, analyzes, and shares marketing data.",
+      "whyItMatters": "It enables real-time monitoring and rapid response to market change.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Descriptive statistics",
+      "definition": "Summary measures such as averages and percentages that describe collected data.",
+      "whyItMatters": "They translate raw data into insights that justify strategy choices.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Customer buzz",
+      "definition": "Word-of-mouth conversation about a brand across social and community channels.",
+      "whyItMatters": "Monitoring buzz reveals brand perception and emerging issues early.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    },
+    {
+      "term": "Research project error",
+      "definition": "Mistakes in design or execution that distort findings and conclusions.",
+      "whyItMatters": "Spotting errors like sampling bias is critical to credible research.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ]
+    }
+  ]
+}

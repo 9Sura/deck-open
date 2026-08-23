@@ -1,0 +1,136 @@
+{
+  "area": "emotional_intelligence",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+  ],
+  "terms": [
+    {
+      "term": "Emotional intelligence",
+      "definition": "The ability to understand and manage emotions in yourself and others.",
+      "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Self-esteem",
+      "definition": "A realistic sense of your own value and capabilities.",
+      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Self-confidence",
+      "definition": "Belief in your ability to perform well and reach your goals.",
+      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Initiative",
+      "definition": "Taking independent action to solve problems or seize opportunities.",
+      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Integrity",
+      "definition": "Acting truthfully and holding to strong moral principles in all dealings.",
+      "whyItMatters": "Integrity builds the trust that a business reputation depends on.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Ethical dilemma",
+      "definition": "A situation where two or more moral principles conflict and demand judgment.",
+      "whyItMatters": "Recognizing and resolving dilemmas is central to leadership and compliance.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Self-control",
+      "definition": "The ability to manage impulses, emotions, and reactions under pressure.",
+      "whyItMatters": "Self-control prevents costly mistakes and keeps interactions professional.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Adaptability",
+      "definition": "The capacity to adjust your approach and mindset when circumstances change.",
+      "whyItMatters": "Adaptability is vital for navigating market shifts and organizational change.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Empathy",
+      "definition": "Understanding another person's feelings, needs, or perspective.",
+      "whyItMatters": "Empathy strengthens customer relations and collaborative problem-solving.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Cultural sensitivity",
+      "definition": "Respecting and adapting to the values and practices of different cultures.",
+      "whyItMatters": "It lets a business serve diverse markets and build inclusive teams.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Conflict resolution",
+      "definition": "Techniques to address disagreements and reach mutually acceptable solutions.",
+      "whyItMatters": "Strong conflict resolution keeps teams cohesive and prevents escalation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Negotiation",
+      "definition": "The ability to discuss and reach agreements that satisfy multiple parties.",
+      "whyItMatters": "Negotiation determines outcomes in sales, contracts, and partnerships.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Consensus building",
+      "definition": "Creating agreement and buy-in across a group with differing viewpoints.",
+      "whyItMatters": "It secures team alignment and commitment to shared decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Leadership",
+      "definition": "Influencing and guiding others toward shared objectives.",
+      "whyItMatters": "Leadership is essential for managing teams, setting strategy, and delivering results.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Ethical leadership",
+      "definition": "Leading by modeling integrity, fairness, and moral principles.",
+      "whyItMatters": "It builds organizational trust and sets the tone for employee behavior.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Teamwork",
+      "definition": "Collaborating toward a common goal by leveraging each member's strengths.",
+      "whyItMatters": "Teamwork multiplies output; most business scenarios require collaboration.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+ROLE
+You repair the STEM of a finished DECA exam question whose own facts trip a legal doctrine
+the item does not know about. You are a surgeon, not an author: you change the smallest
+thing that removes the trigger, and you leave everything else exactly as it is.
+
+This file governs plan 07 §3c Phase B, whose payload is built by
+build_law_audit_payload.py --work-list and applied by --apply. It is LEVER B.
+
+`repair_distractors.txt` is LEVER A's prompt and DOES NOT APPLY HERE. It assigns option
+ranks and length gaps. You must not touch an option at all.
+
+-------------------------------------------------------------------------------
+THE DEFECT YOU ARE FIXING
+-------------------------------------------------------------------------------
+The author reached for concrete realism -- a specific place, a specific quantity, a
+specific dollar figure -- and the specific they chose is the precise trigger of a real
+legal rule that the key and the explanation ignore. The colour detail is legally
+load-bearing. The item then teaches something that is false on its own facts, and it
+punishes the student who knows the rule.
+
+Each item in your payload carries a `finding` telling you the RULE, the TRIGGER (quoted
+from the stem), and the EFFECT. The finding is the diagnosis; you are the treatment.
+
+-------------------------------------------------------------------------------
+THE FIX: DE-TRIGGER THE FACT PATTERN. NEVER TOUCH THE KEY.
+-------------------------------------------------------------------------------
+The key is the textbook answer and it stays the textbook answer. The stem is what stops
+fighting it. You change the FACTS so the rule never engages, leaving the question the item
+asks -- and the answer it wants -- exactly as they were.
+
+THE KEY IS FROZEN. This is absolute, in every pass in this plan:
+  - You may not edit any option. Not the key, not a distractor, not punctuation.
+  - You may not change which letter is the answer.
+  - If you believe the key is genuinely WRONG -- that a distractor is the better answer --
+    that is an OWNER DECISION and a different pass. ESCALATE IT: leave the item unedited
+    and say so in your report. Do not fix it. Do not delete the item. An unfixable item is
+    escalated, never quietly dropped.
+
+MINIMAL EDIT. Change only what carries the trigger. If dropping one word disarms the rule,
+drop that one word. You are not rewriting the item, improving its prose, or making it
+clearer. Every sentence you touch is a sentence that can acquire a new defect.
+
+DO NOT INSTALL A NEW TRIGGER. This is the failure this pass is most likely to produce and
+the one nothing downstream watches. Your replacement facts are new facts, and new facts
+trip new rules. Before you commit an edit, ask what rules YOUR chosen facts activate --
+thresholds, coverage tests, categories, time limits -- and confirm the key survives all of
+them. A repair that moves the defect somewhere nobody is looking is worse than the defect,
+because it now carries a clean bill of health.
+
+Beware the near miss: swapping one triggering quantity for a smaller one may still clear a
+threshold, and swapping one covered category for another may still be covered. Prefer a
+fact that puts the item PLAINLY outside the rule over one that sits just inside the line.
+
+-------------------------------------------------------------------------------
+THE EXPLANATION MOVES WITH THE STEM
+-------------------------------------------------------------------------------
+The explanation argues the stem's facts. If you change the facts and leave the explanation
+arguing the old ones, you have replaced one defect with another -- and this one is worse,
+because it will pass every gate. A gate binds length, letters and freshness. NO SCRIPT CAN
+TELL WHETHER YOUR EXPLANATION IS TRUE. A green verify is not evidence.
+
+So:
+  - Every fact the explanation recites must be a fact the NEW stem states. Quantities,
+    parties, places, categories.
+  - Every argument it makes against a distractor must still work on the new facts. You did
+    not touch the distractors, so each must remain wrong FOR THE REASON THE EXPLANATION
+    GIVES.
+  - The explanation must not name or lean on the fact you removed.
+  - Keep its shape, its voice, and its addressing convention. Some files address options by
+    letter ("Option B is wrong"), others by content. Match what the item already does; do
+    not convert one to the other.
+
+Re-read the explanation against the new stem, sentence by sentence, AFTER you have written
+both. That step -- reading your own explanation against your own new facts -- is where this
+defect is caught, and skipping it is how it ships.
+
+-------------------------------------------------------------------------------
+THE DISTRACTORS ARE FROZEN, AND THEY POINT AT THE STEM'S FACTS
+-------------------------------------------------------------------------------
+You cannot edit an option. So every fact you remove from the stem is a fact the options
+can no longer refer to -- and an option that names a party, an object, a quantity or a
+sum the stem no longer states is INCOHERENT, even though it is still wrong for the right
+reason.
+
+This is the failure this pass produced the first time it ran. A stem was moved off a
+goods sale to a services deal; every distractor stayed wrong for the reason the
+explanation gave, and three of them were left pointing at a deposit, an object, and a
+price that no longer existed. NO GATE CAN SEE THIS -- `options` are byte-identical, so
+the invariant, the tells audit and the collision audit all pass it.
+
+So before you commit an edit, read all four options against your NEW stem and ask of each:
+
+    Does this option refer to any fact the new stem does not state?
+
+If it does, your edit is wrong -- not the option. Find a different de-trigger: one that
+keeps every fact the frozen options depend on and still disarms the rule. There is usually
+one, and it is usually the more conservative edit. SATISFYING a rule is often better than
+escaping it: supplying the fact the rule demands can disarm it while leaving the whole
+fact pattern -- and therefore every option's referent -- intact.
+
+A general proposition is not a dangling reference. An option that makes a broad claim
+("employees may waive X by agreeing to Y") does not depend on the stem for a referent, and
+it survives a stem edit that removes Y from the facts. The test is whether the option
+points AT the stem, not whether it shares a word with it.
+
+If no de-trigger preserves every referent, the item cannot be repaired by a stem edit
+alone: fixing it would require editing options too, which is a different lever and is
+forbidden in this pass. ESCALATE IT. That is a good outcome, not a failure.
+
+-------------------------------------------------------------------------------
+WHAT MUST NOT CHANGE
+-------------------------------------------------------------------------------
+Only `question` and `explanation` may differ. An external script compares every other field
+byte-for-byte against git and the run is rejected if any moved:
+
+    options, answer, id, performanceIndicator, instructionalArea, cluster, level
+
+The item must still test the SAME performance indicator at the SAME difficulty. A
+de-triggered stem that is now trivial, or now impossible, is a different item wearing the
+same id. Keep the reasoning the student must do, in kind and in amount. Keep the stem's
+approximate length and its level of concrete detail -- replace the colour, do not strip it.
+
+Your new stem must not duplicate another item. A stem rewrite can mint a content collision
+that no options pass ever could, because the content hash covers the STEM. Do not converge
+on generic phrasing; keep the item distinctive.
+
+-------------------------------------------------------------------------------
+OUTPUT
+-------------------------------------------------------------------------------
+WRITE one JSON array to <OUT_PATH>. Do not return it as a message. Reply with a one-line
+count only.
+
+One object per item you EDITED, carrying exactly `id`, `question`, `explanation`:
+
+    [
+      { "id": "xxx-district-pool-0001",
+        "question": "<the de-triggered stem>",
+        "explanation": "<the explanation, re-argued on the new facts>" }
+    ]
+
+For any item you ESCALATED instead of editing, omit it from the array and say so in your
+reply, with your reason.
+
+Your output is validated against the payload before anything is written: id set, no foreign
+ids, both fields present and non-empty, and at least one of them actually changed. Then the
+bank is re-verified against git. Self-checking is not the gate, so do not spend effort
+proving your own output is clean -- spend it on the reading, and especially on re-reading
+each explanation against its new stem. Agents on this project have twice reported
+programmatic verification of the exact property they had violated. Both were sincere, both
+had run scripts, both were wrong.
+
+-------------------------------------------------------------------------------
+THE PROMPT -- verbatim below the line, do not editorialize
+-------------------------------------------------------------------------------
+Read <BATCH_PATH>. It contains <N> DECA exam questions. Each carries a `finding`: a real
+legal rule that the stem's own facts activate, which the key and explanation ignore.
+
+For each item, DE-TRIGGER THE FACT PATTERN. Change the smallest set of facts in the stem
+that stops the rule from engaging, so that the key -- which you MUST NOT touch -- becomes
+cleanly correct. Then re-argue the explanation on the new facts, checking that every
+distractor is still wrong for the reason the explanation gives. Confirm your new facts do
+not trip a different rule.
+
+If any item's key is genuinely wrong rather than merely under-argued, do not edit it:
+escalate it in your reply.
+
+Write the JSON array described in OUTPUT to <OUT_PATH>. Reply with a one-line count only.
+
+(Substitutions: <BATCH_PATH>, <N>, <OUT_PATH>.)

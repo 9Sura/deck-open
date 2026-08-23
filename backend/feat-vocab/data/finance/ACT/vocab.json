@@ -1,0 +1,618 @@
+{
+  "version": 1,
+  "cluster": "finance",
+  "event": {
+    "code": "ACT",
+    "name": "Accounting Applications Series",
+    "format": "series"
+  },
+  "instructionalAreas": [
+    "financial_analysis",
+    "information_management",
+    "professional_development",
+    "financial_information_management"
+  ],
+  "sourceNotes": [
+    "Seeded from ACT roleplay performance indicators and finance cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Accounting equation",
+      "slug": "accounting-equation",
+      "definition": "Assets equal liabilities plus owner's equity.",
+      "whyItMatters": "Accounting events often require competitors to interpret how transactions affect business position.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ACT",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Income statement",
+      "slug": "income-statement",
+      "definition": "A financial statement showing revenue, expenses, and profit over a period.",
+      "whyItMatters": "Income statements help evaluate operating performance.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ACT",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Cost of goods sold",
+      "slug": "cost-of-goods-sold",
+      "definition": "The direct cost of inventory or materials sold to customers.",
+      "whyItMatters": "COGS affects gross profit and pricing decisions.",
+      "tags": [],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ACT",
+        "backend/test-gen-model/data"
+      ]
+    },
+    {
+      "term": "Money",
+      "slug": "money",
+      "definition": "Anything widely accepted as payment for goods, services, and debts.",
+      "whyItMatters": "The functions of money underpin every pricing, saving, and exchange decision in finance events.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Information",
+      "slug": "information",
+      "definition": "Facts and figures that have been processed into a meaningful, usable form for decisions.",
+      "whyItMatters": "Competitors must know that raw data becomes useful only once it is organized and interpreted.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Work ethic",
+      "slug": "work-ethic",
+      "definition": "A pattern of responsibility, effort, persistence, and reliability at work.",
+      "whyItMatters": "Work ethic is tied to performance, trust, and advancement in workplace scenarios.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Revenue",
+      "slug": "revenue",
+      "definition": "Income a business earns from selling its products or services.",
+      "whyItMatters": "Revenue trends are the starting point for judging performance and growth.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Income",
+      "slug": "income",
+      "definition": "Money received from work, investments, or other sources over a period of time.",
+      "whyItMatters": "Competitors must connect sources of income to budgets, savings, and financial goals.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Data",
+      "slug": "data",
+      "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
+      "whyItMatters": "All information management begins with knowing what counts as reliable data.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Chain of command",
+      "slug": "chain-of-command",
+      "definition": "The line of authority defining who reports to whom in an organization.",
+      "whyItMatters": "Knowing when and how to escalate is a frequent judgment point in roleplays.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Expense",
+      "slug": "expense",
+      "definition": "A cost a business incurs to operate, such as salaries, rent, or materials.",
+      "whyItMatters": "Analyzing expenses reveals where competitors can control cost and lift profit.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Credit",
+      "slug": "credit",
+      "definition": "The ability to borrow money or obtain goods now and pay for them later.",
+      "whyItMatters": "Understanding the purpose and cost of credit is central to personal-finance and lending scenarios.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Database",
+      "slug": "database",
+      "definition": "An organized, computer-managed collection of related data that can be stored and retrieved systematically.",
+      "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Time management",
+      "slug": "time-management",
+      "definition": "Organizing, planning, and prioritizing tasks to stay productive and meet deadlines.",
+      "whyItMatters": "Timed events reward competitors who prioritize and finish efficiently.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Invoice",
+      "slug": "invoice",
+      "definition": "A document a seller issues to request payment for goods or services provided.",
+      "whyItMatters": "Invoices drive accounts-receivable timing and payment terms.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Saving",
+      "slug": "saving",
+      "definition": "Setting aside income now for future use instead of spending it.",
+      "whyItMatters": "The need to save and invest anchors recommendations about goals, emergencies, and growth.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Spreadsheet",
+      "slug": "spreadsheet",
+      "definition": "A software application that organizes data in rows and columns for calculation and analysis.",
+      "whyItMatters": "Spreadsheets are a core business tool competitors are expected to use comfortably.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Professional appearance",
+      "slug": "professional-appearance",
+      "definition": "Appropriate grooming, dress, and hygiene for the workplace.",
+      "whyItMatters": "First impressions are judged in interviews and face-to-face roleplay.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Accounts payable",
+      "slug": "accounts-payable",
+      "definition": "Money a business owes to suppliers for goods or services already received.",
+      "whyItMatters": "Payables shape the cash position competitors must manage.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Financial goal",
+      "slug": "financial-goal",
+      "definition": "A specific money target a person or business plans to reach within a set time frame.",
+      "whyItMatters": "Goals turn vague advice into measurable, prioritized financial recommendations.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Business records",
+      "slug": "business-records",
+      "definition": "Documents and files that capture a business's transactions, operations, and decisions.",
+      "whyItMatters": "Accurate records are required for compliance, accountability, and historical reference.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Company protocols",
+      "slug": "company-protocols",
+      "definition": "Established procedures employees are expected to follow for consistent operations.",
+      "whyItMatters": "Adhering to protocols shows respect for organizational structure.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Accounts receivable",
+      "slug": "accounts-receivable",
+      "definition": "Money owed to a business by customers for goods or services already delivered.",
+      "whyItMatters": "Receivables affect cash flow timing and collection decisions.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Net worth",
+      "slug": "net-worth",
+      "definition": "Total assets minus total liabilities.",
+      "whyItMatters": "Net worth gives a one-number snapshot of financial position that competitors interpret before advising.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Information system",
+      "slug": "information-system",
+      "definition": "The combination of hardware, software, data, and people used to collect, process, store, and share information.",
+      "whyItMatters": "Understanding systems is key when competitors evaluate technology investments.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Rules of conduct",
+      "slug": "rules-of-conduct",
+      "definition": "Behavioral and ethical standards defining acceptable workplace actions.",
+      "whyItMatters": "Violating conduct rules is a common failure point in roleplay scenarios.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Profit margin",
+      "slug": "profit-margin",
+      "definition": "The percentage of revenue left as profit after expenses are subtracted.",
+      "whyItMatters": "Margins show how efficiently a business turns sales into profit.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Cost of credit",
+      "slug": "cost-of-credit",
+      "definition": "The total amount, including interest and fees, paid to borrow money.",
+      "whyItMatters": "Comparing the true cost of credit lets competitors judge whether borrowing is worthwhile.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Environmental scan",
+      "slug": "environmental-scan",
+      "definition": "A systematic review of external conditions, competitor activity, and market trends.",
+      "whyItMatters": "Scanning the environment lets competitors spot opportunities and threats before deciding.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Problem-solving",
+      "slug": "problem-solving",
+      "definition": "A systematic approach to identifying issues, analyzing causes, and implementing solutions.",
+      "whyItMatters": "Competitors are judged on working through challenges and proposing action.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Financial ratio",
+      "slug": "financial-ratio",
+      "definition": "A comparison of two financial figures that reveals a relationship or trend.",
+      "whyItMatters": "Ratios let competitors size up financial health quickly.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Tax liability",
+      "slug": "tax-liability",
+      "definition": "The total amount of tax a person or business legally owes to the government.",
+      "whyItMatters": "Tax liabilities affect take-home income and the real return on financial decisions.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Data visualization",
+      "slug": "data-visualization",
+      "definition": "Presenting data as charts, graphs, and diagrams to reveal patterns and insights.",
+      "whyItMatters": "Visuals communicate findings faster and more persuasively than raw numbers.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Creativity",
+      "slug": "creativity",
+      "definition": "Generating novel ideas and original solutions beyond conventional approaches.",
+      "whyItMatters": "DECA scenarios reward creative thinking when handling business challenges.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Working capital",
+      "slug": "working-capital",
+      "definition": "Current assets minus current liabilities — a measure of short-term financial health.",
+      "whyItMatters": "Working capital shows whether a business can cover immediate obligations.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Investment",
+      "slug": "investment",
+      "definition": "Using money to buy assets expected to grow in value or produce income.",
+      "whyItMatters": "Investment vocabulary supports recommendations about growth, risk, and long-term goals.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Customer records",
+      "slug": "customer-records",
+      "definition": "Stored information about clients, including contact details, purchase history, and preferences.",
+      "whyItMatters": "Organized customer data powers relationship management and targeted strategy.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Systematic behavior",
+      "slug": "systematic-behavior",
+      "definition": "An orderly, methodical approach to tasks and decisions that follows a logical structure.",
+      "whyItMatters": "Judges favor structured reasoning over a scattered approach.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Accrual",
+      "slug": "accrual",
+      "definition": "Recording revenue or expense when it is incurred, not when cash changes hands.",
+      "whyItMatters": "Accrual accounting reveals true profitability beyond the cash view.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Diversification",
+      "slug": "diversification",
+      "definition": "Spreading investments across different assets to reduce overall risk.",
+      "whyItMatters": "Diversification is the standard answer to lowering investment risk in finance events.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Primary research",
+      "slug": "primary-research",
+      "definition": "Original data collected firsthand through surveys, interviews, focus groups, or observation.",
+      "whyItMatters": "Competitors must weigh its high relevance against its higher cost and time.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Goal setting",
+      "slug": "goal-setting",
+      "definition": "Establishing clear, specific objectives for performance over a set time frame.",
+      "whyItMatters": "Goal-oriented thinking signals ambition and strategic planning.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Trial balance",
+      "slug": "trial-balance",
+      "definition": "A list of all ledger accounts and balances used to check that debits equal credits.",
+      "whyItMatters": "Trial balances verify the accuracy of financial records in case work.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Financial-services provider",
+      "slug": "financial-services-provider",
+      "definition": "An institution such as a bank, credit union, or brokerage that offers money-management products.",
+      "whyItMatters": "Choosing the right provider is a recurring judgment in personal-finance scenarios.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Secondary research",
+      "slug": "secondary-research",
+      "definition": "Analysis of existing data from published sources, databases, and prior studies.",
+      "whyItMatters": "It is fast and cheap; competitors must know when existing data is enough.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Work-life balance",
+      "slug": "work-life-balance",
+      "definition": "The equilibrium between time spent on work and on personal life.",
+      "whyItMatters": "Awareness of balance reflects emotional intelligence and sustainable habits.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
+      "term": "Financial statement analysis",
+      "slug": "financial-statement-analysis",
+      "definition": "Examining financial statements to evaluate performance, profitability, and position.",
+      "whyItMatters": "It lets competitors diagnose problems and back recommendations with data.",
+      "tags": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ]
+    },
+    {
+      "term": "Time value of money",
+      "slug": "time-value-of-money",
+      "definition": "The principle that a dollar today is worth more than a dollar in the future because it can earn a return.",
+      "whyItMatters": "This concept justifies interest, discounting, and why saving early beats saving late.",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Information ethics",
+      "slug": "information-ethics",
+      "definition": "Standards governing the responsible collection, use, protection, and sharing of information.",
+      "whyItMatters": "Privacy and data-governance dilemmas are common in modern business scenarios.",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Job interview",
+      "slug": "job-interview",
+      "definition": "A formal conversation used to assess a candidate's fit, skills, and alignment with a role.",
+      "whyItMatters": "Interview performance is directly tested and drives job-search success.",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "area": "market_planning",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/market_planning.txt"
+  ],
+  "terms": [
+    {
+      "term": "Marketing strategy",
+      "definition": "The overall approach a business uses to reach customers and meet marketing goals.",
+      "whyItMatters": "Case studies require strategies that fit business objectives and market conditions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Market identification",
+      "definition": "Discovering and defining the markets where a business can sell its offering.",
+      "whyItMatters": "Identifying the right market is the foundation of any marketing plan.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Target market",
+      "definition": "The specific customer group a business chooses as its primary marketing audience.",
+      "whyItMatters": "Recommendations are stronger when they name a specific audience.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Marketing plan",
+      "definition": "A written document laying out marketing objectives, strategies, and tactics for a period.",
+      "whyItMatters": "The plan guides all promotional and customer-facing decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Situation analysis",
+      "definition": "An assessment of internal and external factors affecting a business's marketing.",
+      "whyItMatters": "Understanding the situation must come before any recommendation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "SWOT analysis",
+      "definition": "A review of a business's strengths, weaknesses, opportunities, and threats.",
+      "whyItMatters": "SWOT gives a structured frame for the situation analysis behind a plan.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Market segmentation",
+      "definition": "Dividing a market into distinct groups of customers with similar needs.",
+      "whyItMatters": "Segmentation lets a business target specific customer groups effectively.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Sales forecast",
+      "definition": "A projection of expected future sales based on analysis and historical data.",
+      "whyItMatters": "Forecasts help plan resources and set realistic marketing objectives.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Marketing objective",
+      "definition": "A specific, measurable goal for what marketing should achieve.",
+      "whyItMatters": "Clear objectives keep strategies and tactics aligned with business goals.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Positioning",
+      "definition": "How a product or brand is perceived in customers' minds relative to competitors.",
+      "whyItMatters": "Positioning shapes differentiation and appeal to the target market.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Competitive advantage",
+      "definition": "A distinctive strength that lets a business outperform its competitors.",
+      "whyItMatters": "Naming the advantage shapes marketing messages and differentiation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Marketing tactics",
+      "definition": "The specific actions and tools used to carry out a marketing strategy.",
+      "whyItMatters": "Tactics turn strategy into concrete, executable actions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Demographics",
+      "definition": "Measurable population traits such as age, income, education, and location.",
+      "whyItMatters": "Demographics let a business tailor marketing to specific segments.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Market share",
+      "definition": "The percentage of total market sales captured by one business or product.",
+      "whyItMatters": "Share quantifies competitive position and the payoff of a growth plan.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    }
+  ]
+}

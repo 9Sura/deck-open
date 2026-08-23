@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "ent-icdc-1-0001",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Recognize and overcome biases/stereotypes",
+    "question": "A venture-backed founder is reviewing resumes for a lead engineer position and notices she consistently ranks candidates from a particular university lower, even when their technical assessment scores are equal to or higher than other applicants. She realizes this pattern has repeated across three hiring cycles. What is the most effective first step to overcome this bias?",
+    "options": {
+      "A": "Drop that university from the list of schools she will consider in future searches",
+      "B": "Have a colleague independently re-score the same resumes using a blinded rubric and compare results",
+      "C": "Keep the current process, since the technical assessment score already provides an objective fairness check",
+      "D": "Ask the university's career center to screen its own candidates before they reach her"
+    },
+    "answer": "B",
+    "explanation": "Overcoming a bias starts with testing whether it is actually moving decisions: a second reviewer scoring the same resumes against a blinded rubric strips out the school name and produces a comparison that shows the founder where her ranking diverges. Dropping the university (A) converts an unexamined bias into a formal exclusion rule, which is the bias applied more thoroughly. Keeping the process because the assessment is objective (C) misses the point of the evidence: the scores were equal or better and she ranked those candidates lower anyway, so the bias operates in the ranking rather than in the test. Handing screening to the university's career center (D) leaves her own ranking untouched and adds an outside filter whose criteria she cannot see.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0002",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess risks of personal decisions",
+    "question": "An entrepreneur has been offered a full-time job with a stable salary at the same moment her startup has just landed its first paying client. She has three months of personal savings left and a spouse who is not currently employed. Which approach best reflects sound personal risk assessment before she decides whether to leave the job offer on the table?",
+    "options": {
+      "A": "Accept the job offer immediately because any startup carries unacceptable personal risk",
+      "B": "Decline the job offer without further analysis since the first client proves the business will succeed",
+      "C": "Quantify her runway, household expenses, and the client contract's revenue timeline before deciding",
+      "D": "Ask the client to prepay a full year of services so the decision resolves itself"
+    },
+    "answer": "C",
+    "explanation": "Sound risk assessment requires quantifying the actual financial exposure (runway, fixed household costs, and when client revenue will actually arrive) rather than reacting emotionally in either direction. Accepting the job outright (A) treats all entrepreneurial risk as automatically unacceptable without analysis. Declining without analysis (B) overweights a single early signal (one client) as proof of long-term viability. Asking the client to prepay a year (D) is an unrealistic ask for a first-time client and does not itself constitute a risk assessment process.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0003",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Demonstrate ethical work habits",
+    "question": "A small business owner discovers that logging an extra 15 minutes on client invoices each week would go unnoticed by clients and would meaningfully boost monthly revenue during a slow season. No client has complained about billing accuracy. What should the owner do?",
+    "options": {
+      "A": "Bill only for time actually worked, since accurate billing is an ethical obligation regardless of detection risk",
+      "B": "Add the extra time only to clients who are least likely to review their invoices closely",
+      "C": "Add the extra time to all invoices since revenue growth benefits the business's ability to serve clients well",
+      "D": "Survey clients first to see whether they would notice or object to the extra charges"
+    },
+    "answer": "A",
+    "explanation": "Ethical work habits require billing based on actual performance, independent of whether the discrepancy would be detected; integrity is not contingent on the likelihood of getting caught. Selectively targeting less-attentive clients (B) is a deliberate deception that is more, not less, unethical. Justifying overbilling as beneficial to the business (C) rationalizes dishonest billing with an unrelated business goal. Surveying clients about whether they would notice (D) treats detection risk, not honesty, as the deciding factor.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0004",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Adjust to change",
+    "question": "A regional food-delivery startup's core client, a chain of 40 restaurants, terminates its contract with two weeks' notice after being acquired by a competitor's delivery network. The founder had built the entire operations schedule around this client. Which response best demonstrates adjusting effectively to change?",
+    "options": {
+      "A": "Lay off the entire driver roster and suspend deliveries to the remaining accounts until a client of comparable size has been signed",
+      "B": "Hold the existing operations schedule in place and wait for the acquiring network to reverse the decision it has just announced",
+      "C": "Reassess capacity and revenue assumptions, then reallocate drivers across smaller existing accounts while sourcing new clients",
+      "D": "Publicly criticize the acquiring competitor to pressure the restaurant chain into reconsidering"
+    },
+    "answer": "C",
+    "explanation": "Adjusting to change means testing the assumptions the plan rested on and redeploying what the business still has: the founder rebuilds her capacity and revenue picture without the chain, moves drivers onto the accounts she kept, and rebuilds the pipeline. A is wrong because laying off the drivers and stopping deliveries also abandons the smaller accounts that survived, so a two-week loss of one client becomes the loss of the whole book of business. B is wrong because leaving the schedule as it stands staffs a client that will not be there in two weeks, and waiting for an acquirer to unwind its own deal is not a plan the founder controls. D is wrong because attacking the acquirer publicly does not restore the volume, and it damages the founder's standing with the restaurant operators she still needs.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0005",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Exhibit cultural sensitivity",
+    "question": "A U.S.-based entrepreneur is finalizing a distribution agreement with a manufacturing partner in Japan. During negotiations, the partner repeatedly pauses, gives indirect answers, and avoids saying \"no\" directly to terms they seem hesitant about. What is the most culturally sensitive interpretation and response?",
+    "options": {
+      "A": "Read the pauses as tacit consent, on the assumption that a partner who has not objected has accepted the terms as they are drafted",
+      "B": "Recognize this as a common indirect communication style signaling reservations, and invite specific feedback on the terms",
+      "C": "Press for a direct yes-or-no commitment before the meeting ends, treating the indirect answers as a barrier to closing the deal",
+      "D": "Treat the indirect answers as a sign of weak interest and open discussions with a different manufacturer in the same region"
+    },
+    "answer": "B",
+    "explanation": "Pausing, answering indirectly, and avoiding an outright refusal are recognized features of many Japanese business exchanges, where a direct \"no\" is face-threatening; the culturally sensitive reading is that the partner has unstated reservations, and inviting specific feedback on the terms gives him a way to raise them. A is wrong because the absence of an objection carries no such meaning in an indirect communication style; the hesitancy is the objection, and signing the draft would lock in terms the partner has not accepted. C is wrong because demanding a yes-or-no answer on the spot asks the partner to abandon his own norms and forces a response that may not be honest. D is wrong because the behavior described is a normal communication pattern rather than a signal of disinterest, so walking away discards a partner who is still negotiating.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0006",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use conflict-resolution skills",
+    "question": "Two co-founders of a growing e-commerce company disagree sharply over whether to reinvest this quarter's profit into inventory expansion or into a marketing campaign. The disagreement has begun affecting team morale as each founder lobbies employees for support. What is the best conflict-resolution approach?",
+    "options": {
+      "A": "Have each founder present their data-backed case to the other privately, then jointly define shared success criteria before deciding",
+      "B": "Split the quarter's profit evenly between inventory and the campaign, so that each founder receives half of what they asked for and the lobbying stops.",
+      "C": "Have the founder holding majority equity settle it by issuing a final decision, since a deadlock needs an owner's authority to break it.",
+      "D": "Postpone the allocation decision to next quarter and let the two founders keep making their cases to the staff until one of them gives way."
+    },
+    "answer": "A",
+    "explanation": "Effective conflict resolution separates the parties from their audience, moves the discussion from positions to data and shared objectives, and reaches a decision through structured dialogue — which is why each founder makes their case privately and the two then agree on what success would look like before choosing. B is wrong because an even split is a compromise on the founders' feelings rather than a decision about the business: capital should go where it earns the best return, and halving it may leave the inventory expansion short of a viable order and the campaign short of reach, so both founders get a fair share of a worse outcome. C is wrong because an owner overruling the other by right of equity ends the argument without resolving it; the co-founder who loses on authority rather than evidence carries the disagreement into the next decision, and the team watching learns that ownership settles debates. D is wrong because delay lets the lobbying continue, which is the part already damaging morale, and disagreements over how to spend a specific quarter's profit do not resolve themselves — the quarter simply passes.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0007",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Explain office politics",
+    "question": "A new operations manager at a 25-person startup notices that two senior employees consistently get their project proposals approved quickly, while equally strong proposals from newer staff face delays and extra scrutiny. What does this scenario best illustrate about office politics?",
+    "options": {
+      "A": "That an organization's formal chain of command accounts for which proposals move quickly through review",
+      "B": "That informal influence and established relationships can affect organizational decisions beyond formal authority",
+      "C": "That written company policy grants senior staff an expedited review track",
+      "D": "That proposal quality differences explain the gap in approval speed"
+    },
+    "answer": "B",
+    "explanation": "Office politics describes the informal networks, relationships, and influence that shape decisions alongside the formal structure, which is what gives two well-established employees faster approvals than newer staff with equally strong work. A is wrong because the formal chain of command would route every proposal the same way; the pattern here tracks who the authors are rather than where they sit on the org chart. C is wrong because nothing indicates a written rule; the advantage is informal, and codifying it in policy would make it a procedural matter rather than politics. D is wrong because the scenario states the newer staff's proposals are equally strong, so quality cannot account for the difference in speed.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0008",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Coach others",
+    "question": "A small business owner's most technically skilled employee consistently produces excellent individual work but struggles when asked to lead a small project team, becoming frustrated and short with teammates. The owner wants to develop this employee's leadership ability rather than replace them. Which coaching approach is most appropriate?",
+    "options": {
+      "A": "Collect anonymous 360-degree feedback from the teammates and hand the employee the compiled report to read and work through on their own.",
+      "B": "Enroll the employee in a two-day leadership workshop and return them to the same project team when it ends.",
+      "C": "Set specific leadership goals with the employee, provide regular private feedback, and give them low-stakes opportunities to practice",
+      "D": "Give the employee the team-lead title and let the experience itself teach the missing skills."
+    },
+    "answer": "C",
+    "explanation": "Coaching develops a skill deliberately: specific goals tell the employee what good leadership looks like in their situation, regular private feedback tells them how they are tracking against it, and low-stakes practice gives them somewhere to try it where a mistake costs little. A is wrong because 360-degree feedback is a real instrument that is being used without a coach — an employee who already grows frustrated with teammates, handed an anonymous compilation of their criticisms and left alone with it, is more likely to feel ambushed than to know what to do differently. B is wrong because a two-day workshop delivers information rather than skill, and returning the employee to the same team with no goals and no feedback leaves them to repeat the same behavior with a certificate in hand. D is wrong because a title is not development: the employee has already led a team and struggled, and giving the struggle a formal name without support is the situation that produced the problem in the first place.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0009",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use power appropriately",
+    "question": "The founder and majority owner of a startup strongly disagrees with the product team's recommendation to delay a launch for additional safety testing. As the sole equity holder with unilateral authority to overrule the team, which use of that power is most appropriate?",
+    "options": {
+      "A": "Offer the product team a bonus contingent on holding the original launch date, letting the incentive settle the disagreement over testing.",
+      "B": "Hear the team's safety concerns and evidence, then make a final decision that is transparently explained even if it overrides their recommendation",
+      "C": "Hand the decision to the product team outright, since the engineers closest to the testing data should own a safety call.",
+      "D": "Remind the team that sole ownership carries the authority to reassign anyone who keeps pressing the testing point."
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Using power appropriately means exercising legitimate authority while still taking in the evidence and being transparent about the reasoning behind the final call, which preserves the team's trust and their willingness to raise the next concern even when the founder overrides this one. A is wrong because attaching money to one outcome buys agreement instead of hearing it: an engineer who stands to gain from launching on schedule can no longer give the founder an independent read on the safety data, so the incentive destroys the very information the decision needs. C is wrong because handing the call away is not an appropriate use of authority but an avoidance of it — the founder remains accountable for the launch, and delegating a decision to escape a disagreement leaves the person answerable for it uninformed. D is wrong because raising the prospect of reassignment punishes the team for surfacing a safety issue, which is the use of position to suppress information rather than to weigh it, and it guarantees the next concern goes unspoken.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0010",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess long-term impact on others",
+    "question": "A company is deciding whether to automate a warehouse process that would eliminate 12 jobs but save significant costs within six months. Leadership is evaluating the decision beyond the immediate financial benefit. Which consideration best reflects assessing the long-term impact on others?",
+    "options": {
+      "A": "Estimating the severance and retraining payments the twelve displaced workers would cost the company over the next year",
+      "B": "Considering how displaced employees, remaining staff morale, and community reputation will be affected over time",
+      "C": "Projecting how the equipment's maintenance costs will rise across its ten-year service life",
+      "D": "Comparing the vendor's bid against quotes from two competing automation suppliers"
+    },
+    "answer": "B",
+    "explanation": "Assessing the long-term impact on others means asking who is affected by a decision and how, over a horizon longer than the payback: the twelve people who lose their jobs, the employees who stay and draw conclusions about their own security, and the community that watches an employer cut jobs are all bearing consequences the cost saving does not capture. A is wrong because it counts the same twelve people as an expense line rather than as people affected — severance and retraining are what the company pays, they are settled within months, and a decision can clear that hurdle cheaply while still leaving twelve households and a workforce's trust in a worse place. C is wrong because it does look at the long term, but the long term of the machine: maintenance over ten years is an impact on the company's own budget, and the performance indicator asks about impact on others. D is wrong because comparing bids is a procurement step that decides which vendor to buy from and reveals nothing about who is affected by automating at all.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0011",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain pricing function",
+    "question": "A subscription software company has priced its product well below competitors for two years to maximize market share, and it now controls 60% of its niche market but operates at a loss. The board wants to understand what role pricing has actually been serving in the business strategy. Which explanation best describes the function pricing has played?",
+    "options": {
+      "A": "Pricing has functioned as a quality signal, positioning the product as the premium option in its niche",
+      "B": "Pricing has functioned as a rationing device that allocates limited production capacity among competing buyers",
+      "C": "Pricing has functioned as a competitive lever to acquire market share rather than to generate profit",
+      "D": "Pricing has functioned as a cost-recovery mechanism holding revenue above the cost of serving each subscriber"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. The company priced well under its rivals for two years and took 60% of the niche while losing money, so price was being used as a weapon to take share from competitors, with profit deliberately deferred. A is wrong because a quality signal works through a premium price that invites buyers to infer value from cost; pricing below every competitor sends the opposite signal. B is wrong because rationing by price applies where capacity is scarce and demand must be trimmed to fit it, and subscription software faces no such constraint. D is wrong because cost recovery would require price to sit above the cost of serving a subscriber, and the company operates at a loss, which is the fact the board is asking about.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0012",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Describe ethics in pricing",
+    "question": "A regional hardware store raises the price of generators, bottled water, and batteries by 300% in the 48 hours after a hurricane warning is issued for the area, citing a sudden spike in demand. Which statement best describes the ethical issue in this pricing decision?",
+    "options": {
+      "A": "The pricing is ethical because it is what the market clears at once demand spikes, and the store is reading that signal more accurately than a regulator could.",
+      "B": "The pricing raises ethical concerns because it exploits consumers' urgent, life-safety needs during a crisis rather than reflecting a genuine cost increase",
+      "C": "The ethical failure is that the store set no purchase limit per customer, which is the safeguard that keeps emergency stock on the shelf for later arrivals.",
+      "D": "The pricing is ethical because the store must cover what it will pay to restock these items after the storm."
+    },
+    "answer": "B",
+    "explanation": "Ethical pricing asks whether an increase reflects a real change in the seller's costs or simply takes advantage of buyers who have no alternative; a 300% markup on generators, water, and batteries in the hours after a hurricane warning is the textbook case of exploiting urgent, life-safety need, and it is unethical and often illegal. A is wrong because describing the mechanism does not answer the ethical question: prices do rise when demand jumps, but the reason emergency essentials are treated as an exception is that the buyer's 'demand' here is a household trying to stay safe, and consent extracted from someone with no alternative is not a fair bargain. C is wrong because purchase limits address hoarding, a real but different problem, and a limit would not make a 300% markup fair — it would only ration the same exploitative price across more households. D is wrong because the stem gives the store's own reason as a spike in demand, not a rise in what it pays; a genuine replacement-cost increase would be a legitimate basis for a higher price, and its absence is exactly what makes this markup exploitative.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0013",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain legal considerations for pricing",
+    "question": "Two competing office-supply retailers in the same city privately agree over lunch to both raise prices on printer paper by the same percentage next month, reasoning that neither wants to appear to be the one raising prices first. What is the primary legal issue with this arrangement?",
+    "options": {
+      "A": "It is a form of predatory pricing, which is illegal because it is priced below cost to eliminate competitors",
+      "B": "It is a form of price discrimination, which is illegal because it charges different prices to different customers for the same good",
+      "C": "It is a form of price fixing, which is illegal because competitors are colluding to set prices rather than setting them independently",
+      "D": "It is a form of bait-and-pricing, which is illegal because it advertises a product at a low price with no intent to sell it"
+    },
+    "answer": "C",
+    "explanation": "Price fixing occurs when competitors collude to coordinate prices instead of setting them independently through competition, which is exactly what these two retailers have agreed to do, and it violates antitrust law. Predatory pricing (A) involves pricing below cost to drive out competitors, not raising prices together. Price discrimination (B) involves charging different prices to different customers, not coordinated price increases between competitors. Bait-and-switch pricing (D) involves advertising a product to lure customers with no intent to sell at that price, which is unrelated to this collusion scenario.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0014",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain factors affecting pricing decisions",
+    "question": "A boutique coffee roaster is setting the price for a new single-origin coffee line. The owner already knows the cost per bag and the desired profit margin, but before finalizing the price she also researches competitors' prices for comparable single-origin coffees and surveys loyal customers about how much they associate premium pricing with quality. What is she doing by incorporating these additional inputs?",
+    "options": {
+      "A": "Replacing her cost-plus figure with competition-based pricing, letting the nearby roasters' prices set what she charges.",
+      "B": "Measuring price elasticity by tracking how her sales volume responds across several different price points.",
+      "C": "Conducting a break-even analysis to learn how many bags each candidate price would need to sell.",
+      "D": "Weighing market and consumer-perception factors alongside cost and profit goals to make a fully informed pricing decision"
+    },
+    "answer": "D",
+    "explanation": "Pricing decisions are shaped by multiple factors beyond cost and margin, including what competitors charge and how target customers perceive the relationship between price and quality; the owner is deliberately weighing these market and perception factors alongside the cost and margin figures she already has. A is wrong because she has not replaced her cost basis with anything — competitor prices are one input she is adding to a cost and margin figure she already calculated, whereas competition-based pricing would mean letting rivals' prices decide the number. B is wrong because elasticity is measured from how demand actually responds to different prices; asking customers whether they associate a high price with quality captures perception, not the change in volume that an elasticity estimate requires. C is wrong because a break-even analysis works out the volume a given price must sell to cover costs, and nothing in the scenario has her computing volumes — she is gathering competitor and customer information, not testing sales targets.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0015",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Identify sources that provide relevant, valid written material",
+    "question": "Before finalizing a market-entry report for her handmade candle business, an entrepreneur must decide which sources to cite on projected demand for artisanal home goods. Which source would provide the most valid and relevant written material for her analysis?",
+    "options": {
+      "A": "A recent industry report published by a trade association specializing in home decor retail",
+      "B": "A hobbyist candle maker's personal blog post about the scent trends she likes",
+      "C": "An anonymous forum thread where hobbyists discuss candle-making as a pastime",
+      "D": "A five-year-old general economics textbook chapter on manufacturing costs"
+    },
+    "answer": "A",
+    "explanation": "A trade association report is current, is compiled by an organization whose work is the home decor retail market, and speaks to the demand the entrepreneur is projecting, which makes it both valid and relevant to her analysis. A hobbyist's blog post (B) is one person's unverified opinion and carries no data behind it. An anonymous forum thread (C) has no identifiable author to evaluate and treats candles as a hobby rather than as a market. A five-year-old economics textbook chapter (D) is dated and pitched at manufacturing in general, so it cannot speak to demand for artisanal home goods now.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0016",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain communication techniques that support and encourage a speaker",
+    "question": "During a stressful investor pitch, a nervous co-founder begins to stumble over his financial projections. His business partner wants to help him regain confidence without interrupting the pitch. Which technique would best support and encourage the speaker in this moment?",
+    "options": {
+      "A": "Nodding and maintaining eye contact while he continues speaking",
+      "B": "Finishing his sentences for him so that the pitch keeps moving at its planned pace",
+      "C": "Whispering the correct figures to him in the middle of his sentence",
+      "D": "Checking a phone so that the investors' attention is drawn away from the stumble"
+    },
+    "answer": "A",
+    "explanation": "Nodding and holding eye contact is active nonverbal support: it tells the co-founder his partner is with him and gives him something steady to speak to, and it does all of that without taking the floor from him mid-pitch. Finishing his sentences (B) takes the pitch away from him in front of the investors and signals that he could not carry it. Whispering figures mid-sentence (C) breaks his concentration at the point he is already struggling and shows the room that he is being corrected. Checking a phone (D) withdraws the one supportive presence he has, and investors read the partner's disengagement as a verdict on the pitch.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0017",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Interpret others' nonverbal cues",
+    "question": "A small-business owner is negotiating a supplier contract. As she proposes a lower unit price, the supplier crosses his arms, leans back, and avoids eye contact, though he verbally says, \"That sounds fine.\" How should she interpret this exchange?",
+    "options": {
+      "A": "The supplier's spoken agreement settles the price, and his posture reflects ordinary end-of-day fatigue",
+      "B": "The supplier's nonverbal cues suggest hesitation despite his verbal agreement",
+      "C": "The supplier's posture signals enthusiastic approval of the lower price",
+      "D": "The supplier's body language carries no meaning once he has stated his agreement aloud"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Crossed arms, a backward lean, and averted eyes are closed, withdrawing signals, and when they arrive alongside the words \"that sounds fine\" the mismatch is the information: the supplier is reluctant about the lower price even though he has not said so. A is wrong because it explains the posture away with a cause the scenario does not offer, and the cues appeared at the moment she named the price rather than at random. C is wrong because enthusiasm reads as open posture, forward lean, and eye contact; the supplier is doing the reverse of each. D is wrong because nonverbal signals carry the most weight exactly when they contradict the words, since a negotiator who is unwilling to say no directly still shows it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0018",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Employ communication styles appropriate to target audience",
+    "question": "An entrepreneur is preparing two different messages about the same new product launch: one for a group of venture capital investors and one for a group of teenage customers on social media. What is the best approach to employ appropriate communication styles for each audience?",
+    "options": {
+      "A": "Write both messages in the founder's own brand voice, since one consistent voice is what makes a launch credible.",
+      "B": "Give the teen audience the full financial projections, so they can see the launch is backed by real numbers.",
+      "C": "Use precise financial terminology and formal tone for investors, and casual, visual, engaging language for teen customers",
+      "D": "Change the images and the send channel for each group while keeping the wording of the message identical."
+    },
+    "answer": "C",
+    "explanation": "Employing an appropriate communication style means matching register to audience: investors expect precise financial terms and a formal tone because that is how they assess an opportunity, while teenage customers on social media respond to casual, visual, engaging language. A is wrong because a consistent brand voice is about what a company sounds like across its messages, not about using one register for every audience — the same brand can be formal in a pitch and playful in a post, and refusing to adapt costs the message its effect on one group or the other. B is wrong because financial projections are the content investors need to evaluate a deal and the content teens have no use for; handing them to a social audience mistakes thoroughness for relevance and loses the reader. D is wrong because the style lives in the wording: swapping the picture and the platform while leaving identical text means the teen audience still reads investor prose, which is the mismatch the founder is trying to avoid.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0019",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write persuasive messages",
+    "question": "A startup founder is drafting an email to convince a local bank to extend a business line of credit. Which approach would make the message most persuasive?",
+    "options": {
+      "A": "Describing the company's future success in broad terms and leaving the projections out, so no number can be held against the founder.",
+      "B": "Presenting a confident tone, specific financial data, and a clear benefit to the bank of extending credit",
+      "C": "Opening with each hardship the business survived this year, so the bank can see how persistent the founder has been.",
+      "D": "Reminding the bank that the founder has banked there personally for years, so the relationship justifies the credit."
+    },
+    "answer": "B",
+    "explanation": "A persuasive message is built for its reader: a confident tone signals a business worth lending to, specific financial data gives the bank something to underwrite, and naming what the bank gets — an account that services its debt and grows — answers the question the credit officer actually has. A is wrong because vagueness reads as absence: a lender asked to advance funds against 'future success' with no figures concludes the figures would not help the case, and hedging to avoid being held to a projection also avoids giving the bank any basis to say yes. C is wrong because a bank reads a list of hardships as a risk profile rather than a character reference; persistence does not service a line of credit, and leading with everything that went wrong invites the officer to price the account accordingly. D is wrong because a personal deposit history is not a commercial credit case: the bank is being asked to lend to the business, and its decision rests on that entity's cash flow and capacity, not on how long the founder has held a checking account.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0020",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain how digital communications expose business to risk",
+    "question": "An entrepreneur asks employees to use their personal messaging apps to discuss confidential product specifications with a manufacturing partner overseas because it is faster than the company's approved software. What risk does this practice primarily expose the business to?",
+    "options": {
+      "A": "Higher mobile data charges for the employees who message the overseas manufacturing partner",
+      "B": "Duplicate record-keeping costs from running two separate messaging platforms at once",
+      "C": "Loss of control over sensitive information due to unsecured, unmonitored channels",
+      "D": "Slower approval cycles that push the specifications past the manufacturing partner's deadline"
+    },
+    "answer": "C",
+    "explanation": "Confidential product specifications moving through personal messaging apps sit outside the company's control: the messages are not on vetted infrastructure, are not retained or monitored, and stay on personal devices the company cannot secure or retrieve, which is how the specifications leak or are lost. A is wrong because data charges are a small cost rather than a risk exposure, and they do not touch the confidentiality of what is being sent. B is wrong because the personal apps are not being licensed or maintained by the company at all, which is precisely the problem; cost duplication is not what the practice exposes. D is wrong because the practice was adopted for speed and is faster than the approved software, so slower approvals are the opposite of what it produces.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0021",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Describe the impact of a person's social media brand",
+    "question": "A young entrepreneur seeking seed funding has a public social media history filled with controversial political rants unrelated to her business. How is this most likely to impact her fundraising efforts?",
+    "options": {
+      "A": "It will have little bearing, since seed investors weigh the size of the market rather than the founder.",
+      "B": "It could damage investor perception of her judgment and professionalism, affecting their willingness to invest",
+      "C": "It will broaden her reach, and investors read a large personal audience as a distribution advantage.",
+      "D": "It will surface in due diligence, at which point deleting the posts resolves the concern."
+    },
+    "answer": "B",
+    "explanation": "A founder's public presence shapes how investors read her judgment, her maturity, and her fitness to represent the company; controversial material unrelated to the business gives an investor reason to doubt all three, which shows up as reluctance to fund. A is wrong because it inverts what seed investors buy: at this stage there is little company to evaluate, so the founder's judgment is much of what is being assessed, and market size does not rescue a founder an investor is unsure of. C is wrong because reach earned by unrelated political controversy is not an audience for her product, and investors distinguish distribution built around a business from attention drawn to a person; the second raises the risk that the founder's opinions become the company's problem. D is wrong because deletion does not undo what a diligence process has already found — the posts were public, the impression is formed, and removing them once questions start reads as an additional judgment issue rather than a cure.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0022",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Adapt written correspondence to targeted audiences",
+    "question": "An entrepreneur is sending a delayed-shipment notice to two groups: long-time wholesale partners and first-time individual online customers. What is the most effective way to adapt this written correspondence to each audience?",
+    "options": {
+      "A": "Send both groups the same detailed contractual and logistics breakdown, changing the greeting line and inserting each recipient's name so the notice reads as individually addressed.",
+      "B": "Send wholesale partners a detailed note referencing the ongoing relationship and specific order history, and send customers a simpler, reassuring message with next steps",
+      "C": "Send the first-time customers the full contract-level account of the disruption and give the wholesale partners a brief one-line notice of the delay.",
+      "D": "Ask both audiences which message format they would prefer, and hold the delay notice until those replies come back."
+    },
+    "answer": "B",
+    "explanation": "Adapting the message means tailoring tone and detail to each audience's relationship and needs: wholesale partners benefit from specific, relationship-based detail tied to their order history, while first-time individual customers benefit from a simple, reassuring message that tells them what happens next. A is wrong because inserting a name into an otherwise identical notice is cosmetic personalization, not adaptation — the wholesale detail that reassures a long-time partner is the same detail that overwhelms a first-time buyer, and the greeting line does not change that. C is wrong because it inverts which audience needs which treatment: the first-time customer has no context for contract-level logistics, while the wholesale partner is the party whose ongoing relationship and order history warrant the specifics. D is wrong because a delayed-shipment notice is time-sensitive, and polling recipients on format postpones the information they need while still leaving the entrepreneur to decide what each message should say.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0023",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Choose and use appropriate channel for workplace communication",
+    "question": "A business owner needs to inform her five employees of an urgent, same-day schedule change due to a plumbing emergency at the store. Which channel would be most appropriate for this communication?",
+    "options": {
+      "A": "A formal printed memo left on the breakroom bulletin board for employees to notice eventually",
+      "B": "An immediate group text or phone call to reach employees quickly",
+      "C": "A quarterly newsletter update",
+      "D": "A note added to next month's staff meeting agenda"
+    },
+    "answer": "B",
+    "explanation": "For urgent, time-sensitive information, an immediate direct channel such as a group text or phone call ensures employees are reached quickly before their shifts. A printed memo on a bulletin board may not be seen in time and lacks urgency. A quarterly newsletter is far too infrequent for same-day information. Adding it to next month's meeting agenda would mean employees learn of the change long after it was needed.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0024",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channels of distribution",
+    "question": "A craft brewery currently sells beer only at its taproom but wants to reach grocery stores across the state without hiring its own delivery fleet. Which channel of distribution approach would allow the brewery to reach these retailers most efficiently?",
+    "options": {
+      "A": "Keep selling direct from the taproom and wait for grocery buyers to come to it",
+      "B": "Use an indirect channel through a wholesale distributor who delivers to grocery stores",
+      "C": "Open a company-owned outlet inside each grocery chain to sell the beer to shoppers directly",
+      "D": "Drop retail entirely and ship each case from the brewery's own website"
+    },
+    "answer": "B",
+    "explanation": "Selling through a wholesale distributor is an indirect channel: the distributor already warehouses and delivers to grocery accounts across the state, so the brewery reaches those shelves without buying trucks or hiring drivers. A is wrong because taproom sales are the situation the brewery is trying to change, and waiting for grocery buyers to appear leaves the channel exactly as it is. C is wrong because company-owned outlets are still a direct channel and would cost far more than the delivery fleet the brewery declined to buy. D is wrong because online shipping bypasses the grocery retailers the brewery named as its target rather than reaching them.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0025",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Describe technology in channel management",
+    "question": "A mid-sized apparel company works with several regional distributors and often experiences stockouts because distributors are unaware of real-time inventory levels at the warehouse. Which technology solution would best address this channel management problem?",
+    "options": {
+      "A": "Requiring each distributor to phone the warehouse manager every morning for a verbal count of the stock then on hand",
+      "B": "Implementing a shared inventory management system that gives distributors real-time visibility into stock levels",
+      "C": "Mailing a printed inventory report to every distributor at the end of each month",
+      "D": "Having distributors forecast available stock from their own past sales patterns"
+    },
+    "answer": "B",
+    "explanation": "A shared inventory management system puts the warehouse's live stock levels in front of the distributors as they sell, which is what removes the information gap causing the stockouts. A is wrong because a morning phone call is a snapshot that is stale by midday, it depends on one manager's availability, and it does not scale across several regional distributors. C is wrong because a monthly report describes stock that has already moved; the stockouts arise between mailings. D is wrong because a forecast from past sales is an estimate of demand, not a reading of what is in the warehouse now, and it is the guesswork the company is trying to replace.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0026",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain legal considerations in channel management",
+    "question": "A manufacturer wants to require all of its distributors to sell its product at a fixed minimum retail price and threatens to cut off supply to any distributor who sells below that price. What is the primary legal consideration the manufacturer must be aware of?",
+    "options": {
+      "A": "This practice, known as resale price maintenance, may raise antitrust concerns depending on how it is structured and enforced",
+      "B": "Robinson-Patman applies, since the manufacturer would be charging its distributors different prices for the same goods",
+      "C": "Exclusive-dealing rules apply, since the manufacturer is restricting the outlets its distributors may sell through",
+      "D": "Predatory-pricing rules apply, since the manufacturer is setting a price floor beneath its own cost"
+    },
+    "answer": "A",
+    "explanation": "Requiring distributors to hold a minimum retail price is resale price maintenance, and how such a policy is structured and enforced determines the antitrust risk it carries — a manufacturer that dictates and polices resale prices is exactly what competition law scrutinizes. B is wrong because Robinson-Patman concerns a seller charging competing buyers different prices for the same goods; nothing in the stem suggests the manufacturer's own prices to its distributors vary, and the restriction it is imposing runs downstream to what distributors charge the public. C is wrong because exclusive dealing restricts which suppliers or outlets a party may deal with, whereas this manufacturer is indifferent to where its product is sold and concerned solely with the number on the price tag. D is wrong because predatory pricing means pricing below cost to drive rivals out, which is the opposite of the conduct described: a minimum price floor keeps prices up rather than pushing them beneath cost.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0027",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channel-member relationships",
+    "question": "A snack food producer relies on a regional wholesaler to stock its products in hundreds of small convenience stores. The wholesaler recently asked the producer to co-fund an in-store promotional display in exchange for prioritized shelf space. What does this scenario best illustrate about channel-member relationships?",
+    "options": {
+      "A": "The wholesaler acts as channel captain, and the other members carry out its display decisions without negotiating them.",
+      "B": "Channel members can collaborate through shared investment to achieve mutual benefits like better product placement",
+      "C": "Co-op promotional funding is an allowance the producer owes to any channel member that asks for it as a condition of stocking.",
+      "D": "The request is vertical channel conflict, since the wholesaler gains shelf revenue and the producer gains none."
+    },
+    "answer": "B",
+    "explanation": "This scenario illustrates that channel members often collaborate by sharing an investment to reach a goal that benefits both of them — the producer funds part of the display, the wholesaler provides prioritized shelf space, and both stand to sell more. A is wrong because a channel captain directs the channel's decisions and the other members follow; here the wholesaler asked rather than instructed and offered something in return, which is a negotiation between parties who each hold something the other wants. C is wrong because co-op promotional allowances are negotiated terms, not obligations a producer owes on request: the producer is free to decline, and what makes this particular request attractive is the shelf placement offered in exchange, not any duty to fund it. D is wrong because the producer does not come away with nothing — prioritized placement in hundreds of stores is precisely what it gains — and an exchange in which both sides receive something is cooperation rather than conflict.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0028",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe cash flow statements",
+    "question": "A venture capital analyst reviewing a startup's cash flow statement notices net income is strongly positive, but cash from operating activities is deeply negative. Which of the following is the most likely explanation for this discrepancy?",
+    "options": {
+      "A": "The company issued long-term bonds in the period, and the proceeds were recorded inside operating cash flow.",
+      "B": "The company's receivables grew sharply because customers are paying more slowly than sales are recorded.",
+      "C": "The company sold a parcel of idle real estate at a substantial gain and reported the proceeds as operating cash.",
+      "D": "The company reduced its dividend payout to preserve cash for operating needs."
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Accrual accounting books revenue when the sale is made, not when the customer pays, so a sharp rise in receivables means income has been recorded while the cash sits uncollected, and the operating section subtracts that growth, driving operating cash flow below net income. Option A is incorrect because bond proceeds are a financing inflow and are reported in the financing section; they never pass through operating cash flow, so they cannot explain the operating figure either way. Option C is incorrect because a property sale is an investing activity and its proceeds are reported there; the gain is in fact subtracted out of the operating section, so the sale cannot be the source of positive net income paired with negative operating cash. Option D is incorrect because dividends are a financing outflow, and cutting them raises cash held rather than affecting operating cash flow at all.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0029",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain balance sheets",
+    "question": "A commercial loan officer evaluating two applicants wants to determine which firm has stronger short-term liquidity before approving a working-capital loan. Which balance sheet-based analysis should the officer perform?",
+    "options": {
+      "A": "Compare each firm's return on equity as calculated from the income statement.",
+      "B": "Compare each firm's total revenue growth over the past three years.",
+      "C": "Compare each firm's retained earnings balance to its total equity.",
+      "D": "Compare each firm's current assets to its current liabilities."
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Short-term liquidity is measured by comparing current assets to current liabilities (the current ratio), both of which appear on the balance sheet, showing whether a firm can cover near-term obligations. Option A is incorrect because return on equity is derived largely from the income statement and measures profitability, not short-term liquidity. Option B is incorrect because revenue growth reflects sales trends over time and says nothing about a firm's ability to meet current obligations. Option C is incorrect because comparing retained earnings to total equity speaks to a firm's history of reinvested profits and capital structure, not its short-term ability to pay bills.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0030",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe income statements",
+    "question": "A private equity associate comparing two companies notices that Company X reports higher net income than Company Y despite having lower total sales. Which item on the income statement most likely explains this outcome?",
+    "options": {
+      "A": "Company X has a substantially lower cost of goods sold relative to sales than Company Y.",
+      "B": "Company X pays more interest expense because it carries a larger balance of long-term debt than Company Y.",
+      "C": "Company X holds a larger year-end inventory balance than Company Y.",
+      "D": "Company X has fewer authorized shares outstanding than Company Y does."
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Cost of goods sold is deducted from sales to reach gross profit, so a company that keeps a smaller share of each sales dollar in product cost carries more of that dollar down to net income, which is how Company X can out-earn Company Y on smaller sales. Option B is incorrect because more debt means more interest expense, which reduces net income rather than raising it, so it would widen the gap in the wrong direction. Option C is incorrect because year-end inventory is a balance sheet figure for goods not yet sold; the income statement reflects the cost of what was sold, so a larger inventory does not lift net income. Option D is incorrect because authorized shares describe the equity structure and bear on per-share figures, not on the revenues and expenses that produce net income.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0031",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain accounting",
+    "question": "The founder of a fast-growing startup is preparing to raise a Series B round and needs to give investors confidence in the company's reported numbers. Which core purpose of accounting most directly addresses this need?",
+    "options": {
+      "A": "Accounting independently verifies that the statements management has already prepared are free of material misstatement.",
+      "B": "Accounting projects the revenue and the costs that the next two years will produce under the plan's stated assumptions.",
+      "C": "Accounting provides accurate, verifiable financial information that stakeholders can use to make informed decisions.",
+      "D": "Accounting sets the spending targets each department must hold to over the coming year."
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Accounting records what has actually happened, summarizes it, and reports it in a form outsiders can rely on and check; that is what lets a Series B investor treat the founder's numbers as evidence rather than assertion, which is exactly the confidence the round requires. A is wrong because independently verifying statements that management has already prepared describes auditing, a separate engagement performed by an outside party — investors may well ask for it, but it examines accounting's output rather than being a purpose of accounting itself. B is wrong because projecting future revenue and costs under assumptions is financial forecasting, which estimates results that have not occurred; a forecast is only as credible as the accounting record it is built from, so it cannot be what gives investors confidence in the reported numbers. D is wrong because setting departmental spending targets is budgeting, which plans amounts for a period ahead rather than capturing amounts already earned and spent.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0032",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Calculate cost of credit",
+    "question": "A small-business owner is comparing two short-term financing offers for a $10,000 purchase. Option 1 charges 6% simple interest for 8 months. Option 2 charges a flat $450 finance fee for the same 8-month period. Which statement accurately compares the cost of credit?",
+    "options": {
+      "A": "Option 2 is less expensive because the fee is fixed regardless of time elapsed.",
+      "B": "Option 1 is less expensive, costing $400 compared to Option 2's $450 fee.",
+      "C": "Both options cost the same amount over the eight-month period.",
+      "D": "Option 2 is less expensive because it avoids compounding interest."
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Using the simple interest formula (principal x rate x time), Option 1's cost is $10,000 x 0.06 x (8/12) = $400, which is less than Option 2's flat $450 fee, making Option 1 cheaper. Option A is incorrect because being a fixed fee does not automatically make Option 2 less expensive; the actual dollar comparison shows it costs more. Option C is incorrect because the two options do not cost the same amount; there is a $50 difference. Option D is incorrect because Option 1 uses simple, not compound, interest, so the compounding issue is not a relevant distinction here, and Option 2 is still the more costly choice.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0033",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Determine personal net worth",
+    "question": "A financial coach is helping a client calculate personal net worth. The client's assets total $95,000, and liabilities total $62,000. However, $9,000 of the liabilities is an auto loan tied to a vehicle the client has already sold and paid off in full, meaning that loan balance was recorded in error. What is the client's true net worth after correcting this error?",
+    "options": {
+      "A": "$42,000",
+      "B": "$33,000",
+      "C": "$53,000",
+      "D": "$24,000"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. After removing the erroneous $9,000 liability, corrected liabilities equal $62,000 - $9,000 = $53,000. Net worth equals total assets minus total liabilities: $95,000 - $53,000 = $42,000. Option B, $33,000, reflects the net worth calculated with the uncorrected liabilities ($95,000 - $62,000) and fails to remove the erroneous loan. Option C, $53,000, is simply the corrected liabilities figure, not the net worth calculation. Option D, $24,000, does not correspond to any correct combination of the given figures and understates the client's true financial position.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0034",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Control debt",
+    "question": "A recent graduate has $2,400 in monthly take-home pay and $960 in total monthly debt payments from a student loan, a car loan, and credit card minimums. A financial advisor recommends keeping a debt-to-income ratio below 36% to maintain healthy control over debt. Based on this guideline, what should the graduate do?",
+    "options": {
+      "A": "Take on an additional personal loan to consolidate payments into one bill.",
+      "B": "Increase credit card spending to build a stronger credit history.",
+      "C": "Do nothing, since a 40% debt-to-income ratio is within the healthy range.",
+      "D": "Prioritize paying down debt to lower monthly payments closer to $864 or below."
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. The graduate's current debt-to-income ratio is $960 / $2,400 = 40%, which exceeds the recommended 36% threshold; reducing monthly debt payments to $864 or below ($2,400 x 0.36) would bring the ratio back into the healthy range. Option A is incorrect because taking on an additional loan would increase total debt obligations and likely worsen the ratio rather than control it. Option B is incorrect because increasing credit card spending would raise, not lower, monthly debt payments, working directly against debt control. Option C is incorrect because 40% exceeds the 36% guideline, so the ratio is not within the healthy range and inaction would not address the problem.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0035",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain investments",
+    "question": "An entrepreneur nearing retirement wants to preserve capital while still earning a modest return, and she has a low tolerance for risk. Which investment vehicle best matches her needs compared to the alternatives?",
+    "options": {
+      "A": "Growth stock in an early-stage startup with high price volatility",
+      "B": "A leveraged options contract",
+      "C": "A short-term government bond fund",
+      "D": "Speculative cryptocurrency holdings"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Short-term government bond funds are widely regarded as low-risk investments backed by government credit, offering modest, stable returns that align with capital preservation and low risk tolerance. Option A is incorrect because early-stage startup stock carries high volatility and a substantial risk of loss, unsuitable for someone prioritizing capital preservation. Option B is incorrect because leveraged options contracts amplify both potential gains and losses, making them one of the riskiest instruments available, not a capital-preservation vehicle. Option D is incorrect because cryptocurrency is highly speculative and volatile, posing a significant risk of substantial loss rather than preserving capital.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0036",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle difficult customers",
+    "question": "A customer at a retail counter is shouting about a defective product and refusing to lower their voice, drawing attention from other shoppers. What is the most effective first step for the associate to take?",
+    "options": {
+      "A": "Remain calm, listen without interrupting, and acknowledge the customer's frustration.",
+      "B": "Match the customer's tone and volume to show the complaint is being taken seriously.",
+      "C": "Tell the customer that shouting will not be tolerated and end the conversation.",
+      "D": "Immediately offer a full refund before hearing the details of the complaint."
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Staying calm and listening without interrupting de-escalates tension, shows respect, and allows the associate to fully understand the problem before responding, which is the foundational technique for handling difficult customers. Option B is incorrect because matching an angry tone escalates the conflict rather than calming it and can make the situation worse. Option C is incorrect because cutting off the conversation dismisses the customer's concern and can damage the customer relationship and the company's reputation. Option D is incorrect because offering a refund before understanding the actual issue is premature, may not address the root problem, and sets an inconsistent precedent for handling complaints.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0037",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle customer/client complaints",
+    "question": "A hotel guest emails a formal complaint stating that housekeeping missed her room for two consecutive days during her stay. Which response best demonstrates effective complaint-handling technique?",
+    "options": {
+      "A": "Forward the complaint to the housekeeping supervisor without sending a reply to the guest.",
+      "B": "Apologize for the inconvenience, explain the corrective action being taken, and offer an appropriate gesture of goodwill.",
+      "C": "Explain that housekeeping coverage varies with occupancy and that the two missed days fall within the normal range of service variation.",
+      "D": "Wait until the guest has checked out and then apply a credit to her final bill without ever responding to the message she sent."
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Effective complaint handling acknowledges what the guest experienced, tells her what is being done about it, and offers a goodwill gesture that matches the size of the failure, which addresses both the service lapse and the relationship. Option A is incorrect because routing the complaint internally may fix the room but leaves the guest with silence, so from her side the complaint went unanswered. Option C is incorrect because it defends the lapse rather than owning it; two missed days is a service failure, and explaining it as normal variation tells the guest her complaint was not valid. Option D is incorrect because a silent credit at checkout resolves nothing while she is still in the room, and money in place of a response leaves the guest unsure whether anyone read what she wrote.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0038",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Build and maintain relationships with customers",
+    "question": "A B2B account manager wants to strengthen a long-term relationship with a key client beyond simply processing routine orders. Which practice would best support this goal?",
+    "options": {
+      "A": "Offering a deeper volume discount at each renewal so the account stays priced below competitors.",
+      "B": "Routing the client's calls to a dedicated line that resolves order issues faster.",
+      "C": "Sending the client a quarterly summary of what they ordered and what they spent.",
+      "D": "Proactively checking in periodically to understand evolving needs and offering tailored solutions."
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. A relationship that goes beyond order processing is built by reaching out before there is a transaction to discuss: periodic check-ins reveal how the client's needs are shifting, and tailoring what the account manager brings back to those needs is what makes the supplier hard to replace. A is wrong because discounting competes for the account on price alone, which invites the client to treat the relationship as a commodity and leaves the manager with nothing to offer once the discount can go no deeper. B is wrong because faster resolution improves the transaction rather than transcending it: the client's calls still originate from problems with orders, and a dedicated line makes routine business smoother without ever surfacing what the client needs next. C is wrong because a summary of past orders and spend reports back to the client what the client already knows, and history describes where the account has been rather than where it is heading.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0039",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Discuss the nature of customer relationship management",
+    "question": "A company invests in a CRM software system that tracks every customer interaction, purchase history, and preference across multiple departments. Which statement best describes the underlying purpose of this customer relationship management approach?",
+    "options": {
+      "A": "To automate the sales team's routine administrative work so representatives spend more hours in front of prospects.",
+      "B": "To build a historical archive that the finance department can draw on when reconciling the quarterly revenue figures.",
+      "C": "To create a unified view of each customer so the company can deliver more personalized and consistent service.",
+      "D": "To calculate the reward points each customer has earned toward the loyalty program."
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. The nature of CRM is to consolidate what every department knows about a customer into one view, so that whoever the customer reaches next — sales, service, or billing — responds with the same information and can tailor that response to the customer's history and preferences. A is wrong because sales-force automation is one feature a CRM may include, not the purpose of tracking interactions across multiple departments; freeing up a representative's hours does nothing to explain why service and billing records are gathered alongside the sales team's. B is wrong because the archive CRM builds is organized around the customer rather than the ledger, and revenue reconciliation is an accounting function served by financial systems; a CRM's record of preferences and conversations is of no use to it. D is wrong because loyalty points are one application built on top of customer data, and a system tracking every interaction and preference across the company is collecting far more than a points balance requires.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0040",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe the nature of legally binding contracts",
+    "question": "Two companies orally agree that Company A will service and recalibrate Company B's existing production line within 90 days for $45,000, with no written documentation created. Later, Company B refuses to pay, claiming no contract exists. Which of the following most accurately reflects the general nature of legally binding contracts?",
+    "options": {
+      "A": "An enforceable contract likely exists, because a valid contract generally requires offer, acceptance, and consideration rather than a written document.",
+      "B": "The agreement fails for lack of consideration, because no money changed hands between the two companies at the time when they reached their oral agreement.",
+      "C": "The agreement remained a revocable offer until Company A began production, so Company B stayed free to withdraw from it at any point before the delivery date.",
+      "D": "The agreement binds Company A alone, since it is the party that promised to perform a specific act."
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. A legally binding contract generally requires an offer, acceptance, and consideration; a written document is not universally required, so an oral agreement containing these elements can be enforceable. B is incorrect because consideration is the bargained-for exchange of promises, not the transfer of money at the moment of agreement: Company A's promise to service and recalibrate the line and Company B's promise to pay $45,000 are each consideration for the other, and payment is a later performance. C is incorrect because acceptance had already occurred — the parties orally agreed — and an offer that has been accepted is no longer revocable; treating a concluded agreement as a standing offer misreads which stage the parties had reached. D is incorrect because both parties exchanged promises, which makes the agreement bilateral and binds each of them; the fact that Company A's obligation involves performing the work does not leave Company B free of its own.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0041",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Identify the basic torts relating to business enterprises",
+    "question": "A shopper slips on a wet floor in a grocery store where no warning sign had been posted and sustains an injury. If the shopper sues the store for failing to maintain safe premises, this legal claim would most likely be classified as which type of tort?",
+    "options": {
+      "A": "Intentional tort",
+      "B": "Negligence tort",
+      "C": "Strict liability tort",
+      "D": "Contractual tort"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. This claim is a negligence tort because it involves the store's failure to exercise reasonable care in maintaining a safe environment, an unintentional breach of duty that caused harm. Option A is incorrect because an intentional tort requires a deliberate act meant to cause harm, which is not present when a floor is accidentally left wet. Option C is incorrect because strict liability typically applies to abnormally dangerous activities or defective products, not to a routine premises hazard like a wet floor. Option D is incorrect because \"contractual tort\" is not a recognized tort category; torts arise independently of any contractual relationship between the parties.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0042",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain the nature of agency relationships",
+    "question": "A homeowner hires a licensed real estate agent to list and sell her house. The agent finds a buyer and signs the purchase agreement on the homeowner's behalf, as authorized in the listing contract. This scenario best illustrates which nature of the agency relationship?",
+    "options": {
+      "A": "The agent acquires a co-ownership interest in the house and becomes a joint seller of record once a buyer has been found.",
+      "B": "The homeowner transfers her legal responsibility for the sale to the agent, who alone answers for the signed agreement.",
+      "C": "The agent may negotiate terms and relay offers, but the homeowner must personally sign before any contract takes effect.",
+      "D": "The agent, as an authorized fiduciary, may act on behalf of the principal within the scope of the granted authority."
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. In an agency relationship the agent is a fiduciary for the principal, and where the principal has granted authority the agent's acts bind the principal directly, which is why the agent's signature on the purchase agreement is effective. Option A is incorrect because agency is a relationship of authority, not of title; representing the seller gives the agent no ownership interest in the house and does not make the agent a seller of record. Option B is incorrect because authorized acts of the agent bind the principal, so responsibility for the agreement rests with the homeowner rather than shifting onto the agent. Option C is incorrect because the listing contract granted authority to sign, and an agent with that authority binds the principal without a second signature from her.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0043",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify impact of product life cycles",
+    "question": "NovaGlow, a maker of wireless charging pads, has watched unit sales fall steadily for 18 straight months as competitors flood the market with cheaper near-identical pads and retailers now discount NovaGlow's units by 40% just to clear shelf space. Which strategic response best reflects an understanding of the impact of this life-cycle stage on the company?",
+    "options": {
+      "A": "Begin phasing out the product and reallocate marketing dollars toward newer offerings",
+      "B": "Raise the price to reposition the pad as a premium item",
+      "C": "Launch an aggressive national campaign to reintroduce the pad to first-time buyers",
+      "D": "Expand the product line by adding several new colors and sizes"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Falling sales, heavy discounting, and commodity-level competition are hallmarks of the decline stage of the product life cycle, and the appropriate response is to reduce investment in the product and shift resources toward items with more growth potential. Raising the price (B) would likely accelerate the sales decline since the product no longer has differentiation to support a premium. Relaunching to first-time buyers (C) wastes resources on a product whose market has already saturated and moved on. Expanding the line (D) increases inventory costs for a product that is already losing appeal, which worsens the company's financial position rather than helping it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0044",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain ethics in product/service management",
+    "question": "A supplement company's lab tests show its new joint-health capsule provides only mild, inconsistent relief in about 20% of users, yet the marketing team wants to advertise it as 'clinically proven to relieve joint pain' because the wording tested well with focus groups. What is the most ethical course of action for the product manager to take?",
+    "options": {
+      "A": "Approve the claim, since focus-group testing showed the wording resonates with buyers",
+      "B": "Require the marketing team to disclose the actual, limited results accurately in all claims",
+      "C": "Run the claim in markets where advertising rules are enforced loosely",
+      "D": "Delay the decision until a competitor publishes a similar claim that can serve as an industry precedent"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Ethical product management ties a performance claim to the evidence behind it; the lab found mild, inconsistent relief in about a fifth of users, so the claim the company makes has to describe those limits rather than assert that relief is clinically proven. A is wrong because how well a phrase tests with a focus group measures its appeal, not its truth, and a wording chosen for appeal against known contrary data is the misrepresentation itself. C is wrong because moving a misleading claim to where enforcement is weak changes the odds of being caught rather than the honesty of the claim, and the consumers there are misled the same way. D is wrong because a competitor's conduct does not make the claim accurate, and following the competitor would leave the company making the same unsupported statement about its own data.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0045",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Generate product ideas",
+    "question": "A mid-size kitchenware company wants to generate ideas for a new product line but is concerned that relying only on its internal design team will produce ideas that are too similar to its existing catalog. Which approach would best help the company generate fresh, viable product ideas?",
+    "options": {
+      "A": "Have the internal design team rework last year's unsold prototypes into a new line",
+      "B": "Survey retail buyers and home cooks about unmet needs and combine the findings with employee brainstorming sessions",
+      "C": "Reverse-engineer a rival's bestselling item and change its color and handle shape before selling it under the company's own brand",
+      "D": "Postpone development until a competitor releases something the company can improve on and then follow with a similar item"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Idea generation widens when it draws on sources outside the room: retail buyers see what shoppers ask for and cannot find, home cooks report the tasks their tools handle badly, and running that input alongside employee brainstorming produces concepts the design team would not reach on its own. A is wrong because reworking unsold prototypes recycles the internal thinking the company is worried about and starts from designs the market has already passed on. C is wrong because copying a rival's item with cosmetic changes generates no new idea, leaves the company a step behind that competitor, and invites trade-dress and patent exposure. D is wrong because waiting for competitors to move sources the company's ideas from a single rival and concedes the first-mover position on every concept.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0046",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain warranties and guarantees",
+    "question": "A furniture retailer sells a sofa with a written statement promising to repair or replace any structural frame defect for five years, but the statement does not mention fabric wear or stains. A customer's sofa fabric fades after eight months and she demands a free replacement under the warranty. How should the retailer respond?",
+    "options": {
+      "A": "Replace the sofa at no cost, since a written warranty on one component extends its coverage to every other part of the product",
+      "B": "Deny the claim without explanation, treating the intact frame as proof that no warranty obligation exists here",
+      "C": "Explain that the express warranty covers only the frame as written, so fabric fading falls outside its stated terms",
+      "D": "Offer a partial refund of half the purchase price, treating goodwill payments as the warranty's stated remedy"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. An express warranty promises what its written terms say and no more; because this one addresses structural frame defects, the retailer should explain that fabric fading sits outside the coverage the customer was given. A is wrong because a written promise about one component does not extend itself to the rest of the product; the scope of an express warranty is set by its own wording. B is wrong because the frame's condition is not the reason the claim fails, and refusing without explaining the terms leaves the customer with no understanding of what she bought. D is wrong because the warranty states repair or replacement of the frame as its remedy; inventing a cash settlement misrepresents the coverage and sets a precedent the written terms do not support.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0047",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain corporate branding",
+    "question": "A cereal company owns dozens of individual snack brands that each have their own separate logos, packaging styles, and advertising, with almost no reference to the parent company on any package. A new CEO wants to shift toward emphasizing the parent company's name and reputation across all products. What is this CEO attempting to build?",
+    "options": {
+      "A": "A house-of-brands structure, in which each snack keeps an identity separate from the parent company's name",
+      "B": "A corporate brand that unifies consumer perception across the company's entire portfolio",
+      "C": "A private-label arrangement, under which retailers sell the company's snacks under the retailers' own names",
+      "D": "A brand extension, carrying one existing snack name into a product category it has not entered"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Corporate branding builds recognition and trust around the parent company's name so that its reputation carries across everything the company sells, which is precisely what the CEO intends by tying dozens of separate snack brands back to the company behind them. A is wrong because a house of brands is the arrangement the CEO is moving away from: dozens of independent identities with almost no reference to the parent is what the company has today, and the whole point of the shift is to stop doing it. C is wrong because private label means manufacturing goods that carry a retailer's name rather than the maker's, which would push the company's name further out of view instead of forward. D is wrong because a brand extension takes one existing brand into a new product category; the CEO is not launching anything new, but changing which name the existing portfolio is presented under.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0048",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify customer touch points",
+    "question": "A regional airline wants to improve the overall customer experience and is mapping every moment a traveler interacts with the company, from checking flight status on the app to speaking with a gate agent during a delay. Which of the following would NOT be considered a customer touch point in this mapping process?",
+    "options": {
+      "A": "A traveler reading an unsponsored news article ranking the airline's on-time performance",
+      "B": "A traveler calling customer service about a lost bag",
+      "C": "A traveler receiving a boarding pass notification through the airline's app",
+      "D": "The airline's internal quarterly report on fuel cost projections"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. A touch point is any interaction between a company and its customers or potential customers; an internal fuel-cost report is used only within the company and never reaches or interacts with a customer, so it is not a touch point. Reading a news article about the airline's performance (A) is a touch point because it shapes customer perception even though it is unpaid publicity. Calling customer service (B) and receiving an app notification (C) are both direct interactions between the company and the traveler, making them clear touch points.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0049",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe role of customer voice in branding",
+    "question": "A boutique skincare company noticed that thousands of customers were independently posting videos describing how they layer its serum with other routines, creating language and use-cases the company's own marketing team never developed. How should the company most effectively incorporate this into its branding strategy?",
+    "options": {
+      "A": "Hire paid influencers to film polished versions of the same routines, so the company controls how the message is presented.",
+      "B": "Register the customers' coined phrases as trademarks, so that the company owns and controls the terms its own users invented.",
+      "C": "Incorporate the customers' language and routines into official campaigns to reflect how real users experience the brand",
+      "D": "Reformulate the serum so it performs alone, removing the reason customers layer it with other products."
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Customer voice matters in branding because language and use-cases that buyers generate themselves carry a credibility company-written copy cannot buy; folding the customers' own terms and routines into official campaigns reflects how the product is actually used and reinforces the enthusiasm already spreading. A is wrong because paying influencers to restage the routines swaps the authentic thing for a produced imitation of it: viewers recognize sponsored content, and the value in these videos is precisely that no one was paid to make them. B is wrong because claiming ownership of the vocabulary customers invented turns advocates into infringers — the company gains control of terms whose worth came from being freely used, and the goodwill it is trying to capture is what the trademark filing would chill. D is wrong because it answers a product question no one asked: the layering routines are the source of the customer language the company wants to use, and engineering them away removes the very behavior the brand strategy should be built on.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0050",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Evaluate information quality/sources",
+    "question": "While researching expansion into a new market, an analyst finds two reports on consumer spending trends: one from a well-known market research firm with a documented methodology and sample size, and another from an anonymous blog post with the same conclusion but no cited data. How should the analyst proceed?",
+    "options": {
+      "A": "Treat the blog's agreement as independent corroboration of the firm's findings, since two sources reaching one conclusion is stronger than one.",
+      "B": "Rely primarily on the market research firm's report because its methodology and sourcing can be verified",
+      "C": "Discard the research firm's report as biased, since a firm that sells its findings has a stake in the conclusion it reports.",
+      "D": "Rank the two by publication date and use whichever is more current, since consumer spending data ages quickly."
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Evaluating information quality means asking whether a source's claims can be checked: the firm documents its methodology and sample size, so an analyst can judge how the conclusion was reached, while an anonymous post offers a conclusion with nothing behind it. A is wrong because corroboration requires the second source to be independent, and an unsourced blog post agreeing with a published report may simply be repeating it; agreement adds confidence when two parties looked separately, and there is no way to tell whether this one looked at anything. C is wrong because commercial interest is a reason to read a report critically, not to discard it — the firm's methodology and sample size are disclosed precisely so the work can be scrutinized, and rejecting the one checkable source leaves the analyst relying on the source that cannot be checked at all. D is wrong because currency matters when sources are otherwise comparable; recency does not tell an analyst whether a number was measured or invented, and the anonymous post's defect is that nothing about it can be verified at any date.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0051",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Draw conclusions from analysis",
+    "question": "A regional grocery chain's data shows that stores located within a half-mile of a university saw an 18% jump in sales of ready-to-eat meals every August and September, while other stores showed no such pattern. What conclusion can the chain most reasonably draw from this analysis?",
+    "options": {
+      "A": "Ready-to-eat meal demand near universities rises when students return for the fall semester",
+      "B": "Ready-to-eat meals sell poorly at the chain's stores that sit farther from a university campus",
+      "C": "August and September are slow months for grocery sales across the industry",
+      "D": "University students choose ready-to-eat grocery meals over restaurant dining throughout the year"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. The spike is confined to stores near universities and to the two months when students arrive for fall term, so the return of students to campus is the conclusion the data actually supports. B is wrong because the other stores showed no such pattern, which means no August spike, not weak sales; the data says nothing about their baseline volume. C is wrong because it contradicts the observation: sales in those months rose 18% at the campus-adjacent stores rather than falling. D is wrong because a two-month spike at particular stores cannot establish a year-round preference, nor does the data compare grocery purchases against restaurant spending at all.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0052",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Explain legal issues in information management",
+    "question": "An HR manager wants to keep a spreadsheet of employees' medical leave reasons accessible to all department supervisors so they can plan staffing more easily. What legal issue should the manager consider before doing this?",
+    "options": {
+      "A": "Whether the spreadsheet has been kept for the full period that employment records must be retained before it is shared",
+      "B": "Whether sharing sensitive medical information with supervisors violates privacy and confidentiality protections",
+      "C": "Whether each employee has been given the chance to inspect and correct the medical entries the file holds about them",
+      "D": "Whether the supervisors have signed the confidentiality acknowledgment the handbook asks of managers"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Information management carries legal duties around sensitive personal data, and the reasons for an employee's medical leave sit at the most protected end of that spectrum; circulating them to every supervisor gives access to people who do not need the diagnosis to build a staffing schedule, which is where privacy and confidentiality protections bite. A is wrong because retention rules govern how long a record must be kept and when it may be destroyed — a file can be perfectly compliant on retention and still be disclosed to the wrong people, which is the decision the manager is about to make. C is wrong because inspection and correction rights address whether a record is accurate and whether its subject can see it; the medical reasons here are presumably accurate, and accuracy does not license sharing them. D is wrong because an internal acknowledgment does not create a business need for supervisors to know a diagnosis, and a signature on a company form cannot waive the legal protection the employees hold over their own medical information.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0053",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Maintain customer records",
+    "question": "A boutique gym's front-desk staff update a member's file whenever their membership tier changes but rarely update contact information, payment method changes, or attendance notes because there is no consistent process for doing so. What is the most likely consequence of this practice?",
+    "options": {
+      "A": "Front-desk staff will spend less time on data entry, and that saving will outweigh the errors the gaps create.",
+      "B": "The gym's customer records will become increasingly outdated and unreliable for billing, communication, and retention efforts",
+      "C": "Billing will stay accurate, since the membership tier is the field that determines what each member owes.",
+      "D": "The records will correct themselves at renewal, when each member confirms their details."
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Maintaining customer records means keeping every field current, not the one field someone remembers to update: with contact details, payment methods, and attendance notes going stale, the gym loses the ability to bill reliably, reach members, or see who is drifting away before they cancel. A is wrong because the minutes saved at the front desk are small against what stale records cost — a failed charge on an expired card, a renewal notice sent to an old address, and a lapsed member nobody noticed each cost far more than the entry that would have prevented them. C is wrong because billing depends on the payment method as much as on the tier: the tier says what the member owes, and the card on file says whether the gym can collect it, so an accurate tier attached to a dead card still fails. D is wrong because renewal touches only what the member is asked to confirm, and nothing in this gym's process prompts that check; attendance notes in particular are staff observations no member would supply.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0054",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Discuss data mining",
+    "question": "An online bookstore analyzes years of purchase histories and discovers that customers who buy cookbooks in November are also statistically likely to purchase kitchen gadgets within the following two weeks. The company begins using this discovery to trigger automatic gadget recommendations. What business process does this scenario best illustrate?",
+    "options": {
+      "A": "Data mining, since it involves uncovering a hidden purchasing pattern within a large dataset",
+      "B": "Data mining is not involved because the discovery was based on a small, single-year sample",
+      "C": "A simple keyword search of the company's product catalog",
+      "D": "A manual customer survey conducted by the marketing department"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Data mining involves analyzing large volumes of historical data to uncover hidden patterns and relationships, such as the connection between cookbook and kitchen gadget purchases, which the company then uses to drive recommendations. Option B is incorrect because the scenario explicitly describes analysis across years of data, not a single year. A keyword search (C) simply matches text terms and would not reveal a statistical purchasing relationship. A manual customer survey (D) involves directly asking customers questions, which is a completely different research method from mining existing transactional data.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0055",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Interpret data mining findings",
+    "question": "A subscription meal-kit company's data mining analysis reveals a strong correlation between customers who skip more than two consecutive weekly deliveries and those who cancel their subscription within 60 days. What is the most appropriate way for the company to interpret and act on this finding?",
+    "options": {
+      "A": "Conclude that the skipped deliveries cause the cancellations and remove the skip-a-week option so that customers cannot pause a subscription",
+      "B": "Treat two or more consecutive skips as an early warning sign and proactively reach out to at-risk customers with retention offers",
+      "C": "Set the finding aside until a controlled experiment establishes that the skipped weeks are what cause the cancellations that follow them",
+      "D": "Close the accounts of the customers who skip two consecutive weeks so that the company avoids the cost of continuing to serve them"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. A correlation this strong and this well-timed is a usable early-warning signal: the company can flag accounts at the second skip and intervene with retention offers, which acts on the pattern without assuming the skip is what causes the cancellation. A is wrong because it reads a correlation as proven causation and then removes a feature that may be helping customers stay; the skips more plausibly reveal disengagement that was already underway. C is wrong because shelving the signal wastes it, and a predictive pattern is enough to justify outreach even where the causal mechanism is unproven, since the outreach costs little and risks little. D is wrong because it turns a signal that identifies customers worth saving into a reason to remove them, which produces the cancellations the analysis was meant to prevent.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0056",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain marketing and its importance",
+    "question": "A family-owned bakery has relied solely on word-of-mouth for 20 years but is now losing customers to a new chain bakery that runs targeted promotions and clearly communicates its value to specific customer groups. What does this situation best illustrate about the importance of marketing?",
+    "options": {
+      "A": "Marketing is essentially the advertising a business buys, so the bakery's decline reflects nothing more than the chain's much larger promotional budget.",
+      "B": "Marketing helps a business identify and satisfy customer needs better than competitors, which directly affects its ability to retain customers",
+      "C": "Marketing's importance lies in persuading customers to buy whatever a business already makes, rather than in learning what they want.",
+      "D": "Marketing's contribution is measured by the new customers it attracts, not by whether existing customers stay."
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Marketing is the set of activities that identify what customers need and communicate how a business satisfies those needs, and the bakery's losses show what happens when a competitor does this more effectively — the chain targets specific customer groups and states its value clearly. A is wrong because it reduces marketing to purchased advertising: the chain is not merely outspending the bakery, it is identifying particular customer groups and communicating value to them, which is a strategic function a bakery of any size can perform. C is wrong because it describes a production orientation, in which a business makes a product first and then finds buyers for it; marketing runs the other way, starting from customer needs, and 20 years of relying on one approach without asking what customers now want is precisely the bakery's problem. D is wrong because retention is squarely a marketing outcome — the stem describes existing customers leaving, and a business that satisfies needs better than its rivals keeps them.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0057",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain buying behavior factors",
+    "question": "A luxury watch brand notices that many customers who can easily afford its products still hesitate to buy because they are unsure whether owning the watch aligns with how their close friends and family would perceive them. Which factor influencing buying behavior does this best illustrate?",
+    "options": {
+      "A": "Economic factors, since a buyer's disposable income sets a ceiling on the purchase",
+      "B": "Social factors, since the customers are influenced by how reference groups might view the purchase",
+      "C": "Situational factors, since the timing and setting of the purchase occasion drive the hesitation",
+      "D": "Psychological factors, since the buyer's own motivation and self-image are what account for the hesitation"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Social factors cover the influence of family, friends, and other reference groups on what a consumer buys, and these customers are hesitating specifically over how the people close to them would read the purchase. A is wrong because economic factors turn on ability to pay, and the stem states these customers can easily afford the watch. C is wrong because situational factors are the circumstances of a particular buying occasion, such as time pressure or the setting of the sale, and no such circumstance appears here. D is wrong because psychological factors are internal drivers the consumer generates alone; the concern described originates outside the buyer, in the judgment of a reference group, which places it on the social side of that line.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0058",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain supply and demand",
+    "question": "A boutique coffee roaster sources a rare bean whose harvest fell 40% this season due to drought, while a viral social-media trend has simultaneously tripled consumer interest in that specific bean. If the roaster keeps its retail price unchanged, which outcome is most likely?",
+    "options": {
+      "A": "A persistent shortage will develop as quantity demanded exceeds the reduced quantity supplied at the old price",
+      "B": "Demand will contract on its own to match the smaller harvest, so the market clears at the roaster's unchanged price",
+      "C": "Quantity supplied will rise along the supply curve until it meets the new demand",
+      "D": "A surplus of unsold beans will build up because the harvest came in smaller"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Supply fell and demand rose while the price was held fixed, so at that price quantity demanded now exceeds quantity supplied and the gap persists until price rises or the roaster rations the beans. B is wrong because demand does not shrink to fit available supply on its own; here demand actually increased, and nothing in the scenario gives buyers a reason to want less. C is wrong because a movement along the supply curve is caused by a change in price, and the roaster is holding price constant, so quantity supplied stays at its drought-reduced level. D is wrong because a surplus is unsold inventory that piles up when quantity supplied exceeds quantity demanded, which is the reverse of a short harvest meeting tripled interest.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0059",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe functions of prices in markets",
+    "question": "During a regional shortage of bottled water after a hurricane, a convenience store chain raises its price from $1 to $6 per bottle. Which market function is this price increase primarily performing?",
+    "options": {
+      "A": "Punishing the store's regular customers for their past loyalty",
+      "B": "Signaling scarcity and rationing the limited supply among the most urgent buyers",
+      "C": "Eliminating the store's need to restock once supplies run low",
+      "D": "Guaranteeing that every household in the affected area receives an equal share"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Prices function as signals that communicate relative scarcity and as a rationing device, allocating a limited supply to those who value it most and are willing to pay, while also incentivizing suppliers to bring more of the good to market. A is wrong because the price change is not a punitive act toward specific customers but a market response to scarce supply and surging demand. C is wrong because price changes do not eliminate the need to restock; if anything, higher prices encourage suppliers to replenish inventory faster. D is wrong because prices do not guarantee equal distribution; rationing by price allocates goods to willingness and ability to pay, not equally to all households.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0060",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Analyze specialization/division of labor",
+    "question": "A small furniture workshop currently has each employee complete an entire chair from cutting to finishing. The owner is considering restructuring so that each worker specializes in one stage of production, such as cutting, assembly, or finishing. What is the most likely result of this change?",
+    "options": {
+      "A": "Labor costs will rise because workers assigned to a single stage command a wage premium",
+      "B": "Product quality will fall because no worker inspects the chair he has finished",
+      "C": "Total output will drop because workers lose sight of the full production process",
+      "D": "Total output per hour will increase as workers become more efficient at their narrower, repeated tasks"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Division of labor lets each worker repeat one stage until he is fast at it, and it removes the time lost switching between cutting, assembly, and finishing tools, so the workshop turns out more chairs per hour from the same staff. A is wrong because a narrower task tends to be easier to learn, not harder, so specializing does not by itself entitle a worker to more pay; wages track scarce skill and local labor conditions. B is wrong because quality depends on whether the shop inspects its work, and a specialized line can add a finishing check; splitting the stages does not by itself introduce defects. C is wrong because knowing the whole process is not what produces chairs; the workers still perform every stage between them, and the practice each gets at his own stage is what raises the total.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0061",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss unemployment rates",
+    "question": "A national government reports that the unemployment rate fell from 6% to 4% over the past year, and cites this as evidence the economy has fully recovered. An economic analyst points out this figure may be misleading. Which factor would best support the analyst's caution?",
+    "options": {
+      "A": "Labor force participation rose over the same year as more people re-entered the market and began looking for work",
+      "B": "The unemployment rate is recalculated once each decade, so the 4% figure predates the claim",
+      "C": "The rate does not count discouraged workers who stopped searching for jobs and left the labor force",
+      "D": "The rate counts retirees and full-time students as unemployed even though they are not job-seeking"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. The official rate counts as unemployed those who are actively searching; workers who give up leave the labor force entirely and stop being counted, so the rate can fall while the same people remain without jobs, which is precisely the caution the analyst is raising. A is wrong because rising participation cuts the other way: it means people are entering the job market rather than abandoning it, which supports the government's reading rather than the analyst's. B is wrong because the rate is compiled and published monthly from a regular household survey, so the 4% figure is current rather than a decade-old artifact. D is wrong because retirees and students who are not looking for work are outside the labor force and are not counted as unemployed; if they were counted, the rate would read higher, not deceptively lower.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0062",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss globalization",
+    "question": "A mid-sized athletic-shoe manufacturer begins sourcing rubber from Southeast Asia, assembling components in Central America, and selling the finished product across North America and Europe. This strategy best illustrates which effect of globalization on the company?",
+    "options": {
+      "A": "The company is insulated from currency swings once its costs and revenues span several regions",
+      "B": "Each host country's regulations give way to the company's home-country rules",
+      "C": "Access to a wider range of suppliers and markets across national borders increases competitive options",
+      "D": "Domestic rivals lose access to the same global suppliers once the company sources abroad"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Buying rubber in Southeast Asia, assembling in Central America, and selling in North America and Europe is a company using globalization for what it offers: a wider field of suppliers and a wider field of customers than any single national market holds. A is wrong because operating across currencies increases exposure to exchange-rate moves rather than removing it; the company now earns and spends in several currencies at once. B is wrong because a company operating in a country answers to that country's rules; spreading across borders multiplies the regulatory regimes it must satisfy. D is wrong because the same suppliers remain open to domestic rivals, who can source abroad as readily; globalization tends to sharpen competition rather than clear it away.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0063",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe exchange rates",
+    "question": "A U.S.-based exporter sells machinery to a company in Japan. Over the following months, the U.S. dollar strengthens significantly against the Japanese yen. What is the most likely effect on the exporter's business?",
+    "options": {
+      "A": "The exporter's products become more expensive for Japanese buyers, potentially reducing sales volume",
+      "B": "The Japanese buyer's cost stays fixed, because export contracts are settled in the buyer's home currency",
+      "C": "Exchange-rate movements leave the buyer's real cost unchanged whenever the goods are priced in dollars",
+      "D": "The exporter's products become cheaper for Japanese buyers, which raises the volume of machinery they order"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. A stronger dollar means each dollar of the machinery's price now takes more yen to buy, so the exporter's goods cost Japanese buyers more in the currency they earn and hold, and demand at that price is likely to soften. B is wrong because the settlement currency is a negotiated term rather than a fixed rule, and even a yen-denominated contract does not shield the buyer: the exporter's yen price has to rise to bring back the same dollars. C is wrong because dollar pricing is what transmits the move; the buyer converts yen to dollars, so the rate change lands directly on the buyer's cost. D is wrong because it inverts the direction: a stronger dollar makes dollar-priced goods dearer to a yen holder, and it is a weaker dollar that would cheapen them.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0064",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Discuss bribery and foreign monetary payments",
+    "question": "A U.S. entrepreneur negotiating a distribution deal abroad is told by a local official that a 'facilitation payment' is required before the necessary import permits will be processed. Under U.S. law and standard ethical business practice, what should the entrepreneur do?",
+    "options": {
+      "A": "Route the payment through a local distribution agent retained in that country, so that the entrepreneur's own company is not the party handing money to the official.",
+      "B": "Decline the payment and pursue legal channels or consult legal counsel, since such payments generally violate laws like the Foreign Corrupt Practices Act",
+      "C": "Make the payment and record it accurately in the company's own books as a permit-processing fee, since the accounting provisions ask for transparent records.",
+      "D": "Withdraw from the market for good, treating any dealing with that country's officials as a risk not worth managing."
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Payments to foreign officials to secure business advantages generally violate laws such as the Foreign Corrupt Practices Act, so the appropriate response is to decline and pursue legitimate channels or legal counsel before proceeding. A is wrong because paying through an intermediary does not move the liability: a company is answerable for payments made on its behalf by agents and distributors, and knowingly routing funds through a third party to an official is treated as the company's own conduct. C is wrong because accurate bookkeeping addresses a different requirement — recording a prohibited payment under its true name does not make the payment permitted, and the entrepreneur ends up with an honest record of a violation. D is wrong because abandoning the market treats refusal as the end of the matter when legitimate options remain: permits can be pursued through published procedures, counsel, or the entrepreneur's own government, and walking away forfeits the deal without cause.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0065",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain building clientele",
+    "question": "A boutique fitness studio owner notices that most new members stop attending after two months and rarely return. To build a stronger long-term clientele, which strategy would be most effective?",
+    "options": {
+      "A": "Raise membership prices sharply so that less committed members drop out",
+      "B": "Discontinue group classes and shift the studio entirely to one-on-one training sessions",
+      "C": "Develop a personalized follow-up system that checks in with members and rewards continued attendance",
+      "D": "Spend the whole marketing budget on recruiting new members each month to replace the ones who stop coming"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Clientele is built by keeping the customers a business already has: personal follow-up shows members they are known, and rewarding continued attendance gives them a reason to return past the two-month mark where the studio is losing them. A is wrong because a sharp price rise removes members rather than retaining them, and it does nothing about whatever is causing people to stop attending. B is wrong because cutting group classes takes away a reason members come in and shrinks the base the studio is trying to hold on to. D is wrong because spending entirely on acquisition treats the churn as a recruiting shortfall; the members keep leaving after two months, so the studio pays repeatedly to refill a base it cannot keep.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0066",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain legal/ethical selling considerations",
+    "question": "A door-to-door salesperson tells an elderly homeowner that a home security system 'must be purchased today or the special government safety rebate will be lost forever,' when no such rebate program exists. What ethical and legal issue does this best illustrate?",
+    "options": {
+      "A": "The salesperson is applying a legitimate scarcity close, since limited-time incentives are a recognized closing technique",
+      "B": "The salesperson is using a false and deceptive claim to pressure the customer into an immediate purchase",
+      "C": "The statement is lawful puffery, since enthusiastic sales talk about savings is understood as opinion rather than fact",
+      "D": "This is standard risk reversal, since the offer shifts the purchase risk to the seller and builds the homeowner's trust"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. Inventing a government rebate that does not exist is a false statement of fact used to force a same-day decision, which breaches ethical selling standards and consumer protection law against deceptive claims. A is wrong because a scarcity close works from a real deadline, such as an actual promotion that ends; the deadline here was manufactured, which is what separates the two. C is wrong because puffery covers subjective praise a buyer cannot verify, not a specific factual claim about a rebate program; a fabricated fact is deception rather than opinion. D is wrong because risk reversal moves real risk onto the seller through devices like a money-back guarantee, whereas this salesperson took on no risk and instead invented a penalty for waiting.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0067",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Analyze product features/benefits",
+    "question": "A salesperson demonstrating a high-efficiency water heater tells a customer, 'This unit has a digital display and a 50-gallon tank.' The customer seems unimpressed. What change would most likely improve the pitch?",
+    "options": {
+      "A": "List the tank's insulation rating and recovery time as well, so the customer sees the full specification set.",
+      "B": "Offer a discount on the unit, since price is what a customer weighs when a product has failed to impress.",
+      "C": "Move to a trial close and ask which installation date the customer would prefer.",
+      "D": "Translate those features into specific benefits, such as lower monthly energy bills and reliable hot water for a large family"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Features describe what a product has; benefits describe what the customer gets, and the customer is unmoved because nobody has told her what a digital display and a 50-gallon tank do for her — lower monthly bills and hot water that does not run out for a large household. A is wrong because adding an insulation rating and a recovery time piles more features onto a pitch that already has too many: the customer's problem is not that she has heard too little about the unit, but that nothing she has heard connects to her own household. B is wrong because it misreads the objection — she has not said the price is too high, and cutting it before value is established leaves her weighing a cheaper unit she still has no reason to want. C is wrong because a trial close asks for a decision the customer has no basis to make; asking about installation dates when she is unpersuaded by the product tests her patience rather than her interest.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0068",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain selling process",
+    "question": "A new salesperson at an electronics store immediately launches into a detailed product demonstration the moment a customer walks up, without asking any questions first. Which step of the selling process is being skipped?",
+    "options": {
+      "A": "Determining customer needs through questions before presenting the product",
+      "B": "Closing the sale by asking the customer for a commitment",
+      "C": "Handling objections the customer raises about the product",
+      "D": "Following up after delivery to confirm the customer is satisfied with the purchase"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. The selling process moves from approach to needs assessment before any presentation, so questions come first and the demonstration is then built around what the customer said; this salesperson jumped straight to the demonstration and skipped the assessment. B is wrong because closing asks for the buying decision and comes after the presentation, and the salesperson has not reached that point yet. C is wrong because objections are raised in response to a presentation, so that step could not have been skipped before the presentation began. D is wrong because follow-up happens after the purchase is complete, which is the last stage of the process rather than the one bypassed at the start.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0069",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Discuss motivational theories affecting buying behavior",
+    "question": "A luxury car dealership's advertising emphasizes exclusivity, status, and the admiration of others rather than fuel efficiency or price. This marketing approach is most directly appealing to which type of buyer motive?",
+    "options": {
+      "A": "A motive based solely on convenience of the purchase location",
+      "B": "A purely rational motive based on measurable cost savings",
+      "C": "A motive driven entirely by product durability and warranty terms",
+      "D": "An emotional motive tied to esteem and social recognition"
+    },
+    "answer": "D",
+    "explanation": "The correct answer is D. Emotional buying motives include the desire for status, prestige, and the esteem of others, which is exactly what an appeal to exclusivity and admiration targets. A is wrong because convenience of location is an unrelated practical factor that has no connection to the exclusivity-based messaging described. B is wrong because rational motives focus on logical, measurable factors like cost savings or efficiency, which this ad campaign deliberately avoids emphasizing. C is wrong because durability and warranty terms are rational, functional considerations, not the status-driven emotional appeal being used here.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0070",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Risk Management",
+    "performanceIndicator": "Assess the risk associated with a business decision",
+    "question": "A bakery owner is deciding whether to take out a large loan to open a second location in a neighborhood with an unproven customer base, versus investing a smaller amount to add delivery service to the existing store. Which approach best reflects sound risk assessment?",
+    "options": {
+      "A": "Estimate the probability and potential financial impact of each option's outcomes before committing to either investment",
+      "B": "Base the decision on which option the owner personally finds more exciting to pursue",
+      "C": "Postpone both options until the new neighborhood's demand can be shown to be certain",
+      "D": "Choose the second location because a visible expansion signals confidence to competitors and to the bank that is financing it"
+    },
+    "answer": "A",
+    "explanation": "The correct answer is A. Risk assessment weighs how likely each outcome is against what it would cost or earn, which lets the owner compare a large loan on an unproven customer base against a smaller delivery investment on known demand before she commits. B is wrong because enthusiasm is not evidence about probability or impact, and the more exciting option here is also the one carrying the larger loan and the untested market. C is wrong because demand in a new neighborhood cannot be made certain in advance; assessment estimates and prices uncertainty rather than waiting for it to disappear. D is wrong because signaling to competitors and lenders says nothing about whether the second location will earn back its loan, and it substitutes appearances for an estimate of the downside.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0071",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Risk Management",
+    "performanceIndicator": "Recognize and respond to common types of business risk",
+    "question": "A retailer that stores all of its customer payment records on a single unprotected computer suffers a data breach when a hacker accesses the system. This event illustrates which category of business risk that the retailer failed to adequately address?",
+    "options": {
+      "A": "A risk that can be entirely transferred through a standard property insurance policy alone",
+      "B": "A pure risk involving loss of sensitive information with no potential for gain",
+      "C": "A risk that only affects publicly traded corporations, not small retailers",
+      "D": "A speculative risk involving the possibility of both profit and loss from a business venture"
+    },
+    "answer": "B",
+    "explanation": "The correct answer is B. A data breach is a pure risk: it only presents the chance of loss (compromised data, legal liability, reputational harm) with no corresponding chance of gain, and businesses must guard against it through safeguards like encryption and access controls. A is wrong because standard property insurance typically does not cover cyber liability; specialized cyber insurance or dedicated risk-management measures are usually needed. C is wrong because businesses of any size, including small retailers, are subject to cybersecurity risk; it is not limited to large public companies. D is wrong because speculative risk involves ventures where there is a chance of profit as well as loss, such as launching a new product line, which does not describe a data breach.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0072",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Risk Management",
+    "performanceIndicator": "Explain the nature of business continuity planning",
+    "question": "A regional manufacturing plant relies on a single supplier for a critical component and has no backup plan if that supplier's factory is damaged in a fire. To improve its business continuity planning, the company should primarily focus on which action?",
+    "options": {
+      "A": "Purchasing additional fire insurance on the supplier's factory to recover the cost of a shutdown",
+      "B": "Waiting for a disruption to occur and then sourcing the component from whichever vendor can ship it",
+      "C": "Identifying alternative suppliers and creating contingency procedures to maintain operations if a disruption occurs",
+      "D": "Signing a longer exclusive contract with the current supplier so the plant receives priority access to whatever output remains"
+    },
+    "answer": "C",
+    "explanation": "The correct answer is C. Business continuity planning finds the dependencies that would stop operations, such as a sole-source component, and puts arrangements in place beforehand, so identifying alternative suppliers and writing contingency procedures is what keeps the plant running through a disruption. A is wrong because insurance transfers the financial loss but does not produce the component; the plant would be paid and still be stopped. B is wrong because arranging a replacement after the factory burns leaves the plant idle for exactly the period the plan exists to cover, and the vendors available under time pressure are the ones with the worst terms. D is wrong because an exclusive contract deepens the single-source dependency rather than relieving it; priority access to a factory that has burned is worth nothing.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0073",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Evaluate vendor performance",
+    "question": "A ventilation-parts entrepreneur has used the same aluminum supplier for three years. Recently, the supplier's on-time delivery rate has dropped from 98% to 74%, and two shipments arrived with mislabeled cartons that delayed the entrepreneur's own order fulfillment. Before deciding whether to switch suppliers, the entrepreneur should FIRST",
+    "options": {
+      "A": "commission an on-site audit of the supplier's plant to see how its production line is run",
+      "B": "recalculate the safety stock needed to absorb a delivery rate that has fallen to 74%",
+      "C": "solicit quotes from two alternate aluminum mills so a replacement is ready",
+      "D": "review the supplier's performance against agreed-upon delivery and quality metrics documented in the contract"
+    },
+    "answer": "D",
+    "explanation": "Evaluating vendor performance means measuring what the supplier actually delivered against the delivery and quality standards both parties agreed to — the contract is where the on-time and labeling expectations were set, and comparing three years of results to those terms is what turns a frustration into a fact-based decision. A is wrong because a plant audit is an expensive step into the supplier's process before the entrepreneur has consulted the record already in hand: the delivery and mislabeling data are sitting in his own files and in the contract, and they come first. B is wrong because carrying more safety stock buffers the entrepreneur against late deliveries without evaluating anything; it treats a 74% on-time rate as a fixed condition to be absorbed rather than a performance gap to be measured and raised. C is wrong because sourcing alternatives is the step that follows an evaluation, not the one that precedes it — quotes tell the entrepreneur what other mills charge, not whether this supplier has fallen short of what it promised.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0074",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Resolve supplier quality issues",
+    "question": "A small furniture maker discovers that the last three batches of upholstery fabric from a supplier have shown color inconsistency between dye lots, causing customer returns. The entrepreneur wants to resolve this without damaging a five-year business relationship. Which action best resolves the quality issue?",
+    "options": {
+      "A": "Document the specific defects with samples and request a corrective-action meeting with the supplier",
+      "B": "Add an incoming inspection step that checks each roll against a color standard before the fabric reaches the shop floor.",
+      "C": "Deduct the cost of the customer returns from the supplier's next invoice so the supplier absorbs the loss.",
+      "D": "Order a full year of fabric from a single dye lot so the variation stops appearing."
+    },
+    "answer": "A",
+    "explanation": "Resolving a supplier quality issue means giving the supplier what it needs to find and fix the cause: documented defects with physical samples show exactly how the dye lots differ, and a corrective-action meeting puts the supplier's own process under review while keeping a five-year relationship intact. B is wrong because inspection catches bad fabric rather than stopping it from being made — the entrepreneur takes on the labour of screening every roll, the supplier's dye process goes on varying, and rejected rolls still leave the shop short of material. C is wrong because a chargeback recovers money without conveying any information: the supplier learns that returns cost it something but not which lots differed or why, and a deduction taken from an invoice is the kind of move that strains the relationship the entrepreneur means to keep. D is wrong because buying a year from one lot hides the problem behind inventory — it ties up cash in fabric, leaves the supplier's inconsistency uncorrected, and the variation returns with the next lot ordered.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0075",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Streamline work processes",
+    "question": "An online candle-making business ships orders through four separate steps: manual order entry, inventory check, hand-labeling, and packaging, each performed by a different part-time employee at a different workstation. Order backlogs are growing during peak season. Which change would best streamline this process?",
+    "options": {
+      "A": "Hire additional part-time employees to repeat the same four-step sequence at a second set of workstations",
+      "B": "Combine order entry and inventory check into a single automated system checked by one employee, reducing handoffs",
+      "C": "Require every employee to complete all four steps for each order individually before moving to the next order",
+      "D": "Increase the price of candles to reduce order volume during peak season"
+    },
+    "answer": "B",
+    "explanation": "Streamlining work processes means removing unnecessary steps and handoffs to increase efficiency; combining redundant manual steps into one automated check reduces delay and error. Hiring more staff to duplicate an inefficient process (A) increases cost without fixing the underlying inefficiency. Having one employee do all four steps per order (C) eliminates specialization benefits and would likely slow throughput further. Raising prices to suppress demand (D) sacrifices revenue instead of improving the operational process.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0076",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Manage bid process",
+    "question": "A landscaping entrepreneur needs a new fleet of mowers and wants to ensure she gets competitive pricing and terms from equipment dealers. She invites five dealers to submit sealed, written proposals for the identical package of equipment and specifications by a set deadline. This approach primarily allows the entrepreneur to",
+    "options": {
+      "A": "secure the lowest price in the market whatever the equipment quality may be",
+      "B": "collect price quotes without entering a binding agreement with any dealer",
+      "C": "compare proposals fairly on the same criteria before selecting a vendor",
+      "D": "settle the vendor choice for good and drop any later review of dealer performance"
+    },
+    "answer": "C",
+    "explanation": "Sending five dealers the identical specification and a common deadline is what makes the returning proposals comparable: the entrepreneur can weigh price and terms against each other because everything else was held constant, which is the point of competitive bidding. A is wrong because the lowest bid wins only if price is the sole criterion, and the entrepreneur is weighing terms too; a bid process compares offers rather than guaranteeing a floor price. B is wrong because a bid is an offer the entrepreneur can accept, and acceptance forms a binding contract with the winning dealer. D is wrong because the bid settles who supplies the mowers, not how that supplier performs afterward, so evaluation of the dealer continues through delivery and service.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0077",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain purchasing impact on productivity",
+    "question": "A bakery owner buys flour in bulk from a discount wholesaler to cut per-unit costs, but the flour requires longer mixing times and produces more inconsistent dough than the previous, higher-priced supplier's flour. As a result, bakers are spending extra hours correcting batches. This scenario best illustrates that purchasing decisions",
+    "options": {
+      "A": "can reduce overall productivity even when they lower direct material costs",
+      "B": "should always prioritize the lowest unit price above all other factors",
+      "C": "have no measurable effect on daily production output",
+      "D": "only affect the accounting department, not production employees"
+    },
+    "answer": "A",
+    "explanation": "This scenario shows that purchasing choices affect productivity beyond the purchase price itself; cheaper materials that require more labor or rework can reduce net efficiency and increase costs elsewhere. Prioritizing lowest price alone (B) is exactly the flawed reasoning that caused the problem. Purchasing clearly does affect production output, contradicting (C). The impact is felt directly by production employees doing the extra mixing and correcting, not just accounting (D).",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0078",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain supply-chain collaboration",
+    "question": "A juice startup's demand spikes unpredictably whenever a fitness influencer mentions its product, leaving retailers either overstocked or out of stock. The founder decides to share real-time sales data directly with her fruit supplier and her co-packer so all three parties can adjust production and delivery schedules together. This practice is an example of",
+    "options": {
+      "A": "vertical integration, where the founder buys the fruit supplier and brings the growing operation in house",
+      "B": "quality control, where each batch is inspected against set standards before it leaves the co-packer",
+      "C": "bid management, where competing suppliers submit sealed proposals to win the same co-packing contract",
+      "D": "supply-chain collaboration, where partners share information to respond jointly to demand changes"
+    },
+    "answer": "D",
+    "explanation": "Sharing live sales data with the fruit supplier and the co-packer so all three adjust production and delivery together is supply-chain collaboration: the partners stay independent and coordinate through shared information. Vertical integration (A) would mean the founder owns the upstream operation outright, and she is coordinating with partners she does not own. Quality control (B) inspects output against standards and does nothing to align the three parties' schedules with demand swings. Bid management (C) runs a competition to select a vendor, which is a purchasing event rather than the ongoing exchange of demand data described here.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0079",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Apply project-management tools",
+    "question": "An entrepreneur is opening a second retail location in 90 days and must coordinate lease signing, buildout, inventory delivery, staff hiring, and a grand-opening event, several of which depend on each other finishing on time. Which tool would best help the entrepreneur visualize task dependencies and identify which delays would push back the opening date?",
+    "options": {
+      "A": "A SWOT analysis weighing the new location's strengths, weaknesses, opportunities, and threats",
+      "B": "A Gantt chart showing task sequences, durations, and dependencies",
+      "C": "A work breakdown structure listing each task the opening requires, grouped by area",
+      "D": "A break-even analysis projecting the sales the new location must reach"
+    },
+    "answer": "B",
+    "explanation": "A Gantt chart lays tasks out against a calendar and draws the links between them, so the entrepreneur can see that buildout cannot start before the lease is signed and that a week lost on buildout moves the grand opening — which is exactly the dependency and timing question the stem asks. A is wrong because SWOT weighs whether and where to open at all; it is a strategic assessment with no time axis, and it cannot show that one task waits on another. C is wrong because a work breakdown structure decomposes the project into its tasks but stops there: it would list lease, buildout, inventory, hiring, and the opening event without saying how long any of them takes or which ones wait on the others, so it cannot identify the delay that pushes the date. D is wrong because break-even is a financial calculation about the sales volume needed to cover costs, which speaks to whether the second location will pay off rather than to sequencing the 90 days before it opens.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0080",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain role of situation analysis",
+    "question": "Before writing next year's marketing plan for her eco-friendly cleaning product line, an entrepreneur first compiles data on competitor pricing, emerging consumer sustainability trends, her company's current market share, and recent changes in packaging regulations. This preliminary step primarily serves to",
+    "options": {
+      "A": "confirm that the eco-friendly product line's packaging complies with the regulations that changed this year",
+      "B": "establish a clear picture of internal and external conditions before setting marketing objectives",
+      "C": "measure how last year's marketing objectives performed against the targets that had been set for them",
+      "D": "rank the competitors by market share so the plan can name one primary rival"
+    },
+    "answer": "B",
+    "explanation": "A situation analysis gathers internal and external information — competitor pricing, consumer trends, market share, and the regulatory environment — so the business understands where it currently stands before it sets objectives and strategies, which is exactly what the entrepreneur is doing. A is wrong because it mistakes one input for the purpose of the whole exercise: the packaging regulations are a single external item on her list, and a compliance check would not require her to collect competitor prices, trends, or share data at all. C is wrong because it looks backward at the prior plan's results, which is the control step at the end of a planning cycle; the entrepreneur is scanning current conditions ahead of a new plan, and nothing she compiled measures last year's objectives. D is wrong for the same reason as A — competitor share is one of four things she gathered, and naming a primary rival is a strategy choice the plan makes later, using the analysis rather than substituting for it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0081",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain sales forecasts",
+    "question": "A seasonal ski-gear retailer is deciding how much inventory to order for the upcoming winter. The owner reviews the past five years of unit sales, adjusts for a newly opened competing store nearby, and factors in a weather service's prediction of a colder-than-average winter. The resulting projection of expected unit sales for the season is best described as a",
+    "options": {
+      "A": "situation analysis",
+      "B": "break-even calculation",
+      "C": "sales forecast",
+      "D": "market segmentation study"
+    },
+    "answer": "C",
+    "explanation": "A sales forecast is a projection of future sales based on historical data adjusted for anticipated internal and external factors, which is exactly what the owner produced. A situation analysis (A) is the broader review of internal/external conditions, not a specific numeric sales projection. A break-even calculation (B) determines the sales volume needed to cover costs, not expected demand. Market segmentation (D) involves dividing customers into groups, not projecting sales volume.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0082",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing strategies",
+    "question": "A new artisan coffee roaster wants to compete against large national chains. Instead of trying to appeal to all coffee drinkers, the roaster decides to focus exclusively on single-origin, direct-trade coffee for connoisseurs willing to pay premium prices, and builds its store design, staff training, and messaging entirely around that focus. This overall approach to reaching the identified target market is best described as the roaster's",
+    "options": {
+      "A": "sales forecast",
+      "B": "purchasing policy",
+      "C": "organizational chart",
+      "D": "marketing strategy"
+    },
+    "answer": "D",
+    "explanation": "A marketing strategy is the overall approach a business uses to reach a specific target market and achieve marketing goals; focusing the entire business model around a defined niche (connoisseurs of single-origin coffee) is a clear example of this. A sales forecast (A) is a projection of future sales, not an approach to reaching customers. A purchasing policy (B) governs buying decisions, unrelated to targeting customers. An organizational chart (C) shows staffing structure, not marketing direction.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0083",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing plans",
+    "question": "A home-goods entrepreneur has drafted a document outlining her target market, pricing strategy, promotional calendar, distribution channels, and specific measurable objectives for the next fiscal year, along with a timeline for implementation and a budget for each activity. This comprehensive written document is best described as a",
+    "options": {
+      "A": "market segmentation report",
+      "B": "situation analysis",
+      "C": "marketing plan",
+      "D": "sales forecast"
+    },
+    "answer": "C",
+    "explanation": "A marketing plan is the written document that lays out target markets, strategies, objectives, timelines, and budgets to guide a business's marketing activities, matching exactly what is described. A market segmentation report (A) only addresses dividing the market into groups, not the full set of strategies and budgets. A situation analysis (B) is an earlier input reviewing conditions, not the resulting comprehensive plan. A sales forecast (D) is a numeric projection, not a full strategic document.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0084",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain market and market identification",
+    "question": "A mobile app developer built a budgeting tool originally aimed at college students but discovers through usage data that the heaviest, most engaged users are actually freelance gig workers in their 30s who need to track irregular income. To grow the business effectively, the developer should now",
+    "options": {
+      "A": "identify and define the freelance gig-worker segment as a market to pursue based on actual demand",
+      "B": "market the app to every adult smartphone owner rather than defining a primary market",
+      "C": "keep college students as the defined market and treat the gig-worker usage data as noise",
+      "D": "raise the subscription price for all users before deciding which market to serve"
+    },
+    "answer": "A",
+    "explanation": "Market identification means recognizing and defining a group of customers whose shared needs the business can serve, and the usage data has surfaced exactly such a group in freelance gig workers with irregular income. Marketing to every smartphone owner (B) refuses to define a market at all and spreads a small developer's effort across buyers with no common need. Holding to college students and dismissing the data (C) keeps a market definition the evidence has already contradicted. Raising the price for all users (D) is a pricing move that leaves the question of who the market is unanswered.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0085",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Orient new employees",
+    "question": "A growing bakery just hired three new counter staff for the holiday rush. On their first day, the owner has them shadow an experienced employee, walks them through the point-of-sale system, reviews the dress code and break policies, and introduces them to the kitchen team. This first-day process is best described as",
+    "options": {
+      "A": "performance appraisal",
+      "B": "collective bargaining",
+      "C": "job analysis",
+      "D": "employee orientation"
+    },
+    "answer": "D",
+    "explanation": "Employee orientation is the process of introducing new hires to company policies, procedures, coworkers, and their role, which matches the first-day activities described. A performance appraisal (A) evaluates an employee's job performance over time, not first-day introductions. Collective bargaining (B) involves negotiations between management and a labor union, unrelated to onboarding. Job analysis (C) is the process of studying a position's duties and requirements, typically done before hiring, not on the new employee's first day.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0086",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Explain ethics in HR",
+    "question": "During a round of layoffs at a mid-sized manufacturing firm, the HR manager decides which employees to let go based partly on which workers have complained about safety conditions, rather than on performance records or seniority. This decision-making approach raises a concern primarily because it",
+    "options": {
+      "A": "violates ethical HR practice by using layoffs to retaliate against employees for raising legitimate concerns",
+      "B": "produces a disparate impact on a protected class, which is the usual basis on which layoff criteria are challenged",
+      "C": "skips the advance written notice a mid-sized employer owes before a reduction in force",
+      "D": "conflicts with the at-will doctrine, which bars an employer from choosing who is laid off"
+    },
+    "answer": "A",
+    "explanation": "Ethical HR practice requires that employment decisions rest on fair, job-related criteria; selecting people for layoff because they raised safety complaints punishes them for protected conduct, which is retaliation and is both unethical and a legal exposure. B is wrong because disparate impact concerns a neutral criterion that falls more heavily on a protected class, and nothing in the stem sorts employees by any such characteristic — the manager is sorting by who spoke up, which is retaliation, a separate wrong. C is wrong because advance notice governs when a workforce reduction may take effect, not which employees are chosen for it; giving every affected worker proper notice would leave the retaliatory selection criterion entirely untouched. D is wrong because it states the at-will doctrine backwards: at-will employment generally leaves an employer free to decide whom to separate, and the limits on that freedom are rules against retaliation and discrimination, which is exactly what this manager has run into.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0087",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain role of promotion",
+    "question": "A boutique furniture maker has built a loyal following through word-of-mouth referrals but has stalled at a plateau of 40 orders per month. The owner is deciding whether to invest in a promotional campaign. Which argument best justifies adding promotion to the marketing mix at this stage?",
+    "options": {
+      "A": "Promotion informs and persuades prospective customers who have never heard of the brand, expanding demand beyond the existing referral network.",
+      "B": "Promotion reminds past buyers to place a repeat order, and repeat purchases from the current base are what lift a sales plateau.",
+      "C": "Promotion pays the existing referrers a commission on each order they send, which is how a referral-driven maker grows past a plateau.",
+      "D": "Promotion gathers data on which pieces buyers prefer, so the maker learns what to build next."
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. The core role of promotion is to inform, persuade, and remind target audiences about a product, which is exactly what the furniture maker needs to reach customers outside its current word-of-mouth circle and break through the sales plateau. B is wrong because reminding is a real promotional function but the wrong one for this problem: past buyers are already inside the referral network, and a plateau at 40 orders is evidence that this base has been worked out, so demand has to come from people who have not heard of the brand. C is wrong for the same structural reason — paying commissions to current referrers intensifies the same network rather than extending past it, and a network that has stopped growing produces the same ceiling whether or not referrals are paid. D is wrong because gathering data on buyer preferences is marketing research, a separate function from promotion; it may improve the product line but it does not communicate the brand to anyone new.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0088",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain promotion types",
+    "question": "A startup that sells organic skincare products sponsors a local 5K charity run, provides the branded water bottles for free, and has employees hand out samples at the finish line without paying for a media placement. Which type of promotion does this activity best represent?",
+    "options": {
+      "A": "Personal selling",
+      "B": "Direct-response advertising",
+      "C": "Sales promotion",
+      "D": "Public relations"
+    },
+    "answer": "D",
+    "explanation": "Correct answer: D. Sponsoring a community event and generating goodwill and visibility without paying a media outlet for placement is a classic public-relations activity, since it builds the brand's image and community relationships rather than directly pushing a paid message. A is wrong because personal selling involves individualized, persuasive interaction aimed at closing a sale, not general community goodwill. B is wrong because direct-response advertising is paid media designed to prompt an immediate, trackable customer action (like a coupon code), which is not what is described. C is wrong because sales promotion refers to short-term incentives such as coupons or contests designed to spur immediate purchases, not sponsorship-driven image building.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0089",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Identify promotional mix elements",
+    "question": "A B2B software entrepreneur has a limited budget and needs to explain a complex, customizable product to a handful of large enterprise prospects who each require a tailored explanation and negotiation before purchasing. Which promotional mix element should receive the largest share of the budget?",
+    "options": {
+      "A": "Personal selling",
+      "B": "Mass-market advertising",
+      "C": "Sales promotion",
+      "D": "Publicity"
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. When a product is complex, high-value, and sold to a small number of prospects who need customized explanations and negotiation, personal selling is the most effective promotional mix element because it allows two-way, tailored communication that can address each buyer's unique concerns. B is wrong because mass-market advertising is efficient for reaching broad, undifferentiated audiences, not a handful of enterprise accounts needing individualized attention. C is wrong because sales promotion tools like discounts and coupons are designed for short-term volume boosts in consumer markets, not for building the ongoing relationship a complex enterprise sale requires. D is wrong because publicity is unpaid, uncontrollable, and not targeted, making it unsuitable as the primary tool for converting specific named prospects.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0090",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe ethics in promotion",
+    "question": "An entrepreneur launching a weight-loss supplement wants to run ads claiming the product 'guarantees' 15 pounds of fat loss in two weeks, even though internal testing showed highly inconsistent results. A marketing consultant advises against this approach. What is the strongest ethical concern with the proposed ad?",
+    "options": {
+      "A": "The ad speaks to an audience anxious about body image, and appealing to that anxiety is what makes the campaign unethical.",
+      "B": "The ad runs without fine print noting that individual results vary, and adding that disclaimer would bring the guarantee into compliance.",
+      "C": "The ad makes an unsubstantiated and likely deceptive claim that could mislead consumers into purchasing based on false expectations.",
+      "D": "The ad promotes a supplement that regulators have not approved for sale, which is required before any weight-loss product is marketed."
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Ethical promotion requires that claims be truthful and substantiated; advertising a 'guaranteed' outcome that the entrepreneur's own inconsistent testing does not support is deceptive and can mislead consumers, exposing the business to both ethical criticism and legal liability. A is wrong because directing an appeal to the customers a product is meant to serve is ordinary marketing; the breach here is the unsupported guarantee, and the same ad aimed at any audience would be just as deceptive. B is wrong because a disclaimer cannot cure a claim that contradicts the seller's own evidence — 'guarantees 15 pounds' and 'results vary' assert opposite things, and fine print does not make an unsubstantiated promise substantiated. D is wrong because it misstates how supplements reach the market: they are not pre-approved for sale, and the ethical problem in the stem is the content of the claim rather than the product's regulatory path.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0091",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe technology in promotion",
+    "question": "A small e-commerce entrepreneur wants to serve different ad creative to visitors based on their browsing history, location, and past purchase behavior, updating messages in real time as visitors move through the site. Which promotional technology capability is being described?",
+    "options": {
+      "A": "Broadcast media buying software",
+      "B": "Dynamic, data-driven digital ad targeting",
+      "C": "Static billboard placement planning",
+      "D": "Scheduled email list segmentation"
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Adjusting which creative a visitor sees in real time, on the basis of that visitor's browsing history, location, and purchase record, is dynamic data-driven ad targeting, a capability that exists because the ad is assembled at the moment the page loads. A is wrong because broadcast buying places one spot into a time slot for the whole audience; the message is fixed before it airs and cannot vary by viewer. C is wrong because a billboard shows the same panel to everyone who passes and changes only when it is physically replaced. D is wrong because segmenting an email list sorts recipients into groups ahead of a send; it does not serve ad creative to a visitor moving through the site.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0092",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe regulation of promotion",
+    "question": "A new energy-drink brand wants to advertise that its product 'cures fatigue' without any clinical evidence to support the claim. Which government body would most likely have authority to challenge this advertisement as deceptive?",
+    "options": {
+      "A": "The local chamber of commerce",
+      "B": "The state department of transportation",
+      "C": "The company's own board of directors",
+      "D": "The Federal Trade Commission"
+    },
+    "answer": "D",
+    "explanation": "Correct answer: D. The Federal Trade Commission is the federal agency charged with regulating advertising and preventing deceptive or unsubstantiated claims in commerce, making it the body most likely to challenge an unsupported 'cures fatigue' claim. A is wrong because a chamber of commerce is a voluntary business association with no regulatory enforcement power over advertising content. B is wrong because a department of transportation oversees infrastructure and vehicle/roadway matters, not advertising claims. C is wrong because a company's own board is an internal governance body, not an external regulator, and has an inherent conflict of interest in policing its own ads.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0093",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Balance personal/professional responsibilities",
+    "question": "An entrepreneur running a growing catering business finds that evening client calls and weekend event setups are increasingly conflicting with family commitments, leading to missed dinners and rising stress. What is the most effective long-term strategy to address this?",
+    "options": {
+      "A": "Establish clear working hours, delegate select weekend duties to trained staff, and schedule protected personal time in advance.",
+      "B": "Accept every booking that comes in, whatever the hour, and treat the schedule conflicts as a passing cost of growing the business.",
+      "C": "Stop taking evening and weekend events altogether, giving up the peak hours when demand for catering work runs at its highest level.",
+      "D": "Ask family members to reshape their own commitments around the catering schedule for good, leaving the entrepreneur's own hours unchanged."
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Balance holds over the long run when the structure changes: defined working hours make the boundary visible to clients, trained staff cover the weekend setups the owner does not need to run herself, and personal time booked in advance is protected the way a client event is. B is wrong because taking every booking is the current practice that produced the missed dinners and the rising stress, so it deepens the conflict rather than resolving it. C is wrong because evenings and weekends are when catering earns, and surrendering those hours solves the schedule problem by sacrificing the business when delegation could cover them instead. D is wrong because it places the whole adjustment on the family while the owner's hours stay as they are, which relocates the strain rather than reducing it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0094",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Demonstrate problem-solving",
+    "question": "A café owner notices that customer complaints about slow service have tripled in the past month, but staffing levels and menu have not changed. Using a systematic problem-solving approach, what should the owner do first?",
+    "options": {
+      "A": "Convene the staff to brainstorm fixes for the slowdown and put whichever suggestion proves most popular into practice this week.",
+      "B": "Add a second person to the espresso station, since that is where a queue would be most visible.",
+      "C": "Gather data to identify the specific cause of the slowdown, such as a new bottleneck in food prep or order processing.",
+      "D": "Reply to each complaint with an apology and a voucher so the customers who wrote in feel heard."
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Systematic problem-solving begins by defining and diagnosing the problem before acting on it: staffing and the menu are unchanged, so something else in the workflow has shifted, and gathering data on where orders are actually slowing down is what tells the owner which change to make. A is wrong because generating solutions is a real step in the process, but it comes after the cause is known — brainstorming against an undiagnosed slowdown produces guesses, and adopting the most popular guess selects for confidence rather than evidence. B is wrong because it commits money and labor to an assumed cause: the espresso station is where a line is easiest to see, which is not the same as where the delay originates, and the bottleneck may sit in food prep or order entry instead. D is wrong because an apology and a voucher answer the customers who complained without changing what made them wait, so the same complaints recur next month at the cost of the vouchers.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0095",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Utilize job-search strategies",
+    "question": "A recent graduate wants to break into the tight-knit local craft brewing industry to eventually launch her own brewery. Beyond browsing online job boards, which additional strategy would most effectively uncover unadvertised opportunities in this niche field?",
+    "options": {
+      "A": "Optimizing her resume with the keywords brewery listings use, so tracking systems rank her higher.",
+      "B": "Signing on with a staffing agency that places hourly production workers across food plants.",
+      "C": "Following every brewery's social accounts and replying to posts so her name becomes familiar.",
+      "D": "Attending industry trade events and informational interviews with brewery owners to build direct relationships."
+    },
+    "answer": "D",
+    "explanation": "Correct answer: D. In a tight-knit industry most openings are filled through people who already know the candidate, often before any listing exists; trade events and informational interviews put the graduate in front of the owners who make those decisions and give her the relationships that surface a role early. A is wrong because keyword optimization improves her ranking within the postings that exist, which is the advertised market she is already working — it does nothing to reach the roles that never get posted. B is wrong because an agency works from the requisitions its clients send it, so it reaches the same advertised market through an intermediary, and a firm staffing hourly production lines across food plants is not connected to the small craft breweries she is targeting. C is wrong because replying to posts creates visibility without access: a familiar handle in a comment thread is not a relationship with the owner, and it gives her no way to learn what a brewery needs before it advertises.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0096",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain worker rights",
+    "question": "An entrepreneur whose growing company has employed about 25 people for the past two years hires another worker and, during a difficult first month, asks the employee to work through unpaid lunch breaks and denies a reasonable request for a workplace accommodation related to a documented disability. Which statement best reflects the legal and ethical issue here?",
+    "options": {
+      "A": "The employer has likely violated worker rights related to fair labor standards and disability accommodation.",
+      "B": "Wage and accommodation protections attach after an employee finishes an initial one-year probationary period.",
+      "C": "Worker-rights obligations bind publicly traded corporations, while a sole proprietor sets her own conditions.",
+      "D": "As the owner of the business, she may set any working condition the employee agrees to accept as a term of employment."
+    },
+    "answer": "A",
+    "explanation": "Correct answer: A. Working through unpaid meal breaks implicates wage-and-hour rules on compensable time, and refusing a reasonable accommodation for a documented disability implicates disability law, so the entrepreneur has likely run afoul of both bodies of worker-rights protection. B is wrong because these protections apply from the first day of employment; a probationary label may affect an employer's own policies, but it does not suspend statutory wage or accommodation duties. C is wrong because coverage turns on thresholds such as employee count and interstate commerce rather than on whether shares trade publicly, and a privately held business of this size is squarely covered. D is wrong because an employee's agreement cannot waive statutory floors; conditions like unpaid work time remain unlawful even where the worker consents to them.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0097",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Use networking techniques",
+    "question": "At an industry conference, an entrepreneur wants to build lasting relationships with potential investors and suppliers rather than just collecting business cards. Which approach best reflects effective networking technique?",
+    "options": {
+      "A": "Opening each conversation with a prepared pitch and a request for a follow-up meeting, so every contact ends with a concrete commitment before the person walks away.",
+      "B": "Sending everyone met that week the same connection note afterward, so that no contact is left without a follow-up message in the days after the event.",
+      "C": "Having genuine conversations, listening actively, and following up afterward with a specific, personalized message referencing the discussion.",
+      "D": "Identifying the highest-value investors on the attendee list beforehand and spending the event with that short list, declining introductions to anyone outside it."
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. Effective networking is built on genuine, two-way conversation and specific follow-through; listening actively during the event and sending a follow-up that references what was actually discussed is what turns a brief encounter into a lasting professional relationship. A is wrong because it reverses the order relationships are built in: pressing for a commitment before any value or trust has been established puts the contact on the defensive, and a conversation spent delivering a pitch is a conversation spent not listening. B is wrong because it performs the mechanics of follow-up without the substance — an identical note sent to everyone contains nothing the recipient can recognize as their own conversation, which is exactly what separates a memorable follow-up from a form letter. D is wrong because it treats a title as a proxy for value and forecloses the peers, suppliers, and rising professionals the entrepreneur came to meet; the stem's goal is lasting relationships, and screening by seniority at the door narrows the field without improving the depth of any conversation.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0098",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain advancement patterns",
+    "question": "A junior marketing associate at a mid-sized firm wants to eventually become a marketing director. She notices that the two people who were promoted to director in the past five years each spent time managing cross-functional projects and earned an industry certification before their promotion. What does this pattern best illustrate?",
+    "options": {
+      "A": "A dual career ladder, in which technical specialists rise on a promotion track running parallel to the management track.",
+      "B": "Advancement patterns showing that building broader project experience and credentials are recognized paths toward higher-level roles.",
+      "C": "A formal succession plan, under which the firm names each director's replacement ahead of any opening.",
+      "D": "A lateral career move, in which an employee changes departments without a change in rank or pay."
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. Recognizing that both prior directors gained cross-functional project experience and earned a certification reveals the firm's advancement pattern — broader capability plus a specialized credential is a recognized route to a higher-level role — information the associate can use to plan her own development. A is wrong because a dual ladder describes two parallel tracks, one technical and one managerial; the associate observes a single route into one role, and both people she is modeling moved onto the management track rather than staying on a separate one. C is wrong because a succession plan is the employer designating named successors in advance, which the scenario does not describe: the associate inferred the pattern herself from what past promotions had in common. D is wrong because a lateral move is a change of department at the same level, whereas managing cross-functional projects is added scope within a role and the two people described were promoted upward.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0099",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Explain factors affecting management",
+    "question": "A founder who successfully managed a five-person startup with an informal, hands-on style is now overseeing 60 employees across three departments after rapid growth, and decisions are increasingly delayed and inconsistent. Which factor affecting management most directly explains the need for a new management approach?",
+    "options": {
+      "A": "The workforce has grown less experienced, and the delays trace to employees who lack the skills the first small team had.",
+      "B": "Organizational size and structure have changed, requiring more formalized systems, delegation, and clearer reporting lines.",
+      "C": "The company's technology has not kept pace, and the delays follow from the tools the three departments use.",
+      "D": "Competitive conditions in the industry have shifted, so the founder must now manage against rivals."
+    },
+    "answer": "B",
+    "explanation": "Correct answer: B. As an organization grows in size and complexity, the informal, hands-on style that worked for five people becomes a bottleneck; increased size and a departmental structure are the factors that require formalized systems, delegated authority, and clear reporting lines so decisions stay timely and consistent. A is wrong because employee capability is a genuine factor affecting management, but the stem reports no decline in skill — what changed is that one founder is now the decision point for 60 people across three departments, which delays decisions no matter how capable the staff are. C is wrong because technology is likewise a real factor, yet nothing in the scenario attributes the delays to tools; the same informal approval habit would slow decisions on any system. D is wrong because the strain described is internal and followed the company's own growth, not any change in what rivals or customers are doing outside the firm.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "ent-icdc-1-0100",
+    "cluster": "entrepreneurship",
+    "level": "ICDC",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Conduct risk assessment of an event",
+    "question": "An entrepreneur is planning a large outdoor product-launch festival expecting 5,000 attendees, live music, food vendors, and a fireworks finale. Before finalizing the event, what is the most important step in conducting a proper risk assessment?",
+    "options": {
+      "A": "Purchasing a comprehensive event liability policy and naming each food vendor as an additional insured, so that the festival's financial exposure sits with the insurer and not the entrepreneur.",
+      "B": "Drafting the severe-weather and evacuation contingency plans together with local fire and police officials, so that responders know their own assignments before the gates open.",
+      "C": "Identifying potential hazards (crowd control, weather, fire safety, vendor liability) and evaluating the likelihood and severity of each before developing mitigation plans.",
+      "D": "Hiring a licensed pyrotechnics contractor and a certified crowd-management firm to run the fireworks finale and the entry gates."
+    },
+    "answer": "C",
+    "explanation": "Correct answer: C. A proper risk assessment requires systematically identifying potential hazards specific to the event—such as crowd control, severe weather, fireworks/fire safety, and vendor liability—and evaluating how likely and severe each risk is, so that appropriate mitigation and contingency plans can be developed before the event occurs. A is wrong because insurance transfers the financial consequences of a risk rather than assessing it; the entrepreneur cannot know what limits or endorsements to buy until the hazards have been identified and their severity evaluated. B is wrong because contingency planning is a response to an assessment, not the assessment itself: the weather and evacuation plans are built from the hazards the assessment surfaces, so drafting them first means guessing at which scenarios matter. D is wrong because hiring specialist contractors is a mitigation control chosen after the assessment identifies fire and crowd hazards as significant; it treats two hazards while leaving the rest of the event unexamined.",
+    "difficulty": "medium",
+    "verified": true
+  }
+]

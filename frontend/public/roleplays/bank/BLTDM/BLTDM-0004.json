@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0004",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Describe the nature of ethics.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Demonstrate connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.).",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain employee's role in expense control.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Assist with establishment of work rules.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Evaluate learning.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Discuss the role of administrative law",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, the Performance Indicators, and the Case Study Situation. You will have 30 minutes to review the case and prepare, and up to 15 minutes to make your presentation to the judge and respond to the judge's questions. Both team members must participate in the presentation and in answering the judge's questions. You will be evaluated on how well you meet each performance indicator. All of your notes and materials will be turned in to the judge at the end of the event.",
+  "situation": "You and your teammate are the quality assurance director and the brand communications manager at SUMMIT LEAF NUTRITION, a sports nutrition and supplement company. The founder (judge) built the company from a single farmers-market stand into a national brand and is now in the final stage of selling a majority ownership stake to an outside investment group. The founder (judge) has called your team in to work through a recall decision before that sale closes.\n\nSUMMIT LEAF NUTRITION manufactures protein bars, recovery powders, and pre-workout supplements sold through national retail chains and its own website. Over twelve years the company built its reputation, and its competitive advantage, on clean-label formulas that list every ingredient in plain language, a promise its marketing repeats in every campaign. The investment group's due diligence team has spent the past month reviewing sales trends, retailer relationships, and quality records, and this quarter's numbers factor directly into the price the founder ultimately receives for the company.\n\nRoutine quality testing turned up a problem. The co-packer that produces the flagship protein bar substituted a soy-based binder into one production run without notifying Summit Leaf or updating the allergen statement on the label. By the time internal testing caught the substitution, roughly six weeks of shipments, an estimated 40,000 units, had already reached retail shelves nationwide. No consumer reactions have been reported to date, but the mislabeled bars remain on shelves and in customers' pantries until Summit Leaf acts.\n\nPulling the flagged lot quietly through retailer inventory systems, without a public notice, would keep the response small, protect this quarter's sales figures while the investment group reviews them, and avoid alarming customers over a labeling gap that has caused no confirmed harm. Recalling the lot publicly now would give the investment group and retail partners a clearer picture of the risk, but it would also mean reporting a smaller, less flattering quarter right as the sale is being priced. The co-packer remains under contract for another year regardless of which path the team recommends.\n\nThe founder (judge) wants the team to decide how Summit Leaf should handle the recall itself and what, if anything, should be disclosed now to consumers, to the retail partners carrying the product, and to the investment group before the deal closes. The founder (judge) also wants a recommendation for how that decision should be communicated, both inside the company and to the outside parties who have a stake in how it is handled.\n\nYou will present your recommendation directly to the founder (judge), who will greet you, ask you to share your thinking, and listen through your presentation and the questions that follow. The founder (judge) is weighing this decision alongside the sale timeline and wants to hear how your team would move forward from here. At the conclusion of the presentation and questions, the founder (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the founder of SUMMIT LEAF NUTRITION and are in the final stage of selling a majority ownership stake to an outside investment group. Business background is the same as the situation above. You have asked your quality assurance director and brand communications manager to recommend how the company should handle a recall involving a mislabeled allergen in one production run of your flagship protein bar, and what should be disclosed, and to whom, before the sale closes. You want a clear recommendation, not just a plan that makes this quarter's numbers look better than they are. You will greet the participants, ask them to share their recommendation, and ask the following questions:",
+  "judgeQuestions": [
+    "If we handle this quietly through the retailers, what happens next quarter when the co-packer runs its next batch?",
+    "If we tell the investment group about this now, what happens to the sale?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the co-packer's supply contract still runs for another year",
+        "the recall decision has to be resolved before the sale to the investment group closes"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the recall decision has to be resolved before the sale to the investment group closes"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [
+        "F5"
+      ],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 479,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "supplement and nutrition brand",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "a recall decision and its disclosure",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "ask what happens next if the recommendation is followed"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0004",
+      "shelfSimilarity": 0.0872,
+      "shelfNearest": "BLTDM-0002",
+      "exemplarSimilarity": 0.0845,
+      "gateVersion": 5
+    }
+  }
+}

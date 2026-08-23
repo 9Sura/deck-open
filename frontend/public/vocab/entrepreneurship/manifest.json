@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "cluster": "entrepreneurship",
+  "label": "Entrepreneurship",
+  "examName": "Entrepreneurship Cluster",
+  "seededFrom": {
+    "testGenModel": [
+      "backend/test-gen-model/data/entrepreneurship"
+    ],
+    "roleplayGenModel": [
+      "backend/roleplay-gen-model/data/events.json",
+      "backend/roleplay-gen-model/data/ENT",
+      "backend/roleplay-gen-model/data/ETDM",
+      "backend/roleplay-gen-model/data/PEN"
+    ]
+  },
+  "events": [
+    {
+      "code": "ENT",
+      "name": "Entrepreneurship Series",
+      "file": "ENT/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "ETDM",
+      "name": "Entrepreneurship Team Decision Making",
+      "file": "ETDM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "PEN",
+      "name": "Principles of Entrepreneurship",
+      "file": "PEN/vocab.json",
+      "termCount": 50
+    }
+  ]
+}

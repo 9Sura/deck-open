@@ -1,0 +1,265 @@
+{
+  "code": "ETDM",
+  "terms": [
+    {
+      "term": "Initial feasibility",
+      "definition": "An early judgment about whether a product, service, or venture idea is practical enough to keep developing.",
+      "whyItMatters": "ETDM teams often need to show that an idea can work before recommending full implementation.",
+      "areas": [
+        "product_service_management",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Functional product",
+      "definition": "A product idea adjusted so it can realistically solve the customer's problem and operate as intended.",
+      "whyItMatters": "Useful when explaining how a raw idea becomes something customers can actually use.",
+      "areas": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Product/service brand",
+      "definition": "The identity, promise, and associations customers connect with a specific product or service.",
+      "whyItMatters": "Brand-building helps ETDM teams show how a new service will be remembered and trusted.",
+      "areas": [
+        "product_service_management",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Additional service",
+      "definition": "A new service layered onto an existing business to create more value for customers.",
+      "whyItMatters": "The 2026 ETDM scenario asks teams to recommend a service that improves the customer wait-time experience.",
+      "areas": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Capital resources",
+      "definition": "Assets such as money, equipment, space, technology, and fixtures needed to launch or expand a venture.",
+      "whyItMatters": "ETDM judges often expect teams to explain what a recommendation costs and what resources it requires.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Cost-benefit analysis",
+      "definition": "A comparison of the expected costs of a decision with the expected gains or advantages.",
+      "whyItMatters": "This gives teams a clean way to defend a recommendation beyond saying it sounds good.",
+      "areas": [
+        "entrepreneurship",
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Business risk",
+      "definition": "The chance that a business decision or condition could cause loss, harm, or lower-than-expected results.",
+      "whyItMatters": "ETDM teams should name risks and explain how to reduce them.",
+      "areas": [
+        "entrepreneurship",
+        "risk_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Risk mitigation",
+      "definition": "Actions taken to reduce the likelihood or impact of an identified business risk.",
+      "whyItMatters": "A strong team answer does not only identify risk; it explains how the business can control it.",
+      "areas": [
+        "entrepreneurship",
+        "risk_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Start-up requirements",
+      "definition": "The resources, approvals, staff, systems, and funds needed before a new business or service can launch.",
+      "whyItMatters": "Helps teams organize implementation details in venture-planning cases.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Venture planning tools",
+      "definition": "Planning resources such as business plans, budgets, forecasts, timelines, and feasibility checklists.",
+      "whyItMatters": "These tools help entrepreneurs test assumptions before spending resources.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Overhead costs",
+      "definition": "Regular operating expenses, such as rent, utilities, insurance, software, or salaries, that continue over time.",
+      "whyItMatters": "Teams must consider whether a new service can cover ongoing costs after launch.",
+      "areas": [
+        "operations",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "definition": "Rivalry among businesses trying to attract the same customers or customer spending.",
+      "whyItMatters": "Competitive pressure affects pricing, positioning, promotion, and service decisions.",
+      "areas": [
+        "economics",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Customer service positioning",
+      "definition": "Using service quality to shape how customers view a business compared with alternatives.",
+      "whyItMatters": "Many ETDM cases ask teams to improve the customer experience while strengthening brand image.",
+      "areas": [
+        "marketing",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2019_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Promotional mix",
+      "definition": "The combination of promotional tools a business uses, such as advertising, sales promotion, publicity, and personal selling.",
+      "whyItMatters": "Teams can recommend a balanced mix instead of relying on one communication tactic.",
+      "areas": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Sales promotion",
+      "definition": "Short-term incentives or activities designed to encourage customers to try, buy, or engage.",
+      "whyItMatters": "Sales promotions can drive awareness and trial when launching a new service.",
+      "areas": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Word-of-mouth channel",
+      "definition": "A communication path where customers, community members, or influencers spread opinions and recommendations.",
+      "whyItMatters": "Word-of-mouth can be especially powerful for small ventures with limited promotion budgets.",
+      "areas": [
+        "promotion",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Advertising media",
+      "definition": "The channels used to deliver paid promotional messages, such as digital ads, print, radio, outdoor, or video.",
+      "whyItMatters": "Choosing media that match the target market makes promotional spending more efficient.",
+      "areas": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
+      ]
+    },
+    {
+      "term": "Hiring needs",
+      "definition": "The number and types of employees a business requires to perform work effectively.",
+      "whyItMatters": "ETDM service recommendations often create staffing questions that teams should address.",
+      "areas": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Job applicant screening",
+      "definition": "Reviewing applications, resumes, or qualifications to decide which candidates should move forward.",
+      "whyItMatters": "Screening is a basic HR process for staffing a growing entrepreneurial venture.",
+      "areas": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Employee performance assessment",
+      "definition": "Evaluating how well employees perform assigned work and meet business expectations.",
+      "whyItMatters": "Teams can use this term when discussing training, service consistency, and accountability.",
+      "areas": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Entrepreneurial discovery",
+      "definition": "Exploring ideas and opportunities to determine whether they could become viable ventures.",
+      "whyItMatters": "Discovery helps entrepreneurs avoid launching ideas without customer or market evidence.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
+      ]
+    },
+    {
+      "term": "Small business impact",
+      "definition": "The effect small firms have on jobs, innovation, competition, communities, and market economies.",
+      "whyItMatters": "This term supports broader economic reasoning in entrepreneurship cases.",
+      "areas": [
+        "entrepreneurship",
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
+      ]
+    }
+  ]
+}

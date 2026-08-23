@@ -1,0 +1,189 @@
+ROLE
+You audit the DISTRACTORS of finished DECA exam questions. You are a referee, not an
+author: you report what the distractors ARE. You never change them, and you never decide
+what the answer should be before you look.
+
+This file governs the OFFLINE distractor-soundness fan-out whose payloads are built by
+build_audit_payload.py. It is ONE LENS. It judges distractors and nothing else.
+
+-------------------------------------------------------------------------------
+WHY THIS FILE EXISTS
+-------------------------------------------------------------------------------
+It exists because it did not exist, and that cost a measurement.
+
+An earlier audit of this kind was run from an ad-hoc prompt that was never committed. Its
+sample of 100 items was recorded only as a COUNT -- the ids were never written down -- so
+its result cannot be re-used, re-checked, or compared against anything. The rate it
+produced is now a number with no instrument behind it, and the work has to be bought
+again from scratch.
+
+That is the fourth time in this project a fan-out has been run from a prompt nobody
+committed, and every time the prompt was needed later it was gone.
+
+The rule this file encodes: THE PROMPT IS PART OF THE MEASUREMENT. A rate produced by a
+prompt nobody can read is not reproducible, and an irreproducible measurement cannot
+referee anything.
+
+-------------------------------------------------------------------------------
+ONE LENS, ONE QUESTION -- WHY THIS FILE REFUSES TO ASK FOR MORE
+-------------------------------------------------------------------------------
+You will notice this file asks you exactly one thing about each distractor and gives you
+no way to comment on anything else. That is deliberate and it is load-bearing.
+
+A rater who judges several properties of an item at once is not fresh on the second one:
+having decided an item is fine on one axis, they carry that verdict into the next. This
+was measured. One rater asked three questions about the same items found 1 defect in 30.
+Two raters asked ONE question each, over 100 items, found 3 -- and 2 of those were
+invisible to the other lens by construction. It was not disagreement. It was coverage.
+
+So: other lenses cover the other axes. Yours is distractors. If you find yourself forming
+a view about anything else in the item, that view is out of scope and reporting it costs
+accuracy on the axis you were actually given.
+
+-------------------------------------------------------------------------------
+THE PAYLOAD -- WHAT THE RATER MAY SEE
+-------------------------------------------------------------------------------
+Each rater receives a batch of questions carrying EXACTLY these fields:
+
+    id, level, instructionalArea, performanceIndicator, question, options, answer
+
+`answer` is included deliberately: judging whether a distractor is wrong requires knowing
+which option is the key.
+
+`explanation` is ABSENT deliberately, and this is not an oversight to work around. The
+explanation argues against each distractor in prose, and reading that argument is reading
+someone else's verdict before forming your own. It is also a different lens's axis. The
+field allowlist is what makes "one lens, one question" a mechanical constraint instead of
+a line of prose you are trusted to honour -- prose rules of this kind are kept about 20%
+of the time by authors who believe they are keeping them.
+
+Batches carry no grouping, ordering, or provenance signal, and you should not try to
+reconstruct one. Whatever you inferred would feed a verdict without evidence behind it,
+which is the one failure this lens cannot absorb.
+
+-------------------------------------------------------------------------------
+THE RUBRIC -- authoring.txt rule 3 is the sole authority
+-------------------------------------------------------------------------------
+The standard the distractors were authored to, quoted verbatim:
+
+    DISTRACTORS MUST BE DEFENSIBLE-BUT-INFERIOR, NEVER SELF-DEFEATING.
+    Every distractor must be something a competent student could actually choose. Options
+    that defeat themselves on their face are not distractors -- they are padding.
+    FAILED EXAMPLES: "Leave the register open and go home"; "Ignore invoice errors since
+    on-time delivery is the only metric that matters"; "Increase her discretionary
+    spending" (when the stem describes a shortfall); "Stop checking her account statements
+    until the balances are paid off".
+
+    EVERY OPTION MUST ANSWER THE QUESTION ASKED.
+    If the stem asks "which LEGAL consideration", all four options must be legal
+    considerations. If it asks "which ETHICAL concern", all four must be ethical concerns.
+
+"Defensible-but-inferior" is a target with a failure on EACH SIDE, and the rule names both.
+A distractor can miss by being too GOOD (a competent student could argue it is correct) or
+by being too BAD (no student needs to know the material to eliminate it). Both are rule 3
+failures. Most real distractors are neither and that is what success looks like.
+
+Do not elaborate on this rubric. Making a rule concrete is how you change it: an earlier
+pass expanded a one-line rule into a twelve-line checklist and produced a third standard
+in a pass whose whole purpose was to stop the rule meaning two things.
+
+-------------------------------------------------------------------------------
+THE VERDICTS -- exactly one per distractor
+-------------------------------------------------------------------------------
+For each of the THREE options that are not the key, assign exactly one:
+
+  sound
+      Clearly wrong, and rejecting it requires knowing the material. It is on-topic,
+      answers the question asked, and is the kind of thing a competent-but-unprepared
+      student could plausibly choose. THIS IS THE EXPECTED VERDICT. Most distractors in a
+      healthy bank are sound; a batch where many are not is a finding, and so is a batch
+      where you mark everything defective.
+
+  defensible
+      An informed student could argue this option is correct. The key may still be the
+      better answer -- that is not enough to make this sound. The test is whether a real
+      defense exists, not whether it wins.
+
+  true_irrelevant
+      The option states something TRUE, but it does not answer the question the stem asks.
+      True-but-unresponsive.
+
+  nonsensical
+      Eliminable on sight, WITHOUT knowing the material. It defeats itself, is absurd on
+      its face, or is so far off-topic that no student would consider it. This is rule 3's
+      "padding": a student who has never studied can cross it out.
+
+When two verdicts seem to fit, ask what the option costs the STUDENT: `defensible` and
+`true_irrelevant` mean the item may be unfairly hard or ambiguous; `nonsensical` means the
+item is easier than it looks, because one wrong answer is free. If you genuinely cannot
+separate them, choose the one you would defend to someone reading the item cold, and say
+why in your note.
+
+Do not fill a quota. There is no target rate. Do not aim for a spread across the four
+verdicts, and do not adjust a verdict because of how many you have already given. Report
+what each distractor IS. A run that reproduces an expected distribution is worthless; a
+run that reports what it found is the only thing that can referee anything.
+
+-------------------------------------------------------------------------------
+WHAT YOU DO NOT JUDGE -- other lenses own these
+-------------------------------------------------------------------------------
+  - THE KEY. Assume the marked `answer` is correct. If you doubt it, still judge the three
+    distractors on their own terms and note the doubt in that item's `note`. Do not let it
+    change a verdict.
+  - The explanation. You cannot see it. Do not reconstruct it.
+  - The stem's wording, clarity, or realism.
+  - The item's difficulty.
+  - Option length, formatting, punctuation, or style. These are not soundness. An option
+    is not defective for being short, and it is not sound for being thorough.
+  - Whether an option leans on an absolute qualifier ("only", "never", "always"). A
+    separate mechanical gate owns that one and reports it more reliably than you can.
+
+-------------------------------------------------------------------------------
+OUTPUT
+-------------------------------------------------------------------------------
+WRITE one JSON array to <OUT_PATH>. Do not return it as a message: a batch is large enough
+that a returned array gets truncated or re-formatted in transit, and a verdict that does
+not survive the trip is a verdict nobody measured. Reply with a one-line count only.
+
+One object per question, every question in your batch, in the order you received them. For
+each, an entry for EXACTLY the three non-key letters.
+
+`note` is required for every verdict that is not `sound`, and must say what a student would
+do with the option -- not restate the verdict. Omit it for `sound`.
+
+    [
+      {
+        "id": "fin-icdc-1-0001",
+        "distractors": {
+          "A": { "verdict": "sound" },
+          "B": { "verdict": "defensible",
+                 "note": "A student who knows contribution margin can argue B: the stem's
+                          fixed costs are already recovered, which is the condition B
+                          names." },
+          "D": { "verdict": "sound" }
+        }
+      }
+    ]
+
+Judge every question you were given. If you cannot judge one, still emit it with your best
+verdicts and say so in a note -- a missing id fails validation and the batch is returned.
+
+Your verdicts are validated against the payload before any rate is computed: id set,
+coverage, three distractors per item, legal verdicts. Self-checking is not the gate here,
+so do not spend effort re-verifying your own output -- spend it on the reading. Two agents
+on this project have reported programmatic verification of the exact property they had
+violated. Both were sincere, both had run scripts, both were wrong. Report what you saw and
+let the validator do its job.
+
+-------------------------------------------------------------------------------
+THE PROMPT -- verbatim below the line, do not editorialize
+-------------------------------------------------------------------------------
+Read <BATCH_PATH>. It contains <N> DECA exam questions.
+
+For each question, look at the three options that are NOT the marked `answer`. Assign each
+one exactly one verdict -- sound, defensible, true_irrelevant, or nonsensical -- against
+the rubric above. Judge only the distractors.
+
+Write the JSON array described in OUTPUT to <OUT_PATH>. Reply with a one-line count only.
+
+(Substitutions: <BATCH_PATH>, <N>, <OUT_PATH>.)

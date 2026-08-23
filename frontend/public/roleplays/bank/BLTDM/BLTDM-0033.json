@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0033",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Customer Relations",
+  "performanceIndicators": [
+    {
+      "area": "Customer Relations",
+      "pi": "Maintain service standards during peaks in demand.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Generate marketing communications ideas.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the role of customer service as a component of selling relationships.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Coach others.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Maintain confidentiality in dealing with personnel.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Recognize and respond to ethical dilemmas.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Develop an achievement orientation.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event is presented through the participants' reading of the Performance Indicators and the situation. You will have 30 minutes to review the situation and prepare, and 15 minutes to present your ideas to the judge. Both team members must participate in the presentation and answer any questions the judge raises. You will be evaluated on how well your presentation meets each of the performance indicators. All notes and materials are to be turned in at the end of the presentation.",
+  "situation": "You are the Customer Relations Coordinator and the Installation Team Lead at IRONLATCH, a home security installation cooperative owned entirely by the technicians, schedulers, and support staff who work there. IRONLATCH designs, installs, and monitors alarm, camera, and smart-lock systems for homeowners across the region, with installation requests peaking sharply during the spring and summer home-closing season. The cooperative's general manager (judge), elected annually by the membership, has asked the two of you to meet about a marketing problem that surfaced this week and now needs a recommendation before the next board update.\n\nEighteen months ago IRONLATCH entered a referral partnership with PARKROW REALTY, a real estate brokerage whose agents refer newly closing homebuyers to IRONLATCH for security installations at move-in. To promote the partnership, a member of IRONLATCH's marketing staff arranged a flat fee for one of Parkrow's senior agents to record a testimonial praising IRONLATCH's crews, which then ran on the company's website, in social ads, and in every closing packet Parkrow handed to buyers. The payment was never disclosed, and the arrangement is a personnel matter still confidential from the rest of the staff.\n\nA homeowner who signed a monitoring contract after watching the testimonial later learned, through an unrelated news story about paid endorsements, that the agent had been compensated, and complained to the state consumer protection office. IRONLATCH's own review confirmed the testimonial ran for eleven months, appeared in roughly six hundred closing packets, and was never labeled as sponsored. The office closed its inquiry after IRONLATCH pulled the testimonial and began labeling every paid endorsement going forward.\n\nWhat remains is what to do about customers who signed contracts while the undisclosed testimonial was running, and what to do about Parkrow itself. The referral channel now accounts for close to a third of new installations and the member hours tied to them, a volume the membership has set a goal of growing further next year. Parkrow has offered to keep referring buyers, with its agent re-recording a properly labeled endorsement, but only if IRONLATCH gives Parkrow's marketing director a standing seat reviewing any future materials that mention the brokerage before they run.\n\nThe general manager (judge) wants a recommendation on how far back the cooperative should reach to make things right with customers who acted on the undisclosed testimonial, and on whether to accept Parkrow's condition for keeping the partnership alive. The recommendation should weigh what the cooperative owes those customers, what continuing or ending the Parkrow relationship would mean for installation volume and member pay, and how the correction should be communicated to staff and to customers alike.\n\nThe general manager (judge) will greet you both at the start of the meeting and ask to hear your ideas. After you present your recommendation for handling the affected customers and the future of the Parkrow partnership and answer any follow-up questions, the general manager (judge) will thank you both for your work and bring the meeting to a close.",
+  "judgeCharacterization": "You are the general manager (judge) of IRONLATCH, a home security installation cooperative owned by its technicians, schedulers, and support staff. Business background is the same as the situation above. You have asked the Customer Relations Coordinator and the Installation Team Lead to recommend how far back the cooperative should reach to make things right with customers who signed contracts while an undisclosed paid testimonial was running, and whether to accept Parkrow Realty's condition for keeping its referral partnership alive.\n\nDuring the presentation, ask the participants the following questions:",
+  "judgeQuestions": [
+    "Why does the timing of the correction matter, and to whom?",
+    "Why does giving Parkrow's marketing director a review seat matter, and to whom inside the cooperative?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the consumer protection office's inquiry stays closed only if paid endorsements remain labeled going forward",
+        "Parkrow's referral partnership continues only if IRONLATCH gives its marketing director review of future materials"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the consumer protection office's inquiry stays closed only if paid endorsements remain labeled going forward",
+        "Parkrow's referral partnership continues only if IRONLATCH gives its marketing director review of future materials"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [
+        "F5"
+      ],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 494,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "home security installer",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "a testimonial paid for but not disclosed",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "ask why something in the decision matters, and to whom"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0033",
+      "shelfSimilarity": 0.0881,
+      "shelfNearest": "BLTDM-0027",
+      "exemplarSimilarity": 0.0507,
+      "gateVersion": 5
+    }
+  }
+}

@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "mkt-icdc-2-0001",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Identify impact of product life cycles",
+    "question": "Amara's Craft Chocolate has sold the same signature 70% dark bar for six years. Unit sales have held steady, repeat customers remain loyal, and profit margins are strong, but sales have not grown in two years despite no new competitors entering the category. Amara is deciding whether to reformulate the bar or introduce a companion product. Which stage of the product life cycle is the bar currently in, and what does that stage suggest Amara should do?",
+    "options": {
+      "A": "Maturity stage; consider modifying or extending the product line since sales have leveled off.",
+      "B": "Growth stage; increase advertising spend to accelerate the sales rate that is naturally rising.",
+      "C": "Decline stage; discontinue the bar because profits and demand are permanently falling.",
+      "D": "Introduction stage; invest heavily in awareness advertising since the bar is still new to the market."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Steady but flat sales, strong margins, and loyal repeat customers with no growth for two years describe the maturity stage, in which the appropriate response is to modify, extend, or reposition the product to reignite growth rather than assume the product will keep expanding or fail on its own. B is wrong because growth is marked by rising, not flat, sales; pouring more money into advertising will not reverse a plateau caused by market saturation. C is wrong because decline involves falling profits and demand, neither of which is described here — margins are still strong. D is wrong because a six-year-old product with an established loyal following is not new to the market, so introduction-stage tactics do not apply.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0002",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain ethics in product/service management",
+    "question": "PawCrate, a monthly pet-supply subscription box, learns that a recent batch of its dog treats contains trace amounts of an undisclosed ingredient that could trigger allergic reactions in a small number of dogs. Sales of the batch have been strong and a recall would be costly and delay the next box shipment. Which action reflects the most ethical approach to product/service management in this situation?",
+    "options": {
+      "A": "Quietly reformulate future batches without addressing the current batch already in customers' hands.",
+      "B": "Wait to see if any customers report a reaction before taking any action on the batch.",
+      "C": "Notify affected customers and recall the batch, even though it will delay shipments and cost money.",
+      "D": "Offer a partial discount on next month's box to affected customers without disclosing the ingredient issue."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Ethical product/service management requires putting customer safety ahead of short-term cost or convenience, so notifying affected customers and recalling the batch is the only option that fully protects dogs from a known allergen risk. A is wrong because silently fixing future batches abandons the animals already exposed to the current batch and hides the problem from customers who deserve to know. B is wrong because waiting for harm to occur before acting is reactive, not preventive, and knowingly allows a foreseeable risk to continue. D is wrong because a discount does not address the safety issue and still withholds material information customers need to protect their pets.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0003",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe grades and standards",
+    "question": "A wholesale green-coffee importer sorts its beans into categories such as \"Specialty,\" \"Premium,\" and \"Exchange\" based on a standardized defect count and cup-quality score set by an industry association. Roasters use these categories to compare beans from different farms without tasting each lot personally. This system is best described as an example of",
+    "options": {
+      "A": "product bundling, since the coffee lots are packaged together as a discounted set for wholesalers.",
+      "B": "grades and standards, since beans are sorted into quality tiers using a standardized, industry-wide scoring system.",
+      "C": "brand positioning, since the tiers create a distinct image compared to competitors.",
+      "D": "warranty classification, since the tiers set which lots the importer will replace if a roaster finds defects after delivery."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Grades and standards are uniform measures of quality set by an industry or government body that let buyers compare products objectively without inspecting each item personally, exactly as the defect-count and cup-quality scoring system does here. A is wrong because no lots are being combined into a single package or price — each tier is sold and evaluated separately. C is wrong because the categories exist to communicate objective quality, not to create a unique brand image relative to competitors. D is wrong because the tiers report the quality a lot was found to have when it was graded; they are a description of condition at inspection, not a promise by the importer to replace anything a roaster later finds fault with.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0004",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain warranties and guarantees",
+    "question": "SleepNest, a direct-to-consumer mattress company, offers customers a 100-night in-home trial for any reason as well as separate coverage that only pays to repair or replace the mattress if it develops a manufacturing defect such as sagging beyond a set depth within ten years. The ten-year defect coverage is best classified as a",
+    "options": {
+      "A": "money-back guarantee, because it protects the customer's satisfaction regardless of reason.",
+      "B": "express guarantee, because it promises unconditional replacement for any complaint.",
+      "C": "implied warranty, because it exists automatically without being stated in writing.",
+      "D": "warranty, because it is a written promise limited to defects in materials or workmanship."
+    },
+    "answer": "D",
+    "explanation": "D is correct. A warranty is a written promise limited to specific conditions, such as manufacturing defects, and the ten-year coverage only applies to a defined defect (excessive sagging), not to general dissatisfaction. A is wrong because the money-back, any-reason coverage is the 100-night trial, not the defect coverage being asked about. B is wrong because the coverage is conditional on a defect existing, not an unconditional promise to replace for any complaint. C is wrong because this coverage is explicitly written and communicated to the customer, which makes it express rather than implied.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0005",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Explain product mix",
+    "question": "TrailFleet Outdoor Rentals currently rents three product lines — tents, kayaks, and e-bikes — each offered in several sizes and price tiers. Management is deciding whether to add a fourth line, guided day tours, or instead add more size and price options within the existing e-bike line. Adding the guided-tour line would primarily change TrailFleet's product mix",
+    "options": {
+      "A": "depth, because it adds more variations within an existing line.",
+      "B": "width, because it adds an entirely new line to the assortment.",
+      "C": "consistency, because tours relate closely to the existing lines' end use.",
+      "D": "depth, because tours require more staff training than rentals."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Product mix width refers to the number of different product lines a business offers, and adding guided tours creates an entirely new line alongside tents, kayaks, and e-bikes, which increases width. A and D are wrong because depth refers to the number of variations (sizes, tiers) within a single existing line, which describes adding more e-bike options, not creating a new line. C is wrong because consistency describes how closely related a company's lines are in use or production, which is a separate concept from the width decision being made here.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0006",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe product bundling",
+    "question": "SecureHome sells a package combining a doorbell camera, professional monitoring service, and a smart lock for one flat monthly fee that costs less than purchasing the three separately. Customers who buy the package rarely return individual components, and SecureHome has reduced its leftover doorbell-camera inventory since introducing the package. Which combination of outcomes explains why SecureHome uses this strategy?",
+    "options": {
+      "A": "It uses product bundling, which increases the average sale while reducing excess inventory of individual items.",
+      "B": "It uses price lining, which offers the cameras and locks at several fixed price points aimed at different budget segments.",
+      "C": "It uses trade discounts, which reward dealers and installers for buying monitoring contracts in large annual volumes.",
+      "D": "It uses odd-pricing, which sets the monthly fee just below a round number to make the package feel like a better value."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Product bundling combines several goods or services into one package priced below the sum of individual prices, which increases the size of each sale and helps move slow inventory, matching both outcomes described. B is wrong because price lining offers a customer a choice among several price points for a category of goods, whereas SecureHome offers one combined package at one fee; nothing in the scenario describes tiers aimed at different budgets. C is wrong because trade discounts are given to resellers and installers for the volume they buy, and SecureHome's package is sold to the households that use it, at a single flat fee that does not vary with quantity. D is wrong because odd-pricing is about the psychological effect of the digits chosen, and neither the flat fee's ending nor buyers' perception of a round number explains why returns fell and leftover camera inventory shrank.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0007",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe factors in corporate brand positioning",
+    "question": "GreenSprout Farms, an urban vertical-farming company, positions its corporate brand around being the freshest, most sustainable produce source available, even though its prices run 20% higher than trucked-in grocery produce. This positioning strategy depends most on which factor?",
+    "options": {
+      "A": "How close GreenSprout's growing facilities sit to its retail accounts relative to the distance competitors' produce must be trucked in",
+      "B": "How much value price-sensitive grocery shoppers place on filling their carts with produce at the lowest available cost per pound",
+      "C": "How many vertical farms GreenSprout operates compared with the number of conventional farms shipping produce into the same market",
+      "D": "How clearly GreenSprout's target customers associate freshness and sustainability with the brand relative to competitors."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Corporate brand positioning succeeds or fails based on whether target customers actually perceive and associate the intended attributes, freshness and sustainability, with the brand more strongly than they do with competitors, which is what justifies the price premium. A is wrong because proximity is a fact about the supply chain that may make freshness possible, but positioning depends on whether customers register and believe that freshness; a shorter haul that no customer knows about supports no premium. B is wrong because it names the wrong audience: price-sensitive shoppers buying on cost per pound are the segment GreenSprout's 20% premium deliberately passes over, so their valuations do not carry this positioning. C is wrong because the count of facilities is a measure of operating scale rather than of brand perception, and running more farms than conventional growers would not by itself make customers associate GreenSprout with sustainability.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0008",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Product/Service Management",
+    "performanceIndicator": "Describe factors in product positioning",
+    "question": "AscendGear, a climbing-apparel brand, positions its harnesses as the lightest, most durable option for competitive climbers, deliberately avoiding comparisons based on price because its harnesses cost more than mass-market brands. A positioning map comparing AscendGear to competitors on the two dimensions of price and durability would primarily help AscendGear determine",
+    "options": {
+      "A": "how much gross margin each harness must carry to cover the added cost of the lighter, more durable materials it is built from",
+      "B": "which retail channels stock harnesses at each price point and how much shelf space the competing brands hold in them",
+      "C": "how its target customers weigh durability and weight against the price premium relative to competing products.",
+      "D": "how many harness sizes to manufacture for the coming season"
+    },
+    "answer": "C",
+    "explanation": "C is correct. A positioning map plots how a target market perceives a brand against competitors along key attributes, so here it would reveal whether climbers value AscendGear's durability and light weight enough to accept the higher price relative to other brands. A is wrong because the margin a harness must carry to cover premium materials is an internal cost-and-pricing calculation; a positioning map plots perception, not the cost structure behind the price. B is wrong because the channels competitors occupy and the shelf space they hold is a distribution audit, which describes where harnesses are sold rather than how climbers rank them on price and durability. D is wrong because the number of sizes produced is a product-mix decision about assortment depth, not a comparative perception AscendGear could read off the map's two axes.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0009",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Identify promotional mix elements",
+    "question": "Juniper & Oak Distillery is launching a new small-batch gin and wants to build long-term relationships with the bar owners and bartenders who will decide whether to feature the gin on their menus, including answering technical questions about the distilling process face-to-face. Which promotional mix element should Juniper & Oak emphasize for this audience?",
+    "options": {
+      "A": "Personal selling, because it allows two-way, one-on-one communication tailored to each bar's needs.",
+      "B": "Sales promotion, because short-term incentives such as case discounts and contests move product faster than conversation.",
+      "C": "Advertising, because paid mass media can reach every bar owner in the region at a lower cost per contact.",
+      "D": "Publicity, because unpaid news coverage of the distillery carries third-party credibility that paid messages lack."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Personal selling provides direct, two-way, one-on-one communication that can be tailored to each bar owner's specific concerns and technical questions, which is exactly what a relationship-building, face-to-face approach requires. B is wrong because sales promotion works through short-term incentives that prompt a purchase now; it does not answer a bartender's technical questions about distilling or build the ongoing relationship Juniper & Oak is after. C is wrong because advertising's advantage is cheap reach to a large anonymous audience, and reach is not the problem here: this audience is small, identifiable, and needs a conversation rather than an impression. D is wrong because publicity's credibility comes from a third party the distillery does not control, and it cannot be aimed at individual bar owners or adapted to their questions.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0010",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe ethics in promotion",
+    "question": "A telehealth startup pays social-media fitness influencers to post glowing reviews of its subscription service but does not require them to disclose that the posts are paid promotions. Which best explains why this practice raises an ethics concern in promotion?",
+    "options": {
+      "A": "It relies on word-of-mouth channels, which are less measurable than paid advertising.",
+      "B": "It uses sales promotion, which is intended only for short-term incentives, not ongoing endorsements.",
+      "C": "It targets a broad public-relations audience instead of a defined target market.",
+      "D": "It misleads consumers by disguising paid endorsements as independent, unbiased opinions."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Ethical promotion requires transparency, and hiding the fact that influencers were paid deceives consumers into believing the endorsements are genuine, unbiased opinions rather than paid advertising, which is the core ethical violation. A is wrong because the issue is not measurability but deception; the concern would exist even if the campaign's reach were easy to track. B is wrong because the ethical problem is nondisclosure, not whether the technique falls under sales promotion — in fact, this is influencer marketing, not a short-term price incentive. C is wrong because targeting a specific audience of the influencers' followers is not itself an ethical issue; the problem is the lack of disclosure regardless of audience size.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0011",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Describe regulation of promotion",
+    "question": "SunPeak Solar runs ads claiming its panels \"cut your electric bill by 70%,\" a figure based on one unusually sunny customer's results rather than typical performance. A regulatory agency could require SunPeak to do which of the following to comply with promotion regulations?",
+    "options": {
+      "A": "Discontinue all of SunPeak's solar advertising until a regulator reviews and approves the next campaign.",
+      "B": "Substantiate the claim with evidence of typical results or stop making the unqualified claim.",
+      "C": "Move the 70% savings claim out of advertising and into the scripts its sales reps use in customer homes.",
+      "D": "Cut its panel prices until the average customer's bill savings actually reach the 70% figure advertised."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Regulations governing promotion require that advertising claims be truthful and substantiated by evidence representative of typical results; since SunPeak's 70% figure reflects an outlier rather than a typical customer, it would need to prove the claim applies broadly or stop making it. A is wrong because the remedy is aimed at the deceptive claim, not at the company's ability to advertise at all; regulators do not pre-approve campaigns before a business may promote a lawful product. C is wrong because the same substantiation standard follows the claim wherever it is made, and repeating an unsupported 70% figure in a sales rep's script is as much a misrepresentation as printing it in an ad. D is wrong because the advertised figure is a claim about savings on a customer's electric bill, which the price of the panels does not determine; cutting prices changes what customers pay SunPeak and leaves the unsupported claim in place.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0012",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain advertising media",
+    "question": "PulseStudio, a boutique fitness studio with one location, wants to reach people within a three-mile radius who are actively searching fitness classes online, and it has a limited monthly budget. Which advertising medium is the strongest match for these needs?",
+    "options": {
+      "A": "Regional television, because a broadcast schedule puts the studio's message in every household in the metro area.",
+      "B": "National magazine advertising, because fitness titles offer long shelf life and strong reader credibility.",
+      "C": "Geotargeted social media ads, because they combine low cost with precise audience targeting by location and interest.",
+      "D": "Outdoor billboards, because a board on a nearby arterial road reaches the same commuters day after day."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Geotargeted social media advertising lets a small, budget-limited business narrow its reach to a specific radius and to people showing active interest in fitness, making it both cost-effective and precisely targeted, which fits PulseStudio's needs. A is wrong because metro-wide broadcast reach is the opposite of what a one-location studio needs: PulseStudio would pay for households far outside its three-mile radius, which is why regional television strains a limited monthly budget. B is wrong because a national magazine's readership spans the country and cannot be narrowed to a neighborhood, so shelf life and credibility buy nothing PulseStudio can convert into class signups. D is wrong because a billboard reaches whoever drives past, sorting people by route rather than by interest, so it misses the studio's requirement to reach people who are actively searching for fitness classes.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0013",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain direct marketing channels",
+    "question": "Hearth & Grain Bakery emails past customers personalized discount codes for the specific pastries they have ordered before, based on purchase history stored in its database. This approach is best classified as",
+    "options": {
+      "A": "sales promotion, because it always involves a price reduction regardless of the customer.",
+      "B": "public relations, because it builds goodwill through unpaid third-party coverage.",
+      "C": "mass-media advertising, because it reaches a broad, undifferentiated audience.",
+      "D": "direct marketing, because it targets individual customers directly using personal data."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Direct marketing channels use customer data to communicate directly and personally with individual customers, and emailing personalized offers based on each customer's own purchase history is a textbook example of this targeted, data-driven approach. A is wrong because the presence of a discount does not by itself define the message as sales promotion; the defining feature here is the personalized, database-driven targeting of individuals, which is direct marketing. B is wrong because this is a paid, company-controlled message, not unpaid third-party coverage. C is wrong because the message is targeted individually to each customer, not broadcast to an undifferentiated mass audience.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0014",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Identify sales-promotion communication channels",
+    "question": "PawCrate offers current subscribers a free box for every friend who signs up using their unique referral code, valid for a limited three-month window. This referral offer is an example of which sales-promotion communication channel?",
+    "options": {
+      "A": "A short-term incentive program designed to stimulate immediate customer action.",
+      "B": "A public-relations event designed to generate unpaid media coverage.",
+      "C": "An institutional advertisement designed to build long-term brand image.",
+      "D": "A personal-selling technique designed to overcome an individual customer's objections."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Sales promotions are time-limited incentives meant to spur immediate action, and a referral reward available only for a three-month window that gives an instant free box for a specific action fits this definition precisely. B is wrong because the referral program is a company-created incentive, not an unpaid, third-party media event. C is wrong because institutional advertising builds a long-term brand image rather than offering an immediate, time-bound reward for a specific action. D is wrong because personal selling involves direct, individualized interaction between a salesperson and a customer, not a self-service referral code distributed broadly to subscribers.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0015",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Explain importance of coordinating ad elements",
+    "question": "TrailFleet's new campaign features a rugged, minimalist logo and serious tone in its print ads, but its social media ads use bright cartoon graphics and a playful tone, and its in-store signage uses yet another color scheme. Customers have begun commenting that they are not sure it's the same company. What does this scenario best illustrate?",
+    "options": {
+      "A": "The importance of raising ad frequency so the campaign is seen more often in each medium.",
+      "B": "The importance of expanding the ad budget to buy space in additional media.",
+      "C": "The importance of coordinating ad elements so that the message is consistent across channels.",
+      "D": "The importance of shifting spending from advertising toward personal selling."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Coordinating ad elements, such as tone, color, and imagery, across every medium ensures customers recognize a single, consistent brand message, and the confusion customers express here stems directly from TrailFleet's failure to do this. A is wrong because customers are not failing to see the ads; they are seeing them and not recognizing one company, so more repetitions of mismatched work would spread the confusion faster. B is wrong because a larger budget buying more media would add more places for the mismatch to appear without reconciling the logo, tone, and color scheme already in conflict. D is wrong because moving money to personal selling leaves the disjointed print, social, and in-store elements exactly as they are and addresses none of the confusion customers describe.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0016",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Promotion",
+    "performanceIndicator": "Discuss PR audiences",
+    "question": "After several nearby residents complain to local news about noise from GreenSprout Farms' vertical-farming facility, the company schedules an open house specifically for people living within a half-mile of the site to explain its odor and noise controls. Which public-relations audience is GreenSprout Farms primarily addressing?",
+    "options": {
+      "A": "Employees, because it wants to improve morale among on-site staff.",
+      "B": "The local community, because it wants to maintain goodwill among nearby residents affected by its operations.",
+      "C": "Shareholders, because it wants to reassure investors that the noise complaints will not slow the facility's output.",
+      "D": "The media, because it wants to control the exact wording of a press release."
+    },
+    "answer": "B",
+    "explanation": "B is correct. The open house is specifically aimed at residents living near the facility who are directly affected by its noise and operations, which makes the local community the target public-relations audience being addressed to preserve goodwill. A is wrong because the invitation is extended to nearby residents, not internal staff, and its purpose is community relations, not employee morale. C is wrong because the guest list is drawn by distance from the site rather than by who owns stock, and the concern being answered is how the facility affects the people next to it, not what the complaints might do to production or returns. D is wrong because the open house is a direct, in-person event with residents, not an effort to shape media coverage or press-release language.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0017",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain customer service in selling",
+    "question": "A SecureHome customer calls to say her smart lock stopped syncing with the app two days after installation. The salesperson who sold her the system stays on the line, walks her through a reset, and confirms it's working before ending the call, rather than immediately transferring her to a technical-support queue. This behavior best illustrates how customer service in selling",
+    "options": {
+      "A": "helps retain customers and builds the salesperson's credibility for future referrals and renewals.",
+      "B": "is handled by a separate technical-support team rather than the salesperson who sold the system.",
+      "C": "should be limited to the point of sale and not extend to after-sale problems.",
+      "D": "is primarily a legal obligation rather than a way to build customer relationships."
+    },
+    "answer": "A",
+    "explanation": "A is correct. By personally resolving the issue rather than deflecting it, the salesperson strengthens the customer's trust and satisfaction, which increases the likelihood of renewals, referrals, and repeat business — the core purpose of customer service in selling. B is wrong because the scenario shows the opposite: the salesperson stays on the line and solves the problem herself, and it is precisely by not handing the customer to the support queue that she earns the credit for the fix. C is wrong because effective customer service extends beyond the point of sale to after-sale support, which is exactly what builds long-term customer relationships. D is wrong because nothing in the scenario involves a legal requirement; the salesperson's action is a voluntary relationship-building effort, not a compliance matter.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0018",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain company selling policies",
+    "question": "Cadence Music Shop's written selling policy allows returns on unopened merchandise within 30 days but prohibits returns on opened reeds, strings, and other consumable accessories due to hygiene and resale concerns. A customer opens a package of clarinet reeds, decides she doesn't like them, and asks for a refund. The salesperson should",
+    "options": {
+      "A": "issue a full refund, since the shop's 30-day return window applies to every item on the sales floor, including reeds.",
+      "B": "offer store credit as a compromise, since the reeds came back inside the 30-day window.",
+      "C": "use personal judgment to override the policy since the customer seems dissatisfied.",
+      "D": "decline the refund because company policy specifically excludes opened consumable accessories from returns."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Company selling policies exist to give employees consistent guidance, and this policy explicitly excludes opened consumable items like reeds from returns for hygiene and resale reasons, so the salesperson should decline the refund and explain the policy. A is wrong because the 30-day window is not a blanket guarantee: the written policy applies it to unopened merchandise and carves consumable accessories out once they have been opened, which is exactly what happened here. B is wrong because the policy does not treat opened consumables as returnable in some other form; the reeds cannot be resold for hygiene reasons whether the shop refunds cash or issues credit, so the timing of the return does not make store credit an option the policy allows. C is wrong because overriding a documented company policy based on personal judgment undermines consistency and is not an appropriate response to a customer's dissatisfaction.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0019",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain building clientele",
+    "question": "A custom-furniture maker keeps detailed notes on each client's style preferences, upcoming milestones (like a child leaving for college), and past purchases, then reaches out with tailored ideas before the client even calls. Over three years, 60% of the maker's sales now come from repeat clients and their referrals. This approach primarily reflects the salesperson's effort to",
+    "options": {
+      "A": "acquire the product information needed to answer technical questions about wood species, joinery, and finish durability.",
+      "B": "follow the legal and ethical selling considerations that govern custom-order deposits and delivery contracts.",
+      "C": "build clientele by cultivating long-term relationships that generate repeat and referral business.",
+      "D": "apply the shop's standard selling policies identically to every client, from deposit terms to delivery windows."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Building clientele means developing ongoing, personalized relationships that lead customers to buy again and to send others, and the maker's practice of tracking preferences and milestones and reaching out first is what produces the 60% repeat-and-referral share described. A is wrong because the notes the maker keeps are about each client's taste and life events, not about wood species or joinery; acquiring technical product knowledge is a separate selling task the scenario never describes. B is wrong because nothing in the scenario turns on deposit terms or contract compliance, which is what legal and ethical selling considerations govern; the maker's effort is aimed at the relationship itself. D is wrong because the outreach is built around each client's own history and upcoming milestones, which is the opposite of applying one standard policy identically to every client.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0020",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Analyze product features/benefits",
+    "question": "A salesperson at IronGuard Safety tells a warehouse manager that a new harness has a \"reinforced titanium D-ring rated to 5,000 pounds\" and then explains that this means workers can be confident the harness won't fail during a fall, reducing the company's liability risk. Identifying the titanium D-ring's rating is an example of a __________, while explaining the reduced liability risk is an example of a __________.",
+    "options": {
+      "A": "benefit; feature",
+      "B": "feature; benefit",
+      "C": "warranty; guarantee",
+      "D": "guarantee; warranty"
+    },
+    "answer": "B",
+    "explanation": "B is correct. A feature is a factual characteristic of the product, such as the titanium D-ring's 5,000-pound rating, while a benefit translates that feature into a meaningful advantage for the customer, such as reduced liability risk and greater confidence — exactly the order described in the scenario. A is wrong because it reverses the terms; the rating is the factual feature, not the customer benefit. C and D are wrong because neither the D-ring's rating nor the liability discussion involves a written promise about defects or replacement, so warranty and guarantee terminology does not apply here.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0021",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain selling process",
+    "question": "A telehealth sales rep visits a clinic and, before mentioning any product features, spends the first fifteen minutes asking the office manager about patient volume, current scheduling pain points, and staff concerns about learning new software. Which step of the selling process is the rep currently performing?",
+    "options": {
+      "A": "Approaching the customer, since this is the rep's first contact with the clinic.",
+      "B": "Handling objections, since the office manager is expressing concerns about the software.",
+      "C": "Closing the sale, since the rep is preparing to ask for the clinic's commitment.",
+      "D": "Determining needs, since the rep is gathering information before recommending a solution."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Determining needs is the step in which a salesperson asks questions to understand the customer's situation and problems before presenting a solution, which matches the rep's questions about patient volume and scheduling pain points. A is wrong because approaching the customer refers to the initial greeting and opening of the conversation, not the in-depth questioning phase already underway. B is wrong because the office manager is simply describing existing pain points as information, not raising a specific objection to a proposed solution. C is wrong because closing involves asking for the sale or commitment, which comes only after needs have been determined and a solution presented.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0022",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Discuss motivational theories affecting buying behavior",
+    "question": "A luxury skincare brand markets a $200 serum by emphasizing how it will make customers \"feel confident walking into any room\" rather than focusing on its ingredients. According to Maslow's hierarchy of needs, this marketing message is primarily appealing to customers'",
+    "options": {
+      "A": "esteem needs, since the message centers on confidence and self-image rather than basic function.",
+      "B": "physiological needs, since the serum maintains the skin barrier, which is a basic bodily requirement.",
+      "C": "safety needs, since the serum shields the skin from sun and environmental damage.",
+      "D": "self-actualization needs, since the message is about becoming the fullest version of oneself rather than fitting in."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Esteem needs involve a person's desire for confidence, respect, and positive self-image, and a message built around feeling confident in social situations appeals directly to this level rather than to basic survival or protective needs. B is wrong because physiological needs are the body's survival requirements, and the ad says nothing about what the serum does for the skin; it sells how the customer expects to feel walking into a room. C is wrong because safety needs concern protection from harm, and the brand chose not to argue that the serum protects anything, leaving its ingredients and their effects out of the message entirely. D is wrong because self-actualization is about fulfilling one's own potential by an internal standard, whereas the promised payoff here is confidence in front of other people, which is esteem.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0023",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Selling",
+    "performanceIndicator": "Explain legal/ethical selling considerations",
+    "question": "A solar sales rep tells a homeowner, \"I can only hold this discounted price if you sign today,\" which is standard company policy on limited-time offers. The rep also tells the homeowner the panels are \"guaranteed to eliminate your electric bill completely,\" even though the company's own data shows average savings of 50-70%. Which part of this interaction raises a legal/ethical selling concern?",
+    "options": {
+      "A": "The limited-time discount, because the cooling-off rule bars a seller from letting a quoted price expire before the buyer's cancellation window ends",
+      "B": "The claim that the panels are guaranteed to eliminate the bill completely, because it misrepresents the product's actual performance.",
+      "C": "The rep's decision to raise price before the homeowner asked, since price belongs after the product presentation",
+      "D": "The rep's reliance on an approved company policy, since following an employer's script shifts responsibility to the employer"
+    },
+    "answer": "B",
+    "explanation": "B is correct. Making a guarantee that contradicts the company's own documented performance data is a misrepresentation that can mislead the customer into a purchase decision based on false information, which is the legal/ethical concern here. A is wrong because it misapplies a real rule: the federal cooling-off rule gives buyers a three-day right to cancel certain home sales, but it governs cancellation after signing and says nothing about how long a seller must hold a quoted price open. C is wrong because introducing price before the homeowner raises it is a matter of sales technique and sequencing, not a legal or ethical breach. D is wrong because responsibility does not transfer to the employer just because a policy is approved, and in any case the approved limited-time policy is not the problem here; the false performance guarantee was the rep's own claim, made outside any policy.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0024",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain factors affecting pricing decisions",
+    "question": "Hollow Oak Brewery calculates that a new barrel-aged seasonal stout costs $2.10 per bottle to produce and package. Competing barrel-aged stouts from similarly sized breweries sell for $9-$12 per bottle, and early tasting-room feedback suggests customers perceive this release as rare and premium. Which combination of factors should most directly guide Hollow Oak's final price?",
+    "options": {
+      "A": "Only the production cost, since price should always equal cost plus a fixed markup percentage regardless of the market.",
+      "B": "Only competitor pricing, since matching rivals' shelf prices guarantees the brewery's profitability.",
+      "C": "Cost as a price floor, with competitor pricing and perceived value guiding how far above that floor to price.",
+      "D": "Only perceived rarity, since cost and competitor prices are irrelevant once a product is seen as premium."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Pricing decisions are shaped by multiple factors together: cost sets the minimum price needed to avoid a loss, while competitor prices and customers' perception of value indicate how much above that floor the market will bear, which fits a rare, premium-perceived product priced well above cost like this stout. A is wrong because relying solely on a fixed cost-plus formula ignores competitor pricing and perceived value, both of which matter for a specialty product like this. B is wrong because simply matching competitors ignores the brewery's own cost structure and the added value customers perceive in this specific release. D is wrong because perceived rarity alone cannot set a sustainable price without regard to whether that price still covers production costs.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0025",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Describe ethics in pricing",
+    "question": "After a string of break-ins is reported in a neighborhood, SecureHome raises the price of its basic camera-and-lock package by 40% in that specific zip code while keeping prices unchanged everywhere else. Which best explains why this pricing practice raises an ethical concern?",
+    "options": {
+      "A": "It takes advantage of customers' heightened fear and urgency to charge more for the same product.",
+      "B": "It uses psychological pricing, which prices just below a round number to shape perceptions.",
+      "C": "It represents price lining, which is illegal when applied to identical products.",
+      "D": "It violates trade discount rules that apply only to sales made to resellers."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Raising prices specifically in an area where residents feel unsafe exploits their fear and urgency to extract a higher price for the identical product sold elsewhere at a lower price, which is the essence of the ethical concern with this kind of surge pricing. B is wrong because psychological pricing is about the digits chosen for a price tag and works the same way on every buyer; SecureHome changed how much it charges in one zip code and why, not how the number reads. C is wrong because price lining refers to offering products at a limited number of fixed price points across a product assortment, not charging different amounts for the same item in different locations, and it is not illegal by definition. D is wrong because trade discounts apply to business-to-business sales to resellers, not to direct pricing decisions aimed at individual consumers.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0026",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain legal considerations for pricing",
+    "question": "The owners of two boutique hotels in the same small town, both expecting a sold-out festival weekend, agree over coffee to each set a $250 minimum nightly rate so that neither one \"undercuts\" the other. Which legal consideration applies to this agreement?",
+    "options": {
+      "A": "It is a lawful exercise of independent business judgment because each hotel stays free to set any rate it likes above the agreed floor",
+      "B": "It is protected as a fair-trade practice because a rate floor keeps either hotel from undercutting the other predatorily",
+      "C": "It survives antitrust review under the rule of reason because a sold-out festival weekend leaves travelers no fewer rooms than before",
+      "D": "It constitutes illegal price fixing because competitors have agreed to control prices rather than setting them independently."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Price fixing occurs when competing businesses agree to set prices together instead of independently, and that is exactly what these two hotel owners have done, regardless of their intentions or the short time frame involved. A is wrong because freedom to price above an agreed floor is not independent pricing; the floor itself is the agreement, and setting the bottom of the range collectively is the conduct antitrust law prohibits. B is wrong because predatory pricing means pricing below cost to drive out a rival, which is the opposite of what an agreed rate floor does; it raises prices above the level competition would set, and the fair-trade statutes that once permitted such floors were repealed. C is wrong because agreements among competitors to fix prices are treated as illegal per se, meaning they are not weighed against their claimed benefits under the rule of reason at all.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0027",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Pricing",
+    "performanceIndicator": "Explain pricing function",
+    "question": "PawCrate's finance team calculates that at its current $34.99 monthly price, the company covers all costs and earns a modest profit. Marketing wants to lower the price to $24.99 to boost subscriber counts, but finance warns this would fall below the break-even point per box. This disagreement centers on which core purpose of the pricing function?",
+    "options": {
+      "A": "Determining which advertising media will best reach potential new subscribers.",
+      "B": "Selecting the channel of distribution used to ship each monthly box.",
+      "C": "Setting a price that covers costs and earns a profit while remaining attractive to customers.",
+      "D": "Selecting the performance indicators that should guide decisions about the product line's future."
+    },
+    "answer": "C",
+    "explanation": "C is correct. The pricing function's core purpose is to set a price that covers costs and generates a reasonable profit while still appealing to the target market, and the tension between finance's break-even concern and marketing's demand for a lower, more attractive price captures exactly this balancing act. A is wrong because the two teams agree on nothing about media; the argument is over the price itself, and where the ads run would not change whether $24.99 clears break-even. B is wrong because no shipping or channel question is in dispute; the boxes reach subscribers the same way at either price. D is wrong because choosing performance indicators is a measurement question about how the product line will be judged later, whereas this disagreement is about setting the price now.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0028",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channels of distribution",
+    "question": "VeloCore Components has developed a new pedal system that requires precise professional installation and calibration to function safely. Which channel of distribution is most appropriate for this product?",
+    "options": {
+      "A": "Producer directly to consumer online, since removing intermediaries lowers the retail price.",
+      "B": "Producer to specialty bike shops to consumer, since the product requires professional installation that shops can provide.",
+      "C": "Producer to wholesaler to a wide range of general retailers to consumer, so the pedal system is stocked in as many stores as possible.",
+      "D": "Producer to agent to wholesaler to retailer to consumer, to reach the broadest possible market."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Products that require technical expertise, fitting, or installation are best sold through a shorter channel involving specialized intermediaries, such as bike shops, that have the trained staff needed to install and calibrate the pedal system safely for the customer. A is wrong because selling directly online bypasses the professional installation the product requires, creating a safety risk for consumers who install it themselves. C is wrong because intensive distribution through general retailers buys availability at the cost of the one thing this product cannot go without: staff trained to install and calibrate it, which the typical general retailer does not employ. D is wrong because adding even more intermediaries, such as an agent, further distances the producer from the specialized service the product needs and is unnecessary for a product requiring localized technical support.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0029",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain legal considerations in channel management",
+    "question": "Meeple Works, a board game publisher, tells hobby shops that if they want to carry its top-selling strategy game, they must agree not to stock any competing publisher's strategy games. Several small shops feel pressured to comply because Meeple Works' game is so popular. Which legal issue does this arrangement raise?",
+    "options": {
+      "A": "A territorial-rights violation, because Meeple Works is carving the country into protected regions and barring shops from selling outside them.",
+      "B": "Trademark infringement, because the hobby shops are displaying Meeple Works' logo and game artwork without a license.",
+      "C": "Resale price maintenance, because Meeple Works is dictating the minimum retail price shops may charge for its strategy game.",
+      "D": "An exclusive-dealing arrangement that may violate antitrust law by restricting competitors' access to the market."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Conditioning access to a must-have product on the retailer dropping rival products is an exclusive-dealing arrangement, and when the supplier's game is popular enough that shops feel compelled to accept, the arrangement can foreclose competing publishers from the market in violation of antitrust law. A is wrong because the restriction here is about which competing products a shop may stock, not about where a shop may sell; Meeple Works assigns no protected regions and bars no shop from selling outside an area. B is wrong because the shops are stocking genuine Meeple Works games, which carries the right to display the game and its branding to sell it; nothing suggests unlicensed use of the publisher's marks. C is wrong because Meeple Works is not setting the price shops charge for its game; the condition it imposes concerns which rival products a shop may carry, and price is never mentioned.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0030",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Coordinate channel management with marketing activities",
+    "question": "EcoWrap Supply launches a national advertising campaign promoting its new compostable packaging to restaurant owners, generating a surge of inquiries. However, EcoWrap's regional distributors were not notified in advance and quickly run out of stock, leaving many interested restaurants unable to order. This problem illustrates a failure to",
+    "options": {
+      "A": "coordinate channel management with the company's other marketing activities, such as promotion.",
+      "B": "establish legal agreements with each of its regional distributors.",
+      "C": "apply grades and standards consistently across all packaging batches.",
+      "D": "develop an accurate brand-positioning statement for the compostable packaging before promoting it nationally."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Channel management must be coordinated with other marketing functions like promotion so that distributors are prepared with adequate inventory before a campaign drives demand; EcoWrap's distributors being caught unaware and running out of stock is a direct result of this lack of coordination. B is wrong because the problem described is an inventory and communication failure, not a missing legal agreement with distributors. C is wrong because grades and standards concern product quality classification, which is unrelated to the stock-out problem caused by an uncoordinated campaign. D is wrong because the positioning of the packaging was not the failure: restaurant owners understood the message well enough to inquire in large numbers. What broke was the channel's readiness to fill the orders that message produced.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0031",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain channel-member relationships",
+    "question": "A regional grocery distributor gives Highland Roasters' coffee prime shelf placement and shares upcoming promotional calendars in advance, even though a competing roaster offers a slightly higher margin. The distributor explains that Highland Roasters has consistently delivered on time, resolved shipment errors quickly, and shared sales data openly for years. This preferential treatment is best explained by",
+    "options": {
+      "A": "an exclusive-dealing contract that legally requires the distributor to favor Highland Roasters.",
+      "B": "a difference in the grades and standards used to classify each roaster's coffee.",
+      "C": "the strength of the long-term channel-member relationship built on trust and reliable performance.",
+      "D": "a one-time sales promotion that Highland Roasters is currently running with the distributor."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Strong channel-member relationships develop over time through consistent reliability, open communication, and trust between producers and intermediaries, and the years of on-time delivery, quick error resolution, and shared data described here are precisely what builds that kind of preferential, mutually beneficial relationship. A is wrong because no contractual requirement is mentioned; the distributor's own explanation points to relationship history, not a binding exclusive agreement. B is wrong because grading or standards classification is not mentioned as a factor in the distributor's decision. D is wrong because the preference is described as being built over years, not from a single current promotional event.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0032",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Channel Management",
+    "performanceIndicator": "Explain affinity partner relationships",
+    "question": "TrailFleet Outdoor Rentals partners with a regional credit union so that credit-union members receive a 15% discount on rentals, and in return TrailFleet is featured in the credit union's member newsletter. TrailFleet does not sell its products through the credit union, and the credit union does not distribute or stock TrailFleet's gear. This arrangement is best described as a(n)",
+    "options": {
+      "A": "vertical channel-integration agreement, since two firms at different levels of one distribution channel have merged their operations",
+      "B": "affinity partner relationship, since two organizations cross-promote to each other's members without one distributing the other's products.",
+      "C": "wholesaler-retailer relationship, since the credit union is passing TrailFleet's rentals through to its own members at a discount",
+      "D": "franchise agreement, since TrailFleet is letting the credit union operate under its brand in return for the newsletter feature"
+    },
+    "answer": "B",
+    "explanation": "B is correct. An affinity partner relationship is a mutually beneficial arrangement in which two organizations promote each other to their respective member or customer bases without either one distributing or stocking the other's products, which precisely matches TrailFleet and the credit union's newsletter and discount arrangement. A is wrong because vertical integration joins firms that occupy different levels of the same channel, such as a manufacturer and its distributor; a credit union sits in no level of TrailFleet's rental channel, and neither party has merged any operation with the other. C is wrong because nothing passes through the credit union: it does not buy, hold, or resell rentals, and members transact with TrailFleet directly, so no wholesale-to-retail step exists. D is wrong because a franchise licenses a brand and operating system to a franchisee that runs the business under it, whereas the credit union runs no part of TrailFleet's business and simply prints an offer in its newsletter.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0033",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Identify data monitored for marketing decisions",
+    "question": "Brambleworth Roasters, a direct-to-consumer coffee subscription company, notices that renewal rates are strong among customers who signed up during its fall gift-box promotion but weak among customers acquired through paid social ads in the spring. Before adjusting its acquisition budget, which piece of marketing data should Brambleworth monitor most closely to explain the gap?",
+    "options": {
+      "A": "Total monthly ad spend across the paid social campaigns that ran during the spring acquisition push",
+      "B": "Warehouse fulfillment time for orders placed each month",
+      "C": "Subscription renewal rate broken out by acquisition channel and signup cohort",
+      "D": "Overall conversion rate on the landing page used for the fall gift-box promotion"
+    },
+    "answer": "C",
+    "explanation": "Subscription renewal rate broken out by acquisition channel and signup cohort is correct. Because the renewal gap appears to differ by how and when customers were acquired, Brambleworth needs data segmented by channel and cohort to confirm whether the spring paid-social customers truly renew at a lower rate, and if so, why. Total ad spend on the spring campaigns (A) measures what was paid to acquire those customers, not whether they stayed; it can size the budget question but cannot explain why one group renews and another does not. Warehouse fulfillment time (B) is an operations metric, not a marketing-decision input, and would not reveal a channel-based renewal pattern. Landing-page conversion rate for the fall promotion (D) describes how well that page turned visitors into signups, which is the moment of acquisition rather than the renewal months later where the gap actually appears.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0034",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Explain ethics in marketing-information management",
+    "question": "A market research firm hired by NovaBrew, a craft energy-drink startup, tells survey respondents that the study is being conducted by an independent university panel and does not disclose that NovaBrew funded the project and will use the results to develop advertising claims. Even though every respondent answers the questions honestly, why is this research practice unethical?",
+    "options": {
+      "A": "It pays respondents an incentive large enough to influence how they answer the survey questions",
+      "B": "It fails to disclose the sponsor's identity and true purpose to respondents, which compromises informed consent",
+      "C": "It combines primary and secondary data sources within the same overall research study",
+      "D": "It uses an exploratory research design whose directional findings cannot establish the causal proof that advertising claims require"
+    },
+    "answer": "B",
+    "explanation": "Failing to disclose the sponsoring organization's identity and purpose to respondents is correct. Ethical research practice requires that respondents know who is conducting a study and why, so they can decide whether to participate with full information; telling them an independent university panel is behind a study NovaBrew funded and will use for advertising denies them that choice, which is why the practice is unethical even though the answers themselves are honest. Paying an influential incentive (A) is a real ethical concern in survey research, but the scenario describes no payment to respondents, and the stem states that every respondent answered honestly, so this is not the flaw at issue. Combining primary and secondary data collection (C) is a common, legitimate research practice and raises no ethical issue on its own. An exploratory design (D) is a methodological limit on what the data can prove, not a deception of the people being surveyed; the problem here is what respondents were told, not what the findings can support.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0035",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Discuss sampling plans",
+    "question": "Verdant Sprout, a vertical-farm producer, sells to three tiers of restaurant clients: fine dining, casual bistros, and cafeteria contracts. Cafeteria contracts vastly outnumber the other two tiers. Verdant Sprout wants each tier's opinions meaningfully represented in an upcoming satisfaction survey, even though fine-dining and bistro accounts are comparatively rare. Which sampling approach best achieves this?",
+    "options": {
+      "A": "A simple random sample drawn from the master customer list, one that gives every restaurant account on it an equal chance of being selected",
+      "B": "A convenience sample of the fine-dining accounts that staff can reach by phone most easily",
+      "C": "A quota sample that fills its slots in proportion to each tier's share of the total order volume that Verdant Sprout booked last month",
+      "D": "A stratified sample that draws respondents separately from each tier so smaller tiers aren't overwhelmed by cafeteria accounts"
+    },
+    "answer": "D",
+    "explanation": "A stratified sample that draws respondents separately from each restaurant tier is correct because stratified sampling divides the population into meaningful subgroups and samples within each one, ensuring that the smaller fine-dining and bistro tiers are adequately represented rather than drowned out by the much larger cafeteria segment. A simple random sample giving every account an equal chance (A) is unbiased in the statistical sense, but because cafeteria contracts vastly outnumber the others, an equal per-account chance still yields a sample that is mostly cafeterias, which is the outcome Verdant Sprout wants to avoid. A convenience sample of the easiest fine-dining accounts to phone (B) leaves the bistro and cafeteria tiers out of the study altogether and selects on staff convenience rather than on representing the client base. A quota sample weighted by last month's order volume (C) sets quotas by the very measure on which cafeterias dominate, so the largest-volume tier again fills most of the slots and the rare tiers stay marginal.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0036",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Describe marketing research study designs",
+    "question": "SkyFurrow Aerial Services, an agricultural drone-spraying company, wants to determine whether switching a group of customers from per-acre pricing to a flat subscription tier actually causes higher season-over-season retention, rather than merely being associated with it. To support a causal conclusion, SkyFurrow should use a research design that",
+    "options": {
+      "A": "randomly assigns similar customers to either the subscription tier or the existing per-acre pricing and compares retention between the two groups",
+      "B": "surveys the customers already on the subscription tier about whether the flat rate makes them more likely to renew next season",
+      "C": "convenes a focus group of long-tenured subscription customers to explore what drives their renewal decisions",
+      "D": "compiles the retention figures published by competing drone firms that already price by subscription"
+    },
+    "answer": "A",
+    "explanation": "Randomly assigning similar customers to either pricing group and comparing retention outcomes is correct because this experimental design creates a control group, which is necessary to isolate the effect of the pricing change from other factors and support a genuine cause-and-effect conclusion. Surveying the customers already on the subscription tier (B) measures stated renewal intent inside a single self-selected group, with no per-acre comparison group, so any retention difference could just as easily reflect who chose the tier as what the tier did. A focus group of long-tenured subscribers (C) is an exploratory technique that surfaces motivations and hypotheses, and its participants are the customers who already stayed, so it cannot establish that the pricing caused the staying. Compiling competitors' published retention figures (D) is secondary research about other firms' customers and other firms' conditions, which cannot isolate the causal effect of SkyFurrow's own pricing on its own customers.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0037",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Evaluate questionnaire design",
+    "question": "EcoTrail Adventures includes the following item on its post-tour survey: \"How would you rate our knowledgeable, friendly guides and clean, modern equipment?\" What is the main design flaw in this question?",
+    "options": {
+      "A": "It uses an open-ended format, so responses will arrive as free-form written text that researchers must read and code by hand afterward",
+      "B": "It provides too many response categories on its rating scale, so respondents cannot distinguish one rating point from the next",
+      "C": "It is a double-barreled question, asking respondents to rate both guide quality and equipment condition in one response",
+      "D": "It is worded too vaguely for respondents to tell which part of the tour is being asked about"
+    },
+    "answer": "C",
+    "explanation": "The question is double-barreled, correctly identified in option C, because it forces respondents to give one rating that is supposed to cover two separate things, the guides and the equipment, even though a respondent might feel very differently about each. This makes the resulting data ambiguous and hard to interpret. Calling it open-ended (A) misreads the format: the item asks respondents to rate, which yields a scaled response, not the free-form text that would need hand coding. Faulting the number of scale categories (B) describes a real questionnaire flaw, but no scale or set of response categories appears in the item at all, so there is nothing to be excessive. Calling the wording too vague to locate (D) is the opposite of the trouble here; respondents can see exactly which two things are named, and it is precisely because both are named in one item that a single rating cannot answer for either.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0038",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Explain descriptive statistics in marketing decisions",
+    "question": "PulsePoint Fitness Studio recorded class attendance of 19, 20, 21, 18, 22, and 60 (during a one-time holiday open house) across six sessions. Because the holiday session pulled in an unusually large crowd, which measure of central tendency should PulsePoint's manager rely on to plan regular weekly staffing levels?",
+    "options": {
+      "A": "The mean, because it uses every data point that was collected",
+      "B": "The median, because it is not distorted by the one atypical holiday session",
+      "C": "The mode, because it reflects the value that occurred most often",
+      "D": "The range, because it captures the full spread between the lowest and highest attendance"
+    },
+    "answer": "B",
+    "explanation": "The median is correct because it identifies the middle value of the data set and is resistant to the distortion an extreme outlier like the 60-person holiday session would cause, making it a more accurate reflection of a typical class's attendance for staffing purposes. The mean (A) does use every data point, but that is exactly why it is pulled upward by the outlier session and would overstate typical attendance, leading to overstaffing on regular days. The mode (C) is not useful here since none of the attendance values repeat, so there is no meaningful most-frequent value to report. The range (D) only describes the spread between the highest and lowest attendance figures; it does not indicate a typical attendance level for staffing decisions.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0039",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing-Information Management",
+    "performanceIndicator": "Identify research project errors",
+    "question": "IndiePixel Games sent a satisfaction survey only to players who had completed every level of its new release, then reported that \"92% of players love the difficulty curve.\" Which research project error most undermines this conclusion?",
+    "options": {
+      "A": "Sampling frame error, because frustrated players who quit before finishing were excluded from the surveyed population",
+      "B": "Nonresponse error, because the players who finished every level of the game had little reason to fill out and return the survey",
+      "C": "Measurement error, because the phrase difficulty curve was left undefined for players filling out the satisfaction scale",
+      "D": "Data-processing error, because the 92% figure was tabulated from the returned surveys without any weighting applied to the responses"
+    },
+    "answer": "A",
+    "explanation": "Sampling frame error is correct because the list IndiePixel drew respondents from, players who finished the game, systematically excluded the very players most likely to be dissatisfied with the difficulty, biasing the results before a single survey was even sent. Nonresponse error (B) would mean people who were sent the survey declined to answer it, and nothing in the scenario reports a low return rate; the flaw is that a whole group was never sent the survey to decline. Measurement error (C) concerns how a question or scale is built, and while an undefined term would be a genuine wording problem, the scenario describes no defect in the instrument, and defining the phrase would not add the missing players back. Data-processing error (D) refers to mistakes made while tabulating or entering results, but the 92% appears to be counted correctly from the surveys that came back; the responses are accurate and the population behind them is not.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0040",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing strategies",
+    "question": "Larchwood Furniture Co. sells its custom-built pieces only through a small network of interior designers who decide which of their clients' projects to feature, rather than through open retail. Because Larchwood cannot control shelf placement or run its own price promotions through this channel, which marketing strategy is most realistic for competing with mass-market furniture retailers?",
+    "options": {
+      "A": "Match the advertised prices of mass-market retailers so designers can present Larchwood as the cheaper option",
+      "B": "Expand into big-box retail distribution so the pieces gain shelf exposure alongside mass-market lines",
+      "C": "Run frequent flash sales directly to consumers online to build overall volume",
+      "D": "Differentiate on craftsmanship and personalization so designers have a distinct story for clients"
+    },
+    "answer": "D",
+    "explanation": "Differentiating on craftsmanship and personalization is correct because it plays to Larchwood's actual strengths and gives its designer partners a compelling, unique selling point, which fits a channel where Larchwood has no direct control over pricing or shelf space. Matching mass-market advertised prices (A) is not realistic for a custom producer whose costs per piece are far higher than a mass manufacturer's, and it would compete on the one dimension where Larchwood is weakest while discarding what designers actually sell to their clients. Expanding into big-box distribution (B) abandons the constraint the question sets rather than working within it, and mass shelf space is a poor fit for pieces built to order for a specific client's project. Running flash sales directly to consumers (C) is not feasible either, since Larchwood has no direct-to-consumer sales channel described in the scenario.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0041",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain market and market identification",
+    "question": "Thistle & Thread, an online marketplace for resold sustainable clothing, initially defined its market simply as \"people who buy used clothes.\" After research showed its actual buyers are urban shoppers ages 25-40 who cite environmental concern as their top purchase motivator, Thistle & Thread revised its market identification. This revision demonstrates that effective market identification requires",
+    "options": {
+      "A": "narrowing the market by geographic region first, since where resale buyers live determines the shipping zones the marketplace can serve",
+      "B": "combining demographic and psychographic characteristics to define a market precisely enough to guide marketing decisions",
+      "C": "setting motivation data aside in favor of the purchase history the marketplace records for itself",
+      "D": "keeping the market definition broad enough that every potential resale clothing buyer stays inside it as the marketplace grows"
+    },
+    "answer": "B",
+    "explanation": "Combining demographic and psychographic characteristics is correct because Thistle & Thread's more useful market definition layers an age-based demographic factor with a motivation-based psychographic factor, together painting a far more actionable picture than the vague original definition. Narrowing by geography first (A) picks a factor the revision did not turn on: the research identified age and environmental motivation, and while the buyers happen to be urban, shipping zones are a fulfillment concern rather than the basis on which this market was identified. Setting motivation aside in favor of recorded purchase history (C) inverts what happened, since the environmental-concern motivator is a psychographic trait and it is the finding that sharpened the definition most. Keeping the definition broad enough to hold every resale buyer (D) is the original definition the company abandoned, and breadth is what made it useless for guiding decisions.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0042",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing planning",
+    "question": "Hopwell Craft Brewery wants to expand distribution into a neighboring state. Before setting specific sales targets or choosing which retailers to approach, the brewery's marketing team should first",
+    "options": {
+      "A": "secure shelf-placement commitments from the largest grocery chains in the neighboring state so distribution capacity is locked in early",
+      "B": "finalize the advertising creative and the media buy that will run alongside the first shipments",
+      "C": "analyze the competitive, regulatory, and demand conditions in the new state to understand the situation it is entering",
+      "D": "set a first-year case-volume target for the new state by extrapolating from the growth rate Hopwell posted in its home market"
+    },
+    "answer": "C",
+    "explanation": "Analyzing the competitive, regulatory, and demand conditions in the new state is correct because the marketing planning process begins with understanding the situation a business is entering before objectives or tactics can be set responsibly; without this groundwork, later goals and retailer decisions would be based on guesswork. Locking in shelf-placement commitments with the largest chains (A) commits the brewery to specific retailers before it knows which accounts reach the drinkers it wants or what the state's distribution rules permit, so it is a tactic executed ahead of the analysis that should shape it. Finalizing creative and the media buy (B) fixes the message before the team knows what the competition already says or what the state allows a brewer to claim. Extrapolating a first-year target from home-market growth (D) assumes the new state's demand and competition mirror the old one's, which is precisely the assumption the situation analysis exists to test.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0043",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain marketing plans",
+    "question": "MedCore Diagnostics' new product manager drafts a document outlining target hospital systems, competitive positioning against two rival device makers, pricing approach, and planned trade-show promotions for the coming year. A colleague argues this document is unnecessary because the company already has a business plan. Why is a separate marketing plan still needed?",
+    "options": {
+      "A": "A marketing plan focuses specifically on reaching and persuading target customers, unlike a broader business plan",
+      "B": "A marketing plan must be filed with federal regulators before a new medical device may be promoted to hospital systems",
+      "C": "A marketing plan takes the place of the situation analysis that a company's broader business plan would otherwise require before launch",
+      "D": "A marketing plan condenses the company's full business plan into a shorter working summary the sales team can carry into meetings"
+    },
+    "answer": "A",
+    "explanation": "A marketing plan focusing on reaching and persuading target customers, distinct from a business plan's broader operational and financial scope, is correct; MedCore's document addresses target markets, positioning, pricing, and promotion, none of which a general business plan is designed to detail. Claiming a regulatory filing requirement (B) invents an obligation the scenario never mentions; device promotion is regulated for the claims it makes, not by any rule requiring a marketing plan to be filed, and the colleague's objection is about redundancy rather than compliance. Claiming the marketing plan replaces the situation analysis (C) inverts the relationship, since the competitive positioning against two rival device makers is itself a product of situation analysis, which feeds the plan rather than being retired by it. Calling the plan a condensed summary of the business plan (D) misreads its content: the trade-show tactics and pricing approach in MedCore's draft are detail a business plan does not carry, so the document adds specificity rather than removing it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0044",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain role of situation analysis",
+    "question": "EcoTrail Adventures' situation analysis reveals two things: a new national park permit fee that will raise its guided-tour costs, and a wave of negative online reviews about a leading competitor's overcrowded tours. In its situation analysis, EcoTrail should classify these two findings, respectively, as a(n)",
+    "options": {
+      "A": "strength and a weakness",
+      "B": "weakness and a strength",
+      "C": "opportunity and a threat",
+      "D": "threat and an opportunity"
+    },
+    "answer": "D",
+    "explanation": "A threat and an opportunity is correct, in that order: the rising permit fee is an external condition working against EcoTrail's cost structure, making it a threat, while the competitor's negative reviews create an external opening EcoTrail could capture, making it an opportunity. Strength and weakness (A) mischaracterize both findings as internal factors, but neither the permit fee nor a competitor's reviews originates inside EcoTrail's own operations. Weakness and strength (B) makes the same internal/external error in reversed order. Opportunity and threat (C) reverses the correct classification, incorrectly labeling the cost-raising permit fee as a positive opening and the competitor's stumble as a negative for EcoTrail.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0045",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Market Planning",
+    "performanceIndicator": "Explain sales forecasts",
+    "question": "SkyFurrow Aerial Services builds next season's sales forecast by first projecting sales using the past five years of acreage-sprayed data, then adjusting that number downward based on regional sales managers' judgment that a new low-cost competitor will capture some business. This forecasting approach combines a",
+    "options": {
+      "A": "jury of executive opinion combined with a customer-survey estimate of next season's acreage",
+      "B": "quantitative time-series projection with a qualitative expert-judgment adjustment",
+      "C": "sales-force composite combined with a market-test method",
+      "D": "purely quantitative approach that requires no judgment adjustments"
+    },
+    "answer": "B",
+    "explanation": "A quantitative time-series projection combined with a qualitative expert-judgment adjustment is correct because the historical acreage-sprayed data forms a numeric, trend-based baseline, while the regional managers' judgment about a competitor's impact is a subjective adjustment layered on top of that baseline. Describing it as a jury of executive opinion combined with a customer-survey estimate (A) mislabels both halves: the baseline came from five years of recorded acreage rather than from executives pooling their opinions, and no customers were asked what they intend to buy. Calling it a sales-force composite combined with a market test (C) mislabels the process, since no market test was conducted and the base figure is a statistical projection, not an aggregation of individual salespeople's estimates. Labeling it a purely quantitative approach with no judgment adjustments (D) directly contradicts the scenario, which explicitly describes a judgment-based downward adjustment to the quantitative baseline.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0046",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain supply and demand",
+    "question": "Wildflower Creamery's raw milk costs rise sharply because of a regional drought, at the same time a viral food-blog post about its aged cheddar sends a surge of new customers to its website. Considering both events together, Wildflower Creamery is most likely experiencing",
+    "options": {
+      "A": "a leftward shift in supply and a rightward shift in demand, both of which push the equilibrium price upward",
+      "B": "a rightward shift in supply and a leftward shift in demand, which offset each other and leave price unchanged",
+      "C": "a movement along a fixed supply curve caused only by the change in the price of milk",
+      "D": "a movement along a fixed demand curve caused only by the change in production costs"
+    },
+    "answer": "A",
+    "explanation": "A leftward shift in supply combined with a rightward shift in demand is correct: the drought raises production costs and reduces the quantity Wildflower can profitably supply at every price, shifting supply left, while the viral post increases the quantity customers want at every price, shifting demand right; both changes push equilibrium price upward together. A rightward supply shift and leftward demand shift that offset each other (B) describes the opposite direction for both curves and would actually lower price, which contradicts both events described. A movement along a fixed supply curve (C) would only apply if supply itself hadn't shifted, but the drought is an underlying cost change that shifts the entire supply curve, not just a point on it. A movement along a fixed demand curve (D) similarly misapplies the concept, since the viral post is a change in an underlying condition (awareness/desire) that shifts demand itself rather than simply moving along an unchanged demand curve.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0047",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe functions of prices in markets",
+    "question": "During a supply shortfall, Verdant Sprout's vertical farm raises the price of its heirloom kale rather than filling orders on a strict first-come, first-served basis. This pricing decision illustrates which function of price in a market?",
+    "options": {
+      "A": "The communication function, because the higher price tells buyers what the shortfall cost the farm to absorb",
+      "B": "The incentive function, because a higher price pushes rival growers to undercut the farm on the same variety",
+      "C": "The rationing function, because price allocates the limited kale supply to those willing to pay the most for it",
+      "D": "The redistribution function, because a price increase moves purchasing power from the farm toward its buyers"
+    },
+    "answer": "C",
+    "explanation": "The rationing function is correct because, when supply is limited, raising price allocates the scarce kale among competing buyers based on willingness to pay rather than order of arrival, which is precisely the rationing role that price plays in a market. Reading it as the communication function (A) makes price a report on the farm's own costs, but Verdant Sprout's increase is driven by scarce supply relative to demand, and the price here is doing allocation work rather than reporting what the shortfall cost. Calling it the incentive function (B) also misstates that function: the incentive of a higher price is to draw more production into the market, not to push rivals to cut their prices, and no competitor response is described. Naming a redistribution function (D) invokes something price does not do here and reverses the flow besides, since a price increase during a shortage moves value toward the seller rather than toward buyers.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0048",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain competition",
+    "question": "A mid-sized city has a dozen boutique cycling studios, each charging a similar monthly price but competing heavily on instructor personality, class atmosphere, and studio branding. This market structure is best described as",
+    "options": {
+      "A": "an oligopoly, because a small number of large firms dominate the market",
+      "B": "monopolistic competition, because many sellers offer differentiated versions of a similar service",
+      "C": "a pure monopoly, because one studio effectively controls pricing citywide",
+      "D": "perfect competition, because every studio's service is identical and price is the only variable"
+    },
+    "answer": "B",
+    "explanation": "Monopolistic competition is correct because the market has many sellers, each offering a similar core service that they differentiate through branding, atmosphere, and instructor personality rather than through price alone, which is the defining feature of this market structure. Calling it an oligopoly (A) misdescribes the market, since a dozen studios competing on differentiation is not the small number of dominant firms that defines an oligopoly. A pure monopoly (C) is incorrect because no single studio controls the market; a dozen studios are actively competing with one another. Perfect competition (D) is also incorrect because the studios' services are explicitly differentiated by branding and atmosphere, not identical, which rules out the defining assumption of perfect competition.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0049",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Determine impact of business cycles",
+    "question": "When the economy enters a recession, NimbleWorks Coworking Spaces sees membership drop at its premium locations but sees signups increase at its no-frills, low-cost location as budget-conscious freelancers downgrade. This pattern shows that a business cycle downturn can",
+    "options": {
+      "A": "pull demand down by the same proportion at every price tier a company happens to offer",
+      "B": "shift demand toward whichever competitor spends the most on advertising during the slump",
+      "C": "raise a company's operating costs while leaving its customers' spending patterns unchanged",
+      "D": "affect different tiers within the same company unevenly, hurting premium demand while boosting budget signups"
+    },
+    "answer": "D",
+    "explanation": "Affecting different tiers within the same company unevenly is correct because NimbleWorks' premium and budget locations move in opposite directions during the same downturn, showing that a recession's impact is not uniform even across offerings from a single business. Pulling demand down proportionally at every tier (A) is contradicted by the scenario itself, where the budget location's signups rise while the premium locations lose members, so the tiers move in opposite directions rather than by a common factor. Shifting demand toward the heaviest advertiser (B) introduces a competitive-spending explanation the scenario never raises; what moved NimbleWorks' members between tiers was their own tightened budgets, not a rival's promotion. Raising costs while leaving purchasing behavior unchanged (C) reverses what is described, since the scenario reports no change in NimbleWorks' costs and a pronounced change in what its customers choose to buy.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0050",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Explain global trade",
+    "question": "Larchwood Furniture Co. learns that a proposed tariff on imported hardwood would raise its production costs, while a separate proposed import quota in a neighboring country would cap the number of finished pieces it could ship there each year, regardless of price. Which statement correctly distinguishes the two policies' likely effects?",
+    "options": {
+      "A": "The tariff would raise Larchwood's costs and likely its prices, while the quota would limit sales volume even if Larchwood were willing to lower prices",
+      "B": "Both policies work by restricting the quantity of finished pieces Larchwood may ship into the neighboring market, leaving its hardwood costs and its prices untouched",
+      "C": "The tariff would cap the number of finished pieces Larchwood may ship into the neighboring country, while the quota would raise the price it pays for its imported hardwood",
+      "D": "Both policies exist to raise tax revenue for the governments imposing them, so Larchwood's costs would climb by whatever amount is collected under each of them"
+    },
+    "answer": "A",
+    "explanation": "The tariff raising costs and prices, while the quota caps volume regardless of price, is correct because a tariff functions as a tax on imported inputs that increases production costs, whereas a quota is a hard numeric limit on units that can be sold, which price changes cannot overcome. Saying both policies restrict quantity and leave costs untouched (B) misses the tariff's mechanism entirely: a tariff sets no ceiling on units and works precisely by adding cost to each unit of imported hardwood Larchwood buys. Swapping the two (C) attaches the quota's volume ceiling to the tariff and the tariff's cost effect to the quota, describing each policy with the other's mechanism. Claiming both raise government revenue and add that amount to Larchwood's costs (D) is wrong on the quota, which collects nothing from anyone and instead bars shipments beyond its numeric limit, so no payment is transferred and no cost per unit is added.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0051",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Economics",
+    "performanceIndicator": "Describe exchange rates",
+    "question": "MedCore Diagnostics prices its diagnostic devices in U.S. dollars and sells to hospital systems throughout Europe. When the euro weakens significantly against the dollar, what is the most likely effect on MedCore's export sales?",
+    "options": {
+      "A": "European hospital systems convert their euros into dollars more cheaply, so the device's euro-equivalent price falls and MedCore gains ground on the European manufacturers",
+      "B": "Because MedCore's list price is denominated in dollars, the euro's decline is absorbed by the currency markets and leaves the euro outlay of European buyers unchanged",
+      "C": "European buyers must pay more in euros for the same dollar-priced device, which can make MedCore's products less price-competitive against European manufacturers",
+      "D": "MedCore's U.S. production costs fall as the euro weakens, offsetting any change in European demand"
+    },
+    "answer": "C",
+    "explanation": "Paying more in euros for the same dollar-priced device is correct because a weaker euro means each euro buys fewer dollars, so converting the fixed dollar price into euros costs more, which can make MedCore's devices comparatively more expensive next to European competitors' euro-priced products. Claiming European buyers convert euros into dollars more cheaply (A) reverses the direction of the move: a weaker euro buys fewer dollars, not more, so dollar-priced goods become more expensive in euro terms, not less. Claiming currency markets absorb the change and leave buyers' euro outlay unchanged (B) is wrong because nothing absorbs the conversion; the buyer is the party who must supply more euros to raise the same fixed number of dollars. Claiming MedCore's U.S. production costs fall as the euro weakens (D) misplaces the effect entirely, since MedCore pays for its inputs in dollars and a euro depreciation does not change dollar-denominated domestic costs.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0052",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Evaluate information quality/sources",
+    "question": "EcoTrail Adventures is deciding which market report to trust when forecasting demand for guided hikes: a three-year-old independent research-firm study, or a report published this year by an industry association whose largest funder is a competing tour operator. Which consideration should weigh most heavily in EcoTrail's evaluation of source quality?",
+    "options": {
+      "A": "Whether the independent firm's three-year-old figures still reflect the current level of demand for guided hikes",
+      "B": "Whether the association's report is distributed free of charge while the independent study must be purchased",
+      "C": "Whether the association's report covers a wider set of trail regions than the independent study does",
+      "D": "Whether the newer report's funding source creates bias that could outweigh its recency advantage"
+    },
+    "answer": "D",
+    "explanation": "Weighing whether the more current report's funding source creates potential bias is correct because a source's credibility rests on its independence, and a report bankrolled by a competing tour operator has a direct interest in what the demand figures show, which is a reason to discount it even though it is the newer of the two. Whether the older figures still hold (A) is a fair question and the reason the newer report is tempting at all, but recency is the weaker consideration here: dated data can be checked against what EcoTrail sees in its own bookings, while a funder's thumb on the scale is not something a reader can correct for. Whether one report is free and the other must be bought (B) is a matter of what each costs to obtain, which has no bearing on whether its findings are trustworthy. Whether the association's report spans more trail regions (C) describes how much ground it covers, not how reliable its numbers are; wider scope does not repair a conflict of interest in the source producing it.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0053",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Explain legal issues in information management",
+    "question": "A new state law requires companies to obtain affirmative customer consent before sharing any customer data, even aggregated, de-identified data, with third parties. PetPixel's legal team reviews its practice of selling aggregated purchase trends to a pet-insurance partner without asking customers first. Under the new law, PetPixel's practice is",
+    "options": {
+      "A": "a legal violation, because the law requires consent for third-party data sharing regardless of whether the data is aggregated or de-identified",
+      "B": "legally acceptable, because de-identification strips out the personal information that data-privacy statutes are written to protect",
+      "C": "a legal violation limited to the records of customers who had previously opted out of marketing email",
+      "D": "legally acceptable, because PetPixel's existing terms of service already grant it a business-purpose right to share data with partners"
+    },
+    "answer": "A",
+    "explanation": "A legal violation regardless of aggregation or de-identification is correct because the law as described explicitly extends the consent requirement to aggregated and de-identified data, so PetPixel's failure to obtain consent breaches that specific requirement even though no individually identifiable records were shared. Claiming de-identification strips out what privacy statutes protect (B) states the rationale behind many other privacy laws, but it is contradicted by the law in this scenario, which was written to reach de-identified data specifically. Limiting the violation to customers who had opted out of marketing email (C) imports a condition the law does not contain; the requirement is affirmative consent for third-party sharing, and a marketing-email preference is a separate choice about a different use. Relying on the existing terms of service (D) fails because the new law requires affirmative consent obtained before sharing, and a general business-purpose clause a customer never affirmatively agreed to for this purpose does not supply it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0054",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Discuss data mining",
+    "question": "Nimble Meals runs an algorithm across two years of order history and discovers that customers who select vegetarian entrees are also disproportionately likely to add a specific brand of plant-based dessert to the same order, a relationship no one at the company had previously suspected. This discovery is best described as an example of",
+    "options": {
+      "A": "a simple database query, because it returns records that match criteria an analyst specified in advance rather than new ones",
+      "B": "data mining, because it uncovers a previously unknown relationship hidden within a large volume of existing data",
+      "C": "primary research, because Nimble Meals collected new survey responses to find the pattern",
+      "D": "a sampling plan, because Nimble Meals selected a subset of orders to analyze"
+    },
+    "answer": "B",
+    "explanation": "Data mining is correct because the process analyzed a large existing data set to surface a pattern that was not previously known or suspected, which is exactly the purpose of data mining as opposed to routine data retrieval. Calling it a simple database query (A) misdescribes what happened: a query can only return what someone already thought to ask for, and no one at Nimble Meals suspected the vegetarian-and-dessert link existed, so there were no criteria to write. Labeling it primary research (C) is incorrect because Nimble Meals did not collect any new survey data; it analyzed data that already existed from past orders. Calling it a sampling plan (D) is also incorrect, since the scenario describes analyzing two full years of order history rather than deliberately selecting a smaller representative subset to survey.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0055",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Interpret statistical findings",
+    "question": "Hopwell Craft Brewery's data shows that in months with more taproom events, case sales are also higher, and the marketing director concludes the events are directly driving the sales increase. However, most of Hopwell's events happen to be scheduled around holiday weekends, when beer sales rise across the entire industry. What is the flaw in the marketing director's interpretation?",
+    "options": {
+      "A": "The director summarized the monthly sales figures with the mean when the median would describe a typical month better",
+      "B": "The director relied on so few monthly observations that no reliable correlation could be calculated from them",
+      "C": "The director treated a correlation as causation without ruling out holiday timing as a confounding variable",
+      "D": "The director failed to convert the raw sales data into percentages before comparing months"
+    },
+    "answer": "C",
+    "explanation": "Treating a correlation as causation without ruling out the holiday-timing confound is correct because the events and the sales increase both tend to occur around holiday weekends, meaning the holiday itself, not the events, could be the true driver of higher sales; without isolating this confounding variable, the causal claim is unsupported. Using the mean rather than the median (A) is a choice about summarizing a single variable, and nothing in the scenario indicates it was made or that it would matter; the flaw lies in the causal leap, not in how the monthly figures were averaged. Too few observations to compute a correlation (B) is not the problem either, since the association between events and sales is not in dispute here; what is unsupported is the claim that one caused the other. Failing to convert figures into percentages (D) is not the described flaw either, since the core problem is mistaking an association for a cause, not a formatting choice in how the data was expressed.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0056",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Information Management",
+    "performanceIndicator": "Draw conclusions from analysis",
+    "question": "Verdant Sprout tests two LED lighting schedules across just two growing cycles and finds that Schedule B produced slightly higher yields both times. Before concluding that Schedule B is genuinely superior, Verdant Sprout's analyst should recognize that",
+    "options": {
+      "A": "two cycles may not be enough trials to rule out normal batch-to-batch variation as the cause of the yield difference",
+      "B": "the conclusion is already well supported, since the same schedule produced the higher yield in both of the cycles tested",
+      "C": "yield data cannot be analyzed unless it is first converted into a percentage format",
+      "D": "the two cycles should be averaged into one figure, because averaging removes batch-to-batch variation from the comparison"
+    },
+    "answer": "A",
+    "explanation": "Recognizing that two cycles may not be enough trials to rule out normal variation is correct because a small number of trials makes it hard to distinguish a genuine effect of the lighting schedule from ordinary random fluctuation between growing batches, so more trials would strengthen confidence in the conclusion. Treating the result as already supported because it repeated (B) is the error the analyst has to guard against: with two trials, chance alone would put the same schedule ahead twice fairly often, so a repeat is weak evidence rather than confirmation. Claiming yield data cannot be analyzed without converting it to percentages (C) is an unfounded restriction not related to the actual issue, which is the limited number of trials, not the data's format. Averaging the two cycles into one figure (D) does not remove batch-to-batch variation; it hides it, since a single average conceals how much the yields bounced around and leaves the analyst with even less basis for judging whether the gap is real.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0057",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle difficult customers",
+    "question": "A Nimble Meals customer calls in, raising his voice and demanding a full refund because his delivery arrived a day late and the produce had wilted. The customer service representative wants to resolve the issue without escalating the customer's frustration or being pushed into an unreasonable concession. The representative should",
+    "options": {
+      "A": "mirror the customer's urgency by raising his voice, since matching a caller's intensity shows the complaint is being taken seriously",
+      "B": "calmly acknowledge the customer's frustration, confirm the facts of the delivery issue, and offer a fair resolution within company policy",
+      "C": "approve the full refund at once and close the call, since granting the demand is the fastest way to protect the company's reputation",
+      "D": "place the customer on hold for several minutes at a time until his tone settles, then take the details"
+    },
+    "answer": "B",
+    "explanation": "Calmly acknowledging the customer's frustration, confirming the facts, and offering a fair resolution within policy is correct because this approach validates the customer's concern, gathers the information needed to resolve it accurately, and avoids both escalation and an unjustified concession, which meets the representative's stated goals. Mirroring the customer's urgency by raising his own voice (A) reads volume as a measure of seriousness; in practice it escalates the exchange, which is the outcome the representative was told to avoid. Approving the full refund at once to protect the company's reputation (C) is the unreasonable concession the representative is specifically trying to avoid, and it settles the call by abandoning company policy rather than by resolving the complaint. Holding the customer for several minutes at a time until his tone settles (D) treats the customer's emotion as the problem to be waited out and delays the fact-finding that any fair resolution depends on, so frustration is likely to grow rather than subside.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0058",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Handle customer/client complaints",
+    "question": "A PulsePoint Fitness member complains that she was charged twice for her monthly membership. The studio manager immediately refunds the duplicate charge, apologizes, and adds a complimentary personal-training session. Two months later, the member reports higher satisfaction with PulsePoint than she had before the billing error occurred. This outcome best illustrates that",
+    "options": {
+      "A": "complaints permanently damage a customer relationship no matter how quickly the business responds",
+      "B": "offering any form of compensation for a complaint guarantees a refund request will stop",
+      "C": "billing errors have no real effect on a customer's long-term perception of a business",
+      "D": "a well-handled complaint can strengthen customer loyalty beyond the level that existed before the problem occurred"
+    },
+    "answer": "D",
+    "explanation": "A well-handled complaint strengthening loyalty beyond its prior level is correct, since the member's satisfaction actually rose above where it started once the manager responded quickly, apologetically, and generously, illustrating that recovery efforts can turn a negative experience into a stronger relationship. Claiming that complaints do permanent damage whatever the response (A) is contradicted by the outcome described: the relationship did not merely survive the billing error, it ended up stronger than before, which is the whole point of the example. Claiming that any compensation guarantees a refund request will stop (B) overgeneralizes from a single case; what worked here was a prompt refund, an apology, and a gesture of goodwill together, not compensation as an automatic remedy. Claiming billing errors have no real effect on long-term perception (C) is also incorrect, since the scenario shows the billing error and its resolution did affect the member's perception, just in a positive direction because of how it was handled.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0059",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Explain the role of ethics in customer relationship management",
+    "question": "Nimble Meals' CRM platform can infer from a customer's order history that they likely manage a medical condition such as diabetes, and a marketing manager proposes using that inference to target the customer with condition-specific meal ads. Even though no medical data was directly collected, why does this raise an ethics concern in customer relationship management?",
+    "options": {
+      "A": "It uses inferred sensitive health information to target the customer without their knowledge or consent",
+      "B": "It is unethical only because Nimble Meals would generate additional advertising revenue from the campaign",
+      "C": "It is not an ethical concern because Nimble Meals never directly asked the customer about a medical condition",
+      "D": "It is unethical only if the inference about the customer's health condition happens to be inaccurate"
+    },
+    "answer": "A",
+    "explanation": "Using inferred sensitive health information without the customer's knowledge or consent is correct because customers generally expect that sensitive categories of personal information, including inferred health conditions, will not be used to target them without their awareness, regardless of how the inference was derived. Claiming the concern is only about generating advertising revenue (B) misidentifies the ethical issue, which centers on privacy and consent, not on whether the company profits from the campaign. Claiming there is no ethical concern because the customer was never directly asked (C) misses the point that inferring sensitive information indirectly can be just as invasive as collecting it directly, and may be even harder for the customer to detect or contest. Claiming the practice is unethical only if the inference is inaccurate (D) is a trap, since even an accurate inference about a customer's health raises a privacy concern; accuracy does not resolve the consent problem.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0060",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Describe the use of technology in customer relationship management",
+    "question": "Loop Cyclery's CRM software tracks each member's class check-in frequency and automatically sends a personalized re-engagement email with a class recommendation when a member's visits drop below their usual pattern. This use of technology in customer relationship management primarily allows Loop Cyclery to",
+    "options": {
+      "A": "hand routine member messaging over to the software so that front-desk staff can be reassigned from the counter to bike maintenance and repair work",
+      "B": "set each member's monthly rate automatically according to how often that member checks in, charging the most frequent riders the highest price",
+      "C": "use predictive data patterns to identify at-risk customers and respond with personalized outreach before they cancel their membership",
+      "D": "guarantee that a member who receives a recommendation email returns to class that week"
+    },
+    "answer": "C",
+    "explanation": "Using predictive data patterns to identify at-risk customers and respond with personalized outreach is correct because the CRM system is monitoring behavioral data, check-in frequency, against each member's own baseline to flag a meaningful drop and trigger a targeted response before the member disengages entirely. Handing routine messaging to the software so staff can be reassigned to maintenance (A) describes a labor-saving use the scenario does not mention; the system's described purpose is to detect a change in a member's behavior and act on it, and it says nothing about reducing staffing. Setting each member's rate from check-in frequency (B) would be automated dynamic pricing, whereas what the CRM sends is a class recommendation, not a rate change; the scenario's trigger changes the outreach, not the price. Guaranteeing that an emailed member returns that week (D) overstates what any outreach tool can do, since a well-timed recommendation improves the odds of re-engagement but cannot compel attendance.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0061",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Customer Relations",
+    "performanceIndicator": "Adapt communication to cultural and social differences among clients",
+    "question": "EcoTrail Adventures frequently guides visiting groups from a culture where indirect, high-context communication is the norm; clients rarely say \"no\" outright and instead use hesitation or vague responses to signal disagreement. When a guide from this group responds to an itinerary suggestion with a pause and a vague \"maybe we'll see,\" the EcoTrail staff member should",
+    "options": {
+      "A": "proceed with the original itinerary as scheduled, since a client who has not voiced an outright objection has effectively consented to the suggestion",
+      "B": "recognize the indirect response as likely signaling disagreement or discomfort with the suggestion, and follow up sensitively rather than assuming agreement",
+      "C": "restate the itinerary suggestion more loudly and in simpler words, treating the pause as a sign the client did not follow the English",
+      "D": "record the reply as neutral and move on, treating vague answers as carrying no information about the client's preference"
+    },
+    "answer": "B",
+    "explanation": "Recognizing the indirect response as likely signaling disagreement and following up sensitively is correct because, in high-context cultures, indirect cues such as hesitation often communicate disagreement that would be stated outright in a low-context culture, so a culturally aware staff member should read the cue rather than take silence as consent. Treating the absence of an outright objection as consent (A) applies a low-context rule to a high-context speaker, which is exactly the assumption the scenario says this group's communication style defeats. Repeating the suggestion more loudly and in simpler words (C) misreads a cultural convention as a language or hearing barrier; nothing in the scenario suggests the client failed to understand what was said. Recording the reply as neutral and moving on (D) discards the very signal the client sent, since in a high-context exchange a vague answer is a deliberate, information-carrying reply rather than an absence of one.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0062",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Describe cash flow statements",
+    "question": "Larchwood Furniture Co.'s income statement shows a healthy profit for the quarter, yet the owner struggles to make payroll because most large custom orders are billed with 60-day payment terms while wages and rent are due immediately. Which financial statement would best help the owner anticipate and manage this timing mismatch?",
+    "options": {
+      "A": "A cash flow statement, because it tracks the actual timing of cash receipts and payments rather than recorded profit",
+      "B": "An income statement, because it shows when each customer's 60-day payment is collected against the quarter's profit",
+      "C": "A balance sheet, because its accounts-receivable balance reveals the dates on which customer payments arrive",
+      "D": "A sales budget, because projecting next quarter's orders shows when payroll and rent come due"
+    },
+    "answer": "A",
+    "explanation": "A cash flow statement is correct because it specifically tracks when cash actually moves in and out of the business, which is exactly the information needed to see that payroll obligations are due before customer payments arrive, a mismatch the profit figure alone does not reveal. The income statement (B) does not show when a 60-day payment is collected at all; it records revenue when the order is earned and billed, which is exactly why Larchwood's quarter looks profitable while the bank account is empty. The balance sheet (C) reports the accounts-receivable total outstanding on one date, a single figure with no schedule attached, so it says how much customers owe but not which week any of it lands. The sales budget (D) forecasts orders the company hopes to win and says nothing about the payroll and rent going out, so it cannot line up receipts against obligations.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0063",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain balance sheets",
+    "question": "IndiePixel Games receives a $200,000 advance from its publisher before its next title launches. Under the publishing contract, IndiePixel must repay any portion of the advance not \"earned\" back through royalties if the game underperforms. On IndiePixel's balance sheet, this advance should be recorded as a",
+    "options": {
+      "A": "receivable, because the publisher has committed the $200,000 under the publishing contract and IndiePixel has yet to earn any of it back",
+      "B": "owner's equity, because money put into the studio's next title increases the owners' stake in it",
+      "C": "revenue, because the $200,000 arrived under a signed publishing contract and revenue is recorded when the payment is received",
+      "D": "liability, because it represents an obligation IndiePixel may need to repay if royalty earnings don't cover the advance"
+    },
+    "answer": "D",
+    "explanation": "Classifying the advance as a liability is correct because IndiePixel has a potential future obligation to repay part or all of the money if royalties don't cover it, and a balance sheet records such conditional repayment obligations as liabilities rather than as fully earned resources. Recording it as a receivable (A) reverses the direction of the money: a receivable is cash a customer still owes the company, but the publisher has already paid, and what remains outstanding is IndiePixel's own potential obligation to give the money back. Recording it as owner's equity (B) is wrong because the publisher is an outside party financing a title under a repayment condition, not an owner buying a stake; equity carries no repayment obligation, and this money does. Recording it as revenue on receipt (C) applies a cash-basis rule where the earnings process governs: the advance is earned only as royalties accrue, so booking it when the cash lands would recognize income the studio may still have to return.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0064",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Calculate cost of credit",
+    "question": "Thistle & Thread's owner carries a $2,400 balance on a business credit card at an 18% annual interest rate and pays only the $50 minimum required each month. Which statement correctly describes the cost of credit in this situation?",
+    "options": {
+      "A": "The cost of credit equals the $50 minimum multiplied by the number of months to clear the card, since the running total of those payments is what the owner hands the issuer over the life of the balance",
+      "B": "Paying the $50 minimum by the due date each month keeps the account current, so no finance charge is added to the $2,400 balance",
+      "C": "Because only the minimum payment is made each month, interest continues to accrue on most of the remaining balance, making the true cost of credit far higher than the minimum payment suggests",
+      "D": "Because the 18% rate is fixed for the life of the balance, the total interest works out the same whether the owner clears the $2,400 in one month or stretches the payments across several years"
+    },
+    "answer": "C",
+    "explanation": "Recognizing that interest continues to accrue on most of the remaining balance, making the true cost of credit far higher than the minimum payment suggests, is correct because paying only the minimum leaves a large unpaid balance that keeps accruing interest month after month, meaning the total amount eventually paid back can far exceed the original $2,400. Equating the cost of credit with the sum of all the minimum payments (A) double-counts the principal: the $2,400 borrowed is money returned, not a cost, and the cost of credit is the interest paid on top of it. Claiming an on-time minimum payment prevents finance charges (B) confuses avoiding a late fee with avoiding interest; paying on time keeps the account current, but interest still accrues on whatever balance is carried past the statement date. Claiming a fixed rate makes the total identical whether the balance is cleared in one month or several years (D) confuses a fixed rate with a fixed cost, since 18% applied to a balance carried for years compounds into far more interest than the same rate applied for one month.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0065",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain time value of money",
+    "question": "EcoTrail Adventures' owner has $10,000 in profit and is deciding whether to invest it immediately in new hiking equipment to expand tour capacity this season, or wait a full year to invest the same amount once she feels more confident in the plan. Which principle explains why investing the $10,000 now is likely the financially stronger choice, all else being equal?",
+    "options": {
+      "A": "The concept of net worth, because retaining the profit as cash on the balance sheet raises the owner's net worth more than converting it into equipment does",
+      "B": "The time value of money, because a dollar available today can begin generating returns immediately, making it worth more than the same dollar received or invested a year from now",
+      "C": "The concept of diminishing returns, because each additional dollar put into hiking equipment yields a smaller incremental gain, so waiting preserves the return earned on the first dollars spent",
+      "D": "The rationing function of price, because the price of hiking equipment allocates a limited supply among the outfitters who value it most"
+    },
+    "answer": "B",
+    "explanation": "The time value of money is correct because a dollar invested today has a full year to begin generating returns, such as additional tour revenue from expanded capacity, that a dollar invested a year from now would never have had the chance to earn, making earlier investment generally more valuable. The net worth reasoning (A) is wrong on the accounting: buying equipment with cash swaps one asset for another and leaves net worth unchanged at the moment of purchase, so holding cash confers no net-worth advantage and says nothing about timing. Diminishing returns (C) is a real concept describing smaller gains from each added unit of a resource, but it would argue for buying less equipment, not for buying it later; it does not address when a dollar starts earning. The rationing function of price (D) explains how price distributes a scarce good among competing buyers, which is a market-allocation idea unrelated to the owner's choice between investing this season and next.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0066",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Financial Analysis",
+    "performanceIndicator": "Explain estate planning",
+    "question": "Larchwood Furniture Co.'s founder dies suddenly without a will or a documented succession plan. His three adult children, who all worked in different parts of the business, are left disputing who should take over ownership and control. Which of the following actions, taken while the founder was still alive, would most likely have prevented this outcome?",
+    "options": {
+      "A": "Purchasing a key-person life insurance policy on the founder with the business named as beneficiary",
+      "B": "Switching the company's books from cash basis to accrual basis so asset values are recorded as earned",
+      "C": "Registering the Larchwood name as a trademark so the three children would share rights to the brand",
+      "D": "Creating an estate plan that clearly designates how business ownership and control will transfer among the heirs"
+    },
+    "answer": "D",
+    "explanation": "Creating an estate plan that clearly designates how ownership and control will transfer is correct because estate planning tools, such as a will, trust, or succession agreement, are specifically designed to prevent the kind of ownership dispute the children now face by spelling out the founder's wishes in advance. Key-person life insurance (A) is a genuine part of many succession arrangements, but it pays the business cash to absorb the financial shock of losing the founder; it names a beneficiary for a policy, not a successor for the company, so the three children would still be disputing who takes control. Switching to accrual accounting (B) changes when transactions are recorded for reporting purposes and leaves the question of who inherits the business exactly where it was. Registering the name as a trademark (C) protects the brand from outside use and would give the children shared rights to a mark, which settles nothing about which of them owns or runs the company.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0067",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain communication techniques that support and encourage a speaker",
+    "question": "During a staff meeting at Briarwood Veterinary Group, a newly hired technician nervously proposes a revised intake protocol for emergency walk-ins. Several senior staff members exchange skeptical glances as she talks. Which technique would BEST allow the meeting facilitator to encourage the technician to keep presenting while also managing the room's visible skepticism?",
+    "options": {
+      "A": "Restate the technician's key points aloud and invite the skeptical staff to hold questions until the proposal is fully explained.",
+      "B": "Ask the technician to summarize the proposal in one sentence so the meeting can move to other agenda items.",
+      "C": "Redirect the skeptical staff members to write down their objections privately and submit them after the meeting.",
+      "D": "Interrupt the technician periodically to explain how the current protocol already addresses her concerns."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Restating the technician's key points shows active listening and encouragement, which invites her to continue while giving the facilitator a controlled way to manage the skeptical staff by asking them to hold questions instead of interrupting. B is incorrect because asking the technician to compress her proposal into one sentence discourages her rather than encourages her, and it does not address the room's skepticism. C is incorrect because it offers no encouragement to the presenter in the moment and delays feedback in a way that does not support her while she is speaking. D is incorrect because interrupting a nervous presenter, even to reassure her, cuts off her train of thought and can feel dismissive rather than supportive.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0068",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Employ communication styles appropriate to target audience",
+    "question": "A regional sales rep for SunArc Solar prepares two versions of the same proposal: one for a homeowner deciding whether to add panels to a single house, and one for a facilities manager evaluating panels for a chain of six warehouses. The homeowner version emphasizes monthly savings and environmental impact in plain language, while the warehouse version leads with return-on-investment tables and maintenance contract terms. This difference illustrates the rep's understanding that effective communication should be adapted based on the audience's",
+    "options": {
+      "A": "availability during business hours.",
+      "B": "decision-making priorities and technical familiarity.",
+      "C": "preference for print versus digital documents.",
+      "D": "location relative to the company's regional office."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Adapting the level of detail and areas of emphasis based on what matters most to each audience, savings and simplicity for the homeowner, ROI and maintenance terms for the facilities manager, reflects the decision-making priorities and technical background of each audience. A is incorrect because scheduling availability has nothing to do with why the rep changed the proposal's content and emphasis. C is incorrect because the scenario describes no difference in print versus digital formatting, only in content and framing. D is incorrect because the audiences' locations relative to the office are irrelevant to how the proposal's content was adapted.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0069",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Edit and revise written work consistent with professional standards",
+    "question": "Deshawn drafts an email to a distributor announcing Hollow Oak Brewing's new seasonal lineup. His first draft contains several run-on sentences, inconsistent capitalization of beer names, and an abrupt shift from a casual tone in the opening paragraph to a formal tone in the closing paragraph. Before sending the email, Deshawn should revise it primarily to",
+    "options": {
+      "A": "shorten the email so the distributor can read it on a mobile device.",
+      "B": "add more descriptive adjectives so the beers sound more appealing.",
+      "C": "correct the technical errors and make the tone consistent throughout.",
+      "D": "remove all industry terminology so any reader can understand it."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Editing and revising for professional standards means fixing grammatical errors like run-on sentences and inconsistent capitalization, and ensuring the tone remains consistent from beginning to end, since a shift from casual to formal reads as unprofessional and confusing. A is incorrect because shortening the email addresses length, not the specific technical and tonal errors described. B is incorrect because adding more adjectives could make the email less professional and does not fix the identified problems. D is incorrect because removing all industry terminology is unnecessary for a distributor familiar with the beer industry and does not address the actual errors in the draft.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0070",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Write persuasive messages",
+    "question": "Priya is writing a letter to persuade a growing tech startup to order custom standing desks from her workshop instead of a mass-market supplier. Which opening line would BEST capture the reader's attention before Priya introduces pricing and delivery details?",
+    "options": {
+      "A": "Attached you will find our current price list for standing desks, accessories, and our volume discount tiers.",
+      "B": "Our workshop has built custom furniture for offices in this city for eleven years, one commission at a time.",
+      "C": "We would welcome the chance to bid on your office furniture order whenever your team is ready to compare quotes.",
+      "D": "Imagine every employee adjusting their desk to the exact height that keeps them focused and pain-free."
+    },
+    "answer": "D",
+    "explanation": "D is correct. A persuasive message should open with an attention-getting statement, and painting a vivid picture of employees comfortably adjusting their own desks appeals to the reader's interest before Priya introduces pricing and delivery information. A is incorrect because opening with an attached price list leads with the very detail Priya means to introduce later and gives the reader no reason to keep reading. B is incorrect because eleven years in business is a credibility claim, which supports a persuasive message once interest exists but does not create that interest on the first line. C is incorrect because asking for the chance to bid is a call to action, and a persuasive message places the request at the end, after attention and interest have been built, not at the start.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0071",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Explain how digital communications expose business to risk",
+    "question": "An office coordinator at ClearPath Telehealth sends a mass email reminding patients about upcoming video appointments. She enters all 40 patient email addresses in the \"To\" field instead of the \"Bcc\" field. What risk has this practice most directly created for the business?",
+    "options": {
+      "A": "Exposure of confidential patient information to unintended recipients.",
+      "B": "An increase in reply-all traffic among the forty recipients.",
+      "C": "A higher chance the reminder lands in patients' spam folders given the recipient count.",
+      "D": "Reduced formatting quality of the reminder message."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Placing all patient addresses in the visible 'To' field allows every recipient to see every other patient's email address, exposing confidential health-related contact information to people who should not have access to it. B is incorrect because reply-all traffic is a nuisance that follows from the same mistake, not the risk the business faces: the exposure happens the moment the message is sent, whether or not anyone replies. C is incorrect because delivery filtering is a deliverability concern rather than a risk to the business, and moving the addresses to the Bcc field would not change how many recipients the message carries. D is incorrect because the formatting of the message is unaffected by which field the addresses are placed in; the issue is exposure of information, not appearance.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0072",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Communication Skills",
+    "performanceIndicator": "Choose and use appropriate channel for workplace communication",
+    "question": "The operations manager at UrbanRoll E-Bikes discovers that a batch of rental bikes has a faulty brake cable that could fail during use. Field mechanics are currently spread across twelve rental kiosks throughout the city. Which channel should the manager use to communicate this issue?",
+    "options": {
+      "A": "A note in the quarterly fleet-maintenance newsletter that mechanics read at each quarter's end",
+      "B": "An immediate phone call or text alert to each mechanic requiring the bikes to be pulled from service.",
+      "C": "A comment card left in the suggestion box for the maintenance lead's weekly review",
+      "D": "A public social media post telling riders that a brake-cable issue has been found and is being addressed"
+    },
+    "answer": "B",
+    "explanation": "B is correct. A safety issue that could cause an accident requires an immediate, direct channel that mechanics will see or hear right away, such as a phone call or text, so bikes can be pulled from service before anyone is injured. A is incorrect because a quarterly newsletter is a scheduled, low-urgency channel; the bikes would stay in service for weeks before the notice reached the mechanics who must pull them. C is incorrect because a suggestion box carries messages upward from staff at whatever pace they are read, which is the wrong direction and the wrong speed for an instruction the manager needs carried out at twelve kiosks today. D is incorrect because a social media post reaches riders rather than the mechanics who must act, and announcing an unresolved brake fault publicly warns the public without pulling a single bike from service.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0073",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Recognize and overcome biases/stereotypes",
+    "question": "While reviewing resumes for a supply-chain analyst position at Meridian Aerospace Components, a hiring manager notices an applicant who graduated from college thirty years ago and assumes she will struggle with the company's new inventory software before even reviewing her technical skills listed on the resume. To overcome this bias, the hiring manager should",
+    "options": {
+      "A": "require the applicant to pass an inventory software skills test that no other candidate for the analyst job is asked to complete",
+      "B": "pass the file to a colleague closer to the applicant's own age and let them decide",
+      "C": "evaluate the applicant's listed technical qualifications against the job requirements before forming an opinion.",
+      "D": "ask the applicant for her graduation year and a fuller work history before any of the technical skills on her resume are reviewed"
+    },
+    "answer": "C",
+    "explanation": "C is correct. Overcoming a bias requires setting aside the initial assumption and instead evaluating the applicant's actual, documented qualifications against what the job requires. A is incorrect because a skills test given to this applicant alone builds the assumption into the process rather than removing it; it demands that she disprove a doubt no other candidate has to answer. B is incorrect because handing the file to someone else leaves the manager's assumption intact and unexamined, and it screens by the reviewer's age rather than by the applicant's qualifications. D is incorrect because asking for a graduation year and a longer history returns to the same age cue that produced the assumption, when the resume already lists the technical skills the manager has not yet read.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0074",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Develop tolerance for ambiguity",
+    "question": "A route coordinator for a new drone delivery pilot program at SkyDrop Logistics is frustrated because federal regulations for the service are still being finalized and could change month to month, leaving her unsure how to plan future routes. Which response would best demonstrate a tolerance for ambiguity?",
+    "options": {
+      "A": "Holding off on all route planning until the federal regulations have been finalized and published in full.",
+      "B": "Escalating the uncertainty to a supervisor and asking to be moved to a program with settled regulations.",
+      "C": "Locking in a single fixed route plan now and filing it for approval before the pending rules are settled.",
+      "D": "Developing flexible route plans that can be adjusted as new regulatory information becomes available."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Tolerance for ambiguity means being able to function effectively despite uncertainty, which the coordinator demonstrates by building flexibility into her plans so they can be adjusted as regulations evolve. A is incorrect because waiting for certainty that may be months away lets the uncertainty stop the work; the pilot program needs routes planned during the period when the rules are still moving. B is incorrect because asking to move to a settled program removes the coordinator from the ambiguity rather than showing she can work inside it. C is incorrect because committing to one rigid plan treats the unsettled rules as though they were final, so the first regulatory change invalidates the filing and the coordinator is no better prepared than before.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0075",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use conflict-resolution skills",
+    "question": "Two assistant managers at Ascent Climbing Gym disagree about whether to schedule a popular youth class during the same time slot as adult open-climb hours, a change that would affect both revenue and long-standing member routines. Before proposing a compromise, the general manager should first",
+    "options": {
+      "A": "have each assistant manager explain the reasoning and evidence behind their position without interruption.",
+      "B": "adopt the position of whichever manager oversees the program that brings in more monthly revenue",
+      "C": "cancel the youth class for the season so the adult open-climb hours stay undisturbed",
+      "D": "poll members at the front desk and follow whichever schedule option draws more votes"
+    },
+    "answer": "A",
+    "explanation": "A is correct. Effective conflict resolution begins with fully understanding each side's reasoning and supporting evidence before attempting to find common ground or propose a compromise. B is incorrect because deciding by which manager's program earns more revenue settles the dispute on a single metric without ever hearing why either manager holds their position, and revenue is one of the two interests in tension, not a tiebreaker above them. C is incorrect because canceling the youth class resolves nothing; it imposes one side's outcome before either argument has been heard and discards the revenue the class was scheduled to bring in. D is incorrect because a front-desk poll hands the decision to members who have not heard either manager's reasoning, substituting a headcount for the understanding the general manager needs before proposing a compromise.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0076",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Overcome office politics/turf wars",
+    "question": "At Larkspur Boutique Hotels, the marketing department and the guest-experience department both claim ownership over planning the annual guest-appreciation event, and each has quietly lobbied executives to fund their own version of the event. What should an employee caught between the two departments do to avoid contributing to this turf war?",
+    "options": {
+      "A": "Support whichever department offers a more senior position in exchange for loyalty.",
+      "B": "Focus discussions on the shared goal of guest satisfaction rather than which department gets credit.",
+      "C": "Avoid working with either department until executives make a final decision.",
+      "D": "Privately encourage each department to criticize the other's proposal to executives."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Overcoming office politics and turf wars requires focusing on shared organizational goals, such as guest satisfaction, rather than which department receives credit for the event. A is incorrect because trading support for a promised position is itself a political maneuver that deepens the turf war rather than overcoming it. C is incorrect because refusing to work with either department stalls progress on a goal that benefits the whole hotel group and does not resolve the underlying rivalry. D is incorrect because encouraging each department to criticize the other actively fuels the turf war instead of overcoming it.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0077",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Use power appropriately",
+    "question": "Marcus was recently promoted to shift lead at Cocoa Bloom Chocolatiers. On his first day in the new role, he tells his former peers that he expects them to redo the display cases his way and mentions that he now has the authority to adjust their schedules if they resist. Which statement best evaluates Marcus's use of power?",
+    "options": {
+      "A": "Marcus is using power appropriately because the authority to adjust schedules came with the shift-lead role the company gave him",
+      "B": "Marcus is using power inappropriately because a shift lead lacks the standing to change a coworker's schedule",
+      "C": "Marcus is using power inappropriately because he is leveraging authority to demand compliance rather than earn cooperation.",
+      "D": "Marcus is using power inappropriately because he addressed the whole team at once instead of each peer privately"
+    },
+    "answer": "C",
+    "explanation": "C is correct. Using power appropriately means earning cooperation through leadership rather than relying on the threat of authority, such as schedule changes, to force compliance from former peers. A is incorrect because holding an authority and using it well are different questions; the shift-lead role does carry scheduling power, and invoking it as leverage over an unrelated dispute about display cases is what makes its use inappropriate. B is incorrect on the facts, since a shift lead does have the standing to set schedules; the problem is not that Marcus lacks the power but that he is wielding it as a threat. D is incorrect because the flaw is not the setting in which Marcus spoke; delivering the same threat to each former peer privately would be no more appropriate than delivering it to the group.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0078",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Emotional Intelligence",
+    "performanceIndicator": "Assess long-term impact on others",
+    "question": "The operations director at GreenSpire Vertical Farms is considering automating the lettuce-harvesting line, which would reduce labor costs immediately but would also eliminate the seasonal positions that many local students rely on for summer income. Before making the decision, the director should primarily consider",
+    "options": {
+      "A": "whether the harvesting equipment can be installed and calibrated before the next growing season begins.",
+      "B": "whether other vertical farms in the region have already automated their lettuce-harvesting lines.",
+      "C": "whether the labor savings will show up in the company's earnings report for the next quarter.",
+      "D": "how eliminating the seasonal positions will affect the community and workers over time."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Assessing long-term impact on others means weighing how a decision, such as automation, will affect the community and workers over time, not just its immediate financial benefit. A is incorrect because installation timing is a question of how to carry the decision out, not of whom it lands on; the schedule would be the same whether or not anyone's job depended on it. B is incorrect because what other farms have done tells the director about competitive pressure, not about what this change will mean for the students who count on the seasonal work. C is incorrect because a single quarter's earnings capture the immediate labor savings and none of the lasting effects on the workers and the town, which is exactly the horizon the director is being asked to look past.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0079",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Monitor projects/correct actions",
+    "question": "Halfway through building a new location for Vantage Escape Rooms, the project manager notices that the electrical subcontractor is three weeks behind schedule, which threatens the venue's planned opening date. According to project-management principles, what should the project manager do first upon discovering this deviation?",
+    "options": {
+      "A": "Determine the cause of the delay and adjust the remaining project plan to address it.",
+      "B": "Replace the electrical subcontractor with another firm before looking into what caused the three-week slip.",
+      "C": "Push the venue's opening date back three weeks and let the remaining trades keep their current schedule.",
+      "D": "Wait until the next scheduled project review to address the issue."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Monitoring a project means comparing actual progress to the plan, and when a deviation like a schedule delay is found, the project manager must identify its cause and adjust the plan accordingly to correct the course. B is incorrect because swapping firms before the cause is known risks paying for a change that fixes nothing: if the slip came from late permits or a design conflict, a new subcontractor inherits the same obstacle and loses more time coming up to speed. C is incorrect because absorbing the delay into the opening date accepts the deviation instead of correcting it, and leaving the other trades on their original schedule leaves the sequencing problem that caused the slip untouched. D is incorrect because waiting for a scheduled review delays a necessary correction and could allow the delay to worsen and further threaten the opening date.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0080",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Manage bid process",
+    "question": "BrightSmile Orthodontic Group is collecting bids from three imaging-equipment vendors for a new 3D scanner. One vendor submitted the lowest price but included vague language about warranty coverage and installation timelines. In managing this bid process, the practice manager should",
+    "options": {
+      "A": "award the contract to the lowest bidder now and settle the warranty and installation terms afterward.",
+      "B": "request written clarification of warranty and installation terms before comparing bids.",
+      "C": "eliminate the vendor from consideration without further discussion.",
+      "D": "average the three vendors' prices to determine a fair contract amount."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Managing a bid process well means clarifying ambiguous or incomplete terms, such as vague warranty and installation language, before comparing bids so the practice can make a fully informed decision. A is incorrect because signing first and settling the warranty and installation terms later surrenders the practice's leverage: once the contract is awarded, the vendor has no reason to define the vague terms favorably, and the lowest price may stop being the lowest total cost. C is incorrect because eliminating the vendor without seeking clarification could cause the practice to lose out on the best overall value if the terms turn out to be reasonable once clarified. D is incorrect because averaging the bid prices is not a legitimate way to manage a bid process and does not address the specific ambiguity in one vendor's proposal.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0081",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Evaluate vendor performance",
+    "question": "Over the past two quarters, Reef & Ripple Aquatics has received live coral shipments from one supplier that consistently arrive a day later than promised, though the coral itself has always arrived healthy and correctly packaged. When evaluating this vendor's overall performance, the store manager should weigh the",
+    "options": {
+      "A": "discount the supplier offers on bulk coral orders against the markup the store applies at resale.",
+      "B": "supplier's trade-magazine advertising against that of rival coral wholesalers.",
+      "C": "delivery timeliness against the consistent quality and accuracy of each shipment.",
+      "D": "supplier's invoice format against the store's accounting software requirements."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Evaluating vendor performance means weighing the vendor's actual results across every factor that matters, so a shortfall on delivery timeliness has to be judged against the vendor's consistent record on quality and packaging accuracy rather than treated as the whole picture. A is incorrect because a bulk discount and the store's own retail markup are pricing decisions, and the markup is set by the store itself; neither measures how the supplier performed on the shipments described. B is incorrect because how heavily a supplier advertises to the trade says nothing about whether it delivers healthy coral on schedule, which is what the manager is evaluating. D is incorrect because invoice formatting is an administrative convenience for the store's bookkeeping, unrelated to the delivery and quality record at issue.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0082",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Resolve supplier quality issues",
+    "question": "Heartwood Furniture Co. has received three consecutive lumber shipments from a supplier with moisture content above the workshop's specification, causing several finished tabletops to warp after delivery to customers. What is the most appropriate first step for Heartwood to take in resolving this supplier quality issue?",
+    "options": {
+      "A": "Rewrite the workshop's moisture specification to match what the supplier has been shipping",
+      "B": "Kiln-dry every incoming board in the workshop and bill the added drying labor to the customers who order the tables",
+      "C": "Source the next lumber order from a different mill and let the current supplier's contract lapse without comment",
+      "D": "Notify the supplier of the specification breach and request corrective action before the next shipment."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Resolving a supplier quality issue starts with communicating the specific problem to the supplier and requesting corrective action so future shipments meet specification, preserving the business relationship while solving the root cause. A is incorrect because loosening the specification to match the shipments abandons the standard the tabletops actually require; the moisture limit exists because wood above it warps, and rewriting it changes the paperwork rather than the wood. B is incorrect because drying the boards in-house treats the symptom at Heartwood's cost and passes that cost to customers, leaving the supplier free to keep shipping out-of-spec lumber. C is incorrect because switching mills without ever raising the issue forfeits the chance for the current supplier to correct a defect it may not know about, and Heartwood would carry the switching cost with no assurance the new mill meets the spec.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0083",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Streamline work processes",
+    "question": "Dispatchers at ShineOnWheels Mobile Detailing currently assign each detailer's daily jobs one at a time throughout the day, requiring detailers to call in after each job before receiving their next assignment. This creates long gaps between jobs. Which change would most directly streamline this work process?",
+    "options": {
+      "A": "Assigning each detailer a full day's route in advance, grouped by neighborhood.",
+      "B": "Requiring detailers to purchase their own cleaning supplies before each shift.",
+      "C": "Increasing the price charged for each detailing service.",
+      "D": "Adding a customer satisfaction survey after each completed job."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Streamlining the process by assigning a full day's route in advance, grouped by neighborhood, removes the repeated call-in step and the gaps it creates between jobs. B is incorrect because requiring detailers to purchase their own supplies does not address the scheduling inefficiency described. C is incorrect because raising prices affects revenue, not the workflow gaps caused by the current dispatch method. D is incorrect because adding a customer survey affects feedback collection, not the streamlining of the daily job-assignment process.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0084",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Operations",
+    "performanceIndicator": "Explain supply-chain collaboration",
+    "question": "Several small dairies that supply milk to Ridgeline Cheese Cooperative agree to share their monthly production forecasts with the cooperative's buyers, and the cooperative in turn shares its anticipated order volumes with the dairies. This exchange of information between supply-chain partners is intended primarily to",
+    "options": {
+      "A": "reduce the amount of milk each dairy is required to produce.",
+      "B": "help both parties anticipate needs and reduce shortages or surpluses.",
+      "C": "eliminate the need for formal purchase contracts between the parties.",
+      "D": "allow the cooperative to set the dairies' retail milk prices."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Supply-chain collaboration, such as sharing production forecasts and anticipated order volumes, helps both the dairies and the cooperative plan ahead so that shortages and surpluses are less likely to occur. A is incorrect because sharing forecasts does not reduce how much milk a dairy is required to produce; it simply informs planning. C is incorrect because sharing information does not eliminate the need for formal purchase contracts, which still govern the terms of the relationship. D is incorrect because sharing forecast data does not give the cooperative authority to set the dairies' retail prices.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0085",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Ascertain employee role in goals",
+    "question": "Alta Ridge Ski Resort sets a company-wide goal of reducing snowmaking water usage by 15% this season. A groomer named Iris wonders how her daily trail-grooming duties, which do not involve snowmaking equipment, relate to this goal. To ascertain her role, Iris should",
+    "options": {
+      "A": "treat the target as the snowmaking department's responsibility and continue grooming exactly as she has in past seasons",
+      "B": "ask to be reassigned to the snowmaking crew for the season so that her hours count toward the water-reduction target",
+      "C": "ask her supervisor how grooming practices, such as minimizing snow displacement, support the water-reduction goal.",
+      "D": "wait for the resort's end-of-season water report to learn whether her grooming decisions turned out to matter to the target"
+    },
+    "answer": "C",
+    "explanation": "C is correct. Ascertaining her role in the company's goal means asking how her specific duties, such as grooming practices that affect snow displacement, connect to the broader water-reduction target. A is incorrect because assigning the goal to the snowmaking department and grooming as before assumes her work is unrelated, which is the very question she has not yet answered; grooming affects how far the snow that was made has to go. B is incorrect because a transfer would move her out of the role whose contribution she set out to understand, and a company-wide goal is meant to be met from each existing position rather than by relocating staff to one department. D is incorrect because an end-of-season report arrives after every grooming decision has been made, so it cannot guide the work while the goal is still in play.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0086",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain innovation skills",
+    "question": "The owner of Rook & Pawn Board Game Cafe asks staff to brainstorm ways to increase slow Tuesday-night traffic. One employee suggests a themed trivia night using games already in the cafe's library, requiring no new inventory purchases. This suggestion best demonstrates innovation because it",
+    "options": {
+      "A": "repeats a trivia promotion a competing cafe already runs downtown.",
+      "B": "commits the largest budget the cafe can spare to one event.",
+      "C": "lowers Tuesday prices to pull customers away from other nights.",
+      "D": "creates new value from existing resources in a way the cafe had not tried before."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Innovation involves creating new value using resources the business already has, and using the cafe's existing game library for a new trivia concept does exactly that without requiring new inventory. A is incorrect because reproducing a promotion a competitor already runs is imitation; the value it creates was invented elsewhere, and the cafe's own idea is what makes the trivia night innovative. B is incorrect because innovation is not measured by what an idea costs, and this suggestion is notable for the opposite reason: it spends nothing new. C is incorrect because a Tuesday discount is a routine pricing tactic that moves existing customers between nights rather than creating new value from what the cafe owns.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0087",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Demonstrate problem-solving",
+    "question": "TrueStride Prosthetics has noticed that 1 in 10 shipped devices arrives with a cracked casing, but the cause has not yet been identified. Which approach demonstrates the most effective problem-solving process for the operations team?",
+    "options": {
+      "A": "Gathering data on packaging materials, handling steps, and carrier routes before identifying likely causes.",
+      "B": "Immediately switching to a different shipping carrier without reviewing current packaging methods.",
+      "C": "Requiring customers to inspect devices before signing for delivery.",
+      "D": "Increasing the price of each device to cover the cost of damaged returns."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Effective problem-solving begins with gathering relevant data, such as reviewing packaging, handling procedures, and shipping routes, to identify the likely cause before taking corrective action. B is incorrect because switching carriers without first reviewing current packaging skips the data-gathering step and may not fix the actual cause of the damage. C is incorrect because shifting inspection responsibility to customers does not solve the underlying cause of the cracked casings. D is incorrect because raising prices addresses cost, not the identification and resolution of the actual problem.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0088",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Use time management",
+    "question": "Talia, an event planner at Ever After Events, is coordinating three weddings scheduled for the same weekend. She lists every task for all three events, estimates how long each will take, and schedules the most time-sensitive tasks, like final vendor confirmations, earlier in the week. This approach demonstrates effective time management primarily because Talia",
+    "options": {
+      "A": "delegates every task to her assistants regardless of urgency.",
+      "B": "prioritizes tasks based on urgency and plans her week around deadlines.",
+      "C": "schedules identical amounts of time for every task on her list.",
+      "D": "completes tasks in the order the clients originally requested them."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Effective time management involves prioritizing tasks by urgency and deadline, which Talia demonstrates by scheduling the most time-sensitive tasks earlier in the week. A is incorrect because delegating every task regardless of urgency does not reflect a prioritization strategy and could overload assistants with low-priority work. C is incorrect because scheduling identical time for every task ignores the fact that tasks vary in urgency and complexity. D is incorrect because completing tasks strictly in the order clients requested them, rather than by deadline or urgency, does not reflect sound time-management practice.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0089",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Professional Development",
+    "performanceIndicator": "Explain advancement patterns",
+    "question": "At Iron Crane Martial Arts, most regional managers began as part-time instructors, then became head instructors at a single location, and later managed multiple locations before being promoted to regional manager. A new part-time instructor asking about her long-term career path within the company is asking about the studio's",
+    "options": {
+      "A": "compensation structure.",
+      "B": "code of conduct.",
+      "C": "typical advancement pattern.",
+      "D": "customer retention policy."
+    },
+    "answer": "C",
+    "explanation": "C is correct. A typical advancement pattern describes the usual sequence of positions employees move through over time, such as part-time instructor to head instructor to multi-location manager to regional manager. A is incorrect because compensation structure describes pay levels, not the sequence of positions leading to promotion. B is incorrect because a code of conduct outlines expected behavior, not a path for career progression. D is incorrect because customer retention policy addresses how the business keeps customers, not how employees advance within the company.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0090",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Describe legal issues affecting businesses",
+    "question": "ClearPath Telehealth wants to expand its therapy services so that counselors licensed in one state can see patients located in a neighboring state where the counselor is not licensed. Which legal issue is most directly raised by this expansion plan?",
+    "options": {
+      "A": "Antitrust concerns related to reduced competition among counselors.",
+      "B": "Zoning restrictions on where counseling offices may be located.",
+      "C": "Environmental regulations governing telehealth data centers.",
+      "D": "Professional licensing requirements that vary by state jurisdiction."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Because professional licensing for counselors is typically granted and regulated on a state-by-state basis, a counselor treating patients across a state line where they are not licensed raises a direct legal issue for the business. A is incorrect because antitrust law concerns unfair restraints on competition, not licensing across state lines. B is incorrect because zoning law governs how physical property may be used, which is not implicated by a telehealth session occurring across a state boundary. C is incorrect because environmental regulations concern the physical environment, which is unrelated to a counselor's professional licensure.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0091",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Identify the basic torts relating to business enterprises",
+    "question": "AeroView Drone Photography discovers that a competitor has posted several online reviews, under fake customer names, falsely claiming that AeroView's drones have crashed into private property multiple times, statements the competitor knows to be untrue. If AeroView pursues legal action, which tort would it most likely claim?",
+    "options": {
+      "A": "Defamation, because the competitor made false statements that damage AeroView's reputation.",
+      "B": "Conversion, because the competitor took over AeroView's customer accounts and treated them as its own.",
+      "C": "Appropriation, because the competitor used AeroView's logo in its own advertising to imply an endorsement.",
+      "D": "Wrongful interference, because the competitor approached AeroView's clients to persuade them to break their contracts."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Defamation is the tort of making false statements of fact that damage a person's or business's reputation, which is exactly what the competitor did by posting fabricated crash reports under fake customer names, knowing them to be untrue. B is incorrect because conversion requires taking possession of property belonging to another, and the competitor took nothing from AeroView; it published words about AeroView. C is incorrect because appropriation involves trading on another party's name or likeness to promote oneself, and the competitor did not present AeroView as endorsing it; the reviews were designed to drive customers away from AeroView. D is incorrect because wrongful interference requires the competitor to have acted on AeroView's existing customer or contract relationships directly, whereas the false reviews were posted publicly for any reader to find.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0092",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Discuss the nature of debtor-creditor relationships",
+    "question": "Whistlestop Hobby Shop allows a longtime customer to pay for a large model-train layout in monthly installments without requiring any collateral. Several months later, the customer stops making payments. Because the shop did not secure the debt with collateral, the shop is now acting as a(n)",
+    "options": {
+      "A": "secured creditor whose claim on the model-train layout takes priority over the customer's other debts.",
+      "B": "unsecured creditor with a general claim against the customer's assets.",
+      "C": "debtor obligated to keep supplying the rest of the layout until the customer resumes payment.",
+      "D": "guarantor that has agreed to answer for the customer's obligations to other lenders."
+    },
+    "answer": "B",
+    "explanation": "B is correct. Because the shop extended credit without requiring collateral, it has no specific property to claim and must stand with the customer's other general creditors, making it an unsecured creditor with a general claim against the customer's assets. A is incorrect because a secured creditor's priority comes from collateral pledged at the time credit is extended, and the shop deliberately required none, so it holds no claim on the layout ahead of anyone else. C is incorrect because the shop is the party owed money and is therefore the creditor, not the debtor; the customer owes the shop, not the reverse. D is incorrect because a guarantor is a third party who promises to pay someone else's debt if the borrower does not, and the shop extended this credit on its own account rather than backing an obligation the customer owed to another lender.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0093",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Business Law",
+    "performanceIndicator": "Explain the nature of agency relationships",
+    "question": "BondTech Adhesives hires an independent sales representative to negotiate supply contracts with distributors on the company's behalf. When the representative signs a contract within the scope of authority BondTech granted, the company is bound by the agreement because the representative is acting as BondTech's",
+    "options": {
+      "A": "independent contractor, which removes BondTech from any liability.",
+      "B": "creditor, which limits BondTech's exposure to the contract terms.",
+      "C": "agent, whose authorized actions legally bind the principal.",
+      "D": "guarantor, who assumes personal responsibility for the contract."
+    },
+    "answer": "C",
+    "explanation": "C is correct. An agency relationship exists when one party (the agent) is authorized to act on behalf of another (the principal), and actions taken within that authority, like signing a contract, legally bind the principal. A is incorrect because being labeled an independent contractor does not remove liability when the person is also acting with granted authority to bind the company in contracts. B is incorrect because a creditor is a party owed money, which does not describe the sales representative's role in this scenario. D is incorrect because a guarantor personally assumes responsibility for a debt, which is not the role the representative is playing when negotiating contracts on BondTech's behalf.",
+    "difficulty": "medium",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0094",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Explain buying behavior factors",
+    "question": "When choosing a pet sitter through the PawPause app, most users report that they rely heavily on other pet owners' written reviews and star ratings rather than the sitter's own self-description. This buying behavior is most strongly influenced by",
+    "options": {
+      "A": "economic factors, such as the sitter's hourly rate.",
+      "B": "situational factors, such as how soon the sitting is needed.",
+      "C": "personal factors, such as the pet owner's age.",
+      "D": "social factors, such as the opinions of other consumers."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Relying on other pet owners' reviews and ratings reflects the influence of social factors, since buying decisions are being shaped by the opinions and experiences of other consumers. A is incorrect because the scenario describes reliance on reviews, not on price comparisons, which would reflect economic factors. B is incorrect because situational factors involve circumstances like timing, not the influence of other people's opinions. C is incorrect because personal factors such as age are not what the scenario describes as driving the buying behavior.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0095",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Discuss employee actions that achieve company results",
+    "question": "A tour guide at Rapid Current Kayak Tours notices that a client is disappointed because rain has shortened the planned route. Without being asked, the guide offers a complimentary gear rental voucher for a future trip and personally follows up by phone the next week to see if the client would like to rebook. This employee's actions primarily achieve company results by",
+    "options": {
+      "A": "turning a dissatisfied customer into one likely to return and recommend the company.",
+      "B": "reducing the number of tours the company needs to schedule each week.",
+      "C": "lowering the company's insurance premiums by settling weather complaints before they become claims.",
+      "D": "eliminating the need for the company to advertise to new customers."
+    },
+    "answer": "A",
+    "explanation": "A is correct. Proactively addressing the client's disappointment and following up personally builds goodwill that increases the likelihood the client will return and recommend the company to others, directly achieving company results through customer retention and referrals. B is incorrect because the guide's actions do not reduce the number of tours the company schedules; they aim to retain a customer. C is incorrect because a shortened route in the rain is a disappointment, not an insurable loss, so there was no claim for the voucher to head off and nothing here that an insurer would price. D is incorrect because building loyalty with one customer does not eliminate the company's need to advertise to attract new customers.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0096",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Marketing",
+    "performanceIndicator": "Demonstrate connections between company actions and results",
+    "question": "After Summit Roasters invested in additional brewing-technique training for its cafe baristas, the company tracked a rise in average customer satisfaction scores and a decrease in drink remakes over the following quarter. This outcome best demonstrates the connection between",
+    "options": {
+      "A": "the roaster's coffee bean sourcing and its shipping costs.",
+      "B": "an investment in employee training and measurable business results.",
+      "C": "the cafe's seating capacity and its lease renewal terms.",
+      "D": "the roaster's social media following and its roasting equipment budget."
+    },
+    "answer": "B",
+    "explanation": "B is correct. The rise in satisfaction scores and drop in remakes following the training investment directly demonstrates how a company action, investing in employee training, produces measurable business results. A is incorrect because bean sourcing and shipping costs are not the actions or results described in the scenario. C is incorrect because seating capacity and lease terms are unrelated to the training investment described. D is incorrect because social media following and equipment budget are not the company action or result being connected in this example.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0097",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Explain ethics in HR",
+    "question": "An HR coordinator at Second Chance Thrift, a nonprofit that intentionally hires people with past convictions, reviews a background check that reveals an applicant's decade-old, non-violent conviction that is unrelated to the cash-handling duties of the job. Ethical HR practice requires the coordinator to",
+    "options": {
+      "A": "treat the background check as disqualifying on its own, without weighing the record against the job's duties.",
+      "B": "share the applicant's conviction details with other staff to gauge their opinions.",
+      "C": "evaluate whether the conviction is relevant to the specific job duties before making a decision.",
+      "D": "offer the applicant a lower starting wage because of the conviction."
+    },
+    "answer": "C",
+    "explanation": "C is correct. Ethical HR practice requires evaluating whether a conviction is actually relevant to the specific duties of the job before making an employment decision, especially at an organization whose mission includes hiring people with records. A is incorrect because letting the existence of a record end the review skips the judgment ethical practice requires: a decade-old, non-violent offense unrelated to handling cash has no bearing on the applicant's ability to do this job, and screening it out unexamined also defeats the nonprofit's stated mission. B is incorrect because sharing an applicant's confidential background-check details with other staff violates the applicant's privacy and confidentiality. D is incorrect because reducing pay based on a past conviction unrelated to job duties is discriminatory and not an ethical HR practice.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0098",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Human Resources Management",
+    "performanceIndicator": "Orient new employees",
+    "question": "Nomad Bites Food Truck Collective hires a new truck operator during its busiest festival season. Eager to get the truck serving customers, the general manager skips formal orientation and has the new operator shadow another truck for one shift before working independently. What is the most likely long-term consequence of skipping a complete orientation?",
+    "options": {
+      "A": "The operator will need less day-to-day supervision than staff who sat through a full orientation.",
+      "B": "The operator will reach full serving speed sooner than a peer who spent a day in orientation.",
+      "C": "The collective will hold down its labor costs for the rest of the festival season by skipping training hours.",
+      "D": "The operator may misunderstand key policies and procedures, leading to avoidable mistakes."
+    },
+    "answer": "D",
+    "explanation": "D is correct. Skipping a complete orientation increases the likelihood that the new operator will not fully understand key policies and procedures, which can lead to avoidable mistakes on the job. A is incorrect because it reverses the effect: an operator who never learned the collective's procedures has to ask or be corrected more often, so the supervision the manager skipped at the start comes back as supervision on every shift. B is incorrect because one shift of shadowing teaches the motions of the job but not the standards behind them, and speed built on a shaky understanding of procedure is what produces the mistakes the question asks about. C is incorrect because the hours saved are a one-time, short-term saving during the busy season, while the question asks for the likely long-term consequence, and errors made by an unoriented operator cost more than the training time avoided.",
+    "difficulty": "easy",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0099",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Explain risk management",
+    "question": "Ascent Climbing Gym requires every member to sign a liability waiver, purchases general liability insurance, and also requires staff to complete safety-certification training before supervising the climbing walls. Requiring the liability waiver and purchasing insurance are examples of which risk-management approach, compared to the staff training requirement?",
+    "options": {
+      "A": "Transferring risk to another party, rather than reducing the likelihood of an incident occurring.",
+      "B": "Avoiding the risk altogether, rather than accepting that some incidents come with operating a climbing gym.",
+      "C": "Retaining the risk internally, rather than reducing the chance that an incident happens in the first place.",
+      "D": "Preventing incidents at their source, rather than paying to repair the harm after one has occurred."
+    },
+    "answer": "A",
+    "explanation": "A is correct. A waiver shifts the consequences of an injury onto the member, and insurance shifts them onto the insurer; both move the cost of an incident to another party without making an incident any less likely, which is precisely what the safety-certification training does instead. B is incorrect because avoidance means not engaging in the risky activity at all, and Ascent keeps its climbing walls open and its members on them. C is incorrect because retaining a risk means absorbing the loss out of the gym's own pocket, which is the opposite of buying insurance and requiring waivers to place that loss elsewhere. D is incorrect because waivers and insurance do nothing to stop a fall from happening; prevention is the role of the staff training the question asks you to contrast them against.",
+    "difficulty": "hard",
+    "verified": true
+  },
+  {
+    "id": "mkt-icdc-2-0100",
+    "cluster": "marketing",
+    "level": "ICDC",
+    "instructionalArea": "Strategic Management",
+    "performanceIndicator": "Conduct risk assessment of an event",
+    "question": "Ever After Events is planning an outdoor corporate picnic that includes a bonfire, and the weather forecast shows a 40% chance of high winds that day. Before finalizing the event plan, the planner should conduct a risk assessment primarily to",
+    "options": {
+      "A": "confirm the final guest count so the caterer can be given an accurate headcount for the picnic",
+      "B": "evaluate the likelihood and potential impact of the wind hazard on the bonfire activity.",
+      "C": "compare the catering bids and pick the vendor best suited to an outdoor menu",
+      "D": "calculate the venue rental cost and confirm it fits the client's event budget"
+    },
+    "answer": "B",
+    "explanation": "B is correct. Conducting a risk assessment means evaluating how likely a hazard, such as high winds affecting an open flame, is to occur and how serious its potential impact would be, so the planner can decide whether to adjust or cancel the bonfire activity. A is incorrect because confirming a headcount for the caterer is an attendance and logistics task; it tells the planner how many people to feed, not how likely the forecast winds are to make the bonfire unsafe. C is incorrect because choosing among catering bids is a vendor-selection decision that would proceed the same way whatever the wind forecast said. D is incorrect because checking the rental cost against the budget is a financial control task, and a risk assessment weighs the probability and consequence of a hazard rather than the price of the site.",
+    "difficulty": "easy",
+    "verified": true
+  }
+]

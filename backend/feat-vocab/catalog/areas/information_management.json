@@ -1,0 +1,128 @@
+{
+  "area": "information_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/information_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Information",
+      "definition": "Facts and figures that have been processed into a meaningful, usable form for decisions.",
+      "whyItMatters": "Competitors must know that raw data becomes useful only once it is organized and interpreted.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Data",
+      "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
+      "whyItMatters": "All information management begins with knowing what counts as reliable data.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Database",
+      "definition": "An organized, computer-managed collection of related data that can be stored and retrieved systematically.",
+      "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Spreadsheet",
+      "definition": "A software application that organizes data in rows and columns for calculation and analysis.",
+      "whyItMatters": "Spreadsheets are a core business tool competitors are expected to use comfortably.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Business records",
+      "definition": "Documents and files that capture a business's transactions, operations, and decisions.",
+      "whyItMatters": "Accurate records are required for compliance, accountability, and historical reference.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Information system",
+      "definition": "The combination of hardware, software, data, and people used to collect, process, store, and share information.",
+      "whyItMatters": "Understanding systems is key when competitors evaluate technology investments.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Environmental scan",
+      "definition": "A systematic review of external conditions, competitor activity, and market trends.",
+      "whyItMatters": "Scanning the environment lets competitors spot opportunities and threats before deciding.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Data visualization",
+      "definition": "Presenting data as charts, graphs, and diagrams to reveal patterns and insights.",
+      "whyItMatters": "Visuals communicate findings faster and more persuasively than raw numbers.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Customer records",
+      "definition": "Stored information about clients, including contact details, purchase history, and preferences.",
+      "whyItMatters": "Organized customer data powers relationship management and targeted strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Primary research",
+      "definition": "Original data collected firsthand through surveys, interviews, focus groups, or observation.",
+      "whyItMatters": "Competitors must weigh its high relevance against its higher cost and time.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Secondary research",
+      "definition": "Analysis of existing data from published sources, databases, and prior studies.",
+      "whyItMatters": "It is fast and cheap; competitors must know when existing data is enough.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Information ethics",
+      "definition": "Standards governing the responsible collection, use, protection, and sharing of information.",
+      "whyItMatters": "Privacy and data-governance dilemmas are common in modern business scenarios.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Statistical analysis",
+      "definition": "The mathematical examination of data to identify patterns, test relationships, and support decisions.",
+      "whyItMatters": "Competitors are tested on interpreting findings and drawing evidence-based conclusions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Data mining",
+      "definition": "The computational discovery of patterns and correlations hidden in large datasets.",
+      "whyItMatters": "Mining surfaces competitive insights that simple reports would miss.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
+      "term": "Database query",
+      "definition": "A structured request that filters and retrieves specific information from a database.",
+      "whyItMatters": "Querying lets competitors pull exactly the data they need instead of sifting everything.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    }
+  ]
+}

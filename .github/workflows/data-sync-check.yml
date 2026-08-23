@@ -1,0 +1,67 @@
+# Issue #63 — the safety net for making the data sync a deliberate step.
+#
+# `npm run sync-data` used to run automatically on `predev`/`prebuild`, which kept
+# the frontend copies fresh but fought the standing rule: the frontend syncs when a
+# whole CLUSTER closes, not per slice, so an automatic sync dirtied the tree with a
+# half-built cluster every time anyone started the dev server. The hooks are gone,
+# which means a sync can now be FORGOTTEN — this workflow is what notices.
+#
+# It runs `frontend/scripts/check-data-sync.mjs`, which writes nothing:
+#
+#   vocab drift    -> FAILS. There is no staged-release rule for vocab, so a gap is
+#                     always an oversight: run `npm run sync-vocab` and commit.
+#   stale bank     -> FAILS since #203. There is no second bank tree to be "ahead"
+#   artifacts         of any more, so the leniency below went with it: the only
+#                     thing that can drift is lib/data/{bank-manifest,pi-inventory}
+#                     falling behind public/question-bank/, which is never
+#                     legitimate — it means a bank write skipped `derive-bank`.
+#
+# Was: bank drift REPORTED, never fatal, because while a cluster was open the backend
+# copy was SUPPOSED to run ahead of the frontend one and no check could tell "cluster
+# still open" from "someone forgot". One tree, one state, so a human no longer decides.
+#
+# No npm install: the check script has zero dependencies.
+
+name: Data sync check
+
+on:
+  pull_request:
+    paths:
+      - "backend/feat-vocab/data/**"
+      - "frontend/public/question-bank/**"
+      - "frontend/public/vocab/**"
+      - "frontend/lib/data/**"
+      - "frontend/scripts/**"
+      - "frontend/package.json"
+      - ".github/workflows/data-sync-check.yml"
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Check the bank's derived artifacts and the vocab copy
+        run: |
+          # -e is on by default here; turn it off so a drift failure still gets
+          # written to the step summary before the job exits.
+          set +e
+          set -o pipefail
+          node frontend/scripts/check-data-sync.mjs 2>&1 | tee /tmp/check-data.log
+          status=$?
+          {
+            echo '```'
+            cat /tmp/check-data.log
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit $status

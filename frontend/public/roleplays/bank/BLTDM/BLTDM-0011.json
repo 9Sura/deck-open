@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0011",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Explain ethical considerations in providing information.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Interpret other's nonverbal cues.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Illustrate correct food handling and production techniques.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Select and utilize appropriate formats for professional writing.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Demonstrate connections between company actions and results.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Identify ways guests place reservations directly with lodging properties.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of channels of distribution.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, the Performance Indicators, and the situation below. You will have up to 30 minutes to review the situation and prepare your presentation, and up to 15 minutes to present to the judge and respond to the judge's questions. Both members of the participant team must take part in the presentation and in answering the judge's questions. You will be evaluated on how well you meet the performance indicators for this event. All of your notes and materials will be turned in to the judge at the end of the presentation.",
+  "situation": "You are the communications manager and the associate general counsel at CROWDGATE, an online ticketing platform that lets fans buy passes to concerts, sports, and festivals directly from venues across the country. Six months ago CROWDGATE completed its acquisition of a smaller regional service, STAGEDOOR, and the two companies still run on separate systems, separate support teams, and, in places, separate policies. The chief operating officer (judge) has asked to meet with the participant team before the next board update.\n\nA state consumer-protection office recently opened an informal inquiry into ticket-resale disclosures across the industry, and CROWDGATE was not named in it. Legal counsel could let the inquiry pass, since nothing requires a response from a company the office never contacted directly. But STAGEDOOR's checkout flow, still live on its original site, discloses resale fees later in the process than CROWDGATE's does, and internal emails show STAGEDOOR staff flagged that gap before the merger closed, and it was never fixed.\n\nThe COO (judge) has proposed volunteering the discrepancy to the regulator now, paired with a plan to migrate STAGEDOOR's checkout onto CROWDGATE's platform within the quarter, ahead of the concert and football season the company is forecasting as its strongest yet. The migration budget assumes that forecast holds. If attendance softens the way it did two years ago, the spending will not be recovered from this year's ticket volume, and next year's marketing budget absorbs the shortfall instead.\n\nThe COO (judge) wants the participant team to recommend whether CROWDGATE should disclose the checkout gap to the regulator voluntarily or wait to be asked, and whether the migration should proceed on the current forecast-driven timeline or be phased more conservatively. The recommendation must also explain, in a format the COO can forward to the board today, how the company would communicate either choice to affected ticket buyers and to STAGEDOOR's remaining venue partners.\n\nTwo of STAGEDOOR's largest venue partners still sell block tickets through their own box offices rather than through either online platform, and both asked, on a call the account manager described as full of long pauses and folded arms, whether that arrangement will survive the migration. Losing either partner would cost more in ticket volume than the checkout gap itself, and the COO wants that risk weighed openly rather than assumed away.\n\nThe COO (judge) will greet the participant team and ask to hear their recommendation for handling the regulator and the migration together. The participant team will have fifteen minutes to present its analysis and respond to questions, after which the COO will thank the team for its work. No decision has been made yet, and the team should leave the COO with a clear next step.",
+  "judgeCharacterization": "You are the chief operating officer at CROWDGATE, an online ticketing platform six months into its acquisition of the regional service STAGEDOOR. Business background is the same as the situation above. You want the participant team to recommend whether CROWDGATE should disclose the checkout disclosure gap to the state consumer-protection office now or wait to be asked, and whether the migration of STAGEDOOR's checkout should proceed on the current forecast-driven timeline or be phased more conservatively. You also want to hear, in a format you could forward to the board today, how either choice would be communicated to ticket buyers and to STAGEDOOR's remaining venue partners.\n\nDuring the presentation and the discussion that follows, ask the participant team the following questions:",
+  "judgeQuestions": [
+    "How would you actually let ticket buyers know before the migration happens?",
+    "What would you say to the venue partners on your next call with them?",
+    "If the season forecast comes in soft, what changes about your plan?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the migration budget already assumes the current season forecast holds",
+        "internal emails already document that STAGEDOOR staff flagged the checkout gap before the merger closed"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the migration budget already assumes the current season forecast holds",
+        "internal emails already document that STAGEDOOR staff flagged the checkout gap before the merger closed"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 450,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "event ticketing platform",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "a regulator's inquiry answered voluntarily",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "ask how the recommendation would actually be carried out"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0011",
+      "shelfSimilarity": 0.0776,
+      "shelfNearest": "BLTDM-0001",
+      "exemplarSimilarity": 0.0503,
+      "gateVersion": 5
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "cluster": "finance",
+  "label": "Finance Cluster",
+  "examName": "Finance Cluster",
+  "seededFrom": {
+    "testGenModel": [
+      "backend/test-gen-model/data/finance"
+    ],
+    "roleplayGenModel": [
+      "backend/roleplay-gen-model/data/events.json",
+      "backend/roleplay-gen-model/data/ACT",
+      "backend/roleplay-gen-model/data/BFS",
+      "backend/roleplay-gen-model/data/FTDM",
+      "backend/roleplay-gen-model/data/PFN",
+      "backend/roleplay-gen-model/data/PFL"
+    ]
+  },
+  "events": [
+    {
+      "code": "ACT",
+      "name": "Accounting Applications Series",
+      "file": "ACT/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "BFS",
+      "name": "Business Finance Series",
+      "file": "BFS/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "FTDM",
+      "name": "Financial Services Team Decision Making",
+      "file": "FTDM/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "PFN",
+      "name": "Principles of Finance",
+      "file": "PFN/vocab.json",
+      "termCount": 50
+    },
+    {
+      "code": "PFL",
+      "name": "Personal Financial Literacy",
+      "file": "PFL/vocab.json",
+      "termCount": 50
+    }
+  ]
+}

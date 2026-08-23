@@ -1,0 +1,136 @@
+{
+  "area": "economics",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/economics.txt"
+  ],
+  "terms": [
+    {
+      "term": "Economic goods",
+      "definition": "Tangible products in limited supply that must be produced and purchased.",
+      "whyItMatters": "Distinguishing goods from services underlies every business model.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Economic resources",
+      "definition": "The inputs — land, labor, capital, and entrepreneurship — used to produce goods and services.",
+      "whyItMatters": "Managing limited resources is central to operations and strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Supply and demand",
+      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
+      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "definition": "The rivalry among businesses to attract the same customers.",
+      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Profit",
+      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
+      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Productivity",
+      "definition": "The output produced per unit of input, such as per worker or per hour.",
+      "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Inflation",
+      "definition": "A general, ongoing rise in prices that reduces the purchasing power of money.",
+      "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Unemployment rate",
+      "definition": "The percentage of the labor force actively seeking work but unable to find it.",
+      "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Functions of price",
+      "definition": "The role prices play in balancing supply and demand while signaling value and scarcity.",
+      "whyItMatters": "Prices coordinate the market; competitors must price to match demand.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Consumer spending",
+      "definition": "The total money households spend on goods and services.",
+      "whyItMatters": "Spending drives most economic activity and business revenue.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Gross domestic product",
+      "definition": "The total market value of all final goods and services a country produces in a year.",
+      "whyItMatters": "GDP is the standard gauge of economic health competitors reference.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Diminishing returns",
+      "definition": "The principle that adding more of one input eventually yields less added output.",
+      "whyItMatters": "It explains why scaling operations becomes less efficient past a point.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Interest-rate fluctuations",
+      "definition": "Changes in the cost of borrowing money that affect spending and investment.",
+      "whyItMatters": "Rates drive financing costs and long-term investment decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Exchange rate",
+      "definition": "The price at which one currency trades for another.",
+      "whyItMatters": "Exchange shifts move export costs, import prices, and global strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Economic systems",
+      "definition": "The rules and institutions governing how a society produces and distributes goods.",
+      "whyItMatters": "Competitors must know how market, command, and mixed economies shape business.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Specialization",
+      "definition": "Focusing on producing the goods or services in which one has a comparative advantage.",
+      "whyItMatters": "Specialization improves efficiency and is the basis of trade.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    }
+  ]
+}

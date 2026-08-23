@@ -1,0 +1,120 @@
+{
+  "area": "risk_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/risk_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Insurance",
+      "definition": "A financial product that transfers certain risks to an insurer for a premium.",
+      "whyItMatters": "Insurance protects businesses and people from large, unexpected losses.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Risk management",
+      "definition": "Identifying, analyzing, and responding to risks that could affect an organization's goals.",
+      "whyItMatters": "It protects assets, reputation, and profitability.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Safety policies",
+      "definition": "Written rules and procedures meant to prevent workplace accidents and injuries.",
+      "whyItMatters": "They set a consistent standard that protects employees and limits liability.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Security precautions",
+      "definition": "Measures that protect company assets, data, and facilities from theft or intrusion.",
+      "whyItMatters": "Routine precautions prevent costly breaches and protect information.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Safe work environment",
+      "definition": "A workplace designed and maintained to minimize hazards and injuries.",
+      "whyItMatters": "Safety protects health, cuts liability, and lifts productivity.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Business risk",
+      "definition": "The uncertainty or potential events that could hurt operations or finances.",
+      "whyItMatters": "Recognizing risk types lets a business prepare and respond.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Legal considerations",
+      "definition": "The laws and compliance requirements that shape how a business manages risk.",
+      "whyItMatters": "Understanding them helps avoid fines, lawsuits, and penalties.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Ethics in risk management",
+      "definition": "The principles guiding responsible identification and handling of risk.",
+      "whyItMatters": "Ethical risk practices build stakeholder trust and protect reputation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Intellectual property protection",
+      "definition": "Safeguarding proprietary information, trade secrets, and other intangibles.",
+      "whyItMatters": "Protecting information preserves competitive advantage.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Business threat analysis",
+      "definition": "Identifying potential threats and opportunities to a business's well-being.",
+      "whyItMatters": "It focuses risk effort on what most endangers the business.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Risk assessment",
+      "definition": "Identifying risks and judging their likelihood and impact on a decision.",
+      "whyItMatters": "Assessment is the foundation of any protection strategy.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Risk-management program",
+      "definition": "A formal framework that identifies threats, sets controls, and protects the business.",
+      "whyItMatters": "A program ensures systematic protection across all functions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Business continuity planning",
+      "definition": "Preparing so a business can keep operating or recover quickly after a disruption.",
+      "whyItMatters": "It is the standard answer for surviving major disruptions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    },
+    {
+      "term": "Risk and reward",
+      "definition": "The tradeoff between the potential gain of a decision and its potential loss.",
+      "whyItMatters": "Weighing risk against reward guides sound business decisions.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ]
+    }
+  ]
+}

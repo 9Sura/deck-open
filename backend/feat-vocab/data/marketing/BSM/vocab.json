@@ -1,0 +1,626 @@
+{
+  "version": 1,
+  "cluster": "marketing",
+  "event": {
+    "code": "BSM",
+    "name": "Business Services Marketing Series",
+    "format": "series"
+  },
+  "instructionalAreas": [
+    "product_service_management",
+    "customer_relations",
+    "market_planning",
+    "promotion",
+    "emotional_intelligence",
+    "marketing",
+    "pricing",
+    "selling"
+  ],
+  "sourceNotes": [
+    "Seeded from BSM roleplay performance indicators and marketing cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Product/service management",
+      "slug": "product-service-management",
+      "definition": "Planning, developing, marketing, and managing offerings across their life.",
+      "whyItMatters": "It ensures offerings meet customer needs and generate sustainable revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Customer relations",
+      "slug": "customer-relations",
+      "definition": "The activities a business uses to build satisfaction, trust, and loyalty.",
+      "whyItMatters": "Strong customer relations support repeat business and reputation.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Marketing strategy",
+      "slug": "marketing-strategy",
+      "definition": "The overall approach a business uses to reach customers and meet marketing goals.",
+      "whyItMatters": "Case studies require strategies that fit business objectives and market conditions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Promotion",
+      "slug": "promotion",
+      "definition": "Communication that informs, persuades, and reminds customers about offerings.",
+      "whyItMatters": "Promotion choices must fit the audience, message, and budget.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Emotional intelligence",
+      "slug": "emotional-intelligence",
+      "definition": "The ability to understand and manage emotions in yourself and others.",
+      "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Marketing",
+      "slug": "marketing",
+      "definition": "The process of creating, communicating, and delivering value to customers.",
+      "whyItMatters": "This is the umbrella concept behind many cluster and roleplay decisions.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Break-even point",
+      "slug": "break-even-point",
+      "definition": "The sales level where total revenue equals total costs.",
+      "whyItMatters": "Break-even shows the minimum sales a price or product strategy needs to be viable.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Selling",
+      "slug": "selling",
+      "definition": "Helping customers make purchase decisions through planned communication.",
+      "whyItMatters": "Selling vocabulary supports recommendations about staff, service, and revenue.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product life cycle",
+      "slug": "product-life-cycle",
+      "definition": "The stages a product passes through: introduction, growth, maturity, and decline.",
+      "whyItMatters": "The stage a product is in drives its marketing, pricing, and distribution.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Customer service",
+      "slug": "customer-service",
+      "definition": "The assistance and support a business provides to meet customer needs.",
+      "whyItMatters": "Service quality is central to satisfaction and retention.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Market identification",
+      "slug": "market-identification",
+      "definition": "Discovering and defining the markets where a business can sell its offering.",
+      "whyItMatters": "Identifying the right market is the foundation of any marketing plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Promotional mix",
+      "slug": "promotional-mix",
+      "definition": "The blend of advertising, publicity, sales promotion, and personal selling.",
+      "whyItMatters": "A mix lets competitors recommend more than one communication path.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Self-esteem",
+      "slug": "self-esteem",
+      "definition": "A realistic sense of your own value and capabilities.",
+      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Brand image",
+      "slug": "brand-image",
+      "definition": "The overall impression customers have of a business or product.",
+      "whyItMatters": "Image affects trust, loyalty, and perceived value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Markup",
+      "slug": "markup",
+      "definition": "The amount or percentage added to a product's cost to set its selling price.",
+      "whyItMatters": "Markup links cost directly to a pricing recommendation.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Selling process",
+      "slug": "selling-process",
+      "definition": "The structured steps that move a customer from awareness to purchase.",
+      "whyItMatters": "Knowing the process helps competitors execute each stage well.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product mix",
+      "slug": "product-mix",
+      "definition": "The full range of products and services a company offers.",
+      "whyItMatters": "Product-mix decisions shape positioning, resources, and revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Rapport",
+      "slug": "rapport",
+      "definition": "A relationship of mutual understanding and trust between a business and its customers.",
+      "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Target market",
+      "slug": "target-market",
+      "definition": "The specific customer group a business chooses as its primary marketing audience.",
+      "whyItMatters": "Recommendations are stronger when they name a specific audience.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Advertising",
+      "slug": "advertising",
+      "definition": "Paid, nonpersonal communication delivered through media to large audiences.",
+      "whyItMatters": "Advertising builds broad brand awareness efficiently and at scale.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Self-confidence",
+      "slug": "self-confidence",
+      "definition": "Belief in your ability to perform well and reach your goals.",
+      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Consumer",
+      "slug": "consumer",
+      "definition": "A person who buys and uses goods and services.",
+      "whyItMatters": "Naming the consumer keeps recommendations grounded in who actually benefits.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Profit margin",
+      "slug": "profit-margin",
+      "definition": "The percentage of revenue left as profit after costs are subtracted.",
+      "whyItMatters": "Margin reflects pricing effectiveness against financial goals.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Prospecting",
+      "slug": "prospecting",
+      "definition": "Identifying and qualifying potential customers who may need an offering.",
+      "whyItMatters": "Effective prospecting builds the foundation for successful sales.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product line",
+      "slug": "product-line",
+      "definition": "A group of related products sold under one brand or category.",
+      "whyItMatters": "Line decisions balance customer choice against cost and complexity.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Service orientation",
+      "slug": "service-orientation",
+      "definition": "A mindset committed to meeting customer needs and providing quality help.",
+      "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Marketing plan",
+      "slug": "marketing-plan",
+      "definition": "A written document laying out marketing objectives, strategies, and tactics for a period.",
+      "whyItMatters": "The plan guides all promotional and customer-facing decisions.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Sales promotion",
+      "slug": "sales-promotion",
+      "definition": "Short-term incentives like coupons, contests, and discounts that spur purchases.",
+      "whyItMatters": "Promotions drive quick sales, trial, and inventory clearance.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Initiative",
+      "slug": "initiative",
+      "definition": "Taking independent action to solve problems or seize opportunities.",
+      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Goods",
+      "slug": "goods",
+      "definition": "Tangible products that satisfy customer needs and wants.",
+      "whyItMatters": "Distinguishing goods from services shapes how a business markets and delivers value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Pricing strategy",
+      "slug": "pricing-strategy",
+      "definition": "A plan for setting prices to meet business objectives and positioning.",
+      "whyItMatters": "A sound strategy is central to case presentations and positioning.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Approach",
+      "slug": "approach",
+      "definition": "The opening contact and strategy used to engage a potential customer.",
+      "whyItMatters": "A professional approach sets the first impression that drives interest.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product bundling",
+      "slug": "product-bundling",
+      "definition": "Grouping related products and selling them as one package.",
+      "whyItMatters": "Bundling raises transaction value and perceived value.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Brand promise",
+      "slug": "brand-promise",
+      "definition": "The commitment a company makes about the value and experience it will deliver.",
+      "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Situation analysis",
+      "slug": "situation-analysis",
+      "definition": "An assessment of internal and external factors affecting a business's marketing.",
+      "whyItMatters": "Understanding the situation must come before any recommendation.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Personal selling",
+      "slug": "personal-selling",
+      "definition": "Direct, person-to-person communication to inform, persuade, and build relationships.",
+      "whyItMatters": "It enables customized pitches and problem-solving for high-value sales.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Integrity",
+      "slug": "integrity",
+      "definition": "Acting truthfully and holding to strong moral principles in all dealings.",
+      "whyItMatters": "Integrity builds the trust that a business reputation depends on.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Services",
+      "slug": "services",
+      "definition": "Intangible activities that satisfy customer needs and wants.",
+      "whyItMatters": "Services require different quality, staffing, and marketing choices than goods.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Cost-plus pricing",
+      "slug": "cost-plus-pricing",
+      "definition": "Setting price by adding a standard markup to a product's cost.",
+      "whyItMatters": "It is a foundational method when a price must ensure cost recovery.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Needs assessment",
+      "slug": "needs-assessment",
+      "definition": "Asking questions to understand a customer's problems, goals, and requirements.",
+      "whyItMatters": "Assessing needs ensures recommendations truly solve the customer's problem.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Corporate branding",
+      "slug": "corporate-branding",
+      "definition": "Building a company's overall reputation and identity across its offerings.",
+      "whyItMatters": "Strong corporate branding creates loyalty and justifies premium pricing.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Service recovery",
+      "slug": "service-recovery",
+      "definition": "The actions a business takes to fix a poor experience and restore trust.",
+      "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "SWOT analysis",
+      "slug": "swot-analysis",
+      "definition": "A review of a business's strengths, weaknesses, opportunities, and threats.",
+      "whyItMatters": "SWOT gives a structured frame for the situation analysis behind a plan.",
+      "tags": [
+        "market_planning"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ]
+    },
+    {
+      "term": "Public relations",
+      "slug": "public-relations",
+      "definition": "Activities that build positive relationships with the public and media.",
+      "whyItMatters": "PR manages image, trust, and credibility through third-party voices.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Ethical dilemma",
+      "slug": "ethical-dilemma",
+      "definition": "A situation where two or more moral principles conflict and demand judgment.",
+      "whyItMatters": "Recognizing and resolving dilemmas is central to leadership and compliance.",
+      "tags": [
+        "emotional_intelligence"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Customer value",
+      "slug": "customer-value",
+      "definition": "The benefit a customer believes they receive compared with the cost or effort.",
+      "whyItMatters": "Value helps explain why a customer chooses one offer over another.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Price skimming",
+      "slug": "price-skimming",
+      "definition": "Setting a high initial price to earn maximum revenue from eager buyers.",
+      "whyItMatters": "Skimming fits new or innovative products willing buyers will pay for.",
+      "tags": [
+        "pricing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ]
+    },
+    {
+      "term": "Product features and benefits",
+      "slug": "product-features-and-benefits",
+      "definition": "A product's characteristics and the value those characteristics give.",
+      "whyItMatters": "Competitors must separate features from benefits to sell effectively.",
+      "tags": [
+        "selling"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ]
+    },
+    {
+      "term": "Product positioning",
+      "slug": "product-positioning",
+      "definition": "How a product is differentiated in the market and in customers' minds.",
+      "whyItMatters": "Clear positioning conveys unique value and targets the right segments.",
+      "tags": [
+        "marketing",
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Cultural adaptation",
+      "slug": "cultural-adaptation",
+      "definition": "Adjusting communication and approach to cultural and social differences.",
+      "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
+      "tags": [
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    }
+  ]
+}

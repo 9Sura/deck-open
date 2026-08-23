@@ -1,0 +1,136 @@
+{
+  "area": "business_law",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/business_law.txt"
+  ],
+  "terms": [
+    {
+      "term": "Contract",
+      "definition": "A legally enforceable agreement between two or more parties.",
+      "whyItMatters": "Business-law roleplays turn on whether promises, rights, and duties are enforceable.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Consideration",
+      "definition": "Something of value exchanged between parties that makes a contract binding.",
+      "whyItMatters": "Without consideration, an agreement is a mere promise and not legally enforceable.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Tort",
+      "definition": "A wrongful act or infringement of a right that causes injury and creates civil liability.",
+      "whyItMatters": "Businesses must understand what conduct exposes them to lawsuits and damages.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Negligence",
+      "definition": "Failure to exercise reasonable care that results in injury or loss to another.",
+      "whyItMatters": "It is the most common tort in business and a leading source of liability claims.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Patent",
+      "definition": "An exclusive right granted by government to protect a new, useful invention.",
+      "whyItMatters": "Competitors must recognize what innovations a business can legally protect from copying.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Trademark",
+      "definition": "A symbol, word, or phrase that identifies and distinguishes a business or product.",
+      "whyItMatters": "Brands are valuable assets; competitors must understand trademark protection and infringement.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Copyright",
+      "definition": "Protection granted to original works of authorship such as writing, music, and art.",
+      "whyItMatters": "Digital content and creative works are critical assets in modern business.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Intellectual property",
+      "definition": "Creations of the mind — such as inventions, brands, and works — protected by law.",
+      "whyItMatters": "Competitors must recognize what a business can protect and how.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Liability",
+      "definition": "Legal responsibility for one's actions that may bring financial or legal consequences.",
+      "whyItMatters": "Understanding liability exposure is central to risk in any business scenario.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Statute",
+      "definition": "A formal written law enacted by a legislative body.",
+      "whyItMatters": "Federal, state, and local statutes form the foundation of business regulation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Common law",
+      "definition": "Law developed through court decisions and legal precedents rather than legislation.",
+      "whyItMatters": "Many business principles, like contract formation, are rooted in common law.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Jurisdiction",
+      "definition": "The legal authority of a court to hear and decide a case.",
+      "whyItMatters": "Competitors must know which courts can decide disputes in a given situation.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Agency",
+      "definition": "A relationship in which one party acts on behalf of another party.",
+      "whyItMatters": "Businesses act through agents; competitors must grasp authority, liability, and duties.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Principal",
+      "definition": "A person who authorizes an agent to act on their behalf.",
+      "whyItMatters": "Principals are responsible for their agents' actions within the scope of authority.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Corporation",
+      "definition": "A legal entity separate from its owners that can own property, contract, and be sued.",
+      "whyItMatters": "Incorporation shields owners from personal liability for business debts.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Partnership",
+      "definition": "A business owned and run by two or more people who share profits and liabilities.",
+      "whyItMatters": "Partnership law sets how partners share profits, decide, and bear business debts.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    }
+  ]
+}

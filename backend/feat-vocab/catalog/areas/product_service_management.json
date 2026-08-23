@@ -1,0 +1,136 @@
+{
+  "area": "product_service_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/product_service_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Product/service management",
+      "definition": "Planning, developing, marketing, and managing offerings across their life.",
+      "whyItMatters": "It ensures offerings meet customer needs and generate sustainable revenue.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Product life cycle",
+      "definition": "The stages a product passes through: introduction, growth, maturity, and decline.",
+      "whyItMatters": "The stage a product is in drives its marketing, pricing, and distribution.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Product mix",
+      "definition": "The full range of products and services a company offers.",
+      "whyItMatters": "Product-mix decisions shape positioning, resources, and revenue.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Product line",
+      "definition": "A group of related products sold under one brand or category.",
+      "whyItMatters": "Line decisions balance customer choice against cost and complexity.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Product bundling",
+      "definition": "Grouping related products and selling them as one package.",
+      "whyItMatters": "Bundling raises transaction value and perceived value.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Corporate branding",
+      "definition": "Building a company's overall reputation and identity across its offerings.",
+      "whyItMatters": "Strong corporate branding creates loyalty and justifies premium pricing.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Product positioning",
+      "definition": "How a product is differentiated in the market and in customers' minds.",
+      "whyItMatters": "Clear positioning conveys unique value and targets the right segments.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Product/service branding",
+      "definition": "Creating a distinct name, symbol, and image for a specific offering.",
+      "whyItMatters": "Product branding helps customers identify and prefer that offering.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Customer touchpoint",
+      "definition": "Any moment of interaction between a customer and a company.",
+      "whyItMatters": "Optimizing touchpoints improves experience and builds loyalty.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Customer voice",
+      "definition": "The feedback, preferences, and opinions customers express about offerings.",
+      "whyItMatters": "Listening to the customer voice guides product development and marketing.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Product opportunity",
+      "definition": "A chance to develop or improve a product based on a market gap.",
+      "whyItMatters": "Spotting opportunities keeps a business competitive with changing needs.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Idea generation",
+      "definition": "Methods such as brainstorming and focus groups used to create product concepts.",
+      "whyItMatters": "Structured idea generation yields higher-quality innovations.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Grades and standards",
+      "definition": "Quality levels and specifications a product must meet.",
+      "whyItMatters": "Meeting grades and standards protects consumers and builds trust.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Warranties and guarantees",
+      "definition": "Promises to repair, replace, or refund a product that fails to meet terms.",
+      "whyItMatters": "They reduce customer risk and signal confidence in quality.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Consumer protection",
+      "definition": "Laws and rules ensuring fair practices and safeguarding customer rights.",
+      "whyItMatters": "Understanding it helps a business operate ethically and avoid liability.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Unique selling proposition",
+      "definition": "The specific benefit that makes a product distinctly better than rivals'.",
+      "whyItMatters": "A clear USP gives customers a compelling reason to choose the product.",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    }
+  ]
+}

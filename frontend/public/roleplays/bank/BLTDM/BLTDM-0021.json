@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0021",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Explain the nature of corporate branding.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the concept of marketing strategies.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Demonstrate connections between company actions and results. (e.g., influencing consumer buying behavior, gaining market share, etc.)",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the use of marketing strategies.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Describe the nature of ethics.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Persuade others.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of effective communications.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, the Performance Indicators, and the Case Study Situation. You will have up to 30 minutes to read this material and prepare your presentation. You will then have up to 15 minutes to present to the judge and respond to the judge's questions. Both members of the participant team must take part in the presentation and in answering the judge's questions. You will be evaluated on how well you meet the performance indicators for this event. Turn in all of your notes and materials to the judge when you finish.",
+  "situation": "You are the Marketing Manager and the Brand Manager at GREENFIELD CONSUMER LENDING, a fintech company that makes small personal installment loans to borrowers most banks turn away. The CEO (judge) is a third-generation member of the family that founded the company and has asked to meet with you today about a decision that touches both the company's brand and its legal exposure.\n\nGREENFIELD was started by the CEO's grandfather forty years ago on a simple promise: lend fairly to working people with thin or damaged credit files, at rates lower than payday alternatives. That promise is still the center of every advertisement the company runs, and it is the reason GREENFIELD's customer base skews toward borrowers with below-average credit scores. The company has grown quickly in recent years, adding new borrowers faster than its back-office operations were built to handle.\n\nGrowth has outpaced the loan-servicing platform GREENFIELD leases from an outside vendor, which can actively manage no more than 42,000 open accounts before its compliance monitoring becomes unreliable. The portfolio hit that ceiling last month, and every new renewal now means declining someone already on the books. An anonymous whistleblower report reached the CEO (judge) two weeks ago from inside the underwriting department, alleging that renewal decisions have quietly favored the highest-credit-score borrowers, the very customers GREENFIELD's advertising says it does not prioritize.\n\nKeeping the stronger-credit borrowers would lower the portfolio's default rate and protect the reserves GREENFIELD needs to keep lending to anyone at all, including the harder-credit borrowers it takes on next year. Keeping the weaker-credit borrowers instead would honor the promise the brand is built on, but would raise defaults inside a portfolio that is already at its servicing ceiling, and could strain the relationship with the vendor the whole platform depends on. Either path can be defended to a regulator; neither can be defended to every customer.\n\nThe CEO (judge) wants the participant team to recommend which group of existing borrowers GREENFIELD should prioritize for renewal under the account ceiling, and how the company should describe that choice publicly without contradicting its own advertising or inviting a claim of unequal treatment. Nothing has been decided or communicated to any customer yet, and the underwriting department is waiting on direction before the next renewal cycle begins.\n\nThe CEO (judge) will greet the participant team, ask to hear their recommendation, and ask questions about how it would actually be carried out inside the company, from the underwriting department to the customers who are affected. At the end of the presentation and the questions that follow, the CEO (judge) will thank the participant team for their time and their work.",
+  "judgeCharacterization": "You are the CEO (judge) of GREENFIELD CONSUMER LENDING, a fintech company that makes small personal installment loans to borrowers most banks turn away. Business background is the same as the situation above. You want to know which group of existing borrowers the participant team recommends prioritizing for renewal under the account ceiling, and how the company should describe that choice publicly without contradicting its own advertising or inviting a claim of unequal treatment.",
+  "judgeQuestions": [
+    "Who inside the company would need to sign off before any customer's renewal is declined?",
+    "What would you actually tell a long-time customer whose loan is not being renewed?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the servicing platform's ceiling of 42,000 open accounts",
+        "GREENFIELD's advertised promise to lend fairly to working people with thin or damaged credit files",
+        "the anonymous whistleblower report already on record with the CEO"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the servicing platform's ceiling of 42,000 open accounts",
+        "GREENFIELD's advertised promise to lend fairly to working people with thin or damaged credit files",
+        "the anonymous whistleblower report already on record with the CEO"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 441,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "consumer lending fintech",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a whistleblower report from inside the company",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "ask how the recommendation would actually be carried out"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0021",
+      "shelfSimilarity": 0.0792,
+      "shelfNearest": "BLTDM-0003",
+      "exemplarSimilarity": 0.0755,
+      "gateVersion": 5
+    }
+  }
+}

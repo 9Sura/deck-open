@@ -1,0 +1,640 @@
+{
+  "version": 1,
+  "cluster": "entrepreneurship",
+  "event": {
+    "code": "ETDM",
+    "name": "Entrepreneurship Team Decision Making",
+    "format": "team"
+  },
+  "instructionalAreas": [
+    "product_service_management",
+    "marketing",
+    "promotion",
+    "human_resources_management",
+    "entrepreneurship"
+  ],
+  "sourceNotes": [
+    "Seeded from ETDM roleplay performance indicators and entrepreneurship cluster exam data.",
+    "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
+  ],
+  "terms": [
+    {
+      "term": "Initial feasibility",
+      "slug": "initial-feasibility",
+      "definition": "An early judgment about whether a product, service, or venture idea is practical enough to keep developing.",
+      "whyItMatters": "ETDM teams often need to show that an idea can work before recommending full implementation.",
+      "tags": [
+        "product_service_management",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Functional product",
+      "slug": "functional-product",
+      "definition": "A product idea adjusted so it can realistically solve the customer's problem and operate as intended.",
+      "whyItMatters": "Useful when explaining how a raw idea becomes something customers can actually use.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Product/service brand",
+      "slug": "product-service-brand",
+      "definition": "The identity, promise, and associations customers connect with a specific product or service.",
+      "whyItMatters": "Brand-building helps ETDM teams show how a new service will be remembered and trusted.",
+      "tags": [
+        "product_service_management",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Additional service",
+      "slug": "additional-service",
+      "definition": "A new service layered onto an existing business to create more value for customers.",
+      "whyItMatters": "The 2026 ETDM scenario asks teams to recommend a service that improves the customer wait-time experience.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Capital resources",
+      "slug": "capital-resources",
+      "definition": "Assets such as money, equipment, space, technology, and fixtures needed to launch or expand a venture.",
+      "whyItMatters": "ETDM judges often expect teams to explain what a recommendation costs and what resources it requires.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Cost-benefit analysis",
+      "slug": "cost-benefit-analysis",
+      "definition": "A comparison of the expected costs of a decision with the expected gains or advantages.",
+      "whyItMatters": "This gives teams a clean way to defend a recommendation beyond saying it sounds good.",
+      "tags": [
+        "entrepreneurship",
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt"
+      ]
+    },
+    {
+      "term": "Business risk",
+      "slug": "business-risk",
+      "definition": "The chance that a business decision or condition could cause loss, harm, or lower-than-expected results.",
+      "whyItMatters": "ETDM teams should name risks and explain how to reduce them.",
+      "tags": [
+        "entrepreneurship",
+        "risk_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Risk mitigation",
+      "slug": "risk-mitigation",
+      "definition": "Actions taken to reduce the likelihood or impact of an identified business risk.",
+      "whyItMatters": "A strong team answer does not only identify risk; it explains how the business can control it.",
+      "tags": [
+        "entrepreneurship",
+        "risk_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
+      ]
+    },
+    {
+      "term": "Start-up requirements",
+      "slug": "start-up-requirements",
+      "definition": "The resources, approvals, staff, systems, and funds needed before a new business or service can launch.",
+      "whyItMatters": "Helps teams organize implementation details in venture-planning cases.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Venture planning tools",
+      "slug": "venture-planning-tools",
+      "definition": "Planning resources such as business plans, budgets, forecasts, timelines, and feasibility checklists.",
+      "whyItMatters": "These tools help entrepreneurs test assumptions before spending resources.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Overhead costs",
+      "slug": "overhead-costs",
+      "definition": "Regular operating expenses, such as rent, utilities, insurance, software, or salaries, that continue over time.",
+      "whyItMatters": "Teams must consider whether a new service can cover ongoing costs after launch.",
+      "tags": [
+        "operations",
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
+      ]
+    },
+    {
+      "term": "Competition",
+      "slug": "competition",
+      "definition": "Rivalry among businesses trying to attract the same customers or customer spending.",
+      "whyItMatters": "Competitive pressure affects pricing, positioning, promotion, and service decisions.",
+      "tags": [
+        "economics",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
+      ]
+    },
+    {
+      "term": "Customer service positioning",
+      "slug": "customer-service-positioning",
+      "definition": "Using service quality to shape how customers view a business compared with alternatives.",
+      "whyItMatters": "Many ETDM cases ask teams to improve the customer experience while strengthening brand image.",
+      "tags": [
+        "marketing",
+        "customer_relations"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2019_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Promotional mix",
+      "slug": "promotional-mix",
+      "definition": "The combination of promotional tools a business uses, such as advertising, sales promotion, publicity, and personal selling.",
+      "whyItMatters": "Teams can recommend a balanced mix instead of relying on one communication tactic.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Sales promotion",
+      "slug": "sales-promotion",
+      "definition": "Short-term incentives or activities designed to encourage customers to try, buy, or engage.",
+      "whyItMatters": "Sales promotions can drive awareness and trial when launching a new service.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Word-of-mouth channel",
+      "slug": "word-of-mouth-channel",
+      "definition": "A communication path where customers, community members, or influencers spread opinions and recommendations.",
+      "whyItMatters": "Word-of-mouth can be especially powerful for small ventures with limited promotion budgets.",
+      "tags": [
+        "promotion",
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
+        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
+      ]
+    },
+    {
+      "term": "Advertising media",
+      "slug": "advertising-media",
+      "definition": "The channels used to deliver paid promotional messages, such as digital ads, print, radio, outdoor, or video.",
+      "whyItMatters": "Choosing media that match the target market makes promotional spending more efficient.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
+      ]
+    },
+    {
+      "term": "Hiring needs",
+      "slug": "hiring-needs",
+      "definition": "The number and types of employees a business requires to perform work effectively.",
+      "whyItMatters": "ETDM service recommendations often create staffing questions that teams should address.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Job applicant screening",
+      "slug": "job-applicant-screening",
+      "definition": "Reviewing applications, resumes, or qualifications to decide which candidates should move forward.",
+      "whyItMatters": "Screening is a basic HR process for staffing a growing entrepreneurial venture.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Employee performance assessment",
+      "slug": "employee-performance-assessment",
+      "definition": "Evaluating how well employees perform assigned work and meet business expectations.",
+      "whyItMatters": "Teams can use this term when discussing training, service consistency, and accountability.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
+      ]
+    },
+    {
+      "term": "Entrepreneurial discovery",
+      "slug": "entrepreneurial-discovery",
+      "definition": "Exploring ideas and opportunities to determine whether they could become viable ventures.",
+      "whyItMatters": "Discovery helps entrepreneurs avoid launching ideas without customer or market evidence.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
+      ]
+    },
+    {
+      "term": "Small business impact",
+      "slug": "small-business-impact",
+      "definition": "The effect small firms have on jobs, innovation, competition, communities, and market economies.",
+      "whyItMatters": "This term supports broader economic reasoning in entrepreneurship cases.",
+      "tags": [
+        "entrepreneurship",
+        "economics"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
+      ]
+    },
+    {
+      "term": "Product/service management",
+      "slug": "product-service-management",
+      "definition": "Planning, developing, marketing, and managing offerings across their life.",
+      "whyItMatters": "It ensures offerings meet customer needs and generate sustainable revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Marketing",
+      "slug": "marketing",
+      "definition": "The process of creating, communicating, and delivering value to customers.",
+      "whyItMatters": "This is the umbrella concept behind many cluster and roleplay decisions.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Promotion",
+      "slug": "promotion",
+      "definition": "Communication that informs, persuades, and reminds customers about offerings.",
+      "whyItMatters": "Promotion choices must fit the audience, message, and budget.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Human resources management",
+      "slug": "human-resources-management",
+      "definition": "The function that recruits, develops, and manages employees to meet organizational goals.",
+      "whyItMatters": "HR decisions shape staffing quality, service delivery, and culture.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Entrepreneur",
+      "slug": "entrepreneur",
+      "definition": "A person who spots an opportunity and creates, owns, and runs a new venture.",
+      "whyItMatters": "Entrepreneurship events center on the owner's role in decisions and strategy.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Product life cycle",
+      "slug": "product-life-cycle",
+      "definition": "The stages a product passes through: introduction, growth, maturity, and decline.",
+      "whyItMatters": "The stage a product is in drives its marketing, pricing, and distribution.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Brand image",
+      "slug": "brand-image",
+      "definition": "The overall impression customers have of a business or product.",
+      "whyItMatters": "Image affects trust, loyalty, and perceived value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Recruitment",
+      "slug": "recruitment",
+      "definition": "The process of finding and attracting qualified candidates for open positions.",
+      "whyItMatters": "Effective recruitment ensures a business has the talent to meet its needs.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Opportunity recognition",
+      "slug": "opportunity-recognition",
+      "definition": "Identifying unmet market needs or underserved customer segments.",
+      "whyItMatters": "Judges assess how well competitors spot a genuine market need.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Product mix",
+      "slug": "product-mix",
+      "definition": "The full range of products and services a company offers.",
+      "whyItMatters": "Product-mix decisions shape positioning, resources, and revenue.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Consumer",
+      "slug": "consumer",
+      "definition": "A person who buys and uses goods and services.",
+      "whyItMatters": "Naming the consumer keeps recommendations grounded in who actually benefits.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Advertising",
+      "slug": "advertising",
+      "definition": "Paid, nonpersonal communication delivered through media to large audiences.",
+      "whyItMatters": "Advertising builds broad brand awareness efficiently and at scale.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Job analysis",
+      "slug": "job-analysis",
+      "definition": "A systematic study of a job's duties, responsibilities, and required skills.",
+      "whyItMatters": "It informs hiring standards and identifies the right competencies for a role.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Feasibility study",
+      "slug": "feasibility-study",
+      "definition": "An analysis of whether a business idea is achievable, viable, and sustainable.",
+      "whyItMatters": "It justifies recommendations and addresses resource constraints.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Product line",
+      "slug": "product-line",
+      "definition": "A group of related products sold under one brand or category.",
+      "whyItMatters": "Line decisions balance customer choice against cost and complexity.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Goods",
+      "slug": "goods",
+      "definition": "Tangible products that satisfy customer needs and wants.",
+      "whyItMatters": "Distinguishing goods from services shapes how a business markets and delivers value.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Job description",
+      "slug": "job-description",
+      "definition": "A document outlining a position's duties, qualifications, and reporting relationships.",
+      "whyItMatters": "Clear descriptions guide hiring, set expectations, and reduce role confusion.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Bootstrapping",
+      "slug": "bootstrapping",
+      "definition": "Funding a venture from personal savings and reinvested revenue, not outside capital.",
+      "whyItMatters": "Many scenarios require building a business with limited resources.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Product bundling",
+      "slug": "product-bundling",
+      "definition": "Grouping related products and selling them as one package.",
+      "whyItMatters": "Bundling raises transaction value and perceived value.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Services",
+      "slug": "services",
+      "definition": "Intangible activities that satisfy customer needs and wants.",
+      "whyItMatters": "Services require different quality, staffing, and marketing choices than goods.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Personal selling",
+      "slug": "personal-selling",
+      "definition": "Direct, person-to-person communication to inform, persuade, and build relationships.",
+      "whyItMatters": "It enables customized pitches and problem-solving for high-value sales.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Onboarding",
+      "slug": "onboarding",
+      "definition": "The process of orienting and integrating new employees into the organization.",
+      "whyItMatters": "Strong onboarding speeds productivity and conveys company values and procedures.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Sole proprietorship",
+      "slug": "sole-proprietorship",
+      "definition": "An unincorporated business owned by one person who keeps all profit and liability.",
+      "whyItMatters": "Business structure shapes taxes, liability, and control for a new venture.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    },
+    {
+      "term": "Corporate branding",
+      "slug": "corporate-branding",
+      "definition": "Building a company's overall reputation and identity across its offerings.",
+      "whyItMatters": "Strong corporate branding creates loyalty and justifies premium pricing.",
+      "tags": [
+        "product_service_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ]
+    },
+    {
+      "term": "Customer value",
+      "slug": "customer-value",
+      "definition": "The benefit a customer believes they receive compared with the cost or effort.",
+      "whyItMatters": "Value helps explain why a customer chooses one offer over another.",
+      "tags": [
+        "marketing"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Public relations",
+      "slug": "public-relations",
+      "definition": "Activities that build positive relationships with the public and media.",
+      "whyItMatters": "PR manages image, trust, and credibility through third-party voices.",
+      "tags": [
+        "promotion"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt"
+      ]
+    },
+    {
+      "term": "Training and development",
+      "slug": "training-and-development",
+      "definition": "Programs that build employee skills and knowledge for current and future roles.",
+      "whyItMatters": "Training improves performance, cuts turnover, and prepares people for advancement.",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
+      "term": "Partnership",
+      "slug": "partnership",
+      "definition": "An unincorporated business owned by two or more people sharing profit and liability.",
+      "whyItMatters": "Structure decisions matter when multiple founders share ownership and risk.",
+      "tags": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ]
+    }
+  ]
+}

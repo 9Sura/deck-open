@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0019",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Enlist others in working toward a shared vision.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assist with establishment of work rules.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain the concept of competition.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assess information needs.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the importance of merchandising to retailers.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the role of promotion as a marketing function.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Employ communication strategies appropriate to target audience.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "You will have thirty (30) minutes to read the 21st Century Skills, the Performance Indicators, and the Case Study Situation, and to prepare your presentation. You will then have fifteen (15) minutes to make your presentation and to respond to the judge's questions. Both members of the participant team must take an active role in the presentation and in answering the judge's questions. You will be evaluated on how well you meet the performance indicators for this event. All notes and other materials will be turned in to the judge at the conclusion of the presentation.",
+  "situation": "You are the senior manager of content operations and the manager of subscriber engagement at BEACONSTREAM, a streaming platform built around a founder-curated slate of original films and documentaries. The vice president of product experience (judge) has called you in together. BEACONSTREAM has built its reputation on editorial trust, but a newer entrant, NOVAWAVE, has pulled ahead in weekly active users this quarter using a recommendation engine that resurfaces older titles every night. The vice president wants a recommendation before the next board update.\n\nThe data engineer who built BEACONSTREAM's original recommendation model has requested a modified schedule under a documented medical condition, shifting to remote afternoons and away from the overnight on-call rotation that currently supports late-night model retraining. That retraining window is the only place engineers can safely test changes before the personalization overhaul ships. The overhaul is BEACONSTREAM's answer to NOVAWAVE's growth, and subscriber engagement has already promised subscribers a faster, more relevant homepage within six weeks.\n\nOne option keeps the retraining rotation staffed by asking a contractor to shadow the overnight runs for the length of the accommodation, freeing the recommendation model to finish on schedule and letting the overhaul launch in time to compete with NOVAWAVE before subscribers renew for the season. The contractor has never touched BEACONSTREAM's recommendation code, learns it under deadline pressure, and rolls off once the accommodation period ends, leaving no one who has carried the testing work past this quarter.\n\nThe alternative honors the accommodation exactly as requested, moving the retraining window to daytime hours the engineer can cover and pushing the launch date back several weeks. Subscriber engagement's promotional plan for the overhaul, already built around this season's premieres, would need to shift instead to a quieter push merchandising BEACONSTREAM's existing library, at the very moment NOVAWAVE is spending most heavily to win over BEACONSTREAM's subscribers.\n\nThe vice president wants the participant team's recommendation on how to handle the accommodation request without slowing the personalization launch beyond what the business can absorb, and on how that decision should be communicated to the data engineer, to the rest of the engineering team, and to subscriber engagement's promotional planning, so that everyone is working from the same understanding of what changed, and why it changed.\n\nThe vice president of product experience (judge) will greet the participant team, ask to hear their recommendation, and listen for how they propose enlisting the engineering team and subscriber engagement around whichever plan they choose. After the presentation and the judge's questions, the vice president will thank the participant team for their work and close the meeting.",
+  "judgeCharacterization": "You are the vice president of product experience at BEACONSTREAM. Business background is the same as the situation above.\n\nYou have asked the participant team to recommend how to handle the data engineer's accommodation request without letting the personalization overhaul fall further behind NOVAWAVE, and to recommend how that decision should be communicated to the data engineer, to the rest of the engineering team, and to subscriber engagement's promotional planning.\n\nDuring the presentation, ask the following questions:",
+  "judgeQuestions": [
+    "Why does the timing of this accommodation matter to the launch, and to whom does that timing matter most?",
+    "Why would the way this decision is communicated change how the data engineer and the rest of the engineering team respond to it?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the overnight retraining window is the only place changes can be safely tested before the overhaul ships",
+        "subscriber engagement has already promised subscribers a faster homepage within six weeks"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the overnight retraining window is the only place changes can be safely tested before the overhaul ships",
+        "subscriber engagement has already promised subscribers a faster homepage within six weeks"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only, recorded and NOT gating",
+        "F5 (>=2 defensible options, each with a real cost) -- self-report cross-check confirms the options were WRITTEN, not that they trade off",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 431,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "streaming content platform",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "an accommodation request under disability law",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "ask why something in the decision matters, and to whom"
+      },
+      "axesHash": "c489b1548c0089521a5623807ed2f659e2da34ecb5b75d6ff6a20673f58e6287",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0019",
+      "shelfSimilarity": 0.0663,
+      "shelfNearest": "BLTDM-0007",
+      "exemplarSimilarity": 0.0498,
+      "gateVersion": 5
+    }
+  }
+}
