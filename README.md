@@ -23,21 +23,30 @@ needs an API key, and only ever reads data that is already in this repository.
 That is why it runs from a clone with nothing configured.
 
 ```
-frontend/
-  app/                      routes: / , /test-generator , /question-bank , /vocab ,
-                            /roleplay , /progress , /review , plus static pages
-  components/               UI — hand-drawn notebook look primitives, ui/, page pieces
-  lib/                      ProgressStore, route gating, themes, DECA mirrors
-  public/question-bank/     THE question bank — canonical, served verbatim
-  public/vocab/             event vocab catalogs
-  public/roleplays/         roleplay bank + the dealt day files
-  scripts/                  derive-bank-artifacts.mjs, sync-vocab.mjs, check-data-sync.mjs
-  supabase/migrations/      schema for the optional accounts feature
-
-backend/
-  test-gen-model/src/       practice-exam pipeline — generators + prompts
-  roleplay-gen-model/src/   roleplay pipeline — fill_bank.py, icdc_gate.py, prompts
-  feat-vocab/               vocab catalog + source data
+deck-open/
+├── frontend/                       # Next.js 16 app — this is what you run
+│   ├── app/                        # routes: / , /test-generator , /question-bank , /vocab ,
+│   │                               #   /roleplay , /progress , /review , plus static pages
+│   │                               #   (/developers , /privacy , /terms , /changelog , /help)
+│   ├── components/                 # UI: hand-drawn notebook look-primitives, ui/, page pieces
+│   ├── hooks/                      # shared React hooks
+│   ├── lib/                        # ProgressStore, route gating, themes, DECA mirrors
+│   ├── public/question-bank/       # THE question bank — canonical, served verbatim (16,283 questions)
+│   ├── public/vocab/               # event vocab catalogs (28 events, 1,400 terms)
+│   ├── public/roleplays/           # roleplay bank + the dealt day files
+│   ├── scripts/                    # derive-bank-artifacts.mjs, sync-vocab.mjs, check-data-sync.mjs
+│   └── supabase/migrations/        # schema for the optional accounts feature
+│
+├── backend/                        # offline authoring tools — never runs in production
+│   ├── test-gen-model/
+│   │   ├── src/                    # practice-exam pipeline: generators/ + prompts/
+│   │   └── data/                   # NOT published — real DECA exams + PI library (see its README)
+│   ├── roleplay-gen-model/
+│   │   ├── src/                    # fill_bank.py (authoring driver), icdc_gate.py (quality bar), prompts/
+│   │   └── data/                   # NOT published — real DECA roleplays + PI library (see its README)
+│   └── feat-vocab/                 # vocab catalog + source data, synced into public/vocab/
+│
+└── docs/                           # user manual + reference
 ```
 
 ---
