@@ -57,14 +57,32 @@ export default function ChangelogPage() {
 
       <Entry
         date="August 2026"
+        title="Pool filter counts now tell you the truth"
+      >
+        <li>
+          <strong>
+            The numbers on the pool&rsquo;s filters match what you get when you
+            click them.
+          </strong>{" "}
+          Before, the difficulty buttons and the instructional-area list always
+          showed how many questions were in the whole pool, so once you&rsquo;d
+          picked an area or typed a search, a button labelled 65 could hand you 11.
+          Each number now counts only what the rest of your filters leave, so it
+          previews its own result.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
         title="The rest of the question bank is now browsable"
       >
         <li>
-          <strong>New &ldquo;Extra pool&rdquo; shelf in the question bank.</strong>{" "}
-          Pick a cluster and you&rsquo;ll now see it under the numbered sets. It holds
-          every question we&rsquo;ve written for that cluster that never went into a
-          numbered exam set &mdash; about 13,000 questions across the five clusters,
-          which until now you could only meet through a generated test.
+          <strong>The question bank now has two tabs: Exam sets and The pool.</strong>{" "}
+          Sets are the full 100-question practice exams, unchanged. The pool is
+          everything we&rsquo;ve written that never went into a numbered exam
+          &mdash; about 13,000 questions across the five clusters, which until now
+          you could only meet through a generated test. Pick a cluster and a level
+          and you&rsquo;re browsing it.
         </li>
         <li>
           <strong>Filter it down to what you&rsquo;re actually studying.</strong>{" "}

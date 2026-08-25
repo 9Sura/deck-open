@@ -53,10 +53,15 @@ const TOOLS: ComponentProps<typeof ToolCard>[] = [
   },
   {
     href: "/question-bank",
-    eyebrow: "CURATED SETS",
+    eyebrow: "SETS + POOL",
     title: "Question Bank",
+    // Two shelves, not one (#228). The card described the sets drill-down only
+    // — cluster → set → level — which was the whole route until `?browse=pool`
+    // shipped, and reads as "the pool needs an account" next to the gated cards
+    // either side of it. No count here: BANK_SIZE_LABEL already carries the one
+    // live number on this page, on the card above.
     blurb:
-      "Pre-built, ready-to-study exam sets — pick a cluster, then a set, then your level and start practicing right away.",
+      "Ready-made exam sets you can sit whole, plus the much larger pool behind them — filter by instructional area, difficulty, or search.",
     cta: "Browse the bank",
     tape: "READY-MADE",
     tapeColor: "highlight",

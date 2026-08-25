@@ -56,29 +56,32 @@ export default function HelpPage() {
           this one stayed right; move both when a route moves between the lists. */}
       <Section title="What can I do without an account?">
         {/*
-          Say what the browse route actually serves (issue #162). This used to
-          claim "browse every question", but /question-bank reaches the numbered
-          exam sets ONLY: its one loader is loadSet (question-bank.ts), which
-          resolves a cluster×level×set through setMeta and fetches that single
-          set file. The much larger `-pool` files are reached only through
-          loadCandidates / loadPIQuestions — composeTest, the dashboard drills
-          and /review — all of which are account-gated. Deliberately no figure
-          here: a set count would be a second live number on a static prose page
-          and would go stale the way #134's test-length list did.
+          Say what the browse route actually serves (issue #162, re-fixed in the
+          other direction by #228). This once claimed "browse every question" and
+          was narrowed to the exam sets, correctly, back when loadSet was
+          /question-bank's only loader. It is wrong again now: `?browse=pool` is
+          a second shelf over the `-pool` files (loadPool, question-bank.ts) on
+          the same ungated route, so a guest reaches the WHOLE bank, not a fifth
+          of it. Name both shelves by the labels the page itself uses ("Exam
+          sets" / "The pool"), and keep the account sentence about what an
+          account really adds — logging, and the surfaces that COMPOSE from the
+          bank rather than browse it. Deliberately no figure here: a question
+          count would be a second live number on a static prose page and would go
+          stale the way #134's test-length list did.
         */}
         <p>
-          As a guest you get the <strong>Question Bank</strong> — browse the
-          ready-made <strong>exam sets</strong> and run{" "}
-          <strong>focus quizzes</strong> from them, free and with no sign-up.
+          As a guest you get the whole <strong>Question Bank</strong> — both
+          shelves, the ready-made <strong>exam sets</strong> and the much larger{" "}
+          <strong>pool</strong> behind them — and you can run{" "}
+          <strong>focus quizzes</strong> from either, free and with no sign-up.
         </p>
         <p>
           Creating an account unlocks the rest: your own <strong>dashboard</strong>,
           plus the <strong>Practice Tests</strong>, <strong>Vocab</strong>, and{" "}
-          <strong>Roleplay</strong> pages. The practice tests and the dashboard
-          drills also draw on the <strong>much larger question pool</strong>{" "}
-          behind the exam sets, which the bank&rsquo;s browse view
-          doesn&rsquo;t show. An
-          account also <strong>remembers your practice</strong> — the Progress and
+          <strong>Roleplay</strong> pages. Those build{" "}
+          <strong>mixed exams</strong> across the whole bank at once, instead of
+          browsing one shelf at a time. An account also{" "}
+          <strong>remembers your practice</strong> — the Progress and
           Review pages fill in — and syncs it across your devices.
         </p>
         <p>
@@ -93,12 +96,15 @@ export default function HelpPage() {
 
       <Section title="Question bank & focus mode (no account needed)">
         <p>
-          The <strong>Question Bank</strong> lets you browse thousands of
-          questions across the ready-made exam sets, each tagged Easy, Medium, or
-          Hard. <strong>Focus mode</strong>{" "}
-          is a distraction-free quiz over a fixed set, with a side navigator so you
-          can jump between questions. This is the free guest experience — no sign-up
-          required.
+          The <strong>Question Bank</strong> has two shelves.{" "}
+          <strong>Exam sets</strong> are full practice exams banked whole — pick a
+          cluster, a set, and a level. <strong>The pool</strong> is the much
+          larger stack of questions that were never placed into a numbered exam;
+          you filter it by instructional area or difficulty, or search it. Every
+          question is tagged Easy, Medium, or Hard. <strong>Focus mode</strong>{" "}
+          is a distraction-free quiz over whichever shelf you&rsquo;re on, with a
+          side navigator so you can jump between questions. Both shelves are the
+          free guest experience — no sign-up required.
         </p>
       </Section>
 

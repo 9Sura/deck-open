@@ -26,6 +26,44 @@ generators end to end, because their inputs are the material being withheld.
 
 ---
 
+## 2026-08-25
+
+### `chore(migration): sync the public mirror — 2026-08-25 12:23 EDT`
+
+Four changed files in the app, one document withdrawn, plus this journal. The
+question bank's two kinds of material now sit behind two tabs instead of one
+mixed list, and the words describing them agree with each other again.
+
+**The pool is its own browse mode now.** The previous export gave the pool a page
+for the first time, but it arrived stacked underneath the exam sets on a single
+screen — 3,000 questions of numbered practice exams, and then 13,283 loose
+questions below them, sharing one set of filters. Those are two different things
+to want. Exam sets are for sitting a whole paper; the pool is for drilling a
+cluster or a performance indicator until it sticks. They are now separate tabs,
+each with the filters that make sense for it, so choosing one no longer means
+scrolling past the other.
+
+**The filter counts were counting the wrong thing.** On the pool tab, the number
+beside each filter label was computed against the unfiltered bank rather than
+against the other filters you had already set. Narrow to one cluster and the
+level counts still reported totals from every cluster, so a label could promise
+questions that selecting it would not produce. Each count is now computed over
+everything except its own filter, which is what makes the numbers add up as you
+narrow.
+
+**Both shelves are named where the app introduces itself.** The help page and the
+landing page each described the question bank as though the exam sets were all of
+it. They now name both shelves and say how many questions are in each, so the
+first thing you read about the bank matches what you find when you open it.
+
+**A contributor-workflow document has been withdrawn.** `docs/reference.md`
+indexed the tooling used to develop DECK in its private repository and described
+processes that have no counterpart here. It was more likely to mislead a reader
+of this repo than to help one. The user manual — the document about using the app
+— is unaffected and still ships.
+
+---
+
 ## 2026-08-24
 
 ### `chore(migration): sync the public mirror — 2026-08-24 21:26 EDT`

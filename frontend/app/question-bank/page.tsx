@@ -48,36 +48,58 @@ const CARD_TAPE = ["support", "accent", "highlight"] as const;
 // same reason BANK_SIZE_LABEL does it by hand (lib/question-bank.ts).
 const fmt = (n: number) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
-// The second shelf is addressed with `?set=pool` rather than a set number — a
-// pool is a cluster×level collection with no set of its own. Keeping it in the
-// same param means one breadcrumb, one back-stack, and one `go()`.
-const POOL = "pool" as const;
-type SetSel = number | typeof POOL;
+// TWO BROWSE MODES, not one drill-down. A numbered set and a pool are different
+// kinds of thing — a set is a 100-question test you sit, a pool is an 800–1,000
+// question shelf you filter — so hanging the pool off a cluster's set list made
+// it read like "Set 3". `?browse=pool` is the whole separation, and it also
+// drops a step: a pool has NO set number, so pool mode goes cluster → level →
+// browse while sets mode keeps cluster → set → level → study.
+type Mode = "sets" | "pool";
+
+const POOL_TOTAL = CLUSTERS.reduce((n, c) => n + poolClusterCount(c.value), 0);
+
+const MODE_BLURB: Record<Mode, string> = {
+  sets: "Each set is a full practice exam, banked whole — pick a cluster, then a set, then a level, and sit it or run it as a focus quiz.",
+  pool: `The ${fmt(POOL_TOTAL)} questions that were never placed into a numbered exam. Same authoring, far more of it — filter by area, difficulty, or search, then quiz yourself on a random slice of whatever's left.`,
+};
 
 export default function QuestionBankPage() {
-  // Header is static; the browser reads ?cluster/&set/&level from the URL, so it
-  // needs a Suspense boundary (useSearchParams).
+  // The heading names the mode and the mode comes from ?browse, so the header
+  // sits inside the Suspense boundary too (useSearchParams); the prerendered
+  // fallback is the default mode's header.
   return (
     <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
       <Link href="/" className="text-sm text-muted hover:text-ink">
         ← Back home
       </Link>
 
-      <div className="mt-4 flex items-start justify-between gap-4">
-        <div>
-          <MarkerText rotate={-3} className="text-base">
-            question bank
-          </MarkerText>
-          <h1 className="mt-1 font-display text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Browse the <span className="text-accent">exam sets</span>
-          </h1>
-        </div>
-        <RisingChart className="hidden h-14 w-20 text-ink/70 sm:block" />
-      </div>
-
-      <React.Suspense fallback={<div className="mt-8 h-40" />}>
+      <React.Suspense
+        fallback={
+          <>
+            <PageHeading mode="sets" />
+            <div className="mt-8 h-40" />
+          </>
+        }
+      >
         <QuestionBankBrowser />
       </React.Suspense>
+    </div>
+  );
+}
+
+function PageHeading({ mode }: { mode: Mode }) {
+  return (
+    <div className="mt-4 flex items-start justify-between gap-4">
+      <div>
+        <MarkerText rotate={-3} className="text-base">
+          question bank
+        </MarkerText>
+        <h1 className="mt-1 font-display text-4xl font-extrabold tracking-tight sm:text-5xl">
+          Browse the{" "}
+          <span className="text-accent">{mode === "pool" ? "pool" : "exam sets"}</span>
+        </h1>
+      </div>
+      <RisingChart className="hidden h-14 w-20 text-ink/70 sm:block" />
     </div>
   );
 }
@@ -86,46 +108,80 @@ function QuestionBankBrowser() {
   const router = useRouter();
   const params = useSearchParams();
 
-  // Derive the drill-down from the URL, validating each level against the bank so
-  // stale/hand-typed params fall back to the nearest valid step.
-  const rawCluster = params.get("cluster");
-  const cluster = rawCluster && clusterHasBank(rawCluster) ? rawCluster : null;
+  const mode: Mode = params.get("browse") === "pool" ? "pool" : "sets";
 
-  const rawSet = cluster ? params.get("set") : null;
-  const setSel: SetSel | null = !cluster
-    ? null
-    : rawSet === POOL && clusterHasPool(cluster)
-      ? POOL
-      : setsForCluster(cluster).includes(Number(rawSet))
-        ? Number(rawSet)
-        : null;
-  const isPool = setSel === POOL;
+  // Derive the drill-down from the URL, validating each step against the bank so
+  // stale/hand-typed params fall back to the nearest valid step. "Valid" is
+  // mode-specific: pool mode needs a pool file for the cluster, not a set.
+  const rawCluster = params.get("cluster");
+  const clusterOk = mode === "pool" ? clusterHasPool : clusterHasBank;
+  const cluster = rawCluster && clusterOk(rawCluster) ? rawCluster : null;
+
+  // Only sets mode has a set step; ?set is ignored outright in pool mode.
+  const rawSet = mode === "sets" && cluster ? params.get("set") : null;
+  const setN =
+    cluster && rawSet != null && setsForCluster(cluster).includes(Number(rawSet))
+      ? Number(rawSet)
+      : null;
+
+  const levelsHere =
+    cluster == null
+      ? []
+      : mode === "pool"
+        ? poolLevels(cluster)
+        : setN == null
+          ? []
+          : levelsForSet(cluster, setN);
 
   const rawLevel = params.get("level") as Level | null;
-  const levelsHere =
-    cluster == null || setSel == null
-      ? []
-      : isPool
-        ? poolLevels(cluster)
-        : levelsForSet(cluster, setSel as number);
   const level = rawLevel && levelsHere.includes(rawLevel) ? rawLevel : null;
+
+  // Both modes need a cluster and a level; sets mode needs a set on top of that.
+  const atLevelStep = cluster !== null && level === null && (mode === "pool" || setN !== null);
+  const atStudyStep = cluster !== null && level !== null && (mode === "pool" || setN !== null);
 
   const clusterMeta = CLUSTERS.find((c) => c.value === cluster);
 
   const go = React.useCallback(
-    (next: { cluster?: string | null; set?: SetSel | null; level?: Level | null }) => {
+    (next: {
+      mode?: Mode;
+      cluster?: string | null;
+      set?: number | null;
+      level?: Level | null;
+    }) => {
+      // Mode is sticky unless a caller changes it, so every crumb and tile stays
+      // on the shelf the student is browsing.
+      const m = next.mode ?? mode;
       const qs = new URLSearchParams();
+      if (m === "pool") qs.set("browse", "pool");
       if (next.cluster) qs.set("cluster", next.cluster);
-      if (next.set != null) qs.set("set", String(next.set));
+      if (m === "sets" && next.set != null) qs.set("set", String(next.set));
       if (next.level) qs.set("level", next.level);
       const s = qs.toString();
       router.push(s ? `${PATH}?${s}` : PATH);
     },
-    [router],
+    [router, mode],
   );
 
   return (
     <>
+      <PageHeading mode={mode} />
+
+      {/* ---- Which shelf ---- */}
+      <div className="mt-7">
+        <Segmented<Mode>
+          value={mode}
+          onChange={(m) => go({ mode: m })}
+          options={[
+            { value: "sets", label: "Exam sets", sub: "full practice tests" },
+            { value: "pool", label: "The pool", sub: `${fmt(POOL_TOTAL)} questions` },
+          ]}
+        />
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink/70">
+          {MODE_BLURB[mode]}
+        </p>
+      </div>
+
       {/* ---- Breadcrumb ---- */}
       <div className="mt-6 flex flex-wrap items-center gap-2 text-sm text-muted">
         <Crumb active={cluster === null} onClick={() => go({})}>
@@ -134,16 +190,19 @@ function QuestionBankBrowser() {
         {cluster && clusterMeta && (
           <>
             <span aria-hidden>›</span>
-            <Crumb active={setSel === null} onClick={() => go({ cluster })}>
+            <Crumb
+              active={mode === "pool" ? level === null : setN === null}
+              onClick={() => go({ cluster })}
+            >
               {clusterMeta.label}
             </Crumb>
           </>
         )}
-        {setSel != null && (
+        {mode === "sets" && setN !== null && (
           <>
             <span aria-hidden>›</span>
-            <Crumb active={level === null} onClick={() => go({ cluster, set: setSel })}>
-              {isPool ? "Extra pool" : `Set ${setSel}`}
+            <Crumb active={level === null} onClick={() => go({ cluster, set: setN })}>
+              Set {setN}
             </Crumb>
           </>
         )}
@@ -160,7 +219,7 @@ function QuestionBankBrowser() {
         {cluster === null && (
           <div className="grid gap-6 sm:grid-cols-2">
             {CLUSTERS.map((c, i) => {
-              const built = clusterHasBank(c.value);
+              const built = mode === "pool" ? clusterHasPool(c.value) : clusterHasBank(c.value);
               return (
                 <TileButton
                   key={c.value}
@@ -168,97 +227,71 @@ function QuestionBankBrowser() {
                   fullWidth
                   disabled={!built}
                   onClick={() => go({ cluster: c.value })}
-                  // The pool shelf lives one step in, so the cluster tile has to
-                  // say it exists — otherwise the landing step still reads as
-                  // "this cluster is two exam sets" and the other ~2,700
-                  // questions behind it are never discovered.
                   tape={
-                    built
-                      ? clusterHasPool(c.value)
-                        ? `${setsForCluster(c.value).length} sets + pool`
+                    !built
+                      ? "coming soon"
+                      : mode === "pool"
+                        ? `${fmt(poolClusterCount(c.value))} Q`
                         : `${setsForCluster(c.value).length} sets`
-                      : "coming soon"
                   }
                   tapeColor={built ? CARD_TAPE[i % CARD_TAPE.length] : "support"}
                   eyebrow="cluster"
                   title={c.label}
                   sub={
-                    built && clusterHasPool(c.value)
-                      ? `${c.examName} · ${fmt(poolClusterCount(c.value))} extra pool questions`
+                    built && mode === "pool"
+                      ? `${c.examName} · ${poolLevels(c.value).length} levels`
                       : c.examName
                   }
-                  body={built ? clusterCoverage(c.value) : "In development — question sets coming soon."}
+                  body={
+                    built
+                      ? mode === "pool"
+                        ? poolCoverage(c.value)
+                        : clusterCoverage(c.value)
+                      : mode === "pool"
+                        ? "No pool for this cluster yet."
+                        : "In development — question sets coming soon."
+                  }
                 />
               );
             })}
           </div>
         )}
 
-        {/* -------- Step 2: pick a set, or the extra pool -------- */}
-        {cluster !== null && setSel === null && clusterMeta && (
-          <>
-            <div className="grid gap-6 sm:grid-cols-2">
-              {setsForCluster(cluster).map((n, i) => (
-                <TileButton
-                  key={n}
-                  variant={i}
-                  fullWidth
-                  onClick={() => go({ cluster, set: n })}
-                  tape={`${levelsForSet(cluster, n).length} levels`}
-                  tapeColor={CARD_TAPE[i % CARD_TAPE.length]}
-                  eyebrow={clusterMeta.label}
-                  title={`Set ${n}`}
-                  sub="District · Association · ICDC"
-                  body={setCoverage(cluster, n)}
-                />
-              ))}
-            </div>
-
-            {/* The pool is not another exam — it's everything that didn't fit in
-                one, so it gets its own labelled shelf rather than a tile that
-                reads like "Set 3". */}
-            {clusterHasPool(cluster) && (
-              <div className="mt-10">
-                <div className="flex flex-wrap items-baseline justify-between gap-3">
-                  <MarkerText rotate={-2} className="text-base">
-                    beyond the exam sets
-                  </MarkerText>
-                  <span className="text-sm text-muted">
-                    {fmt(poolClusterCount(cluster))} more questions
-                  </span>
-                </div>
-                <div className="mt-4">
-                  <TileButton
-                    variant={setsForCluster(cluster).length}
-                    fullWidth
-                    onClick={() => go({ cluster, set: POOL })}
-                    tape={`${poolLevels(cluster).length} levels`}
-                    tapeColor="highlight"
-                    eyebrow={clusterMeta.label}
-                    title="Extra pool"
-                    sub="Every question that was never placed into a numbered set"
-                    body={poolCoverage(cluster)}
-                  />
-                </div>
-              </div>
-            )}
-          </>
+        {/* -------- Step 2 (sets mode only): pick a set -------- */}
+        {mode === "sets" && cluster !== null && setN === null && clusterMeta && (
+          <div className="grid gap-6 sm:grid-cols-2">
+            {setsForCluster(cluster).map((n, i) => (
+              <TileButton
+                key={n}
+                variant={i}
+                fullWidth
+                onClick={() => go({ cluster, set: n })}
+                tape={`${levelsForSet(cluster, n).length} levels`}
+                tapeColor={CARD_TAPE[i % CARD_TAPE.length]}
+                eyebrow={clusterMeta.label}
+                title={`Set ${n}`}
+                sub="District · Association · ICDC"
+                body={setCoverage(cluster, n)}
+              />
+            ))}
+          </div>
         )}
 
         {/* -------- Step 3: pick a level (each set level is an actual test) -------- */}
-        {cluster !== null && setSel !== null && level === null && (
+        {atLevelStep && cluster !== null && (
           <div className="grid gap-6 sm:grid-cols-2">
             {levelsHere.map((lv, i) => {
-              const meta = isPool ? poolMeta(cluster, lv) : setMeta(cluster, lv, setSel as number);
+              const meta =
+                mode === "pool" ? poolMeta(cluster, lv) : setMeta(cluster, lv, setN as number);
               return (
                 <TileButton
                   key={lv}
                   variant={i}
                   fullWidth
-                  onClick={() => go({ cluster, set: setSel, level: lv })}
+                  onClick={() => go({ cluster, set: setN, level: lv })}
                   tape={meta ? `${fmt(meta.count)} Q` : ""}
                   tapeColor={CARD_TAPE[i % CARD_TAPE.length]}
-                  eyebrow={isPool ? "Extra pool" : `Set ${setSel}`}
+                  eyebrow={mode === "pool" ? "the pool" : `Set ${setN}`}
                   title={lv}
                   sub={LEVEL_NOTE[lv]}
                   body={meta ? coverageSummary(meta.areaCounts) : undefined}
@@ -269,24 +302,24 @@ function QuestionBankBrowser() {
         )}
 
         {/* -------- Step 4: study -------- */}
-        {cluster !== null && setSel !== null && level !== null && clusterMeta && (
-          <div className={cn(!isPool && "mx-auto max-w-3xl")}>
-            {isPool ? (
+        {atStudyStep && cluster !== null && level !== null && clusterMeta && (
+          <div className={cn(mode === "sets" && "mx-auto max-w-3xl")}>
+            {mode === "pool" ? (
               <PoolView
                 key={`${cluster}-pool-${level}`}
                 cluster={cluster}
                 clusterLabel={clusterMeta.label}
                 level={level}
-                onBack={() => go({ cluster, set: POOL })}
+                onBack={() => go({ cluster })}
               />
             ) : (
               <StudyView
-                key={`${cluster}-${setSel}-${level}`}
+                key={`${cluster}-${setN}-${level}`}
                 cluster={cluster}
                 clusterLabel={clusterMeta.label}
                 level={level}
-                setN={setSel as number}
-                onBack={() => go({ cluster, set: setSel })}
+                setN={setN as number}
+                onBack={() => go({ cluster, set: setN })}
               />
             )}
           </div>
@@ -399,6 +432,27 @@ const POOL_FOCUS_SIZE = 20;
 const DIFFICULTIES: Difficulty[] = ["easy", "medium", "hard"];
 const ANY = "any";
 
+/**
+ * One question against one filter state. `filtered` runs all three axes; the
+ * counts shown under a control run every axis EXCEPT its own, so each option
+ * previews the result set that picking it actually produces (issue #230).
+ */
+function poolMatches(
+  item: BankQuestion,
+  area: string,
+  difficulty: Difficulty | typeof ANY,
+  needle: string,
+): boolean {
+  if (area !== ANY && item.instructionalArea !== area) return false;
+  if (difficulty !== ANY && item.difficulty !== difficulty) return false;
+  if (!needle) return true;
+  return (
+    item.question.toLowerCase().includes(needle) ||
+    item.performanceIndicator.toLowerCase().includes(needle) ||
+    Object.values(item.options).some((o) => o.toLowerCase().includes(needle))
+  );
+}
+
 function PoolView({
   cluster,
   clusterLabel,
@@ -441,31 +495,56 @@ function PoolView({
     };
   }, [cluster, level]);
 
-  const meta = poolMeta(cluster, level);
+  const needle = query.trim().toLowerCase();
 
+  // Order the areas ONCE, by their whole-pool size, so the list never
+  // reshuffles under the cursor as the live counts below move.
+  const areaOrder = React.useMemo(() => {
+    const total = new Map<string, number>();
+    for (const item of questions) {
+      total.set(item.instructionalArea, (total.get(item.instructionalArea) ?? 0) + 1);
+    }
+    return [...total.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([name]) => name);
+  }, [questions]);
+
+  // Counted over the loaded pool, not the manifest: the numbers a control
+  // advertises have to be the numbers that control yields, which a static
+  // whole-pool figure stops being the moment another filter is set.
   const areaOptions = React.useMemo(() => {
-    const counts = meta?.areaCounts ?? {};
+    const counts = new Map<string, number>();
+    let total = 0;
+    for (const item of questions) {
+      if (!poolMatches(item, ANY, difficulty, needle)) continue;
+      total += 1;
+      counts.set(item.instructionalArea, (counts.get(item.instructionalArea) ?? 0) + 1);
+    }
     return [
-      { value: ANY, label: "All areas" },
-      ...Object.entries(counts)
-        .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-        .map(([name, n]) => ({ value: name, label: `${name} (${n})` })),
+      { value: ANY, label: `All areas (${fmt(total)})` },
+      // Every area stays listed even at zero — dropping the selected one out of
+      // the list leaves the trigger rendering its placeholder instead.
+      ...areaOrder.map((name) => ({
+        value: name,
+        label: `${name} (${fmt(counts.get(name) ?? 0)})`,
+      })),
     ];
-  }, [meta]);
+  }, [questions, areaOrder, difficulty, needle]);
 
-  const filtered = React.useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return questions.filter((item) => {
-      if (area !== ANY && item.instructionalArea !== area) return false;
-      if (difficulty !== ANY && item.difficulty !== difficulty) return false;
-      if (!q) return true;
-      return (
-        item.question.toLowerCase().includes(q) ||
-        item.performanceIndicator.toLowerCase().includes(q) ||
-        Object.values(item.options).some((o) => o.toLowerCase().includes(q))
-      );
-    });
-  }, [questions, area, difficulty, query]);
+  const difficultyCounts = React.useMemo(() => {
+    const counts: Record<string, number> = { [ANY]: 0, easy: 0, medium: 0, hard: 0 };
+    for (const item of questions) {
+      if (!poolMatches(item, area, ANY, needle)) continue;
+      counts[ANY] += 1;
+      counts[item.difficulty] = (counts[item.difficulty] ?? 0) + 1;
+    }
+    return counts;
+  }, [questions, area, needle]);
+
+  const filtered = React.useMemo(
+    () => questions.filter((item) => poolMatches(item, area, difficulty, needle)),
+    [questions, area, difficulty, needle],
+  );
 
   // Filters shrink the list under the cursor, so clamp rather than reset — a
   // page index left past the end renders an empty list with a live "Next".
@@ -494,7 +573,7 @@ function PoolView({
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
         <div>
           <MarkerText rotate={-2} className="text-sm">
-            extra pool
+            the pool
           </MarkerText>
           <h2 className="font-display text-2xl font-bold tracking-tight">
             {clusterLabel} · {level}
@@ -506,10 +585,14 @@ function PoolView({
       </div>
 
       <p className="mb-6 max-w-2xl text-sm leading-relaxed text-ink/70">
-        These are the {clusterLabel} · {level} questions that were never placed into a
-        numbered exam set — the same authoring, just more of it than one 100-question
-        test can hold. Filter down to what you&apos;re studying, or quiz yourself on a
-        random {POOL_FOCUS_SIZE} of whatever the filter leaves.
+        {/* SWC drops the leading space of a multi-line JSX text node, so the
+            space after {level} has to be explicit or the level runs straight
+            into "questions" (#229). */}
+        These are the {clusterLabel} · {level}{" "}
+        questions that were never placed into a numbered exam set — the same
+        authoring, just more of it than one 100-question test can hold. Filter
+        down to what you&apos;re studying, or quiz yourself on a random{" "}
+        {POOL_FOCUS_SIZE} of whatever the filter leaves.
       </p>
 
       <div className="rounded-3xl border-2 border-line bg-paper-2 p-5 sm:p-6">
@@ -548,11 +631,11 @@ function PoolView({
                 setPage(0);
               }}
               options={[
-                { value: ANY as string, label: "Any", sub: fmt(questions.length) },
+                { value: ANY as string, label: "Any", sub: fmt(difficultyCounts[ANY]) },
                 ...DIFFICULTIES.map((d) => ({
                   value: d as string,
                   label: d[0].toUpperCase() + d.slice(1),
-                  sub: String(meta?.difficultyCounts?.[d] ?? 0),
+                  sub: fmt(difficultyCounts[d] ?? 0),
                 })),
               ]}
             />
