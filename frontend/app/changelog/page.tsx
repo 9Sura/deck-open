@@ -57,6 +57,34 @@ export default function ChangelogPage() {
 
       <Entry
         date="August 2026"
+        title="The rest of the question bank is now browsable"
+      >
+        <li>
+          <strong>New &ldquo;Extra pool&rdquo; shelf in the question bank.</strong>{" "}
+          Pick a cluster and you&rsquo;ll now see it under the numbered sets. It holds
+          every question we&rsquo;ve written for that cluster that never went into a
+          numbered exam set &mdash; about 13,000 questions across the five clusters,
+          which until now you could only meet through a generated test.
+        </li>
+        <li>
+          <strong>Filter it down to what you&rsquo;re actually studying.</strong>{" "}
+          Narrow a pool by instructional area or difficulty, or search the question
+          text, the performance indicator, and the answer choices. Results come 20 to
+          a page.
+        </li>
+        <li>
+          <strong>Quiz yourself on whatever the filter leaves.</strong>{" "}
+          One button draws a random 20 from your current filter and runs them as a
+          focus quiz, the same way a set does.
+        </li>
+        <li>
+          Like the rest of the question bank, it works signed out &mdash; an account
+          is only what records your answers.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
         title="Human Resources Management roleplays added"
       >
         <li>

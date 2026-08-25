@@ -56,6 +56,7 @@ export interface BankManifest {
 
 const MANIFEST = manifest as BankManifest;
 const ALL_SETS = Object.values(MANIFEST.sets);
+const ALL_POOLS = Object.values(MANIFEST.pools ?? {});
 
 /** Total committed bank questions (sets + pools), straight off the manifest. */
 export const BANK_QUESTION_COUNT = [...ALL_SETS, ...Object.values(MANIFEST.pools)].reduce(
@@ -502,6 +503,64 @@ export async function loadCandidates(
 /** Question count in the `-pool` file for a cluster×level (0 if none). */
 export function poolDepth(cluster: string, level: Level): number {
   return MANIFEST.pools?.[poolKey(cluster, level)]?.count ?? 0;
+}
+
+// ---------------------------------------------------------------------------
+// Pool browse helpers (/question-bank's second shelf).
+//
+// The numbered exam sets are 3,000 of the bank's questions; the `-pool` files
+// are the other ~13,000 — everything authored beyond what a 100-question exam
+// could hold. The Test Generator has always drawn from them (`source: "pool"`),
+// but until now nothing let a student READ them, so the browse route advertised
+// under a fifth of what is committed.
+//
+// A pool is a cluster×level collection with NO set number, so it can't reuse the
+// set helpers: `setsForCluster` / `levelsForSet` / `setMeta` all key on `set`.
+// These are the same four questions asked of `MANIFEST.pools` instead.
+// ---------------------------------------------------------------------------
+
+/** The manifest entry for one cluster×level pool file, if it exists. */
+export function poolMeta(cluster: string, level: Level): BankPoolMeta | undefined {
+  return MANIFEST.pools?.[poolKey(cluster, level)];
+}
+
+/** Whether a cluster has a pool file at any level — drives the pool tile. */
+export function clusterHasPool(cluster: string): boolean {
+  return ALL_POOLS.some((p) => p.cluster === cluster);
+}
+
+/** Levels with a pool file for a cluster, in canonical order (District → ICDC). */
+export function poolLevels(cluster: string): Level[] {
+  const built = new Set(ALL_POOLS.filter((p) => p.cluster === cluster).map((p) => p.level));
+  return LEVELS.map((l) => l.value).filter((v) => built.has(v));
+}
+
+/** Total pool questions across every level of a cluster. */
+export function poolClusterCount(cluster: string): number {
+  return ALL_POOLS.filter((p) => p.cluster === cluster).reduce((n, p) => n + p.count, 0);
+}
+
+/** Paraphrase of the sections covered across a cluster's pool files. */
+export function poolCoverage(cluster: string): string {
+  return coverageSummary(aggregateAreaCounts(ALL_POOLS.filter((p) => p.cluster === cluster)));
+}
+
+export interface LoadedPool {
+  meta: BankPoolMeta;
+  questions: BankQuestion[];
+}
+
+/**
+ * Load one cluster×level pool file whole. Shares `fetchQuestions`' per-file memo
+ * with the compose/drill paths, so browsing a pool and then composing from it
+ * costs one download, not two. Throws BankUnavailableError if there is no pool.
+ */
+export async function loadPool(cluster: string, level: Level): Promise<LoadedPool> {
+  const meta = poolMeta(cluster, level);
+  if (!meta) {
+    throw new BankUnavailableError(`No ${cluster} · ${level} pool exists in the bank.`);
+  }
+  return { meta, questions: await fetchQuestions(meta.file, cluster) };
 }
 
 /**

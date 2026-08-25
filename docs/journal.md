@@ -28,6 +28,31 @@ generators end to end, because their inputs are the material being withheld.
 
 ## 2026-08-24
 
+### `chore(migration): sync the public mirror — 2026-08-24 21:26 EDT`
+
+Three changed files in the app, plus this journal. The question bank now has a
+page for the material it had been holding but not showing.
+
+**Four-fifths of the question bank had no page.** The bank ships as numbered exam
+sets — two per cluster, at three competition levels, 100 questions each, 3,000 in
+total — plus a *pool* file per cluster and level holding everything written for
+that cluster that a 100-question exam could not fit. The pool is **13,283 of the
+bank's 16,283 questions**. The test generator has always drawn from it, so the
+questions were reachable; there was simply no way to sit and read them.
+
+There is now a second shelf under each cluster's exam sets. It carries the same
+filters a reader needs at that size — instructional area, difficulty, and a search
+across the question text, the performance indicator and the answer choices —
+paged twenty at a time, with a button that draws a random twenty from whatever the
+filter leaves and runs them as a quiz.
+
+Two notes on how it behaves, both deliberate:
+
+- **A pool is browsed, not read.** A set is 100 questions and renders whole; a pool
+  is 800 to 1,029 and does not. The page renders a page at a time for that reason.
+- **It needs no account**, like the rest of the question bank. An account is what
+  records answers, not what unlocks the material.
+
 ### `chore(migration): sync the public mirror — 2026-08-24 20:46 EDT`
 
 The first sync after the initial mirror, catching up everything from the day
