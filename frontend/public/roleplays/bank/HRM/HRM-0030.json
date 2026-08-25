@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0030",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Describe the nature of ethics.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain the nature of organizational culture.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Recognize/Reward others for their efforts and contributions.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Build and maintain relationships.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the concept of competition.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources manager at LOCKSTONE LOGISTICS GROUP, a warehousing and freight company that merged with PENNYCROSS WAREHOUSING nine months ago. The senior vice president (judge) has asked to meet you about the integration plan waiting for a decision.\n\nNine months on, the two halves still run as two companies. LOCKSTONE schedules its warehouses centrally. PENNYCROSS never did: its crews swap shifts among themselves and rearrange the day around a customer who calls with a late order, and the accounts that came over in the merger say that responsiveness is what they were buying. Customers were told the two systems would be one by year's end, and the company is carrying both.\n\nThe integration plan puts every site on the central schedule. It ends the duplicate systems and the two pay scales, and it also ends the crew-run shift swapping that the former PENNYCROSS employees name, in every exit interview and every stay conversation, as the reason they stay. Those same crews filed for a union election last month, and the vote is six weeks away.\n\nStandardizing now would capture the savings the merger was sold on, and it would take away the practice those crews say keeps them here, in the weeks before their vote, where it will be read as an answer to the campaign. Holding the plan until after the vote would leave the practice and the goodwill in place, and the company would go on paying for two scheduling systems and two pay scales it told customers would be gone by year's end.\n\nThe senior vice president (judge) wants your recommendation on what LOCKSTONE does with the integration plan and when, how the work those crews do is recognized either way, and what the company is competing on if the responsiveness the accounts came for goes. You will present to the senior vice president (judge), who will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the senior vice president (judge) of LOCKSTONE LOGISTICS GROUP. Business background is the same as the situation above. The integration plan would put every site on the central schedule and end the duplicate systems and the two pay scales, the former PENNYCROSS crews say the crew-run shift swapping is why they stay, and their union election is six weeks away.\n\nYou have asked the human resources manager to recommend what the company does with the integration plan and when, how the work those crews do is recognized either way, and what LOCKSTONE is competing on if the responsiveness the merged accounts came for goes.\n\nAfter the participant has presented, ask these questions:",
+  "judgeQuestions": [
+    "A year after we do this, what changes that we are not expecting today?",
+    "What does it do to the way the two sides of the company work together?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "customers were told the two systems would be one by year's end",
+        "the union election vote is six weeks away",
+        "the company is carrying two scheduling systems and two pay scales"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "customers were told the two systems would be one by year's end",
+        "the union election vote is six weeks away",
+        "the company is carrying two scheduling systems and two pay scales"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 328,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "warehouse and logistics provider",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "a union organizing campaign",
+        "dilemma_archetype": "an efficiency that costs the company its differentiator",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0030",
+      "shelfSimilarity": 0.1529,
+      "shelfNearest": "HRM-0027",
+      "exemplarSimilarity": 0.0613,
+      "gateVersion": 8
+    }
+  }
+}

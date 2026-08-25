@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0012",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assist with establishment of work rules.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assess long-term value and impact of actions on others.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Communicate core values of product/service.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Assess employee performance.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Determine factors affecting business risk.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources director at STILLWATER MOTOR GROUP, an auto dealership group with four stores. The founder (judge), who still owns the group, has asked you to meet this morning about a resignation that arrived on Friday.\n\nSTILLWATER MOTOR GROUP has been profitable for eleven straight years, and the founder (judge) is preparing to sell the group at the end of the year and retire. Every store's advertising rests on the promise the founder made when the first store opened: every repair is done under our own roof by our own people. Customers who could pay less elsewhere say that promise is why they come back.\n\nThe technician who resigned held the group's only master certification for electric vehicles. The certification stays valid for ninety days after a certified technician leaves, so the group may lawfully keep booking and advertising certified electric vehicle service in that window while quietly sending the work to an outside shop. No written work rule says who may perform high-voltage work, or what the service department owes a customer when a repair leaves the building.\n\nThe founder (judge) wants you to analyze the choice and recommend one course. Keeping the bookings and subcontracting the work protects the service revenue the buyer is paying for, and rests on not telling customers something they would want to know. Suspending electric vehicle service, saying so publicly, and promoting the second-year technician, whose performance reviews are strong but who has never worked unsupervised, means turning away that work for the eight months the training takes and telling the buyer a revenue line has stopped.\n\nYou will present your recommendation to the founder (judge) in a meeting to take place in his/her office. The founder (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented and have answered the founder's (judge) questions, the founder (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the founder (judge) of STILLWATER MOTOR GROUP, and you are selling the group at the end of the year. Business background is the same as the situation above. You built four stores on one promise, you are ninety days from losing a certification you cannot replace that fast, and the human resources director is bringing you a recommendation.\n\nYou want to hear which course he/she recommends, what it costs the people it falls on, and what the service department should say to customers either way.\n\nDuring the presentation you are to ask the following questions of the participant:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right call?",
+    "What would be the first sign that it was not working?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the promise the founder made when the first store opened, that every repair is done under our own roof by our own people",
+        "the electric vehicle certification stays valid for only ninety days after a certified technician leaves",
+        "no written work rule says who may perform high-voltage work or what the service department owes a customer when a repair leaves the building",
+        "the founder is preparing to sell the group at the end of the year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the promise the founder made when the first store opened, that every repair is done under our own roof by our own people",
+        "the electric vehicle certification stays valid for only ninety days after a certified technician leaves",
+        "no written work rule says who may perform high-voltage work or what the service department owes a customer when a repair leaves the building",
+        "the founder is preparing to sell the group at the end of the year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 322,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "auto dealership group",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "a resignation from a hard-to-replace specialist",
+        "dilemma_archetype": "a legally permitted action that customers would object to",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0012",
+      "shelfSimilarity": 0.1625,
+      "shelfNearest": "HRM-0004",
+      "exemplarSimilarity": 0.1066,
+      "gateVersion": 8
+    }
+  }
+}

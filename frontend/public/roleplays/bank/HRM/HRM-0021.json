@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0021",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Human Resources Management",
+  "performanceIndicators": [
+    {
+      "area": "Human Resources Management",
+      "pi": "Discuss factors that impact human resources management.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Describe ways that businesses build positive employer-employee relationships.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Explain contingency factors affecting job offer.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Interpret other's nonverbal cues.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Discuss motivational theories that impact buying behavior.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources manager at RIDGELINE FREIGHT LINES, a regional trucking carrier that hauls refrigerated freight for grocery and food service customers. The chief operating officer (judge) has asked to meet with you about the driver referral bonus program and about a contract the sales team brought in last week.\n\nRIDGELINE FREIGHT LINES is two years old and employs about 140 drivers. Most of them were recruited by other drivers through the referral program, which pays a bonus for every driver a current employee brings in who stays six months. When the program launched, management told the workforce in writing that every referral already in progress would be paid. The company is now spending the last of its first round of funding.\n\nSTONEGATE GROCERY DISTRIBUTORS has offered the carrier a dedicated regional contract that would steady revenue and strengthen the case for a second round of investment. It requires thirty more drivers seated within sixty days. Referrals cannot fill that many seats that fast. Signing bonuses paid to outside applicants could, but the only money available for them is the pool reserved for the referral bonuses drivers are already waiting on.\n\nMoving that money would let the carrier take the contract, and it would tell the drivers who recruited their friends that a written commitment gives way when a customer is large enough; experienced drivers who leave over it are slow and costly to replace. Turning the contract down keeps the promise but leaves the company burning the last of its funding with no new revenue coming in.\n\nThe chief operating officer (judge) wants you to analyze the factors bearing on the decision, recommend what should happen to the referral bonus program, and explain how the decision would be communicated to the drivers. The chief operating officer (judge) will greet you, hear your ideas and ask questions. When you have finished answering, the chief operating officer (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the chief operating officer (judge) at RIDGELINE FREIGHT LINES. Business background is the same as the situation above.\n\nYou have asked the human resources manager to recommend whether the referral bonus pool should be moved into signing bonuses for outside applicants so the carrier can seat thirty drivers for the STONEGATE GROCERY DISTRIBUTORS contract, or whether the written promise to the drivers should be kept and the contract turned down. You want the factors that bear on that choice, a recommendation, and a plan for telling the drivers.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "A year from now, how would our drivers describe the way we handled this?",
+    "If we move this money once, what happens the next time a large customer asks?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the written promise made when the program launched that every referral already in progress would be paid",
+        "the company is spending the last of its first round of funding"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the written promise made when the program launched that every referral already in progress would be paid",
+        "the company is spending the last of its first round of funding"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 324,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "trucking carrier",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "the referral bonus program",
+        "dilemma_archetype": "a growth opportunity that breaches an existing commitment",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0021",
+      "shelfSimilarity": 0.1218,
+      "shelfNearest": "HRM-0020",
+      "exemplarSimilarity": 0.0736,
+      "gateVersion": 8
+    }
+  }
+}

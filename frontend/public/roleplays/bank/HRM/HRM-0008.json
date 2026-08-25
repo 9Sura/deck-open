@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0008",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Information Management",
+      "pi": "Assess information needs.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Identify ways that technology impacts business.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Apply information to accomplish a task.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Assess company's learning needs.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the types of economic systems.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the director of talent development at LATTICE POINT ADVISORS, a professional services consultancy of roughly ninety consultants. The managing partner (judge) has asked you to meet this morning about how the firm's tuition assistance and development budget should be spent this year, and to bring a recommendation the partners can act on.\n\nTwo bad years cost LATTICE POINT a third of its staff and much of its reputation for depth. New leadership arrived last spring, slowed hiring, and restored the development fund that had been the first thing cut. The firm advises mid-sized manufacturers on entering foreign markets, and its consultants are expected to understand how those markets are organized before they advise anyone.\n\nThe firm can staff only so many engagements at once and is already at that limit. Its largest client, a utility group that provides close to a third of revenue, is moving its work onto a new data platform and will keep only advisors certified on that platform. Certification takes one consultant most of a year, and the entire fund covers eleven seats.\n\nSpending the fund on those eleven seats keeps the utility group, and leaves the rest of the staff with no training for a second year while the firm's smaller retainer clients are handed to consultants who have not been developed for them; a number of those retainers renew in the spring. Spreading the fund across the whole staff rebuilds that base, misses the certification deadline, and the utility group has said it will move its work.\n\nThe managing partner (judge) wants you to recommend how the development budget should be allocated, what information the firm needs to gather before it commits the money, and how the firm's learning needs should be assessed once the decision is made. You will present your recommendation to the managing partner (judge), who will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the managing partner (judge) at LATTICE POINT ADVISORS. Business background is the same as the situation above. You arrived last spring after two bad years, restored the development fund, and now have a fund that covers eleven certification seats, a largest client that will keep only certified advisors, and a staff that has gone two years without training.\n\nYou have asked the director of talent development to recommend how the development budget should be allocated, what information the firm needs before committing it, and how the firm's learning needs should be assessed after the decision is made.\n\nAfter the participant has presented, ask these questions:",
+  "judgeQuestions": [
+    "A year from now, who will have left the firm because of this decision?",
+    "Once the money is spent, how will we know whether it worked?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "certification takes one consultant most of a year, and the entire fund covers eleven seats",
+        "the utility group is moving its work onto a new data platform and will keep only advisors certified on that platform",
+        "the number of engagements the firm can staff at once, a limit it is already at"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "certification takes one consultant most of a year, and the entire fund covers eleven seats",
+        "the utility group is moving its work onto a new data platform and will keep only advisors certified on that platform",
+        "the number of engagements the firm can staff at once, a limit it is already at"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 323,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "professional services consultancy",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "the tuition assistance and development budget",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0008",
+      "shelfSimilarity": 0.1115,
+      "shelfNearest": "HRM-0006",
+      "exemplarSimilarity": 0.0472,
+      "gateVersion": 8
+    }
+  }
+}

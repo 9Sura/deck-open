@@ -21,8 +21,18 @@ per cycle rather than one bad day. A candidate enters the bank only if ALL of:
     check_icdc_shape()       == []  F3/F6/F7-band/F8-blatant
     check_prompt_leak()      == []  §4f -- and the reason it is new is below
     check_participant_voice()== []  the situation is second person (the OQ9 read)
+    check_self_report()      == []  F2/F5 -- GATING here since gate version 8
     company reuse            == {}  §4e, shelf-wide, exact match
     shelf similarity      < thresh  §4e -- LOG-ONLY until calibrated (step 7)
+
+`check_self_report` is the newest of these and the only one §6e's original list did
+not name (plan 06 OQ3a). It falsifies the author's own F2/F5 tail against the prose
+it wrote: at least two courses of action, each with a cost, each half of each one
+actually present. It is deliberately NOT a verdict on whether the second option is
+lawful -- no deterministic instrument can be, D4 does not reopen, and F5 stays in
+`icdc_gate.UNVERIFIED` saying exactly that. What it catches is the case with one
+option really written down, which is what four of the audit's option collapses were.
+It runs on the bank path ONLY; the day path records it without gating.
 
 Anything else is DISCARDED AND RE-AUTHORED. Nothing is repaired into the bank
 under time pressure, because there is no time pressure.
@@ -120,8 +130,11 @@ WHAT THIS BAR DOES NOT CHECK -- read before trusting a PASS
   F1 one scenario, one judge             NOT VERIFIED (no referee, D4)
   F4 decidable from the given facts      NOT VERIFIED
   F8 subtle telegraphs                   NOT VERIFIED (blatant phrases only)
-  F2 at most 2 parties besides the judge   self-report cross-check RECORDED, NOT GATING
-  F5 >=2 options, each with a real cost    self-report cross-check RECORDED, NOT GATING
+  F2 at most 2 parties besides the judge   self-report cross-check REJECTS here; it
+                                         tests the author's tail, not the prose's cast
+  F5 >=2 options, each with a real cost    self-report cross-check REJECTS here; it proves
+                                         both were WRITTEN, never that they trade off
+                                         or that either is LAWFUL (D4)
   prompt leakage                         phrase list -- recognises wording it has SEEN
   shelf similarity                       computed, LOG-ONLY (threshold uncalibrated)
 
@@ -419,12 +432,13 @@ BANK_GATE_CHECKS: Tuple[str, ...] = (
     "declared_area_echo",    # validate_roleplay: the INSTRUCTIONAL AREA line
     "exemplar_originality",  # validate_roleplay: not a copy of a shown example
     "pi_quota",              # icdc_gate.check_pi_quota (plan 05 §3)
+    "core_pi_tier",          # generate_roleplay.check_core_pi_tier (2026-08-23)
     "axis_membership",       # seed_axes.check_axis_membership (plan 04 §3.2)
     "icdc_shape",            # F3/F6/F7-band/F8-blatant
     "prompt_leak",           # 03-plan §4f
     "participant_voice",     # 03-plan §6e
     "shelf_company_reuse",   # bank.corporate_names, exact match
-    "self_report",           # F2/F5 cross-check -- RECORDED, not gating
+    "self_report",           # F2/F5 cross-check -- GATING here (plan 06 OQ3a)
 )
 
 
@@ -439,9 +453,21 @@ def score_candidate(
     shelf: Sequence[Dict],
     threshold: float,
     enforce_similarity: bool,
-    enforce_self_report: bool,
 ) -> Dict:
-    """Gate one authored roleplay against the BANK bar. Pure Python."""
+    """Gate one authored roleplay against the BANK bar. Pure Python.
+
+    THE SELF-REPORT CROSS-CHECK BLOCKS HERE, AND THERE IS NO SWITCH (plan 06 OQ3a,
+    gate version 8). It used to need `--enforce-self-report` because 03-plan §6e's
+    acceptance list predated it. OQ3 chose this cross-check as its answer, so the
+    flag went rather than becoming a way to lower the bank bar on the command line
+    -- which is what `--min-pass` is banned for being (module docstring, §0). To
+    MEASURE the check without banking, pass `--no-write`: the candidate is still
+    scored and reported, it just never reaches the shelf.
+
+    The DAY path is untouched. `fill_buffer.py` does not call this function and
+    still records the cross-check without gating; moving the day publish bar is
+    what plan 05 §14 warns against.
+    """
     cfg = g.EVENTS[item["code"]]
     body, report = gate.split_self_report(text)
     pi_items = item["pi_items"]
@@ -461,6 +487,14 @@ def score_candidate(
     # same call audits a whole shelf later. The selector guarantees the quota
     # structurally; what this asserts is that the guarantee reaches the artifact.
     quota_issues = gate.check_pi_quota(pi_items, item["declared_area"], cfg)
+    # The TIER half of the same claim (2026-08-23). `check_pi_quota` proves each core
+    # PI is filed under the declared area; this proves the area filed it with corpus
+    # corroboration rather than because one case happened to carry it. It reads
+    # `data/pi/`, so it lives in generate_roleplay rather than the gate, and it is
+    # reported AS a quota issue because that is the rule it enforces.
+    quota_issues = quota_issues + g.check_core_pi_tier(
+        pi_items, item["declared_area"], cfg
+    )
     # Plan 04 §3.2 step 4. Blocking now that every event has its own axes -- before
     # step 1b an off-domain output was the pipeline obeying its seed, not an author
     # failure. Pinned by meta.generator.axesHash (step 5) so the verdict stays
@@ -503,7 +537,7 @@ def score_candidate(
         *voice_issues,
         *novelty_issues,
         *(similarity_note if enforce_similarity else []),
-        *(report_issues if enforce_self_report else []),
+        *report_issues,
     ]
 
     return {
@@ -543,10 +577,13 @@ def report_candidate(scored: Dict, n: int, total: int) -> None:
     )
     for issue in scored["blocking"]:
         print(f"          x {issue}")
+    # The self-report findings are NOT printed here: since gate version 8 they are
+    # in `blocking` on this path (plan 06 OQ3a) and the loop above has already shown
+    # them. A second "(recorded, not gating)" line would say the opposite of the
+    # first, which is the class of contradiction §5 spent a version fixing.
+    #
     # Non-blocking findings are printed too, and marked, so "recorded not gating"
     # is visible in the run rather than only in a docstring.
-    for issue in scored["self_report_issues"]:
-        print(f"          . (recorded, not gating) {issue}")
     if scored.get("repeated_loose"):
         names = ", ".join(f"{n} ({w})" for n, w in sorted(scored["repeated_loose"].items()))
         print(f"          . (recorded, not gating) novelty: repeated name(s), not brand-shaped: {names}")
@@ -558,12 +595,20 @@ def report_candidate(scored: Dict, n: int, total: int) -> None:
 # ----------------------------
 # Banking an accepted candidate
 # ----------------------------
-def bank_candidate(scored: Dict, out_dir: Path, *, model: str) -> Path:
+def bank_candidate(
+    scored: Dict, out_dir: Path, *, model: str, self_report_gating: bool
+) -> Path:
     """Assign an id and write. The id comes from the LIVE shelf, not the work order.
 
     Ids are assigned by identity and never renumbered (§4b), so the only safe
     moment to take one is immediately before the write -- a plan-time reservation
     goes stale if a discard leaves a gap or another run banks in between.
+
+    `self_report_gating` has NO DEFAULT on purpose. It is written into the artifact
+    as provenance about an empty list, so a caller that forgot it would record
+    "nothing was found" where the truth is "it was enforced" -- and the whole point
+    of `meta.gate.selfReport.gating` is that a later reader cannot tell those apart
+    from the file alone.
     """
     bank_id = bank.next_id(out_dir, scored["code"])
     roleplay = pr.parse_roleplay(
@@ -595,6 +640,10 @@ def bank_candidate(scored: Dict, out_dir: Path, *, model: str) -> Path:
         # rather than as "validate_roleplay", because a reader wants to know that
         # the skills block was compared verbatim and the domain was not classified.
         checks=BANK_GATE_CHECKS,
+        # Provenance, not a gate (plan 06 §5): under the flag a banked file's
+        # self-report list is empty because the cross-check rejected, not because
+        # nothing was found, and only this driver knows which.
+        self_report_gating=self_report_gating,
     )
     meta = roleplay["meta"]
     meta["generator"]["axes"] = scored["axes"]
@@ -653,13 +702,15 @@ def ingest(work_dir: Path, out_dir: Path, args) -> None:
             out_dir=out_dir, shelf=shelves[code],
             threshold=args.similarity_threshold,
             enforce_similarity=args.enforce_similarity,
-            enforce_self_report=args.enforce_self_report,
         )
         report_candidate(scored, n, len(items))
 
         if scored["accepted"] and not args.no_write:
             try:
-                path = bank_candidate(scored, out_dir, model=args.model_label)
+                path = bank_candidate(
+                    scored, out_dir, model=args.model_label,
+                    self_report_gating=True,
+                )
             except pr.PIProvenanceError as e:
                 # An authored PI the selection record does not hold. The verbatim gate
                 # above only checks that every SELECTED PI is present, so an extra or
@@ -722,14 +773,16 @@ def author_ollama(items: Sequence[Dict], out_dir: Path, args) -> None:
             result["raw"], item, out_dir=out_dir, shelf=shelves[code],
             threshold=args.similarity_threshold,
             enforce_similarity=args.enforce_similarity,
-            enforce_self_report=args.enforce_self_report,
         )
         scored["passes"] = result["passes"]
         report_candidate(scored, n, len(items))
         print(f"          ({time.monotonic() - started:.0f}s, {result['passes']} pass(es))")
 
         if scored["accepted"] and not args.no_write:
-            path = bank_candidate(scored, out_dir, model=result["model"])
+            path = bank_candidate(
+                scored, out_dir, model=result["model"],
+                self_report_gating=True,
+            )
             shelves[code].append(json.loads(path.read_text(encoding="utf-8")))
             accepted += 1
         elif scored["accepted"]:
@@ -819,9 +872,6 @@ def main() -> None:
     ap.add_argument("--similarity-threshold", type=float, default=DEFAULT_SIMILARITY_THRESHOLD)
     ap.add_argument("--enforce-similarity", action="store_true",
                     help="reject on shelf similarity. OFF until calibrated from tranche 1 (§4e)")
-    ap.add_argument("--enforce-self-report", action="store_true",
-                    help="reject on the F2/F5 self-report cross-check. OFF: §6e's acceptance "
-                         "list does not include it, and summary 04 records it as a known gap")
     ap.add_argument("--out", type=Path, default=DEFAULT_OUT, help="archive root (bank/ lives under it)")
     ap.add_argument("--work-dir", type=Path, default=DEFAULT_WORK_DIR)
     ap.add_argument("--model-label", default="claude-sonnet-5",

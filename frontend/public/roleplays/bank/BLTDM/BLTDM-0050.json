@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0050",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Explain marketing and its importance in a global economy.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Differentiate between service marketing and product marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Recognize/Reward others for their efforts and contributions.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Persuade others.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Determine factors affecting business risk.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Discuss the nature of customer relationship management.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your partner are the director of marketing and the director of client services at CARRYWELL LOGISTICS PARTNERS, a third-party logistics provider that warehouses and ships freight for regional retailers. The president (judge), the third generation of the family to run the company, has asked the two of you to recommend how Carrywell should handle a problem that reaches both its largest account and the promise its sales story rests on.\n\nCarrywell has moved freight for almost forty years, and what it sells is a service rather than a product on a shelf. Its competitive advantage in every proposal is the same line: a fully certified workforce, trained each year in cargo security, hazardous materials handling, and dock safety. That claim is why shippers choose Carrywell over larger national carriers quoting lower rates, and the company's client relationships are built on it.\n\nThe training itself is not getting done. The annual program moved online three years ago, and roughly a third of the warehouse workforce finishes it. Crews start modules between loads and abandon them; supervisors chase completions and then stop chasing. The few crew leads who do finish every year have never been acknowledged for it. Nothing has gone wrong on a dock yet, and nothing about that is guaranteed.\n\nRIDGEPORT OUTFITTERS, Carrywell's largest client, renews next month, and its contract requires certified completion figures with the renewal paperwork. Operations has proposed a condensed sign-off session run on paid shift time before the deadline. It would put completion at full marks this quarter, protect the renewal, and let the marketing claim stand, but it would spend the year's entire training budget on an hour that teaches very little.\n\nThe deeper recertification due next quarter would then have no money and no appetite behind it, and the crews would have learned that the training is paperwork. The alternative is to give Ridgeport the real figures now and run the full program properly across two quarters. That protects the claim Carrywell makes and the risk sitting on the dock, but it puts the renewal, and the account, in question.\n\nThe president (judge) wants your recommendation on which course Carrywell should take, what each one costs, whether the certified-workforce claim can keep appearing in the company's marketing, and how the crews should be brought into the decision. The president (judge) will greet you and ask to hear your ideas, and will thank you both when your presentation and questions are finished.",
+  "judgeCharacterization": "You are the president of CARRYWELL LOGISTICS PARTNERS. Business background is the same as the situation above. You called this meeting because the annual compliance training almost nobody finishes is now tied to the renewal of the company's largest account and to the certified-workforce claim the company markets. You want the participant team's recommendation on whether to run the condensed sign-off session before the renewal deadline or give the client the real figures and rebuild the program across two quarters.\n\nYou will greet the participant team and ask them to share their ideas. Ask the following questions after their presentation:",
+  "judgeQuestions": [
+    "If we do what you are recommending, who ends up carrying the cost of it — the crews, the client, or us?",
+    "Can we defend putting the cost there if someone asks us about it?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "Ridgeport's contract requirement for certified completion figures at renewal",
+        "the year's training budget",
+        "the deeper recertification due next quarter"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "Ridgeport's contract requirement for certified completion figures at renewal",
+        "the year's training budget",
+        "the deeper recertification due next quarter"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 410,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "third-party logistics provider",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a compliance training program nobody completes",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0053",
+      "shelfSimilarity": 0.1195,
+      "shelfNearest": "BLTDM-0045",
+      "exemplarSimilarity": 0.0749,
+      "gateVersion": 8
+    }
+  }
+}

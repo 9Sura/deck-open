@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0027",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Defend ideas objectively.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Provide legitimate responses to inquiries.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Employ communication styles appropriate to target audience.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the role of business in society.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assess long-term value and impact of actions on others.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the employee communications director at KEELSON CO-OPERATIVE BANK, a network of eleven branches owned by the people who work in them. The chief executive (judge) has asked you to meet before the board packet is finalized on Friday.\n\nEvery teller, lender and back-office clerk at KEELSON holds a share and a vote, and the bank has told its towns for decades that decisions here are made by the people who serve the counter. This spring's engagement survey went to the whole staff and came back saying, more clearly than any survey before it, that employee-owners believe the big decisions now reach them only after they are made.\n\nThe board is weighing an offer from TRUENORTH DIGITAL to run KEELSON's online lending platform. The fee income would fund the branch renovations and the pay adjustment the bank has deferred twice. It would also hand TRUENORTH the loan approval standards, the service scripts branch staff read, and the schedule those staff work. The offer expires when the board's quarter closes, and the survey results have not yet been shared with the staff who wrote them.\n\nPutting the offer to a full vote of the employee-owners, with the survey published alongside it, would answer the finding directly, but it would take the decision past the date the offer expires and the fee income with it. Letting the board decide now and explaining afterward would secure the income, and it would confirm to every employee-owner, in the same year they said so, that they hear about decisions after they are made.\n\nThe chief executive (judge) wants your recommendation on what the bank should do about the offer, how and when the survey results are communicated to staff and to the towns KEELSON serves, and what the choice is worth to the bank over the years after this one. You will present to the chief executive (judge), who will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the chief executive (judge) of KEELSON CO-OPERATIVE BANK. Business background is the same as the situation above. The engagement survey says employee-owners believe decisions reach them after they are made, the TRUENORTH DIGITAL offer would fund renovations and a deferred pay adjustment, and it expires when the board's quarter closes.\n\nYou have asked the employee communications director to recommend what KEELSON should do about the offer, how and when the survey results are communicated to staff and to the towns the bank serves, and what the choice is worth over the years ahead.\n\nAfter the participant has presented, ask these questions:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right call?",
+    "What would tell us we got it wrong?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the offer expires when the board's quarter closes",
+        "the branch renovations and the pay adjustment the bank has deferred twice",
+        "the bank's standing position that decisions are made by the people who serve the counter"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the offer expires when the board's quarter closes",
+        "the branch renovations and the pay adjustment the bank has deferred twice",
+        "the bank's standing position that decisions are made by the people who serve the counter"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 331,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "bank branch network",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "an employee engagement survey's results",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0027",
+      "shelfSimilarity": 0.1542,
+      "shelfNearest": "HRM-0026",
+      "exemplarSimilarity": 0.0538,
+      "gateVersion": 8
+    }
+  }
+}

@@ -92,16 +92,37 @@ export default function PrivacyPage() {
         </p>
       </Section>
 
+      {/* This list is the ONLY place the app answers "what do you keep about
+          me?" — /terms links here rather than restating it. So it has to name
+          every column on the account, not just the obvious two: `profiles`
+          also carries plan_config (migration 0003 — target, competition date,
+          and today's whole DayPlan) and active_session (0004 — the one-device
+          token). Issue #216 was those two going unnamed for months. If a
+          migration adds a column to `profiles`, or a new table lands beside
+          attempts/sessions, add a bullet here in the same change. */}
       <Section title="If you make an account">
         <p>We store, tied to your account:</p>
         <ul className="list-disc space-y-1 pl-5">
           <li>
-            Your <strong>username</strong> (chosen by you) and a display name.
+            Your <strong>username</strong> (chosen by you), a display name, and
+            the avatar emoji you pick.
           </li>
           <li>
             Your <strong>practice log</strong> — each answered question’s topic,
             your choice, whether it was correct, and timing — plus a row per
             practice session.
+          </li>
+          <li>
+            Your <strong>study plan</strong> — the cluster and level you’re aiming
+            at, the <strong>competition date you enter</strong> (if you set one),
+            and today’s plan: the tasks you added, the ones you dismissed, and
+            how far into each one you are. It syncs across your devices with the
+            rest of your account.
+          </li>
+          <li>
+            A <strong>sign-in token</strong> for the device you last signed in on.
+            It’s how DECK keeps one account to one device at a time — signing in
+            somewhere new signs the old device out.
           </li>
         </ul>
         <p>
@@ -118,6 +139,29 @@ export default function PrivacyPage() {
           in, can read or write your own rows, so other testers can’t see your
           practice history. It’s used only to compute your own progress, mastery,
           and review pages, and to sync them across your devices.
+        </p>
+        {/* Be exact about which control clears what, and check the code rather
+            than the button's name — this sentence has been wrong once already.
+            Reset (settings-data.tsx doReset) is store.clear() — attempts +
+            sessions on both sides — PLUS a setPlanConfig that drops `today`
+            only (issue #214); the target cluster/level, competition date and
+            diagnosticDone are plan SETUP and deliberately survive, so a reset
+            doesn't dump the user back into first-run. Delete is the only total
+            wipe: auth-provider.tsx drops the per-uid IDB database, the plan
+            cache and the dirty marker, and the profiles row cascades from
+            auth.users. Keep this in step with "Your controls" below and with
+            user-manual.md §12/§13 — four places state it. */}
+        <p>
+          Once you’re signed in, a copy of that same practice log and study plan
+          is also kept <strong>on the device you’re using</strong>, in your
+          browser’s own storage. That’s what makes the app quick and lets it keep
+          working if your connection drops — it catches up with the server when
+          you’re back online. Nobody else can read it. <strong>Reset progress</strong>{" "}
+          below clears your practice history and today’s plan, on this device and
+          on the server, and keeps your target event and date;{" "}
+          <strong>Delete account</strong> removes everything, the on-device copy
+          included. (Guest mode is the one place none of this applies — a guest’s
+          answers are kept nowhere, device included.)
         </p>
       </Section>
 
@@ -162,7 +206,8 @@ export default function PrivacyPage() {
           </li>
           <li>
             <strong>Reset progress</strong> — erase your practice history (on your
-            device, and on your account if you’re signed in).
+            device, and on your account if you’re signed in) and clear today’s
+            plan. Your target event and date are kept.
           </li>
           <li>
             <strong>Delete account</strong> — permanently remove your account and

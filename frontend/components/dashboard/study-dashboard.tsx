@@ -327,8 +327,26 @@ export function StudyDashboard() {
           recordTaskQuiz(task.id, questions.map((q) => q.id));
         }
         // Restore prior answers (from the task's session) + resume that session.
+        //
+        // Resume only an id whose session row actually EXISTS (issue #214). A
+        // stored id can outlive its row: "Reset progress" wipes attempts and
+        // sessions but not `plan_config`, so `today.sessions[taskId]` survives a
+        // wipe pointing at nothing, and a second device can reach a task before
+        // that device has pulled the session row. Handing the modal a dead id
+        // makes it skip `startSession` and write attempts against an id no row
+        // will ever exist for — and the roll-up is then dropped at BOTH layers
+        // (idb-store's endSession no-ops on the missing row; syncing-store's
+        // skips the enqueue for the same reason), so the sitting logs attempts
+        // with no session to account for them. Falling back to `undefined` mints
+        // a fresh, complete session instead. Answer restore still reads every
+        // stored id: replaying locally-held attempts is safe and is the whole
+        // point of the saved set, and the fresh session's absolute roll-up
+        // counts them.
         const sessionIds = day?.sessions?.[task.id] ?? [];
         const sessionSet = new Set(sessionIds);
+        const liveSessionId = sessionIds.find((id) =>
+          sessionsRef.current.some((s) => s.id === id),
+        );
         const qids = new Set(questions.map((q) => q.id));
         const initialAnswers = new Map<string, Choice | null>();
         for (const a of attemptsRef.current) {
@@ -344,8 +362,8 @@ export function StudyDashboard() {
           questions,
           origin,
           initialAnswers,
-          resumeSessionId: sessionIds[0],
-          resumeElapsedMs: bankedElapsed(sessionIds[0]),
+          resumeSessionId: liveSessionId,
+          resumeElapsedMs: bankedElapsed(liveSessionId),
           notice,
         });
       } catch {

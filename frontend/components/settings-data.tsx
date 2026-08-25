@@ -21,7 +21,7 @@ export function SettingsData() {
   const { resetProgress, store, hydrated } = useProgress();
   const { attempts, sessions, loading } = useProgressData();
   const auth = useAuth();
-  const { user, username, deleteAccount } = auth;
+  const { user, username, deleteAccount, setPlanConfig } = auth;
   const [phase, setPhase] = React.useState<Phase>("idle");
 
   const total = attempts.length;
@@ -62,6 +62,22 @@ export function SettingsData() {
   // Reset is irreversible and explicitly confirmed, so it must never report
   // success it didn't achieve: a failed wipe leaves the user believing their data
   // is gone when it's still here (and, signed in, still on the server).
+  //
+  // It also clears TODAY'S PLAN, which the progress store can't reach (issue
+  // #214). The day plan lives on `profiles.plan_config`, written through the auth
+  // provider rather than the store, so a wipe of attempts + sessions used to leave
+  // `config.today` behind holding the ids of the rows it just deleted, the saved
+  // question set for each task, and the day's frozen recommended list — the
+  // dashboard kept rendering the pre-reset cards, and Start re-served the identical
+  // questions. Only `today` goes: the target cluster/level, competition date and
+  // `diagnosticDone` are plan SETUP, not progress, and dropping them would push a
+  // reset straight back into first-run onboarding. Today's user-added tasks do go
+  // with it — they're part of the day being cleared.
+  //
+  // Sequenced after the wipe so a failed reset leaves the plan alone, and awaited
+  // rather than fired off: it resolves once the row write has been attempted, and
+  // it can't reject (a failed write keeps the dirty marker and retries), while the
+  // on-screen plan is already cleared optimistically either way.
   const doReset = React.useCallback(async () => {
     setPhase("resetting");
     try {
@@ -70,8 +86,9 @@ export function SettingsData() {
       setPhase("failed");
       return;
     }
+    await setPlanConfig((prev) => (prev?.today ? { ...prev, today: undefined } : prev));
     setPhase("done");
-  }, [resetProgress]);
+  }, [resetProgress, setPlanConfig]);
 
   React.useEffect(() => {
     if (phase !== "done") return;
@@ -178,7 +195,7 @@ export function SettingsData() {
               {/* Same rule as the header copy: without logging there is no local
                   store either, so don't claim there's something here to erase. */}
               {logging
-                ? "Permanently deletes all answered questions and sessions on this device and on your account. This can’t be undone."
+                ? "Permanently deletes all answered questions and sessions on this device and on your account, and clears today’s plan. Your target event and date are kept. This can’t be undone."
                 : "Nothing is being recorded, so there’s nothing to reset."}
             </p>
           </div>

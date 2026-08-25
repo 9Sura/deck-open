@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "gateVersion": 5,
+  "gateVersion": 8,
   "authoredBy": [
     "claude-sonnet-5"
   ],
   "totals": {
-    "events": 1,
-    "roleplays": 30
+    "events": 2,
+    "roleplays": 60
   },
   "thinnestShelf": 0,
   "shelves": {
@@ -22,7 +22,37 @@
     "FMS": 0,
     "FTDM": 0,
     "HLM": 0,
-    "HRM": 0,
+    "HRM": 30,
+    "HTDM": 0,
+    "MCS": 0,
+    "MTDM": 0,
+    "PBM": 0,
+    "PEN": 0,
+    "PFL": 0,
+    "PFN": 0,
+    "PHT": 0,
+    "PMK": 0,
+    "QSRM": 0,
+    "RFSM": 0,
+    "RMS": 0,
+    "SEM": 0,
+    "STDM": 0,
+    "TTDM": 0
+  },
+  "highestOrdinal": {
+    "AAM": 0,
+    "ACT": 0,
+    "ASM": 0,
+    "BFS": 0,
+    "BLTDM": 55,
+    "BSM": 0,
+    "BTDM": 0,
+    "ENT": 0,
+    "ETDM": 0,
+    "FMS": 0,
+    "FTDM": 0,
+    "HLM": 0,
+    "HRM": 30,
     "HTDM": 0,
     "MCS": 0,
     "MTDM": 0,

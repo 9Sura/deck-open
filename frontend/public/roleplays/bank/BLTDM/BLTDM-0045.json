@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0045",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Discuss actions employees can take to achieve the company's desired results.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain management's role in customer relations.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Demonstrate connections between company actions and results.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Differentiate between service marketing and product marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the concept of competition.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain promotional methods used by the hospitality and tourism industry.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Interpret business policies to customers/clients.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing director (participant 1) and the customer relations manager (participant 2) for TIDEWATER HARBOR SEAFOOD, a regional importer of frozen shellfish. The company sells to hotel kitchens, resorts, and independent restaurants, and it has built its reputation on the service it wraps around the product rather than on price. The president (judge) has asked the two of you to meet about a problem in the company's first out-of-state market.\n\nTIDEWATER HARBOR SEAFOOD has supplied the same coastal region for close to fifteen years. Three months ago it opened its first territory across the state line, signing forty hospitality accounts on the strength of a guarantee the sales team promoted heavily: any product that arrives below standard is replaced within one day, at no charge and with no questions asked. That guarantee is the whole basis of the launch campaign.\n\nLast week the company learned that a supplier had changed the vacuum pouch used for its scallop line. The new seal fails when a shipment sits above freezing for even a short time, and thawed product can spoil without any visible sign. Roughly half the pouches shipped into the new territory carry the defective seal. No customer has reported an illness, and no customer has noticed anything wrong.\n\nReplacement stock exists, but only the volume already committed to the long-standing home accounts for next quarter. Sending it across the state line would honor the guarantee and protect the launch, and it would leave the original customers short at the height of their banquet season. The supplier cannot deliver corrected pouches for another full quarter, so that shortage would not be made up.\n\nThe other course is a public notice to every account in both markets, pulling the line and explaining the defect in the company's own words. That treats diners and both markets alike, but it spends the launch budget on recovery instead of promotion, and a larger competitor, GULFLINE PROVISIONS, is already calling on the new accounts.\n\nThe president (judge) wants your recommendation on which course to take, how the guarantee should be explained to the accounts that are affected, and what your team should say to a hospitality customer whose own guests are at stake. The president (judge) will greet you and ask to hear your ideas. After you have presented and answered the questions, the president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the president of TIDEWATER HARBOR SEAFOOD. Business background is the same as the situation above. You have asked the marketing director and the customer relations manager to meet with you and recommend how the company should respond to the defective seals now in the new territory, how the replacement guarantee should be explained to the accounts affected, and what the company should say to hospitality customers who serve the product to their own guests.\n\nDuring the presentation you are to ask the following questions of each participant team:",
+  "judgeQuestions": [
+    "Who ends up carrying the cost of the course you are recommending?",
+    "Can that be explained to the customers who carry it?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the replacement guarantee promoted to every new account",
+        "the replacement volume is already committed to the home accounts for next quarter",
+        "the supplier cannot deliver corrected pouches for another full quarter"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the replacement guarantee promoted to every new account",
+        "the replacement volume is already committed to the home accounts for next quarter",
+        "the supplier cannot deliver corrected pouches for another full quarter"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 396,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "seafood importer",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "a safety defect discovered after shipment",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0046",
+      "shelfSimilarity": 0.1013,
+      "shelfNearest": "BLTDM-0040",
+      "exemplarSimilarity": 0.0704,
+      "gateVersion": 8
+    }
+  }
+}

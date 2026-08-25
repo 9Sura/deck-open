@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0019",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Customer Relations",
+  "performanceIndicators": [
+    {
+      "area": "Customer Relations",
+      "pi": "Build and maintain relationships with customers.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Determine strategies for resolving customer-service situations.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Interpret business policies to customers/clients.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Streamline work processes.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of email marketing tactics.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the client services manager at MERIDIAN LINE STAFFING, a staffing agency that places office and light industrial workers for employers across the region. The chief operating officer (judge) has asked you to recommend how the company should spend its one-time expansion budget as it opens its first office outside the state.\n\nMERIDIAN LINE leads its home market and has never operated outside it. Recruiters who resigned over the past two years said the same thing on the way out: they enter every candidate submission by hand and answer client email one message at a time, and the work leaves them no room to place people. The pattern sat in the files and nothing changed.\n\nThe budget covers one of two things. A placement and client-email system would automate the submissions and the routine client messages for both offices. It is priced against the volume the new office is forecast to carry by its first year, and that forecast rests on one large regional client that has shown interest and has not signed.\n\nIf that client signs, the system pays for itself and the pattern in the exit interviews ends. If the client does not sign, the money is spent and the home office carries a system sized for volume it does not have. Hiring recruiters and a client-relations person for the new office instead protects response times for existing clients and leaves the manual process, and the resignations it causes, exactly where they are.\n\nThe chief operating officer (judge) wants your recommendation on where the budget should go and what the company owes its existing clients while the new office opens. The chief operating officer (judge) will greet you, hear your ideas and ask questions. When you have finished answering, the chief operating officer (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the chief operating officer of MERIDIAN LINE STAFFING. Business background is the same as the situation above.\n\nYou have asked the client services manager to recommend whether the one-time expansion budget should buy the placement and client-email system or fund recruiters and a client-relations person for the new office, and to say what the company owes its existing clients while the office opens.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "What would we be giving up by choosing the other way?",
+    "If we had acted on the exit interviews two years ago, what would that have cost us then?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "a one-time expansion budget that covers only one of the two things",
+        "the response times owed to existing clients while the new office opens"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "a one-time expansion budget that covers only one of the two things",
+        "the response times owed to existing clients while the new office opens"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 303,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "staffing agency",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "an exit interview pattern nobody acted on",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0019",
+      "shelfSimilarity": 0.148,
+      "shelfNearest": "HRM-0018",
+      "exemplarSimilarity": 0.0785,
+      "gateVersion": 8
+    }
+  }
+}

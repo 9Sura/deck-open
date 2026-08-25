@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0010",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Employ communication styles appropriate to target audience.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Describe the impact of a person's social media brand on the achievement of organizational objectives.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Reinforce service orientation through communication.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Ascertain employee's role in meeting organizational goals.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe factors used by businesses to position corporate brands.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources manager at BRIARWOOD SENIOR LIVING, which operates fourteen assisted living communities. The chief executive officer (judge) has asked you to meet this morning about turnover in dining services and about an offer that would take the department off the company's books entirely.\n\nBRIARWOOD is the largest operator in its region and opens its first two communities across the state line next spring. Its marketing, its tours and its residents' families all rest on one claim: the same faces every day. Families repeat that claim in online reviews, and the dining aides are the staff residents see most often.\n\nDining services is where the company is bleeding. Aides leave at more than twice the rate of any other department, mostly for warehouse work paying two dollars an hour more, and several communities are running on agency fill-ins who do not know the residents' names or their diets. Raising dining wages and building a career path would take money out of the expansion budget and delay at least one of the two openings.\n\nHEARTHWAY DINING SERVICES has offered to take over dining at all fourteen communities, pay a transition fee large enough to fund both openings, and absorb the hiring problem. The aides who stayed would become HEARTHWAY employees at HEARTHWAY's pay, and residents who have eaten with them for years would meet a rotating staff. Long-serving aides are already posting about the rumor on their personal accounts, where families read them.\n\nThe chief executive officer (judge) wants you to recommend whether BRIARWOOD should accept the HEARTHWAY offer or keep dining in house, how the decision will be explained to the dining aides and to residents' families, and what it means for what the company tells its market about itself. You will present to the chief executive officer (judge), who will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the chief executive officer (judge) at BRIARWOOD SENIOR LIVING. Business background is the same as the situation above. Dining services is losing aides at more than twice the rate of any other department, two out-of-state communities open next spring, and HEARTHWAY DINING SERVICES has offered a transition fee large enough to fund both openings in exchange for the department.\n\nYou have asked the human resources manager to recommend whether to accept the HEARTHWAY offer or keep dining in house, how the decision will be explained to the dining aides and to residents' families, and what it means for what the company tells its market about itself.\n\nAfter the participant has presented, ask these questions:",
+  "judgeQuestions": [
+    "Who does this decision land hardest on, and what do you say to that person?",
+    "What do we tell a family that has known the same dining staff for years?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the claim that residents see the same faces every day, which the marketing and the tours rest on and which families repeat in online reviews",
+        "the expansion budget for the two communities opening across the state line next spring",
+        "the agency fill-ins several communities are running on, who do not know the residents' names or their diets"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the claim that residents see the same faces every day, which the marketing and the tours rest on and which families repeat in online reviews",
+        "the expansion budget for the two communities opening across the state line next spring",
+        "the agency fill-ins several communities are running on, who do not know the residents' names or their diets"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 319,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "senior living operator",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "turnover concentrated in one department",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0010",
+      "shelfSimilarity": 0.1253,
+      "shelfNearest": "HRM-0006",
+      "exemplarSimilarity": 0.0495,
+      "gateVersion": 8
+    }
+  }
+}

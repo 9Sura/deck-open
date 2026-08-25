@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0053",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Explain marketing and its importance in a global economy.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Differentiate between service marketing and product marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Recognize/Reward others for their efforts and contributions.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Persuade others.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Determine factors affecting business risk.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Discuss the nature of customer relationship management.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your teammate are the director of marketing and the manager of client relations at MERIDIAN CLAIMS PARTNERS, a medical billing company that prepares, files, and collects insurance claims for hospitals and physician practices. The company's chief executive officer (judge), hired eleven months ago, has asked the two of you to bring a recommendation to this week's executive meeting.\n\nMERIDIAN CLAIMS PARTNERS sells a service rather than a product, and after two losing years it is rebuilding on that difference. Previous leadership competed on price and lost accounts anyway, and the rebrand is the first chance to credit the account team that held both major clients through the losses. The chief executive officer (judge) has committed the board to one company-wide document destruction schedule by the end of the quarter.\n\nThe largest new account, HARBORLINE HEALTH SYSTEM, signed a pilot agreement requiring every claim document to be destroyed eighteen months after the claim closes. Harborline made that promise to its own patients, and no competing billing firm in the region offers it. Extending the same eighteen-month purge to every client would give MERIDIAN CLAIMS PARTNERS a differentiator it could advertise at home and in the overseas markets now shopping for billing partners.\n\nThe oldest account, VALE RIDGE ORTHOPEDIC GROUP, signed an agreement requiring every supporting document to be held for seven years so the practice can defend itself in a payer audit. Vale Ridge stayed through both losing years, supplies the endorsement the rebuild's marketing rests on, and is roughly a sixth of revenue. Some claims are billed for both clients, since Vale Ridge surgeons operate inside Harborline facilities, and one record cannot follow both schedules.\n\nThe chief executive officer (judge) wants the two of you to analyze the choices and recommend one. Standardizing on the eighteen-month purge means telling Vale Ridge its audit protection ends, and likely losing that account, its endorsement, and its share of revenue. Standardizing on seven-year retention means telling Harborline the purge promise will not outlive the pilot, giving up the one claim no rival offers. Keeping both schedules means paying for duplicate systems and staff during a turnaround, with no single promise to advertise.\n\nYou will present your recommendation to the chief executive officer (judge) in a meeting to take place in the executive office. The chief executive officer (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented and have answered the chief executive officer's (judge) questions, the chief executive officer (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the chief executive officer (judge) of MERIDIAN CLAIMS PARTNERS, and you were hired eleven months ago to turn the company around. Business background is the same as the situation above. You have told the board that the company will operate one document destruction schedule by the end of the quarter, and the director of marketing and the manager of client relations are bringing you their recommendation for what that schedule should be and how it should be sold.\n\nYou want to hear which schedule they recommend, what it costs the client it does not suit, and how the company should market the promise that comes with it. During the presentation you are to ask the following questions of the participant team:",
+  "judgeQuestions": [
+    "Which approach did you rule out, and what would we have gained by taking it instead?",
+    "If we had kept both schedules running side by side, what would that have cost us?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "Harborline's signed pilot agreement requires destruction eighteen months after a claim closes",
+        "Vale Ridge's signed agreement requires supporting documents to be held for seven years",
+        "claims billed for both clients cannot follow both schedules",
+        "the chief executive officer has committed the board to one company-wide document destruction schedule by the end of the quarter"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "Harborline's signed pilot agreement requires destruction eighteen months after a claim closes",
+        "Vale Ridge's signed agreement requires supporting documents to be held for seven years",
+        "claims billed for both clients cannot follow both schedules",
+        "the chief executive officer has committed the board to one company-wide document destruction schedule by the end of the quarter"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 424,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "medical billing company",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "record retention and a document destruction schedule",
+        "dilemma_archetype": "an obligation to two parties whose contracts conflict",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0053",
+      "shelfSimilarity": 0.1709,
+      "shelfNearest": "BLTDM-0044",
+      "exemplarSimilarity": 0.0802,
+      "gateVersion": 8
+    }
+  }
+}

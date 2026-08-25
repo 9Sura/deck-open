@@ -15,6 +15,7 @@ import requests
 BASE_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = BASE_DIR / "data"
 PI_DIR = DATA_DIR / "pi"
+ADJACENT_PI_DIR = PI_DIR / "adjacent"
 EVENTS_CONFIG_PATH = DATA_DIR / "events.json"
 PROMPTS_DIR = BASE_DIR / "src" / "prompts"
 SYSTEM_PROMPT_PATH = PROMPTS_DIR / "system.txt"
@@ -30,6 +31,13 @@ REPO_ROOT = BASE_DIR.parents[1]
 # check that COMPARES it.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import icdc_gate as gate  # noqa: E402  (path shim above)
+
+# The library's own dedup key, imported rather than restated for the same reason
+# `harvest_pis` imports the quota table from the gate: the writer of `data/pi/`
+# owns what counts as ONE indicator, and a selector carrying a second copy of that
+# judgement is how the two come to disagree about it. `harvest_pis` imports only
+# `icdc_gate` and the stdlib, so this adds no cycle.
+from harvest_pis import normalize_pi  # noqa: E402  (path shim above)
 
 
 def _load_dotenv() -> None:
@@ -217,7 +225,13 @@ def skills_count(event_cfg: Dict) -> int:
 # Phase 2 -- Performance indicators
 # ----------------------------
 def load_pi_by_area(event_cfg: Dict) -> Dict[str, List[str]]:
-    """Map each of the event's eligible instructional areas -> its PIs.
+    """Map each of the event's eligible instructional areas -> its IN-AREA PIs.
+
+    This reads ONE OF TWO TIERS. `harvest_pis.py` splits every area into the PIs
+    the corpus files under it with corroboration (`data/pi/<area>.txt`, this
+    function) and the PIs that merely shared a case with them
+    (`data/pi/adjacent/<area>.txt`, `load_adjacent_pi_by_area` below). The core
+    quota draws from this tier only -- see `select_event_pis`.
 
     Raises on an eligible area that resolves to zero PIs (plan 05 D7). This used
     to warn and carry on, and the silence is why PFL spent months listing an
@@ -250,6 +264,79 @@ def load_pi_by_area(event_cfg: Dict) -> Dict[str, List[str]]:
     return pi_by_area
 
 
+def load_adjacent_pi_by_area(event_cfg: Dict) -> Dict[str, List[str]]:
+    """The CO-OCCURRENCE tier per eligible area -- adjacent support only.
+
+    Deliberately forgiving where `load_pi_by_area` raises. An empty or missing
+    file here is a real state rather than a config error: an area the corpus
+    supplies nothing for (business_law, financial_information_management,
+    strategic_management) has no co-occurrence tier at all, and D7's argument
+    does not apply -- the area still contributes its in-area lines, so it is not
+    silently contributing nothing. A checkout that predates the tier split gets
+    {} and behaves as it did before, which is why this returns rather than
+    raising: the missing file cannot make an event unrunnable.
+    """
+    adjacent_by_area: Dict[str, List[str]] = {}
+    for slug in event_cfg["instructional_areas"]:
+        pi_file = ADJACENT_PI_DIR / f"{slug}.txt"
+        if not pi_file.exists():
+            continue
+        lines = [ln.strip() for ln in read_text(pi_file).splitlines() if ln.strip()]
+        if lines:
+            adjacent_by_area[humanize_area(slug)] = lines
+
+    return adjacent_by_area
+
+
+def check_core_pi_tier(
+    pi_items: Sequence[Dict[str, str]], declared_area: str, event_cfg: Dict
+) -> List[str]:
+    """Is every CORE PI actually in the declared area's in-area tier?
+
+    `gate.check_pi_quota` already proves each core PI is FILED under the declared
+    area; this proves the area filed it with corroboration rather than because one
+    case happened to carry it. Both read the banked artifact's own
+    `performanceIndicators` record, so both audit a shelf after the fact.
+
+    It lives here rather than in `icdc_gate` because it needs `data/pi/`, and the
+    gate reads no data files -- every other knob it owns is computable from the
+    roleplay text alone. It is wired in beside the quota in `fill_bank`.
+
+    A TIER LOOKUP IS UNAMBIGUOUS WHERE AN AREA LOOKUP IS NOT. §3.2b's warning is
+    that a PI STRING cannot be mapped back to an area, because 25.8% of corpus PIs
+    have several. Tier is a property of the (area, PI) PAIR, and the artifact
+    records both -- so this recovers something real rather than guessing the way a
+    string-to-area remap would.
+
+    Silent when the tier data is absent: a checkout that has not re-harvested
+    since the split has no `adjacent/`, and reporting every core PI as untiered
+    there would be noise about the checkout rather than about the roleplay.
+    """
+    if not ADJACENT_PI_DIR.exists() or not declared_area:
+        return []
+
+    try:
+        in_area = set(load_pi_by_area(event_cfg).get(declared_area, []))
+    except (FileNotFoundError, ValueError):
+        return []
+    if not in_area:
+        return []
+
+    stray = [
+        it["pi"] for it in pi_items
+        if (it.get("role") or "") == "core"
+        and (it.get("area") or "") == declared_area
+        and it["pi"] not in in_area
+    ]
+    if not stray:
+        return []
+    return [
+        f"quota: {len(stray)} core performance indicator(s) are in the "
+        f"co-occurrence tier of '{declared_area}', not its in-area tier: "
+        + "; ".join(stray)
+    ]
+
+
 # Plan 05 §3.1's core quota. It MOVED to icdc_gate with plan 05 §7 step 3 and is
 # re-exported here under its old name: the gate now proves the quota off a banked
 # file's own provenance (`gate.check_pi_quota`), and a selector and a gate reading
@@ -257,8 +344,28 @@ def load_pi_by_area(event_cfg: Dict) -> Dict[str, List[str]]:
 CORE_MINIMUM_BY_PI_COUNT: Dict[int, int] = gate.CORE_MINIMUM_BY_PI_COUNT
 
 
+def _dedupe_by_key(pis: Sequence[str]) -> List[str]:
+    """One entry per INDICATOR, first spelling in the given order wins.
+
+    Order-preserving, because the caller's order is the file's order and every draw
+    downstream is seeded: a set here would make the pool depend on hash iteration and
+    break "re-resolving a work order reproduces it."
+    """
+    seen: set = set()
+    out: List[str] = []
+    for pi in pis:
+        key = normalize_pi(pi)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(pi)
+    return out
+
+
 def select_event_pis(
-    pi_by_area: Dict[str, List[str]], event_cfg: Dict
+    pi_by_area: Dict[str, List[str]],
+    event_cfg: Dict,
+    adjacent_by_area: Optional[Dict[str, List[str]]] = None,
 ) -> Tuple[List[Dict[str, str]], str]:
     """Declare an instructional area, then draw a quota'd PI bundle for it (plan 05 §3).
 
@@ -269,12 +376,41 @@ def select_event_pis(
 
       1. DECLARE the area first, drawn from the event's own `instructional_areas`
          under `area_weights` (uniform unless events.json says otherwise -- OQ1).
-      2. Draw the CORE from that area: `CORE_MINIMUM_BY_PI_COUNT[pi_count]` PIs.
-      3. Draw the REMAINDER from the other eligible areas as adjacent support.
+      2. Draw the CORE from that area's IN-AREA TIER:
+         `CORE_MINIMUM_BY_PI_COUNT[pi_count]` PIs.
+      3. Draw the REMAINDER from the other eligible areas AND from every area's
+         co-occurrence tier, as adjacent support.
       4. Return them CORE FIRST. There is no `random.shuffle` any more: official
          cases do not shuffle, and shuffling is what made the recorded order carry
          no information. `format_pi_list` renders this order and the prompt asks the
          author to reproduce it, so nothing downstream may re-sort it.
+
+    STEP 2 IS TIERED, and that is the 2026-08-23 change. `harvest_pis.py` files a
+    corpus PI under the area its CASE declared, which put the PIs DECA lists under
+    an area and the PIs that merely shared a case with them in one flat file. The
+    core drew uniformly over both, so "Detail the functions of room service." was
+    a drawable core ECONOMICS PI on the strength of one hospitality case that
+    declared Economics -- and 15 of the 19 BLTDM roleplays the 2026-08-23 recheck
+    failed, failed on a core PI the situation could not demonstrate. The core now
+    draws from the in-area tier alone.
+
+    EVERY DRAW IS DEDUPED BY INDICATOR, not by PI string, and both steps are. Two
+    spellings of one indicator are two distinct strings, which is how BLTDM-0032
+    banked "Communicate core values of product/service." and the typo variant
+    "Communicate core vale of product/service." in one bundle. `normalize_pi` is the
+    key and it comes from `harvest_pis`, so the selector and the library agree on
+    what one indicator is; only the KEY normalizes, never the spelling written into
+    the record.
+
+    STEP 3 IS NOT TIERED, deliberately. A co-occurrence PI is uncorroborated for
+    that area, not wrong, and adjacent support is exactly the job it was doing
+    usefully. Narrowing the adjacent pool too would cost variety and fix nothing:
+    an adjacent PI makes no claim about the declared area.
+
+    `adjacent_by_area` is loaded from `load_adjacent_pi_by_area` when not passed.
+    It is a parameter rather than an unconditional load so a caller that already
+    has both tiers does not re-read the tree per candidate, and so a test can hand
+    in a pool without touching disk.
 
     Draws come from the MODULE-LEVEL `random`, which every caller seeds immediately
     beforehand (`<CODE>:<date>` or `<CODE>:<bank id>`). A local `random.Random()`
@@ -296,6 +432,9 @@ def select_event_pis(
         )
     core_min = CORE_MINIMUM_BY_PI_COUNT[pi_count]
 
+    if adjacent_by_area is None:
+        adjacent_by_area = load_adjacent_pi_by_area(event_cfg)
+
     # Slug order from events.json, so the weighting is keyed on the same slugs the
     # config names. pi_by_area is humanized, and load_pi_by_area has already raised
     # on any eligible area that resolves to zero PIs (D7).
@@ -308,9 +447,13 @@ def select_event_pis(
 
     # An area too thin to fill the core cannot be declared, and that is a data/config
     # error rather than something to route around: silently skipping it would change
-    # the weighting without saying so, which is D7's own argument one level up. No
-    # event trips this today (the thinnest eligible area holds 5 PIs against a core
-    # minimum of 3).
+    # the weighting without saying so, which is D7's own argument one level up. This
+    # reads the IN-AREA tier, which is what the core draws from, so the tier split
+    # moved the margin. Nothing trips it today, but the slack is now ONE PI at the
+    # tightest: marketing_information_management holds 4 against a core minimum of
+    # 3 (AAM/ENT/FMS/RMS), entrepreneurship and human_resources_management hold 5
+    # against 4 (ETDM). `harvest_pis.py` runs this same check per event before it
+    # writes, so raising MIN_IN_AREA_SUPPORT surfaces there rather than here.
     thin = [s for s in slugs if len(pi_by_area[humanize_area(s)]) < core_min]
     if thin:
         raise ValueError(
@@ -324,29 +467,69 @@ def select_event_pis(
     declared = random.choices(slugs, weights=[weights.get(s, 1) for s in slugs], k=1)[0]
     declared_area = humanize_area(declared)
 
+    # THE CORE POOL IS DEDUPED BEFORE IT IS SAMPLED, on the same normalized key the
+    # adjacent pool uses below. `random.sample` cannot draw one list entry twice, but
+    # it happily draws two entries that are two SPELLINGS of one indicator -- which is
+    # exactly what banked BLTDM-0032 with "Communicate core values of product/service."
+    # and the typo variant "Communicate core vale of product/service." in one core
+    # bundle (audits/BLTDM_30_Roleplay_Recheck_Report.pdf, 2026-08-23).
+    core_pool = _dedupe_by_key(pi_by_area[declared_area])
+    if len(core_pool) < core_min:
+        # `thin` above measured the RAW file, which is what `harvest_pis` reports and
+        # what the operator would go and look at. Only a library carrying duplicate
+        # spellings can reach here, and re-harvesting is the fix.
+        raise ValueError(
+            f"{event_cfg.get('event_code', '?')}'s declared area '{declared_area}' "
+            f"holds {len(pi_by_area[declared_area])} PI line(s) but only "
+            f"{len(core_pool)} distinct indicator(s), fewer than the {core_min} plan "
+            "05 §3.1's quota requires. Re-run harvest_pis.py --write."
+        )
     core = [
         {"area": declared_area, "pi": pi, "role": "core"}
-        for pi in random.sample(pi_by_area[declared_area], core_min)
+        for pi in random.sample(core_pool, core_min)
     ]
 
-    # Adjacent support, from every OTHER eligible area. Deduped by PI STRING, not by
-    # (area, pi): 25.8% of corpus PIs are filed under more than one area (§3.2b), so
-    # the same indicator really does appear in several of an event's pools, and
-    # without this the pool holds it twice -- which both over-weights it and can put
-    # a duplicate bullet in the prompt, breaking parse_roleplay's join back onto this
-    # record. First eligible area in events.json order wins, so the dedup is
-    # deterministic under the seed rather than dependent on dict iteration.
-    taken = {it["pi"] for it in core}
+    # Adjacent support, from every OTHER eligible area's in-area tier PLUS every
+    # eligible area's co-occurrence tier -- the declared area's included, since a PI
+    # that merely shared a case with the declared area is adjacent support by
+    # definition and excluding it would throw away the pool the tier split created.
+    #
+    # Deduped by INDICATOR, not by (area, pi): 25.8% of corpus PIs are filed under
+    # more than one area (§3.2b), so the same indicator really does appear in several
+    # of an event's pools, and without this the pool holds it twice -- which both
+    # over-weights it and can put a duplicate bullet in the prompt, breaking
+    # parse_roleplay's join back onto this record. The dedup now spans both tiers for
+    # the same reason it spanned areas.
+    #
+    # THE KEY IS `normalize_pi`, NOT THE RAW STRING. Two spellings of one indicator
+    # are two distinct strings, so a string key let a typo variant and its correct
+    # spelling both into one bundle. `harvest_pis` collapses the pair at the library
+    # level now, but the library is a data file and this is the selector: keying on
+    # the same function means a spelling that gets past the harvest -- a new corpus
+    # file, an area whose lines are kept rather than harvested -- still cannot split
+    # one indicator into two slots. Only the KEY normalizes; the SPELLING written into
+    # the record stays verbatim, because the prompt asks the author to reproduce it
+    # word for word and `validate_roleplay` compares it literally.
+    #
+    # IN-AREA IS ENUMERATED FIRST, then co-occurrence, both in events.json slug
+    # order, so the dedup is deterministic under the seed rather than dependent on
+    # dict iteration -- and a PI in both tiers keeps its in-area attribution, which
+    # is the better-evidenced one. (`harvest_pis.py` already makes the two tiers
+    # disjoint per area; this holds the ordering across DIFFERENT areas, where they
+    # legitimately overlap.)
+    taken = {normalize_pi(it["pi"]) for it in core}
     adjacent_pool: List[Dict[str, str]] = []
-    for s in slugs:
-        if s == declared:
-            continue
-        area = humanize_area(s)
-        for pi in pi_by_area[area]:
-            if pi in taken:
+    for tier, skip_declared in ((pi_by_area, True), (adjacent_by_area, False)):
+        for s in slugs:
+            if skip_declared and s == declared:
                 continue
-            taken.add(pi)
-            adjacent_pool.append({"area": area, "pi": pi, "role": "adjacent"})
+            area = humanize_area(s)
+            for pi in tier.get(area, []):
+                key = normalize_pi(pi)
+                if key in taken:
+                    continue
+                taken.add(key)
+                adjacent_pool.append({"area": area, "pi": pi, "role": "adjacent"})
     remainder = pi_count - core_min
 
     if len(adjacent_pool) < remainder:
@@ -410,7 +593,7 @@ STRICT_REMINDER = (
     "FORMATTING REMINDER: Output ONLY the finished roleplay, no preamble or commentary. "
     "Include every required section header in order: 'CAREER CLUSTER' (only if this event "
     "has one), 'INSTRUCTIONAL AREA', "
-    "the event name, 'PARTICIPANT INSTRUCTIONS', '21st CENTURY SKILLS' (if this event "
+    "the event name, '21st CENTURY SKILLS' (if this event "
     "includes it), 'PERFORMANCE INDICATORS', the situation section, and "
     "'JUDGE ROLE-PLAY CHARACTERIZATION'. Under PERFORMANCE INDICATORS, reproduce EVERY "
     "performance indicator EXACTLY as given, word for word -- do not reword, add, or drop any."
@@ -456,6 +639,13 @@ def build_user_message(
         f"PREPARATION MINUTES: {event_cfg['prep_minutes']}",
         f"PRESENTATION MINUTES: {event_cfg['presentation_minutes']}",
         f"JUDGE QUESTION MINUTES: {event_cfg.get('judge_question_minutes', 0)}",
+        # The COUNT, beside the minutes, and in the user message rather than in a
+        # brief because it is a per-event measurement that both briefs have to reach:
+        # the ICDC brief is assembled per event but `system.txt` is read raw on the
+        # day path, so a number substituted into a prompt file would only reach one
+        # of them. `gate.judge_question_count` raises on an unmeasured event, so this
+        # cannot quietly become a default.
+        f"JUDGE QUESTIONS: {gate.judge_question_count(event_cfg)}",
         f"SITUATION SECTION HEADER: {situation_header(event_cfg)}",
         # SCENARIO SHAPE, plan 05 §5.2 step 3. The system brief is shared by all
         # 28 events and tells the author to "assign the participant(s) a specific
@@ -769,10 +959,15 @@ def validate_roleplay(
     sit_header = situation_header(event_cfg)
     other_header = "EVENT SITUATION" if sit_header == "CASE STUDY SITUATION" else "CASE STUDY SITUATION"
 
+    # PARTICIPANT INSTRUCTIONS IS NOT IN THIS LIST (2026-08-23). The block is no
+    # longer authored -- `parse_roleplay.participant_instructions_for` renders DECA's
+    # own wording from the event config -- so requiring it here would fail a
+    # candidate for omitting a section the brief no longer asks for. A candidate that
+    # writes one anyway is recorded as an `unexpected-section` defect by the parser
+    # and is not discarded for it.
     ordered = [
         *(["CAREER CLUSTER"] if include_cluster else []),
         "INSTRUCTIONAL AREA",
-        "PARTICIPANT INSTRUCTIONS",
         "PERFORMANCE INDICATORS",
         sit_header,
         "JUDGE ROLE-PLAY CHARACTERIZATION",
@@ -1001,19 +1196,28 @@ def situation_paragraphs(event_cfg: Dict) -> int:
 
 
 def build_icdc_system_prompt(event_cfg: Dict, brief_path: Optional[Path] = None) -> str:
-    """<brief> + the §5a knob spec, with this event's length band substituted.
+    """<brief> + the §5a knob spec, with this event's length band and target substituted.
 
     THE BAND, NOT THE FLOOR (plan 05 D9/D10, §7 steps 2 and 3). The author is told
-    `situation_word_band(event_cfg)` -- 1.4x-1.8x the mean length of this event's own
-    corpus situations. Step 2 moved every author-facing string onto it; step 3 moved
-    the GATE, so the per-format floor is gone from the repo entirely and the stated
-    number and the enforced number are the same one again. They disagreed outright on
-    two of three formats while the seam was open (principles' 450 floor against a
-    336-411 ceiling), which is why nothing may reintroduce a floor beside a band.
+    `situation_word_band(event_cfg)`, whose multipliers and window live on
+    `icdc_gate.BAND_LO_MULT` and are not restated here -- a second copy of them is
+    what left `events.json`'s `_meta` describing a pair plan 05 had already replaced.
+    Step 2 moved every author-facing string onto the band; step 3 moved the GATE, so
+    the per-format floor is gone from the repo entirely and the stated number and the
+    enforced number are the same one again. They disagreed outright on two of three
+    formats while the seam was open (principles' 450 floor against a 336-411 ceiling),
+    which is why nothing may reintroduce a floor beside a band.
 
-    The old TARGET (~40% over the floor, to counter a model that undershoots any
-    stated length) is gone with the floor: a band already has a top, and inflating a
-    target past it would ask for exactly the over-long case the band exists to stop.
+    THE TARGET IS THE MEAN, AND IT IS NOT THE OLD TARGET (plan 06 OQ1). The target
+    this function substitutes is `authentic_situation_mean` itself -- the centre of
+    the band, not a number outside it. The one plan 05 deleted was ~40% OVER the
+    then-floor, an inflation meant to counter a model that undershoots any stated
+    length, and it went with the floor because a band already has a top and asking
+    past it requests exactly the over-long case the band exists to stop. A target
+    inside the band is the opposite instruction and is what OQ1 chose INSTEAD of
+    moving the multipliers: the shelf's authors park at whatever ceiling they are
+    given, so the fix is to state where to aim, not to lower where it fails. The
+    band stays a rail that fails in both directions.
 
     `brief_path` defaults to `system.txt`, which is what the Ollama day path uses
     and must keep using -- its measured pass rates were taken against that brief.
@@ -1026,6 +1230,11 @@ def build_icdc_system_prompt(event_cfg: Dict, brief_path: Optional[Path] = None)
     import icdc_gate as gate  # noqa: PLC0415  (sibling module; avoids an import cycle)
 
     lo, hi = gate.situation_word_band(event_cfg)
+    # Read from the mean the band was fitted to, never derived back out of `lo`/`hi`:
+    # `situation_word_band` owns the edges, and a target recomputed from an edge would
+    # drift off the mean the moment either multiplier moved. The subscript cannot raise
+    # here -- the call above already raised on an event with no measured mean.
+    target = round(event_cfg["authentic_situation_mean"])
     paras = situation_paragraphs(event_cfg)
     para_lo, para_hi = round(lo / paras), round(hi / paras)
 
@@ -1033,6 +1242,7 @@ def build_icdc_system_prompt(event_cfg: Dict, brief_path: Optional[Path] = None)
         read_text(ICDC_PROMPT_PATH)
         .replace("SITUATION_WORD_MIN", str(lo))
         .replace("SITUATION_WORD_MAX", str(hi))
+        .replace("SITUATION_WORD_TARGET", str(target))
         .replace("SITUATION_PARA_HINT", str(paras))
         .replace("SITUATION_PARA_WORDS", f"{para_lo} to {para_hi} words")
     )

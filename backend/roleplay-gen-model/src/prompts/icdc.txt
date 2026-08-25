@@ -26,11 +26,14 @@ Output the sections in exactly this order, and put nothing else between them:
   1. the event code / level line, then the event name in capitals
   2. CAREER CLUSTER          (only if this event has one)
   3. INSTRUCTIONAL AREA
-  4. PARTICIPANT INSTRUCTIONS
-  5. 21st CENTURY SKILLS     (only if this event includes it)
-  6. PERFORMANCE INDICATORS
-  7. the situation section (use the header given in the user message)
-  8. JUDGE ROLE-PLAY CHARACTERIZATION, then the numbered judge questions
+  4. 21st CENTURY SKILLS     (only if this event includes it)
+  5. PERFORMANCE INDICATORS
+  6. the situation section (use the header given in the user message)
+  7. JUDGE ROLE-PLAY CHARACTERIZATION, then the numbered judge questions
+
+Do NOT write a PARTICIPANT INSTRUCTIONS section. DECA prints the same block every time and
+this pipeline renders it from the event's own configuration; anything you write there is
+discarded.
 
 There is no other section. In particular there is no exhibit, no data block, no appendix,
 and no attachment — see F3.
@@ -76,8 +79,9 @@ and the prose must make the real cost of each one visible. If a competent compet
 identify one obviously correct answer in ten seconds, the roleplay has failed. This is where
 the difficulty of this tier lives — spend your effort here.
 
-F6 — JUDGE QUESTIONS: exactly 2, or 3 when the case genuinely carries a third. The corpus
-runs 2 questions in 302 of 396 cases and 3 in 89; four or more is outside it.
+F6 — JUDGE QUESTIONS: exactly as many as the user message's JUDGE QUESTIONS line gives,
+no more and no fewer. That is the count DECA's current format prints for this event and
+it is checked mechanically.
 
 Write them the way DECA writes them — short, plainly phrased, and answerable from the
 scenario. They are conversation openers for the judge, not rubric items. These are real
@@ -92,11 +96,13 @@ against". Do not name a stakeholder and quote their position back at the partici
 one of those is an artefact of a rubric, and none of them appears in the corpus.
 
 F7 — LENGTH. The situation section alone MUST land between SITUATION_WORD_MIN and
-SITUATION_WORD_MAX words, not counting the section header. BOTH ENDS ARE REAL. This band is
-computed from the mean length of THIS EVENT's own published cases, so the top of it is
-already the long end of what DECA prints. Over the maximum, the case is longer than any real
-case of this event and the extra words are costing the competitor time, not teaching them
-anything.
+SITUATION_WORD_MAX words, not counting the section header. BOTH ENDS ARE REAL. Aim at
+SITUATION_WORD_TARGET. That is the mean length of THIS EVENT's own published cases in the
+format DECA prints now, so a situation written to it is the length a competitor actually meets
+at this event. The band is computed from that same mean, which is why the top of it is already
+the long end of what DECA prints — the maximum is the outer edge of the published range, not
+the goal. Over the maximum, the case is longer than any real case of this event and the extra
+words are costing the competitor time, not teaching them anything.
 
 Write it as SITUATION_PARA_HINT paragraphs of SITUATION_PARA_WORDS each, on the corpus's own
 plan: assign the participant's role and the judge's role; establish the company and the
@@ -133,6 +139,12 @@ Rules for the tail:
     that any two of them collide. Do not invent a numeric limit to fill this line.
   - OPTIONS lists the courses of action a competent competitor could defend, with what each
     one really costs. There must be at least TWO. This is F5 and it is the line that matters.
+    Every option needs BOTH halves and the " - " between them: the action, and the cost of
+    taking it. An option with no stated cost is a failure, not a short entry.
   - Every role, constraint, and option you list must appear in the situation prose. The tail
-    is machine-checked against the prose; do not list anything you did not write.
+    is machine-checked against the prose; do not list anything you did not write. THE TWO
+    HALVES OF AN OPTION ARE CHECKED SEPARATELY — the cost has to be in the prose too, not
+    only the action. If the situation never says what a course of action would cost, the
+    situation is where to fix that, not the tail: a reader who cannot see the cost of the
+    second option is reading a case with one option in it, which is the failure F5 names.
   - The tail is removed before the roleplay is stored and is never seen by a competitor.

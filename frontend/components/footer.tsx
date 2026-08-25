@@ -11,7 +11,15 @@ export function Footer() {
           <Sparkle className="h-4 w-4 text-highlight-ink" />
           <span className="sketch-radius border-2 border-ink bg-accent px-1.5 py-0.5 text-[var(--on-accent)]">DECK</span>
         </div>
-        <div className="flex items-center gap-6 text-sm text-muted">
+        {/* Wraps, because this row grows: a guest carries four links but
+            hasFullAccess adds Changelog + Help, and six at gap-6 measure a
+            fixed 419px that pushed every route sideways on a phone (#215).
+            Same shape as the day stepper in #206 — the PARENT already wraps,
+            which only ever separates these three blocks and never breaks the
+            block that actually overflows. Centred so a wrapped line sits
+            under the first rather than hanging off one edge; a no-op above
+            sm, where all six still fit on one line. */}
+        <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 text-sm text-muted">
           {/* Both are member routes — a guest's click opens sign-up rather than
               landing on the wall (#146). */}
           <FooterPracticeLinks />

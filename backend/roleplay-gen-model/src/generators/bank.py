@@ -126,13 +126,8 @@ def shelf_depth(out_dir: Path, code: str) -> int:
     return len(list(d.glob(f"{code.upper()}-*.json"))) if d.is_dir() else 0
 
 
-def next_id(out_dir: Path, code: str, *, offset: int = 0) -> str:
-    """The next unused bank id for this event.
-
-    From the MAXIMUM ordinal on disk, not the count -- ids are never renumbered
-    and never reused, so a gap left by a deleted entry stays a gap. `offset`
-    reserves ids for a batch being planned before any of it is written.
-    """
+def highest_on_disk(out_dir: Path, code: str) -> int:
+    """The largest ordinal this shelf currently HOLDS. 0 for an empty shelf."""
     d = shelf_dir(out_dir, code)
     highest = 0
     if d.is_dir():
@@ -141,7 +136,38 @@ def next_id(out_dir: Path, code: str, *, offset: int = 0) -> str:
                 highest = max(highest, ordinal_of(p.stem))
             except ValueError:
                 continue
-    return format_id(code, highest + 1 + offset)
+    return highest
+
+
+def highest_ever(out_dir: Path, code: str) -> int:
+    """The largest ordinal this shelf has EVER held -- disk, or the manifest's memory.
+
+    DISK ALONE IS NOT A RECORD OF WHAT HAS BEEN USED, and that is the whole reason
+    this function exists. Deleting an INTERIOR entry leaves a hole and the max is
+    unchanged, so disk answers correctly. Deleting the HIGHEST entry moves the max
+    DOWN, and the next id handed out is the one just retired -- which is exactly
+    what plan 06 section 8's discard did to BLTDM-0035, the shelf's high-water mark
+    and a member of the discard set. The audit grades roleplays by id, `day.json`
+    stores refs rather than copies, and the difficulty tap aggregates per roleplay,
+    so a reissued id silently joins new work to an old record.
+
+    The manifest carries the memory (`highestOrdinal`) because deletion is what
+    destroys the evidence on disk -- there is nothing left to recompute FROM. Taking
+    the max of the two keeps it correct when the manifest is missing, stale, or
+    behind a shelf that has since grown.
+    """
+    return max(highest_on_disk(out_dir, code), recorded_high_water(out_dir).get(code.upper(), 0))
+
+
+def next_id(out_dir: Path, code: str, *, offset: int = 0) -> str:
+    """The next unused bank id for this event.
+
+    From the HIGHEST ORDINAL EVER USED, not the count and not the max on disk --
+    ids are never renumbered and never reused, so a gap left by a deleted entry
+    stays a gap even when the deleted entry was the last one. `offset` reserves
+    ids for a batch being planned before any of it is written.
+    """
+    return format_id(code, highest_ever(out_dir, code) + 1 + offset)
 
 
 def write_entry(out_dir: Path, entry: Dict) -> Path:
@@ -278,13 +304,66 @@ def manifest_path(out_dir: Path) -> Path:
     return bank_dir(out_dir) / MANIFEST_NAME
 
 
+def read_manifest(out_dir: Path) -> Dict:
+    """The manifest as it stands, or `{}` if there is not one yet or it is unreadable.
+
+    Never raises: the manifest is a derived artifact everywhere except
+    `highestOrdinal`, so a missing or corrupt one must not stop a bank write. The
+    one remembered field degrades to the disk maximum, which is the pre-fix
+    behaviour rather than a new failure mode.
+    """
+    p = manifest_path(out_dir)
+    if not p.is_file():
+        return {}
+    try:
+        loaded = json.loads(p.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return loaded if isinstance(loaded, dict) else {}
+
+
+def recorded_high_water(out_dir: Path) -> Dict[str, int]:
+    """`{CODE: highest ordinal ever used}` as the manifest remembers it.
+
+    Tolerates every shape a hand-edit can leave behind -- a missing block, a
+    non-mapping, a non-integer, a negative -- by dropping just that entry. A shelf
+    that drops out falls back to its disk maximum in `highest_ever`.
+    """
+    block = read_manifest(out_dir).get("highestOrdinal")
+    if not isinstance(block, dict):
+        return {}
+    out: Dict[str, int] = {}
+    for code, value in block.items():
+        if isinstance(value, bool) or not isinstance(value, int) or value < 0:
+            continue
+        out[str(code).upper()] = value
+    return out
+
+
 def build_manifest(out_dir: Path, codes: Sequence[str]) -> Dict:
-    """Derived wholly from the shelves on disk -- never incrementally updated.
+    """Derived wholly from the shelves on disk -- never incrementally updated,
+    WITH ONE DELIBERATE EXCEPTION named below.
 
     A counter that is written alongside the thing it counts drifts the first time
     a write half-fails. Recomputing is cheap and cannot disagree with reality.
+
+    `highestOrdinal` IS THE EXCEPTION, and it has to be, because it is the one
+    fact about a shelf that DELETION DESTROYS. Every other field here answers "what
+    is on disk now" and can be recomputed from disk forever. `highestOrdinal`
+    answers "what has this shelf ever held", and once the highest entry is deleted
+    there is nothing on disk left to recompute it from -- which is how plan 06
+    section 8's discard of BLTDM-0035 handed 0035 straight back out as the next id
+    (see `highest_ever`). It is therefore MONOTONIC: every rebuild takes the max of
+    what disk shows and what the manifest already remembered, so it survives a
+    deletion and can never move backwards. That also bounds the drift the docstring
+    above warns about -- a half-failed write can leave this field too LOW, never too
+    high, and the next successful write repairs it.
     """
     shelves = {code: shelf_depth(out_dir, code) for code in codes}
+    # Read ONCE, before anything is written: `highestOrdinal` is built from the
+    # manifest this call is about to replace, so re-reading it per shelf would be
+    # 28 reads of a file whose content cannot change mid-build.
+    remembered = recorded_high_water(out_dir)
     present = {c: n for c, n in shelves.items() if n}
     authors = sorted({
         ((e.get("meta") or {}).get("generator") or {}).get("model", "")
@@ -300,6 +379,16 @@ def build_manifest(out_dir: Path, codes: Sequence[str]) -> Dict:
         # EVERY event, so the runway is the THINNEST shelf, not the total (§7).
         "thinnestShelf": min(shelves.values()) if shelves else 0,
         "shelves": {c: shelves[c] for c in sorted(shelves)},
+        # MONOTONIC, and the only remembered field here -- see this function's
+        # docstring. Recorded for every code passed in, including shelves that are
+        # empty today, because an empty shelf that once held entries still owes
+        # their ids a hole. A 0 means "has never held one", which is why the
+        # comprehension keeps zeros rather than filtering them out the way
+        # `present` does above.
+        "highestOrdinal": {
+            c: max(highest_on_disk(out_dir, c), remembered.get(c.upper(), 0))
+            for c in sorted(shelves)
+        },
     }
 
 

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0049",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain reasons for ethical dilemmas.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Determine ways of reinforcing the company's image through employee performance.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assist with establishment of work rules.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Recognize and respond to ethical dilemmas.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Identify communications channels used in sales promotion.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain factors affecting pricing decisions.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the importance of meeting and exceeding customer/guest expectations.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your teammate are the compliance director and the marketing director at NORTHWATER DIAGNOSTICS, a clinical laboratory that runs blood work for physician offices and two hospital systems. The founder and chief executive officer (judge), who opened the laboratory nineteen years ago, is preparing to sell the business and retire within the year, and has asked the two of you to meet.\n\nNORTHWATER is profitable, and its reputation is built on people. Couriers and phlebotomists are the only part of the company most clinics ever see, and physicians renew because results arrive when they were promised. The laboratory belongs to a regional association of independent labs whose members meet quarterly to talk through staffing shortages, courier routes, reagent supply and reimbursement trends.\n\nAt last quarter's meeting, executives from two competing member labs began urging everyone in the room to stop quoting the routine wellness panel below a stated figure. A NORTHWATER sales representative of twelve years sat through it, said nothing, and the following week sent clinics a promotional email announcing the panel's new association price. The representative has never been disciplined and does not appear to see a problem.\n\nNORTHWATER is also days from signing for a high-throughput analyzer that would cut turnaround time roughly in half. The equipment pays for itself only if panel volume grows the way the association's shared forecast predicts, and that forecast assumes the panel holds its current price. The hospital system that sends NORTHWATER its outpatient work has already been told the faster turnaround is coming.\n\nThe founder (judge) wants the two of you to analyze what happened at the meeting, decide what NORTHWATER says to the representative and to the clinics that received the email, recommend whether the laboratory signs for the analyzer now, and propose rules governing how staff take part in association business. Waiting until NORTHWATER can verify demand on its own delays the equipment and may cost the hospital contract; signing now commits the laboratory to payments a softer market may not cover.\n\nYou will present your recommendation to the founder (judge) in the founder's office at the laboratory. The founder (judge) will greet the two of you and ask to hear your ideas. After you have presented and have answered the founder's questions, the founder (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the founder and chief executive officer of NORTHWATER DIAGNOSTICS. Business background is the same as the situation above. You have asked the compliance director and the marketing director to analyze what happened at the association meeting, recommend what the laboratory says to the sales representative and to the clinics that received the promotional email, recommend whether NORTHWATER signs for the analyzer now, and propose the rules that will govern how staff take part in association business.\n\nAfter the participants have presented their recommendation, you are to ask the following questions of each team:",
+  "judgeQuestions": [
+    "What should we say to the sales representative, and who should say it?",
+    "If we hold off on the analyzer, how and when do we tell the hospital system?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the promotional email announcing the panel's new association price has already gone to clinics",
+        "the hospital system has already been told the faster turnaround is coming",
+        "NORTHWATER's membership in the regional association of independent labs",
+        "the founder is selling the business and retiring within the year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the promotional email announcing the panel's new association price has already gone to clinics",
+        "the hospital system has already been told the faster turnaround is coming",
+        "NORTHWATER's membership in the regional association of independent labs",
+        "the founder is selling the business and retiring within the year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 385,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "clinical laboratory",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "price-fixing risk in a trade association meeting",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0051",
+      "shelfSimilarity": 0.1446,
+      "shelfNearest": "BLTDM-0036",
+      "exemplarSimilarity": 0.0759,
+      "gateVersion": 8
+    }
+  }
+}

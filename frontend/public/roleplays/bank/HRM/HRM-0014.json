@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0014",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Describe the functions of prices in markets.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the concept of competition.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain factors affecting pricing decisions.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain the nature of organizational culture.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Train staff.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources director at BRIARWOOD FITNESS CLUBS, a chain of nine clubs owned by the same family for three generations. The president (judge) has asked you to bring a recommendation to a meeting on Thursday, because either course the company takes will cost people their jobs.\n\nBRIARWOOD FITNESS CLUBS sets its own membership price club by club, according to what each town will bear, and it has held members for years against a discount chain that charges half. What it sells against that price is its trainers, who are hired young and taught over two years by an in-house apprenticeship that eighteen employees run. Staff stay for that program, and members say they can tell.\n\nSUMMIT WORKS WELLNESS NETWORK, a national corporate wellness network, has offered to place all nine clubs in its employer network. The network would bring steady monthly revenue from employers whose staff it enrolls. It also sets one membership price for every club in the network, and it requires its own class curriculum and its own trainer certification, which would replace the apprenticeship and end the eighteen positions that run it.\n\nThe president (judge) wants you to analyze the choice, recommend one course, and say how the layoff it requires should be selected and communicated. Joining the network means the chain can no longer set its own price club by club against the discount chain, and the eighteen apprenticeship positions end. Staying independent means the two clubs that have lost money for three years close and the forty people who work in them lose their jobs.\n\nYou will present your recommendation to the president (judge) in a meeting to take place in his/her office. The president (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented and have answered the president's (judge) questions, the president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the president (judge) of BRIARWOOD FITNESS CLUBS, the third generation of your family to run it. Business background is the same as the situation above. The offer from SUMMIT WORKS WELLNESS NETWORK has to be answered this month, and both answers end jobs, so you want the recommendation and the plan for telling people together.\n\nYou want the human resources director to analyze the choice, recommend one course, and explain how the layoff would be selected and how it would be communicated.\n\nDuring the presentation you are to ask the following questions of the participant:",
+  "judgeQuestions": [
+    "Who ends up paying for this decision?",
+    "How would you explain that to the people it falls on?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the network sets one membership price for every club in it and requires its own class curriculum and its own trainer certification",
+        "two of the nine clubs have lost money for three years",
+        "either course the company takes will cost people their jobs"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the network sets one membership price for every club in it and requires its own class curriculum and its own trainer certification",
+        "two of the nine clubs have lost money for three years",
+        "either course the company takes will cost people their jobs"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 318,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "fitness club chain",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a layoff and how it is selected and communicated",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0014",
+      "shelfSimilarity": 0.2287,
+      "shelfNearest": "HRM-0013",
+      "exemplarSimilarity": 0.1293,
+      "gateVersion": 8
+    }
+  }
+}

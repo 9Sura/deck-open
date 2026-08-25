@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0029",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Human Resources Management",
+  "performanceIndicators": [
+    {
+      "area": "Human Resources Management",
+      "pi": "Describe ways that businesses build positive employer-employee relationships.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Discuss factors that impact human resources management.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Explain trends in human resources management.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Describe the nature of emotional intelligence.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Anticipate unspoken customer needs.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources director at CALDER VALLEY UTILITIES, a water and power provider whose field crews handle every repair, restoration and new connection in the service area. The vice president of operations (judge) has asked you to meet before next year's staffing plan goes to the board.\n\nCALDER VALLEY has served the region for over forty years, and its restoration times are the reason customers stayed when BRIGHTFIELD ENERGY entered the market and began taking accounts. Those times rest on senior crew leads who have worked the same lines for a decade and know where the trouble is before the customer finishes describing it. Field work is unpredictable, and the crews absorb that by working overtime.\n\nThe staffing analysis in front of you says overtime is the cheaper way to cover the same work. Adding twelve field technicians costs more per hour worked once benefits, vehicles and the year of training before a technician can lead a restoration are counted. The supervisors and the crews say the analysis is measuring the wrong thing. Overtime shows up in the pages as hours; the same hours show up in the trucks as fatigue, missed family time, and the senior leads talking about leaving.\n\nStaying with the overtime model would hold payroll flat in the year BRIGHTFIELD is taking accounts, and the hours would keep falling on the same senior leads who say they are worn out. Hiring the twelve technicians would spread the load, and it would raise payroll while the company is losing customers, with the new hires a year away from leading a restoration.\n\nThe vice president of operations (judge) wants your recommendation on how CALDER VALLEY will cover field work next year, how you would weigh what the crews are telling you against what the analysis shows, and what it means for the customers who call. You will present to the vice president of operations (judge), who will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the vice president of operations (judge) at CALDER VALLEY UTILITIES. Business background is the same as the situation above. The staffing analysis says overtime is cheaper than adding twelve field technicians, the supervisors and crews say the analysis misses what the hours are doing to them, and BRIGHTFIELD ENERGY is taking accounts while the plan is decided.\n\nYou have asked the human resources director to recommend how the company will cover field work next year, how to weigh what the crews are saying against what the analysis shows, and what the decision means for the customers who call.\n\nAfter the participant has presented, ask these questions:",
+  "judgeQuestions": [
+    "Who ends up carrying the cost of what you are recommending?",
+    "Can we defend that to the crews who have been here longest?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the staffing analysis showing overtime costs less per hour worked than adding twelve field technicians once benefits, vehicles and training are counted",
+        "the year of training before a new technician can lead a restoration",
+        "the restoration times that are the reason customers stayed"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the staffing analysis showing overtime costs less per hour worked than adding twelve field technicians once benefits, vehicles and training are counted",
+        "the year of training before a new technician can lead a restoration",
+        "the restoration times that are the reason customers stayed"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 336,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "utility company with field crews",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "overtime cost against additional headcount",
+        "dilemma_archetype": "a data-supported choice that contradicts staff experience",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0029",
+      "shelfSimilarity": 0.1386,
+      "shelfNearest": "HRM-0007",
+      "exemplarSimilarity": 0.0417,
+      "gateVersion": 8
+    }
+  }
+}

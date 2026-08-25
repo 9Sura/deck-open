@@ -158,7 +158,14 @@ def render(rp: dict, events: dict, width: int, with_meta: bool) -> str:
             if rp.get("participantInstructions") else [])
     section("21st CENTURY SKILLS", bullets(rp.get("twentyFirstCenturySkills", []), width))
     section("PERFORMANCE INDICATORS", bullets(rp.get("performanceIndicators", []), width))
-    section("EVENT SITUATION",
+    # The heading is FORMAT-DEPENDENT and this renderer used to hardcode the
+    # series one. `generate_roleplay.situation_header` is the definition: team
+    # decision making events print CASE STUDY SITUATION, everything else prints
+    # EVENT SITUATION -- and 8 of 28 events are team format, so a third of the
+    # bank rendered under a heading DECA does not print for it. It is not restated
+    # by importing that function only because this utility deliberately depends on
+    # nothing in `generators/`; the rule is one line and it is quoted here.
+    section("CASE STUDY SITUATION" if (ev.get("format") or fmt) == "team" else "EVENT SITUATION",
             [wrap(str(rp.get("situation", "")), width)] if rp.get("situation") else [])
 
     if rp.get("exhibit"):
@@ -193,6 +200,13 @@ def render(rp: dict, events: dict, width: int, with_meta: bool) -> str:
             notes.append("defects: " + ", ".join(meta["defects"]))
         for issue in gate.get("issues", []) or []:
             notes.append(f"issue: {issue}")
+        # Printed SEPARATELY and labelled NOT GATING, never merged into the line
+        # above. These are the self-report cross-check's findings; folding them in
+        # beside `gate passed` is what made a reader take `passed: true` with an F5
+        # beside it for a contradiction (plan 06 §5).
+        self_report = gate.get("selfReport", {}) or {}
+        for issue in self_report.get("issues", []) or []:
+            notes.append(f"self-report (NOT gating): {issue}")
         # meta is NEVER roleplay text (frontend F10) — it is fenced off here.
         out.append("--- MACHINE NOTES (not part of the roleplay) ---")
         out.extend(notes)

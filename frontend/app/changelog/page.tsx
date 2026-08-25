@@ -57,13 +57,154 @@ export default function ChangelogPage() {
 
       <Entry
         date="August 2026"
+        title="Human Resources Management roleplays added"
+      >
+        <li>
+          <strong>30 new Human Resources Management Series roleplays.</strong>{" "}
+          It&rsquo;s the second event with a full set, after Business Law and
+          Ethics. Same 10 minutes of prep and 10 to present as the real thing,
+          with the performance indicators and 21st Century Skills laid out the way
+          DECA lays them out.
+        </li>
+        <li>
+          <strong>They&rsquo;re actually about HR.</strong>{" "}
+          Every event lists several instructional areas a case can be built
+          around, and until now we picked between them evenly &mdash; which meant
+          a Human Resources event kept handing you customer-service and economics
+          indicators. We now pick the way DECA does, counting how often each area
+          shows up across 19 years of real HRM cases. Hiring, pay, scheduling,
+          reviews and workplace conduct now carry the set.
+        </li>
+        <li>
+          <strong>Nothing off-topic slipped in.</strong>{" "}
+          The old approach could pull an indicator about hotels or retail
+          merchandising into an HR case. None of the 30 has one.
+        </li>
+        <li>
+          Situations run about 320 words, close to what DECA prints for this event
+          now.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="Business Law &amp; Ethics roleplays rewritten"
+      >
+        <li>
+          <strong>Two thirds of the Business Law and Ethics Team Decision Making
+          roleplays are new.</strong>{" "}
+          An outside review of the old set found
+          problems in most of them &mdash; performance indicators the situation
+          gave you no way to actually demonstrate, and cases where one of the two
+          choices was so obviously wrong there was nothing left to decide. Those
+          20 were thrown out and written again from scratch. The 10 that came
+          through the review clean were left alone.
+        </li>
+        <li>
+          <strong>Nothing gets patched up any more.</strong>{" "}
+          A roleplay that
+          fails our quality checks is discarded and rewritten, never edited into
+          shape. Three of the new ones failed on the first pass and were rewritten
+          before anything reached you.
+        </li>
+        <li>
+          <strong>Situations are shorter.</strong>{" "}
+          The old ones ran long against
+          the length real DECA materials use now. The new ones sit close to it, so
+          the reading load in your 30 minutes of prep is closer to the real thing.
+        </li>
+        <li>
+          The other 27 events are unchanged for now &mdash; Business Law and
+          Ethics went first, and the rest follow once these read right.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="The privacy page now names everything your account stores"
+      >
+        <li>
+          The <strong>Privacy</strong>{" "}
+          page listed two things kept against an
+          account &mdash; your username and your practice log. It kept more than
+          that, and now says so: your <strong>study plan</strong> (the cluster and
+          level you&rsquo;re aiming at, the <strong>competition date you
+          enter</strong>, and today&rsquo;s tasks), the avatar emoji you pick, and
+          a <strong>sign-in token</strong> that keeps one account to one device at
+          a time.
+        </li>
+        <li>
+          It also now says that once you&rsquo;re signed in, a copy of your
+          practice log and plan is kept <strong>in your browser on the device
+          you&rsquo;re using</strong>{" "}
+          &mdash; that&rsquo;s what makes DECK fast and
+          keeps it working if your connection drops. <strong>Delete account</strong>{" "}
+          removes that copy along with everything else.
+        </li>
+        <li>
+          <strong>Nothing about the app changed</strong>{" "}
+          and nothing new is being
+          collected. This was always what DECK stored; the page just hadn&rsquo;t
+          spelled it out. Guest mode is unaffected &mdash; it still keeps no
+          record of your practice anywhere.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="Reset progress now clears the day’s plan too"
+      >
+        <li>
+          Resetting your progress used to wipe your answered questions and
+          sessions but leave <strong>today’s plan</strong> standing — so the
+          dashboard kept showing the same task cards, and pressing Start handed
+          you the exact same questions back. Reset now clears the day’s plan
+          with the rest of it, and a fresh plan is built for you.
+        </li>
+        <li>
+          Your <strong>target event, level and competition date are kept</strong>{" "}
+          — a reset clears your practice, not your setup, so you don’t have to
+          go through the first-run questions again.
+        </li>
+        <li>
+          Fixed alongside it: a task resumed after a reset logged its answers
+          against a session that no longer existed, so Progress showed the
+          questions but <strong>no session and no readiness point</strong> for
+          them. Those sittings are now recorded properly.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="The footer links stop pushing every page sideways on a phone"
+      >
+        <li>
+          Once you were signed in, the row of links at the bottom of the page
+          &mdash; Practice Tests, Roleplays, Changelog, Help, Terms and Privacy
+          &mdash; couldn&rsquo;t break onto a second line, so on a phone it pushed
+          the whole page out past the edge. <em>Practice Tests</em> ran off the
+          left and <em>Privacy</em>{" "}
+          was cut off on the right, where you
+          couldn&rsquo;t tap it, and every page slid sideways as you scrolled. It
+          was worst on a small phone and it happened everywhere, not on one page.
+        </li>
+        <li>
+          That row now wraps, so the links stack neatly in the middle and the page
+          fits the screen. Nothing changed on a tablet or a laptop, where they
+          already fit on one line.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
         title="Business Law and Ethics roleplays, rebuilt at ICDC level"
       >
         <li>
           The roleplay bank was emptied and is being rebuilt from scratch. The
           first event back is{" "}
           <strong>Business Law and Ethics Team Decision Making</strong>, which
-          now has <strong>30 case studies</strong> written to match DECA&rsquo;s
+          now has <strong>30 case studies</strong>{" "}
+          written to match DECA&rsquo;s
           real ICDC format &mdash; a case study situation, the 21st Century
           Skills block, seven performance indicators, and two judge questions,
           for a two-person team with 30 minutes of prep and 15 to present.
@@ -81,14 +222,16 @@ export default function ChangelogPage() {
         </li>
         <li>
           As always, these are <strong>written by AI and some of it is
-          wrong</strong> &mdash; they&rsquo;re practice, not official DECA
+          wrong</strong>{" "}
+          &mdash; they&rsquo;re practice, not official DECA
           material.
         </li>
       </Entry>
 
       <Entry date="August 2026" title="A Terms page, in plain English">
         <li>
-          DECK now has a <strong>Terms</strong> page to go with the privacy
+          DECK now has a <strong>Terms</strong>{" "}
+          page to go with the privacy
           policy, written the same way &mdash; plain language, meant to be
           readable by a parent. You&rsquo;ll find it in the footer at the bottom
           of any page, next to Privacy.
@@ -117,7 +260,8 @@ export default function ChangelogPage() {
         title="A &ldquo;Learn&rdquo; drill now says when it borrowed from nearby topics"
       >
         <li>
-          A <strong>Learn</strong> card on your daily plan practices one performance
+          A <strong>Learn</strong>{" "}
+          card on your daily plan practices one performance
           indicator. Some indicators only have two questions in the bank, so a card
           asking for three quietly filled the last slot from elsewhere in the same
           topic &mdash; and said nothing. You&rsquo;d answer a question filed under a
@@ -138,7 +282,8 @@ export default function ChangelogPage() {
         title="The Roleplay Challenge stops scrolling sideways on a phone"
       >
         <li>
-          On a phone, the <strong>Roleplay Challenge</strong> board was wider than
+          On a phone, the <strong>Roleplay Challenge</strong>{" "}
+          board was wider than
           the screen. The three day controls at the top &mdash; Previous day, Next
           day, and Browse the archive &mdash; sat in a row that couldn&rsquo;t break
           onto a second line, so they pushed the whole page out past the edge. Half
@@ -229,7 +374,8 @@ export default function ChangelogPage() {
         <li>
           While we were in there we checked whether the rewrite had swapped one
           giveaway for another — and it had. The correct answer had ended up{" "}
-          <strong>never the longest and never the shortest</strong> choice, on
+          <strong>never the longest and never the shortest</strong>{" "}
+          choice, on
           every single one, which is its own kind of hint. That&rsquo;s fixed
           too: answer length is now spread the same way it is everywhere else in
           the bank, so it tells you nothing.
@@ -273,7 +419,8 @@ export default function ChangelogPage() {
         <li>
           Marketing is the biggest cluster on DECK, and it went from about 1,200
           questions to over <strong>3,300</strong>. <strong>District,
-          Association and ICDC</strong> are all done, so you can practise the
+          Association and ICDC</strong>{" "}
+          are all done, so you can practise the
           same way at whichever level you&rsquo;re competing at.
         </li>
         <li>
@@ -294,7 +441,8 @@ export default function ChangelogPage() {
           reviewers plus two more who try to answer it cold, and anything that
           turns out to be a medium question in disguise gets relabelled. In this
           final marketing batch <strong>none of the nine kept the hard
-          badge</strong> — both reviewers agreed each one was really a
+          badge</strong>{" "}
+          — both reviewers agreed each one was really a
           single-formula calculation. They&rsquo;re still good questions and
           they&rsquo;re all in the bank; they just sit in the medium pile, because
           a &ldquo;hard&rdquo; badge should mean something.

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0051",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain reasons for ethical dilemmas.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Maintain the confidentiality of others.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Determine ways of reinforcing the company's image through employee performance.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Show empathy for others.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the use of marketing strategies.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Describe legal issues affecting businesses",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain hotel security considerations.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your partner serve as the seller community manager and the trust and safety manager at THISTLEBOUND MARKET, an online marketplace where independent artisans list and sell handmade goods. The chief executive officer (judge) has asked you to meet before the company answers a settlement offer that arrived this week. Thistlebound has run the marketplace for twelve years and now lists work from roughly forty thousand sellers, most of them one person working out of a home studio.\n\nThe company's standing with those sellers rests on a promise printed in its seller agreement and repeated in its marketing: Thistlebound will tell sellers directly and promptly whenever their information is exposed. That promise has been part of how the company holds its ground since OPENLOOM, a lower-fee marketplace launched two years ago, began drawing sellers away, and several of Thistlebound's best-known shops have already moved.\n\nLast spring LARKFIELD ANALYTICS, a reporting vendor Thistlebound has worked with for nine years, misconfigured a server and left seller records readable from outside its systems for several weeks. Those records carried legal names, home shipping addresses, and monthly sales totals. Within a month, a number of Thistlebound's highest-earning sellers were approached at those addresses by recruiters for Openloom, and sellers have been asking the company how their information traveled.\n\nLarkfield has offered to pay Thistlebound enough to fund a full year of fee relief for every affected seller, the same relief the company has not been able to afford while it loses ground on price. The offer carries a nondisclosure term. Thistlebound could tell sellers that an exposure occurred, but could not name Larkfield or explain how the records got out, which is the question the sellers are actually asking.\n\nState notification law requires Thistlebound to tell affected sellers that an exposure happened, and does not require the company to name the vendor, so the term is lawful. Refusing it would leave the company free to give sellers the whole account, but the payment goes with it, the fee relief would have to come out of reserves the company does not have, and Larkfield has signaled it would litigate for years rather than settle in the open.\n\nThe chief executive officer (judge) wants your team's recommendation on how Thistlebound should answer Larkfield and how the company should speak to its sellers either way, including what the staff who handle seller support should be able to say. When you enter the office, the chief executive officer (judge) will greet you and ask to hear your ideas. After your presentation and the judge's questions, the judge will thank you for your time.",
+  "judgeCharacterization": "You are the chief executive officer of THISTLEBOUND MARKET, an online marketplace where independent artisans list and sell handmade goods. Business background is the same as the situation above.\n\nYou have asked the seller community manager and the trust and safety manager to recommend how Thistlebound should answer LARKFIELD ANALYTICS' settlement offer and the nondisclosure term it carries, and how the company should speak to its sellers either way, including what the staff who handle seller support should be able to say.\n\nYou will begin by greeting the participant team and asking to hear their ideas. During the presentation, ask the participant team the following questions:",
+  "judgeQuestions": [
+    "If we turn the settlement down, what do we tell sellers we can no longer pay for this year?",
+    "If we sign it, what happens when a seller learns later that we agreed not to explain?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the seller agreement's promise to tell sellers directly and promptly whenever their information is exposed",
+        "state notification law, which requires telling affected sellers that an exposure happened but does not require naming the vendor"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the seller agreement's promise to tell sellers directly and promptly whenever their information is exposed",
+        "state notification law, which requires telling affected sellers that an exposure happened but does not require naming the vendor"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 436,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "online marketplace for handmade goods",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a settlement that includes a nondisclosure term",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0054",
+      "shelfSimilarity": 0.0911,
+      "shelfNearest": "BLTDM-0036",
+      "exemplarSimilarity": 0.0683,
+      "gateVersion": 8
+    }
+  }
+}

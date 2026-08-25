@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0018",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Human Resources Management",
+  "performanceIndicators": [
+    {
+      "area": "Human Resources Management",
+      "pi": "Discuss factors that impact human resources management.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Describe ways that businesses build positive employer-employee relationships.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Explain contingency factors affecting job offer.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Develop an achievement orientation.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Explain the concept of leadership.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the compensation analyst at HELIX POINT BIOSCIENCES, a research company that develops laboratory testing methods for hospital systems. The vice president of human resources (judge) has asked you to recommend what the company should do about the pay gap that has opened between newly hired scientists and the scientists who have been here for years.\n\nHELIX POINT has lost work to NORTHRUN THERAPEUTICS, a newer firm that pays well above what HELIX POINT once offered. To keep filling laboratory positions, the company raised its starting salaries twice in eighteen months. A scientist hired last spring now earns within a few hundred dollars of one who has been at the bench for eight years.\n\nTenured scientists have said plainly that their years count for nothing. The company promised at an all-staff meeting to review pay and report back. The review is finished: it finds tenured salaries at the going rate for the region and the gap caused entirely by the raised entry rate, and it identifies a small group of senior scientists the company could not replace quickly.\n\nOne compensation pool covers the year. Raising every tenured salary would spend what is set aside for retention awards for that small group and for the next round of hiring, leaving HELIX POINT paying less than NORTHRUN for the same scientists. Spending on the small group instead leaves the wider tenured staff with nothing after being told the company was looking into it.\n\nThe vice president of human resources (judge) wants your recommendation on how to spend the pool and what to tell the staff when the review is reported back. The vice president of human resources (judge) will greet you, hear your ideas and ask questions. When you have finished answering, the vice president of human resources (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the vice president of human resources at HELIX POINT BIOSCIENCES. Business background is the same as the situation above.\n\nYou have asked the compensation analyst to recommend how the year's compensation pool should be spent now that the pay review is finished, and to tell you what the company should say to the staff when the results are reported back at the next all-staff meeting.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right call?",
+    "What would tell us early that it is not working?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "one compensation pool covers the year",
+        "the promise made at an all-staff meeting to review pay and report back"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "one compensation pool covers the year",
+        "the promise made at an all-staff meeting to review pay and report back"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 304,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "biotechnology research company",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a pay compression problem between new and tenured staff",
+        "dilemma_archetype": "a data-supported choice that contradicts staff experience",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0018",
+      "shelfSimilarity": 0.0853,
+      "shelfNearest": "HRM-0002",
+      "exemplarSimilarity": 0.0816,
+      "gateVersion": 8
+    }
+  }
+}

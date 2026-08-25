@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0015",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Human Resources Management",
+  "performanceIndicators": [
+    {
+      "area": "Human Resources Management",
+      "pi": "Explain trends in human resources management.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Describe ways that businesses build positive employer-employee relationships.",
+      "role": "core"
+    },
+    {
+      "area": "Human Resources Management",
+      "pi": "Discuss factors that impact human resources management.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Demonstrate suggestion selling.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Recognize and respond to ethical dilemmas.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources manager at WAYFARER OUTFITTERS CO-OPERATIVE, a chain of fourteen outdoor gear stores owned by the people who work in them. The general manager (judge) has asked you for a recommendation before autumn hiring opens in four weeks.\n\nEvery worker-owner holds a share and a vote, and the membership agreement they approved two years ago guarantees the online order and customer service team the right to work remotely. That guarantee is why the team stayed when a larger retailer tried to hire it away, and its members are the staff trained to suggest the filter, the pad, and the base layer that go with a tent.\n\nThe co-operative has signed a supply agreement with GRANITE PASS, a boot and pack brand, that puts a fitting bench in all fourteen stores for the season. The agreement requires a GRANITE PASS certified outfitter on the floor of every store during open hours. The online team earned that certification in last season's pilot. Nobody else has it, and the course takes six weeks.\n\nThe co-operative also hires about four hundred seasonal staff each autumn, and seasonal staff hold no share and no vote. The general manager (judge) wants you to analyze the choice and recommend one course. Recalling the online team to the floor sets aside the remote-work guarantee without the member vote that changing the agreement would take, and risks losing the team that stayed because of it. Putting seasonal hires through the course instead leaves the benches uncertified for the first two weeks of the season and meets the brand's requirement with people who hold no share and no vote.\n\nYou will present your recommendation to the general manager (judge) in a meeting to take place in his/her office. The general manager (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented and have answered the general manager's (judge) questions, the general manager (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the general manager (judge) of WAYFARER OUTFITTERS CO-OPERATIVE. Business background is the same as the situation above. Autumn hiring opens in four weeks, the GRANITE PASS benches have to be staffed by certified outfitters, and the only people certified are the ones the membership agreement promised would not have to come in.\n\nYou want the human resources manager to analyze the choice and recommend one course, and to tell you what the co-operative owes each side of it.\n\nDuring the presentation you are to ask the following questions of the participant:",
+  "judgeQuestions": [
+    "Which course did you rule out, and what would we have gained by taking it?",
+    "What would taking it have cost us instead?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the membership agreement guarantees the online order and customer service team the right to work remotely",
+        "the GRANITE PASS agreement requires a certified outfitter on the floor of every store during open hours",
+        "the certification course takes six weeks and hiring opens in four",
+        "changing the membership agreement would take a member vote"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the membership agreement guarantees the online order and customer service team the right to work remotely",
+        "the GRANITE PASS agreement requires a certified outfitter on the floor of every store during open hours",
+        "the certification course takes six weeks and hiring opens in four",
+        "changing the membership agreement would take a member vote"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 332,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "retail chain with seasonal hiring",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "remote and on-site work expectations",
+        "dilemma_archetype": "an obligation to two parties whose contracts conflict",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0015",
+      "shelfSimilarity": 0.2362,
+      "shelfNearest": "HRM-0013",
+      "exemplarSimilarity": 0.1449,
+      "gateVersion": 8
+    }
+  }
+}

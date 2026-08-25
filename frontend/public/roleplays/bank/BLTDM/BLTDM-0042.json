@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0042",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Business Law",
+  "performanceIndicators": [
+    {
+      "area": "Business Law",
+      "pi": "Explain the nature of import/export law",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Explain the nature of agency relationships",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Describe the nature of legal procedure",
+      "role": "core"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Identify the basic torts relating to business enterprises",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Identify communications channels used in sales promotion.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the use of video/images for digital marketing.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain menu items.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your partner are the director of human resources and the director of brand marketing for IRONLEAF FITNESS, a chain of forty-one gym and fitness clubs. The founder (judge) opened the first club nineteen years ago, still owns the company, and has signed a letter of intent to sell it this fall. The founder (judge) has asked the two of you to meet this afternoon.\n\nThe chain has been profitable for eleven straight years, and much of that growth traces to one contracted head trainer who is the face of the brand. His image carries the chain's current video campaign across social feeds, in-club screens, and email promotions, and four items on the juice bar menu are named for his training programs. That same campaign is licensed to launch with the chain's first clubs overseas.\n\nLast week a front desk employee filed a written harassment complaint against the head trainer. The employee handbook routes complaints to a regional manager who has been on medical leave since June. The trainer denies the allegation and points to a clause in his contract guaranteeing that his image runs through the season. The purchase agreement obligates the founder (judge) to disclose any pending claim before closing.\n\nThe founder (judge) could interview both parties personally this week, close the matter quickly, and leave the campaign and the menu items untouched. That path spends nothing and keeps the sale on schedule, but if the complaint is later substantiated the chain will have kept the trainer in front of members after notice, and the buyer can reopen the price over what was disclosed.\n\nOutside counsel could instead run the investigation while the video comes down from every channel and the named menu items are pulled from the juice bar. That approach buys an independent record, but it bills by the hour, pushes the closing past the founder's date, invites members and staff to speculate about a trainer who vanished from the brand, and risks a defamation claim if nothing is substantiated.\n\nThe founder (judge) wants the two of you to weigh what the chain owes the employee, the trainer, and its members, and to recommend how this complaint will be investigated and what happens to the campaign and the menu items meanwhile. You will present to the founder (judge) in a meeting in the founder's office. The founder (judge) will greet you and ask to hear your ideas. After you have presented and answered the founder's questions, the founder (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the founder (judge) and sole owner of IRONLEAF FITNESS, the gym and fitness club chain you started nineteen years ago and have agreed to sell this fall. Business background is the same as the situation above. You received the harassment complaint against your contracted head trainer last week, and you have not yet decided who will look into it or whether the campaign built on that trainer's image, and the juice bar items named for his programs, stay up while it is looked into.\n\nYou want the director of human resources and the director of brand marketing to tell you what the company owes the employee who filed, what it owes the trainer who denies the allegation, and what it owes the members who see him on every screen in every club. You want a recommendation on how the investigation is handled and on what happens to the campaign and the menu items in the meantime.\n\nAfter the participants have presented and have answered your questions, you will ask the following questions of each participant team:",
+  "judgeQuestions": [
+    "If we had handed this to outside counsel the day it came in, what would that have cost us?",
+    "If we leave the campaign up and the complaint holds up, what do we tell our members and our staff?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the employee handbook routes complaints to a regional manager who is on medical leave",
+        "the trainer's contract guarantees his image runs through the season",
+        "the purchase agreement obligates the founder to disclose any pending claim before closing",
+        "the campaign is licensed to launch with the chain's first clubs overseas"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the employee handbook routes complaints to a regional manager who is on medical leave",
+        "the trainer's contract guarantees his image runs through the season",
+        "the purchase agreement obligates the founder to disclose any pending claim before closing",
+        "the campaign is licensed to launch with the chain's first clubs overseas"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 420,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "gym and fitness club chain",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "a harassment complaint and the investigation of it",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0043",
+      "shelfSimilarity": 0.0704,
+      "shelfNearest": "BLTDM-0038",
+      "exemplarSimilarity": 0.0689,
+      "gateVersion": 8
+    }
+  }
+}

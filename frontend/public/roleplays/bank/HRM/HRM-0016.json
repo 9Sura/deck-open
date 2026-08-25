@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0016",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Adapt written correspondence to targeted audiences.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the nature of effective written communications.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the nature of effective communications.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the role of ethics in customer relationship management.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of positive customer relations.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources generalist at CEDAR RIDGE SANITATION, a residential and commercial waste collection company serving three counties. The director of operations (judge) has asked you to recommend how the company should handle a return-to-work decision for an injured route collector. The recommendation is yours to make and to explain.\n\nCEDAR RIDGE acquired VALLEY HAULERS eight months ago and has not finished combining the two operations. Routes, payroll systems and dispatch desks are still separate. To secure the deal, the company assured the acquired firm's dispatchers that no one would be released during the merger year, and the plan folds those dispatchers into CEDAR RIDGE's own dispatch office at the start of next quarter.\n\nA route collector with eleven years of service injured a shoulder lifting a commercial bin and is cleared for light duty only, with no lifting, for at least ten weeks. There is one light-duty seat available: a temporary desk in the dispatch office. That desk is also the landing spot promised to a VALLEY HAULERS dispatcher whose position closes when the offices combine.\n\nPlacing the collector at the desk returns wages this quarter and closes an open injury claim, but leaves the VALLEY HAULERS dispatcher without the landing spot next quarter. Holding the collector on full medical leave until full clearance protects that spot, and it costs the collector the route premium pay while the claim stays open and the crew works short.\n\nThe director of operations (judge) wants you to recommend one course of action, explain what it costs, and describe how you would put it in writing to the employee it affects most. The director of operations (judge) will greet you, hear your ideas and ask questions. When you have finished answering, the director of operations (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the director of operations at CEDAR RIDGE SANITATION. Business background is the same as the situation above.\n\nYou have asked the human resources generalist to recommend whether the injured route collector should be placed at the temporary dispatch desk or held on medical leave until full clearance, to say plainly what that choice costs, and to describe what the company should put in writing to the employee the decision lands hardest on.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "How would you tell the employee this decision affects most what we decided and why?",
+    "What should we put in writing to that employee, and what should we say in person?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "a medical clearance limiting the collector to light duty with no lifting for at least ten weeks",
+        "the assurance to the acquired firm's dispatchers that no one would be released during the merger year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "a medical clearance limiting the collector to light duty with no lifting for at least ten weeks",
+        "the assurance to the acquired firm's dispatchers that no one would be released during the merger year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 301,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "waste collection company",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "a return-to-work plan after an injury",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0016",
+      "shelfSimilarity": 0.0944,
+      "shelfNearest": "HRM-0004",
+      "exemplarSimilarity": 0.0694,
+      "gateVersion": 8
+    }
+  }
+}

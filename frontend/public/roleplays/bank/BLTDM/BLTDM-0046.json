@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0046",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Demonstrate connections between company actions and results.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain marketing and its importance in a global economy.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe marketing functions and related activities.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Discuss the relationship between promotion and marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain factors that influence customer selection of food places and menu items.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Determine ways of reinforcing the company's image employee performance.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Business Law",
+      "pi": "Identify the basic torts relating to business enterprises",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your teammate are the account strategy director and the content operations director at BRIGHT SIGNAL SOCIAL, a social media marketing agency. The agency's founder and chief executive (judge) has asked the two of you to meet and recommend how the agency should build its most important pitch of the year.\n\nBRIGHT SIGNAL SOCIAL opened two years ago with fourteen employees and a single round of outside funding. That funding now covers roughly four more months of payroll. The agency's largest account, HARVEST BOWL KITCHEN, a regional fast-casual restaurant group, has put its social media work out for review; it wants a partner who can show what actually fills its dining rooms. The founder (judge) has told the staff plainly that keeping the account is what buys the agency another year.\n\nA senior strategist hired last month came to BRIGHT SIGNAL SOCIAL from METRO LOOP MEDIA, the agency that handles a competing restaurant group. On the second day the new strategist offered the team a folder of the former employer's campaign results — two years of tested data on what leads diners to choose one restaurant over another and one menu item over the next. The strategist signed a confidentiality agreement on leaving, and is eager to show that the hire was worth its cost.\n\nThe folder contradicts the agency's own instincts. Its account team has spent two years promoting HARVEST BOWL KITCHEN with close-up food photography and price offers, and believes that approach is what brings diners in. The carried-in results say something different: that posts featuring the restaurant's staff and neighborhood drive far more visits, and that price offers mostly move customers who would have come anyway.\n\nBuilding the pitch on the folder would give the agency evidence it cannot explain the source of, and could expose it to a claim from METRO LOOP MEDIA and its client. Pitching what the account team believes leaves the agency arguing from experience alone against competitors who will arrive with numbers. Commissioning original research would take six weeks and money the runway does not have; the client decides in three weeks.\n\nThe founder (judge) wants your recommendation, and wants to understand how this choice will show up later in the agency's results and its standing with clients. You will present in a role-play in the founder's (judge's) office. The founder (judge) will begin by greeting you and asking to hear your ideas. After you have presented and answered the founder's (judge's) questions, the founder (judge) will conclude by thanking you for your work.",
+  "judgeCharacterization": "You are to assume the role of founder and chief executive of BRIGHT SIGNAL SOCIAL, a two-year-old social media marketing agency with four months of funding left. Business background is the same as the situation above. You have hired a senior strategist away from METRO LOOP MEDIA, and that strategist has offered the team a folder of a former employer's campaign results that would strengthen the pitch to keep HARVEST BOWL KITCHEN — and that contradicts what your own account team believes about what brings diners through the door.\n\nYou want the participant team to analyze what the agency's handling of that information would do to its results and its reputation, to explain what the folder is worth and what it risks, and to recommend how the pitch should be built.\n\nDuring the course of the role-play you are to ask the participant team the following questions:",
+  "judgeQuestions": [
+    "A year from now, how would we know whether this decision helped the agency or hurt it?",
+    "If we keep hiring people away from other agencies, what should we expect them to bring with them?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the confidentiality agreement the strategist signed on leaving METRO LOOP MEDIA",
+        "the client's review decision, three weeks away",
+        "roughly four months of payroll left in the agency's funding"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the confidentiality agreement the strategist signed on leaving METRO LOOP MEDIA",
+        "the client's review decision, three weeks away",
+        "roughly four months of payroll left in the agency's funding"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 422,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "social media marketing agency",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "confidential information carried in by a new hire",
+        "dilemma_archetype": "a data-supported choice that contradicts staff experience",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0048",
+      "shelfSimilarity": 0.112,
+      "shelfNearest": "BLTDM-0039",
+      "exemplarSimilarity": 0.0946,
+      "gateVersion": 8
+    }
+  }
+}

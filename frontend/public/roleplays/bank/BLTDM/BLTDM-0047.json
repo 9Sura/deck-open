@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0047",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Customer Relations",
+  "performanceIndicators": [
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the importance of meeting and exceeding customer/guest expectations.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Determine factors affecting business risk.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Determine ways of reinforcing the company's image through employee performance.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Show empathy for others.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain key factors in building a clientele.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the concept of competition.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Demonstrate fairness.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your partner are the director of customer relations and the field operations manager at HELIOSTEAD SOLAR, a residential solar sales and installation company that serves one metropolitan area. The president (judge), the third generation of the founding family to lead the business, has asked the two of you to recommend how the company should finish this year's installation schedule.\n\nHELIOSTEAD SOLAR began as a roofing company nearly sixty years ago and has sold and installed rooftop solar since the second generation took over. Almost all of its work still arrives by referral from a handful of older neighborhoods. BRIGHTBEND ENERGY, a national installer, opened a branch here in the spring, advertises lower prices, and has started calling homeowners who are already on the HELIOSTEAD SOLAR calendar.\n\nThe state rebate that pays for a large share of a residential system closes on December 31, and only systems inspected by that date qualify. HELIOSTEAD SOLAR sold forty-two installations against that deadline, and its two crews can finish about thirty. Every household moved past December 31 loses the rebate, and each of the forty-two has paid a deposit and holds an installation date in writing.\n\nOne of the forty-two agreements was signed by a seventeen-year-old who inherited a small house from a grandparent the founder served for decades. The teenager lives there with an aunt, who did not sign and has said she cannot take on the payments. Counsel advises that the teenager may cancel the agreement at any time, even after the panels are on the roof, leaving the company with an installed system it cannot collect on.\n\nDropping that installation would open a slot for a household whose agreement is enforceable and whose deposit is larger. The teenager says the rebate is the only reason the project is affordable, and the neighborhood that sends the company most of its referrals would watch a founder's customer's grandchild handed to BRIGHTBEND ENERGY. The president (judge) wants a recommendation on which installations stay on the calendar, what happens to the minor's agreement, and how the moved households will be told.\n\nYou will present your recommendation to the president (judge) in a meeting to take place in the president's office. The president (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented your recommendation and have answered the president's questions, the president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the president (judge) of HELIOSTEAD SOLAR, the third generation of the founding family to lead the company. Business background is the same as the situation above.\n\nYou have asked the director of customer relations and the field operations manager to recommend which of the forty-two sold installations stay on the calendar ahead of the rebate deadline, what the company should do about the agreement signed by the seventeen-year-old homeowner, and how the households that are moved past the deadline will be told.\n\nYou will listen to a schedule built on which agreements are enforceable and to a schedule built on which households the company has served longest, but in either case you want to hear what the company is giving up.\n\nDuring the course of the presentation you are to ask the following questions of each participant team:",
+  "judgeQuestions": [
+    "A year from now, how would we know we picked the right households?",
+    "If a customer we moved tells a neighbor we treated them unfairly, what would you want us to be able to point to?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the state rebate closes to systems not inspected by December 31",
+        "two crews can finish about thirty of the forty-two installations sold",
+        "the agreement signed by the minor can be cancelled by the minor even after installation",
+        "every household has a paid deposit and an installation date in writing"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the state rebate closes to systems not inspected by December 31",
+        "two crews can finish about thirty of the forty-two installations sold",
+        "the agreement signed by the minor can be cancelled by the minor even after installation",
+        "every household has a paid deposit and an installation date in writing"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 402,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "solar sales and installation company",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a minor's consent in a service agreement",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0049",
+      "shelfSimilarity": 0.1836,
+      "shelfNearest": "BLTDM-0041",
+      "exemplarSimilarity": 0.121,
+      "gateVersion": 8
+    }
+  }
+}

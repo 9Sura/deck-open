@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0011",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Describe the nature of ethics.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assist with establishment of work rules.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain reasons for ethical dilemmas.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of email marketing tactics.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the role of business in society.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources manager at ALDERGROVE TOOLWORKS, a regional manufacturer of hydraulic fittings and couplings that runs three plants. The vice president of operations (judge) has asked you to bring a recommendation to a meeting this afternoon about a position it created last spring and never defined.\n\nALDERGROVE TOOLWORKS has supplied the same equipment builders for close to thirty years and is the largest employer in two of its towns. For the past two years a new entrant has been taking those builders' smaller orders at prices the company cannot match. In answer, ALDERGROVE TOOLWORKS put a plant account representative at each of the three plants, a role no one here had held before.\n\nThe representatives sell to independent repair shops, almost entirely by email. No one wrote work rules for the position, so each plant has improvised its own. One representative mails everyone on contact lists bought from a trade directory; another mails only shops that asked to hear from the company. Nothing done so far breaks the law and no customer has objected, but the three plants answer the same question differently.\n\nThe vice president of operations (judge) wants you to analyze the choice and recommend one course. Building the onboarding program — written work rules, ethics training, and one standard for how representatives may collect and use customer email addresses — would take six months and the money already committed to replacing a press at the oldest plant, and it earns that money back only if the sales forecast behind the role holds. Leaving the representatives to sell and writing rules once the year's orders are counted keeps the press on schedule and leaves three plants improvising through the season the company is trying to win back.\n\nYou will present your recommendation to the vice president of operations (judge) in a meeting to take place in his/her office. The vice president of operations (judge) will begin the meeting by greeting you and asking to hear your ideas. After you have presented and have answered the vice president's (judge) questions, the vice president of operations (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the vice president of operations (judge) at ALDERGROVE TOOLWORKS. Business background is the same as the situation above. You created the plant account representative position to hold the smaller accounts a new entrant has been taking, and you have since learned that the three plants are running the position three different ways because nobody ever wrote rules for it.\n\nYou want the human resources manager to analyze the choice and recommend whether to build the onboarding program now or wait until the year's orders are counted, and to tell you plainly what the recommendation costs.\n\nDuring the presentation you are to ask the following questions of the participant:",
+  "judgeQuestions": [
+    "If we start the program, what happens in a representative's first week?",
+    "Who at each plant would run it, and what would you have them do first?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "no one wrote work rules for the plant account representative position",
+        "the money for the onboarding program is already committed to replacing a press at the oldest plant",
+        "the program earns that money back only if the sales forecast behind the role holds"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "no one wrote work rules for the plant account representative position",
+        "the money for the onboarding program is already committed to replacing a press at the oldest plant",
+        "the program earns that money back only if the sales forecast behind the role holds"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 355,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "regional manufacturer with three plants",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "onboarding for a role that has none",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0011",
+      "shelfSimilarity": 0.0902,
+      "shelfNearest": "HRM-0006",
+      "exemplarSimilarity": 0.0646,
+      "gateVersion": 8
+    }
+  }
+}

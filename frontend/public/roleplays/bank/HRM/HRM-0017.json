@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0017",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the nature of effective written communications.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the nature of effective verbal communications.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Reinforce service orientation through communication.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the types of economic systems.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Respond to customer inquiries.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the human resources manager at STONEHILL CONSTRUCTION, a residential and light commercial building contractor. The company president (judge), the third generation of the founding family to run the business, has asked you to recommend how STONEHILL should staff the coming building season and which work it should take on.\n\nSTONEHILL builds from March through November and releases most field crews for the winter. Tradespeople come back each spring because the company calls the same crews first, and that callback record is the reason experienced framers stay with a seasonal employer at all. Six framing crews is the most the company's current supervisors and equipment can keep working at one time.\n\nThis spring the book of work runs past that limit. Two long-standing residential builders hold spring schedules STONEHILL has already committed to. Two new commercial customers, larger than anything the company has built before, are waiting on an answer. Taking all four means hiring and training two more crews through COASTAL TRADES STAFFING and releasing them in November with the rest.\n\nHiring the two additional crews carries training and wage costs the company pays out and then releases in November, and a fall layoff of crews hired months earlier is what damages the callback record the returning tradespeople count on. Declining the two new commercial customers holds the season steady and hands that work to a competitor, and those customers may not ask again.\n\nThe company president (judge) wants your recommendation on how many crews to bring on, which customers to serve, and how the company should answer the customers who are still waiting. The company president (judge) will greet you, hear your ideas and ask questions. When you have finished answering, the company president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the company president of STONEHILL CONSTRUCTION, the third generation of the founding family to run the business. Business background is the same as the situation above.\n\nYou have asked the human resources manager to recommend how many framing crews STONEHILL should field this season, which customers the company should serve, and how the company should answer the customers still waiting on a reply.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "What would you do first, and who would you talk to?",
+    "How would we tell the crews and the customers, and in what order?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "six framing crews is the most the company's current supervisors and equipment can keep working at one time",
+        "spring schedules already committed to two long-standing residential builders"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "six framing crews is the most the company's current supervisors and equipment can keep working at one time",
+        "spring schedules already committed to two long-standing residential builders"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 294,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "construction contractor",
+        "company_stage": "a family business in its third generation",
+        "business_function": "seasonal staffing ramp and release",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0017",
+      "shelfSimilarity": 0.1306,
+      "shelfNearest": "HRM-0016",
+      "exemplarSimilarity": 0.0712,
+      "gateVersion": 8
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0036",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Explain the use of video/images for digital marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe marketing functions and related activities.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain factors that influence customer/client/business buying behavior.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain marketing and its importance in a global economy.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Identify customer touch points.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Outline steps to remedy specific problems.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the responsibilities of finance professionals in providing client services.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing director (participant one) and the compliance manager (participant two) at BRIGHTKEEL IMPORTS, an importer of wooden and plush toys for children under eight. The chief executive officer (judge) took over eighteen months ago, after two losing years, and has asked the two of you to meet about a decision that cannot wait until after the holiday buying season.\n\nBRIGHTKEEL buys from small workshops in three countries and sells to independent toy shops and one regional chain. Most of the recovery has come from a short-video channel built by the digital content manager, whose clips of real children playing with the toys are now the first touch point for nearly every new customer. The chain's buyer said plainly that the channel is why the account was signed.\n\nCompany policy, written after last year's audit, requires a signed parental release before any identifiable child appears in company content. The digital content manager filmed the current holiday series at a public toy fair, where posted signage disclosed recording, and collected no releases. Counsel has confirmed that the footage was lawfully obtained and may stay online. Nothing about the videos is illegal; the policy the company wrote for itself is what was broken.\n\nParents who buy from BRIGHTKEEL are the people most likely to object to a toy company using children's faces without asking first. Pulling the series would strip the channel of its strongest library three weeks before the season, and the chain's buyer may revisit the account terms the company's finance manager negotiated while servicing that client. Leaving it up and disciplining quietly tells a staff of forty which rules are optional, and leaves the written policy standing as a promise the company did not keep.\n\nThe chief executive officer (judge) wants a recommendation on both halves of the problem: what happens to the video series, and what happens to a high performer whose work carried the turnaround. Explain how buying behavior and the company's customer touch points bear on the choice, what discipline is warranted, and the steps that would keep the same failure from happening again.\n\nYou will present your recommendation to the chief executive officer (judge) in a meeting in the executive's office. The chief executive officer (judge) will greet you and ask to hear your ideas. After you have presented and have answered the chief executive officer's questions, the chief executive officer (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the chief executive officer (judge) of BRIGHTKEEL IMPORTS. Business background is the same as the situation above. You were brought in after two losing years, and the short-video channel built by the digital content manager is the largest single reason the company is profitable again. You also signed the content policy that the digital content manager did not follow, and counsel has told you the footage is lawful and may remain online.\n\nYou want the participant team to recommend what to do with the video series and what discipline, if any, the digital content manager should receive. You want to hear how customers are likely to react, which touch points are affected, what the recommendation costs the company in the weeks before the season, and what steps would prevent a repeat.\n\nDuring the course of the presentation you are to ask the following questions of each participant team:",
+  "judgeQuestions": [
+    "Six months from now, how would we know we made the right call?",
+    "What would tell us that people here still take the policy seriously?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the company's own written policy requiring a signed parental release before an identifiable child appears in company content",
+        "the regional chain account and the terms the finance manager negotiated, three weeks before the holiday season"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the company's own written policy requiring a signed parental release before an identifiable child appears in company content",
+        "the regional chain account and the terms the finance manager negotiated, three weeks before the holiday season"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 405,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "children's toy importer",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "the discipline of a high performer who broke a rule",
+        "dilemma_archetype": "a legally permitted action that customers would object to",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0036",
+      "shelfSimilarity": 0.0857,
+      "shelfNearest": "BLTDM-0034",
+      "exemplarSimilarity": 0.0833,
+      "gateVersion": 8
+    }
+  }
+}

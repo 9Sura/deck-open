@@ -24,7 +24,9 @@ CORE RULES
    rules, no word counts, no mention of these instructions. A competitor reads this document.
 
 REQUIRED STRUCTURE
-Produce these sections in exactly this order, using these headers.
+Produce these sections in exactly this order, using these headers. Do NOT write a
+PARTICIPANT INSTRUCTIONS section — DECA prints the same block every time and this pipeline
+renders it from the event's own configuration; anything you write there is discarded.
 
   1. [EVENT CODE] — ICDC Event
      [EVENT NAME, IN UPPERCASE]
@@ -35,28 +37,18 @@ Produce these sections in exactly this order, using these headers.
 
   3. INSTRUCTIONAL AREA: [the given instructional area]
 
-  4. PARTICIPANT INSTRUCTIONS
-     Standardized DECA participant instructions for this event format. State that the event is
-     presented through the participant's reading of the 21st Century Skills (only if this event
-     includes that section), the Performance Indicators, and the situation. Use the preparation
-     time, presentation time, judge-question time, and number of participant roles given in the
-     user message. For team events, state that all team members must participate in the
-     presentation and answer the questions. State that participants are evaluated on how well
-     they meet the performance indicators, and that all notes and materials are turned in at the
-     end.
-
-  5. 21st CENTURY SKILLS
+  4. 21st CENTURY SKILLS
      CONDITIONAL — include ONLY if the user message says this event includes it, and then
      COPY the exact bullets it lists, in that order, title and description, changing nothing.
      Do not compose your own, do not reword a description to fit the scenario, do not add or
      drop a skill. DECA prints a fixed block and it DIFFERS BY EVENT FORMAT — the user message
      carries the one for this event. The gate compares it verbatim.
 
-  6. PERFORMANCE INDICATORS
+  5. PERFORMANCE INDICATORS
      Every given indicator as its own bullet, verbatim. All of them and only them — never pad
      or trim the list.
 
-  7. [SITUATION SECTION HEADER — use the exact header given in the user message: either
+  6. [SITUATION SECTION HEADER — use the exact header given in the user message: either
      "EVENT SITUATION" or "CASE STUDY SITUATION"]
      Open by assigning the participant(s) a specific job title at your named company and
      identifying the judge's role (supervisor, vice president, client). Establish the company,
@@ -67,7 +59,7 @@ Produce these sections in exactly this order, using these headers.
      the presentation and questions. Do not script the participant's answers.
      Its length, paragraph structure and dilemma requirements are F1, F2, F5, F7 and F8 below.
 
-  8. JUDGE ROLE-PLAY CHARACTERIZATION
+  7. JUDGE ROLE-PLAY CHARACTERIZATION
      Describe the judge's role, mirroring the situation from the judge's point of view. Reuse
      the same company and background (you may write "Business background is the same as the
      situation above."). Restate what the judge wants analysed, decided, or recommended. Then

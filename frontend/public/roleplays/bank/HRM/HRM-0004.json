@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "HRM-0004",
+  "code": "HRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Recognize/Reward others for their efforts and contributions.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assist with establishment of work rules.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Show empathy for others.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Describe the use of technology in human resources management.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Build and maintain relationships.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the people operations lead at NORTHGATE WATCH SECURITY, a two-year-old company that provides uniformed guards and access monitoring for office buildings. The founder (judge), who also serves as chief executive, has asked you to recommend how the company should fill twenty guard positions that a new building contract requires within ninety days.\n\nThe company has about seven months of its first round of funding left. When it started, it published a hiring commitment: openings would be posted internally first, and the guard force would be built to reflect the neighborhoods it protects. The commitment is written into the work rules the guards signed and into the contract with the company's largest client.\n\nA referral channel could fill all twenty posts in three weeks at no agency cost. It draws from one former employer's alumni network, and the company's applicant tracking system shows that channel has produced nearly the same profile every time: licensed, experienced, and almost entirely from outside the neighborhoods the commitment names. Using it means the postings the guards were promised never appear.\n\nOpen recruiting through community partners and the tracking system would honor both halves of the commitment, but licensing new applicants takes eight to ten weeks and the outreach costs money the company would take out of the runway it has left. Missing the ninety-day date carries a penalty in the building contract, and the longest-serving guards have been waiting on a supervisor posting since spring.\n\nThe founder (judge) wants your recommendation on how the twenty positions get filled, and on what the company says to the guards who were promised those postings. You will present your recommendation to the founder (judge) in the founder's office. The founder (judge) will greet you and ask to hear your ideas. After you have presented and answered the questions, the founder (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of founder and chief executive (judge) of NORTHGATE WATCH SECURITY, a two-year-old company providing uniformed guards and access monitoring for office buildings.\n\nBusiness background is the same as the situation above. Twenty guard positions must be filled within ninety days, the published hiring commitment is written into the work rules the guards signed and into the largest client's contract, and the company has about seven months of funding left.\n\nYou have asked the people operations lead (participant) to recommend how the twenty positions get filled, and what the company says to the guards who were promised those postings.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "How would you tell the guards who have been waiting on a posting?",
+    "What would you say if one of them asked whether the rule still applies?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the published hiring commitment written into the work rules the guards signed and into the largest client's contract",
+        "the ninety-day date in the new building contract and the penalty for missing it"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the published hiring commitment written into the work rules the guards signed and into the largest client's contract",
+        "the ninety-day date in the new building contract and the penalty for missing it"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 311,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "security services company",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "a diversity commitment against a narrow hiring pipeline",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "HRM-0004",
+      "shelfSimilarity": 0.1617,
+      "shelfNearest": "HRM-0002",
+      "exemplarSimilarity": 0.0853,
+      "gateVersion": 8
+    }
+  }
+}

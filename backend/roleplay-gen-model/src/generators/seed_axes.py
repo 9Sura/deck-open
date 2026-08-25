@@ -53,12 +53,22 @@ _EVENT_FRAMES_CACHE: Dict[str, Dict[str, str]] | None = None
 # are the sentences every landed shelf was authored against, moved out of the
 # function body unchanged so that overriding them is a data edit rather than a
 # code fork.
+#
+# `question_shape`'s frame is the ONE that has moved since (plan 06 §4). It read
+# "Shape the judge's questions to {}." over values that each began "ask ...", so
+# frame and value together handed the author a finished question -- and two cases
+# drawing "ask why something in the decision matters, and to whom" both wrote every
+# judge question as "Why does X matter, and to whom?". The values are now subjects
+# rather than questions and the frame states the subject rather than commanding a
+# shape, so the author still has to write the question. A frame override in
+# `seed_axes_events.json` must keep that split: it may restate WHAT is probed, never
+# supply the interrogative.
 DEFAULT_FRAMES: Dict[str, str] = {
     "industry": "Set the scenario in a {}.",
     "company_stage": "The company is {}.",
     "business_function": "The decision turns on {}.",
     "dilemma_archetype": "Build the dilemma around {}.",
-    "question_shape": "Shape the judge's questions to {}.",
+    "question_shape": "The judge's questions probe {}.",
     "_closing": (
         "Invent the company name, the people, and the figures yourself. Do not mention "
         "this brief, name these constraints, or label them in the roleplay."

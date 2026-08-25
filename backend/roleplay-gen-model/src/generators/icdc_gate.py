@@ -14,9 +14,9 @@ What the corpus actually says, measured, and what each fact became:
     judge questions: 2                302 of 396   -> F6 allows 2-3, nothing else
     judge questions: 3                 89 of 396
     situation length                   per-event   -> F7 band, 0.8x-1.4x the
-                                                      event's OWN corpus mean
-                                                      (81% of real cases inside;
-                                                      the old 1.4x-1.8x held 5%)
+                                                      event's OWN corpus mean over
+                                                      the CURRENT-FORMAT window
+                                                      (2022 on; see BAND_LO_MULT)
     situation paragraphs        4 principles / 5 series / 6 team (medians)
 
 Coverage map -- what this module can count is the whole of what gets enforced,
@@ -24,7 +24,7 @@ and what it cannot count ships unverified BY DESIGN (plan 03 D4 dropped the
 model referee):
 
     F3 no exhibit / no data block                 checked here
-    F6 2-3 judge questions                        checked here
+    F6 per-event judge-question count             checked here
     F7 per-event situation word band              checked here
     F8 BLATANT telegraphs                         checked here (phrase list)
     F2 roles not a named cast                     partial -- self-report cross-check
@@ -72,13 +72,67 @@ from typing import Dict, List, Optional, Sequence, Tuple
 #      role-not-cast shape, K2's numeric-collision floor is gone, and F7's band
 #      is re-derived (below). A shelf recording gateVersion <= 4 was measured
 #      against the ICDC+ bar and is NOT comparable to one recording 5.
-GATE_VERSION = 5
+#   6  The 2026-08-23 BLTDM recheck's two format findings. F6 narrows from the
+#      corpus-wide 2-3 range to the event's OWN `authentic_judge_questions`, checked
+#      exactly, because the 3s are all pre-2022 and the current format is unanimously
+#      2 (see judge_question_count). And PARTICIPANT INSTRUCTIONS stops being
+#      authored at all: DECA prints one block per format and
+#      `parse_roleplay.participant_instructions_for` renders it from the event
+#      config, so 26 wordings across 30 files is no longer a shape the pipeline can
+#      produce. A shelf recording 5 was authored under the range and with the block
+#      written by hand.
+#   7  F7's MEAN is re-fit to the current-format window (plan 06 §3.1). Same knob,
+#      same multipliers, different mean: `authentic_situation_mean` averaged all ten
+#      corpus years, and DECA's long-form era ended in 2021, so the band was centred
+#      on a register the event no longer prints -- the identical defect version 6
+#      fixed in F6, in a different field. 21 of 28 events move by more than 15 words
+#      and every band edge moves with them, so a shelf recording 6 was measured
+#      against a different F7 than one recording 7. THE MULTIPLIERS ARE UNCHANGED
+#      and are a separate open question (plan 06 OQ1): re-fitting the mean alone
+#      still leaves BLTDM's ceiling above where authors park.
+#      Also in 7, and not a knob change: `meta.gate.failedKnobs` stops carrying the
+#      non-gating F2/F5 self-report results, which move to `meta.gate.selfReport`
+#      (plan 06 §5). SCHEMA_VERSION does not move -- no field changed shape -- so
+#      this version number is the only signal that a 7 file's `failedKnobs` and a
+#      6 file's are answering different questions.
+#   8  THE F2/F5 SELF-REPORT CROSS-CHECK BLOCKS ON THE BANK PATH (plan 06 OQ3a),
+#      and its OPTIONS test got stricter. `check_self_report` now tests an
+#      option's ACTION and its COST separately and requires both in the prose,
+#      where it used to hand the joined string to `_claim_supported` and let the
+#      action's words carry it; an option that states no cost at all is a finding
+#      rather than a pass. `fill_bank.py` puts the result in `blocking`
+#      unconditionally -- `--enforce-self-report` is gone, because a bank-path
+#      switch that lowers the bank bar is what `--min-pass` is banned for being.
+#      The DAY path is unchanged and still records without gating. F5 remains in
+#      `UNVERIFIED`: this proves a second option was written, never that it was
+#      lawful. A shelf recording 7 was banked without this test.
+GATE_VERSION = 8
 
-# F7 -- the per-event situation word BAND. Still 
+# F7 -- the per-event situation word BAND. Still
 # `multiplier x the mean length of the event's OWN corpus situations` (events.json
 # carries that mean as a measured number per event), and still computed rather than
-# stored so the two ends cannot drift from the mean they come from. What changed is
-# the multipliers, and they are now measured rather than chosen:
+# stored so the two ends cannot drift from the mean they come from.
+#
+# THE MEAN IS MEASURED OVER 2022 ON, NOT OVER THE WHOLE CORPUS (plan 06 §3.1, gate
+# version 7). It used to average all ten seeded years, which is a mean of two
+# formats at once -- exactly what made F6's 2-3 range too loose before version 6
+# narrowed it. DECA's long-form era ended in 2021: BLTDM's pre-2022 situations run
+# 552/506/496/301/360 words against 328/357/362/408/366 from 2022 on. Re-fitting
+# moves 21 of the 28 events by more than 15 words (QSRM -67.6, FMS -63.6, HTDM
+# -58.7; BFS and PHT move UP), and the window is recorded in events.json's
+# `_meta.situation_length` so a later corpus year re-measures rather than inherits.
+#
+# THE MULTIPLIERS BELOW WERE FIT AGAINST THE ALL-YEAR CORPUS AND ARE UNCHANGED.
+# They were chosen to CONTAIN the corpus; centring the band on the current format is
+# a different goal, and the pre-2022 files hid the conflict by making the wide band
+# look necessary. Re-fitting the mean alone catches 3 of the 30 banked BLTDM files
+# where 0.8-1.15 would catch 30, because authors park at the ceiling wherever it is
+# -- so the ceiling is doing the work and the floor has never once been approached.
+# That is a house-style decision, not a measurement (plan 06 OQ1), and it is open.
+# Do not move these two numbers without recording which goal was chosen.
+#
+# The measured coverage below is over all 396 files and is left as it was recorded,
+# because it is what these two multipliers were chosen ON:
 #
 #   real corpus situations falling inside the band, over all 396 files
 #     1.4x - 1.8x  (the retired ICDC+ band)     20/396 =  5%
@@ -97,8 +151,9 @@ BAND_HI_MULT = 1.4
 def situation_word_band(event_cfg: Dict) -> Tuple[int, int]:
     """(lo, hi) authored word band for this event's situation section.
 
-    0.8x-1.4x the event's measured corpus mean -- see BAND_LO_MULT for why those
-    two numbers and not the retired tier's.
+    0.8x-1.4x the event's measured corpus mean over the CURRENT-FORMAT window
+    (2022 on) -- see BAND_LO_MULT for why those two numbers, why that window, and
+    why the two halves of the fit moved at different times.
 
     Raises on an event with no measured mean rather than falling back to a
     per-format number: a silent fallback would re-introduce the per-format rule
@@ -110,7 +165,8 @@ def situation_word_band(event_cfg: Dict) -> Tuple[int, int]:
         raise ValueError(
             f"{event_cfg.get('event_code', '?')} has no authentic_situation_mean in "
             "events.json, so its F7 length band cannot be computed. Measure it from "
-            "the event's corpus files (plan 05 §9's last one-liner) and add it there."
+            "the event's CURRENT-FORMAT corpus files (2022 on, plan 05 §9's last "
+            "one-liner narrowed to that window) and add it there."
         )
     return round(BAND_LO_MULT * mean), round(BAND_HI_MULT * mean)
 
@@ -207,9 +263,14 @@ def check_pi_quota(
 # nothing more; these are the criteria nobody ran.
 UNVERIFIED: Tuple[str, ...] = (
     "F2 (roles not a named cast; at most two parties beyond the judge) -- "
-    "self-report cross-check only, recorded and NOT gating",
-    "F5 (>=2 defensible options, each with a real cost) -- self-report "
-    "cross-check confirms the options were WRITTEN, not that they trade off",
+    "self-report cross-check only: it tests the tail the author wrote, never the "
+    "prose's own cast. It REJECTS on the bank path (gate version 8); the day path "
+    "records it without gating",
+    "F5 (>=2 defensible options, each with a real cost) -- the self-report "
+    "cross-check confirms two courses of action and their costs were WRITTEN and "
+    "appear in the prose, never that they trade off or that either is LAWFUL. "
+    "Rejecting on it (bank path, gate version 8) does not answer that second "
+    "question; nothing deterministic can (03-plan D4)",
     "F1 (one scenario, one judge) -- unverified, needs a judge",
     "F4 (decidable from the given facts) -- unverified, needs a judge",
     "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
@@ -274,14 +335,53 @@ def list_items(lines: Sequence[str]) -> List[str]:
     return [i for i in items if i]
 
 
-# F6 -- judge questions, a RANGE, not a floor. Measured over the corpus: 2 in 302
-# of 396 files, 3 in 89, and 4-or-more in 5 (one of which has 16, an extraction
-# artefact). The retired K6 floored this at 3 AND demanded every question open
-# with an evaluative verb AND that one name a stakeholder and quote their
-# position -- a rubric item's register, which is why 396 of 396 real roleplays
-# failed it. There is no analytic-verb test any more and there must not be one.
-MIN_JUDGE_QUESTIONS = 2
-MAX_JUDGE_QUESTIONS = 3
+# F6 -- judge questions, a per-EVENT COUNT read from events.json. It was a 2-3
+# RANGE, taken over the whole 396-file corpus: 2 in 302 files, 3 in 89, 4-or-more
+# in 5 (one of which has 16, an extraction artefact).
+#
+# THE RANGE WAS MEASURED ACROSS TWO FORMATS AT ONCE, and that is what made it too
+# loose. Split the same corpus by year and the 3s are all the old one: 2019 runs 9
+# files at 2 against 29 at 3, while 205 of 205 files dated 2022 or later carry
+# exactly 2 -- unanimously, in every one of the 28 events. So "DECA asks 2 or 3" is
+# a fact about DECA's back catalogue and "DECA asks 2" is the fact about the format
+# this tier authors in, which is also what the three current 2025 BLTDM references
+# show (audits/BLTDM_30_Roleplay_Recheck_Report.pdf, 2026-08-23). Nothing counted
+# them before this, and the BLTDM shelf banked 7 of 30 with three.
+#
+# IT IS CONFIG, NOT A CONSTANT, on `authentic_situation_mean`'s precedent: the
+# number is a measurement of one event's own corpus, it belongs beside the corpus
+# it was measured from, and a second event whose current files disagree must be
+# able to say so without editing this module. Today all 28 read 2.
+#
+# ONE RULE, NOT TWO. This REPLACES the range rather than sitting beside it -- a gate
+# holding both a 2-3 range and an exact-2 count is two rules for one knob, and the
+# looser one would silently be the one nobody re-derived. The day path's objection
+# to a tightened knob (`fill_buffer.py --min-pass 22`) is recorded as already void
+# at fill_buffer.py:147: that derivation's batch was cancelled and never run, and
+# anyone reviving daily generation re-measures it.
+#
+# The retired K6 floored this at 3 AND demanded every question open with an
+# evaluative verb AND that one name a stakeholder and quote their position -- a
+# rubric item's register, which is why 396 of 396 real roleplays failed it. There is
+# no analytic-verb test any more and there must not be one.
+
+
+def judge_question_count(event_cfg: Dict) -> int:
+    """How many numbered judge questions this event's current format carries.
+
+    Raises on an event that does not configure one, for `situation_word_band`'s
+    reason and not a different one: a fallback to 2 would re-introduce a single
+    cross-event number under a per-event heading, and nothing downstream could tell
+    a measured 2 from a defaulted one.
+    """
+    n = event_cfg.get("authentic_judge_questions")
+    if not n:
+        raise ValueError(
+            f"{event_cfg.get('event_code', '?')} has no authentic_judge_questions in "
+            "events.json, so its F6 judge-question count cannot be checked. Count them "
+            "in the event's current-format corpus files (2022 on) and add it there."
+        )
+    return int(n)
 
 # F2/F5 floors (self-report cross-check). PARTIES has a CEILING, not a floor:
 # "at least three named stakeholders with mutually incompatible interests" was
@@ -455,8 +555,19 @@ def _claim_supported(claim: str, body_lower: str) -> bool:
 def check_self_report(body: str, report: Optional[Dict[str, List[str]]]) -> List[str]:
     """Falsify the author's own F2/F5 claims against the prose it wrote.
 
-    NOT a verdict on whether the two options are genuinely a trade-off -- only on
-    whether the things it says it wrote are actually there.
+    NOT a verdict on whether the two options are genuinely a trade-off, and NOT a
+    verdict on whether either of them is lawful -- only on whether the things it
+    says it wrote are actually there. That is why F5 stays in `UNVERIFIED` even
+    now that the bank path rejects on this function: it can tell that a second
+    course of action was WRITTEN, never that it was DEFENSIBLE, and the audit's
+    option-collapse finding is the second question. A referee that could answer it
+    is 03-plan D4, which does not reopen.
+
+    Blocking on the bank path costs a false positive a re-author, not a bad file
+    (03-plan §6e: discard and re-author, never repair in). The cost half of an
+    option is short, so `_claim_supported`'s overlap bar has few words to work
+    with and this check is stricter there than on a party's role. That trade is
+    deliberate on the BANK path only -- the day path never runs it as a gate.
 
     The direction of the PARTIES test is INVERTED from the retired tier's. K1
     demanded at least three named stakeholders with incompatible interests and
@@ -498,11 +609,37 @@ def check_self_report(body: str, report: Optional[Dict[str, List[str]]]) -> List
             f"F5: {len(options)} course(s) of action reported, need >= {MIN_OPTIONS} "
             "-- a case with one defensible option has no decision in it"
         )
-    absent_o = [o for o in options if not _claim_supported(o, body_lower)]
+    # BOTH HALVES OF AN OPTION, SEPARATELY (plan 06 OQ3a). The tail's shape is
+    # "<course of action> - <what it really costs>", and handing the whole string
+    # to `_claim_supported` let the ACTION's words carry the claim over the 60%
+    # bar on their own -- so an option whose cost clause appears nowhere in the
+    # prose passed, which is precisely the "there is only one option really
+    # written down" case this check exists to catch. PARTIES already splits on
+    # " - " and tests the reliable half; this tests both and requires both.
+    #
+    # `partition`, not `split`, so a dash inside the cost clause stays in the
+    # cost clause. A missing separator is its own finding rather than a silent
+    # pass: an option with no stated cost is not a defended course of action.
+    costless: List[str] = []
+    absent_o: List[str] = []
+    for opt in options:
+        action, sep, cost = opt.partition(" - ")
+        if not sep or not cost.strip():
+            costless.append(action)
+            continue
+        if not _claim_supported(action, body_lower):
+            absent_o.append(action)
+        elif not _claim_supported(cost, body_lower):
+            absent_o.append(cost)
+    if costless:
+        issues.append(
+            f"F5: {len(costless)}/{len(options)} reported option(s) state no cost: "
+            + "; ".join(c[:40] for c in costless)
+        )
     if absent_o:
         issues.append(
-            f"F5: {len(absent_o)}/{len(options)} reported option(s) not found in the prose: "
-            + "; ".join(o[:40] for o in absent_o)
+            f"F5: {len(absent_o)}/{len(options)} reported option half/halves not found in "
+            "the prose: " + "; ".join(o[:40] for o in absent_o)
         )
 
     return issues
@@ -898,19 +1035,16 @@ def check_icdc_shape(
             "(0 of 396 corpus roleplays) -- put any figure the decision needs in the prose"
         )
 
-    # F6 -- judge questions: a RANGE. No analytic-verb test and no counter-argument
-    # test; both were rubric register and both are why 396 of 396 real roleplays
-    # failed the retired K6.
+    # F6 -- judge questions: this event's own COUNT, exactly. No analytic-verb test
+    # and no counter-argument test; both were rubric register and both are why 396 of
+    # 396 real roleplays failed the retired K6. See judge_question_count for why the
+    # old 2-3 range was measuring two formats at once.
+    want = judge_question_count(event_cfg)
     questions = judge_questions(judge_section)
-    if len(questions) < MIN_JUDGE_QUESTIONS:
+    if len(questions) != want:
         issues.append(
-            f"F6: {len(questions)} numbered judge question(s), DECA asks "
-            f"{MIN_JUDGE_QUESTIONS}-{MAX_JUDGE_QUESTIONS}"
-        )
-    elif len(questions) > MAX_JUDGE_QUESTIONS:
-        issues.append(
-            f"F6: {len(questions)} numbered judge question(s), ceiling is "
-            f"{MAX_JUDGE_QUESTIONS} (2 in 302 of 396 corpus roleplays, 3 in 89)"
+            f"F6: {len(questions)} numbered judge question(s), this event's current "
+            f"format carries exactly {want} (205 of 205 corpus files from 2022 on)"
         )
 
     # F8 -- blatant resolutions, in the situation only. One real corpus roleplay

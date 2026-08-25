@@ -412,7 +412,9 @@ regardless of the switch.
 
 - **Export my data (JSON)** — everything DECK holds about you, in a file you keep.
 - **Reset progress** — erases your practice history. Two-step confirm. For a signed-in user it
-  clears both your device and your account.
+  clears both your device and your account, and it also clears **today's plan** (its task cards,
+  their saved question sets, and anything you added today), so the dashboard builds a fresh plan.
+  Your target event, level and competition date survive a reset — that's setup, not progress.
 - **Delete account** — permanently removes the account and all its data everywhere. You type your
   username to confirm.
 
@@ -428,9 +430,18 @@ about you anywhere.
 
 **As a guest, nothing is recorded.** Not on the server, not in your browser.
 
-**With an account, we store** your username and display name, and your practice log — each
-answered question's topic, the choice you made, whether it was right, and the timing — plus a row
-per practice session. We do **not** collect your email, real name, school, or location.
+**With an account, we store** your username, display name and avatar emoji; your practice log —
+each answered question's topic, the choice you made, whether it was right, and the timing — plus a
+row per practice session; your **study plan** — target cluster and level, the competition date you
+enter, and today's plan state (tasks added, tasks dismissed, and how far into each one you are);
+and a **sign-in token** that enforces one account to one device at a time. We do **not** collect
+your email, real name, school, or location.
+
+**A copy also lives on your device.** Once you're signed in, the practice log and study plan are
+cached in your browser (IndexedDB plus a few `deck-*` keys) so the app stays fast and keeps
+working offline, syncing back when the connection returns. **Reset progress** clears the practice
+log and today's plan on both sides but keeps your target event, level and date (see §12);
+**Delete account** clears everything, device copy included.
 
 **Where it lives.** A hosted database (Supabase). During beta that's one shared project for
 everyone testing. Database security rules mean only you, signed in, can read or write your own

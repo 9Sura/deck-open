@@ -32,10 +32,12 @@ were found by reading `output/bake-off/icdc/no-example/*.txt`, not assumed:
   3. CAREER CLUSTER is conditional. PFL is the sole event with
      `career_cluster: null` and none of its 10 corpus files carry the header
      (§3h). Absent field, never the string "General".
-  4. The PARTICIPANT INSTRUCTIONS boilerplate is unreliable: it says "no time
-     for judge questions" and then three judge questions follow. Timings come
-     from the event config, never from that prose. Recorded as a defect below
-     rather than papered over.
+  4. The PARTICIPANT INSTRUCTIONS boilerplate was unreliable: it said "no time
+     for judge questions" and then three judge questions followed. Since
+     2026-08-23 it is not authored at all -- `participant_instructions_for`
+     renders DECA's block from the event config, so the prose and the timings
+     now come from the same place. An authored block, in an artifact written
+     before the prompt stopped asking for one, is still read for its defects.
 
 `meta` (frontend F10) keeps the model's self-report tail as structured metadata.
 It is the model's own claim, only PARTIALLY falsifiable by Python, and it is
@@ -189,6 +191,91 @@ def event_order(events: Dict[str, Dict]) -> List[str]:
         events,
         key=lambda code: (_FORMAT_RANK.get(events[code].get("format", "series"), 9), code),
     )
+
+
+# ----------------------------
+# Participant instructions -- rendered, never authored (2026-08-23)
+# ----------------------------
+# DECA PRINTS THIS BLOCK IDENTICALLY EVERY TIME, so nobody should be writing it.
+# The 2026-08-23 BLTDM recheck found 26 different wordings across 30 files, which
+# is what free text produces when 30 authors are each asked for "standardized DECA
+# participant instructions": no two agree, and several are wrong about the timing
+# they were handed (§2a note 4's `boilerplate:denies-judge-questions` defect is the
+# same failure, found earlier).
+#
+# THE PRECEDENT IS THE 21st CENTURY SKILLS BLOCK, one step further. Plan 04 §2.3
+# step 2 records that "list exactly N skills" is an instruction scored by nothing --
+# an author told a number cannot know WHICH -- so the author now TRANSCRIBES an
+# exact string and `validate_roleplay` compares it verbatim. The same argument
+# applies here, except this block is FULLY DERIVABLE from the event config, so
+# there is nothing for the author to transcribe and nothing to compare: it is
+# rendered here and the prompt no longer asks for it at all. That also makes every
+# authoring prompt shorter.
+#
+# THE WORDING IS THE CORPUS'S, NOT A PARAPHRASE. Across the 205 corpus files dated
+# 2022 or later there is exactly ONE wording per format -- 138 series, 40 team, 27
+# principles, no variants -- and every number in it is `prep_minutes` /
+# `presentation_minutes` from events.json. The templates below reproduce those three
+# blocks; the only choices they make are which format's line 2 to use and which
+# situation the first sentence names.
+_PI_LINE_REVIEW = (
+    "The event will be presented to you through your reading of the "
+    "{skills}Performance Indicators and {situation}. You will have up to {prep} "
+    "minutes to review this information and prepare your presentation. You may "
+    "make notes to use during your presentation."
+)
+_PI_LINE_PRESENT = (
+    "You will have up to {present} minutes to make your presentation to the judge "
+    "(you may have more than one judge)."
+)
+# Team only. DECA adds it because a team can otherwise let one member carry the
+# room, and it is absent from every series and principles file in the corpus.
+_PI_TEAM_SUFFIX = (
+    " All members of the team must participate in the presentation, as well as "
+    "answer any questions."
+)
+_PI_LINE_EVALUATED = (
+    "You will be evaluated on how well you {skills}meet the performance indicators "
+    "of this event."
+)
+_PI_LINE_TURN_IN = (
+    "Turn in all of your notes and event materials when you have completed the event."
+)
+
+
+def participant_instructions_for(event_cfg: Dict) -> str:
+    """DECA's participant-instruction block for this event, from its config.
+
+    Returned as ONE paragraph rather than the four bullets DECA prints. The field is
+    a `string` in `frontend/lib/roleplay/types.ts` and the Brief renders it in a
+    single `<p>`, so bullets would need a frontend change to survive; the four
+    sentences are the content, and their layout is a print detail of the PDF.
+
+    The 21st Century Skills clause is conditional on the event carrying that
+    section. All 28 events do today -- this reads the flag rather than assuming it,
+    for the reason `build_user_message` does: an event that omits the section must
+    not be told to read one.
+    """
+    fmt = event_cfg.get("format", "series")
+    skills = bool(event_cfg.get("includes_21st_century_skills"))
+    situation = "Case Study Situation" if fmt == "team" else "Event Situation"
+    present = _PI_LINE_PRESENT.format(present=event_cfg["presentation_minutes"])
+    # Keyed on the ROLE COUNT rather than on `format == "team"`: the sentence is
+    # about there being more than one member, and the two agree on today's config.
+    if int(event_cfg.get("participant_roles", 1)) > 1:
+        present += _PI_TEAM_SUFFIX
+    return " ".join((
+        _PI_LINE_REVIEW.format(
+            skills="21st Century Skills, " if skills else "",
+            situation=situation,
+            prep=event_cfg["prep_minutes"],
+        ),
+        present,
+        _PI_LINE_EVALUATED.format(
+            skills="demonstrate the 21st Century Skills and " if skills else ""
+        ),
+        _PI_LINE_TURN_IN,
+    ))
 
 
 # ----------------------------
@@ -358,6 +445,7 @@ def parse_roleplay(
     passes: int = 2,
     extra_issues: Sequence[str] = (),
     checks: Optional[Sequence[str]] = None,
+    self_report_gating: bool = False,
 ) -> Dict:
     """One generation's raw text -> the archived JSON object. No model call.
 
@@ -380,6 +468,12 @@ def parse_roleplay(
     `fill_buffer.py` does not. A hard-coded list would state checks that did not run
     on the day path, which is the exact defect §5 exists to fix, one level in. The
     default is therefore only what this module can vouch for on its own.
+
+    `self_report_gating` records whether the driver rejected on the F2/F5
+    cross-check. It does NOT change this function's verdict -- `passed` is the
+    countable criteria and nothing else -- because a driver that enforces the
+    cross-check discards the candidate before it ever reaches here, so the flag is
+    provenance about an empty list rather than a second gate.
 
     `extra_issues` is where the driver passes what this module cannot see:
     `validate_roleplay()` needs the selected PI list and the sampled exemplar, and
@@ -456,13 +550,23 @@ def parse_roleplay(
     )
     questions = gate.judge_questions("\n".join(judge_lines[first_q:]))
 
-    participant_instructions = _paragraphs(blocks.get("PARTICIPANT INSTRUCTIONS", []))
-    if questions and any(p in participant_instructions.lower() for p in _DENIES_QUESTIONS):
+    # RENDERED FROM THE CONFIG, NOT READ OFF THE PAGE (2026-08-23). See
+    # `participant_instructions_for`. The authored block is still INSPECTED when one
+    # is present, so re-parsing an artifact written before the prompt stopped asking
+    # for it records the same defects it always did -- but what gets stored is the
+    # canonical block either way.
+    participant_instructions = participant_instructions_for(event_cfg)
+    authored_instructions = _paragraphs(blocks.get("PARTICIPANT INSTRUCTIONS", []))
+    if authored_instructions:
+        # Not blocking, and not a `missing-section` in reverse: the section is now
+        # ignored rather than forbidden, and discarding an otherwise-good candidate
+        # over prose nobody stores would be the bank throwing away work for nothing.
+        defects.append("unexpected-section:PARTICIPANT INSTRUCTIONS")
+    if questions and any(p in authored_instructions.lower() for p in _DENIES_QUESTIONS):
         defects.append("boilerplate:denies-judge-questions")
 
-    for header in ("PARTICIPANT INSTRUCTIONS", "PERFORMANCE INDICATORS"):
-        if not blocks.get(header):
-            defects.append(f"missing-section:{header}")
+    if not blocks.get("PERFORMANCE INDICATORS"):
+        defects.append("missing-section:PERFORMANCE INDICATORS")
     if bool(event_cfg.get("includes_21st_century_skills")) and not blocks.get("21st CENTURY SKILLS"):
         defects.append("missing-section:21st CENTURY SKILLS")
 
@@ -543,8 +647,35 @@ def parse_roleplay(
             "corroborated": corroborated,
             "gate": {
                 "passed": not icdc_issues and not extra_issues,
-                "failedKnobs": _knobs([*icdc_issues, *report_issues]),
+                # BLOCKING KNOBS ONLY -- the ones `passed` is a verdict about.
+                # `report_issues` used to be folded in here, which put
+                # `"passed": true` and `"failedKnobs": ["F5"]` in one object and
+                # left the reader to resolve a contradiction that was not one:
+                # F2/F5 are self-report cross-checks, `unverified` says so, and
+                # neither has ever moved `passed`. The 2026-08-23 BLTDM recheck
+                # read 13 of 30 files that way and called it a lie by the gate
+                # (plan 06 §5). It was a naming defect, and this is the fix:
+                # nothing in `failedKnobs` is non-gating, so nothing in it can
+                # contradict `passed`.
+                "failedKnobs": _knobs([*icdc_issues, *extra_issues]),
                 "issues": [*icdc_issues, *extra_issues],
+                # The self-report cross-check's own findings, kept in full and
+                # kept OUT of the verdict. They are real signal -- "claimed two
+                # courses of action, only one is in the prose" is worth reading
+                # -- and they are the reason `unverified` names F2 and F5. The
+                # issue STRINGS were previously dropped entirely and only their
+                # knob ids survived; both are recorded now.
+                "selfReport": {
+                    "knobs": _knobs(report_issues),
+                    "issues": list(report_issues),
+                    # Whether the DRIVER rejected on these, which this module
+                    # cannot see: the BANK path does, unconditionally since gate
+                    # version 8 (plan 06 OQ3a), and the day path never has.
+                    # Recorded rather than assumed, because a banked file's empty
+                    # `issues` list means ENFORCED, not "nothing was found", and a
+                    # later reader would otherwise have to guess which.
+                    "gating": bool(self_report_gating),
+                },
                 # WHAT RAN, and what did not (plan 04 §5). 720 of 720 banked files
                 # read `"passed": true` with nothing beside it, and an outside
                 # reader took that as a quality verdict.

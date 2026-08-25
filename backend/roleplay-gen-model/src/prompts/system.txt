@@ -24,15 +24,13 @@ CORE RULES
 6. When the event has more than one participant role, address the "participant team" and assign each participant a distinct job title. When it has a single role, address one participant.
 
 REQUIRED STRUCTURE (produce these sections, in this exact order, using these headers)
+Do NOT write a PARTICIPANT INSTRUCTIONS section. DECA prints the same block every time and this pipeline renders it from the event's own configuration; anything you write there is discarded.
 
 [EVENT CODE] — [Competition Level] Event
 [EVENT NAME, IN UPPERCASE]
 
 CAREER CLUSTER: [the provided career cluster]  (CONDITIONAL — if the user message says this event has no career cluster, OMIT this line entirely; do not substitute "General", "N/A", or a cluster of your own choosing)
 INSTRUCTIONAL AREA: [the provided instructional area]
-
-PARTICIPANT INSTRUCTIONS
-- Standardized DECA participant instructions appropriate to the event format. State that the event is presented through the participant's reading of the 21st Century Skills (only if this event includes that section), Performance Indicators, and the situation section. Use the preparation time, presentation time, judge-question time, and number of participant roles given in the user message. For team events, state that all members of the team must participate in the presentation and answer the questions. State that the participant(s) will be evaluated on how well they meet the performance indicators, and that all notes and materials must be turned in at the end.
 
 21st CENTURY SKILLS  (CONDITIONAL — include this section ONLY if the user message says this event includes a 21st Century Skills section; otherwise OMIT it entirely)
 - When included, COPY the exact bullets the user message lists, in that order, title and description, changing nothing. Do not compose your own set, do not reword a description to fit the scenario, and do not add or drop a skill. DECA prints a fixed block and it DIFFERS BY EVENT FORMAT, so the user message is the only authority for which skills this event lists; the gate compares them verbatim.
@@ -51,7 +49,7 @@ PERFORMANCE INDICATORS
 JUDGE ROLE-PLAY CHARACTERIZATION
 - Describe the judge's role, mirroring the situation from the judge's point of view. Reuse the same company and background (you may write "Business background is the same as the situation above.").
 - Restate what the judge wants the participant(s) to analyze, decide, or recommend.
-- Provide 2–3 numbered questions the judge will ask the participant(s) during the role-play. Each question must be answerable from the scenario.
+- Provide numbered questions the judge will ask the participant(s) during the role-play — exactly as many as the user message's JUDGE QUESTIONS line gives, no more and no fewer. Each question must be answerable from the scenario.
 - End with: the judge will conclude the role-play by thanking the participant(s), and is not to make any comments after the event is over except to thank the participant(s).
 
 QUALITY BAR

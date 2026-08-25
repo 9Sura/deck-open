@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 2,
+  "id": "BLTDM-0048",
+  "code": "BLTDM",
+  "format": "team",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Explain reasons for ethical dilemmas.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Show empathy for others.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Maintain the confidentiality of others.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Build trust in relationships.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Reinforce service orientation through communication.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the concept of product in the hospitality and tourism industry.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Develop schedule for marketing communications assignment.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions, and solve problems.",
+    "Communication and Collaboration – Communicate clearly and show evidence of collaboration.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Case Study Situation. You will have up to 30 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 15 minutes to make your presentation to the judge (you may have more than one judge). All members of the team must participate in the presentation, as well as answer any questions. You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You and your teammate are the human resources director and the procurement director at MERIDIAN FRAME & DECK, a structural steel subcontractor that erects framing for commercial builders across three states. The chief operating officer (judge) oversees both of your departments and has asked to meet with the two of you this afternoon about a supplier question that has turned into a question about people.\n\nNine months ago MERIDIAN acquired CROSSCUT ERECTORS, a smaller competitor with its own crews, its own foremen, and its own way of buying material. The integration is not finished. Crosscut's field leaders still report through their old chain, still use suppliers Meridian never vetted, and still call themselves Crosscut people. Leadership here has not yet earned much credit with them.\n\nOne of the suppliers Meridian inherited is HANWEI FASTENING WORKS, an overseas manufacturer Crosscut has bought from for close to fifteen years. Two months ago Meridian paid for an independent labor audit of the Hanwei plant. The auditors visited twice, interviewed workers away from the factory, and rated the plant clean on wages, hours, and the age of its workforce. By that record the inherited supplier looks better than two mills Meridian already buys from.\n\nLast week a Crosscut field superintendent who has walked that plant three times came to the human resources director privately and said the audit does not match what the visits showed: shifts running past anything on the posted schedule, and workers going quiet whenever the tour reached them. The superintendent asked that the source of the account stay confidential. No one else has corroborated it, and no other name at Crosscut carries as much weight with the foremen.\n\nHanwei fasteners are already specified on two hotel projects now in framing. Keeping the supplier means telling the superintendent that an audit outweighs what the superintendent saw, in the same season Crosscut's crews are deciding whether Meridian listens to them at all. Suspending the supplier means paying a domestic mill's higher price, pushing both hotel schedules back, and cutting off a fifteen-year partner on an account nothing else supports.\n\nThe chief operating officer (judge) wants your recommendation on whether Meridian keeps buying from Hanwei, wants to know how the decision will be carried back to the superintendent without breaking the confidence that was asked for, and wants a schedule for when and how the rest of the crews hear it. The chief operating officer (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the chief operating officer (judge) of MERIDIAN FRAME & DECK. Business background is the same as the situation above. You commissioned the labor audit of HANWEI FASTENING WORKS, you have read the clean result, and you have been told that a Crosscut field superintendent came forward privately with a very different account of the same plant and asked that the source stay confidential.\n\nYou want the human resources director and the procurement director to recommend whether Meridian keeps buying from Hanwei, to explain how that decision will be carried back to the superintendent without breaking the confidence, and to give you a schedule for when and how the rest of the crews hear it.\n\nAfter the participant team has presented and has answered your questions, you will ask the following questions of each team:",
+  "judgeQuestions": [
+    "How should we tell the superintendent what we decided?",
+    "If we keep buying from Hanwei, what do we owe the person who raised the concern?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the confidentiality the superintendent asked for",
+        "Hanwei fasteners are already specified on two hotel projects now in framing",
+        "the merger is undigested and Crosscut's field leaders still report through their old chain"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the confidentiality the superintendent asked for",
+        "Hanwei fasteners are already specified on two hotel projects now in framing",
+        "the merger is undigested and Crosscut's field leaders still report through their old chain"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 419,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "construction subcontractor",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "a supplier's labor practices overseas",
+        "dilemma_archetype": "a data-supported choice that contradicts staff experience",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BLTDM-0050",
+      "shelfSimilarity": 0.069,
+      "shelfNearest": "BLTDM-0037",
+      "exemplarSimilarity": 0.0537,
+      "gateVersion": 8
+    }
+  }
+}
