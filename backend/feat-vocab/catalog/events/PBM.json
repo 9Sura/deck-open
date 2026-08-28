@@ -1,0 +1,321 @@
+{
+  "code": "PBM",
+  "terms": [
+    {
+      "term": "Recovery point objective",
+      "definition": "The maximum span of work a business accepts losing in an outage, stated as time rather than volume — a one-hour target forces hourly replication, while a 24-hour target is satisfied by a nightly backup.",
+      "whyItMatters": "A continuity roleplay that hands you a nightly backup routine and a four-hour tolerance is asking you to name the data-loss gap, not the restore time.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "recovery-time-objective"
+      ]
+    },
+    {
+      "term": "Maximum tolerable downtime",
+      "definition": "The outage length past which a business function does unacceptable harm; it caps everything beneath it, because restore time plus the work-recovery time needed to rebuild the backlog must fit inside it — an 8-hour limit with 3 hours of catch-up leaves a 5-hour restore target.",
+      "whyItMatters": "Business-impact-analysis roleplays give you the tolerable outage and one of the two components and expect you to derive the other on the spot.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "recovery-time-objective",
+        "recovery-point-objective"
+      ]
+    },
+    {
+      "term": "Annualized loss expectancy",
+      "definition": "Expected yearly cost of a risk, found by multiplying the loss from one occurrence by how often it is expected per year — $40,000 per flood at once every five years is $8,000 a year, so a $10,000 safeguard loses money.",
+      "whyItMatters": "Risk-management roleplays ask whether to buy a control; the judge wants its price set against the annualized figure, not a gut call about safety.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "business-impact-analysis"
+      ]
+    },
+    {
+      "term": "Hot site",
+      "definition": "A standby facility kept running with duplicated hardware, current data and desks for staff so operations resume in hours; the cost is only defensible when the tolerable outage is short, where bare leased space takes weeks to bring up.",
+      "whyItMatters": "The continuity roleplay that names a four-hour recovery target has already excluded the cheap alternatives, and saying why is the graded move.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "maximum-tolerable-downtime"
+      ]
+    },
+    {
+      "term": "Graicunas' formula",
+      "definition": "Counts the direct, cross and group relationships a supervisor must manage as n(2^(n-1) + n - 1) — five reports create 100 relationships and six create 222, so adding one person to a team is not a linear increase in load.",
+      "whyItMatters": "An organizational-structure roleplay asking whether a supervisor can absorb one more direct report wants this growth curve, not an opinion about how busy she looks.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "span-of-control",
+        "chain-of-command"
+      ]
+    },
+    {
+      "term": "Administrative expense ratio",
+      "definition": "Overhead and fundraising spending divided by total expenses; watchdogs flag a nonprofit above roughly 25%, and a company uses the same fraction to show support functions are not outgrowing the revenue-producing work they serve.",
+      "whyItMatters": "A management roleplay defending a new office hire is won by quoting the ratio before and after the hire, not by describing the duties.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "span-of-control"
+      ]
+    },
+    {
+      "term": "Relief factor",
+      "definition": "The multiplier that turns a post which must be covered around the clock into headcount: 8,760 post-hours a year divided by the roughly 1,800 hours one employee actually works after leave, holidays and training gives about 4.8 people, not three.",
+      "whyItMatters": "Scheduling roleplays for a 24/7 front desk or security post are lost by the candidate who answers 'three shifts, so three employees'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "full-time-equivalent",
+        "workload-method"
+      ]
+    },
+    {
+      "term": "Schedule adherence",
+      "definition": "Share of scheduled on-task time an employee actually works as scheduled, counting an early login and a long break as misses alike; 90% is the usual target, and it measures the person, where occupancy measures how busy the incoming work kept them.",
+      "whyItMatters": "A staffing roleplay where service levels are missed despite full headcount on the roster is an adherence problem, and the judge listens for the split from occupancy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "agent-occupancy",
+        "contact-center-shrinkage"
+      ]
+    },
+    {
+      "term": "Predictive scheduling law",
+      "definition": "Local ordinances requiring posted schedules a set number of days ahead — commonly 14 — with predictability pay of one to four hours' wages owed for a late change and a 10- to 11-hour rest gap required between a closing and the next opening shift.",
+      "whyItMatters": "A retail management roleplay asking you to cover tomorrow's call-out carries a per-change compliance cost in covered cities, and ignoring the clock is the trap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "shift-differential",
+        "compressed-workweek"
+      ]
+    },
+    {
+      "term": "I-9 retention rule",
+      "definition": "Employment eligibility verification forms are kept three years from the hire date or one year after the worker leaves, whichever date falls later — so someone who quits after six months is held until year three, while a ten-year veteran is held one further year.",
+      "whyItMatters": "Records-management roleplays test the later-of rule because candidates memorize one half of it and purge the file years early.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "form-i-9",
+        "record-retention-schedule"
+      ]
+    },
+    {
+      "term": "Payroll record retention",
+      "definition": "Federal wage law splits the period in two: three years for payroll registers, employment contracts and sales totals, but only two years for the time cards, schedules and wage-computation worksheets that support those figures.",
+      "whyItMatters": "A wage-claim roleplay turns on whether the supporting time cards still exist, so the two-tier answer beats any single number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "record-retention-schedule",
+        "business-records"
+      ]
+    },
+    {
+      "term": "Vital records",
+      "definition": "The 3 to 5 percent of an organization's files without which it could not resume or prove operations — incorporation papers, current receivables, active contracts, insurance policies — singled out so those alone are duplicated off site instead of the whole cabinet.",
+      "whyItMatters": "Continuity roleplays ask what to protect on a limited budget; naming the small share and the test for membership is what the judge scores.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "business-records",
+        "business-continuity-planning"
+      ]
+    },
+    {
+      "term": "Terminal digit filing",
+      "definition": "Numeric filing read from the last pair of digits first, so newly issued numbers scatter evenly across 100 sections rather than piling up at the end of the sequence, and each clerk can own a fixed block of sections.",
+      "whyItMatters": "A records roleplay about a filing area whose final drawers are jammed while the rest sit half-empty is asking for this method by name and by reason.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "record-retention-schedule"
+      ]
+    },
+    {
+      "term": "Little's law",
+      "definition": "Items sitting in a process equal the arrival rate times the average time each spends in it — 20 requests a day that take five days to clear leaves 100 open at any moment, so cutting handling time, not throttling intake, shrinks the backlog.",
+      "whyItMatters": "A workflow roleplay that gives you an arrival rate and a queue length expects the third number derived, not estimated.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "takt-time",
+        "critical-path-method"
+      ]
+    },
+    {
+      "term": "Value-added ratio",
+      "definition": "Time spent actually changing the work product divided by total elapsed lead time; office processes routinely come in under 10%, which puts the improvement in the waiting between steps rather than in making people work faster.",
+      "whyItMatters": "A process-improvement roleplay where the staff are already flat out is solved by computing this ratio and attacking queue time instead of effort.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "takt-time",
+        "swim-lane-diagram"
+      ]
+    },
+    {
+      "term": "Majority of a quorum",
+      "definition": "Once the minimum attendance needed to do business is present, a measure carries on a majority of those actually voting rather than of the full body — a nine-member board with a quorum of five can be bound by three votes.",
+      "whyItMatters": "Governance roleplays about a thinly attended meeting test whether you know the decision still stands and how few votes produced it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "quorum",
+        "two-thirds-vote"
+      ]
+    },
+    {
+      "term": "Open meeting law",
+      "definition": "State sunshine statutes obliging a public or quasi-public body to post notice and an agenda in advance — often 48 to 72 hours — and to close a session only for reasons the statute lists; business done outside those limits is voidable.",
+      "whyItMatters": "A roleplay convening an emergency board session tests the notice clock and whether the vote taken there survives a challenge.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "quorum",
+        "robert-s-rules-of-order"
+      ]
+    },
+    {
+      "term": "Two-thirds vote",
+      "definition": "Threshold required for motions that take a right away from a member — closing debate, suspending the rules, amending bylaws — counted against those present and voting, so 20 yes of 30 carries while 19 fails a motion a simple majority would have passed.",
+      "whyItMatters": "Parliamentary roleplays hand you a raw vote count and ask whether the motion carried; the answer depends on which threshold that motion triggers.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "robert-s-rules-of-order",
+        "majority-of-a-quorum"
+      ]
+    },
+    {
+      "term": "Order of succession",
+      "definition": "A pre-authorized list naming at least three deputies by position rather than by person who may exercise a leader's authority during a disruption, with the trigger, the limits and the expiry written down before the emergency.",
+      "whyItMatters": "A continuity roleplay where the manager is unreachable tests whether authority was delegated in advance by position, not who happens to be most senior in the room.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "chain-of-command"
+      ]
+    },
+    {
+      "term": "Signature authority threshold",
+      "definition": "The dollar line in an approval matrix above which a commitment needs a higher signer or a second one — at a $5,000 line a supervisor clears $4,800 alone but a $5,200 order goes up, and breaking it into two orders is the abuse the control exists to catch.",
+      "whyItMatters": "A purchasing roleplay where a manager asks you to split an invoice is graded on naming the threshold and the segregation rule it protects.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "segregation-of-duties",
+        "discount-authority-matrix"
+      ]
+    },
+    {
+      "term": "Compressed workweek",
+      "definition": "Full-time hours packed into fewer days — a 4/10 or a 9/80, where the 9/80 moves the official workweek boundary to the middle of the alternating off-day so the 44- and 36-hour halves each land under the overtime line.",
+      "whyItMatters": "A scheduling roleplay proposing every other Friday off is really a wage-hour question: without the shifted boundary the plan owes four hours of overtime a fortnight.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "flextime-core-hours",
+        "shift-differential"
+      ]
+    },
+    {
+      "term": "Mean time between failures",
+      "definition": "Average operating hours a repairable system runs between breakdowns; paired with repair time it yields availability, since 1,000 hours between failures and 5 hours to fix each one is 99.5% uptime, far short of a four-nines promise.",
+      "whyItMatters": "An operations roleplay weighing a service contract needs uptime computed from the two figures rather than accepted from the vendor's adjective.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "five-nines-availability",
+        "service-level-agreement"
+      ]
+    },
+    {
+      "term": "Consent agenda",
+      "definition": "A single bundled vote covering routine, non-controversial items — minutes, standing reports, standard renewals — carrying the standing right of any one member to pull an item out for separate discussion before that vote is taken.",
+      "whyItMatters": "A board roleplay with forty agenda items and thirty minutes is answered by proposing this device together with the pull-out safeguard.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "robert-s-rules-of-order"
+      ]
+    },
+    {
+      "term": "Wave scheduling",
+      "definition": "Booking several appointments together at the top of each hour and serving them in arrival order as staff free up, which absorbs no-shows and uneven service times better than rigid individual slots but lengthens the wait for whoever is seen last.",
+      "whyItMatters": "A service-management roleplay about staff idling between late clients is asking you to weigh this against fixed-interval booking.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ]
+    },
+    {
+      "term": "Swim lane diagram",
+      "definition": "Process map drawn with one lane per role or department so every step sits in the lane of whoever performs it, making each crossing of a lane line a visible handoff where the work stops and waits.",
+      "whyItMatters": "A workflow roleplay about a form that takes nine days for two hours of real work needs the handoffs made visible before anything can be cut.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PBM"
+      ],
+      "confusableWith": [
+        "value-added-ratio",
+        "gantt-chart"
+      ]
+    }
+  ]
+}

@@ -10,7 +10,8 @@
       "whyItMatters": "Case studies require strategies that fit business objectives and market conditions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Market identification",
@@ -18,7 +19,8 @@
       "whyItMatters": "Identifying the right market is the foundation of any marketing plan.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Target market",
@@ -26,7 +28,8 @@
       "whyItMatters": "Recommendations are stronger when they name a specific audience.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Marketing plan",
@@ -34,7 +37,8 @@
       "whyItMatters": "The plan guides all promotional and customer-facing decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Situation analysis",
@@ -42,7 +46,8 @@
       "whyItMatters": "Understanding the situation must come before any recommendation.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "SWOT analysis",
@@ -50,7 +55,8 @@
       "whyItMatters": "SWOT gives a structured frame for the situation analysis behind a plan.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Market segmentation",
@@ -58,7 +64,8 @@
       "whyItMatters": "Segmentation lets a business target specific customer groups effectively.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Sales forecast",
@@ -66,7 +73,8 @@
       "whyItMatters": "Forecasts help plan resources and set realistic marketing objectives.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Marketing objective",
@@ -74,7 +82,8 @@
       "whyItMatters": "Clear objectives keep strategies and tactics aligned with business goals.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Positioning",
@@ -82,7 +91,8 @@
       "whyItMatters": "Positioning shapes differentiation and appeal to the target market.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Competitive advantage",
@@ -90,7 +100,8 @@
       "whyItMatters": "Naming the advantage shapes marketing messages and differentiation.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Marketing tactics",
@@ -98,7 +109,8 @@
       "whyItMatters": "Tactics turn strategy into concrete, executable actions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Demographics",
@@ -106,14 +118,619 @@
       "whyItMatters": "Demographics let a business tailor marketing to specific segments.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Market potential",
+      "definition": "The ceiling on category demand in a defined area and period — every possible buyer times the maximum quantity each could buy times unit price; one firm's share of that ceiling is sales potential, and the volume it actually expects to sell on the funded budget is the sales forecast.",
+      "whyItMatters": "Sizing items on the marketing exam hand you a population, a purchase rate and a price and expect the whole-industry ceiling, not one company's number; in a market-identification roleplay the judge is listening for the three-step narrowing said in order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "sales-potential",
+        "sales-forecast",
+        "total-addressable-market"
       ]
     },
     {
-      "term": "Market share",
-      "definition": "The percentage of total market sales captured by one business or product.",
-      "whyItMatters": "Share quantifies competitive position and the payoff of a growth plan.",
+      "term": "Sales potential",
+      "definition": "One company's maximum obtainable slice of category demand — market potential multiplied by the highest share it could hold with unlimited marketing effort; it always sits above the sales forecast, which discounts that ceiling down to the effort and budget actually approved.",
+      "whyItMatters": "Exam questions that give an industry ceiling and a best-case share expect this middle figure, and a competitor who reports it as the forecast overstates the plan's revenue line in front of a judge.",
+      "difficulty": "hard",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "market-potential",
+        "sales-forecast",
+        "market-share"
+      ]
+    },
+    {
+      "term": "Market-buildup method",
+      "definition": "Sizing demand from the bottom up: identify every potential buyer in each segment or territory, estimate units each would buy, and sum units times price across them. The chain-ratio method runs the opposite direction, starting from a national total and multiplying it down through successive percentages.",
+      "whyItMatters": "Business-to-business sizing cases on the exam name a count of establishments and a per-establishment purchase rate, which is a buildup problem; using a national percentage chain there produces the wrong answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "chain-ratio-method",
+        "market-potential"
+      ]
+    },
+    {
+      "term": "Compound annual growth rate (CAGR)",
+      "definition": "The smoothed yearly rate that carries a starting value to an ending value over n years: (ending value / beginning value)^(1/n) - 1. It deliberately hides year-to-year swings, so a category that jumped 40% and then fell 20% still reports one steady rate.",
+      "whyItMatters": "Marketing-plan questions that give a market size for two years and a span expect this exponent, not the two values subtracted and divided by the number of years.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "market-growth-rate",
+        "rule-of-72"
+      ]
+    },
+    {
+      "term": "Serviceable available market (SAM)",
+      "definition": "The portion of total addressable demand a firm's product, price point and channels can actually reach — the total narrowed to the segments and geographies it serves. Narrow it once more by the share realistically winnable in the plan period and you have the serviceable obtainable market.",
+      "whyItMatters": "Written-event plans that state one giant industry figure lose points; judges expect the total narrowed twice, with the reason for each cut named.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "total-addressable-market",
+        "serviceable-obtainable-market-som",
+        "market-potential"
+      ]
+    },
+    {
+      "term": "Serviceable obtainable market (SOM)",
+      "definition": "The slice of the serviceable available market a company expects to capture within the plan horizon: SAM times a realistic share percentage, so a $200 million SAM at 4% share is an $8 million target. Unlike SAM it is a forecast the plan is held to, not a ceiling.",
+      "whyItMatters": "This is the number a judge compares against the plan's revenue projection and marketing budget; a SOM larger than the funded plan can deliver is the fastest way to lose credibility in a presentation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "serviceable-available-market-sam",
+        "total-addressable-market",
+        "sales-forecast"
+      ]
+    },
+    {
+      "term": "Share point",
+      "definition": "One percentage point of category share, worth 1% of total industry sales in dollars — $40 million in a $4 billion category. Moving from 10% to 11% share is one point but an 11% relative gain, and plans state objectives in points precisely to keep the two apart.",
+      "whyItMatters": "Objective-setting items ask what a stated share gain is worth in revenue, which requires multiplying the point value by industry sales rather than by the company's own sales.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "market-share",
+        "relative-market-share",
+        "share-of-voice"
+      ]
+    },
+    {
+      "term": "Break-even market share",
+      "definition": "The share of industry unit volume a plan must win just to cover its fixed costs: fixed costs / contribution margin per unit gives break-even units, then those units / total industry units. $2,000,000 of fixed cost at $10 contribution needs 200,000 units, which is 5% of a 4-million-unit category.",
+      "whyItMatters": "New-product plans are judged on whether the required share is plausible against the shares incumbents already hold; a break-even share above the category leader's is a plan a judge will reject on sight.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "break-even-point-in-units",
+        "contribution-margin-per-unit",
+        "market-share"
+      ]
+    },
+    {
+      "term": "Advertising-to-sales ratio",
+      "definition": "Paid media spend divided by net sales, times 100, then benchmarked against the category norm — a 3% ratio in a category averaging 8% flags underinvestment. It counts media only, so it always reads lower than the marketing expense ratio for the same plan.",
+      "whyItMatters": "Plan-review questions supply a company ratio and an industry average and ask whether spending is adequate; the comparison, not the raw number, is what earns the point.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "marketing-expense-ratio",
+        "share-of-voice",
+        "marketing-roi"
+      ]
+    },
+    {
+      "term": "Marketing expense ratio",
+      "definition": "Total marketing spend divided by net sales, times 100 — programs, salaries, agency fees and campaigns, not just media — so it answers what the plan costs to run. Marketing ROI asks the opposite question, what the same spend returned.",
+      "whyItMatters": "Control questions ask which metric shows a plan is over budget versus which shows it was unprofitable; naming the wrong one loses the item even when the arithmetic is right.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "advertising-to-sales-ratio",
+        "marketing-roi",
+        "expense-ratio"
+      ]
+    },
+    {
+      "term": "Variance to plan",
+      "definition": "(actual minus planned) / planned x 100, carried on every line of the marketing plan: $92,000 delivered against a $100,000 forecast is -8%. The sign alone does not say good or bad — negative on revenue is unfavorable, negative on expense is favorable.",
+      "whyItMatters": "Mid-year review items give planned and actual columns and ask which lines need action; competitors who read every negative as a problem flag the underspent line that is actually helping.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "budget-variance",
+        "marketing-control",
+        "rolling-forecast"
+      ]
+    },
+    {
+      "term": "Market attractiveness index",
+      "definition": "A weighted score for ranking candidate countries or segments: each factor gets a weight, the weights sum to 1.0, each market gets a rating, and weight times rating summed gives one comparable number — so a market that scores well on a 0.10 factor still loses to one that scores well on a 0.40 factor.",
+      "whyItMatters": "Expansion cases hand over a table of markets and ask which to enter first; the defensible answer weights the criteria before scoring rather than counting how many boxes each market ticks.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "buying-power-index",
+        "market-potential",
+        "segment-viability-criteria"
+      ]
+    },
+    {
+      "term": "Trading area",
+      "definition": "The geographic zone a location actually draws customers from, mapped as rings: the primary ring supplies roughly 60-75% of customers, the secondary another 15-25%, and the fringe the scattered remainder. It sets the population a site's forecast is allowed to count.",
+      "whyItMatters": "Site-selection and retail-expansion cases give customer ZIP-code counts and ask how far the draw reaches; forecasting against the whole metropolitan population instead of the primary ring inflates every downstream number.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "index-of-retail-saturation",
+        "market-potential",
+        "geodemographic-segmentation"
+      ]
+    },
+    {
+      "term": "Effective buying income",
+      "definition": "Personal income for an area minus personal tax payments — the disposable dollars residents can actually spend, not gross earnings. It is the income term inside a buying power index, which weights it against the area's population and retail sales.",
+      "whyItMatters": "Territory and market-selection items give gross income for two cities and expect the after-tax spendable figure to drive the ranking, because a high-tax market supports less spending than its wage level suggests.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "buying-power-index",
+        "per-capita-consumption",
+        "market-attractiveness-index"
+      ]
+    },
+    {
+      "term": "Index of retail saturation",
+      "definition": "(area population x annual category spending per person) / total retail selling space devoted to that category — dollars of demand per square foot of supply. A high result means demand outruns the space serving it and the trade area can carry another store; a low one means the area is already saturated.",
+      "whyItMatters": "Retail expansion cases hand over population, per-person spending and competitors' square footage, and the expected recommendation follows from computing this ratio rather than counting rival stores.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "trading-area",
+        "market-potential",
+        "market-share"
+      ]
+    },
+    {
+      "term": "Mean absolute percentage error (MAPE)",
+      "definition": "Forecast accuracy scored as the average of |actual minus forecast| / actual across periods — a +10% miss and a -10% miss do not cancel, because the absolute value is taken before averaging. That is exactly what separates it from forecast bias, which keeps the signs.",
+      "whyItMatters": "Sales-forecasting items give several months of forecast and actual pairs and ask how accurate the method was; averaging the signed errors returns a flattering near-zero that the item is designed to catch.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "forecast-bias",
+        "sales-forecast",
+        "moving-average-forecast"
+      ]
+    },
+    {
+      "term": "Exponential smoothing",
+      "definition": "Next period's forecast equals alpha times this period's actual plus (1 minus alpha) times this period's forecast, with alpha between 0 and 1. A high alpha makes the forecast chase recent movement; a low alpha holds it steady, and every past period stays in the number at a shrinking weight.",
+      "whyItMatters": "Forecasting questions give last period's forecast, its actual and a smoothing constant and expect one number back; they also ask which alpha suits a volatile category, which is a judgment the formula makes visible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "moving-average-forecast",
+        "sales-forecast",
+        "forecast-bias"
+      ]
+    },
+    {
+      "term": "Share of requirements",
+      "definition": "Among households that buy the brand at all, the percentage of their category purchases it captures. A brand bought by 20% of households that supplies 60% of those households' category volume has 60% share of requirements but only 12% market share (0.20 x 0.60).",
+      "whyItMatters": "Growth-diagnosis items ask whether a brand should recruit new buyers or deepen existing ones; a high requirements share with low penetration points to recruitment, and the two numbers must be read together.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "share-of-wallet",
+        "market-share",
+        "market-penetration-rate"
+      ]
+    },
+    {
+      "term": "Net marketing contribution",
+      "definition": "Revenue times percent margin, minus marketing and sales expense: $10,000,000 at a 40% margin spending $2,500,000 contributes $1,500,000. Unlike marketing ROI it reports dollars added rather than a ratio, so a small program with a spectacular ratio can still contribute less than a large one.",
+      "whyItMatters": "Plan-defense questions ask which of two programs to fund when one has the better return percentage and the other the bigger dollar contribution; the profit line is settled in dollars.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "marketing-roi",
+        "contribution-margin-ratio",
+        "marketing-expense-ratio"
+      ]
+    },
+    {
+      "term": "Forecast bias",
+      "definition": "The average signed error across periods — actual minus forecast with the plus and minus signs kept — so persistent over-forecasting shows up as a running negative. It measures direction, where MAPE measures size, and a plan can post a respectable MAPE while drifting the same way every single month.",
+      "whyItMatters": "Forecast-review items give a run of months that miss high every time and ask what is wrong with the method; the answer is a systematic error in the assumptions, not random noise.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "mean-absolute-percentage-error-mape",
+        "sales-forecast",
+        "variance-to-plan"
+      ]
+    },
+    {
+      "term": "Reilly's law of retail gravitation",
+      "definition": "Two towns pull trade from the countryside between them in proportion to their populations and in inverse proportion to the square of the distance to each; the indifference line sits at the miles between them ÷ (1 + the square root of the larger town's population divided by the smaller town's), measured out from the smaller town, and households past that line shop the larger one.",
+      "whyItMatters": "A trading-area item on the marketing exam gives two populations and the miles between the towns and expects the boundary mileage as a number; in a site-selection roleplay it is how you defend where a store stops drawing customers instead of waving at a map.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "huff-gravity-model",
+        "trading-area",
+        "index-of-retail-saturation"
+      ]
+    },
+    {
+      "term": "Huff gravity model",
+      "definition": "Estimates the probability a shopper in a neighborhood picks one particular store as that store's selling area ÷ travel time raised to a decay exponent (commonly 2), divided by the same ratio summed across every competing store; multiplying that probability by neighborhood households and their annual category spending turns it into a sales forecast for the site.",
+      "whyItMatters": "Site-comparison questions that ask which of three locations captures the most volume are solved by ranking size-over-distance-squared ratios, and unlike a single breaking-point line this one gives every store a share of every neighborhood — the distinction a judge probes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "reilly-s-law-of-retail-gravitation",
+        "trading-area",
+        "market-buildup-method"
+      ]
+    },
+    {
+      "term": "Percent ACV distribution",
+      "definition": "Weights availability by the share of category dollar volume rung up in the stores that stock an item rather than the share of stores stocking it: 400 supermarkets out of 2,000 can be 65% ACV when they are the busiest 400, so an item in a fifth of outlets can still stand in front of two-thirds of category purchasing power.",
+      "whyItMatters": "Distribution items hand a store count alongside a volume weighting and expect the weighted figure; a marketing-plan roleplay that claims 'we reach most of the market' collapses when the judge asks which of the two numbers that claim rests on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "numeric-distribution",
+        "sales-per-point-of-distribution"
+      ]
+    },
+    {
+      "term": "Numeric distribution",
+      "definition": "Counts the plain percentage of outlets in the defined universe that stock an item — 400 of 2,000 stores is 20% — and says nothing about how much those outlets sell; dividing weighted (%ACV) coverage by this number gives a quality-of-distribution ratio that runs above 1.0 when the item sits in the bigger stores and below it when the item is stranded in small ones.",
+      "whyItMatters": "Channel-choice questions supply both coverage figures and ask which distribution plan is stronger; the ratio between them is the answer, and treating the two numbers as interchangeable is the classic miss on that item.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "percent-acv-distribution",
+        "sales-per-point-of-distribution"
+      ]
+    },
+    {
+      "term": "Sales per point of distribution",
+      "definition": "Divides a brand's sales by its %ACV coverage so brands with unequal shelf presence can be compared on equal footing: $2,000,000 on 40% ACV is $50,000 per point and beats $3,000,000 on 90% ACV at $33,333 per point, which says the smaller brand has earned more distribution rather than more advertising.",
+      "whyItMatters": "A marketing-plan defense that has to say where the next dollar goes is decided by which brand turns each point of coverage into the most volume; the exam version simply hands sales and coverage and asks for the per-point figure.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "percent-acv-distribution",
+        "numeric-distribution"
+      ]
+    },
+    {
+      "term": "Parfitt-Collins model",
+      "definition": "Forecasts a new brand's settled share as cumulative penetration × repeat-purchase rate × buying-rate index — 40% × 25% × 1.2 = 12% share — so a launch that everybody tries and nobody buys twice collapses on the middle term no matter how large the trial figure looks in the panel data.",
+      "whyItMatters": "New-product forecast items give the three panel figures and expect the multiplied share; in a plan presentation the same arithmetic is what separates a trial problem, which advertising can fix, from a repeat problem, which only the product can.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "atar-model",
+        "buying-rate-index",
+        "share-of-requirements"
+      ]
+    },
+    {
+      "term": "ATAR model",
+      "definition": "Multiplies target households × awareness % × trial % × availability (%ACV) × repeat % × units bought per repeat buyer to reach a first-year volume, so a chain of five decimals well below 1.0 shrinks 10,000,000 households into a few hundred thousand units, and each factor names a different budget line that has to be funded to move it.",
+      "whyItMatters": "Concept-test forecast questions supply the five percentages and expect the unit answer; walking the chain aloud is also how a plan defends why awareness money and distribution money are not substitutes for each other.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "parfitt-collins-model",
+        "percent-acv-distribution"
+      ]
+    },
+    {
+      "term": "Buying rate index",
+      "definition": "Sets the average category buyer's annual purchase volume at 1.00 and states a brand's buyers against it, so 1.30 means the people who choose this brand buy 30% more of the category per year than the typical buyer; it is the third multiplier that converts a penetration figure and a repeat rate into a share estimate.",
+      "whyItMatters": "It is the factor students silently drop from a share forecast, turning a 12% answer into 10%, and it is the evidence behind a plan that argues for targeting heavy users instead of chasing more triers.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "parfitt-collins-model",
+        "share-of-requirements"
+      ]
+    },
+    {
+      "term": "Test-market projection",
+      "definition": "Scales a controlled market's result to a national number by dividing the test volume by that market's share of national category volume — 60,000 units in a market holding 2% of national volume projects to 3,000,000 units — then discounting for support levels, distribution or pricing that cannot be repeated nationwide.",
+      "whyItMatters": "Rollout questions give the test units plus the market's percentage of national volume and expect the projection; the discount step is what a judge presses on when a plan's national number looks suspiciously clean.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "atar-model",
+        "market-potential"
+      ]
+    },
+    {
+      "term": "Mean absolute deviation",
+      "definition": "Averages the size of forecast misses ignoring their direction — the sum of |actual − forecast| ÷ the number of periods — which keeps the error in the product's own units instead of percentages, and roughly 1.25 times this figure approximates one standard deviation of forecast error for setting a buffer.",
+      "whyItMatters": "Forecast-error items hand six periods of actuals and forecasts and expect this average computed; it is also the denominator of the tracking signal, so an error here quietly breaks the control check built on top of it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "mean-absolute-percentage-error-mape",
+        "tracking-signal",
+        "forecast-bias"
+      ]
+    },
+    {
+      "term": "Tracking signal",
+      "definition": "Divides the running cumulative forecast error by the mean absolute deviation to test whether misses are random noise or one-sided drift; a value wandering past ±4 says the model is systematically off and must be re-fit rather than nudged, while a value oscillating around zero says the error is noise and the model should be left alone.",
+      "whyItMatters": "Forecast-control questions supply a cumulative error and a MAD and want both the ratio and the keep-or-refit call against the limit, not a general remark that the forecast looks wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "mean-absolute-deviation",
+        "forecast-bias",
+        "mean-absolute-percentage-error-mape"
+      ]
+    },
+    {
+      "term": "Naive forecast",
+      "definition": "Takes last period's actual as next period's number and nothing else, and exists to be the benchmark: compute its error first, and any model whose MAPE is not meaningfully below that baseline is not paying for the effort it costs, however advanced the technique behind it sounds.",
+      "whyItMatters": "Exam items ask which forecasting approach a firm should keep; the defensible answer is whichever one beats the zero-effort baseline by a measured margin, and a plan that cannot show that improvement loses the argument for its forecasting spend.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "forecast-value-added",
+        "exponential-smoothing"
+      ]
+    },
+    {
+      "term": "Forecast value added",
+      "definition": "Scores every step of a forecasting process by the accuracy points it adds over the naive baseline — baseline MAPE 20%, statistical model 17%, sales-team override 19% — so the model step is worth +3 points and the override is worth −2 and should be removed from the process rather than coached.",
+      "whyItMatters": "Process-improvement items ask which forecasting step to cut, and the negative-value step is the answer; it is also the numeric way a plan review argues that field overrides are hurting the number instead of helping it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "naive-forecast",
+        "mean-absolute-percentage-error-mape",
+        "forecast-bias"
+      ]
+    },
+    {
+      "term": "Coefficient of variation of demand",
+      "definition": "Divides the standard deviation of period demand by its mean to grade how forecastable a series is: under about 0.25 a single point forecast is dependable, and above roughly 0.50 the item is erratic enough that the plan must carry a range and a buffer instead of one number.",
+      "whyItMatters": "Planning questions ask which item deserves a statistical forecast and which needs judgment plus safety stock; the ratio decides it, and the threshold is the part of the item being tested.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "mean-absolute-deviation",
+        "exponential-smoothing"
+      ]
+    },
+    {
+      "term": "Forecast reconciliation gap",
+      "definition": "The distance between the top-down number corporate assumes and the sum of the territory-level bottom-up forecasts, stated as a percentage of the top-down total; a gap past roughly 5% has to be closed by named actions with volume attached to each before the plan is approved, never by splitting the difference.",
+      "whyItMatters": "Plan-approval scenarios hand a corporate target and the field's rolled-up total and expect the gap quantified and assigned; the judge's follow-up is always which specific actions close it and what each is worth.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "variance-to-plan",
+        "sales-forecast"
+      ]
+    },
+    {
+      "term": "Price-volume-mix variance",
+      "definition": "Splits a revenue miss into three computed pieces that must add back to the total gap: price variance = (actual price − planned price) × actual units; volume variance = (actual units − planned units) × planned price; mix variance = the shift in each product's share of total units valued at planned prices.",
+      "whyItMatters": "Plan-review items give planned and actual price, units and product split and expect all three figures; answering that sales came in soft without the decomposition is exactly what the rubric withholds credit for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "variance-to-plan",
+        "sales-mix-variance"
+      ]
+    },
+    {
+      "term": "Sales mix variance",
+      "definition": "Isolates the profit effect of selling a different blend than planned: for each item, (its actual share of total units − its planned share) × total actual units × that item's planned contribution per unit, summed across the line — so a firm can hit its unit target exactly and still miss profit by shifting volume onto the thinner-margin product.",
+      "whyItMatters": "Shortfall questions where total units met plan are solved with this term alone, and it is the numeric case for paying sales incentives on contribution rather than on units sold.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "price-volume-mix-variance",
+        "net-marketing-contribution"
+      ]
+    },
+    {
+      "term": "Advertising elasticity of demand",
+      "definition": "The percentage change in unit sales delivered by a one-percent change in advertising spending — 3% more volume on 10% more spend is 0.3 — and because measured values usually sit near 0.1 to 0.2, doubling the budget rarely comes close to doubling volume; compare it against price elasticity before choosing which lever to pull.",
+      "whyItMatters": "Budget-allocation items supply both elasticities and expect the higher-return lever chosen with the arithmetic shown; a plan that asks for more advertising without this number has no answer when the judge asks why not a price move instead.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "price-elasticity",
+        "advertising-to-sales-ratio",
+        "adstock"
+      ]
+    },
+    {
+      "term": "Adstock",
+      "definition": "Carries advertising effect forward as this week's effect = this week's spending effect + (retention rate × last week's carried effect); at a retention rate of 0.7 a flight that ends today still delivers 70% of its pull next week and 49% the week after, which is why a brand can stop spending and not lose sales immediately.",
+      "whyItMatters": "Media-scheduling questions ask whether a brand can go dark for a month, and this decay arithmetic answers it; it also fixes how long after a campaign ends a plan may still credit sales to that campaign.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "advertising-half-life",
+        "advertising-elasticity-of-demand"
+      ]
+    },
+    {
+      "term": "Advertising half-life",
+      "definition": "The number of weeks it takes a campaign's carried-over effect to fall to 50% of its starting level, computed from the weekly retention rate as ln(0.5) ÷ ln(rate) — a rate of 0.7 gives about 1.9 weeks — so a short half-life forces flights roughly monthly while a long one permits long gaps between bursts.",
+      "whyItMatters": "Flighting-versus-continuity items expect the weeks figure computed, not a description of the trade-off, and the same number sets the measurement window a plan claims when it attributes sales to a campaign.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "adstock",
+        "advertising-elasticity-of-demand"
+      ]
+    },
+    {
+      "term": "Saturation point",
+      "definition": "The spending level on a diminishing-returns response curve where the last dollar invested returns exactly one dollar of contribution; below it more spending still adds profit, above it volume keeps climbing while profit falls, so the stopping test is marginal contribution per marginal dollar equal to 1.0 — not whether total return is still positive.",
+      "whyItMatters": "Budget items deliberately show total return positive at every spending level to see whether the competitor stops at the marginal break-even; a plan arguing for more spend past that point is refuted with its own numbers.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "advertising-elasticity-of-demand",
+        "marketing-expense-ratio"
+      ]
+    },
+    {
+      "term": "Break-even promotional lift",
+      "definition": "The percentage volume increase a discount must produce merely to hold contribution flat: discount per unit ÷ (normal contribution per unit − discount per unit). A $1 cut against $4 of unit contribution needs 33% more units; a $2 cut against the same $4 needs 100%, which is why deep cuts almost never pay for themselves.",
+      "whyItMatters": "Promotion-approval questions give margin and discount depth and expect the required lift computed and compared with the forecast lift; anything forecast below the break-even figure is a promotion the plan should reject.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "break-even-market-share",
+        "net-marketing-contribution"
+      ]
+    },
+    {
+      "term": "Retail pull factor",
+      "definition": "Divides a town's retail sales per resident by the state's retail sales per resident: 1.00 means locals spend exactly the statewide average at home, above 1.00 means the town is pulling shoppers in from outside its borders, and 0.80 means a fifth of local buying power is leaking to other towns.",
+      "whyItMatters": "Trading-area and site questions give local and statewide sales per person and expect the ratio plus a read on leakage; it is the figure behind arguing that a market is under-served and can support another store.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:market_planning"
+      ],
+      "confusableWith": [
+        "index-of-retail-saturation",
+        "trading-area",
+        "effective-buying-income"
+      ]
+    },
+    {
+      "term": "Location quotient",
+      "definition": "Compares an industry's share of local employment or sales with its share nationally — local share ÷ national share — so 1.0 marks a perfectly typical market, above about 1.25 says the activity is concentrated here and likely serves customers beyond it, and below about 0.75 says local demand is being met from somewhere else.",
+      "whyItMatters": "Situation-analysis questions supply local and national employment figures and expect the ratio read against 1.0; it is how a plan defends choosing one metro over another with evidence rather than preference.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "retail-pull-factor",
+        "market-attractiveness-index"
+      ]
+    },
+    {
+      "term": "Deseasonalized sales",
+      "definition": "Period sales divided by that period's seasonal index — 130,000 units in a month carrying an index of 1.30 is 100,000 on a level basis — and any trend line must be fitted to these adjusted figures, because fitting a line straight to raw seasonal data reads the busy season as growth that is not there.",
+      "whyItMatters": "Forecast items hand monthly actuals alongside indexes and expect the adjusted series produced before any projection; skipping the division is the standard error that inflates a plan's growth claim and gets caught on the follow-up.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/market_planning.txt"
+      ],
+      "confusableWith": [
+        "seasonal-index",
+        "exponential-smoothing",
+        "forecast-bias"
       ]
     }
   ]

@@ -2,66 +2,6 @@
   "code": "ENT",
   "terms": [
     {
-      "term": "Unique selling proposition",
-      "definition": "The clear reason a customer should choose one business, product, or service instead of a competitor.",
-      "whyItMatters": "ENT roleplays often ask competitors to identify what makes a new venture meaningfully different.",
-      "areas": [
-        "product_service_management",
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Market identification",
-      "definition": "The process of defining the specific group of customers a business is trying to reach.",
-      "whyItMatters": "Helps competitors justify who the business should serve before choosing products, services, or promotions.",
-      "areas": [
-        "market_planning",
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Product mix",
-      "definition": "The full set of products and services a business offers to customers.",
-      "whyItMatters": "ENT scenarios frequently ask whether the current mix should expand, contract, or shift for a new customer base.",
-      "areas": [
-        "product_service_management"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt",
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
-    },
-    {
-      "term": "Product-mix expansion",
-      "definition": "A strategy that adds new items to an existing product line.",
-      "whyItMatters": "Useful when recommending new merchandise, add-ons, or service options for an entrepreneurial venture.",
-      "areas": [
-        "product_service_management"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
-    },
-    {
-      "term": "Brand promise",
-      "definition": "The expectation a brand sets for customers about the value and experience it will consistently deliver.",
-      "whyItMatters": "Strong ENT answers connect proposed services or policies back to the promise the business wants to own.",
-      "areas": [
-        "marketing",
-        "product_service_management"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2020_1.txt",
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
-    },
-    {
       "term": "Brand touchpoint",
       "definition": "Any interaction where a customer or potential customer encounters a brand.",
       "whyItMatters": "Touchpoints help explain how ads, websites, store layouts, staff, products, and reviews shape brand image.",
@@ -71,20 +11,8 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
-    },
-    {
-      "term": "Positioning",
-      "definition": "How a business wants customers to perceive its product, service, or brand compared with alternatives.",
-      "whyItMatters": "Positioning links customer service, product mix, pricing, and promotion into one competitive image.",
-      "areas": [
-        "marketing",
-        "product_service_management"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt",
-        "backend/roleplay-gen-model/data/ENT/district_2020_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Customer profile",
@@ -96,19 +24,8 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
-    },
-    {
-      "term": "Target market",
-      "definition": "The customer group a business chooses as the main audience for its marketing and sales efforts.",
-      "whyItMatters": "Most ENT roleplays expect a clear target before competitors recommend products, channels, or messages.",
-      "areas": [
-        "market_planning",
-        "marketing"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2026_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Market analysis",
@@ -120,42 +37,8 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
-    },
-    {
-      "term": "Marketing research",
-      "definition": "The organized collection and interpretation of information about customers, competitors, and market conditions.",
-      "whyItMatters": "ENT competitors can use research to turn customer feedback or survey data into business recommendations.",
-      "areas": [
-        "marketing_information_management",
-        "information_management"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2018_1.txt"
-      ]
-    },
-    {
-      "term": "Actionable business recommendation",
-      "definition": "A specific recommendation that a business can realistically act on using available resources.",
-      "whyItMatters": "Judges reward analysis that turns data into a concrete next step.",
-      "areas": [
-        "marketing_information_management"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2018_1.txt"
-      ]
-    },
-    {
-      "term": "Channel of distribution",
-      "definition": "The path a product or service takes from the producer or provider to the final customer.",
-      "whyItMatters": "Channel choices affect convenience, cost, customer reach, and the buying experience.",
-      "areas": [
-        "channel_management"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2019_1.txt",
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Channel strategy",
@@ -166,76 +49,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ENT/district_2019_1.txt"
-      ]
-    },
-    {
-      "term": "Promotion",
-      "definition": "Communication used to inform, persuade, or remind customers about a business, product, service, or idea.",
-      "whyItMatters": "ENT scenarios often require choosing the right promotional message and channel for a specific market.",
-      "areas": [
-        "promotion",
-        "marketing"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2019_2.txt",
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
-    },
-    {
-      "term": "Public relations",
-      "definition": "Activities that build and maintain a positive relationship between an organization and its publics.",
-      "whyItMatters": "PR vocabulary helps competitors discuss press, community trust, reputation, and service recovery.",
-      "areas": [
-        "promotion"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2019_2.txt"
-      ]
-    },
-    {
-      "term": "Publicity",
-      "definition": "Unpaid media or public attention that can help or hurt a business's reputation.",
-      "whyItMatters": "Knowing publicity versus paid advertising makes promotional recommendations more precise.",
-      "areas": [
-        "promotion"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
-    },
-    {
-      "term": "Marketing plan",
-      "definition": "A written plan that sets marketing goals, strategies, tactics, budgets, and measures of success.",
-      "whyItMatters": "A marketing plan gives roleplay recommendations structure and makes them easier to evaluate.",
-      "areas": [
-        "market_planning"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2021_1.txt"
-      ]
-    },
-    {
-      "term": "Marketing strategy",
-      "definition": "The broad approach a business uses to reach customers and achieve marketing goals.",
-      "whyItMatters": "Strategy explains why a tactic fits the customer, business goal, and competitive situation.",
-      "areas": [
-        "market_planning",
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2021_1.txt"
-      ]
-    },
-    {
-      "term": "Capital resources",
-      "definition": "The money, equipment, facilities, and other assets needed to start or operate a venture.",
-      "whyItMatters": "ENT competitors often must explain what resources a recommendation requires and whether the cost is justified.",
-      "areas": [
-        "entrepreneurship"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2018_2.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Venture start-up",
@@ -247,41 +62,352 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ENT/district_2018_2.txt",
         "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
-      "term": "Overhead costs",
-      "definition": "Ongoing business costs that are not tied directly to producing one unit of a product or service.",
-      "whyItMatters": "Cost awareness helps competitors judge whether a proposed service or product mix is sustainable.",
+      "term": "Valuation cap",
+      "definition": "A ceiling written into a convertible instrument that fixes the worst price its holder will ever convert at — cap divided by fully diluted pre-money shares — with the holder taking whichever is lower, that price or the discounted round price.",
+      "whyItMatters": "Seed-financing roleplays ask why a $6M cap on a $12M Series A hands the note holder roughly twice the shares the headline round price would buy.",
       "areas": [
-        "operations",
         "entrepreneurship"
       ],
       "sourceRefs": [
-        "backend/roleplay-gen-model/data/ENT/district_2021_2.txt"
-      ]
-    },
-    {
-      "term": "Private enterprise",
-      "definition": "An economic system in which individuals and businesses own resources and pursue profit with limited government control.",
-      "whyItMatters": "Entrepreneurship exams often connect profit, competition, and risk to private enterprise.",
-      "areas": [
-        "economics"
+        "deca-domain:ENT"
       ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+      "difficulty": "hard",
+      "confusableWith": [
+        "conversion-discount",
+        "simple-agreement-for-future-equity-safe"
       ]
     },
     {
-      "term": "Profit motive",
-      "definition": "The desire to earn profit, which encourages people to invest, start businesses, and take business risks.",
-      "whyItMatters": "This is a core economics term behind entrepreneurial decision-making.",
+      "term": "Conversion discount",
+      "definition": "The percentage knocked off a priced round's per-share price when an earlier note or SAFE converts — a 20% discount converts at 0.80 of the round price, so $1.00 shares cost the early holder $0.80.",
+      "whyItMatters": "A funding-instrument roleplay is scored on whether you can say which of the cap and the discount actually governs a given round, since the holder takes only the better of the two.",
       "areas": [
-        "economics",
         "entrepreneurship"
       ],
       "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "valuation-cap",
+        "convertible-note"
+      ]
+    },
+    {
+      "term": "Option pool shuffle",
+      "definition": "The move where an investor requires the employee equity pool to be created or topped up before the money lands, so every share of that dilution falls on existing holders and the real pre-money quietly drops by the pool's value.",
+      "whyItMatters": "In a term-sheet roleplay, expanding a pool by ten points on an $8,000,000 pre-money costs founders roughly $800,000 of value the sheet still calls $8,000,000.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "employee-option-pool",
+        "pre-money-valuation"
+      ]
+    },
+    {
+      "term": "Fully diluted capitalization",
+      "definition": "The share count used as the denominator for every ownership percentage on a term sheet: issued common and preferred plus the whole option pool, all warrants and every convertible instrument treated as if exercised today.",
+      "whyItMatters": "Cap-table questions are graded on which denominator you used — a founder holding 4,000,000 of 8,000,000 issued shares owns 40%, not 50%, once a 2,000,000-share pool counts.",
+      "areas": [
+        "entrepreneurship",
+        "information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "capitalization-table",
+        "employee-option-pool"
+      ]
+    },
+    {
+      "term": "83(b) election",
+      "definition": "A filing made within 30 days of a restricted-stock grant that taxes the entire award at its grant-date value, so later appreciation is capital gain instead of ordinary income charged as each tranche vests.",
+      "whyItMatters": "Founder-equity roleplays turn on that deadline: miss the 30 days on stock worth pennies and the founder owes ordinary income tax every vesting month once the company is worth millions.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "restricted-stock-unit-rsu",
+        "graded-vesting"
+      ]
+    },
+    {
+      "term": "Section 409A valuation",
+      "definition": "An independent appraisal of a private company's common stock that sets the lowest legal strike price for option grants and holds a safe harbor for 12 months or until the next material event.",
+      "whyItMatters": "A case that grants options at a bargain strike is a tax-penalty question, not a generosity question — the employee owes income tax plus a 20% penalty on the spread.",
+      "areas": [
+        "entrepreneurship",
+        "operations"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "employee-option-pool",
+        "fully-diluted-capitalization"
+      ]
+    },
+    {
+      "term": "Qualified small business stock (QSBS)",
+      "definition": "C-corporation shares issued while the company holds under $50 million in gross assets that, held five years, let the holder exclude federal gain up to the greater of $10 million or ten times basis.",
+      "whyItMatters": "The entity-choice roleplay where an LLC 'saves taxes now' quietly forfeits this exclusion; the judge is listening for the five-year clock and the C-corp requirement.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "s-corporation",
+        "limited-liability-company"
+      ]
+    },
+    {
+      "term": "Double-trigger acceleration",
+      "definition": "A vesting term releasing unvested equity only when two events land together — the company is acquired and the holder is terminated without cause inside a stated window, typically 12 months — never on either alone.",
+      "whyItMatters": "Acquisition roleplays ask why a buyer insists on it: the acquirer keeps the team working for a year instead of purchasing a fully vested staff that is free to leave at closing.",
+      "areas": [
+        "entrepreneurship",
+        "operations"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "vesting-cliff",
+        "graded-vesting"
+      ]
+    },
+    {
+      "term": "Participating preferred stock",
+      "definition": "Preferred shares that collect their liquidation preference first and then split the remaining proceeds alongside common as if they had converted — the double dip that pays more than either route by itself.",
+      "whyItMatters": "On a $10M exit with a $4M preference on 20% ownership, the investor takes $4M plus 20% of the leftover $6M, or $5.2M; exit-split questions are graded on that arithmetic.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "liquidation-preference",
+        "liquidation-waterfall"
+      ]
+    },
+    {
+      "term": "Weighted-average anti-dilution",
+      "definition": "A repricing formula that lowers an earlier investor's conversion price only in proportion to how much cheap stock a down round actually issued, dividing outstanding shares plus shares the new money would have bought at the old price by outstanding shares plus shares truly issued.",
+      "whyItMatters": "Down-round roleplays ask which protection is founder-friendly; this one shifts the conversion price by cents where a full ratchet drops it to the new round's price outright.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "anti-dilution-provision",
+        "liquidation-preference"
+      ]
+    },
+    {
+      "term": "Liquidation waterfall",
+      "definition": "The payout order at an exit — secured debt, then each preferred series' preference by seniority, then common — with every preferred class choosing the greater of its preference or its as-converted share at the crossover point.",
+      "whyItMatters": "In an exit roleplay where the sale price sits below the money raised, common stock can be worth $0 on a $12M sale after $15M of 1x preferences, and the founder has to be told why.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "liquidation-preference",
+        "participating-preferred-stock"
+      ]
+    },
+    {
+      "term": "Pro rata rights",
+      "definition": "A contractual right letting an existing investor buy enough of a later round to hold its percentage flat — a 10% holder must fund $500,000 of a $5,000,000 round or be diluted like everyone else.",
+      "whyItMatters": "Follow-on-financing roleplays ask what a seed fund is owed when the Series A is oversubscribed, and the answer is a dollar amount computed from its current stake.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "anti-dilution-provision",
+        "series-a-round"
+      ]
+    },
+    {
+      "term": "Pay-to-play provision",
+      "definition": "A clause that converts an investor's preferred shares into plain common — stripping the preference, the anti-dilution protection and the protective votes — whenever that investor declines to fund its full share of a new round.",
+      "whyItMatters": "A bridge-financing roleplay uses it to force a reluctant early backer to participate; judges want the consequence named, not just the phrase repeated.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "pro-rata-rights",
+        "liquidation-preference"
+      ]
+    },
+    {
+      "term": "Warrant coverage",
+      "definition": "The slice of a loan a lender may also buy as equity, quoted as a percentage of principal: 10% coverage on a $2,000,000 venture loan is the right to purchase $200,000 of stock at the last round's price.",
+      "whyItMatters": "Debt-versus-equity roleplays are scored on total cost, and this is the dilution hiding inside a loan that the stated interest rate never shows.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "venture-debt",
+        "convertible-note"
+      ]
+    },
+    {
+      "term": "Venture debt",
+      "definition": "Growth-stage lending normally sized at 25–30% of the last equity round, repaid on a fixed amortization schedule with warrants attached, taken to buy extra months of runway without setting a new share price.",
+      "whyItMatters": "When a roleplay's founder needs six more months to hit the metric that prices the next round, the recommendation is this rather than a dilutive bridge — but only if the loan can be serviced from cash flow.",
+      "areas": [
+        "entrepreneurship"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "warrant-coverage",
+        "revenue-based-financing"
+      ]
+    },
+    {
+      "term": "Burn multiple",
+      "definition": "Net cash burned divided by net new annual recurring revenue added over the same stretch — under 1.0 marks efficient growth, above 2.0 says each dollar of new revenue cost more than two dollars to buy.",
+      "whyItMatters": "Investor-pitch roleplays ask whether growth is worth funding, and this ratio answers it where a raw growth rate cannot.",
+      "areas": [
+        "entrepreneurship",
+        "marketing_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "burn-rate",
+        "runway"
+      ]
+    },
+    {
+      "term": "Cohort retention curve",
+      "definition": "A chart tracking one month's signups across the months that follow, read for whether the line flattens above zero — flattening at 40% means a durable base, sliding to zero means every customer must be replaced.",
+      "whyItMatters": "A subscription-box ENT case is solved by reading month three of a single cohort, because a blended company-wide churn rate hides the customers who never came back.",
+      "areas": [
+        "entrepreneurship",
+        "marketing_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "churn-rate",
+        "retention-rate"
+      ]
+    },
+    {
+      "term": "Gross dollar retention",
+      "definition": "Revenue kept from an existing customer base with every upsell stripped out, so the figure can never exceed 100% — 120% net retention sitting on 85% here means expansion is masking real losses.",
+      "whyItMatters": "A growth roleplay that brags about net retention is answered by asking for this number, which exposes whether the base is leaking while a few accounts expand.",
+      "areas": [
+        "entrepreneurship",
+        "marketing_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "hard",
+      "confusableWith": [
+        "net-revenue-retention",
+        "logo-churn"
+      ]
+    },
+    {
+      "term": "Bottom-up market sizing",
+      "definition": "Building a demand estimate out of what the business can actually reach — reachable customers multiplied by purchase frequency multiplied by price — rather than claiming a percentage of a published industry total.",
+      "whyItMatters": "Market-planning roleplays are scored on defensibility: '1% of a $10 billion market' is the answer judges mark down, and this arithmetic is what replaces it.",
+      "areas": [
+        "market_planning",
+        "marketing_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "total-addressable-market",
+        "serviceable-obtainable-market-som"
+      ]
+    },
+    {
+      "term": "Phantom equity",
+      "definition": "A contractual bonus paying an employee the cash value of a set number of shares at an exit or valuation event without ever issuing stock, so the cap table and the voting rights stay untouched.",
+      "whyItMatters": "A retention roleplay for a family business that refuses to give up ownership is solved with this rather than an option grant.",
+      "areas": [
+        "entrepreneurship",
+        "operations"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "employee-option-pool",
+        "sweat-equity"
+      ]
+    },
+    {
+      "term": "Data room",
+      "definition": "The organized, access-controlled repository of contracts, financial statements, cap table and IP records an investor or acquirer reviews during diligence, with entry logged per document and per viewer.",
+      "whyItMatters": "A due-diligence roleplay is scored on preparedness: naming what belongs in it, and who may see which folder, is the difference between a two-week close and a two-month one.",
+      "areas": [
+        "entrepreneurship",
+        "information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ENT"
+      ],
+      "difficulty": "medium",
+      "confusableWith": [
+        "capitalization-table",
+        "letter-of-intent"
       ]
     }
   ]

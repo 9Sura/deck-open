@@ -11,18 +11,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
-      ]
-    },
-    {
-      "term": "Functional product",
-      "definition": "A product idea adjusted so it can realistically solve the customer's problem and operate as intended.",
-      "whyItMatters": "Useful when explaining how a raw idea becomes something customers can actually use.",
-      "areas": [
-        "product_service_management"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Product/service brand",
@@ -35,30 +25,8 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
         "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
-      ]
-    },
-    {
-      "term": "Additional service",
-      "definition": "A new service layered onto an existing business to create more value for customers.",
-      "whyItMatters": "The 2026 ETDM scenario asks teams to recommend a service that improves the customer wait-time experience.",
-      "areas": [
-        "product_service_management"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Capital resources",
-      "definition": "Assets such as money, equipment, space, technology, and fixtures needed to launch or expand a venture.",
-      "whyItMatters": "ETDM judges often expect teams to explain what a recommendation costs and what resources it requires.",
-      "areas": [
-        "entrepreneurship"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
-        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Cost-benefit analysis",
@@ -70,20 +38,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Business risk",
-      "definition": "The chance that a business decision or condition could cause loss, harm, or lower-than-expected results.",
-      "whyItMatters": "ETDM teams should name risks and explain how to reduce them.",
-      "areas": [
-        "entrepreneurship",
-        "risk_management"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2026_1.txt",
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Risk mitigation",
@@ -95,7 +51,8 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Start-up requirements",
@@ -106,7 +63,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Venture planning tools",
@@ -117,32 +75,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
-      ]
-    },
-    {
-      "term": "Overhead costs",
-      "definition": "Regular operating expenses, such as rent, utilities, insurance, software, or salaries, that continue over time.",
-      "whyItMatters": "Teams must consider whether a new service can cover ongoing costs after launch.",
-      "areas": [
-        "operations",
-        "entrepreneurship"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt",
-        "backend/roleplay-gen-model/data/ETDM/district_2024_1.txt"
-      ]
-    },
-    {
-      "term": "Competition",
-      "definition": "Rivalry among businesses trying to attract the same customers or customer spending.",
-      "whyItMatters": "Competitive pressure affects pricing, positioning, promotion, and service decisions.",
-      "areas": [
-        "economics",
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2022_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Customer service positioning",
@@ -155,31 +89,8 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2019_1.txt",
         "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
-      ]
-    },
-    {
-      "term": "Promotional mix",
-      "definition": "The combination of promotional tools a business uses, such as advertising, sales promotion, publicity, and personal selling.",
-      "whyItMatters": "Teams can recommend a balanced mix instead of relying on one communication tactic.",
-      "areas": [
-        "promotion"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
-        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
-      ]
-    },
-    {
-      "term": "Sales promotion",
-      "definition": "Short-term incentives or activities designed to encourage customers to try, buy, or engage.",
-      "whyItMatters": "Sales promotions can drive awareness and trial when launching a new service.",
-      "areas": [
-        "promotion"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
-        "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Word-of-mouth channel",
@@ -192,29 +103,8 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2023_1.txt",
         "backend/roleplay-gen-model/data/ETDM/district_2025_1.txt"
-      ]
-    },
-    {
-      "term": "Advertising media",
-      "definition": "The channels used to deliver paid promotional messages, such as digital ads, print, radio, outdoor, or video.",
-      "whyItMatters": "Choosing media that match the target market makes promotional spending more efficient.",
-      "areas": [
-        "promotion"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
-      ]
-    },
-    {
-      "term": "Hiring needs",
-      "definition": "The number and types of employees a business requires to perform work effectively.",
-      "whyItMatters": "ETDM service recommendations often create staffing questions that teams should address.",
-      "areas": [
-        "human_resources_management"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Job applicant screening",
@@ -225,7 +115,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Employee performance assessment",
@@ -236,7 +127,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2021_1.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Entrepreneurial discovery",
@@ -247,7 +139,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Small business impact",
@@ -259,6 +152,353 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ETDM/district_2020_1.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Royalty base",
+      "definition": "The revenue figure a franchise percentage is actually charged against — normally gross sales before discounts, comps, coupons and employee meals are deducted, so 6% on $800,000 of gross sales costs $48,000 whether or not the unit turned a profit.",
+      "whyItMatters": "An ETDM case that hands the team a franchise P&L is testing whether they compute royalties off gross sales rather than net income; a judge asking 'what does the franchisor get in a bad year?' wants the fixed dollar answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "franchise-royalty",
+        "gross-margin",
+        "advertising-to-sales-ratio"
+      ]
+    },
+    {
+      "term": "Guaranteed minimum royalty",
+      "definition": "A contractual floor a licensee owes regardless of sales, so the payment is the greater of the running rate times net sales or the floor — a 5% rate against a $50,000 minimum means every year below $1,000,000 in sales is paid at the floor.",
+      "whyItMatters": "Licensing cases ask the team to say at what sales volume the minimum stops binding; the answer is floor divided by rate, and teams that only multiply the rate miss the downside risk the licensor built in.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "royalty-base",
+        "royalty-relief-method"
+      ]
+    },
+    {
+      "term": "Expected monetary value",
+      "definition": "Each outcome's payoff weighted by its probability and summed, which lets a 40% shot at $1,000,000 be compared directly against a certain $150,000 — $400,000 versus $150,000 — and turns a gut call about risk into arithmetic.",
+      "whyItMatters": "Team decision cases that supply probabilities for a product launch expect the weighted figure and an explicit note that the team can survive the losing branch, not just the biggest number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "cost-benefit-analysis",
+        "decision-tree",
+        "risk-mitigation"
+      ]
+    },
+    {
+      "term": "Cost indifference point",
+      "definition": "The volume at which two cost structures cost exactly the same, found by dividing the difference in fixed costs by the difference in variable costs per unit; below it the low-fixed-cost option wins, above it the capital-intensive one does.",
+      "whyItMatters": "Make-or-buy and in-house-versus-contract-manufacturer cases are graded on the crossover volume and where the forecast sits relative to it, not on a preference for owning equipment.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "make-or-buy-analysis",
+        "break-even-point-in-units",
+        "lease-versus-buy-analysis"
+      ]
+    },
+    {
+      "term": "Natural breakpoint",
+      "definition": "The sales level at which a retail tenant starts owing percentage rent, computed as base rent divided by the percentage rate — $120,000 of base rent at 6% means overage rent begins only above $2,000,000 in sales.",
+      "whyItMatters": "Mall-lease negotiation roleplays are won by computing the breakpoint from the offered base rent and showing the projected sales fall under it, so the percentage clause costs the venture nothing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "triple-net-lease",
+        "occupancy-cost-ratio"
+      ]
+    },
+    {
+      "term": "Lease-versus-buy analysis",
+      "definition": "A present-value comparison that sets the after-tax cost of the lease stream against the purchase price less the discounted salvage value plus the tax shield from depreciation, so the cheaper monthly payment can still lose on total cost.",
+      "whyItMatters": "Equipment and facility cases hand the team a monthly lease quote and a purchase price; the recommendation must rest on discounted totals and residual value, since judges probe for the salvage assumption.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "capital-lease",
+        "operating-lease",
+        "cost-indifference-point"
+      ]
+    },
+    {
+      "term": "Capitalization rate",
+      "definition": "Net operating income divided by property value, which inverts to price a building the venture might buy instead of lease — $90,000 of net operating income at an 8% market rate implies $1,125,000, and a lower rate implies a higher price for identical income.",
+      "whyItMatters": "Cases where the founder can purchase the building rather than renew the lease turn on this conversion; it is also how the team values the real estate separately from the operating business at exit.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "lease-versus-buy-analysis",
+        "book-value",
+        "valuation-multiple"
+      ]
+    },
+    {
+      "term": "Seller's discretionary earnings",
+      "definition": "Net profit added back to one working owner's compensation, personal perks, interest, taxes, depreciation and amortization — the benefit stream a small owner-operated business is priced on, typically at two to three times, where larger deals switch to a multiple of EBITDA.",
+      "whyItMatters": "Buy-an-existing-business cases give a tax return showing thin profit; the team must recast it into the owner benefit stream before applying a multiple, or it will value a healthy business at nearly nothing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "ebitda-multiple-valuation",
+        "earnings-management",
+        "book-value"
+      ]
+    },
+    {
+      "term": "Venture capital method",
+      "definition": "Working backward from an assumed exit: divide the projected sale value by the investor's target return to get today's post-money figure, then divide the check by that figure for the ownership demanded — a $30,000,000 exit at a 10x target supports a $3,000,000 valuation, so $600,000 buys 20%.",
+      "whyItMatters": "Pitch-and-negotiate cases give an exit assumption and a required return; the team that runs the chain gets a defensible ownership number instead of arguing about what the idea feels worth.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "post-money-valuation",
+        "pre-money-valuation",
+        "internal-rate-of-return"
+      ]
+    },
+    {
+      "term": "Working capital peg",
+      "definition": "The normalized level of receivables plus inventory less payables a buyer requires the business to carry at closing; delivering below it cuts the purchase price dollar for dollar, so a seller who collects hard and stops reordering before the sale simply pays the money back.",
+      "whyItMatters": "Business-acquisition cases where the seller drains cash before closing test whether the team protects the buyer with a peg and a true-up rather than trusting the headline price.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "cash-conversion-cycle",
+        "escrow-holdback",
+        "asset-purchase-agreement"
+      ]
+    },
+    {
+      "term": "Partnership capital account",
+      "definition": "A per-owner running balance of contributions plus allocated profits minus draws and losses; on dissolution the assets are distributed by these ending balances, not by the profit-sharing percentages, so a partner who drew heavily can walk away with far less than their stated share.",
+      "whyItMatters": "Partner-dispute roleplays where two 50/50 owners contributed unequal cash are decided by these balances, and a team that answers 'they split it evenly' has misread the agreement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "partnership",
+        "owner-s-equity",
+        "buy-sell-agreement"
+      ]
+    },
+    {
+      "term": "Naked license",
+      "definition": "Letting a licensee put a trademark on goods without policing their quality, which courts treat as abandonment — the owner can lose the mark outright even though every royalty check cleared on time.",
+      "whyItMatters": "Brand-licensing cases where the founder wants passive income test whether the team writes in sample approval and inspection rights; the risk being graded is loss of the mark, not lost royalties.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "trademark",
+        "quality-control",
+        "genericide"
+      ]
+    },
+    {
+      "term": "Occupancy cost ratio",
+      "definition": "Rent plus common area charges, taxes and insurance divided by store sales; retail concepts fail above roughly 10% and full-service restaurants above about 8%, so the percentage, not the monthly dollar figure, says whether a space is affordable.",
+      "whyItMatters": "Site-selection cases supply a rent quote and a sales forecast; the team must convert them into this percentage and reject spaces over the benchmark even when the rent looks cheap in isolation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "triple-net-lease",
+        "prime-cost",
+        "natural-breakpoint"
+      ]
+    },
+    {
+      "term": "Load factor",
+      "definition": "The gap between usable and rentable square feet, expressed as a multiplier for the tenant's share of lobbies and corridors: 1,000 usable feet at a 15% factor is billed as 1,176 rentable feet every month.",
+      "whyItMatters": "Comparing two space quotes per square foot means nothing until both are restated on the same basis, and cases include the factor precisely to see which team divides it back out.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "net-effective-rent",
+        "triple-net-lease"
+      ]
+    },
+    {
+      "term": "Net effective rent",
+      "definition": "The full obligation over the term spread across every month of it, so twelve months free on a sixty-month term quoted at $5,000 is truly $4,000 — concessions are a discount on the average, not free money.",
+      "whyItMatters": "Cases offering competing concession packages are graded on this one comparable figure; a team quoting only the face rate cannot say which landlord actually offered less.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "load-factor",
+        "triple-net-lease",
+        "tenant-improvement-allowance"
+      ]
+    },
+    {
+      "term": "Tooling amortization",
+      "definition": "Spreads one-time mold, die or fixture cost across the units it will produce, so a $40,000 tool adds $8 to each of 5,000 units but only $0.80 across 50,000 — volume, not the quote, sets the real unit cost.",
+      "whyItMatters": "Make-versus-outsource cases include a tooling charge the team must convert to a per-unit figure at the forecast volume before comparing suppliers or setting a price floor.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "minimum-order-quantity",
+        "cost-indifference-point",
+        "straight-line-depreciation"
+      ]
+    },
+    {
+      "term": "Prime cost",
+      "definition": "Cost of goods sold plus total labor including payroll taxes and benefits, tracked as a percentage of sales; a full-service restaurant that lets the combined figure pass about 65% cannot cover rent and overhead however busy it looks.",
+      "whyItMatters": "Food-service feasibility cases supply food, beverage and payroll lines separately, and the team that sums them against sales diagnoses the failing unit while one reading only food cost misses it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "contribution-margin-ratio",
+        "occupancy-cost-ratio",
+        "cost-of-goods-sold"
+      ]
+    },
+    {
+      "term": "Imputed owner compensation",
+      "definition": "The market wage a working founder gave up, charged against the venture before anyone calls it profitable — $50,000 of accounting profit earned by someone who left a $70,000 job is a $20,000 economic loss.",
+      "whyItMatters": "Go/no-go cases love a pro forma showing thin profit, and the team that subtracts what the founders could earn elsewhere reaches the defensible recommendation judges ask for by name.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "imputed-income",
+        "seller-s-discretionary-earnings",
+        "profit-margin"
+      ]
+    },
+    {
+      "term": "Cash-on-cash return",
+      "definition": "Annual pre-tax cash flow divided by the cash the owners actually injected, so $36,000 of flow on $150,000 put in is 24% even when the project cost $500,000; borrowing changes it, total project return does not.",
+      "whyItMatters": "Acquisition and build-out cases ask which deal to fund with limited founder cash, and this ranks them on money genuinely at risk rather than on total capital deployed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "return-on-investment",
+        "equity-injection-requirement",
+        "payback-period"
+      ]
+    },
+    {
+      "term": "Purchase price allocation",
+      "definition": "Buyer and seller must file the same split of the price across asset classes — equipment, inventory, non-compete, goodwill — because the mix decides the seller's tax rate and how fast the buyer can write the cost off.",
+      "whyItMatters": "Deal-structure roleplays where both sides already agree on price turn on this schedule, and a team treating it as paperwork hands real money to the other side.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "asset-purchase-agreement",
+        "goodwill",
+        "successor-liability"
+      ]
+    },
+    {
+      "term": "Indemnity basket",
+      "definition": "A minimum claim threshold before a seller owes anything: a deductible basket pays only the excess above it while a tipping basket pays from the first dollar once crossed — near-identical wording, very different money on a $250,000 claim.",
+      "whyItMatters": "Deal-terms roleplays put both basket types side by side to see whether the team can price the difference instead of nodding along at either.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "escrow-holdback",
+        "representation-and-warranty-survival-period"
+      ]
+    },
+    {
+      "term": "Successor liability",
+      "definition": "Doctrine letting creditors, tax authorities or injured customers pursue the buyer of a business's assets anyway — through de facto merger, continuity of the enterprise or unpaid sales tax — despite contract language transferring only listed obligations.",
+      "whyItMatters": "Buy-the-business cases treat an asset purchase as a clean slate, and the team ordering lien searches and tax clearance certificates first is the one answering the risk question judges actually ask.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "asset-purchase-agreement",
+        "piercing-the-corporate-veil",
+        "purchase-price-allocation"
+      ]
+    },
+    {
+      "term": "Standby seller note",
+      "definition": "Seller financing on which the buyer pays nothing — sometimes not even interest — for a set period, which is the condition for a lender to count it toward the buyer's required contribution; a note with current payments does not qualify.",
+      "whyItMatters": "Acquisition-financing cases where the buyer is short of cash are solved by structuring part of the price this way, and judges ask whether the note is genuinely on full standby.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "equity-injection-requirement",
+        "sba-7-a-loan",
+        "convertible-note"
+      ]
+    },
+    {
+      "term": "Equity injection requirement",
+      "definition": "The share of total project cost a buyer must put in as cash for a government-guaranteed business acquisition loan — 10% of the project, of which no more than half may come from a fully standby seller note.",
+      "whyItMatters": "Financing cases give a purchase price and the founders' savings, and the team must show the cash gap in dollars and close it with a compliant structure rather than assuming the lender funds everything.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "standby-seller-note",
+        "sba-7-a-loan",
+        "cash-on-cash-return"
+      ]
+    },
+    {
+      "term": "Partner dissociation buyout",
+      "definition": "When a partner withdraws from an at-will partnership without dissolving it, the statutory price owed is the greater of liquidation value and going-concern value of that share, with interest running from the departure date.",
+      "whyItMatters": "Cases where one partner quits mid-year test whether the team knows the firm continues and owes a computed buyout, rather than assuming the whole business must be sold and split.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ETDM"
+      ],
+      "confusableWith": [
+        "partnership-capital-account",
+        "buy-sell-agreement",
+        "shotgun-clause"
       ]
     }
   ]

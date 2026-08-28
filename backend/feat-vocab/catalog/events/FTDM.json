@@ -1,0 +1,356 @@
+{
+  "code": "FTDM",
+  "terms": [
+    {
+      "term": "Profitability index",
+      "definition": "Present value of a project's future cash flows divided by its initial outlay, so 1.15 means $1.15 of present value bought per $1 spent; anything below 1.0 is rejected and the ratio ranks projects when the budget is capped.",
+      "whyItMatters": "When an FTDM case hands the team a fixed capital budget and four projects, ranking by NPV overspends the budget — the index is what picks the combination that fits it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "net-present-value",
+        "capital-rationing"
+      ]
+    },
+    {
+      "term": "Discounted payback period",
+      "definition": "Time until a project's cumulative *discounted* cash flows recover the outlay, so a project that pays back in 3.0 plain years may take 3.8 once each year's inflow is divided by (1+r)^n.",
+      "whyItMatters": "Judges push back on a team that quotes plain payback for a five-year equipment case; the discounted figure is the one that survives a follow-up about the time value of money.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "payback-period",
+        "net-present-value"
+      ]
+    },
+    {
+      "term": "Crossover rate",
+      "definition": "The discount rate at which two mutually exclusive projects have identical net present values; below it the longer-lived project wins and above it the front-loaded one does, which is why NPV and IRR can disagree.",
+      "whyItMatters": "A case that gives two projects and a cost of capital is really asking which side of this rate the firm sits on — that single comparison decides the recommendation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "hurdle-rate",
+        "internal-rate-of-return"
+      ]
+    },
+    {
+      "term": "Modified internal rate of return",
+      "definition": "Rate that grows the outlay into the future value of the inflows when those inflows are reinvested at the cost of capital rather than at the project's own IRR, so it lands below a flattering IRR and removes the multiple-root problem.",
+      "whyItMatters": "When a case project shows a 34% IRR against a 9% cost of capital, the recomputed figure is the defensible number to present — the raw IRR silently assumes 34% reinvestment.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "crossover-rate",
+        "hurdle-rate"
+      ]
+    },
+    {
+      "term": "Equivalent annual annuity",
+      "definition": "A project's NPV spread into a level yearly amount by dividing it by the annuity factor for its life, which is the only fair way to compare a 4-year machine against a 7-year one.",
+      "whyItMatters": "Replacement-equipment cases deliberately give unequal lives; comparing raw NPVs there is the trap, and the annualized figure is the answer judges are listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "net-present-value",
+        "profitability-index"
+      ]
+    },
+    {
+      "term": "Terminal value",
+      "definition": "The lump sum standing in for every cash flow past the explicit forecast, usually final-year flow times (1+g) divided by (WACC minus g); it routinely carries 60-80% of a DCF's total value, so the g assumption dominates the answer.",
+      "whyItMatters": "In a valuation case, moving growth from 2% to 3% against a 9% discount rate swings this figure by roughly a sixth — the team that names that sensitivity wins the question.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "enterprise-value",
+        "comparable-company-analysis"
+      ]
+    },
+    {
+      "term": "Weighted average cost of capital",
+      "definition": "Blended required return computed as the equity weight times the cost of equity plus the debt weight times the after-tax cost of debt, using market-value weights rather than book values.",
+      "whyItMatters": "Every discounting decision in an FTDM capital-budgeting case runs through this one number, and using book weights or a pre-tax debt rate quietly changes the accept/reject verdict.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "after-tax-cost-of-debt",
+        "hurdle-rate"
+      ]
+    },
+    {
+      "term": "After-tax cost of debt",
+      "definition": "The coupon or yield multiplied by (1 minus the tax rate), because interest is deductible — an 8% note at a 25% rate costs the firm 6%, and that gap is the whole tax shield.",
+      "whyItMatters": "A team that plugs the stated 8% into a WACC calculation overstates the discount rate and rejects a project the case intends them to accept.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "weighted-average-cost-of-capital",
+        "degree-of-financial-leverage"
+      ]
+    },
+    {
+      "term": "Flotation cost",
+      "definition": "Underwriting and issuance fees that shrink the net proceeds of a new security sale, so a $30 share netting $27.60 raises the cost of *new* equity above the cost of retained earnings by roughly the same 8%.",
+      "whyItMatters": "Financing-mix cases ask why a firm exhausts retained earnings before issuing stock; this cost is the arithmetic reason, not a preference.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "marginal-cost-of-capital-break-point",
+        "weighted-average-cost-of-capital"
+      ]
+    },
+    {
+      "term": "Marginal cost of capital break point",
+      "definition": "The dollar level of new financing at which the blended cost steps up, found by dividing the retained earnings available by the equity weight — $6M of retained earnings at a 60% equity weight breaks at $10M raised.",
+      "whyItMatters": "When a case lists a capital budget larger than internal funds, this is the calculation that shows which projects are still above the hurdle once the cheaper money runs out.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "flotation-cost",
+        "capital-rationing"
+      ]
+    },
+    {
+      "term": "Unlevered beta",
+      "definition": "Systematic risk stripped of capital structure — levered beta divided by [1 + (1 - tax rate)(debt/equity)] — so a peer's risk can be relevered at the subject firm's own debt load.",
+      "whyItMatters": "Valuing a private target from public comparables requires this two-step unlever/relever, and skipping it imports the comparable's leverage into the target's cost of equity.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "security-market-line",
+        "comparable-company-analysis"
+      ]
+    },
+    {
+      "term": "Degree of operating leverage",
+      "definition": "Total contribution margin divided by operating income, giving the multiple by which EBIT moves for a 1% sales move — a factor of 3.0 turns a 10% sales drop into a 30% EBIT collapse.",
+      "whyItMatters": "Fixed-versus-variable cost cases hinge on this multiple: it is the number that tells the team whether automating the plant is survivable in a downturn.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "degree-of-financial-leverage",
+        "contribution-margin-ratio"
+      ]
+    },
+    {
+      "term": "Degree of financial leverage",
+      "definition": "EBIT divided by (EBIT minus interest), measuring how far each 1% change in operating income is amplified into earnings per share — $500K EBIT against $200K interest gives 1.67x.",
+      "whyItMatters": "Recapitalization cases ask whether more debt helps shareholders; this ratio quantifies the added EPS volatility that comes with the higher expected EPS.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "degree-of-operating-leverage",
+        "net-debt-to-ebitda"
+      ]
+    },
+    {
+      "term": "Net debt to EBITDA",
+      "definition": "Total borrowings less cash, divided by trailing operating cash earnings, expressed as a multiple of years to repay; lenders and rating agencies commonly draw the investment-grade line near 3.0x and distress near 5.0x.",
+      "whyItMatters": "When a case asks whether a firm can fund an acquisition with debt, computing the pro forma multiple against that 3.0x line is the decision, not a talking point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "debt-to-equity-ratio",
+        "degree-of-financial-leverage"
+      ]
+    },
+    {
+      "term": "Enterprise value",
+      "definition": "Equity market capitalization plus total debt and preferred stock, minus cash and equivalents — the price of the whole operating business regardless of who financed it, which is why it pairs with EBIT or EBITDA and never with net income.",
+      "whyItMatters": "Mismatching this with a bottom-line earnings figure is the classic multiple error judges probe; the cash subtraction alone can move a target's implied price several percent.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "ebitda-multiple-valuation",
+        "book-value"
+      ]
+    },
+    {
+      "term": "Control premium",
+      "definition": "The excess above an unaffected trading price paid to acquire a majority stake, historically 20-40%, justified by the buyer's new power to change management, capital structure and dividend policy.",
+      "whyItMatters": "A comparable-company valuation gives a minority-basis price; an acquisition case must add this percentage before the offer is credible to the judge playing the seller.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "discount-for-lack-of-marketability",
+        "comparable-company-analysis"
+      ]
+    },
+    {
+      "term": "Discount for lack of marketability",
+      "definition": "A reduction of roughly 20-35% applied to a private company's indicated value because the shares cannot be sold quickly at a quoted price, applied after any minority or control adjustment.",
+      "whyItMatters": "Family-business succession and buy-sell cases turn on this haircut; quoting a public multiple with no such adjustment overvalues the stake by a quarter.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "control-premium",
+        "enterprise-value"
+      ]
+    },
+    {
+      "term": "Price-earnings-to-growth ratio",
+      "definition": "A P/E divided by the expected annual earnings growth rate in percentage points, so a 30 P/E growing 30% scores 1.0; under 1.0 is conventionally read as cheap relative to growth and over 2.0 as rich.",
+      "whyItMatters": "It settles the case argument that a high-multiple stock is automatically overpriced — the team that computes it can defend paying 30 times earnings.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "price-to-earnings-ratio",
+        "comparable-company-analysis"
+      ]
+    },
+    {
+      "term": "Sharpe ratio",
+      "definition": "Return above the risk-free rate divided by the portfolio's standard deviation, converting raw performance into reward per unit of total risk — 12% return, 3% risk-free and 15% volatility gives 0.60.",
+      "whyItMatters": "Client-portfolio roleplays give two funds with different returns and volatilities; this single number is how the team justifies recommending the lower-returning one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "security-market-line",
+        "unlevered-beta"
+      ]
+    },
+    {
+      "term": "Security market line",
+      "definition": "The straight line plotting required return against beta, anchored at the risk-free rate and passing through the market portfolio; a security plotting above it is underpriced and one below it is overpriced.",
+      "whyItMatters": "It converts a beta and an expected return into a buy-or-sell recommendation, which is exactly what an investment-advisory roleplay asks the team to deliver.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "unlevered-beta",
+        "sharpe-ratio"
+      ]
+    },
+    {
+      "term": "DuPont analysis",
+      "definition": "A decomposition of return on equity into net profit margin times asset turnover times the equity multiplier, so two firms with an identical 15% ROE can be shown to earn it from margin, efficiency or debt.",
+      "whyItMatters": "When a case gives ROE that improved year over year, this breakdown reveals whether the gain came from operations or from levering up — the distinction the judge is testing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "return-on-equity",
+        "degree-of-financial-leverage"
+      ]
+    },
+    {
+      "term": "Accruals ratio",
+      "definition": "Net income minus operating cash flow, divided by average total assets; a large positive value means reported profit is not arriving as cash and predicts weaker future earnings.",
+      "whyItMatters": "Given an income statement and a cash flow statement in a case, this is the one calculation that turns a vague suspicion about earnings quality into evidence.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "quality-of-earnings",
+        "earnings-management"
+      ]
+    },
+    {
+      "term": "Accretion/dilution analysis",
+      "definition": "Pro forma test of whether a merger raises or lowers the acquirer's earnings per share; in an all-stock deal it is accretive whenever the acquirer's P/E exceeds the target's, before synergies.",
+      "whyItMatters": "Acquisition roleplays hand the team both P/Es and a share count — computing the combined EPS is what separates a recommendation from an opinion.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "price-to-earnings-ratio",
+        "enterprise-value"
+      ]
+    },
+    {
+      "term": "Capital rationing",
+      "definition": "A self-imposed ceiling on total investment spending that forces a firm to reject positive-NPV projects, making the task selecting the highest-value bundle that fits rather than approving everything above the hurdle.",
+      "whyItMatters": "It is the constraint that makes an FTDM project-selection case a real decision; without it the team would simply accept every project with a positive NPV.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "profitability-index",
+        "marginal-cost-of-capital-break-point"
+      ]
+    },
+    {
+      "term": "Hurdle rate",
+      "definition": "The minimum acceptable return a proposal must clear, set at the cost of capital plus any risk adjustment for the specific project, and compared against IRR rather than against accounting return.",
+      "whyItMatters": "Cases often set this above WACC for a risky new line; noticing the adjustment is what stops a team from approving a project that only clears the corporate average.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "weighted-average-cost-of-capital",
+        "crossover-rate"
+      ]
+    },
+    {
+      "term": "Comparable company analysis",
+      "definition": "Valuing a business by applying trading multiples of similar public firms — matched on industry, size, growth and margin — to the subject's own metric, producing a range rather than a point estimate.",
+      "whyItMatters": "It is the fastest defensible valuation in a timed roleplay, and the judge's follow-up is always how the peer set was chosen.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "terminal-value",
+        "control-premium"
+      ]
+    },
+    {
+      "term": "Quality of earnings",
+      "definition": "How much of reported profit is backed by recurring cash from operations rather than by one-time gains, accounting estimates or accrual timing — high quality means net income and operating cash flow track each other.",
+      "whyItMatters": "Due-diligence cases ask why a profitable target is a bad buy; this is the framing that lets a team point at the cash flow statement instead of the income statement.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FTDM"
+      ],
+      "confusableWith": [
+        "accruals-ratio",
+        "earnings-management"
+      ]
+    }
+  ]
+}

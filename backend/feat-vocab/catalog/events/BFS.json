@@ -2,26 +2,6 @@
   "code": "BFS",
   "terms": [
     {
-      "term": "Loan",
-      "definition": "Borrowed money that must be repaid, usually with interest.",
-      "whyItMatters": "Business finance scenarios often compare borrowing choices and repayment risk.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/BFS",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
-      "term": "Creditworthiness",
-      "definition": "A borrower's ability and willingness to repay debt.",
-      "whyItMatters": "Creditworthiness affects access to financing and interest rates.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/BFS",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
       "term": "Return on investment",
       "definition": "A measure of gain or benefit compared with the cost of an investment.",
       "whyItMatters": "ROI helps justify business spending.",
@@ -29,6 +9,348 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/BFS",
         "backend/test-gen-model/data"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Borrowing base",
+      "definition": "The dollar ceiling a revolving lender will actually advance, recomputed each month as eligible receivables times their advance rate plus eligible inventory times its own, after ineligibles such as invoices over 90 days, foreign accounts and affiliate sales are struck out.",
+      "whyItMatters": "A BFS roleplay asking how much a distributor may draw this month is answered by rebuilding this schedule line by line, not by quoting the facility's face amount.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "advance-rate",
+        "overadvance"
+      ]
+    },
+    {
+      "term": "Advance rate",
+      "definition": "The percentage of a pledged asset's book value a lender is willing to lend against — commonly 80 to 85% on eligible receivables but only 40 to 50% on inventory, because expected recovery in a liquidation differs sharply by asset class.",
+      "whyItMatters": "Exam items hand you a collateral schedule and ask for available credit; each asset class must be multiplied by its own rate rather than by one blended percentage.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "borrowing-base",
+        "loan-to-value-ratio"
+      ]
+    },
+    {
+      "term": "Overadvance",
+      "definition": "A drawn balance sitting above what the collateral formula supports, allowed only by written lender consent and normally carried at a penalty rate with a dated cure schedule rather than left open-ended.",
+      "whyItMatters": "When a roleplay client has drawn $2.1M against a $1.9M base, the judge wants the cure plan — pay down, pledge more collateral, or negotiate a temporary block — with the deadline attached.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "borrowing-base",
+        "advance-rate"
+      ]
+    },
+    {
+      "term": "Debt service coverage ratio",
+      "definition": "Cash available for debt service divided by the year's scheduled principal plus interest; commercial lenders generally demand at least 1.25x, so $125,000 of operating cash flow is needed to support $100,000 of annual payments.",
+      "whyItMatters": "Nearly every commercial lending roleplay turns on whether the borrower still clears the bank's 1.25x floor once the proposed new note is added to the existing payments.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "fixed-charge-coverage-ratio",
+        "debt-to-ebitda-leverage-ratio"
+      ]
+    },
+    {
+      "term": "Fixed charge coverage ratio",
+      "definition": "Earnings before interest and taxes plus lease and rent expense, divided by interest plus those leases plus required principal — a harder test than interest coverage because it counts every obligation a company cannot postpone.",
+      "whyItMatters": "A franchise or restaurant borrower with heavy rent can pass interest coverage and still fail this covenant, and exam questions use that gap on purpose.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "debt-service-coverage-ratio"
+      ]
+    },
+    {
+      "term": "Debt-to-EBITDA leverage ratio",
+      "definition": "Total funded debt measured against one year of operating cash earnings and quoted as a multiple; middle-market credit agreements typically cap it near 3.0x and step the limit down as the loan amortizes.",
+      "whyItMatters": "Given a balance sheet and an income statement, a competitor must state whether a proposed $2M draw breaches the leverage cap before recommending the deal at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "debt-to-equity-ratio",
+        "covenant-headroom"
+      ]
+    },
+    {
+      "term": "Covenant headroom",
+      "definition": "The cushion between where a borrower's tested ratio stands today and the level the credit agreement actually requires, usually expressed as the percentage earnings could fall before a breach occurs.",
+      "whyItMatters": "A treasury roleplay asking whether the firm can absorb one slow quarter is answered as a headroom number, not by restating what the covenant says.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "debt-to-ebitda-leverage-ratio",
+        "fixed-charge-coverage-ratio"
+      ]
+    },
+    {
+      "term": "Material adverse change clause",
+      "definition": "Loan language letting a lender refuse to fund or accelerate the balance when the borrower's condition worsens significantly; courts read it narrowly and require a durationally significant decline, not a single disappointing quarter.",
+      "whyItMatters": "Cases about a bank walking away from a signed commitment mid-deal hinge entirely on whether the downturn is severe and lasting enough to trigger this clause.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "anticipatory-repudiation"
+      ]
+    },
+    {
+      "term": "UCC-1 financing statement",
+      "definition": "The one-page public filing that perfects a lender's security interest in business collateral; priority runs first-to-file rather than first-to-lend, and the filing lapses after five years unless a continuation is filed in time.",
+      "whyItMatters": "A case asking why the second bank to lend got paid first is answered by comparing filing dates, and the five-year lapse is a favorite detail on the finance exam.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "subordination-agreement",
+        "perfection-of-a-security-interest"
+      ]
+    },
+    {
+      "term": "Subordination agreement",
+      "definition": "A contract in which one creditor agrees to be paid only after another is made whole, rearranging repayment priority by consent rather than by the order in which liens happened to be filed.",
+      "whyItMatters": "When a bank insists the owner's shareholder loan stand behind the new term debt before closing, the roleplay is asking for this document by name.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "ucc-1-financing-statement"
+      ]
+    },
+    {
+      "term": "Commitment fee",
+      "definition": "An annual charge, usually 25 to 50 basis points, assessed on the undrawn portion of a committed line — so a $5M facility drawn at $1M costs $10,000 a year at 25 bp even if nothing further is borrowed.",
+      "whyItMatters": "Competitors are asked to weigh an oversized line's carrying cost against the flexibility it buys, and the answer is that arithmetic rather than a judgment call.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "revolving-credit-facility"
+      ]
+    },
+    {
+      "term": "Excess cash flow sweep",
+      "definition": "A credit-agreement mechanic forcing a stated share of leftover annual cash — often 50%, stepping down to 25% once leverage falls below a set multiple — into early repayment of the term loan.",
+      "whyItMatters": "A roleplay asking why a profitable client cannot self-fund an expansion usually has this clause buried in the loan documents, capturing the cash before management sees it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "covenant-headroom"
+      ]
+    },
+    {
+      "term": "Days sales outstanding",
+      "definition": "Average receivables divided by credit sales and multiplied by the days in the period; 45 days against 30-day terms means customers run 15 days late and the seller is financing that gap out of its own line.",
+      "whyItMatters": "Cash-flow cases ask you to convert a collection delay into dollars tied up, and this figure has to be computed before the financing cost can be quoted.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "days-payable-outstanding",
+        "accounts-receivable-turnover"
+      ]
+    },
+    {
+      "term": "Days payable outstanding",
+      "definition": "Average payables divided by cost of goods sold times the period's days — how long a firm holds its suppliers' money, and the only leg of the cash cycle that shrinks the funding gap when it gets longer.",
+      "whyItMatters": "A judge will test whether stretching suppliers from 30 to 45 days is free financing or a forfeited early-payment discount that costs more than the bank line would.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "days-sales-outstanding",
+        "cost-of-trade-credit"
+      ]
+    },
+    {
+      "term": "Cost of trade credit",
+      "definition": "The annualized price of skipping an early-payment discount: the discount divided by the amount still due, times 365 over the extra days of credit taken — terms of 2/10 net 30 work out near 37% a year.",
+      "whyItMatters": "Handed 2/10 net 30 terms and a 9% line of credit, a competitor must recommend borrowing to take the discount, and the 37% figure is the proof the judge is listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "2-10-net-30",
+        "chain-discount"
+      ]
+    },
+    {
+      "term": "Compensating balance",
+      "definition": "A minimum deposit the borrower must leave idle at the lending bank; because that money cannot be spent, it raises the true cost — $100,000 borrowed at 8% with $20,000 frozen is really 10% on the $80,000 usable.",
+      "whyItMatters": "Loan-comparison items hide the lower stated rate behind this requirement, and the effective-rate calculation is what separates placing competitors from the rest.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "annual-percentage-rate-apr"
+      ]
+    },
+    {
+      "term": "Zero-balance account",
+      "definition": "A disbursement account funded only at the moment checks or ACH debits present, pulling exactly the amount cleared from a master concentration account so no idle cash is stranded in branch or division accounts.",
+      "whyItMatters": "Treasury roleplays about a multi-location retailer holding buffer cash in twelve separate accounts are asking for this structure and the interest it frees up.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "bank-reconciliation"
+      ]
+    },
+    {
+      "term": "Non-recourse factoring",
+      "definition": "Selling receivables outright so the buyer absorbs the loss when an account debtor fails financially; the fee runs above a recourse sale precisely because credit risk, not merely collection effort, changes hands.",
+      "whyItMatters": "A client worried about one large customer's solvency needs this distinction, plus the reminder that a dispute over the goods themselves still bounces the invoice back to the seller.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "invoice-factoring",
+        "reverse-factoring"
+      ]
+    },
+    {
+      "term": "Reverse factoring",
+      "definition": "A buyer-arranged program where the buyer's bank pays approved supplier invoices early at a discount priced off the buyer's stronger credit rating, letting the buyer keep long terms while suppliers still collect in days.",
+      "whyItMatters": "Cases about a small vendor squeezed by a national retailer's 90-day terms are solved with this program, not with an ordinary factoring line the vendor could never price as cheaply.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "invoice-factoring",
+        "days-payable-outstanding"
+      ]
+    },
+    {
+      "term": "Receivables dilution rate",
+      "definition": "Credit memos, returns, allowances and write-offs measured against gross sales; every point above roughly 5% tells an asset-based lender a dollar of invoice will not collect as a dollar, and the advance rate is trimmed to match.",
+      "whyItMatters": "When a lender cuts availability even though sales are growing, this ratio is the reason, and a competitor has to be able to name it and compute it from the sales journal.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "advance-rate",
+        "allowance-for-doubtful-accounts"
+      ]
+    },
+    {
+      "term": "Standby letter of credit",
+      "definition": "A bank's written promise to pay a beneficiary only if the applicant defaults on some underlying obligation — a backstop expected never to be drawn, unlike a commercial credit that is the ordinary way a shipment gets paid.",
+      "whyItMatters": "Supplier and contract roleplays ask which instrument to offer a nervous counterparty, and drawing that line between backstop and payment mechanism is the whole answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "service-guarantee"
+      ]
+    },
+    {
+      "term": "Paydex score",
+      "definition": "Dun & Bradstreet's 1-to-100 payment index built from reported trade experiences and weighted by dollar size; 80 means invoices are paid on terms, 70 means roughly 15 days slow, and 50 means about 30 days slow.",
+      "whyItMatters": "A supplier deciding whether to grant $50,000 of open terms reads these thresholds, and exam items pair the score with a personal credit score to test which one applies to a business.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "credit-score",
+        "credit-report"
+      ]
+    },
+    {
+      "term": "Five Cs of credit",
+      "definition": "The lender's evaluation frame — character, capacity, capital, collateral and conditions — in which capacity means measured repayment cash flow and capital means the owner's own money already at risk, not net worth generally.",
+      "whyItMatters": "Loan-interview roleplays are scored on covering all five in order, and most competitors blur capital into collateral and lose the point outright.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "credit-memorandum"
+      ]
+    },
+    {
+      "term": "Asset-based lending",
+      "definition": "Borrowing sized and priced off the liquidation value of receivables and inventory instead of off historical earnings, which is why the borrower reports collateral continuously and the lender monitors it between statements.",
+      "whyItMatters": "A fast-growing but not yet profitable client is the classic case where this beats a cash-flow term loan, and the roleplay expects that reasoning stated aloud.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "borrowing-base"
+      ]
+    },
+    {
+      "term": "Revolving credit facility",
+      "definition": "A committed line a business may draw, repay and redraw up to a ceiling through its term, charging interest on the drawn balance and a fee on the rest — built for seasonal swings, not for buying equipment.",
+      "whyItMatters": "Matching the instrument to the need is a standard exam item: this covers the working-capital gap while a term loan covers the delivery truck.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "commitment-fee",
+        "asset-based-lending"
+      ]
+    },
+    {
+      "term": "Credit memorandum",
+      "definition": "The written analysis a loan officer carries to committee — borrower history, primary and secondary repayment sources ranked, collateral position and the recommended structure — not the credit note issued against a customer invoice.",
+      "whyItMatters": "Roleplays that ask you to present the deal internally are asking for this document's structure spoken out loud, in that order.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "five-cs-of-credit",
+        "credit-entry"
+      ]
+    },
+    {
+      "term": "Trade reference",
+      "definition": "A supplier's report on how an applicant business has actually paid — highest credit extended, current balance, amounts past due — gathered directly or through a bureau before open terms are approved.",
+      "whyItMatters": "A credit-department roleplay that grants terms without pulling two or three of these loses points for skipping verification, however good the financials look.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BFS"
+      ],
+      "confusableWith": [
+        "paydex-score",
+        "credit-report"
       ]
     }
   ]

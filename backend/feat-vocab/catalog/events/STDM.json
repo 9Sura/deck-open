@@ -1,0 +1,356 @@
+{
+  "code": "STDM",
+  "terms": [
+    {
+      "term": "Variable ticket pricing",
+      "definition": "Face values set game-by-game before the season opens, using fixed tiers for opponent, day of week and promotional date, and published in the printed manifest so a seat's price never moves once the schedule drops.",
+      "whyItMatters": "A ticket-pricing roleplay that asks you to raise gate revenue without angering season-ticket holders is solved by tiering the 81-game slate in advance, because renewal holders were sold at the season average and only tolerate a price they could see coming.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "dynamic-ticket-pricing",
+        "scaling-the-house"
+      ]
+    },
+    {
+      "term": "Dynamic ticket pricing",
+      "definition": "Algorithmic repricing of unsold inventory during the on-sale window, moving a seat's price up or down on remaining supply, days to event, standings and secondary-market clearing prices, so the same seat carries several prices across one selling season.",
+      "whyItMatters": "Exam items make you choose between this and a fixed tier schedule; the giveaway is that a team using it must also set a floor, or a losing streak drops single-game prices under the season-ticket per-game rate and renewals collapse.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "variable-ticket-pricing",
+        "secondary-market-price-floor"
+      ]
+    },
+    {
+      "term": "Per-cap spending",
+      "definition": "Ancillary revenue — concessions, merchandise, parking — divided by attendance for the same event, and the denominator decides the answer: dividing by tickets sold rather than by fans actually scanned in understates the figure whenever no-shows are high.",
+      "whyItMatters": "A venue case that reports $8.40 concessions per fan against a $12.00 league average is asking you to fix menu mix, point-of-sale count or dwell time, and you cannot pick until you know which attendance number the $8.40 was divided by.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "concession-cost-of-sales",
+        "gate-receipts"
+      ]
+    },
+    {
+      "term": "Season-ticket renewal rate",
+      "definition": "Accounts that renew divided by accounts eligible to renew, counted in accounts rather than seats, so one 4-seat holder dropping to 2 seats still scores as a renewal while the revenue base shrinks.",
+      "whyItMatters": "Given 4,000 expiring accounts and 3,400 renewals, you report 85% and then must replace 600 accounts through the waitlist; a roleplay judge is looking for the seat-count check behind the account-level number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "full-season-equivalent",
+        "walk-up-sales"
+      ]
+    },
+    {
+      "term": "Full-season equivalent",
+      "definition": "Partial ticket plans restated as whole-season units so mixed inventory can be compared: in an 81-game season, three 27-game plans roll up to one unit, and a team selling 12,000 units of 20-game plans reports fewer than 3,000 of them.",
+      "whyItMatters": "A ticket-sales case that brags about 30,000 plan holders collapses once you convert to this measure and find the paid base is a third of that, which is the number the revenue forecast and the renewal campaign both have to run on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "season-ticket-renewal-rate",
+        "ticket-manifest"
+      ]
+    },
+    {
+      "term": "Comp ticket ratio",
+      "definition": "Complimentary tickets as a share of all tickets distributed for an event; every point of it inflates announced attendance while pulling average paid admission down, since the comps sit in the numerator of attendance and contribute nothing to the gate.",
+      "whyItMatters": "When a case shows a sellout at 18,000 but gate receipts of only $540,000, computing the comp share is how you find the 3,000 giveaway seats that made average paid admission $36 rather than the $30 the raw division suggests.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "gate-receipts",
+        "per-cap-spending"
+      ]
+    },
+    {
+      "term": "Scaling the house",
+      "definition": "Dividing a venue's seats into priced zones and multiplying each zone's seat count by its price to produce the gross potential — the maximum box office a configuration can yield — before a single seat goes on sale.",
+      "whyItMatters": "An event-pricing roleplay hands you a 12,000-seat arena and three price zones and expects you to build the gross potential, then re-scale — moving seats between zones — when the promoter's guarantee exceeds what the first configuration can gross.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "ticket-manifest",
+        "variable-ticket-pricing"
+      ]
+    },
+    {
+      "term": "Secondary-market price floor",
+      "definition": "A contractual minimum resale price enforced on a team's official exchange, set at or near the season-ticket per-game rate so full-season buyers are never undercut by their own neighbors reselling below what they paid.",
+      "whyItMatters": "In a renewal-defense roleplay, the fact that resale listings clear at $18 against a $34 season rate is the entire reason holders are walking, and the floor is the lever you can actually pull on the team's own platform.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "dynamic-ticket-pricing",
+        "season-ticket-renewal-rate"
+      ]
+    },
+    {
+      "term": "Break-even attendance",
+      "definition": "Fixed event costs divided by contribution per fan, where contribution is average paid admission plus per-cap ancillary margin minus the variable cost of serving one more attendee — not ticket price alone.",
+      "whyItMatters": "With $180,000 of fixed show costs and $22.50 of contribution per fan, the answer is 8,000 fans, and a promoter roleplay turns on whether adding concession margin to the ticket lowered that number enough to green-light the date.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "event-settlement-statement",
+        "per-cap-spending"
+      ]
+    },
+    {
+      "term": "Event settlement statement",
+      "definition": "The post-show reconciliation that walks gross box office down to the split point: taxes, facility fees and credit-card costs come off to give adjusted gross, then documented show expenses come off, and only the remainder is divided under the deal.",
+      "whyItMatters": "Judges test whether you know the split is taken on adjusted gross after expenses rather than on the headline gate, because a $600,000 gross with $70,000 of taxes and fees and $210,000 of expenses splits on $320,000, not $600,000.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "guarantee-versus-percentage-deal",
+        "gate-receipts"
+      ]
+    },
+    {
+      "term": "Guarantee versus percentage deal",
+      "definition": "A talent contract paying the greater of a flat fee or a stated share of the net box office after expenses, which creates a crossover attendance above which the percentage side pays and below which the venue eats the flat fee.",
+      "whyItMatters": "Given a $100,000 guarantee against 85% of net box office and $40 net per ticket, the crossover is roughly 2,941 tickets, and a booking roleplay asks you to decide whether the building takes that risk on a midweek date.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "four-wall-deal",
+        "event-settlement-statement"
+      ]
+    },
+    {
+      "term": "Four-wall deal",
+      "definition": "A rental in which the promoter pays flat rent for the empty building, keeps the box office and carries the loss on a soft date, so the venue trades upside on a sellout for a guaranteed number regardless of how many seats move.",
+      "whyItMatters": "A venue-booking case that compares this against a co-promote is asking for the attendance at which the percentage arrangement beats the flat rent, which is the only defensible way to answer which deal the building should sign.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "guarantee-versus-percentage-deal",
+        "facility-fee"
+      ]
+    },
+    {
+      "term": "Personal seat license",
+      "definition": "A one-time payment for the perpetual right to buy season tickets in a specific seat; it purchases no game admission at all, and the proceeds are typically pledged against construction debt rather than booked as ticket revenue.",
+      "whyItMatters": "In a stadium-financing roleplay, 40,000 licenses at $2,500 raises $100 million of the private share up front, and a competitor who calls that ticket revenue has just double-counted the seats fans still have to buy every year.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "suite-license-agreement",
+        "contractually-obligated-income"
+      ]
+    },
+    {
+      "term": "Contractually obligated income",
+      "definition": "The multi-year guaranteed revenue streams — naming rights, suite licenses, seat licenses, founding-partner deals — that a lender will count toward debt service because they arrive whether or not the team wins or the building draws.",
+      "whyItMatters": "A venue-financing case is decided on this figure, not on total revenue: $18 million of it against $14 million of annual debt service is bankable, while the same $14 million covered by walk-up gate is not.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "naming-rights-amortization",
+        "tax-increment-financing"
+      ]
+    },
+    {
+      "term": "Naming-rights amortization",
+      "definition": "Spreading a stadium-name contract's total value across its term to get the annual charge, adjusted for escalators and any signing payment, so a $200 million, 20-year deal with a 3% annual step is not simply $10 million a year.",
+      "whyItMatters": "Comparing two naming offers in a roleplay requires putting both on an annual basis first — a shorter deal at a higher headline number can carry less annual value — and that annual figure is what the venue pledges against its debt.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "contractually-obligated-income",
+        "average-annual-value"
+      ]
+    },
+    {
+      "term": "Tax increment financing",
+      "definition": "A public funding tool that freezes the property-tax base inside a district around a new venue and pledges only the growth above that frozen base to repay the construction bonds, so no existing tax revenue is diverted on paper.",
+      "whyItMatters": "A public-private financing roleplay turns on whether the incremental development actually materializes: if the district's assessed value grows less than projected, the increment misses debt service and the general fund covers the gap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "contractually-obligated-income",
+        "non-relocation-agreement"
+      ]
+    },
+    {
+      "term": "Non-relocation agreement",
+      "definition": "A covenant, usually running as long as the public bonds, that legally binds a franchise to play its home dates in the subsidized building and lets the municipality enjoin a move rather than merely sue for damages afterward.",
+      "whyItMatters": "It is the answer to the standard exam objection that taxpayers carry construction risk while the team keeps the option to leave, and its term length is what a city negotiates hardest in a stadium-deal roleplay.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "tax-increment-financing",
+        "contractually-obligated-income"
+      ]
+    },
+    {
+      "term": "Average annual value",
+      "definition": "Total contract value divided by contract years, which is the figure charged against a league salary cap in a given season no matter how the cash is actually paid out, so a front-loaded deal and a back-loaded one hit the cap identically.",
+      "whyItMatters": "A franchise-operations case that asks how signing a $60 million, five-year player affects cap room wants $12 million, and the trap is answering with the $25 million signing bonus the team writes a check for this year.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "luxury-tax-threshold",
+        "naming-rights-amortization"
+      ]
+    },
+    {
+      "term": "Luxury tax threshold",
+      "definition": "A payroll line above a league's soft cap at which each additional dollar of team salary triggers a penalty payment at an escalating rate, with a higher repeat-offender rate for clubs that cross it in consecutive seasons.",
+      "whyItMatters": "Asked whether a club should add a $10 million contract, you compute the tax on top of the salary — at a $1.50-per-dollar bracket the real cost is $25 million — which is exactly the arithmetic a franchise roleplay is scored on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "average-annual-value",
+        "local-revenue-sharing"
+      ]
+    },
+    {
+      "term": "Local revenue sharing",
+      "definition": "A league formula that pools a fixed percentage of each club's net local revenue — gate, concessions, local media, venue income — and redistributes it evenly, so a high-revenue club keeps well under a dollar of every incremental local dollar it earns.",
+      "whyItMatters": "It explains a case fact competitors misread constantly: with 48% pooled, a $1 million gate increase nets the club roughly $520,000 plus its share back, which changes whether a costly attendance promotion is worth running at all.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "revenue-multiple-valuation",
+        "luxury-tax-threshold"
+      ]
+    },
+    {
+      "term": "Revenue multiple valuation",
+      "definition": "Pricing a franchise as a multiple of annual revenue rather than of earnings, because clubs run thin or negative operating margins while scarce membership, guaranteed national media money and venue control support multiples in the five-to-ten-times range.",
+      "whyItMatters": "A franchise-sale roleplay giving $400 million of revenue and a comparable at 7x expects $2.8 billion, and expects you to explain why an earnings multiple would value the same club at a fraction of what a buyer will pay.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "local-revenue-sharing",
+        "contractually-obligated-income"
+      ]
+    },
+    {
+      "term": "Pouring rights",
+      "definition": "An exclusive contract giving one beverage company sole sale rights inside a venue in exchange for an upfront fee recognized across the term, per-unit rebates and equipment, which locks the building's product mix for years.",
+      "whyItMatters": "A concessions roleplay must weigh the guaranteed annual fee against the margin lost by refusing a competing brand fans ask for, and the per-gallon rebate is what makes the exclusive worth more than the shelf it costs.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "concession-cost-of-sales",
+        "concessionaire-agreement"
+      ]
+    },
+    {
+      "term": "Concession cost of sales",
+      "definition": "Product cost as a percentage of concession revenue, run in the low twenties to low thirties in venues because pricing targets a multiple of raw cost, so a $9.00 beer built on a $1.80 pour is at a 20% ratio.",
+      "whyItMatters": "Given per-cap spending and this ratio you can produce concession contribution per fan, which is the number that feeds break-even attendance and decides whether a dollar-dog promotion pays for itself.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "per-cap-spending",
+        "pouring-rights"
+      ]
+    },
+    {
+      "term": "Facility fee",
+      "definition": "A per-ticket charge added on top of face value and retained by the building for capital repair and operations; it is stripped out before the adjusted gross on which talent takes its split, so it never reaches the artist.",
+      "whyItMatters": "Reading a settlement in a roleplay, you have to pull these fees out of the headline gate before applying the percentage deal, or the venue overpays the act on money it was contractually entitled to keep.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "event-settlement-statement",
+        "gate-receipts"
+      ]
+    },
+    {
+      "term": "Ticket manifest",
+      "definition": "The certified seat-by-seat inventory of a venue configuration listing every seat, its price zone and its status — sold, held, killed or comped — and it is the document a settlement is audited against after the show.",
+      "whyItMatters": "Disputes over whether a show sold out are settled by this list, since the capacity a promoter quotes usually ignores seats killed for production sightlines that were never available to sell.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "scaling-the-house",
+        "event-settlement-statement"
+      ]
+    },
+    {
+      "term": "Gate receipts",
+      "definition": "Revenue from admission alone, net of amusement taxes and per-ticket fees, and excluding concessions, parking, merchandise and premium-seating income, which is why it is a poor proxy for what an event actually earned.",
+      "whyItMatters": "A case that reports rising attendance but flat totals here is telling you discounting or comps grew, and a competitor who quotes this line as event revenue has left the ancillary side of the building out entirely.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "per-cap-spending",
+        "comp-ticket-ratio"
+      ]
+    },
+    {
+      "term": "Suite license agreement",
+      "definition": "A multi-year, non-cancellable contract for a private box that bundles admission tickets, parking and a food-and-beverage credit into one annual price, billed to a business and recognized as revenue across the season rather than per event.",
+      "whyItMatters": "Premium inventory is sold to corporations on renewal cycles that outlast a losing season, so a revenue-defense roleplay leans on these contracts precisely when single-game demand is falling.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:STDM"
+      ],
+      "confusableWith": [
+        "personal-seat-license",
+        "contractually-obligated-income"
+      ]
+    }
+  ]
+}

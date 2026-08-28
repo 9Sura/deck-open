@@ -1,0 +1,707 @@
+{
+  "area": "strategic_management",
+  "sourceRefs": [
+    "backend/test-gen-model/data/pi/strategic_management.txt"
+  ],
+  "terms": [
+    {
+      "term": "Porter's five forces",
+      "definition": "An industry-attractiveness framework scoring five pressures — rivalry among existing firms, threat of new entrants, threat of substitutes, buyer bargaining power, and supplier bargaining power — where high scores on several forces predict compressed industry margins; it maps the industry, not the single firm, which is what separates it from a SWOT.",
+      "whyItMatters": "Management roleplays that ask you to brief an owner on whether to enter a crowded category are scored on naming and applying all five pressures, not on listing generic pros and cons.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "swot-analysis",
+        "pestel-analysis",
+        "value-chain-analysis"
+      ]
+    },
+    {
+      "term": "Porter's generic strategies",
+      "definition": "A two-by-two positioning model crossing source of advantage (low cost vs. differentiation) with competitive scope (broad market vs. narrow niche), yielding cost leadership, differentiation, and focus; a firm that lands in the middle of the grid is 'stuck in the middle' and holds neither advantage.",
+      "whyItMatters": "Exam items give a firm's cost and pricing profile and ask which generic position it occupies, so the two axes have to be named separately rather than answered as 'it competes on quality'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "porter-s-five-forces",
+        "competitive-pricing",
+        "product-positioning"
+      ]
+    },
+    {
+      "term": "BCG growth-share matrix",
+      "definition": "A portfolio grid plotting each business unit on market growth rate (vertical) against relative market share, computed as the unit's share divided by the largest rival's share (horizontal); the four cells are star, cash cow, question mark, and dog, and cash cows fund question marks.",
+      "whyItMatters": "Given a table of unit sales and rival sales, the exam expects you to compute relative market share and place the unit in the correct quadrant before recommending invest, hold, or divest.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "ansoff-matrix",
+        "market-share",
+        "strategic-business-unit"
+      ]
+    },
+    {
+      "term": "Ansoff matrix",
+      "definition": "A growth grid crossing products (existing vs. new) with markets (existing vs. new) to produce four moves — market penetration, market development, product development, and diversification — ordered from lowest to highest risk because each new axis adds unfamiliar variables.",
+      "whyItMatters": "A roleplay that asks how a regional chain should grow next year is answered by naming the specific Ansoff cell and its risk level, not by saying 'expand'.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "bcg-growth-share-matrix",
+        "diversification"
+      ]
+    },
+    {
+      "term": "Balanced scorecard",
+      "definition": "A Kaplan-and-Norton performance system that reports four linked perspectives — financial, customer, internal process, and learning and growth — so that lagging money measures are read alongside the leading operational drivers that produce them, unlike a plain profit-and-loss review.",
+      "whyItMatters": "Management written events ask how a manager tracks strategy beyond revenue; naming all four perspectives and one measure inside each is what earns the points.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "employee-performance-assessment",
+        "objectives-and-key-results",
+        "benchmarking"
+      ]
+    },
+    {
+      "term": "McKinsey 7-S framework",
+      "definition": "An internal-alignment model checking seven interdependent elements — strategy, structure, systems, shared values, style, staff, and skills — split into three 'hard' elements management can redraw on paper and four 'soft' ones that change only through behavior; a change fails when the seven fall out of alignment.",
+      "whyItMatters": "Roleplays about why a reorganization stalled are scored on diagnosing a soft-element mismatch rather than proposing another org-chart redraw.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "kotter-s-eight-step-change-model",
+        "workplace-culture",
+        "matrix-organizational-structure"
+      ]
+    },
+    {
+      "term": "PESTEL analysis",
+      "definition": "A macro-environment scan of six external forces — political, economic, social, technological, environmental, and legal — that a firm cannot control; it differs from Porter's five forces, which examines only the firm's own industry structure, and from SWOT, which mixes internal factors in.",
+      "whyItMatters": "Exam items list a new regulation plus a currency shift and ask which scan category each belongs to, so the six letters must be distinguishable, not lumped as 'outside factors'.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "environmental-scan",
+        "situation-analysis",
+        "porter-s-five-forces"
+      ]
+    },
+    {
+      "term": "Value chain analysis",
+      "definition": "Porter's decomposition of a firm into five primary activities (inbound logistics, operations, outbound logistics, marketing and sales, service) and four support activities (procurement, technology development, human resource management, firm infrastructure), pricing the margin each one adds so low-value links can be outsourced.",
+      "whyItMatters": "A roleplay asking where a manufacturer should cut cost without hurting the customer is answered by naming the specific link in the chain and the margin it contributes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "supply-chain",
+        "make-or-buy-analysis",
+        "porter-s-generic-strategies"
+      ]
+    },
+    {
+      "term": "Core competency",
+      "definition": "A capability that passes the Prahalad-and-Hamel three-part test — it opens access to multiple markets, contributes visibly to perceived customer benefit, and is hard for rivals to imitate; a strength failing any one of the three is merely a capability and not a basis for strategy.",
+      "whyItMatters": "Exam items list four company strengths and ask which qualifies as a core competency, and the wrong answers are strengths that fail exactly one leg of the test.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "competitive-advantage",
+        "vrio-framework",
+        "unique-selling-proposition"
+      ]
+    },
+    {
+      "term": "Blue ocean strategy",
+      "definition": "Creating uncontested demand by raising and creating buyer-value factors while eliminating and reducing costly ones, so value and cost move together; the contrast is red-ocean competition, which fights for share in a defined industry and forces the value-versus-cost trade-off that generic strategy assumes.",
+      "whyItMatters": "Entrepreneurship-flavored management roleplays reward reframing the category instead of undercutting a rival on price, and the judge listens for the value-cost simultaneity.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "porter-s-generic-strategies",
+        "unique-selling-proposition",
+        "product-positioning"
+      ]
+    },
+    {
+      "term": "VRIO framework",
+      "definition": "Barney's resource test asking whether a resource is Valuable, Rare, costly to Imitate, and whether the Organization is arranged to exploit it; a resource that is valuable and rare but cheap to copy yields only temporary advantage, while all four yield sustained advantage.",
+      "whyItMatters": "Exam questions describe a resource a rival duplicated within a year and expect you to say which VRIO letter it failed and what that means for advantage.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "core-competency",
+        "competitive-advantage",
+        "switching-costs"
+      ]
+    },
+    {
+      "term": "Vertical integration",
+      "definition": "Taking ownership of an adjacent stage of a firm's own supply chain — backward toward suppliers or forward toward distribution and retail — which is distinct from horizontal integration, the acquisition of a competitor at the same stage that buys market share rather than supply control.",
+      "whyItMatters": "A roleplay where a coffee chain buys its own roasting plant is scored on naming backward vertical integration and its margin and risk consequences, not just 'buying a supplier'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "conglomerate-merger",
+        "supply-chain",
+        "make-or-buy-analysis"
+      ]
+    },
+    {
+      "term": "Economies of scope",
+      "definition": "Cost savings that come from producing several different products with shared inputs, so total cost of making A and B together is below the cost of two separate firms making them; economies of scale instead lower the per-unit cost of one product as its own volume rises.",
+      "whyItMatters": "Exam items describe a bakery adding catering with the same ovens and staff and ask which cost advantage applies, where 'scale' is the planted wrong answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "specialization",
+        "diversification",
+        "capacity-utilization-rate"
+      ]
+    },
+    {
+      "term": "Learning curve",
+      "definition": "The measured pattern in which unit cost falls by a constant percentage each time cumulative output doubles — an 80% curve means the 200th unit costs 80% of the 100th — so the advantage belongs to accumulated experience, not to current period volume as in economies of scale.",
+      "whyItMatters": "Exam items give a starting unit cost and a curve percentage and expect the cost after a doubling, so the arithmetic has to be known and not just the idea that practice helps.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "economies-of-scope",
+        "productivity",
+        "capacity-utilization-rate"
+      ]
+    },
+    {
+      "term": "Span of control",
+      "definition": "The count of subordinates reporting directly to one manager; a wide span (roughly 10 or more) flattens the hierarchy, cuts management layers and cost, and demands more delegation, while a narrow span (3 to 5) builds a tall structure with closer supervision and slower decisions.",
+      "whyItMatters": "Management exam items hand you a headcount and a layer count and ask for the average span or for which structure results, so the ratio has to be computed rather than described.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "chain-of-command",
+        "centralization",
+        "delegation-of-authority"
+      ]
+    },
+    {
+      "term": "Matrix organizational structure",
+      "definition": "A design in which an employee reports to both a functional manager and a project or product manager at once, trading the single reporting line of a functional structure for cross-unit resource sharing, at the cost of dual-authority conflict and deliberate violation of unity of command.",
+      "whyItMatters": "Roleplays about a staffer pulled between two bosses are scored on identifying the structure by name and proposing a priority-setting mechanism rather than a personality fix.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "unity-of-command",
+        "chain-of-command",
+        "staff-authority"
+      ]
+    },
+    {
+      "term": "Management by objectives",
+      "definition": "Drucker's cascade in which manager and employee jointly set specific, measurable, time-bound goals aligned to company objectives and review results against those goals at period end, so appraisal rests on agreed output rather than on the supervisor's trait ratings.",
+      "whyItMatters": "Management roleplays that ask how to raise an underperforming team's accountability are scored on the joint goal-setting step, which is exactly what separates this from a top-down quota.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "objectives-and-key-results",
+        "performance-appraisal",
+        "employee-performance-assessment"
+      ]
+    },
+    {
+      "term": "Objectives and key results",
+      "definition": "A goal system pairing one qualitative objective with three to five numeric key results scored 0.0 to 1.0, where roughly 0.7 is the intended landing point for stretch goals; unlike a KPI, which monitors an ongoing business rate, each key result is a quarter-long target that expires.",
+      "whyItMatters": "Written management events ask you to convert a vague team aim into measurable targets, and the graders look for the numeric key results and the scoring interpretation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "management-by-objectives",
+        "balanced-scorecard",
+        "marketing-objective"
+      ]
+    },
+    {
+      "term": "Capacity utilization rate",
+      "definition": "Actual output divided by maximum sustainable output, expressed as a percentage — a plant making 7,200 units against a 9,000-unit ceiling runs at 80% — and the gap to 100% is the idle capacity carrying fixed cost with no revenue against it.",
+      "whyItMatters": "Operations-flavored exam items supply actual and potential output and ask for the rate or for what a sustained 60% reading implies about fixed-cost absorption.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "productivity",
+        "operating-costs",
+        "learning-curve"
+      ]
+    },
+    {
+      "term": "Fiduciary duty of care",
+      "definition": "A director's legal obligation to inform themselves of reasonably available material facts before deciding — the diligence half of board duty — as opposed to the duty of loyalty, which forbids self-dealing and requires putting the corporation's interest ahead of personal gain.",
+      "whyItMatters": "Business-law exam items describe a director who approved a merger without reading the valuation report and expect the specific duty breached to be named.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "business-judgment-rule",
+        "conflict-of-interest",
+        "agency"
+      ]
+    },
+    {
+      "term": "Business judgment rule",
+      "definition": "A court doctrine presuming that directors who acted on an informed basis, in good faith, and without personal interest are shielded from liability even when the decision loses money; the presumption is rebutted by showing gross negligence or self-dealing, not by showing a bad outcome.",
+      "whyItMatters": "Exam items ask why a board is not liable for a failed acquisition, and the tested point is that the doctrine reviews the decision process rather than the result.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "fiduciary-duty-of-care",
+        "negligence",
+        "conflict-of-interest"
+      ]
+    },
+    {
+      "term": "Sarbanes-Oxley Act",
+      "definition": "The 2002 federal statute passed after the Enron and WorldCom collapses that makes the CEO and CFO personally certify the accuracy of financial reports under Section 302, requires management assessment of internal controls over financial reporting under Section 404, and protects employees who report fraud.",
+      "whyItMatters": "Exam items about why a public company's managers must sign off on control testing name this statute, and the section numbers distinguish the certification duty from the controls duty.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "internal-control",
+        "business-records",
+        "generally-accepted-accounting-principles-gaap"
+      ]
+    },
+    {
+      "term": "Staff authority",
+      "definition": "The advisory power of specialists such as legal, HR, or IT to recommend and to be consulted, without the power to order action in another department; line authority is the direct command relationship over subordinates who produce the firm's goods or services.",
+      "whyItMatters": "Exam items describe an HR manager whose hiring recommendation a plant manager overrode and ask which authority type each held.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "chain-of-command",
+        "unity-of-command",
+        "delegation-of-authority"
+      ]
+    },
+    {
+      "term": "Unity of command",
+      "definition": "Fayol's principle that each employee takes orders from exactly one supervisor, so conflicting instructions and divided accountability cannot arise; a matrix structure knowingly breaks this principle, which is why it needs a written rule for resolving competing demands.",
+      "whyItMatters": "Roleplays about an employee getting contradictory priorities from two managers are scored on naming the violated principle and installing a tie-breaking rule.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "chain-of-command",
+        "matrix-organizational-structure",
+        "staff-authority"
+      ]
+    },
+    {
+      "term": "Theory X and Theory Y",
+      "definition": "McGregor's paired assumption sets: Theory X holds that workers dislike work and need coercion and close control, while Theory Y holds that work is as natural as rest and that people will self-direct toward goals they are committed to; the manager's assumption becomes self-fulfilling through the controls it justifies.",
+      "whyItMatters": "Exam items quote a supervisor's remark about needing to watch employees constantly and ask which assumption set it reveals and what management style follows.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "herzberg-s-two-factor-theory",
+        "transformational-leadership",
+        "situational-leadership"
+      ]
+    },
+    {
+      "term": "Transformational leadership",
+      "definition": "Raising follower motivation through vision, individualized attention, and intellectual stimulation so people exceed the stated requirement; transactional leadership instead trades contingent reward for compliance and corrects by exception, which sustains performance but rarely changes it.",
+      "whyItMatters": "Leadership roleplays that ask how to re-energize a team after a merger reward the transformational levers by name, with the transactional contrast used to explain why bonuses alone stalled.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "situational-leadership",
+        "ethical-leadership",
+        "theory-x-and-theory-y"
+      ]
+    },
+    {
+      "term": "Situational leadership",
+      "definition": "The Hersey-Blanchard model matching four styles — directing, coaching, supporting, and delegating — to the follower's readiness, blending high or low task behavior with high or low relationship behavior; there is no single best style, which is what separates it from trait theories of leadership.",
+      "whyItMatters": "A roleplay pairing one veteran and one brand-new employee is scored on assigning a different named style to each and justifying it by readiness.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "transformational-leadership",
+        "delegation-of-authority",
+        "theory-x-and-theory-y"
+      ]
+    },
+    {
+      "term": "Herzberg's two-factor theory",
+      "definition": "A motivation model splitting job factors into hygiene factors — pay, supervision, working conditions, policy — whose absence causes dissatisfaction but whose presence never motivates, and motivators such as achievement, recognition, and responsibility, which alone produce satisfaction; the two run on separate scales rather than opposite ends of one.",
+      "whyItMatters": "Exam items describe a raise that failed to lift engagement and expect the hygiene-versus-motivator distinction as the explanation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "expectancy-theory",
+        "equity-theory",
+        "employee-benefits"
+      ]
+    },
+    {
+      "term": "Expectancy theory",
+      "definition": "Vroom's model that motivational force equals expectancy times instrumentality times valence — belief effort produces performance, belief performance produces the reward, and the value placed on that reward — so a zero on any one factor drives the whole product to zero regardless of the other two.",
+      "whyItMatters": "Exam items describe an incentive nobody chases and expect you to name which of the three multiplied factors is missing, since the multiplication is the tested part.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "equity-theory",
+        "herzberg-s-two-factor-theory",
+        "compensation"
+      ]
+    },
+    {
+      "term": "Equity theory",
+      "definition": "Adams's model in which an employee compares their own outcome-to-input ratio against a referent other's ratio and, when the two ratios differ, restores balance by cutting effort, demanding more reward, or changing the comparison target; perceived fairness, not absolute pay, drives the response.",
+      "whyItMatters": "Roleplays about a well-paid employee who resents a colleague's raise are scored on the ratio comparison and on which restoration behavior to expect.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "expectancy-theory",
+        "compensation",
+        "herzberg-s-two-factor-theory"
+      ]
+    },
+    {
+      "term": "Kotter's eight-step change model",
+      "definition": "A sequenced change program running from establishing urgency, building a guiding coalition, forming a vision, and communicating it, through empowering action, generating short-term wins, consolidating gains, and anchoring the change in culture; it is a longer prescription than Lewin's three-stage unfreeze-change-refreeze cycle.",
+      "whyItMatters": "Management written events about rolling out a new system are graded on the early urgency and coalition steps, which is where most stalled rollouts are diagnosed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "mckinsey-7-s-framework",
+        "workplace-culture",
+        "gap-analysis"
+      ]
+    },
+    {
+      "term": "Stakeholder theory",
+      "definition": "The view that managers owe duties to every group affected by the firm — employees, customers, suppliers, communities, and lenders as well as owners; it opposes Friedman's shareholder primacy doctrine, which holds that a manager's sole social responsibility is increasing owner returns within the rules of the game.",
+      "whyItMatters": "Ethics roleplays about closing a profitable plant are scored on naming both positions and defending the recommendation against the other one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "corporate-social-responsibility",
+        "triple-bottom-line",
+        "ethical-dilemma"
+      ]
+    },
+    {
+      "term": "Triple bottom line",
+      "definition": "Elkington's reporting frame measuring a firm on three accounts — profit, people, and planet — so that social and environmental results are stated in their own units alongside net income rather than folded into it as goodwill or a marketing expense.",
+      "whyItMatters": "Exam items ask what a sustainability report adds beyond the income statement, and the answer is the two non-financial accounts named explicitly.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "corporate-social-responsibility",
+        "stakeholder-theory",
+        "income-statement"
+      ]
+    },
+    {
+      "term": "Make-or-buy analysis",
+      "definition": "A sourcing decision comparing the relevant in-house cost — incremental variable cost plus any avoidable fixed cost — against the supplier's price plus transaction and quality-control cost; unavoidable fixed overhead is excluded from the in-house side because it continues either way.",
+      "whyItMatters": "Exam items supply a per-unit production cost, a quoted supplier price, and an allocated overhead line, and the tested trap is including the overhead that does not disappear.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "offshoring",
+        "vertical-integration",
+        "operating-costs"
+      ]
+    },
+    {
+      "term": "Offshoring",
+      "definition": "Relocating a business activity to another country while the firm still owns and runs it; outsourcing instead transfers the activity to an outside company that may sit in the same city, so the two axes are ownership and geography and a move can be one, the other, or both.",
+      "whyItMatters": "Exam items describe a firm opening its own support center abroad and expect the correct label, with 'outsourcing' as the planted distractor.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "make-or-buy-analysis",
+        "international-trade",
+        "supply-chain"
+      ]
+    },
+    {
+      "term": "Spin-off",
+      "definition": "Separating a business unit into an independent company by distributing its shares to existing shareholders, who receive no cash and simply hold two stocks instead of one; a divestiture sells the unit to an outside buyer and brings cash into the parent.",
+      "whyItMatters": "Exam items ask which restructuring raises capital for the parent, and the tested distinction is that only the sale does while the share distribution does not.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "conglomerate-merger",
+        "corporation",
+        "hart-scott-rodino-act"
+      ]
+    },
+    {
+      "term": "Conglomerate merger",
+      "definition": "A combination of firms in unrelated industries, pursued for earnings diversification rather than operating synergy; a horizontal merger joins direct competitors at the same stage, and a vertical merger joins a buyer with its own supplier or distributor.",
+      "whyItMatters": "Exam items name the two merging firms' industries and ask for the merger type, because each type draws different antitrust scrutiny.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "vertical-integration",
+        "hart-scott-rodino-act",
+        "spin-off"
+      ]
+    },
+    {
+      "term": "Hart-Scott-Rodino Act",
+      "definition": "The federal premerger notification statute requiring parties to a deal above an annually indexed size threshold to file with the FTC and the Department of Justice and to wait a statutory 30 days before closing, giving the agencies a window to investigate or issue a second request.",
+      "whyItMatters": "Exam items about why a signed acquisition cannot close immediately are answered by naming this filing-and-waiting requirement rather than 'government approval'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "herfindahl-hirschman-index",
+        "conglomerate-merger",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Herfindahl-Hirschman Index",
+      "definition": "A concentration measure equal to the sum of the squared percentage market shares of every firm in a market — four firms at 25% each score 2,500 — where regulators treat readings above 2,500 as highly concentrated and scrutinize deals that raise the score by more than 200 points.",
+      "whyItMatters": "Exam items hand you a share table and ask whether a merger would draw antitrust review, which requires squaring the shares rather than adding them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "market-share",
+        "hart-scott-rodino-act",
+        "conglomerate-merger"
+      ]
+    },
+    {
+      "term": "Joint venture",
+      "definition": "Two or more firms creating a jointly owned legal entity with its own capital, governance, and shared profits for a defined purpose; a strategic alliance is a contractual cooperation with no new entity and no equity exchanged, so it is faster to form and far easier to unwind.",
+      "whyItMatters": "Exam items describe two companies co-building a plant under a new company name and expect the entity distinction, with 'alliance' planted as the near-miss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "partnership",
+        "franchising",
+        "corporation"
+      ]
+    },
+    {
+      "term": "Employee turnover rate",
+      "definition": "Separations during a period divided by average headcount for that period, times 100 — 18 departures against an average of 120 staff gives 15% — and the voluntary portion is tracked separately because it, not the involuntary portion, signals a retention problem.",
+      "whyItMatters": "Management roleplays open with a turnover figure and expect you to compute or interpret it and split voluntary from involuntary before recommending a fix.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "workforce-planning",
+        "human-resources-management",
+        "recruitment"
+      ]
+    },
+    {
+      "term": "Six Sigma",
+      "definition": "A defect-reduction discipline targeting no more than 3.4 defects per million opportunities, executed through the DMAIC sequence — define, measure, analyze, improve, control — with trained belt roles owning each project; it attacks process variation, while lean methods attack waste and cycle time.",
+      "whyItMatters": "Operations-management exam items name the improvement sequence and expect the letters of DMAIC in order along with the defect target.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "quality-control",
+        "quality-culture",
+        "benchmarking"
+      ]
+    },
+    {
+      "term": "Strategic drift",
+      "definition": "The slow divergence between a firm's strategy and its changing environment as incremental adjustments preserve old assumptions, ending in a flux period and either transformational change or failure; the danger is that performance looks fine while the gap widens.",
+      "whyItMatters": "Roleplays about a long-successful retailer losing ground to online rivals are scored on diagnosing the widening environment gap rather than blaming a single bad quarter.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "environmental-scan",
+        "gap-analysis",
+        "pestel-analysis"
+      ]
+    },
+    {
+      "term": "Benchmarking",
+      "definition": "Comparing a specific process against a reference standard — internal across a firm's own units, competitive against a direct rival, or functional against a best-in-class firm in any industry — and importing the practice, not merely noting the score difference.",
+      "whyItMatters": "Exam items ask which benchmarking type fits a bank studying an airline's check-in speed, so the three categories have to be distinguishable.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "gap-analysis",
+        "competitive-advantage",
+        "employee-performance-assessment"
+      ]
+    },
+    {
+      "term": "Scenario planning",
+      "definition": "Building several internally consistent stories of how key uncertainties could resolve and stress-testing the strategy against each, rather than extending one forecast line; the output is a set of trigger points and prepared responses, not a single most-likely number.",
+      "whyItMatters": "Management written events on planning under uncertainty are graded on producing multiple plausible futures with named triggers, which a sales forecast alone does not supply.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "sales-forecast",
+        "contingency-plan",
+        "pestel-analysis"
+      ]
+    },
+    {
+      "term": "Contingency plan",
+      "definition": "A pre-authorized response to one identified adverse event, naming its trigger, the responsible owner, and the resources released when it fires; a business continuity plan is broader, covering how the whole operation keeps running through any major disruption.",
+      "whyItMatters": "Roleplays that ask you to prepare an event team for a supplier failing the week of the show are scored on the trigger, owner, and resource specifics.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "risk-mitigation",
+        "scenario-planning"
+      ]
+    },
+    {
+      "term": "Corporate social responsibility",
+      "definition": "A firm's obligations beyond profit, organized in Carroll's pyramid as economic, then legal, then ethical, then philanthropic layers, where the lower layers are required and the top layer is desired; the ordering is what stops it from being read as charity alone.",
+      "whyItMatters": "Ethics exam items ask which layer a described action occupies, and community donations by a firm that is violating labor law is the classic mis-ordering trap.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "triple-bottom-line",
+        "stakeholder-theory",
+        "ethical-leadership"
+      ]
+    },
+    {
+      "term": "Strategic business unit",
+      "definition": "A semi-autonomous division with its own mission, competitors, and profit responsibility, planned as if it were a standalone business inside the parent; it is the unit of analysis a portfolio matrix plots, which a functional department such as accounting can never be.",
+      "whyItMatters": "Exam items ask what is placed in the cells of a portfolio grid, and the tested error is plotting departments or individual products instead.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "bcg-growth-share-matrix",
+        "matrix-organizational-structure",
+        "product-line"
+      ]
+    },
+    {
+      "term": "Nine-box grid",
+      "definition": "A talent-review tool plotting each employee on current performance against assessed future potential, producing nine cells that sort development spending — high potential with low performance means coaching, high performance with low potential means retention in role.",
+      "whyItMatters": "Management roleplays about who to groom for a store-manager opening are scored on separating today's results from tested potential, not on promoting the top seller.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ],
+      "confusableWith": [
+        "performance-appraisal",
+        "workforce-planning",
+        "training-and-development"
+      ]
+    },
+    {
+      "term": "Mintzberg's managerial roles",
+      "definition": "Ten observed roles grouped in three sets — interpersonal (figurehead, leader, liaison), informational (monitor, disseminator, spokesperson), and decisional (entrepreneur, disturbance handler, resource allocator, negotiator) — describing what managers actually do in fragmented bursts rather than the tidy plan-organize-lead-control cycle.",
+      "whyItMatters": "Exam items quote a manager's activity and ask which role category it belongs to, so the three groupings must be recalled by name.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ],
+      "confusableWith": [
+        "theory-x-and-theory-y",
+        "delegation-of-authority",
+        "staff-authority"
+      ]
+    }
+  ]
+}

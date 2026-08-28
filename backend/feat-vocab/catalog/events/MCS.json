@@ -1,0 +1,377 @@
+{
+  "code": "MCS",
+  "terms": [
+    {
+      "term": "Viewable CPM (vCPM)",
+      "definition": "Price per thousand impressions that actually rendered in view, so it is computed as the served CPM divided by the viewability rate — a $10 CPM delivered at 50% viewability really costs $20 per thousand seen.",
+      "whyItMatters": "A media-buying roleplay that asks which of two display placements is cheaper is decided on this number, not the quoted rate: the cheaper served CPM loses once its viewability rate is applied.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "cost-per-thousand-cpm",
+        "viewability",
+        "mrc-viewability-standard"
+      ]
+    },
+    {
+      "term": "Effective CPM (eCPM)",
+      "definition": "Revenue or spend restated onto a per-thousand-impressions basis — earnings divided by impressions, times 1,000 — so a CPC, CPA or flat-fee buy can be compared against a CPM buy on one scale. $300 on 200,000 impressions is a $1.50 eCPM.",
+      "whyItMatters": "When a client hands you a mixed plan of CPC search, CPA affiliate and CPM display and asks which line to cut, converting all three to eCPM is the only way to rank them in a presentation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "cost-per-thousand-cpm",
+        "cost-per-click-cpc",
+        "viewable-cpm-vcpm"
+      ]
+    },
+    {
+      "term": "Cost per completed view (CPCV)",
+      "definition": "Video spend divided by the number of plays that reached 100% completion, which prices only finished views — unlike cost per view, where a platform may bill at 30 seconds or at the end of a shorter ad, so the two metrics can differ several-fold on the same flight.",
+      "whyItMatters": "A pre-roll buy judged on CPV can look efficient while most viewers skip; the exam question that asks why a video campaign with a low CPV delivered no message recall is answered with completion rate and CPCV.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "effective-cpm-ecpm",
+        "clickthrough-rate-ctr"
+      ]
+    },
+    {
+      "term": "MRC viewability standard",
+      "definition": "The counting threshold an impression must clear to be billed as seen: at least 50% of the ad's pixels in the viewport for at least one continuous second for display, and 50% of pixels for two continuous seconds for video, with large-format units allowed 30% of pixels for one second.",
+      "whyItMatters": "In a roleplay where a publisher and an agency argue over an invoice, quoting the pixel-and-duration threshold decides which impressions are billable rather than leaving it to opinion.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "viewability",
+        "viewable-cpm-vcpm",
+        "ad-serving-discrepancy"
+      ]
+    },
+    {
+      "term": "Ad-serving discrepancy",
+      "definition": "Gap between the publisher's impression count and the agency's third-party ad server count, caused by latency, blocked tags and count-on-request versus count-on-render logic; roughly 10% is the accepted tolerance, and inside it the buy is reconciled and billed on the third-party number.",
+      "whyItMatters": "A trafficking question that gives two impression totals is testing whether you know the 10% tolerance and which count pays; above it the advertiser withholds and asks for an investigation or a makegood.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "makegood",
+        "mrc-viewability-standard",
+        "insertion-order"
+      ]
+    },
+    {
+      "term": "Attribution window",
+      "definition": "The lookback period inside which a conversion is still credited to a prior ad click or view — commonly 7 days after a click and 1 day after a view. Lengthening it moves conversions into the campaign and lowers reported cost per acquisition without a dollar of spend changing.",
+      "whyItMatters": "When a client claims a channel's CPA improved month over month, the first thing to check in a presentation is whether the window was widened; the exam tests that the metric moved, not the media.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "last-touch-attribution",
+        "view-through-conversion",
+        "cost-per-acquisition-cpa"
+      ]
+    },
+    {
+      "term": "Position-based attribution",
+      "definition": "A U-shaped credit split that assigns 40% of a conversion's value to the first touch, 40% to the last touch and divides the remaining 20% across every middle touch — deliberately rewarding the channel that created awareness as well as the one that closed.",
+      "whyItMatters": "Awareness media always looks worthless under last-click reporting; recommending this split with its 40/20/40 weights is how a competitor defends an upper-funnel line item in a budget roleplay.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "last-touch-attribution",
+        "time-decay-attribution",
+        "attribution-window"
+      ]
+    },
+    {
+      "term": "Time-decay attribution",
+      "definition": "Credit weighted by recency on an exponential curve, typically a seven-day half-life: a touchpoint one week before the conversion earns half the credit of one on the conversion day, and two weeks out a quarter of it.",
+      "whyItMatters": "For a long consideration purchase, choosing between this model and a U-shaped split changes which channel the budget follows — a standard media-planning defense in a Marketing Communications roleplay.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "position-based-attribution",
+        "last-touch-attribution",
+        "adstock"
+      ]
+    },
+    {
+      "term": "Average quarter-hour persons (AQH)",
+      "definition": "The average number of people tuned to a station for at least five minutes within a given 15-minute block; dividing it by the market population and multiplying by 100 yields the AQH rating, which is the rating point a radio buy is actually priced against.",
+      "whyItMatters": "Radio schedules are costed as cost per point, and the point comes from this five-minute rule — a broadcast buying question is unsolvable without converting AQH persons into an AQH rating first.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "cume-audience",
+        "cost-per-point-cpp",
+        "gross-rating-points-grps"
+      ]
+    },
+    {
+      "term": "Cume audience",
+      "definition": "The count of different people who tuned in for at least five minutes anywhere in a daypart, each counted once no matter how often they returned — so it measures reach, and dividing it by average quarter-hour persons gives turnover, the number of audiences the station cycles through.",
+      "whyItMatters": "A station selling on a big cume and a buyer costing the schedule on AQH are quoting two different numbers; the exam asks which one supports a reach goal and which one supports frequency.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "average-quarter-hour-persons-aqh",
+        "effective-reach",
+        "gross-impressions"
+      ]
+    },
+    {
+      "term": "Gross impressions",
+      "definition": "Total exposures a schedule delivers with duplication left in — gross rating points times the universe divided by 100 — so the figure always exceeds net reach, and reach times average frequency reproduces it exactly.",
+      "whyItMatters": "Given GRPs and a market population, this conversion is the single most common media-math item on a marketing communications exam, and it is also how a plan is restated for a client who thinks in people, not points.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "gross-rating-points-grps",
+        "effective-reach",
+        "cume-audience"
+      ]
+    },
+    {
+      "term": "Audience composition index",
+      "definition": "The share of a vehicle's audience that falls in the target divided by that group's share of the general population, times 100 — 100 is parity, 120 means the vehicle over-delivers the target by 20%, and below 100 the buy is paying for waste.",
+      "whyItMatters": "Choosing between two magazines with similar CPMs comes down to this index, and a competitor who cannot say what an index of 85 means will recommend the cheaper, wronger book.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "brand-development-index-bdi",
+        "category-development-index-cdi",
+        "cost-per-thousand-cpm"
+      ]
+    },
+    {
+      "term": "Daily effective circulation (DEC)",
+      "definition": "The out-of-home audience figure for a single unit — the average number of people per day passing it with a reasonable opportunity to see the face — and it is the denominator that turns a panel's monthly rate into a comparable CPM.",
+      "whyItMatters": "An outdoor proposal quotes a flat monthly price per board; converting each board to a CPM through this circulation figure is the only way to rank locations in a media-buying roleplay.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "showing-level",
+        "circulation",
+        "cost-per-thousand-cpm"
+      ]
+    },
+    {
+      "term": "Showing level",
+      "definition": "The out-of-home weight level named for the share of the market it covers daily: a #50 showing buys enough faces to deliver daily impressions equal to 50% of the market population, a #100 delivers 100%, and the number is a daily GRP level rather than a count of boards.",
+      "whyItMatters": "A vendor who quotes '25 posters' has told you nothing; asking for the showing level converts the offer into daily GRPs your plan can be held to, which is exactly what a judge listens for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "daily-effective-circulation-dec",
+        "gross-rating-points-grps"
+      ]
+    },
+    {
+      "term": "Milline rate",
+      "definition": "A print comparison figure computed as the cost of one agate line multiplied by 1,000,000 and divided by circulation, which restates newspapers of wildly different sizes as one price per line per million readers.",
+      "whyItMatters": "Asked to justify buying the smaller paper, a competitor who shows a lower milline rate has proved the cheaper audience; comparing raw line rates between papers proves nothing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "rate-base",
+        "cost-per-thousand-cpm",
+        "rate-card"
+      ]
+    },
+    {
+      "term": "Rate base",
+      "definition": "The circulation or impression figure a publisher contractually guarantees and is independently audited against; missing it obliges the publisher to rebate the advertiser or supply replacement weight, and rates are set on the guarantee rather than on actual delivery.",
+      "whyItMatters": "When a magazine's audited circulation comes in under the guarantee, knowing the remedy is a rebate or a makegood is what turns an advertiser's complaint into a settled negotiation in a roleplay.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "makegood",
+        "circulation",
+        "milline-rate"
+      ]
+    },
+    {
+      "term": "Makegood",
+      "definition": "Replacement weight supplied free when a schedule under-delivers its guaranteed rating points or impressions, or when a unit runs wrong — settled in equivalent audience delivery in a comparable daypart, not in a cash refund of the dollars spent.",
+      "whyItMatters": "A station that delivers 180 of 200 guaranteed GRPs owes the missing 20 points, and the roleplay tests whether you negotiate the replacement in equivalent audience rather than accepting cheap late-night filler.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "rate-base",
+        "ad-serving-discrepancy",
+        "insertion-order"
+      ]
+    },
+    {
+      "term": "Agency commission",
+      "definition": "The traditional media compensation of 15% of gross billing retained by the agency, so the net cost owed the medium is the gross times 0.85 — and grossing a net price back up requires multiplying by 1.1765, because 15% of gross equals 17.65% of net.",
+      "whyItMatters": "A quoted net rate and a quoted gross rate for the same spot differ by that 17.65% markup; a budget question that mixes the two is unsolvable unless you convert, and clients notice which way you rounded.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "rate-card",
+        "insertion-order"
+      ]
+    },
+    {
+      "term": "Lowest unit charge",
+      "definition": "The federal rule entitling a legally qualified candidate to a station's cheapest rate for the same class and time period, during the 45 days before a primary and the 60 days before a general election, regardless of the volume any commercial advertiser bought to earn that rate.",
+      "whyItMatters": "It explains why commercial inventory gets preempted and repriced every fall election season — a scheduling conflict a competitor must be able to explain to a client whose flight lands inside the window.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "rate-card",
+        "daypart"
+      ]
+    },
+    {
+      "term": "CALM Act loudness standard",
+      "definition": "Federal requirement that a commercial not be transmitted louder than the program it accompanies, enforced not by opinion but by measured average loudness under the ATSC A/85 recommended practice, whose United States target is roughly -24 LKFS.",
+      "whyItMatters": "A spot rejected at station QC for loudness is a production problem with a numeric fix, and knowing the target keeps a Marketing Communications competitor from promising a client a re-edit that will fail again.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "advertising-regulation",
+        "title-safe-area"
+      ]
+    },
+    {
+      "term": "Children's Television Act commercial limits",
+      "definition": "Statutory caps on commercial matter inside programming aimed at children 12 and under — 10.5 minutes per hour on weekends and 12 minutes per hour on weekdays — enforced alongside bans on host-selling and on program-length commercials.",
+      "whyItMatters": "A client wanting to advertise a toy inside a kids block is constrained by these per-hour minutes and by who may deliver the message, and an ethics-flavored exam item turns on the exact figures.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "advertising-regulation",
+        "children-s-online-privacy-protection-act-coppa"
+      ]
+    },
+    {
+      "term": "Lanham Act false advertising claim",
+      "definition": "A private federal suit under Section 43(a) letting one competitor sue another over false or misleading commercial advertising, requiring a false or misleading statement of fact in interstate commerce, deception that is material to purchase, and resulting injury — with injunctions, the defendant's profits and damages available, and no FTC involvement at all.",
+      "whyItMatters": "When a rival's comparative ad misstates your client's product, the answer is not to file with the FTC but to name this claim and its elements — a distinction that separates a prepared roleplay from a vague one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "advertising-regulation",
+        "puffery",
+        "ad-substantiation"
+      ]
+    },
+    {
+      "term": "Competent and reliable scientific evidence",
+      "definition": "The evidentiary bar an objective advertising claim must meet — tests or studies run by qualified people using procedures generally accepted in the field, typically at least one well-controlled randomized human clinical trial for a health claim — and it has to exist before the ad runs, not be assembled after a challenge.",
+      "whyItMatters": "A client who wants 'clinically proven' in the headline is asking for a claim that needs this file on hand at launch; explaining the prior-substantiation timing is the professional answer in an ethics roleplay.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "ad-substantiation",
+        "puffery",
+        "lanham-act-false-advertising-claim"
+      ]
+    },
+    {
+      "term": "Clear and conspicuous disclosure",
+      "definition": "The FTC standard for qualifying information: unavoidable, delivered in the same medium as the claim it modifies, placed close to that claim, and worded so an ordinary consumer understands it — a hyperlink, a hashtag, or fine print past the fold does not satisfy it.",
+      "whyItMatters": "Influencer and native placements live or die on this test, so a competitor briefing a creator has to say where the disclosure goes, not merely that one is required.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "ftc-endorsement-guides",
+        "native-advertising",
+        "advertising-regulation"
+      ]
+    },
+    {
+      "term": "Recency planning",
+      "definition": "A scheduling philosophy that spreads weight into continuous weekly presence chasing one-plus weekly reach, instead of concentrating a burst to build three-plus frequency, on the reasoning that the exposure nearest a purchase decision does the persuading.",
+      "whyItMatters": "It is the argument for turning a client's four-week blitz into a year of light weekly coverage, and a judge expects the reach-versus-frequency trade to be named out loud.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "effective-frequency",
+        "flighting",
+        "pulsing"
+      ]
+    },
+    {
+      "term": "Insertion order",
+      "definition": "The binding contract behind a media buy, specifying flight dates, units, placements, rates, targeting, the delivery guarantee and the cancellation terms — it is the document a delivery dispute is settled against, and verbal confirmations are not.",
+      "whyItMatters": "When a publisher under-delivers, the remedy comes from this paperwork, so a roleplay about a shorted campaign is really a question about what the buyer wrote down before the flight started.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "makegood",
+        "rate-card",
+        "ad-serving-discrepancy"
+      ]
+    },
+    {
+      "term": "Opportunity to see (OTS)",
+      "definition": "Planning shorthand for average frequency — total exposures divided by net reach — counting chances to encounter the message rather than proven attention, which is why it is an upper bound on what the audience really absorbed.",
+      "whyItMatters": "A plan promising a client four OTS is promising exposures, not four people persuaded; distinguishing the two protects a competitor from over-claiming in a presentation.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MCS"
+      ],
+      "confusableWith": [
+        "effective-frequency",
+        "gross-impressions",
+        "effective-reach"
+      ]
+    }
+  ]
+}

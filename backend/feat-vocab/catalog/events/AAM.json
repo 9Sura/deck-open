@@ -1,0 +1,421 @@
+{
+  "code": "AAM",
+  "terms": [
+    {
+      "term": "Five percent other fiber rule",
+      "definition": "Under the Textile Fiber Products Identification Act a fiber present at 5% or less of total weight may not be named on the label and must be shown as \"other fiber\" — unless it carries a clearly established functional significance at that level, which is why 2% spandex may be named for stretch but 3% silk may not.",
+      "whyItMatters": "A written-event judge who hands you a hangtag reading \"96% cotton, 4% silk\" expects you to catch that the silk cannot be called out; naming a decorative trace fiber is a mislabeling exposure on every unit shipped.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "chief-weight-rule",
+        "rn-number"
+      ]
+    },
+    {
+      "term": "Reasonable basis (care labeling)",
+      "definition": "The FTC Care Labeling Rule requires reliable evidence in hand before a garment ships for every instruction and every warning printed on the label — one complete method that will not harm the garment, plus a warning for any ordinary procedure that would.",
+      "whyItMatters": "In a vendor-compliance roleplay the safe-sounding answer is to print \"dry clean only\" on everything; the rule says an untested instruction is itself a violation, so the correct move is to demand the mill's wash-test data before the PO is cut.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "ad-substantiation",
+        "five-percent-other-fiber-rule"
+      ]
+    },
+    {
+      "term": "Truth in Fur Labeling Act",
+      "definition": "The 2010 statute that deleted the Fur Products Labeling Act's exemption for garments whose fur was worth $150 or less, so a $40 parka with a coyote-trimmed hood now needs the animal's English name and country of origin exactly like a full fur coat does.",
+      "whyItMatters": "Accessory and outerwear cases lean on the dead $150 threshold as a trap; a competitor who still applies it will clear a trimmed hood or a rabbit-lined glove that is in fact a labeling violation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "recycled-wool-disclosure",
+        "cut-and-sew-origin-rule"
+      ]
+    },
+    {
+      "term": "Class 1 normal flammability",
+      "definition": "A plain-surface fabric whose flame spread time in the 16 CFR 1610 test is 3.5 seconds or longer, which is the only class that may legally be sold as wearing apparel; below 3.5 seconds the fabric is Class 3, rapid and intense burning, and is banned outright.",
+      "whyItMatters": "Given a lab report showing a sheer 3.1-second burn, the exam wants the shipment stopped rather than discounted — the number decides legality, not quality.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "children-s-sleepwear-flammability-standard",
+        "colorfastness-rating"
+      ]
+    },
+    {
+      "term": "Children's sleepwear flammability standard",
+      "definition": "Sleepwear in sizes 9 months through 14 must self-extinguish in a vertical flame test, averaging no more than 7.0 inches of char with no single specimen burning its full 10-inch length; only tight-fitting garments inside the CPSC maximum-dimension tables, or infant sizes 9 months and under, escape the test.",
+      "whyItMatters": "A loose-fitting cotton pajama program is the classic case trap — it is legal as a \"lounge set\" and illegal as sleepwear, and the char measurement is what separates them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "class-1-normal-flammability",
+        "children-s-drawstring-standard"
+      ]
+    },
+    {
+      "term": "Children's drawstring standard",
+      "definition": "Upper outerwear in sizes 2T through 12 may carry no hood or neck drawstring at all, and waist or bottom drawstrings on sizes 2T through 16 may not extend more than 3 inches outside the channel with the garment at full width, and must be bar-tacked so they cannot pull through.",
+      "whyItMatters": "CPSC treats a violating hoodie as a substantial product hazard, so a merchandising roleplay that proposes cinched hoods for a kids' program is asking you to name the recall risk, not the trend.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "cpsia-children-s-product-certificate",
+        "children-s-sleepwear-flammability-standard"
+      ]
+    },
+    {
+      "term": "CPSIA children's product certificate",
+      "definition": "The certificate a domestic manufacturer or importer must issue for goods designed primarily for children 12 and under, based on third-party testing at a CPSC-accepted lab against the 100 ppm total lead limit in substrate, 90 ppm lead in surface coating, and 0.1% phthalate limits, and paired with a permanent tracking label.",
+      "whyItMatters": "A children's accessory buy fails compliance on the paperwork before it fails on the product; the exam expects you to price the lab testing and the tracking label into the first cost, not to discover them at the port.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "children-s-drawstring-standard",
+        "acceptable-quality-limit-aql"
+      ]
+    },
+    {
+      "term": "Chief weight rule",
+      "definition": "Customs classifies a blended textile garment under whichever fiber predominates by weight, and the duty rate follows that classification — so a 60/40 cotton-polyester knit shirt enters as cotton while the same shirt at 45/55 enters as man-made fiber, roughly doubling the rate on an identical-looking garment.",
+      "whyItMatters": "A sourcing case that offers a \"cheaper\" 55% polyester blend is really testing whether you can compute the landed cost after the classification flips; the fabric saving is often smaller than the duty jump.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "cut-and-sew-origin-rule",
+        "five-percent-other-fiber-rule"
+      ]
+    },
+    {
+      "term": "Wearing ease",
+      "definition": "Garment measurement minus body measurement — the room a wearer needs to move, breathe and sit, typically 2 to 4 inches at the bust for a woven blouse — held separate from design ease, which is the extra fullness a silhouette adds on top of it.",
+      "whyItMatters": "Fit-complaint roleplays hand you a size chart and a garment spec; subtracting one from the other tells you whether the problem is a body-measurement error or an intended oversized cut.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "vanity-sizing",
+        "measurement-tolerance"
+      ]
+    },
+    {
+      "term": "Off-price recovery rate",
+      "definition": "The share of original cost recovered by liquidating leftover seasonal goods to a jobber or off-price chain — often 20 to 30 cents on the cost dollar — which is the benchmark any further in-store markdown has to beat before it is worth taking.",
+      "whyItMatters": "With 400 units at $18 cost, a jobber offer of $5 recovers $2,000; the exam wants that compared against a final markdown's net proceeds and its carrying cost, not an instinct that liquidation is failure.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "terminal-stock",
+        "pack-and-hold"
+      ]
+    },
+    {
+      "term": "Acceptable quality limit (AQL)",
+      "definition": "The worst defect rate a lot may average and still be accepted, applied through a sampling plan rather than a full count — under ANSI/ASQ Z1.4 General Level II a 3,000-unit lot draws a 125-piece sample, and at 2.5 AQL it is accepted on 7 defects and rejected on 8.",
+      "whyItMatters": "A quality roleplay reports 9 defects in a 125-piece pull; the plan says reject the lot, and knowing that a single extra defect flips the decision is what separates a competitor from a guess.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "measurement-tolerance",
+        "tech-pack"
+      ]
+    },
+    {
+      "term": "Marker efficiency",
+      "definition": "The percentage of a cutting layout's total area actually covered by pattern pieces, with the rest lost as waste; since fabric is usually the largest single element of garment cost, lifting a marker from 82% to 86% cuts fabric consumption per unit by roughly 5%.",
+      "whyItMatters": "When a cost sheet has to come down a dollar and the factory will not move on labor, this is the lever an apparel case expects you to pull before you cheapen the fabric.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "cut-make-trim-cmt",
+        "minimum-cuttable-quantity-mcq"
+      ]
+    },
+    {
+      "term": "Berry Amendment",
+      "definition": "Clothing, textiles and the fibers in them bought with Department of Defense funds must be grown and processed entirely in the United States at every stage — fiber, yarn spinning, weaving or knitting, dyeing, finishing and sewing — with no de minimis foreign allowance, and the exception line sits at the simplified acquisition threshold rather than at a percentage.",
+      "whyItMatters": "A uniform-contract roleplay offers a mill quote with Turkish yarn woven domestically; under the FTC's \"all or virtually all\" test that could still be argued, and under this statute it disqualifies the bid outright, so the two standards have to be priced separately.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "made-in-usa-standard",
+        "uflpa-rebuttable-presumption"
+      ]
+    },
+    {
+      "term": "UFLPA rebuttable presumption",
+      "definition": "Since June 2022 any merchandise mined, produced or manufactured wholly or in part in Xinjiang, or by a listed entity, is presumed to be forced-labor goods and is barred at the border; cotton is a named priority sector, and rebutting the presumption takes clear and convincing evidence of the whole supply chain plus full responsiveness to CBP, not a supplier's signed affidavit.",
+      "whyItMatters": "A sourcing roleplay hands you a vendor who can document the sewing factory but not the ginner; \"wholly or in part\" means a traced yarn is the deliverable, and the detained container is measured in weeks of a nine-week selling season.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "berry-amendment",
+        "cut-and-sew-origin-rule"
+      ]
+    },
+    {
+      "term": "Karat quality mark tolerance",
+      "definition": "The National Gold and Silver Stamping Act lets a marked fineness run under nominal by only 3 parts per thousand on an article carrying no solder and 7 parts per thousand on a soldered one, so a piece stamped 14K (0.583 nominal) must assay at least 0.580 unsoldered and 0.576 with solder, and silver stamped sterling gets 4 and 10 parts per thousand against 0.925.",
+      "whyItMatters": "An assay report reading 0.578 on a soldered 14K chain passes and the same number on a seamless bangle is a mislabeled shipment; the exam wants the tolerance applied to the construction, not a judgment that both are close enough.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "vermeil",
+        "magic-size-premium"
+      ]
+    },
+    {
+      "term": "Vermeil",
+      "definition": "Under the FTC Jewelry Guides this word may be printed only on a sterling silver base coated with at least 10 karat gold laid at least 2.5 micrometres thick — where gold-filled instead demands a bonded layer weighing at least 1/20 of the metal in the article, and gold electroplate needs only 0.175 micrometres, roughly one fourteenth as much gold as vermeil.",
+      "whyItMatters": "Given a supplier's spec sheet showing a brass core with 3 micrometres of 14K, the correct call in a merchandising roleplay is that the thickness passes and the base metal does not, so the word cannot go on the tag at any price point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "karat-quality-mark-tolerance",
+        "nickel-release-limit"
+      ]
+    },
+    {
+      "term": "Magic size premium",
+      "definition": "Diamond prices are quoted per carat and the per-carat rate itself jumps at the weight breaks buyers ask for — 0.50, 0.90, 1.00, 1.50 — so a 0.99 stone at $6,000 per carat costs $5,940 while a 1.00 stone at $7,500 per carat costs $7,500, a 26% price increase for 1% more weight.",
+      "whyItMatters": "A jewelry selling roleplay wants you to move a customer to the shy weight: total price is weight times the per-carat rate, and doing that multiplication in the right order is what shows the $1,560 saving on a stone nobody can eyeball as smaller.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "karat-quality-mark-tolerance",
+        "ring-size-scale"
+      ]
+    },
+    {
+      "term": "Nickel release limit",
+      "definition": "EU rules cap what leaches out of an item rather than what it contains: less than 0.5 micrograms per square centimetre per week for anything in prolonged skin contact, and less than 0.2 for a post inserted into a pierced ear, measured after a wear-and-corrosion simulation standing in for two years of use.",
+      "whyItMatters": "An earring that passes on day one and fails after simulated wear is the trap in an accessories sourcing case — the plating thickness, not the alloy's nickel percentage, is what has to be specified into the purchase order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "vermeil",
+        "cpsia-children-s-product-certificate"
+      ]
+    },
+    {
+      "term": "Grade rule",
+      "definition": "The fixed increment a pattern piece grows at each point of measure when it is stepped up or down from the sample size — a 1-inch bust grade in misses is only 1/4 inch on each quarter of the pattern, and it is split again among the grade points, which is why a size 14 can gain a full inch of bust while the shoulder and armhole barely move.",
+      "whyItMatters": "When a fit complaint says the largest sizes pull across the back, the answer in a product-development roleplay is that the grade distributed too little of the increment to the upper body, not that the whole size chart is wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "wearing-ease",
+        "vanity-sizing"
+      ]
+    },
+    {
+      "term": "Sister sizing",
+      "definition": "A bra cup letter is not a fixed volume, it is the difference between the bust and underbust measurement — one inch of difference is an A, four inches a D — so cup volume travels with the band, and moving down a band while moving up a letter (34C to 32D) holds the same cup while tightening the support.",
+      "whyItMatters": "A fitting-room roleplay hands you a customer whose 34C rides up in back; the sale is saved by computing the 32D rather than by fetching a different style, and the arithmetic is what the judge is listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "wearing-ease",
+        "suit-drop"
+      ]
+    },
+    {
+      "term": "Suit drop",
+      "definition": "Chest measurement minus trouser waist in a nested tailored suit, standardized at 6 inches in the United States — a 42 jacket ships with a 36 trouser — while an athletic cut runs a drop of 7 or 8 and a portly block runs 4 or less.",
+      "whyItMatters": "A menswear customer who wears a 42 jacket and a 34 waist is a drop 8, so the exam answer is suit separates or an alteration allowance, not a different size jacket that will hang wrong in the shoulder.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "sister-sizing",
+        "wearing-ease"
+      ]
+    },
+    {
+      "term": "Barleycorn",
+      "definition": "The one-third-inch unit that English-language shoe sizes still step by, with a half size worth 1/6 inch — so the entire adult run from a 7 to a 12 spans only 1 2/3 inches of last length, and US and UK scales differ by a sixth of an inch of zero point rather than by any difference in the step.",
+      "whyItMatters": "A footwear roleplay where the customer insists on going up two full sizes for comfort is really offering 2/3 of an inch; the fix is width or last shape, and knowing the step size is what lets you say so with a number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "heel-to-ball-fitting",
+        "grade-rule"
+      ]
+    },
+    {
+      "term": "Heel-to-ball fitting",
+      "definition": "A measuring device reads two lengths, overall heel-to-toe and heel-to-ball arch length, and the shoe must be fitted to whichever reading is larger, because the shoe's flex point has to land on the ball joint — a foot reading 9 overall and 10 arch takes the 10 and is fitted forward with padding, never the 9.",
+      "whyItMatters": "This is the single most common footwear selling roleplay: the customer's toes have room in the smaller size and the shoe still creases across the instep, and the judge is waiting for the arch reading to be named as the deciding measurement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "barleycorn",
+        "wearing-ease"
+      ]
+    },
+    {
+      "term": "Ring size scale",
+      "definition": "US ring sizes are a linear scale on inside diameter: size 0 is 0.458 inch and every full size adds 0.032 inch, which is about 2.55 mm of circumference, so a size 6 measures 0.650 inch across and moving a customer two sizes up stretches the shank roughly 5 mm.",
+      "whyItMatters": "Sizing service quotes turn on this number — most shanks tolerate about two sizes of stretch before metal must be cut in, so an order to take a size 5 heirloom to a 9 is a rebuild quote, not a resize quote.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "magic-size-premium",
+        "karat-quality-mark-tolerance"
+      ]
+    },
+    {
+      "term": "Residual shrinkage allowance",
+      "definition": "Cut dimensions are the finished specification divided by one minus the tested shrinkage, not the specification multiplied by it — a 30-inch finished body length in fabric shrinking 4% must be cut at 30 / 0.96 = 31.25 inches, where multiplying by 1.04 gives 31.2 and lands the garment short of tolerance on every unit.",
+      "whyItMatters": "A production case gives you an AATCC wash-test result and a finished spec and expects the cutting length back; \"Sanforized\" only promises the residual is held to 1% or less, which changes the divisor, not the method.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "measurement-tolerance",
+        "grade-rule"
+      ]
+    },
+    {
+      "term": "Minimum cuttable quantity (MCQ)",
+      "definition": "The per-colorway floor the mill's dye lot and the cutting table impose, which is a different constraint from the order-level minimum: a program with a 3,000-unit order minimum and a 600-unit MCQ per color supports at most five colorways, so adding a sixth either strands 600 units or forces the whole buy up to 3,600.",
+      "whyItMatters": "An assortment roleplay that asks for \"one more color\" is asking for 600 units of exposure; naming the two minimums separately is what turns a vague sourcing objection into a number the buyer can decide on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "cut-make-trim-cmt",
+        "marker-efficiency"
+      ]
+    },
+    {
+      "term": "Cut, make, trim (CMT)",
+      "definition": "A quote covering only the factory's labor and findings, with the brand buying and consigning the fabric, so it cannot be compared with a full-package quote until fabric is added at consumption — a $3.10 CMT plus 1.8 yards at $3.60 is $9.58, which loses to a $9.40 full-package price on the same garment.",
+      "whyItMatters": "Sourcing cases present the CMT number first because it always looks cheaper; the exam is testing whether you rebuild both quotes onto the same basis before recommending the factory.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "minimum-cuttable-quantity-mcq",
+        "marker-efficiency"
+      ]
+    },
+    {
+      "term": "Denier",
+      "definition": "Weight in grams of 9,000 metres of a yarn, a direct system where a bigger number means a thicker filament — 15 for bridal-sheer hosiery, 40 and up for opaque tights — and the inverse of the cotton count system, where a bigger number means a finer yarn because it counts 840-yard hanks to the pound.",
+      "whyItMatters": "A hosiery or activewear case that quotes 20 denier against 40s cotton count is quoting two scales running opposite directions; reading both correctly is what stops a competitor recommending the heavier fabric by mistake.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "grams-per-square-meter-gsm",
+        "leather-ounce"
+      ]
+    },
+    {
+      "term": "Grams per square meter (GSM)",
+      "definition": "Areal weight of a fabric, and the number that prices a knit garment, because knit goods are bought by the kilogram rather than the yard — a tee using 1.2 square metres of 180 gsm jersey carries 216 grams of fabric, so a jump to 220 gsm adds 48 grams of purchased weight per unit before any labor changes.",
+      "whyItMatters": "When a costing exercise asks why a heavier tee costs more than the yardage suggests, the answer is that the knit is invoiced on weight; converting from ounces per square yard at 33.9 grams each is the arithmetic the exam expects.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "denier",
+        "marker-efficiency"
+      ]
+    },
+    {
+      "term": "Leather ounce",
+      "definition": "A thickness measure, not a weight: one ounce equals 1/64 inch of hide, so an 8-to-9-ounce belt strap runs about 1/8 inch thick and a 2-to-3-ounce garment leather is about 1/24 inch — while shoe soles are quoted in irons instead, each iron being 1/48 inch.",
+      "whyItMatters": "A handbag or belt spec written in ounces is describing stiffness and structure; a case that asks whether a 3-ounce hide can carry hardware is answered by converting to inches, and the unit's name points the wrong way.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "grams-per-square-meter-gsm",
+        "denier"
+      ]
+    },
+    {
+      "term": "Seam slippage",
+      "definition": "The failure mode where yarns pull away from a stitch line under load rather than the thread breaking, tested by pulling a sewn specimen until the seam opens a quarter inch, with woven apparel typically specified at a 25-pound-force minimum; the fix is a wider seam allowance or a tighter fabric construction, never a stronger thread.",
+      "whyItMatters": "A quality report showing a 19-pound result on a slippery satin is the classic case where the tempting answer is to change the thread; the exam wants the construction change, because the thread never failed.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "acceptable-quality-limit-aql",
+        "colorfastness-rating"
+      ]
+    },
+    {
+      "term": "Pack-and-hold",
+      "definition": "Boxing unsold seasonal goods to bring back next year instead of marking them down now, which is only worth it when the season-over-season carrying cost — warehouse, handling and capital, commonly 20 to 25% of cost for twelve months — stays below the loss the final markdown would take, and only for goods whose styling will still read next year.",
+      "whyItMatters": "Holding 500 basic wool scarves at $9 cost for a year runs roughly $1,000 against a 60% markdown that gives up more than that, while the same math on a trend silhouette fails, so the disposition roleplay turns on fashion risk and the carrying rate together.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:AAM"
+      ],
+      "confusableWith": [
+        "off-price-recovery-rate",
+        "terminal-stock"
+      ]
+    }
+  ]
+}

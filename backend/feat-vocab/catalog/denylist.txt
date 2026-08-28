@@ -1,0 +1,81 @@
+# Purged vocabulary — slugs that may never re-enter the catalog.
+#
+# Seeded by the Phase 1 purge of vocab plan 01: every term judged "easy" against
+# the §3 rubric is deleted from its catalog file AND listed here, so a later
+# authoring batch cannot re-author it. vocab_gate.mjs rejects any term whose
+# derived slug appears below, and build_vocab_prompt.mjs pastes this file into
+# every authoring prompt.
+#
+# One slug per line. `#` starts a comment. Entries are never removed — a term
+# that belongs in the bank after all is a rubric argument, not an edit here.
+
+# purged from catalog/areas/economics.json — judged easy (plan 01 Phase 1)
+profit
+
+# purged from catalog/areas/channel_management.json — judged easy (plan 01 Phase 1)
+retailer
+
+# purged from catalog/areas/communication_skills.json — judged easy (plan 01 Phase 1)
+group-discussion
+
+# purged from catalog/areas/customer_relations.json — judged easy (plan 01 Phase 1)
+business-policy
+customer-inquiry
+customer-service
+
+# purged from catalog/areas/emotional_intelligence.json — judged easy (plan 01 Phase 1)
+adaptability
+initiative
+integrity
+self-confidence
+self-control
+teamwork
+
+# purged from catalog/areas/entrepreneurship.json — judged easy (plan 01 Phase 1)
+entrepreneur
+
+# purged from catalog/areas/financial_analysis.json — judged easy (plan 01 Phase 1)
+credit
+financial-goal
+income
+investment
+money
+saving
+
+# purged from catalog/areas/financial_information_management.json — judged easy (plan 01 Phase 1)
+expense
+revenue
+
+# purged from catalog/areas/information_management.json — judged easy (plan 01 Phase 1)
+customer-records
+information
+spreadsheet
+
+# purged from catalog/areas/marketing_information_management.json — judged easy (plan 01 Phase 1)
+data-collection
+survey
+
+# purged from catalog/areas/operations.json — judged easy (plan 01 Phase 1)
+inventory
+production
+
+# purged from catalog/areas/pricing.json — judged easy (plan 01 Phase 1)
+discount
+
+# purged from catalog/areas/professional_development.json — judged easy (plan 01 Phase 1)
+company-protocols
+creativity
+goal-setting
+job-interview
+r-sum
+rules-of-conduct
+time-management
+work-ethic
+work-life-balance
+
+# purged from catalog/areas/risk_management.json — judged easy (plan 01 Phase 1)
+safe-work-environment
+
+# purged from catalog/events/PEN.json — judged easy (plan 01 Phase 1)
+customer-feedback
+customer-rating

@@ -1,0 +1,408 @@
+{
+  "code": "BTDM",
+  "terms": [
+    {
+      "term": "Open-to-buy",
+      "definition": "Merchandise a buyer may still order for delivery inside a period: planned EOM stock + planned sales + planned reductions - BOM stock - merchandise already on order.",
+      "whyItMatters": "A BTDM case hands the team a month's plan and asks how much is left to spend; a team that forgets to subtract goods already on order overcommits the budget and cannot defend the number in the judge's follow-up.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "planned-purchases-at-retail",
+        "six-month-merchandise-plan"
+      ]
+    },
+    {
+      "term": "Planned purchases at retail",
+      "definition": "Planned sales + planned reductions + planned EOM stock - planned BOM stock, stated at retail; a buyer converts it to cost by applying the planned initial markup before writing orders.",
+      "whyItMatters": "Exam items give four of the five figures and ask for the fifth, and roleplays ask a team to turn a retail purchase plan into the cost dollars an order sheet actually carries.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "open-to-buy",
+        "planned-reductions"
+      ]
+    },
+    {
+      "term": "Basic stock method",
+      "definition": "BOM stock = planned sales for the month + (average monthly stock - average monthly sales), so a cushion rides above expected sales; used when annual turnover runs under about six.",
+      "whyItMatters": "A stock-planning roleplay for a slow-turning classification such as furniture is solved with this formula, and picking it over the percentage variation method is half the judge's rubric.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "percentage-variation-method",
+        "weeks-of-supply-method"
+      ]
+    },
+    {
+      "term": "Percentage variation method",
+      "definition": "BOM stock = average stock x 1/2 x (1 + planned month's sales / average monthly sales), which holds inventory closer to the mean than sales swing; used when turnover exceeds six.",
+      "whyItMatters": "Given a season plan with a heavy December, this is the method that keeps the December opening stock from doubling, and BTDM teams are scored on choosing it for fast-turning goods.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "basic-stock-method",
+        "stock-to-sales-ratio"
+      ]
+    },
+    {
+      "term": "Weeks-of-supply method",
+      "definition": "Stock is set at planned weekly sales x the desired weeks of cover, where the cover figure equals weeks in the period / the period's planned stock turn - 26 weeks at a 5.2 turn gives 5 weeks.",
+      "whyItMatters": "Replenishment roleplays state a turn goal and a weekly rate of sale and ask for the on-hand target; teams that reason in dollars instead of weeks miss the unit answer the judge wants.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "stock-to-sales-ratio",
+        "basic-stock-method"
+      ]
+    },
+    {
+      "term": "Markup cancellation",
+      "definition": "Downward price change that only reverses a previously taken additional markup and may never fall below the original retail; it nets against markups and is not reported as a markdown.",
+      "whyItMatters": "Classifying one of these as a markdown overstates reductions and understates maintained margin, which is exactly the trap in gross-margin reconciliation questions.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "markdown-percentage",
+        "maintained-markup"
+      ]
+    },
+    {
+      "term": "Anticipation discount",
+      "definition": "Extra deduction earned by paying an invoice before even the cash-discount period expires, computed as an annual rate on the days prepaid and taken on top of the cash discount.",
+      "whyItMatters": "A negotiation roleplay with a cash-rich retailer turns on whether the team can quantify what paying 20 days early is worth, rather than just asking for a lower price.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "cumulative-quantity-discount",
+        "eom-dating"
+      ]
+    },
+    {
+      "term": "EOM dating",
+      "definition": "Periods are counted from the end of the invoice month, and invoices dated on or after the 25th roll to the following month - so a March 26 shipment on 2/10 EOM is still discountable May 10.",
+      "whyItMatters": "Cash-flow questions in a buying case ask for the exact last day a discount can be taken, and the 25th-of-the-month rule is the step teams skip.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "rog-dating",
+        "2-10-net-30"
+      ]
+    },
+    {
+      "term": "Single equivalent discount rate",
+      "definition": "One rate that replaces a series, found as 1 - (1 - d1)(1 - d2)(1 - d3): a 20/10/5 chain equals 31.6%, not the 35% a team gets by adding the three discounts together.",
+      "whyItMatters": "Vendor quotes arrive as chains, and comparing two suppliers' offers in a roleplay is wrong the moment a team adds the percentages instead of compounding them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "chain-discount",
+        "trade-allowance"
+      ]
+    },
+    {
+      "term": "Duty drawback",
+      "definition": "Refund of up to 99% of the tariffs paid on imported goods that are afterwards exported or destroyed, claimed inside the statutory filing window and credited back against landed cost.",
+      "whyItMatters": "For a retailer re-exporting unsold import stock, recovering it changes the cost of that clearance, and case questions on import sourcing expect the 99% ceiling to be known.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "harmonized-tariff-schedule",
+        "landed-cost"
+      ]
+    },
+    {
+      "term": "FOB destination",
+      "definition": "Title, risk of loss and transportation charges all stay with the seller until goods reach the buyer's dock, so the quoted price already contains freight and the buyer files no damage claim.",
+      "whyItMatters": "Comparing vendor quotes in a roleplay requires knowing which one bundles freight, and this term settles who claims against the carrier when a shipment arrives crushed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "fob-shipping-point",
+        "incoterms"
+      ]
+    },
+    {
+      "term": "Cost complement",
+      "definition": "Ratio of what the goods available cost to what they are ticketed at — $520,000 against $1,000,000 of retail gives 0.52 — and multiplying an ending retail book figure by it converts that inventory to cost without counting a ticket.",
+      "whyItMatters": "A buying case that states purchases at both cost and retail asks for the cost value of closing stock, and a team that averages the markup percentages instead of dividing the two totals reports a number the judge can disprove in one line.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "initial-markup",
+        "cumulative-markon"
+      ]
+    },
+    {
+      "term": "Cumulative markon",
+      "definition": "Season-to-date markup on everything handled — (total retail of goods available minus their total cost) divided by that total retail — so one off-price buy taken at 60% lifts the running figure above the 48% planned on the opening order.",
+      "whyItMatters": "Judges ask what markup the rest of the season's buys must carry, and that answer is computed from the running figure on all goods handled, never from the markup written on the last purchase order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "initial-markup",
+        "maintained-markup",
+        "markup-averaging"
+      ]
+    },
+    {
+      "term": "Markup averaging",
+      "definition": "Working out what the unbought balance must carry to reach plan: subtract the retail already committed from the planned total retail, subtract the cost already committed from the planned total cost, then divide — $6,000 of cost taken at 40% against a $10,000 cost plan at 50% forces 60% on the rest.",
+      "whyItMatters": "When a vendor offers a mid-season closeout at a thin markup, the roleplay asks whether the team can still hit plan; the defensible answer is the markup the balance would then have to carry and whether the market will bear it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "cumulative-markon",
+        "initial-markup"
+      ]
+    },
+    {
+      "term": "Stock-to-sales ratio",
+      "definition": "Beginning-of-month inventory divided by that month's planned sales — a 4.0 means opening with four retail dollars for every dollar planned to sell, and the reciprocal of the ratio is that month's turnover.",
+      "whyItMatters": "Season plans hand a team the ratio by month plus the sales plan, and the opening stock line is the product of the two; multiplying by the wrong month's ratio misplans every receipt after it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "weeks-of-supply-method",
+        "basic-stock-method"
+      ]
+    },
+    {
+      "term": "Markdown break-even volume",
+      "definition": "Units a reduced price must move to hold the same gross-margin dollars: old units times old unit margin, divided by the new unit margin — a $40 item costing $20 cut to $32 keeps $12, so it takes 1.67 sales to replace each one before.",
+      "whyItMatters": "Asked in a roleplay whether to take 20% off slow goods, the team that states how much faster the item must sell to stay whole beats the team that only quotes the markdown percentage.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "markdown-percentage",
+        "markup-cancellation"
+      ]
+    },
+    {
+      "term": "Net-net cost",
+      "definition": "The figure a retail price is actually built on: list less each trade discount applied in sequence, then the cash discount on that result, then vendor allowances, with inbound freight added back — the deductions never share one base.",
+      "whyItMatters": "Two vendor quotes in a buying roleplay are only comparable at this number, and a team that stops at invoice cost sets a retail that quietly misses the planned initial markup.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "landed-cost",
+        "first-cost",
+        "single-equivalent-discount-rate"
+      ]
+    },
+    {
+      "term": "ROG dating",
+      "definition": "The discount clock starts the day the goods arrive rather than the day the invoice is written, so 2/10 ROG on an order spending six weeks on the water is still discountable ten days after the container is unloaded.",
+      "whyItMatters": "Import buying roleplays ask which terms protect cash flow on a long transit, and this is the concession to negotiate when ordinary end-of-month terms would lapse before the shipment lands.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "eom-dating",
+        "2-10-net-30"
+      ]
+    },
+    {
+      "term": "Memorandum buying",
+      "definition": "Title passes to the retailer and the goods sit on its books, but unsold units may be returned by an agreed date — unlike consignment, where the vendor keeps title and is paid only after each sale.",
+      "whyItMatters": "Bringing in an unproven brand, a team must say who carries the markdown risk and whose balance sheet holds the inventory; the judge's rubric splits on exactly that line.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "consignment-selling"
+      ]
+    },
+    {
+      "term": "First cost",
+      "definition": "Price quoted at the overseas factory gate, before agent commission, inland haulage, ocean freight, insurance and duty are stacked onto it — it equals landed cost only in a quote that already bundles every one of those.",
+      "whyItMatters": "A sourcing roleplay sets an overseas quote against a domestic one, and a team that compares this figure to a delivered domestic price recommends the wrong vendor by a wide margin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "landed-cost",
+        "net-net-cost"
+      ]
+    },
+    {
+      "term": "Customs transaction value",
+      "definition": "Duty is assessed on the price actually paid for the goods themselves, so international freight and insurance stay outside the base while packing charges, royalties and buyer-supplied assists are added into it.",
+      "whyItMatters": "Landed-cost questions ask for the duty dollars, not the rate, and a team that multiplies the rate by the full delivered cost overstates the tariff and misprices the whole order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "dutiable-assist",
+        "landed-cost"
+      ]
+    },
+    {
+      "term": "Dutiable assist",
+      "definition": "Tooling, molds, materials or design work the buyer hands an overseas factory free or below cost; its value is apportioned across the units produced and added to the customs value even though no money changed hands at entry.",
+      "whyItMatters": "A team sourcing a private-label program that ships its own molds to the plant must apportion that value into the entry, or the duty underpayment surfaces when the entry is liquidated months later.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "customs-transaction-value",
+        "first-cost"
+      ]
+    },
+    {
+      "term": "Tariff-rate quota",
+      "definition": "A lower rate applies only to the first block of units admitted in the quota year, and everything clearing after that block pays a much higher rate — so identical orders land at two different costs depending on arrival date.",
+      "whyItMatters": "Deciding whether to pull a delivery earlier in a sourcing roleplay turns on whether the quota fills first, which moves landed cost per unit enough to change the retail price.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "harmonized-tariff-schedule",
+        "duty-drawback"
+      ]
+    },
+    {
+      "term": "Foreign-trade zone",
+      "definition": "Goods sit on domestic soil but outside customs territory: duty is deferred until they enter commerce, avoided entirely on anything re-exported, and where the finished item's rate is lower than its components', the importer may elect that lower rate.",
+      "whyItMatters": "For import stock held months before release, the deferred duty is real working capital, and a case asking how to cut import carrying cost expects this rather than a bigger order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "duty-drawback",
+        "landed-cost"
+      ]
+    },
+    {
+      "term": "Minimum presentation quantity",
+      "definition": "Units a fixture needs to look shopable and that therefore never sell — four per door across 60 doors ties up 240 units of the buy before a single one is available to a customer.",
+      "whyItMatters": "A team that buys 300 units for a 60-door rollout finds only 60 are truly sellable, and allocation roleplays are scored on catching that arithmetic before the order is written.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "fair-share-allocation",
+        "min-max-replenishment"
+      ]
+    },
+    {
+      "term": "Fair-share allocation",
+      "definition": "Splitting a short receipt by each store's share of forecast demand instead of evenly — a door forecast at 8% of the chain draws 8% of the units, so 1,000 units send 80 there and no volume door is starved.",
+      "whyItMatters": "When a hot item arrives short, the judge asks how the team divides it across doors, and an equal split is the answer that loses the decision.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "minimum-presentation-quantity"
+      ]
+    },
+    {
+      "term": "Min-max replenishment",
+      "definition": "Reorder fires when on-hand falls to the minimum, and the quantity ordered is the maximum less on-hand less whatever is already on order — skip that last subtraction and the same need is bought twice.",
+      "whyItMatters": "Basic-goods replenishment roleplays hand a team on-hand and on-order figures and ask for the order quantity; ignoring the open orders is the standard error the rubric watches for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "reorder-point",
+        "safety-stock"
+      ]
+    },
+    {
+      "term": "Overbought position",
+      "definition": "Planned purchases turn negative once orders already written are subtracted, meaning the period's money is committed before it opens — leaving only cancellation, pushing deliveries into the next period, or planning added reductions.",
+      "whyItMatters": "A roleplay that hands a team a fully committed budget plus a tempting new vendor offer is testing whether they name the position and a remedy instead of asking for more money.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "open-to-buy",
+        "planned-purchases-at-retail"
+      ]
+    },
+    {
+      "term": "Quantity break point",
+      "definition": "The order size at which a vendor's next discount tier makes the bigger buy genuinely cheaper: the tier's saving has to beat the cost of carrying the extra weeks of supply it creates, not merely lower the unit price.",
+      "whyItMatters": "Offered a better price at double the quantity, the team that prices the carrying cost of that extra cover can defend either decision; the team reading only the unit price always buys.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "cumulative-quantity-discount",
+        "inventory-carrying-cost-rate"
+      ]
+    },
+    {
+      "term": "Inventory carrying cost rate",
+      "definition": "Annual percentage of inventory value eaten by tied-up capital, storage, insurance, obsolescence and damage — commonly around a quarter of value, so an extra thirteen weeks of cover costs roughly 6% of what those goods cost.",
+      "whyItMatters": "Every buy-deeper-for-a-better-price offer in a buying roleplay is settled by whether the discount beats this rate across the extra weeks of supply it forces the retailer to hold.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "quantity-break-point",
+        "open-to-buy"
+      ]
+    },
+    {
+      "term": "Freight prepaid minimum",
+      "definition": "Order value at which a vendor stops billing transportation, which makes the last dollars of an order the cheapest — adding $400 to clear a $5,000 threshold can save $300 of freight, but only on goods the plan actually wanted.",
+      "whyItMatters": "Order-writing questions ask whether to round an order up to the threshold, and the answer has to weigh the freight saved against inventory the open-to-buy never planned.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BTDM"
+      ],
+      "confusableWith": [
+        "fob-destination",
+        "quantity-break-point"
+      ]
+    }
+  ]
+}

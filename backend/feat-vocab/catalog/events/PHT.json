@@ -1,0 +1,348 @@
+{
+  "code": "PHT",
+  "terms": [
+    {
+      "term": "Overnight visitor",
+      "definition": "Counted only when a trip outside the usual environment lasts at least one night but under twelve months, and the main purpose is not paid work for an employer resident in the place visited — all three tests must hold or the trip is not tourism at all.",
+      "whyItMatters": "Exam items hand you a traveller profile — a consultant on a two-year posting, a student on a nine-month exchange — and ask whether the destination may count the person in its arrivals; only the twelve-month and employment tests settle it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "same-day-visitor",
+        "usual-environment",
+        "bed-night"
+      ]
+    },
+    {
+      "term": "Same-day visitor",
+      "definition": "Crosses into the destination and leaves without an overnight stay, so the trip enters visitor arrivals but produces zero bed-nights — which is why a cruise or border town can post huge arrival counts against almost no lodging demand.",
+      "whyItMatters": "A roleplay where a port town brags about 400,000 arrivals but its hotels sit at 45% occupancy is solved by separating same-day visitors from overnight ones before recommending any lodging investment.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "overnight-visitor",
+        "bed-night",
+        "average-length-of-stay"
+      ]
+    },
+    {
+      "term": "Usual environment",
+      "definition": "Bounded by routine rather than distance — places a person reaches frequently and habitually, such as the commute to work or school and regular shopping trips, are inside it, so those journeys are never tourism no matter how many miles or borders they cross.",
+      "whyItMatters": "Statistics questions ask why a worker crossing a national border daily is excluded from tourism counts while a resident's weekend trip 40 miles away is included; frequency, not mileage, draws that line.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "overnight-visitor",
+        "same-day-visitor",
+        "visiting-friends-and-relatives"
+      ]
+    },
+    {
+      "term": "Tourism satellite account",
+      "definition": "Standardized set of national-accounting tables that sizes tourism by matching visitor demand against each supplying industry's output, because tourism is a demand-side concept and therefore has no industry line of its own in the national accounts.",
+      "whyItMatters": "When a case asks how a country can claim tourism is 8% of GDP with no 'tourism industry' in its statistics, the answer is the satellite account's demand-to-supply reconciliation, not a survey.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "tourism-ratio",
+        "tourism-direct-gross-domestic-product"
+      ]
+    },
+    {
+      "term": "Tourism ratio",
+      "definition": "For one product or industry, the share of its total domestic supply that visitors actually buy — internal tourism consumption divided by total supply — so a restaurant sector at 0.22 has 22% of its output attributed to tourism.",
+      "whyItMatters": "Any exam item that asks how much of a city's restaurant or taxi revenue counts as tourism is answered by applying this ratio, not by counting the businesses that call themselves tourist-facing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "tourism-satellite-account",
+        "tourism-direct-gross-domestic-product"
+      ]
+    },
+    {
+      "term": "Tourism direct gross domestic product",
+      "definition": "Sums each industry's gross value added multiplied by its tourism ratio, plus net taxes on tourism products, so only the visitor-served slice of every supplier counts — deliberately excluding the supplier-chain and wage-respending effects some lobby figures fold in.",
+      "whyItMatters": "A judge asking why an association's '10% of GDP' claim differs from the government's 4% is testing whether you know the direct measure stops before indirect and induced contributions.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "tourism-ratio",
+        "tourism-satellite-account"
+      ]
+    },
+    {
+      "term": "Bed-night",
+      "definition": "One person spending one night, so a couple staying three nights in a single room generates six of them against only three room-nights — the unit almost every destination statistic is divided by, and the reason per-unit figures differ wildly depending on which one was used.",
+      "whyItMatters": "Comparing an occupancy report to a destination's visitor-spend-per-night figure goes wrong immediately unless you notice one counts rooms and the other counts people.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "average-length-of-stay",
+        "same-day-visitor",
+        "tourism-penetration-rate"
+      ]
+    },
+    {
+      "term": "Average length of stay",
+      "definition": "Total guest-nights divided by total arrivals, which means a destination raises it only by keeping the same visitors longer — adding arrivals with the same trip pattern leaves it flat while multiplying congestion and arrival-processing cost.",
+      "whyItMatters": "In a roleplay where a bureau wants higher yield without more crowding, this is the metric you move, and you must show the division to prove new arrivals would not do it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "bed-night",
+        "same-day-visitor"
+      ]
+    },
+    {
+      "term": "Tourism penetration rate",
+      "definition": "Expresses visitor pressure as the average number of visitors present on a typical day per 1,000 residents — annual bed-nights divided by 365, divided by resident population, times 1,000 — so a small island can outrank a capital city that hosts far more people.",
+      "whyItMatters": "Carrying-capacity and resident-sentiment questions require a per-resident measure; raw arrival totals rank destinations by size and hide exactly the pressure the question is about.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "tourist-function-index",
+        "physical-carrying-capacity",
+        "bed-night"
+      ]
+    },
+    {
+      "term": "Tourist function index",
+      "definition": "Tourist bed places times 100, divided by resident population: below 10 the place is barely a destination, and above 100 there are more tourist beds than residents, the accepted quantitative line for a community whose housing stock now serves visitors first.",
+      "whyItMatters": "Asked to justify a short-term-rental cap to a town council, the 100 threshold turns 'too touristy' into a defensible number the council can legislate against.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "tourism-penetration-rate",
+        "physical-carrying-capacity"
+      ]
+    },
+    {
+      "term": "Gini coefficient of seasonality",
+      "definition": "Reads the Lorenz curve of monthly arrivals as a single figure from 0, where every month is identical, to 1, where a year's demand lands in one month — letting a 200,000-visitor town and a 20-million city be compared on concentration alone.",
+      "whyItMatters": "Peak-month share flatters big destinations; when a case asks which of two resorts has the worse seasonality problem, the concentration figure is the only comparison that survives the size difference.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "tourism-penetration-rate",
+        "average-length-of-stay"
+      ]
+    },
+    {
+      "term": "Physical carrying capacity",
+      "definition": "Site area divided by the space one visitor needs, multiplied by daily turnover — open hours divided by average visit length — giving the absolute ceiling of bodies a site can hold in a day before any ecological or social correction is applied.",
+      "whyItMatters": "A roleplay capping daily entries to a historic site expects the arithmetic: a 2,000 m2 courtyard at 4 m2 per visitor, open 10 hours with 2-hour visits, is 500 x 5 = 2,500 visitors, then corrected downward.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "limits-of-acceptable-change",
+        "tourism-penetration-rate",
+        "tourist-function-index"
+      ]
+    },
+    {
+      "term": "Chain scale",
+      "definition": "Segments brands — never individual properties — into luxury, upper upscale, upscale, upper midscale, midscale and economy by the brand's system-wide average room rate, so a flagship and a roadside unit of the same flag are reported in the same tier, and independents are classed separately regardless of price.",
+      "whyItMatters": "Building a competitive comparison, students wrongly slot a high-rate suburban property into luxury; the segment follows the flag, and a misassigned tier invalidates every benchmark drawn from it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "hotelstars-union-classification",
+        "forbes-travel-guide-star-rating"
+      ]
+    },
+    {
+      "term": "Hotelstars Union classification",
+      "definition": "Awards European stars from a points catalogue with mandatory minimums per class — roughly 90 points for one star, 170 for two, 250 for three, 380 for four and 570 for five — and revalidates every three years, so stars there are earned against a checklist, not assigned by a magazine.",
+      "whyItMatters": "A guest disputing that a German three-star is 'worse' than an American one is answered by explaining that European stars measure facilities against a points minimum while U.S. ratings measure inspected service.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "forbes-travel-guide-star-rating",
+        "chain-scale"
+      ]
+    },
+    {
+      "term": "Forbes Travel Guide star rating",
+      "definition": "Scored by anonymous unannounced inspectors against roughly 900 objective standards, weighted about 75% toward service delivery and only 25% toward facilities — which is why a modest property can out-rate a lavish one that fails on staff interaction.",
+      "whyItMatters": "When an owner proposes a renovation to chase a fifth star, the weighting tells you training and service recovery move the score far more than marble does.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "hotelstars-union-classification",
+        "chain-scale"
+      ]
+    },
+    {
+      "term": "Innkeeper's lien",
+      "definition": "Right to retain a non-paying guest's baggage as security for the bill without going to court first, and after statutory notice to sell it — a possessory remedy that dies the moment the property leaves the hotel's hands, and that in most states cannot reach clothing the guest is wearing.",
+      "whyItMatters": "A judge asking what a front-office manager may do when a departing guest refuses to settle expects this remedy and its limits, not a threat to call police over a civil debt.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "limiting-liability-statute",
+        "infra-hospitium",
+        "transient-occupancy-threshold"
+      ]
+    },
+    {
+      "term": "Limiting liability statute",
+      "definition": "Caps what a hotel owes for a guest's valuables, commonly a few hundred to a thousand dollars, but only if the property actually offers a safe and posts the statute conspicuously where guests will see it — miss the posting and common-law liability as an insurer of guest goods returns in full.",
+      "whyItMatters": "In a lost-jewelry roleplay the whole answer turns on whether the notice was posted in the guest room and at registration; the cap is not automatic.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "infra-hospitium",
+        "innkeeper-s-lien"
+      ]
+    },
+    {
+      "term": "Infra hospitium",
+      "definition": "Latin test for whether goods are 'within the inn' — once the property accepts custody, as when a bellhop takes luggage before check-in or valet parks a car, strict liability attaches even though the guest has not yet registered or has already checked out.",
+      "whyItMatters": "Claims for a car emptied in valet parking or bags stolen from the bell stand hinge on custody, not on whether the person was a registered guest at that moment.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "limiting-liability-statute",
+        "innkeeper-s-lien"
+      ]
+    },
+    {
+      "term": "Transient occupancy threshold",
+      "definition": "Number of consecutive nights — commonly 30 in U.S. jurisdictions — after which an occupant stops being a guest and becomes a tenant, at which point lodging tax normally ceases and removal requires a court eviction instead of a lockout.",
+      "whyItMatters": "A long-stay resident refusing to leave cannot lawfully be locked out once past the threshold, and the exam tests whether you know the day count changed the legal relationship.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "innkeeper-s-lien",
+        "infra-hospitium"
+      ]
+    },
+    {
+      "term": "ADA guest room scoping",
+      "definition": "Sets required accessible rooms by property size on a fixed table — 1 for a 25-room hotel, 2 up to 50, 4 up to 75, 5 up to 100 — with roll-in shower rooms required only once a property passes 50 rooms, and the counts dispersed across room types and rates.",
+      "whyItMatters": "Asked whether a planned 60-room build complies, you need the table and the dispersion rule; a designer who puts all accessible rooms in the cheapest category still fails.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "hotelstars-union-classification"
+      ]
+    },
+    {
+      "term": "Tarmac delay rule",
+      "definition": "Requires a carrier to give passengers a chance to leave the aircraft after three hours on a domestic flight and four on an international one, with food and water by the two-hour mark and working lavatories throughout, enforced by per-passenger civil penalties.",
+      "whyItMatters": "Handling stranded arrivals in a group-travel roleplay, you must know the deplaning clock and the two-hour service duty before advising a client what the airline owes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "denied-boarding-compensation",
+        "montreal-convention-baggage-liability-limit"
+      ]
+    },
+    {
+      "term": "Montreal Convention baggage liability limit",
+      "definition": "Caps an international carrier's exposure for lost, damaged or delayed bags at roughly 1,288 special drawing rights per passenger, and the claim is barred unless filed in writing within 7 days of damage or 21 days of delayed delivery — a currency-indexed ceiling, not a dollar one.",
+      "whyItMatters": "A client whose bag is destroyed abroad recovers nothing after the written-notice window closes, so the counselor's first act is calendar arithmetic, not a claim form.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "denied-boarding-compensation",
+        "tarmac-delay-rule"
+      ]
+    },
+    {
+      "term": "Irridex",
+      "definition": "Traces resident attitudes toward visitors through four deteriorating stages — euphoria, apathy, annoyance and antagonism — as tourism volume rises relative to community tolerance.",
+      "whyItMatters": "Community-relations roleplays about local backlash expect you to name the stage a town has reached before proposing a mitigation.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "tourism-area-life-cycle",
+        "limits-of-acceptable-change"
+      ]
+    },
+    {
+      "term": "Tourism area life cycle",
+      "definition": "Maps a destination's evolution through exploration, involvement, development, consolidation and stagnation, after which it either rejuvenates or declines — the branch point, not the sequence, is what management decisions turn on.",
+      "whyItMatters": "A destination case describing flat visitor numbers and aging infrastructure is asking you to identify stagnation and argue for a rejuvenation strategy.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "irridex",
+        "limits-of-acceptable-change"
+      ]
+    },
+    {
+      "term": "Modified American Plan",
+      "definition": "Room rate bundling breakfast plus one other meal, normally dinner — two meals, against three under the American Plan, a continental breakfast only under the Continental Plan, and none at all under the European Plan.",
+      "whyItMatters": "Quoting a resort package requires naming the plan precisely; a guest who expected lunch included under a two-meal plan produces exactly the complaint a service-recovery roleplay is built on.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "chain-scale"
+      ]
+    },
+    {
+      "term": "Limits of acceptable change",
+      "definition": "Replaces a single visitor-number ceiling with monitored indicators and an agreed standard for each, so management acts when an indicator crosses its standard rather than when a headcount is hit — conceding that any use causes change and only the amount is negotiable.",
+      "whyItMatters": "When a site's carrying-capacity number is politically impossible to enforce, this framework is the alternative you propose, and you must state the indicators you would monitor.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PHT"
+      ],
+      "confusableWith": [
+        "physical-carrying-capacity",
+        "tourism-penetration-rate"
+      ]
+    }
+  ]
+}

@@ -23,7 +23,6 @@
   /* neutrals */
   --muted: #6f665b;      /* warm gray body/eyebrow text */
   --line: #e6ddcb;       /* warm hairline / faint rules */
-  --dot: rgba(42, 38, 34, 0.07); /* sketchbook dot-grid */
 
   /* ---- theme-aware primitives (light defaults; dark blocks flip them) ---- */
   --highlight-blend: multiply;              /* <Highlight> swab blend (screen on dark) */
@@ -75,7 +74,6 @@
   --highlight-ink: #8a6300;
   --muted: #726757;           /* deepened for AA on recessed cream */
   --line: #ece0c8;
-  --dot: rgba(51, 41, 31, 0.07);
   --on-accent: #33291f;       /* espresso text on bright amber fills (cream fails at 2.5) */
   --frame-shadow: 0 10px 22px rgba(51, 41, 31, 0.12);
   /* difficulty tints inherit Classic's warm light palette (still reads on cream) */
@@ -98,7 +96,6 @@
   --highlight-ink: #fcd34d;
   --muted: #8b8f8a;
   --line: rgba(230, 230, 227, 0.14);
-  --dot: rgba(230, 230, 227, 0.08);
   --highlight-blend: screen;
   --btn-shadow: 2px 2px 0 0 color-mix(in srgb, var(--ink) 40%, transparent);
   --frame-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
@@ -127,7 +124,6 @@
   --highlight-ink: #ffe6a0;
   --muted: #a7b6ce;
   --line: rgba(242, 247, 252, 0.18);
-  --dot: rgba(242, 247, 252, 0.1);
   --highlight-blend: screen;
   --frame-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
   --snow: rgba(245, 250, 255, 0.95);
@@ -157,7 +153,6 @@
   --highlight-ink: #866200;
   --muted: #6a7263;
   --line: #d9e8cf;
-  --dot: rgba(43, 51, 39, 0.07);
   --on-accent: #f6fbf2;        /* near-white on the green fills */
   --frame-shadow: 0 10px 22px rgba(43, 51, 39, 0.1);
   /* difficulty tints inherit Classic's warm light palette (reads on mint cream) */
@@ -184,7 +179,6 @@
   --highlight-ink: #855200;
   --muted: #7a5751;            /* warm taupe (deepened for AA on apricot) */
   --line: #f1d2bb;
-  --dot: rgba(58, 35, 51, 0.07);
   --on-accent: #fff4ec;        /* warm white on the coral fills */
   --frame-shadow: 0 10px 22px rgba(58, 35, 51, 0.12);
   /* difficulty tints inherit Classic's warm light palette (reads on apricot) */
@@ -314,13 +308,6 @@ body {
 @utility dashed-rule {
   border: none;
   border-top: 1.5px dashed var(--line);
-}
-
-/* Sketchbook dot-grid — friendly, modern; not ruled notebook paper. */
-@utility dot-grid {
-  background-image: radial-gradient(var(--dot) 1.3px, transparent 1.4px);
-  background-size: 22px 22px;
-  background-position: -11px -11px;
 }
 
 /* Faint paper grain for tactility (self-contained inline SVG turbulence). */

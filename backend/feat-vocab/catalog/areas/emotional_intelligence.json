@@ -10,39 +10,8 @@
       "whyItMatters": "It underlies teamwork, service, and conflict-resolution answers.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Self-esteem",
-      "definition": "A realistic sense of your own value and capabilities.",
-      "whyItMatters": "Strong self-esteem improves decision-making and leadership effectiveness.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Self-confidence",
-      "definition": "Belief in your ability to perform well and reach your goals.",
-      "whyItMatters": "Confidence persuades others and drives initiative in competitive settings.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Initiative",
-      "definition": "Taking independent action to solve problems or seize opportunities.",
-      "whyItMatters": "Initiative marks leaders who drive results without waiting for direction.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Integrity",
-      "definition": "Acting truthfully and holding to strong moral principles in all dealings.",
-      "whyItMatters": "Integrity builds the trust that a business reputation depends on.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Ethical dilemma",
@@ -50,31 +19,8 @@
       "whyItMatters": "Recognizing and resolving dilemmas is central to leadership and compliance.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Self-control",
-      "definition": "The ability to manage impulses, emotions, and reactions under pressure.",
-      "whyItMatters": "Self-control prevents costly mistakes and keeps interactions professional.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Adaptability",
-      "definition": "The capacity to adjust your approach and mindset when circumstances change.",
-      "whyItMatters": "Adaptability is vital for navigating market shifts and organizational change.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Empathy",
-      "definition": "Understanding another person's feelings, needs, or perspective.",
-      "whyItMatters": "Empathy strengthens customer relations and collaborative problem-solving.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Cultural sensitivity",
@@ -82,7 +28,8 @@
       "whyItMatters": "It lets a business serve diverse markets and build inclusive teams.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Conflict resolution",
@@ -90,7 +37,8 @@
       "whyItMatters": "Strong conflict resolution keeps teams cohesive and prevents escalation.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Negotiation",
@@ -98,7 +46,8 @@
       "whyItMatters": "Negotiation determines outcomes in sales, contracts, and partnerships.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Consensus building",
@@ -106,15 +55,8 @@
       "whyItMatters": "It secures team alignment and commitment to shared decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Leadership",
-      "definition": "Influencing and guiding others toward shared objectives.",
-      "whyItMatters": "Leadership is essential for managing teams, setting strategy, and delivering results.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Ethical leadership",
@@ -122,14 +64,652 @@
       "whyItMatters": "It builds organizational trust and sets the tone for employee behavior.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Goleman's four-domain model of emotional intelligence",
+      "definition": "Sorts emotional competence into four domains — self-awareness, self-management, social awareness, relationship management — arranged as a 2x2 grid: the left column is personal competence (handling yourself), the right column is social competence (handling others), the top row is recognition and the bottom row is regulation. It is a mixed model of learnable workplace competencies, so it is assessed with a 360-degree rater inventory rather than with a right-answer test.",
+      "whyItMatters": "An exam item that lists four manager behaviors and asks which one is social awareness rather than relationship management is scored against this grid, and a management roleplay judge expects a candidate to name which domain a weakness sits in before proposing the fix.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "mayer-salovey-four-branch-ability-model",
+        "emotional-intelligence",
+        "trait-emotional-intelligence"
       ]
     },
     {
-      "term": "Teamwork",
-      "definition": "Collaborating toward a common goal by leveraging each member's strengths.",
-      "whyItMatters": "Teamwork multiplies output; most business scenarios require collaboration.",
+      "term": "Mayer-Salovey four-branch ability model",
+      "definition": "Treats emotional intelligence as a genuine intelligence with four ranked branches — perceiving emotion, using emotion to facilitate thinking, understanding how emotions combine and change, and managing emotion — and measures it with the MSCEIT, a maximum-performance test whose items are scored against consensus or expert norms instead of asking a person to rate themselves.",
+      "whyItMatters": "Exam questions that contrast the two dominant EI frameworks turn on this: this one is an ability test with scoreable answers, while the competency model is a rated inventory of habits, and picking the wrong one loses the item.",
+      "difficulty": "hard",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "goleman-s-four-domain-model-of-emotional-intelligence",
+        "trait-emotional-intelligence"
+      ]
+    },
+    {
+      "term": "Trait emotional intelligence",
+      "definition": "Emotional self-perception measured as a personality disposition: instruments such as the TEIQue ask a person to agree or disagree with statements about themselves across roughly fifteen facets, so the score records self-belief and overlaps heavily with the Big Five. Ability EI, by contrast, is scored on correct answers to emotion problems, which is why the two kinds of measure correlate only weakly with each other.",
+      "whyItMatters": "A human resources roleplay in which a candidate proposes an EI screen for hiring is judged on knowing that a self-report inventory can be gamed by an applicant while a performance test cannot.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "mayer-salovey-four-branch-ability-model",
+        "big-five-personality-model"
+      ]
+    },
+    {
+      "term": "Thomas-Kilmann conflict modes",
+      "definition": "Maps five ways of handling a disagreement — competing, collaborating, compromising, avoiding and accommodating — on two axes: assertiveness, meaning concern for your own outcome, and cooperativeness, meaning concern for the other party's. Collaborating is high on both and costs the most time; compromising sits at the middle of both and splits the difference, so treating those two as synonyms is the classic wrong answer.",
+      "whyItMatters": "Conflict roleplays name a deadline, and the judge wants the mode matched to it — collaborate when the relationship and the outcome both matter and time exists, compromise when it does not.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "conflict-resolution",
+        "consensus-building"
+      ]
+    },
+    {
+      "term": "Johari window",
+      "definition": "Divides what is known about a person into four panes by crossing known-to-self against known-to-others: open, blind, hidden and unknown. Asking for feedback shrinks the blind pane, while voluntary self-disclosure shrinks the hidden pane — the two moves are not interchangeable, and only the first can surface a habit you cannot see in yourself.",
+      "whyItMatters": "A written item asking which pane a manager reduces by running a 360-degree review, and roleplays that ask a competitor to assess personal strengths and weaknesses, both depend on separating feedback from disclosure.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "situation-behavior-impact-feedback"
+      ]
+    },
+    {
+      "term": "Emotional labor",
+      "definition": "The work of managing your own feelings to satisfy an employer's display rules — the face the job requires — and it is performed two ways: surface acting, which puts on the expression while the underlying feeling is unchanged, and deep acting, which alters the felt emotion itself. Surface acting is the strategy repeatedly tied to higher exhaustion and turnover; deep acting is not.",
+      "whyItMatters": "A roleplay on staffing a long shift of difficult interactions is scored on recognizing that requiring a constant smile is a real cost to be scheduled around, not a free instruction.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "deep-acting",
+        "emotional-display-rules",
+        "burnout"
+      ]
+    },
+    {
+      "term": "Deep acting",
+      "definition": "Reinterpreting a situation until the required feeling is genuinely experienced, so expression and emotion match — as against surface acting, where a smile is layered over an unchanged feeling. The two produce the same visible behavior with opposite costs, because it is the mismatch inside surface acting, not the effort of acting, that drives exhaustion.",
+      "whyItMatters": "Coaching roleplays where a supervisor must help a frustrated employee face the public are graded on teaching the employee to reframe the customer's motive rather than just ordering a better face.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "emotional-labor",
+        "cognitive-reappraisal"
+      ]
+    },
+    {
+      "term": "Cognitive reappraisal",
+      "definition": "Reinterpreting a situation before the emotion peaks so that the feeling itself changes — an antecedent-focused move, as opposed to expressive suppression, which lets the feeling run and hides only the outward signal. Suppression is the costlier of the pair: it consumes attention, degrades memory of the conversation, and leaves internal arousal untouched.",
+      "whyItMatters": "An item asking which self-control tactic preserves a manager's recall of a hostile meeting expects reappraisal, and roleplays on composure reward reframing over a clenched poker face.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "deep-acting",
+        "amygdala-hijack"
+      ]
+    },
+    {
+      "term": "Cognitive empathy",
+      "definition": "Accurately modeling what another person is thinking and feeling without necessarily sharing the feeling — perspective-taking. Affective empathy is catching the feeling itself, and compassionate empathy adds the impulse to act; only this first form can be deployed deliberately in a negotiation, and it is the one that can be trained in a session.",
+      "whyItMatters": "Negotiation and conflict roleplays are graded on stating the other side's reasoning back to them accurately before arguing, which is this and not sympathy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "empathy",
+        "compassionate-empathy"
+      ]
+    },
+    {
+      "term": "Compassionate empathy",
+      "definition": "Understanding another person's state, being moved enough to care, and then acting to help — the third mode alongside cognitive and affective empathy. It is the form that produces a commitment rather than a mirror, and because it converts feeling into action it avoids the exhaustion that pure affective empathy causes in people who absorb distress all day.",
+      "whyItMatters": "Judges scoring a supervisor responding to a struggling employee award the answer that names the feeling and then commits to a specific change, not the one that only shares the distress.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "empathy",
+        "cognitive-empathy"
+      ]
+    },
+    {
+      "term": "Self-efficacy",
+      "definition": "Bandura's task-specific confidence that you can carry out a particular action, built from four sources in descending order of power — a personal mastery experience, watching a similar person succeed, verbal persuasion, and how one reads one's own physical arousal. Self-esteem, by contrast, is a global judgment of personal worth, so a person can hold high esteem and low efficacy on one specific task.",
+      "whyItMatters": "An item asking how a manager raises a nervous employee's confidence for a first presentation wants a staged small success rather than a pep talk, since mastery outranks persuasion.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "growth-mindset",
+        "imposter-phenomenon",
+        "locus-of-control"
+      ]
+    },
+    {
+      "term": "Fundamental attribution error",
+      "definition": "Over-weighting a person's character and under-weighting their circumstances when explaining someone else's behavior — the late colleague is careless rather than stuck behind an accident. Its mirror image applied to oneself is the self-serving bias, and together the pair make an appraisal reward good luck and punish bad context.",
+      "whyItMatters": "An exam item asking why a supervisor rates a rep poorly after a territory loses its largest account expects this bias by name, and roleplays on fair evaluation reward asking about conditions before judging the person.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "self-serving-bias",
+        "halo-effect"
+      ]
+    },
+    {
+      "term": "Halo effect",
+      "definition": "Letting one strong impression, often a single outstanding trait, lift every unrelated rating for the same person; its inverse, the horns effect, drags them all down from one bad impression. In an appraisal it shows up as suspiciously uniform scores across dimensions that ought to vary, and the standard counter is rating every employee on one dimension at a time before moving to the next.",
+      "whyItMatters": "An exam item that shows an evaluation form with identical scores in every category is testing this, and an HR roleplay on fixing a review process is scored on the dimension-by-dimension fix.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "confirmation-bias",
+        "fundamental-attribution-error"
+      ]
+    },
+    {
+      "term": "Pygmalion effect",
+      "definition": "A rise in performance produced by a supervisor's high expectations, transmitted through the extra coaching, harder assignments, longer response time and warmer feedback those expectations quietly cause — Rosenthal's finding that the expectation, not the measured ability, moved the outcome. Its negative twin, the Golem effect, does identical damage in the downward direction.",
+      "whyItMatters": "An item asking why two equally skilled new hires diverge under different supervisors expects this, and coaching roleplays are graded on assigning stretch work to the employee the manager privately doubts.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "emotional-contagion",
+        "stereotype-threat"
+      ]
+    },
+    {
+      "term": "French and Raven's five bases of power",
+      "definition": "Distinguishes five sources of influence — legitimate power from the position, reward power, coercive power, expert power from demonstrated knowledge, and referent power from personal respect — with the first three attached to the role and the last two to the individual. Expert and referent power produce commitment; coercive power produces compliance only while someone is watching.",
+      "whyItMatters": "A roleplay asking a new team lead with no formal authority to get cooperation is scored on building expert and referent power, and exam items on using power appropriately turn on that split.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "office-politics",
+        "trust-equation"
+      ]
+    },
+    {
+      "term": "Trust equation",
+      "definition": "Models trustworthiness as credibility plus reliability plus intimacy, all divided by self-orientation — so visibly acting in your own interest divides away everything the other three terms earn. Credibility is about words, reliability about repeated actions over time, and intimacy about safety in disclosure, which is why a person can be believable and still not be trusted.",
+      "whyItMatters": "A roleplay on rebuilding a client or coworker relationship is scored on lowering the self-orientation term — leading with their problem — rather than on producing more credentials.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "psychological-safety",
+        "rapport"
+      ]
+    },
+    {
+      "term": "Principled negotiation",
+      "definition": "Fisher and Ury's method built on four rules — separate the people from the problem, focus on interests instead of stated positions, invent options for mutual gain before deciding anything, and insist on an objective standard for the outcome. A position is what a party demands; the interest is why they want it, and only the interest can usually be satisfied in more than one way.",
+      "whyItMatters": "Negotiation roleplays are scored on surfacing the reason behind a demand and offering two options that meet it, which positional haggling over one number cannot produce.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "negotiation",
+        "batna",
+        "consensus-building"
+      ]
+    },
+    {
+      "term": "BATNA",
+      "definition": "Short for best alternative to a negotiated agreement: the course of action you would actually take if these talks failed, which is what sets real bargaining power. It is not the price target and not the reservation price — the reservation price is the worst deal still worth accepting, derived from the alternative — and improving the outside option raises your power even if nothing at the table changes.",
+      "whyItMatters": "A supplier or salary negotiation roleplay is scored on the candidate knowing their walk-away option and estimating the other side's before conceding.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "principled-negotiation",
+        "negotiation"
+      ]
+    },
+    {
+      "term": "Radical candor",
+      "definition": "Scott's grid crossing caring personally with challenging directly: high on both is candor, caring without challenging is ruinous empathy that withholds the correction that would have helped, challenging without caring is obnoxious aggression, and neither is manipulative insincerity. The named failure most managers actually commit is the first, not harshness.",
+      "whyItMatters": "A roleplay where a well-liked employee is quietly underperforming is scored on delivering the specific correction, since softening it to protect the relationship is the graded mistake.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "situation-behavior-impact-feedback",
+        "assertiveness"
+      ]
+    },
+    {
+      "term": "Active constructive responding",
+      "definition": "Gable's strongest of four ways to answer someone's good news, formed by crossing active with passive and constructive with destructive: responding actively and constructively means asking questions that let the person relive the event, while passive-constructive is a flat nice job, active-destructive points out the downside, and passive-destructive changes the subject. Only the first strengthens the relationship.",
+      "whyItMatters": "Roleplays on recognizing a team member's contribution are scored on a specific, curious response in the moment rather than a generic congratulation or a deferred award.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "active-listening",
+        "overjustification-effect"
+      ]
+    },
+    {
+      "term": "Self-determination theory",
+      "definition": "Deci and Ryan's account of motivation as three psychological needs — autonomy, competence and relatedness — plus a continuum running from purely external regulation through introjected and identified regulation to fully internalized motivation. Motivation is therefore a location on that continuum rather than an amount, and only the internalized end keeps working once the supervisor stops watching.",
+      "whyItMatters": "An item asking why a bonus program stopped producing results, or a roleplay on motivating a team without extra budget, is scored on giving choice, competence feedback and belonging instead of raising the payout.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "overjustification-effect",
+        "mcclelland-s-acquired-needs-theory",
+        "expectancy-theory"
+      ]
+    },
+    {
+      "term": "Overjustification effect",
+      "definition": "The measured loss of an activity's intrinsic appeal after an expected external reward is introduced and later withdrawn — the person rereads their own reason for acting as having done it for the payment. Rewards that arrive unexpectedly, or that carry information about competence rather than control, do not produce the same crowding out, which is why a surprise thank-you outperforms a standing bounty.",
+      "whyItMatters": "A roleplay proposing an incentive for a task employees already enjoy is scored on anticipating this backfire, and exam items on recognizing contributions reward unexpected, informational recognition.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ],
+      "confusableWith": [
+        "self-determination-theory",
+        "active-constructive-responding"
+      ]
+    },
+    {
+      "term": "Expressive suppression",
+      "definition": "Damping an emotion after it has already arrived by hiding its outward signs, rather than changing the interpretation that produced it. Because it is applied late, it leaves the physiological arousal fully intact, raises blood pressure in the person watching as well, and measurably impairs memory for what was said during the episode -- the opposite profile from cognitive reappraisal, which is applied early and carries none of those costs.",
+      "whyItMatters": "When a Human Resources Management Series judge asks how you would hold composure while an employee vents about a denied raise, an answer built on hiding what you felt names the strategy research links to worse recall of the conversation; the scoring answer reinterprets the outburst before it peaks.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "cognitive-reappraisal",
+        "deep-acting",
+        "emotional-labor"
+      ]
+    },
+    {
+      "term": "Affective empathy",
+      "definition": "Catching and sharing another person's feeling state directly instead of inferring it from the outside. It is the branch that reliably triggers helping in the moment, and also the branch that exhausts the helper: compassion fatigue in caregiving and front-line service tracks affective empathy, not the cognitive kind, which is why high-empathy staff burn out faster than indifferent ones.",
+      "whyItMatters": "Hospitality and Human Resources roleplays that ask you to coach a front-desk team through a month of hostile guests are scored on whether your plan protects the staff who feel the most, and naming which branch of empathy causes the burnout is what separates a top answer from a sympathetic one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "cognitive-empathy",
+        "compassionate-empathy",
+        "empathic-distress"
+      ]
+    },
+    {
+      "term": "Empathic distress",
+      "definition": "The self-focused, aversive reaction to witnessing suffering -- an urge for the discomfort to stop that pushes a person to look away, shorten the conversation or avoid the department entirely. Compassion is its other-focused counterpart and moves behavior the opposite way, toward approach and helping; training studies show the two run on different neural systems, so the fix for a withdrawing manager is compassion practice, not more exposure.",
+      "whyItMatters": "In a Business Law and Ethics Team Decision Making case where a manager keeps avoiding the employee they had to discipline, naming avoidance as distress rather than indifference is what lets you recommend a remedy the judge scores as insight instead of a lecture on caring more.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "compassionate-empathy",
+        "affective-empathy"
+      ]
+    },
+    {
+      "term": "Emotional granularity",
+      "definition": "The precision with which a person tells their own states apart -- 'slighted', 'apprehensive' and 'resentful' rather than one undifferentiated 'bad'. It is not vocabulary for its own sake: people high in it need fewer and less extreme regulation strategies, retaliate less when provoked in lab aggression tasks, and drink less to cope, so the act of discriminating the state does regulatory work by itself.",
+      "whyItMatters": "Business Administration Core exam items on self-assessment reward the competitor who can say what specifically went wrong in a conflict; a roleplay answer that reports feeling 'stressed' scores below one that separates being overloaded from being undermined, because the two call for different actions.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "alexithymia",
+        "affect-labeling"
+      ]
+    },
+    {
+      "term": "Affect labeling",
+      "definition": "Putting a feeling into words as an implicit regulation move. Naming the state lowers amygdala response and self-reported intensity, yet people asked in advance predict the opposite -- that saying it out loud will make it worse -- which is why the technique is deliberately taught and does not get used spontaneously. It is not venting, which rehearses the emotion at length and tends to raise arousal instead.",
+      "whyItMatters": "When a roleplay judge plays an escalating customer or a blindsided direct report, opening by naming the other person's state out loud is a scoreable de-escalation move; competitors who default to defending the policy first talk into a rising emotion.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "emotional-granularity",
+        "cognitive-reappraisal"
+      ]
+    },
+    {
+      "term": "Alexithymia",
+      "definition": "A trait-level difficulty identifying and describing one's own feelings, paired with an externally oriented thinking style; measured on the 20-item Toronto scale and present in roughly one in ten adults. It is not suppression and not coldness -- the states are experienced physically, as fatigue or a knotted stomach, and simply cannot be named, so telling such a person to open up produces a description of events rather than of feeling.",
+      "whyItMatters": "Business Administration Core items on assessing personal strengths test whether you know that a teammate who reports nothing when asked how a project felt may be unable to name it rather than unwilling; the Human Resources roleplay remedy is a written checklist of options, not more probing questions.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "emotional-granularity",
+        "expressive-suppression"
+      ]
+    },
+    {
+      "term": "Hot-cold empathy gap",
+      "definition": "A systematic failure to predict how a different visceral state will drive behavior. The gap runs within one person across states, not between two people: the same competitor, calm, underestimates what anger, hunger, fear or a ticking clock will make them concede, and having previously been in the hot state does not repair the forecast. It is why rules set in advance beat intentions set in advance.",
+      "whyItMatters": "Competitors rehearse a price floor calmly and then give away margin under a hostile buyer in the ten minutes of a Marketing or Business Services roleplay; writing the walk-away number down before the prep clock starts is the countermeasure this concept prescribes.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "batna",
+        "impact-bias"
+      ]
+    },
+    {
+      "term": "Ego depletion",
+      "definition": "The claim that self-control draws on one limited resource that earlier exertion uses up. The original effects were large, but a 2016 multi-lab registered replication with over 2,000 participants found the effect near zero, and the defensible version now is motivational: people who believe willpower is limited show the drop-off and people who do not, largely do not. Citing the fuel-tank version as settled fact is the error.",
+      "whyItMatters": "Stress-management questions on the Business Administration Core exam still offer 'willpower runs out' as a distractor; knowing the replication result is what keeps you from choosing it, and from building a roleplay schedule recommendation on a decision-fatigue premise a judge with a psychology background will not accept.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "burnout",
+        "yerkes-dodson-law"
+      ]
+    },
+    {
+      "term": "Yerkes-Dodson law",
+      "definition": "Arousal and performance trace an inverted U rather than a straight line, and the peak moves with task difficulty: simple, well-practiced work peaks at high arousal, while complex or unfamiliar work peaks at markedly lower arousal. The practical consequence is counterintuitive -- getting keyed up helps most on the easy task and hurts most on the hard one, so pep talks are misapplied precisely where the stakes are highest.",
+      "whyItMatters": "Presenting a rehearsed 60-second close benefits from adrenaline; solving an unfamiliar Team Decision Making case in the prep room does not, and exam items on stress management test whether you can pick the right side of that curve for a named task.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "ego-depletion",
+        "challenge-and-threat-appraisal"
+      ]
+    },
+    {
+      "term": "Challenge and threat appraisal",
+      "definition": "Within the transactional model of stress, the same demand is coded as a challenge when perceived resources meet or exceed it and as a threat when they fall short. The two states are physiologically opposite -- challenge raises cardiac output while blood vessels dilate, threat constricts them -- and challenge predicts better performance under identical objective pressure, so the leverage point is the resource estimate, not the demand.",
+      "whyItMatters": "Coaching a nervous teammate before a Team Decision Making presentation works by listing what the team already has, not by insisting the case is easy; exam items on stress management reward the answer that changes the appraisal rather than the workload.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "yerkes-dodson-law",
+        "self-efficacy"
+      ]
+    },
+    {
+      "term": "Learned helplessness",
+      "definition": "Passivity that persists after control returns, following exposure to events the person could not control. The 2016 reversal by the original researchers matters more than the classic story: passivity turns out to be the unlearned default under prolonged bad events, and what is actually acquired is the detection of control. The opposite style is scored on three axes -- whether a setback is read as permanent, as pervasive across life, and as personal.",
+      "whyItMatters": "A Human Resources roleplay about a team that stopped submitting ideas after two years of vetoes is solved by restoring a visible, controllable decision, not by a motivation speech -- and Business Administration Core items on maintaining a positive attitude test the three-axis explanation, not vague optimism.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "self-efficacy",
+        "brooding-rumination"
+      ]
+    },
+    {
+      "term": "Brooding rumination",
+      "definition": "Passive, self-critical dwelling on the causes of a bad feeling -- 'why do I always'. Splitting self-focused thought into brooding and reflective pondering is the point: only the brooding component predicts later depressive symptoms, while reflection is neutral or mildly protective. So 'thinking it over' is two different behaviors with opposite outcomes, and the sortable difference is whether the thought is aimed at a cause or at a next action.",
+      "whyItMatters": "Feedback-handling items on the Business Administration Core exam and roleplays that ask you to debrief a lost account both reward turning a replay of the failure into one named change; a competitor who describes going over it again and again is describing the harmful half.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "learned-helplessness",
+        "cognitive-reappraisal"
+      ]
+    },
+    {
+      "term": "Positivity ratio",
+      "definition": "The proposed tipping point of positive to negative interactions above which a team or relationship flourishes, popularized as a precise 2.9013 to 1. The exact figure was withdrawn in 2013 after the nonlinear-dynamics mathematics behind it was shown to be invalid, leaving a real but coarse finding: more positive than negative helps, and the specific number does not survive scrutiny. Quoting the decimal as science is the trap.",
+      "whyItMatters": "Judges hear the tidy ratio in motivation and team-climate roleplays every year; recommending a deliberate surplus of recognition over correction while declining to name a magic number is the answer that holds up if a judge asks where the figure comes from.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "employee-engagement",
+        "active-constructive-responding"
+      ]
+    },
+    {
+      "term": "Dunning-Kruger effect",
+      "definition": "Low performers overestimate their rank while top performers underestimate theirs, because judging one's own competence requires the very competence being judged. The popular version -- that the least able believe they are experts -- is wrong on the data: absolute self-ratings cluster near average across every quartile, the error is in relative rank, and part of the pattern is ordinary regression to the mean.",
+      "whyItMatters": "Business Administration Core items on assessing strengths and weaknesses use the misstatement as a distractor, and a self-evaluation roleplay is scored on whether you seek an outside measure -- a score, a manager's rating -- rather than trusting a self-estimate.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "self-serving-bias",
+        "self-efficacy"
+      ]
+    },
+    {
+      "term": "Planning fallacy",
+      "definition": "Underestimating how long one's own project will take while knowing perfectly well that similar projects overran. Students who named a completion date they were 99% certain of met it only about 45% of the time. The correction is not more detail but the outside view: forecast from the distribution of comparable finished projects instead of from the steps of this plan, since added detail makes the inside view more convincing without making it more accurate.",
+      "whyItMatters": "Team Decision Making cases that ask for an implementation timeline are scored on defensibility, and a schedule justified by how long the last three comparable rollouts took beats a task-by-task estimate a judge can poke a hole in.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "escalation-of-commitment",
+        "impact-bias"
+      ]
+    },
+    {
+      "term": "Escalation of commitment",
+      "definition": "Continuing to fund a failing course of action in order to justify having chosen it. The dividing line from the sunk-cost fallacy is who is deciding: sunk cost is the reasoning error of counting unrecoverable spend at all, and anyone can make it, while escalation is the behavioral pattern driven by personal responsibility -- managers who personally picked the losing project invest substantially more in it than managers who inherited the same project.",
+      "whyItMatters": "The structural fix a judge is listening for in a case about a doomed store opening is handing the continue-or-kill call to someone who did not make the original decision; recommending only 'ignore what we already spent' answers the smaller half of the problem.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "planning-fallacy",
+        "cost-benefit-analysis"
+      ]
+    },
+    {
+      "term": "Endowment effect",
+      "definition": "Ownership raises valuation: in the classic mug experiments sellers demanded roughly twice what buyers would pay for the identical item, minutes after the mugs were handed out at random. Ordinary supply and demand predicts no such gap, and loss aversion supplies the mechanism -- giving up what you hold is coded as a loss rather than as forgone gain, which is also why a free trial and a trade-in allowance both move the price a buyer accepts.",
+      "whyItMatters": "In a negotiation roleplay, letting the other side describe the arrangement as theirs before you ask them to change it costs you money; the tested application is sequencing the concession before the sense of ownership forms.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "anchoring-effect",
+        "principled-negotiation"
+      ]
+    },
+    {
+      "term": "Psychological reactance",
+      "definition": "Motivational push-back triggered by a perceived restriction on a freedom, which makes the restricted option more attractive rather than less -- the boomerang result seen when warning labels raise interest and mandates raise resistance. It is distinguishable from ordinary disagreement because the target's preference shifts even when they had no prior stake in the option, so the intensity is about the constraint, not the content.",
+      "whyItMatters": "Leading-change roleplays hinge on this: announcing a mandatory new system produces opposition from people who never used the old one, and the scoring move is to restore a real choice -- rollout timing, pilot team, tool configuration -- rather than to re-explain the rationale.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "kotter-s-eight-step-change-model",
+        "persuade-others"
+      ]
+    },
+    {
+      "term": "Illusion of transparency",
+      "definition": "Overestimating how visible one's internal state is to other people. Speakers certain their nervousness was obvious are rated no more nervous than calm speakers by the audience, and people telling a lie believe they are being read far more than they are. The error concerns inner states specifically -- nerves, doubt, irritation -- which is what separates it from the parallel mistake about outward appearance and conduct.",
+      "whyItMatters": "A competitor convinced the judge can see their hands shaking starts apologizing for nerves that were never detected, spending scoring time on damage control; the counter is to keep delivering the presentation as planned because the leak is far smaller than it feels.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "spotlight-effect",
+        "self-efficacy"
+      ]
+    },
+    {
+      "term": "Spotlight effect",
+      "definition": "Overestimating how much observers notice and later recall one's appearance and actions. Wearers of an embarrassing shirt guessed about half the room could identify it; roughly a quarter could. Unlike the illusion of transparency, the misjudgment is about what is visible on the outside -- a stumble, a stain, an awkward entrance -- rather than about the feelings underneath, and the two are tested as a pair.",
+      "whyItMatters": "Fumbling the first line of a roleplay opener feels catastrophic and costs almost nothing on a judge's rubric; competitors who know the size of the gap recover in one sentence instead of carrying the mistake through the remaining nine minutes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "illusion-of-transparency"
+      ]
+    },
+    {
+      "term": "Actor-observer asymmetry",
+      "definition": "The proposed tendency to explain one's own behavior by circumstances and another's by disposition. It cannot be treated as a restatement of the fundamental attribution error, and the reason is empirical: a meta-analysis of 173 studies found the overall asymmetry close to zero, surfacing mainly for negative or unexpected events. The honest form of the claim is therefore conditional -- the split appears when something went wrong.",
+      "whyItMatters": "Bias-recognition items on the Business Administration Core exam use the unqualified version as a distractor, and a roleplay about a missed deadline is scored on asking what got in the way before assigning a trait, because that is exactly the case where the asymmetry does show up.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "fundamental-attribution-error",
+        "self-serving-bias",
+        "ultimate-attribution-error"
+      ]
+    },
+    {
+      "term": "Ultimate attribution error",
+      "definition": "Blaming an out-group's failures on what its members are like while writing off its successes as luck, special help or an exception -- and reversing both judgments for one's own group. The individual-level attribution error concerns one person; this is its group-level extension, and it is the specific mechanism by which a stereotype survives meeting a counterexample, since the counterexample gets filed away rather than counted.",
+      "whyItMatters": "Exam items on overcoming stereotypes reward naming the filing-as-exception move, and a Human Resources roleplay about a hiring panel that keeps calling qualified candidates from one school 'unusual for their program' is describing this error rather than open prejudice.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "fundamental-attribution-error",
+        "actor-observer-asymmetry",
+        "halo-effect"
+      ]
+    },
+    {
+      "term": "Impact bias",
+      "definition": "Overestimating both the intensity and the duration of a future emotional reaction; the duration half alone is the durability bias, and the two named causes are focalism -- attending only to the focal event and not to everything else that will fill the day -- and immune neglect, discounting how quickly one rationalizes an outcome. Lottery winners and people newly paralyzed converge far closer than either group predicts.",
+      "whyItMatters": "A risk-of-personal-decisions item asking whether a competitor should take a demanding promotion is testing this: the answer that survives is one that weighs the ordinary days after the change, not the peak of the reaction to it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "hot-cold-empathy-gap",
+        "planning-fallacy"
+      ]
+    },
+    {
+      "term": "Ethical fading",
+      "definition": "The moral dimension of a decision dropping out of the frame so it gets processed as a budget, legal or scheduling problem instead. The failure is not a person choosing wrong but a person never seeing a choice, which is why euphemism -- 'aggressive accounting', 'creative sourcing' -- is a diagnostic symptom rather than a cosmetic one. It also explains the prediction gap: in one study most participants said they would refuse or confront an improper interview question, and essentially none did when it happened.",
+      "whyItMatters": "Business Law and Ethics Team Decision Making cases are built on decisions already reframed as operational, and the scoring move is to restore the moral question out loud before analyzing the numbers; competitors who answer only the financial framing lose the ethics indicator entirely.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "moral-licensing",
+        "conflict-of-interest",
+        "ethical-dilemma"
+      ]
+    },
+    {
+      "term": "Moral licensing",
+      "definition": "Having just done or displayed something creditable makes the next questionable act easier, because the earlier one buys credit against the self-image. It runs opposite to the intuition that good behavior predicts more good behavior: participants who first endorsed a minority candidate afterward favored a white applicant more readily than participants given no chance to establish credentials, so the good act enabled the biased one.",
+      "whyItMatters": "In an ethics case where a firm cites its diversity award or its donation record while defending a questionable decision, naming the licensing pattern turns a weak 'that is irrelevant' into the analysis a judge scores; it also warns against recommending a visible ethics gesture as the whole remedy.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
+        "deca-domain:emotional_intelligence"
+      ],
+      "confusableWith": [
+        "ethical-fading",
+        "corporate-social-responsibility",
+        "greenwashing"
       ]
     }
   ]

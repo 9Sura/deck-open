@@ -1,0 +1,336 @@
+{
+  "code": "RFSM",
+  "terms": [
+    {
+      "term": "Menu mix percentage",
+      "definition": "An item's share of the units sold within its category, judged against fair share — 100% divided by the number of items in that category — with anything at or above 70% of fair share counted popular and everything below it unpopular.",
+      "whyItMatters": "A menu-engineering roleplay hands you a sales-mix sheet and asks which items to reprice or cut; without the 70%-of-fair-share cut line you cannot tell a star from a puzzle.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "plowhorse",
+        "contribution-margin-ratio"
+      ]
+    },
+    {
+      "term": "Plowhorse",
+      "definition": "A menu item that clears the popularity cut but earns below the weighted average contribution margin — it sells hard and pays little, so the response is a small price rise, a cheaper plate build or a repositioned description, never delisting.",
+      "whyItMatters": "Judges in a menu roleplay ask what to do with the best-selling item that makes the least money; recommending removal instead of a margin fix loses the point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "menu-mix-percentage",
+        "contribution-margin-per-unit"
+      ]
+    },
+    {
+      "term": "Menu price spread",
+      "definition": "The distance from the lowest to the highest price inside one menu category, kept near a 2.5-to-1 ratio so guests are not anchored on the cheapest plate and the mid-priced entrees still read as reasonable.",
+      "whyItMatters": "A menu-redesign roleplay that drops a $60 steak onto a $14-to-$24 entree list needs this ratio to explain why the whole category's sales mix slides toward the bottom.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "menu-mix-percentage",
+        "price-lining"
+      ]
+    },
+    {
+      "term": "Pricing factor method",
+      "definition": "Menu pricing that divides 100 by the target food cost percentage and multiplies the plate's raw cost by that multiplier: a 30% target gives a factor of 3.33, so a $4.20 plate prices at $14.00 before rounding to a psychological price point.",
+      "whyItMatters": "Hospitality exam pricing items give you a plate cost and a target food cost and expect the factor; guessing a markup produces a number the judge can check and reject.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "cost-plus-pricing",
+        "markup-on-cost"
+      ]
+    },
+    {
+      "term": "Food cost percentage",
+      "definition": "Cost of food sold divided by food sales for the same period, where cost of food sold is opening inventory plus purchases minus closing inventory minus transfers out — full-service targets run roughly 28% to 35%.",
+      "whyItMatters": "Every restaurant P&L roleplay opens with this ratio, and the inventory adjustment is the step competitors skip when they simply divide purchases by sales.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "theoretical-food-cost",
+        "pour-cost"
+      ]
+    },
+    {
+      "term": "Theoretical food cost",
+      "definition": "What the period's sales should have cost, built by multiplying each standardized recipe's cost by the number of that item sold; the gap against actual cost is the waste, over-portioning and theft line, and a variance past about one point gets investigated.",
+      "whyItMatters": "A shrinkage roleplay gives an actual food cost of 34% against an ideal of 30% and asks where four points went — the variance, not the raw percentage, is the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "food-cost-percentage",
+        "standard-cost"
+      ]
+    },
+    {
+      "term": "Yield percentage",
+      "definition": "Edible weight remaining after trimming, peeling and boning, divided by as-purchased weight: ten pounds of whole tenderloin trimming down to 6.5 pounds yields 65%, and every portion cost built on that item depends on the figure.",
+      "whyItMatters": "A purchasing roleplay comparing a pre-trimmed case against a whole one is decided here; without the yield the cheaper per-pound invoice price looks like the better buy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "edible-portion-cost",
+        "butcher-test"
+      ]
+    },
+    {
+      "term": "Edible portion cost",
+      "definition": "As-purchased price divided by the yield percentage, giving the true cost of the usable food — product bought at $8.00 a pound with a 65% yield actually costs $12.31 a pound on the plate.",
+      "whyItMatters": "Plate-costing questions supply an AP price and a yield and expect that division; carrying the AP price straight into the recipe understates every menu price built from it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "yield-percentage",
+        "landed-cost"
+      ]
+    },
+    {
+      "term": "Butcher test",
+      "definition": "A controlled fabrication of one primal that weighs every salable cut, the usable trim and the bone, assigns each a market value, and returns both a yield and a cost factor that reprices the item whenever the market price moves.",
+      "whyItMatters": "A purchasing roleplay choosing between whole primals and portion-cut steaks is settled by cost per servable pound from this test, not by the invoice price per pound.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "yield-percentage",
+        "edible-portion-cost"
+      ]
+    },
+    {
+      "term": "Q factor",
+      "definition": "The per-cover cost of everything served but never billed — bread and butter, condiments, the amuse, the lemon in the water — added onto each plate cost so menu prices actually recover it, typically a few cents to a dollar per guest.",
+      "whyItMatters": "A plate-costing roleplay that prices only the listed ingredients under-recovers on every cover; naming this add-on is what separates a costed menu from a guessed one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "standardized-recipe",
+        "edible-portion-cost"
+      ]
+    },
+    {
+      "term": "Pour cost",
+      "definition": "Beverage cost divided by beverage sales, tracked by category because the healthy bands differ — roughly 18% to 24% for liquor, higher for wine, lowest for draft beer — so one blended number hides which side of the bar is leaking.",
+      "whyItMatters": "A bar-shrinkage roleplay reporting a 32% liquor figure points at over-pouring, unrung drinks or comps; knowing the band is what lets you name the problem instead of describing it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "food-cost-percentage",
+        "beverage-inventory-turnover"
+      ]
+    },
+    {
+      "term": "Beverage inventory turnover",
+      "definition": "Cost of beverages sold divided by average beverage inventory for the period; a bar turning two to four times a month is holding about one to two weeks of stock, and a lower number is cash standing still on the shelf.",
+      "whyItMatters": "An inventory roleplay asks why a bar with strong sales has no cash to pay suppliers — the turn count measured against par levels is the evidence behind the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "inventory-turnover",
+        "pour-cost"
+      ]
+    },
+    {
+      "term": "Temperature danger zone",
+      "definition": "The 41°F to 135°F band in which pathogens on TCS food multiply fastest, with 70°F to 125°F the quickest stretch of all and four cumulative hours in the band the point at which the food is discarded rather than cooled.",
+      "whyItMatters": "Food-safety exam items hand you a holding log and ask what to serve and what to throw out; the two boundaries and the four-hour clock decide it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "time-temperature-control-for-safety-food",
+        "two-stage-cooling"
+      ]
+    },
+    {
+      "term": "Two-stage cooling",
+      "definition": "Cooked food has to fall from 135°F to 70°F within two hours and reach 41°F within four more, six hours in total; missing the first stage means reheating to 165°F and starting the clock over, not carrying on into the second stage.",
+      "whyItMatters": "A kitchen roleplay where a batch of chili reads 80°F two hours after service is testing whether you know stage one failed and the product must be reheated or dumped.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "temperature-danger-zone",
+        "critical-limit"
+      ]
+    },
+    {
+      "term": "Minimum internal cooking temperature",
+      "definition": "The pathogen-kill target measured at the thickest part: 165°F for 15 seconds for poultry and stuffed items, 155°F for 17 seconds for ground meat and eggs held for service, 145°F for 15 seconds for whole-muscle meat and seafood, and 135°F for produce cooked for hot holding.",
+      "whyItMatters": "Exam questions name a dish — a turkey burger, a stuffed pork chop, a seared scallop — and expect the correct one of these four numbers, not a general answer about cooking thoroughly.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "critical-limit",
+        "two-stage-cooling"
+      ]
+    },
+    {
+      "term": "Critical limit",
+      "definition": "The measurable maximum or minimum at a control point that separates safe from unsafe — 165°F for 15 seconds at the poultry cook step — and it is only complete when paired with who monitors it, how often, and the written corrective action when it is missed.",
+      "whyItMatters": "A HACCP roleplay asks you to write one plan step aloud; a limit stated without a number, a monitor and a corrective action is not a limit and earns nothing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "haccp",
+        "minimum-internal-cooking-temperature"
+      ]
+    },
+    {
+      "term": "Date marking",
+      "definition": "Ready-to-eat TCS food kept more than 24 hours must carry the day it was prepared or opened and be sold, served or discarded within seven days at 41°F or below, counting the preparation day as day one.",
+      "whyItMatters": "An inspection roleplay featuring an unlabeled tub of cooked pasta in the walk-in turns on this rule; the seven-day count and the day-one convention are what the judge is listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "time-temperature-control-for-safety-food",
+        "temperature-danger-zone"
+      ]
+    },
+    {
+      "term": "Exclusion versus restriction",
+      "definition": "Employee health rules split sick staff two ways: vomiting, diarrhea, jaundice or a diagnosed foodborne pathogen sends a worker off the property entirely, while a sore throat with fever only keeps them away from exposed food and clean equipment — return needs 24 hours symptom-free or a written medical release.",
+      "whyItMatters": "A management roleplay about a server reporting a sore throat before a busy shift is decided by this split; sending them home is as wrong an answer as staffing them on the line.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "haccp"
+      ]
+    },
+    {
+      "term": "Three-compartment sink sanitizing",
+      "definition": "Wash, rinse, then sanitize in that fixed order, with the third step the graded one: chlorine at 50 to 99 ppm, quaternary ammonium at 150 to 400 ppm or iodine at 12.5 to 25 ppm, verified with a test strip and held for the contact time the label states before air drying.",
+      "whyItMatters": "A warewashing roleplay where staff 'sanitize' in hot soapy water fails on concentration and contact time, and the correction has to name a ppm range and a test strip.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "haccp"
+      ]
+    },
+    {
+      "term": "Seat turnover rate",
+      "definition": "Covers served divided by seats available in the same period — 180 guests through a 60-seat dining room is three turns — making it the lever that lifts sales without touching the check average or the menu price.",
+      "whyItMatters": "A capacity roleplay asking how to add revenue on an already full Friday is answered by shaving minutes off table time to buy a fourth turn, which requires this number.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "revenue-per-available-seat-hour-revpash"
+      ]
+    },
+    {
+      "term": "Revenue per available seat hour (RevPASH)",
+      "definition": "Outlet revenue divided by seats multiplied by hours open, folding check average and turnover into one figure: $9,000 from a 60-seat room over 10 hours is $15.00, and it exposes the dead dayparts a daily sales total hides.",
+      "whyItMatters": "A roleplay on whether to open for lunch or cut a shift is settled by comparing that daypart's figure against dinner's, not by its raw sales total.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "seat-turnover-rate",
+        "yield-management"
+      ]
+    },
+    {
+      "term": "Dram shop liability",
+      "definition": "Statutes in most states make the establishment financially answerable for injuries an over-served or underage guest causes after leaving, which is why refusal training, incident logs and ID checks are risk controls rather than courtesies.",
+      "whyItMatters": "An alcohol-service roleplay about a visibly intoxicated regular is a liability question; naming the doctrine and the documentation is what earns the point over 'be polite about it'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "standard-drink-equivalence"
+      ]
+    },
+    {
+      "term": "Standard drink equivalence",
+      "definition": "Twelve ounces of 5% beer, five ounces of 12% wine and one and a half ounces of 80-proof spirits each carry about 0.6 fluid ounces of pure alcohol, so a heavy free pour or a double served in one glass quietly multiplies a guest's count toward the 0.08% legal limit.",
+      "whyItMatters": "Responsible-service roleplays ask how many drinks a guest has actually had; this equivalence is how you answer with a number instead of an impression.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "dram-shop-liability"
+      ]
+    },
+    {
+      "term": "HACCP",
+      "definition": "A seven-principle food-safety system — hazard analysis, critical control points, critical limits, monitoring, corrective action, verification and recordkeeping — that builds safety into the process rather than inspecting the finished plate.",
+      "whyItMatters": "An operations roleplay asking you to justify a written food-safety plan to a skeptical owner expects the seven principles in order, not a general promise of cleanliness.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "critical-limit"
+      ]
+    },
+    {
+      "term": "Time/temperature control for safety food",
+      "definition": "Moist, protein-rich, low-acid items — cooked rice and pasta, cut leafy greens, cut tomatoes and melon, sprouts, shell eggs, dairy, meat, poultry and seafood — that support rapid pathogen growth and therefore need holding temperatures and time limits.",
+      "whyItMatters": "Exam items ask which item on a prep list needs a time-temperature log; cut melon and cooked rice are the two competitors leave off because they are not meat.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "temperature-danger-zone",
+        "date-marking"
+      ]
+    },
+    {
+      "term": "Major food allergens",
+      "definition": "The nine substances U.S. labeling law singles out — milk, eggs, fish, crustacean shellfish, tree nuts, peanuts, wheat, soybeans and, since 2023, sesame — where cross-contact transfers a protein that cooking heat does not destroy.",
+      "whyItMatters": "An allergen roleplay about a guest asking whether the fryer oil is safe turns on cross-contact and shared equipment, not on whether the dish lists the ingredient.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RFSM"
+      ],
+      "confusableWith": [
+        "standardized-recipe"
+      ]
+    }
+  ]
+}

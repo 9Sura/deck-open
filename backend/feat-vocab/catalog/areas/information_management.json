@@ -5,20 +5,13 @@
   ],
   "terms": [
     {
-      "term": "Information",
-      "definition": "Facts and figures that have been processed into a meaningful, usable form for decisions.",
-      "whyItMatters": "Competitors must know that raw data becomes useful only once it is organized and interpreted.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/information_management.txt"
-      ]
-    },
-    {
       "term": "Data",
       "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
       "whyItMatters": "All information management begins with knowing what counts as reliable data.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Database",
@@ -26,15 +19,8 @@
       "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
-    },
-    {
-      "term": "Spreadsheet",
-      "definition": "A software application that organizes data in rows and columns for calculation and analysis.",
-      "whyItMatters": "Spreadsheets are a core business tool competitors are expected to use comfortably.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Business records",
@@ -42,7 +28,8 @@
       "whyItMatters": "Accurate records are required for compliance, accountability, and historical reference.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Information system",
@@ -50,7 +37,8 @@
       "whyItMatters": "Understanding systems is key when competitors evaluate technology investments.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Environmental scan",
@@ -58,39 +46,8 @@
       "whyItMatters": "Scanning the environment lets competitors spot opportunities and threats before deciding.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
-    },
-    {
-      "term": "Data visualization",
-      "definition": "Presenting data as charts, graphs, and diagrams to reveal patterns and insights.",
-      "whyItMatters": "Visuals communicate findings faster and more persuasively than raw numbers.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/information_management.txt"
-      ]
-    },
-    {
-      "term": "Customer records",
-      "definition": "Stored information about clients, including contact details, purchase history, and preferences.",
-      "whyItMatters": "Organized customer data powers relationship management and targeted strategy.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/information_management.txt"
-      ]
-    },
-    {
-      "term": "Primary research",
-      "definition": "Original data collected firsthand through surveys, interviews, focus groups, or observation.",
-      "whyItMatters": "Competitors must weigh its high relevance against its higher cost and time.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/information_management.txt"
-      ]
-    },
-    {
-      "term": "Secondary research",
-      "definition": "Analysis of existing data from published sources, databases, and prior studies.",
-      "whyItMatters": "It is fast and cheap; competitors must know when existing data is enough.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Information ethics",
@@ -98,7 +55,8 @@
       "whyItMatters": "Privacy and data-governance dilemmas are common in modern business scenarios.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Statistical analysis",
@@ -106,7 +64,8 @@
       "whyItMatters": "Competitors are tested on interpreting findings and drawing evidence-based conclusions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Data mining",
@@ -114,7 +73,8 @@
       "whyItMatters": "Mining surfaces competitive insights that simple reports would miss.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Database query",
@@ -122,6 +82,582 @@
       "whyItMatters": "Querying lets competitors pull exactly the data they need instead of sifting everything.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Referential integrity",
+      "definition": "The enforced rule that every foreign-key value must match a primary-key value that actually exists in the parent table; with it turned on the engine rejects an orphan child row outright, and a delete of a parent must either cascade to its children or be refused, never silently leave them stranded.",
+      "whyItMatters": "A roleplay about a corrupted customer database usually ends with the judge asking what stops a deleted account from leaving unreachable orders behind, and this constraint is the answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "foreign-key",
+        "primary-key",
+        "data-governance"
+      ]
+    },
+    {
+      "term": "Junction table",
+      "definition": "A table containing little more than two foreign keys, plus any attribute that belongs to the pairing itself, which converts a single many-to-many relationship into two one-to-many relationships; without it a students-and-courses design has nowhere legal to record that one pair, since neither side's table has room for many values.",
+      "whyItMatters": "Database-design questions that describe products appearing in many orders and orders holding many products are testing whether you add this third table rather than repeating columns.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "foreign-key",
+        "third-normal-form",
+        "star-schema"
+      ]
+    },
+    {
+      "term": "Third normal form",
+      "definition": "Reached only when a table already satisfies first normal form, which removes repeating groups so each cell holds one value, and second normal form, which removes any non-key column depending on just part of a composite key, and then additionally removes transitive dependency — a non-key column determined by another non-key column rather than by the key.",
+      "whyItMatters": "An exam table showing a customer's ZIP code alongside the city that ZIP code determines is the classic normalization item, and the tested answer names which form that violation breaks.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "denormalization",
+        "database",
+        "junction-table"
+      ]
+    },
+    {
+      "term": "Denormalization",
+      "definition": "Deliberately putting back the duplicated columns that normalization removed, trading write cost and update anomalies for read speed: one wide table answers a report with zero joins, but a customer who changes her surname must now be rewritten in every row that copied it, and any row missed is a silent contradiction.",
+      "whyItMatters": "A reporting-performance roleplay asks why the analytics table repeats the region name in a million rows; the defensible answer is the read-versus-write trade-off, not sloppy design.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "third-normal-form",
+        "star-schema",
+        "online-analytical-processing"
+      ]
+    },
+    {
+      "term": "ACID properties",
+      "definition": "The four guarantees a relational transaction makes — atomicity, meaning all steps commit or none do; consistency, meaning no declared rule is left broken; isolation, meaning concurrent transactions cannot read each other's partial work; and durability, meaning a committed write survives a crash — and precisely the set that BASE-style distributed stores relax in exchange for availability.",
+      "whyItMatters": "A banking-transfer scenario asks what keeps a debit from posting when the matching credit fails, and the graded answer names atomicity within this set rather than saying the system is careful.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "document-store",
+        "online-transaction-processing",
+        "audit-log"
+      ]
+    },
+    {
+      "term": "Star schema",
+      "definition": "A warehouse layout placing one central fact table of numeric measures among denormalized dimension tables, each exactly one join away from the facts; the snowflake variant normalizes those dimensions into further sub-tables, which saves storage and removes redundancy but adds a join to every query that touches them.",
+      "whyItMatters": "A database-design item shows a sales fact table ringed by product, store and date tables and asks why the dimensions repeat values instead of being split further.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "denormalization",
+        "slowly-changing-dimension",
+        "third-normal-form"
+      ]
+    },
+    {
+      "term": "Slowly changing dimension",
+      "definition": "A descriptive attribute that changes over time and forces a documented choice: Type 1 overwrites the old value and loses all history, while Type 2 closes the existing row with an end date and inserts a new version row, so a sale made two years ago still ties to the sales territory that was in force on the day it happened.",
+      "whyItMatters": "When a roleplay judge asks why last year's totals shifted after a store was reassigned to a new district, the answer is which of these two handling types the warehouse used.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "star-schema",
+        "audit-log",
+        "data-governance"
+      ]
+    },
+    {
+      "term": "Data steward",
+      "definition": "The person accountable for the day-to-day quality, field definitions and correction of one data domain, executing rules that somebody else sets; the data owner is the business executive who sets those rules, signs off on the definitions and approves who may see the domain — accountability for the policy versus accountability for the practice.",
+      "whyItMatters": "Records-monitoring roleplays ask who should approve a new customer field and who should fix the 400 records already entered wrong, and the two answers are different roles.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "data-governance",
+        "record-retention-schedule",
+        "principle-of-least-privilege"
+      ]
+    },
+    {
+      "term": "Record retention schedule",
+      "definition": "A written table stating how long each class of record is kept and when it must be destroyed, built on statutory floors rather than preference: the IRS's ordinary three-year assessment window, seven years for records supporting a bad-debt or worthless-securities claim, and the Sarbanes-Oxley requirement that audit work papers survive seven years.",
+      "whyItMatters": "A business-records roleplay asks how long the storeroom keeps signed invoices before shredding them, and a judge expects a statutory minimum, not a guess like 'a few years'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "legal-hold",
+        "data-governance",
+        "audit-log"
+      ]
+    },
+    {
+      "term": "Legal hold",
+      "definition": "An instruction that suspends the retention schedule and freezes every document touching anticipated or filed litigation, overriding routine destruction until counsel lifts it; skipping it exposes the company to spoliation sanctions under Federal Rule of Civil Procedure 37(e) even when the deletion was only the ordinary schedule running as designed.",
+      "whyItMatters": "In a legal-issues roleplay where a customer has threatened suit, the first correct action is stopping automatic email deletion — not gathering documents after the subpoena arrives.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "record-retention-schedule",
+        "audit-log",
+        "information-ethics"
+      ]
+    },
+    {
+      "term": "Pseudonymization",
+      "definition": "Swapping direct identifiers for tokens while keeping the re-identification key stored separately, which leaves the file still legally personal data under GDPR Article 4(5) and still inside the regulation's reach; true anonymization destroys that key irreversibly, and only then does the data fall out of scope entirely.",
+      "whyItMatters": "An ethics-in-data-mining item asks whether replacing customer names with ID numbers lets a firm share the file freely, and the graded answer is that it does not while the key survives.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "personally-identifiable-information",
+        "general-data-protection-regulation",
+        "hashing"
+      ]
+    },
+    {
+      "term": "General Data Protection Regulation",
+      "definition": "The European rule granting individuals rights of access, correction, portability and erasure over their own data, requiring a documented lawful basis before any processing begins, forcing breach notification to the supervisory authority within 72 hours, and capping fines at the greater of 20 million euros or 4% of worldwide annual turnover.",
+      "whyItMatters": "An international e-commerce roleplay asks what changes when the site starts shipping to Ireland, and the answer is these specific obligations and their clock, not a general promise of privacy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "personally-identifiable-information",
+        "pseudonymization",
+        "information-ethics"
+      ]
+    },
+    {
+      "term": "3-2-1 backup rule",
+      "definition": "Keep three copies of the data on two different media types with one copy held off-site; the arithmetic is the whole point, because a single fire cannot reach the off-site copy, a single failing drive model cannot corrupt the second medium, and one ransomware blast radius cannot encrypt all three at once.",
+      "whyItMatters": "A storage roleplay about a flooded back office is graded on stating the counts, since answering 'we back up nightly' does not survive the follow-up about where the backup was sitting.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "incremental-backup",
+        "differential-backup",
+        "five-nines-availability"
+      ]
+    },
+    {
+      "term": "Incremental backup",
+      "definition": "Copies only the blocks changed since the previous backup of any type, so each nightly run is the smallest possible, but restoring requires the last full backup plus every one of these runs applied in order since it — and a single missing or corrupt link breaks the entire chain behind it.",
+      "whyItMatters": "Records-storage items ask why a company whose nightly job finishes in four minutes still needed nine hours to recover, and the restore chain is the reason.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "differential-backup",
+        "3-2-1-backup-rule",
+        "five-nines-availability"
+      ]
+    },
+    {
+      "term": "Differential backup",
+      "definition": "Copies everything changed since the last full backup, so Friday's run is far larger than Monday's, but a restore needs exactly two pieces — the full backup plus the newest run — against the incremental approach's full backup plus every intervening night in sequence.",
+      "whyItMatters": "A business-continuity roleplay trades nightly window against recovery speed, and the graded answer is which of these two schemes buys the shorter restore.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "incremental-backup",
+        "3-2-1-backup-rule",
+        "recovery-time-objective"
+      ]
+    },
+    {
+      "term": "Five nines availability",
+      "definition": "A 99.999% uptime commitment, which permits roughly 5.3 minutes of unplanned downtime across an entire year; each nine dropped multiplies that allowance by ten, so 99.99% permits about 53 minutes, 99.9% about 8.8 hours, and 99% about 3.65 days — which is why a vendor's extra decimal costs so much.",
+      "whyItMatters": "A vendor-selection roleplay compares two hosting quotes whose uptime promises differ by one decimal, and converting each into annual minutes is what makes the price gap defensible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "latency",
+        "infrastructure-as-a-service",
+        "3-2-1-backup-rule"
+      ]
+    },
+    {
+      "term": "Infrastructure as a service",
+      "definition": "A cloud arrangement where the provider runs the hardware, storage and virtualization while the customer still patches the operating system and everything stacked above it; platform services shift that operating system and runtime to the provider, and software as a service leaves the customer responsible for nothing but their own data and user settings.",
+      "whyItMatters": "A technology-impact item asks who is at fault when an unpatched server is breached, and the answer depends entirely on which of these three lines the contract drew.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "five-nines-availability",
+        "application-programming-interface",
+        "data-lake"
+      ]
+    },
+    {
+      "term": "Check digit",
+      "definition": "The final digit of a code such as a twelve-digit UPC, computed from the digits before it so a scanner can catch its own misread: multiply the digits in odd positions by three, add the digits in even positions, and choose the last digit that lifts the total to the next multiple of ten.",
+      "whyItMatters": "Business-records questions ask how a scanner knows a keyed-in barcode was mistyped without any lookup, and this arithmetic is the mechanism.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "data-security",
+        "audit-log",
+        "business-records"
+      ]
+    },
+    {
+      "term": "Absolute cell reference",
+      "definition": "Written with dollar signs as $A$1, it pins both the column and the row so the address does not shift when the formula is copied down or across; a relative reference such as A1 moves with the copy, and a mixed reference such as $A1 or A$1 freezes only the half carrying the dollar sign.",
+      "whyItMatters": "Spreadsheet items give a tax rate in one cell and ask why copying the formula produced zeros further down the column; the missing dollar signs are the graded answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "descriptive-statistics",
+        "database-query",
+        "data-visualization"
+      ]
+    },
+    {
+      "term": "First normal form",
+      "definition": "Normalization's opening stage: every column holds one indivisible value and no table repeats a group of columns across a single row (no phone1, phone2, phone3). It removes repeating groups and nothing else — a partial dependency on part of a composite key survives it, and a transitive dependency survives both it and the second stage.",
+      "whyItMatters": "A database item hands the competitor a customer table with three comma-packed phone columns and asks which normal form it breaks; the answer is the first, and answering the third throws the point away.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "second-normal-form",
+        "third-normal-form"
+      ]
+    },
+    {
+      "term": "Second normal form",
+      "definition": "The stage requiring every non-key column to depend on the whole composite key rather than on one piece of it — a table keyed on (order_id, product_id) that also stores the customer's name breaks it, because the name follows order_id alone. It does nothing whatever when the key is a single column, since a one-column key has no part to depend on.",
+      "whyItMatters": "Given a table already in first normal form, an exam item asks what still has to be split out; only the partial-dependency test tells the competitor which columns move to a new table.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "first-normal-form",
+        "third-normal-form"
+      ]
+    },
+    {
+      "term": "Composite key",
+      "definition": "A primary key spread across two or more columns, where uniqueness is broken only when every column in the key matches at once — a key on (student_id, course_id) lets the same student appear 6 times and the same course appear 300 times, but the pair exactly once.",
+      "whyItMatters": "Enrollment and order-line questions ask how many rows one student or one product may hold; the count comes from reading the columns in the key, not from any rule about the table.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "junction-table",
+        "surrogate-key"
+      ]
+    },
+    {
+      "term": "Surrogate key",
+      "definition": "An arbitrary system-generated identifier — normally an auto-incrementing integer — carrying no business meaning, chosen over a natural identifier such as an email address or a part number precisely because the business can change the natural value. When a supplier renumbers all 4,000 of its parts, rows keyed on the part number break every reference pointing at them; rows keyed on the integer do not move at all.",
+      "whyItMatters": "A roleplay on migrating a supplier catalog asks which column should identify a part; picking the meaningful one is what forces the rework the judge is listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "composite-key",
+        "referential-integrity"
+      ]
+    },
+    {
+      "term": "Inner join",
+      "definition": "Combines two tables and keeps only the rows matching on the join column, silently discarding unmatched rows from both sides — 500 customers joined to an orders table returns nothing at all for the 120 who have never ordered, so a customer count taken after the join reports 380 rather than 500.",
+      "whyItMatters": "A data-analysis item asks why a mailing list built from a joined query is short by exactly the number of inactive customers; the join type is the entire answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "left-outer-join",
+        "cross-join"
+      ]
+    },
+    {
+      "term": "Left outer join",
+      "definition": "Keeps every row of the first table and fills the second table's columns with NULL wherever no match exists — those same 120 order-less customers come back, so COUNT(*) returns 500 while COUNT(order_id) returns 380, and the 120-row gap between the two counts is precisely the set that had no match.",
+      "whyItMatters": "Asked to list customers who bought nothing this quarter, the competitor has to name this join and then filter on the NULL — the inner join cannot produce that list at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "inner-join"
+      ]
+    },
+    {
+      "term": "Cross join",
+      "definition": "Pairs every row of one table with every row of another under no condition at all, so the output is m × n rows — 50 products against 12 months yields 600. A two-table query whose join condition is left off collapses into one, which is how a query over 1,000 and 2,000 rows returns 2,000,000 and freezes the report.",
+      "whyItMatters": "A troubleshooting item shows a report that suddenly returns millions of rows from two small tables; the multiplication, not the data, explains it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "inner-join"
+      ]
+    },
+    {
+      "term": "HAVING clause",
+      "definition": "Filters whole groups after aggregation, where WHERE filters individual rows before it: 'WHERE amount > 100' throws out small orders and then sums what remains, while 'HAVING SUM(amount) > 100' keeps every order and throws out customers whose total falls short. Run on the same table, the two return different customer lists.",
+      "whyItMatters": "A query item asks for customers whose yearly spend tops a threshold; putting the test in the WHERE clause returns the wrong set even though the query runs without error.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "database-query"
+      ]
+    },
+    {
+      "term": "B-tree index",
+      "definition": "The balanced tree structure behind most database indexes: a lookup descends a few levels instead of reading every row, costing about log2(n) page reads — roughly 20 steps in a 1,000,000-row table where a full scan touches all 1,000,000. Doubling the table adds a single step, so an index worth little at 10,000 rows is worth enormously more at 10,000,000.",
+      "whyItMatters": "Asked why a customer lookup that was instant last year now takes 30 seconds, the competitor has to contrast logarithmic index cost with linear scan cost rather than blame the server.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "query-selectivity"
+      ]
+    },
+    {
+      "term": "Query selectivity",
+      "definition": "The share of a table's rows a filter matches, taken as matching rows over total rows: 200 hits in 100,000 rows is 0.2% and the optimizer uses the index, while a filter matching 40,000 of those rows is unselective and a full scan wins, because chasing 40,000 index pointers back into the table costs more than reading the table once.",
+      "whyItMatters": "An item asks why adding an index on a two-value status column changed nothing; the fraction of rows matched, not the presence of the index, decides it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "b-tree-index"
+      ]
+    },
+    {
+      "term": "Cache hit ratio",
+      "definition": "Hits divided by total lookups — 900 of 1,000 is 90%. Read as percentage points the figure misleads: moving from 90% to 95% cuts the 100 misses that reach the database down to 50, so a five-point gain halves backend load, and the last few points are worth far more than the first.",
+      "whyItMatters": "A technology-impact item asks whether a small improvement to a caching layer is worth the spend; the answer runs on misses removed, not on the headline percentage.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "query-selectivity"
+      ]
+    },
+    {
+      "term": "Sharding",
+      "definition": "Splitting one table's rows horizontally across several servers by a key, so four servers each carry about 25% of the rows and the system gains write capacity and room. Replication does the opposite — it copies 100% of the rows onto every server, buying read capacity and failover but not one byte of extra space.",
+      "whyItMatters": "A roleplay on a database that has outgrown its server asks which approach fixes it; recommending more copies of a table that no longer fits is the trap the judge is watching for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "infrastructure-as-a-service"
+      ]
+    },
+    {
+      "term": "CAP theorem",
+      "definition": "The result that a distributed data store can hold at most two of three guarantees — consistency, availability, and tolerance of a network partition. Because a partition is a fact of networks rather than a design option, the live choice is only between the other two: refuse the read and stay correct, or answer it and risk handing back stale data.",
+      "whyItMatters": "Asked why a cloud inventory system showed two stores different stock counts during an outage, the competitor has to name the trade-off the vendor chose instead of calling it a bug.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "acid-properties"
+      ]
+    },
+    {
+      "term": "RAID 5",
+      "definition": "Striping with parity distributed across at least 3 disks: usable capacity is (n−1)/n of the raw total, so four 2 TB disks give 6 TB rather than 8, and exactly one disk may fail with no data lost. The exposure is the rebuild — a second failure while the array reconstructs the first destroys everything on it.",
+      "whyItMatters": "A storage-purchase roleplay asks how much of a quoted 8 TB array the business actually gets and how many drive failures it survives; both numbers come straight from the level.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "raid-10",
+        "3-2-1-backup-rule"
+      ]
+    },
+    {
+      "term": "RAID 10",
+      "definition": "Mirrored pairs that are then striped: usable capacity is exactly half the raw total, so the same four 2 TB disks give 4 TB instead of 6, but the array survives one failure in every pair and rebuilds by copying a single disk rather than recomputing parity from all the rest.",
+      "whyItMatters": "Comparing two quotes for the same four drives, the competitor has to trade 2 TB of capacity against a faster, safer rebuild — a judge expects the capacity figure said out loud.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ],
+      "confusableWith": [
+        "raid-5"
+      ]
+    },
+    {
+      "term": "Key length",
+      "definition": "The bit count of a cryptographic key, which cannot be compared across algorithm families: a 256-bit symmetric key doubles in strength with each added bit, while a 2048-bit RSA key rests on the difficulty of factoring and rates at only about 112 bits of equivalent strength. The far bigger number is the weaker key.",
+      "whyItMatters": "A vendor-security roleplay asks whether a supplier advertising 2048-bit encryption beats one advertising 256-bit; reading the digits alone gives the wrong recommendation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "hash-collision"
+      ]
+    },
+    {
+      "term": "Hash collision",
+      "definition": "Two different inputs producing the same fixed-length digest, which has to be possible because inputs are unlimited and digests are not. A 256-bit digest has 2^256 possible outputs, but the birthday bound puts an attacker's expected work at about 2^128 attempts — the square root, not the full space — which is why a 128-bit digest is retired and a 256-bit one is not.",
+      "whyItMatters": "An information-ethics item asks why a system that stores digests instead of files can still be attacked; the square-root shortcut, not the digest length on the label, is the reasoning.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "rainbow-table",
+        "check-digit"
+      ]
+    },
+    {
+      "term": "Rainbow table",
+      "definition": "A precomputed lookup of billions of password-to-digest pairs that reverses an unprotected stored password in seconds. Adding a distinct random value to each record before hashing defeats it by arithmetic rather than by secrecy: the attacker must now build one table per record, so 1,000,000 stored passwords demand 1,000,000 tables instead of the single shared one.",
+      "whyItMatters": "Asked why one breached company's passwords were readable overnight and another's were not, the competitor has to explain the per-record work multiplier, not just say the second one 'used encryption'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "hash-collision",
+        "pseudonymization"
+      ]
+    },
+    {
+      "term": "SOC 2 Type II",
+      "definition": "An independent report on whether a service provider's controls actually operated across an observation window, normally 3 to 12 months of collected evidence. A Type I examines the same controls on one single date and attests only that they were designed correctly — so a vendor holding only a Type I has never had those controls tested over time.",
+      "whyItMatters": "A vendor-selection roleplay puts two cloud providers side by side, one with each report; the observation period is the distinction a judge scores.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "data-steward"
+      ]
+    },
+    {
+      "term": "California Consumer Privacy Act",
+      "definition": "A state privacy law binding a for-profit business only once it crosses one of three thresholds: more than $25 million in annual gross revenue, personal information on 100,000 or more California consumers or households, or at least 50% of revenue earned from selling or sharing that information. A small firm holding California data can sit entirely outside it.",
+      "whyItMatters": "A legal-issues item asks whether a startup with 4,000 California customers and $2 million in revenue must honor deletion requests; only the thresholds answer it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "general-data-protection-regulation"
+      ]
+    },
+    {
+      "term": "Breach notification window",
+      "definition": "The legally fixed span between learning of a personal-data breach and having to report it — 72 hours to the supervising authority under EU rules, with U.S. state statutes commonly allowing 30 to 60 days for notice to the individuals affected. The clock starts at awareness, not at the intrusion, so an attack that sat undetected for 8 months still leaves the full window intact once it is found.",
+      "whyItMatters": "An incident roleplay asks when the company is late; competitors who count from the intrusion date report the firm as months overdue when it is in fact on day one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "general-data-protection-regulation",
+        "mean-time-to-detect"
+      ]
+    },
+    {
+      "term": "IPv6",
+      "definition": "The 128-bit addressing scheme succeeding the 32-bit scheme the internet was built on. Because each added bit doubles the space, 128 bits is not four times larger but 2^96 times larger — the older scheme's roughly 4.3 billion addresses ran out, and the newer one is written as eight hexadecimal groups rather than four decimal ones.",
+      "whyItMatters": "An item on the scope of the internet asks why address exhaustion forced a change instead of an expansion; the doubling, not the label, is the explanation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "subnet-mask"
+      ]
+    },
+    {
+      "term": "Subnet mask",
+      "definition": "A 32-bit pattern splitting an address into a network part and a host part: a /24 leaves 8 bits for hosts, which is 2^8 = 256 addresses, of which 254 are assignable once the network and broadcast addresses come out. A /25 halves that to 126 usable, so borrowing a single bit costs half the room on the segment.",
+      "whyItMatters": "Asked how many devices a store's network segment can hold, the competitor must convert the slash number into host bits and then subtract 2 — the raw power of two is the wrong answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "ipv6"
+      ]
+    },
+    {
+      "term": "Binary prefix",
+      "definition": "The 1,024-based unit an operating system counts in, set against the 1,000-based unit a drive is sold in: a '1 TB' disk holds 10^12 bytes, but the OS divides by 1,024 three times and reports 931 GB — a 7% shortfall that widens at every prefix step, so a 4 TB drive shows as 3.64 TB, roughly 9% short.",
+      "whyItMatters": "A records-storage item asks how many years of files a purchased drive really holds; sizing the archive off the number on the box overstates capacity before the first backup runs.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "incremental-backup"
+      ]
+    },
+    {
+      "term": "Mixed cell reference",
+      "definition": "A spreadsheet address locking exactly one of the two coordinates — $B5 pins the column and lets the row travel, B$5 does the reverse. Filling a multiplication grid both across and down needs one of each inside the same formula ($B5*C$4); pinning both coordinates or neither returns a wrong value in every cell except the one it was typed into.",
+      "whyItMatters": "Spreadsheet items grade the filled grid rather than the first cell, so a formula that is correct where it is written and wrong everywhere it is dragged scores zero.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ],
+      "confusableWith": [
+        "absolute-cell-reference"
       ]
     }
   ]

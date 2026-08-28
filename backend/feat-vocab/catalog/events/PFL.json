@@ -9,7 +9,8 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/PFL",
         "backend/test-gen-model/data"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Compound interest",
@@ -19,16 +20,358 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/PFL",
         "backend/test-gen-model/data"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "term": "FICO score component weights",
+      "definition": "The five buckets a 300-850 score is built from: payment history 35%, amounts owed 30%, length of credit history 15%, new credit 10%, and credit mix 10%.",
+      "whyItMatters": "A credit-repair roleplay asks which move lifts a client's number fastest; paying a maxed card down works the 30% bucket, while closing the oldest account damages the 15% one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "credit-score",
+        "credit-utilization-ratio",
+        "credit-report"
       ]
     },
     {
-      "term": "Net worth",
-      "definition": "Total assets minus total liabilities.",
-      "whyItMatters": "Net worth gives a snapshot of personal financial position.",
-      "areas": [],
+      "term": "Rate-shopping deduplication window",
+      "definition": "Scoring models collapse every mortgage, auto, or student-loan hard inquiry pulled inside one 45-day span (14 days on older FICO versions) into a single inquiry, and ignore those pulls entirely for the first 30 days.",
+      "whyItMatters": "A client comparing five auto lenders in one week loses nothing, while an exam case that spreads the same five pulls across three months takes five hits to the 10% new-credit bucket.",
+      "difficulty": "hard",
       "sourceRefs": [
-        "backend/roleplay-gen-model/data/PFL",
-        "backend/test-gen-model/data"
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "fico-score-component-weights",
+        "credit-report"
+      ]
+    },
+    {
+      "term": "Seven-year reporting limit",
+      "definition": "FCRA rules push most negatives off a consumer report 7 years from the date of first delinquency - late payments, charge-offs and collections at 7 years, a Chapter 7 discharge at 10, hard inquiries at 2 - and paying a collection does not restart the clock.",
+      "whyItMatters": "Given a client's 2019 charge-off, the exam wants the year it disappears and whether settling it today resets that date, which it does not.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "fair-credit-reporting-act",
+        "chapter-7-bankruptcy",
+        "credit-report"
+      ]
+    },
+    {
+      "term": "Adverse action notice",
+      "definition": "When a lender denies credit, closes an account, or prices it worse because of a consumer report, ECOA and the FCRA require written specific reasons within 30 days of a completed application, plus the score used, its range, and the bureau that supplied it.",
+      "whyItMatters": "In a turned-down-for-a-car-loan roleplay, the correct advice is that the client is owed the exact reasons and a free copy of the report within 60 days of the notice.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "pre-adverse-action-notice",
+        "fair-credit-reporting-act"
+      ]
+    },
+    {
+      "term": "Security freeze",
+      "definition": "A no-cost lock that blocks new creditors from pulling a consumer file until it is lifted and never expires, unlike a fraud alert, which only asks lenders to verify identity for 1 year, or 7 years for an extended alert backed by an identity-theft report.",
+      "whyItMatters": "Identity-theft roleplays turn on which tool actually stops a thief from opening an account today: the freeze does, the alert only requests extra verification.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "fair-credit-reporting-act",
+        "credit-report"
+      ]
+    },
+    {
+      "term": "Credit dispute investigation window",
+      "definition": "A bureau gets 30 days to investigate a disputed item, 45 when the consumer sends documents mid-investigation, plus 5 business days to mail written results; anything the furnisher cannot verify in that time must be deleted, not merely flagged.",
+      "whyItMatters": "Exam items time the sequence - a dispute filed March 1 means an unverified collection has to come off by roughly March 31, whatever the collector says.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "fair-credit-billing-act-billing-error-window",
+        "fair-credit-reporting-act"
+      ]
+    },
+    {
+      "term": "CARD Act grace period",
+      "definition": "Issuers must deliver a statement at least 21 days before payment is due, may not call a payment late before 5 p.m. on the due date, and must apply anything above the minimum to the highest-APR balance first.",
+      "whyItMatters": "A case with a 0% promotional purchase balance and a 24.99% cash advance turns on that allocation rule: extra dollars kill the expensive balance, so the promotional one is not what gets paid down.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "card-act-gift-card-protections",
+        "truth-in-lending-act"
+      ]
+    },
+    {
+      "term": "Right of rescission",
+      "definition": "Three business days - counting Saturdays but not Sundays or federal holidays - in which a borrower may cancel a home-equity loan or a refinance on a primary residence and recover every fee, during which the lender may not disburse funds.",
+      "whyItMatters": "A roleplay client who signed a HELOC Thursday and panicked Saturday still has until Tuesday, and the judge is listening for the deadline rather than reassurance.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "truth-in-lending-act",
+        "escrow"
+      ]
+    },
+    {
+      "term": "Debt validation notice",
+      "definition": "Within 5 days of first contact a collector must state the amount, the original creditor, and a 30-day window to demand verification; collection has to stop until the proof arrives, and calls are barred before 8 a.m. or after 9 p.m.",
+      "whyItMatters": "Given a collector phoning at 7 a.m. about a debt the client does not recognize, the graded answer is a written verification demand inside the 30 days, never a payment that revives the debt.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "fair-credit-reporting-act",
+        "wage-garnishment"
+      ]
+    },
+    {
+      "term": "Unauthorized electronic fund transfer liability",
+      "definition": "Regulation E caps a debit cardholder's loss at $50 when the theft is reported within 2 business days, $500 from day 3 through 60 days after the statement, and not at all past 60 days, while a credit card stops at $50 under the Fair Credit Billing Act.",
+      "whyItMatters": "The classic comparison item hands the student a stolen debit card reported on day 30 and a stolen credit card, and asks which loss is bigger and which statute sets it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "fair-credit-billing-act-billing-error-window"
+      ]
+    },
+    {
+      "term": "Roth IRA five-year rule",
+      "definition": "Earnings come out tax-free only once the account has been open five tax years AND the owner is 59 1/2, disabled, or buying a first home under a $10,000 lifetime cap; contributions are always withdrawable, and each conversion starts its own five-year clock.",
+      "whyItMatters": "A 24-year-old who opened a Roth last year and wants the growth for a down payment fails the clock, and the item asks for the tax and penalty on earnings only.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "roth-ira",
+        "tax-deferred-account"
+      ]
+    },
+    {
+      "term": "Catch-up contribution",
+      "definition": "Extra deferrals unlocked in the calendar year a worker turns 50 - an added $1,000 to an IRA and $7,500 to a 401(k) for 2025 - with a larger $11,250 tier at ages 60 through 63 under SECURE 2.0.",
+      "whyItMatters": "A retirement-gap roleplay asks how much a 52-year-old behind on savings can legally shelter this year, and the answer is the base limit plus the age-based add-on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "401-k-safe-harbor-match",
+        "tax-deferred-account"
+      ]
+    },
+    {
+      "term": "Required minimum distribution",
+      "definition": "Beginning at age 73, the IRS forces an annual withdrawal equal to the prior December 31 balance divided by a life-expectancy factor; skipping it costs a 25% excise tax, cut to 10% if corrected within two years, and a Roth IRA is exempt while the owner lives.",
+      "whyItMatters": "A case with a $500,000 traditional IRA and a client who does not need the money turns on that penalty, and on the Roth being the account that never forces a withdrawal.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "roth-ira",
+        "tax-deferred-account",
+        "annuity"
+      ]
+    },
+    {
+      "term": "Rule of 55",
+      "definition": "Separating from an employer in or after the calendar year of turning 55 lets a worker draw from that employer's 401(k) free of the 10% early-withdrawal penalty - only that plan, and never money already rolled into an IRA.",
+      "whyItMatters": "A laid-off 56-year-old asking whether to roll the 401(k) to an IRA first is the trap: the rollover destroys the exemption until 59 1/2.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "required-minimum-distribution",
+        "tax-deferred-account"
+      ]
+    },
+    {
+      "term": "Student Aid Index",
+      "definition": "The FAFSA eligibility figure that replaced the Expected Family Contribution in 2024-25; it can fall as low as negative $1,500, and Pell eligibility is decided by comparing it against each school's cost of attendance rather than a flat national cutoff.",
+      "whyItMatters": "A financial-aid roleplay asks why a family's award shrank when a second child enrolled, and the answer is that this formula dropped the number-in-college divisor the old one used.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "subsidized-federal-student-loan"
+      ]
+    },
+    {
+      "term": "529 plan qualified distribution",
+      "definition": "Withdrawals escape federal tax only when spent on tuition, fees, books, required equipment, or room and board for an enrolled student, with $10,000 a year allowed for K-12 tuition and $10,000 lifetime for student-loan repayment; earnings on anything else owe income tax plus a 10% penalty.",
+      "whyItMatters": "A case that pays a $12,000 private high-school tuition bill from the account is testing the K-12 cap, so the earnings inside the excess $2,000 are taxable and penalized.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "tax-deferred-account",
+        "student-aid-index"
+      ]
+    },
+    {
+      "term": "Out-of-pocket maximum",
+      "definition": "The yearly ceiling on what a member personally pays - deductible, copays and coinsurance count toward it, premiums never do - after which the plan covers 100% of in-network care; the ACA held it to $9,200 for self-only coverage in 2025.",
+      "whyItMatters": "A claims-math item walks a $60,000 hospital bill through a $2,000 deductible and 20% coinsurance and asks the member's total, which stops at this ceiling rather than at 20% of the bill.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "deductible",
+        "coinsurance",
+        "copayment"
+      ]
+    },
+    {
+      "term": "Health savings account",
+      "definition": "Only a qualifying high-deductible plan opens one - at least $1,650 self-only or $3,300 family in 2025 - and the money is untaxed going in, growing, and coming out for medical costs, while non-medical withdrawals before 65 owe income tax plus a 20% penalty and after 65 only income tax.",
+      "whyItMatters": "A plan-selection roleplay comparing a low-deductible PPO against an HDHP is decided by that triple tax break plus the balance rolling over, which an FSA's does not.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "deductible",
+        "tax-deferred-account"
+      ]
+    },
+    {
+      "term": "Split liability limits",
+      "definition": "Auto coverage quoted as three numbers, where 100/300/50 means $100,000 per injured person, $300,000 for all bodily injury in one crash, and $50,000 of property damage - so one badly hurt claimant can exhaust the first figure while the second goes unused.",
+      "whyItMatters": "An at-fault case with two drivers hurt at $150,000 each asks how much the policy pays and how much the client is personally exposed to.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "umbrella-liability-policy",
+        "deductible"
+      ]
+    },
+    {
+      "term": "Self-employment tax",
+      "definition": "A freelancer owes both halves of FICA - 15.3% on 92.35% of net earnings, made of 12.4% Social Security up to the wage base and 2.9% Medicare with no ceiling - once net earnings reach $400, and deducts half of it above the line.",
+      "whyItMatters": "A case on a student's $8,000 tutoring business asks what is owed beyond income tax and why quarterly estimated payments start, which an employed classmate never faces.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "fica-withholding",
+        "social-security-wage-base"
+      ]
+    },
+    {
+      "term": "Failure-to-file penalty",
+      "definition": "Filing a return late costs 5% of the unpaid tax per month, ten times the 0.5% charged for paying late, each capped at 25% - which is why Form 4868 buys six extra months to file and no extra time at all to pay.",
+      "whyItMatters": "A client who cannot cover the balance asks whether to just skip filing, and the exam wants the arithmetic showing that filing on time and paying late costs a tenth as much.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "tax-liability",
+        "effective-tax-rate"
+      ]
+    },
+    {
+      "term": "28/36 rule",
+      "definition": "An underwriting screen capping housing cost - principal, interest, taxes and insurance - at 28% of gross monthly income and total debt payments at 36%, with the lower of the two ceilings setting the affordable payment.",
+      "whyItMatters": "Given $6,000 gross monthly income and a $400 car payment, the exam wants the maximum housing payment: the front-end test allows $1,680 and the back-end test $1,760, so $1,680 binds.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "debt-to-income-ratio",
+        "loan-to-value-ratio"
+      ]
+    },
+    {
+      "term": "Private mortgage insurance",
+      "definition": "A premium protecting the lender, not the borrower, whenever the down payment is under 20%; the Homeowners Protection Act lets the borrower request cancellation at 80% loan-to-value and forces automatic termination at 78% on the original amortization schedule.",
+      "whyItMatters": "A homeowner asking when the extra $180 a month stops needs the 80% request line versus the 78% automatic line, not a guess about how much the house has appreciated.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "loan-to-value-ratio",
+        "escrow"
+      ]
+    },
+    {
+      "term": "Standard deduction",
+      "definition": "A flat amount subtracted from adjusted gross income - $15,000 single and $30,000 married filing jointly for 2025 - that makes itemizing worth doing only when mortgage interest, state taxes and charitable gifts together exceed it.",
+      "whyItMatters": "A first-tax-return roleplay asks whether a client with $9,000 of deductible gifts should itemize, and the flat amount wins, so the gifts change nothing.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "tax-credit",
+        "effective-tax-rate"
+      ]
+    },
+    {
+      "term": "Debt avalanche",
+      "definition": "A payoff order sending every spare dollar to the highest interest rate while the rest get minimums, minimizing total interest paid, where the snowball method instead attacks the smallest balance first for the psychological win.",
+      "whyItMatters": "A repayment roleplay with a 24% card and a 6% student loan asks which to attack first and why the cheaper-feeling choice costs more.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "debt-to-income-ratio"
+      ]
+    },
+    {
+      "term": "Rapid rescore",
+      "definition": "A lender-ordered service that pushes updated creditor data to the bureaus in days rather than a full billing cycle, used mid-application when paying a balance down would lift a borrower across a pricing tier.",
+      "whyItMatters": "A mortgage roleplay where the client sits at 738 and needs 740 for the better rate turns on this, and on the fact that a consumer cannot order it directly.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "credit-score",
+        "credit-report"
+      ]
+    },
+    {
+      "term": "Cash value life insurance",
+      "definition": "Permanent coverage splitting each premium between a death benefit and a savings component the policyholder can borrow against or surrender, unlike term coverage, which expires at the end of the period with no equity left behind.",
+      "whyItMatters": "A young client sold a whole-life policy as an investment needs the comparison showing the same premium buys far more term coverage during the years dependents actually need it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFL"
+      ],
+      "confusableWith": [
+        "annuity"
       ]
     }
   ]

@@ -2,26 +2,6 @@
   "code": "HRM",
   "terms": [
     {
-      "term": "Job description",
-      "definition": "A written summary of a job's duties, qualifications, and expectations.",
-      "whyItMatters": "Job descriptions guide hiring, training, and evaluation.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/HRM",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
-      "term": "Employee relations",
-      "definition": "HR activities that maintain positive relationships between employees and the business.",
-      "whyItMatters": "Employee relations supports morale, retention, and conflict handling.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/HRM",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
       "term": "Workplace culture",
       "definition": "The shared values, norms, and behaviors within an organization.",
       "whyItMatters": "Culture affects hiring, service, communication, and performance.",
@@ -29,6 +9,358 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/HRM",
         "backend/test-gen-model/data"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Economic reality test",
+      "definition": "Multi-factor FLSA inquiry asking whether a worker is economically dependent on the business or genuinely in business for themselves — control, opportunity for profit or loss, relative investment, skill, permanence, and how integral the work is — with no single factor controlling.",
+      "whyItMatters": "An HRM roleplay where a manager wants to keep paying a long-term 'freelancer' on a 1099 turns on running these factors out loud; the exam answer is that a signed contractor agreement does not settle status.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "worker-classification",
+        "abc-test",
+        "form-1099-nec"
+      ]
+    },
+    {
+      "term": "ABC test",
+      "definition": "Classification standard that presumes every worker is an employee unless the hiring entity proves all three prongs: freedom from control, work performed outside the usual course of the hiring entity's business, and a customarily independent trade of the same nature.",
+      "whyItMatters": "Prong B is what a gig-economy case in an HRM roleplay fails — a delivery company cannot call drivers contractors because delivery is its usual course of business, and the judge expects you to name that prong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "economic-reality-test",
+        "worker-classification"
+      ]
+    },
+    {
+      "term": "FMLA eligibility threshold",
+      "definition": "Leave rights attach only when the employer has 50 or more employees within 75 miles and the worker has 12 months of service plus 1,250 hours worked in the prior 12 months, unlocking 12 weeks of unpaid job-protected leave.",
+      "whyItMatters": "An HRM roleplay asking whether a part-timer who averaged 20 hours a week qualifies is arithmetic — 1,040 hours misses 1,250 — and the exam rewards the candidate who runs the number instead of saying 'yes, family leave.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "cobra-continuation-coverage",
+        "qualifying-life-event"
+      ]
+    },
+    {
+      "term": "Salary basis test",
+      "definition": "Half of the white-collar exemption: the worker must receive a predetermined weekly amount — at least $684 a week, $35,568 a year, under the federal rule in force — that is not reduced for the quality or quantity of work performed.",
+      "whyItMatters": "In an HRM roleplay where a supervisor docks a salaried assistant manager half a day for leaving early, the improper deduction can destroy the exemption for everyone in that job, making the whole group owed overtime.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "exempt-employee",
+        "highly-compensated-employee-exemption"
+      ]
+    },
+    {
+      "term": "Highly compensated employee exemption",
+      "definition": "Shortcut route out of overtime for workers earning at least $107,432 in total annual compensation, including $684 a week paid on a salary basis, who need customarily perform only one of the executive, administrative, or professional duties rather than all of them.",
+      "whyItMatters": "Exam items hide the trap that commissions and nondiscretionary bonuses count toward the annual figure but cannot substitute for the weekly salary floor, so a $120,000 pure-commission seller still fails the test.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "exempt-employee",
+        "salary-basis-test"
+      ]
+    },
+    {
+      "term": "Fluctuating workweek method",
+      "definition": "Overtime scheme for a salaried nonexempt worker whose hours vary: the fixed salary already covers straight time for every hour, so the regular rate is the salary divided by hours actually worked and the premium owed is only an extra half-time.",
+      "whyItMatters": "A $800 salary over 50 hours yields a $16 regular rate and $80 of overtime, not $300 — an HRM payroll roleplay will hand you exactly that spread and expect the half-time answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "regular-rate-of-pay",
+        "compensatory-time-off"
+      ]
+    },
+    {
+      "term": "Regular rate of pay",
+      "definition": "Overtime base that is not the posted hourly wage — nondiscretionary bonuses, shift differentials, commissions, and production incentives must be folded back into total straight-time earnings and re-divided by hours worked before the 1.5 multiplier applies.",
+      "whyItMatters": "When a quarterly attendance bonus lands, an HRM case requires recomputing and paying retroactive overtime for every week in the quarter; candidates who multiply the base wage by 1.5 lose the item.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "fluctuating-workweek-method",
+        "shift-differential"
+      ]
+    },
+    {
+      "term": "Tip credit",
+      "definition": "Allowance letting an employer count a portion of gratuities toward the minimum wage — a $2.13 federal cash wage plus up to $5.12 of tips reaching $7.25 — with advance notice required and the shortfall owed by the employer in any week tips run light.",
+      "whyItMatters": "A restaurant HRM roleplay about a slow Tuesday shift turns on the make-up obligation and on the rule that a mandatory service charge is not a tip and cannot fill the credit.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "regular-rate-of-pay"
+      ]
+    },
+    {
+      "term": "Imputed income",
+      "definition": "Non-cash value that must be added to taxable wages even though no money reaches the employee — employer-paid group term life above $50,000 of coverage, personal use of a company vehicle, or coverage for a non-dependent partner.",
+      "whyItMatters": "A benefits-enrollment roleplay ends badly when an employee's W-2 grows without a raise; the HR answer is to explain the $50,000 line and withhold on the excess before year-end, not at it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "benefits-load",
+        "tax-gross-up",
+        "fica-withholding"
+      ]
+    },
+    {
+      "term": "Tax gross-up",
+      "definition": "Payment inflated so the intended amount survives withholding, found by dividing the desired net by one minus the combined tax rate — $5,000 net at a 30 percent rate costs the employer $7,142.86.",
+      "whyItMatters": "Relocation and signing-bonus roleplays in HRM hinge on this: promising a 'tax-free' $5,000 moving allowance and budgeting $5,000 shorts the new hire by more than $1,400.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "imputed-income"
+      ]
+    },
+    {
+      "term": "Compensatory time off",
+      "definition": "Paid leave banked instead of cash overtime, lawful only for public-sector employers, accrued at 1.5 hours per overtime hour and capped at 240 hours — 480 for public safety and seasonal work.",
+      "whyItMatters": "The exam trap is a private-company supervisor offering 'comp time' next month for hours worked this week, which is a wage violation; the HRM candidate has to refuse it and pay the premium in the same pay period.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "fluctuating-workweek-method",
+        "regular-rate-of-pay"
+      ]
+    },
+    {
+      "term": "Applicable large employer",
+      "definition": "Status triggered by averaging 50 or more full-time and full-time-equivalent employees across the prior calendar year, where full time means 30 hours a week or 130 a month and part-time hours are aggregated into equivalents.",
+      "whyItMatters": "A growing-company HRM roleplay asks whether health coverage is now mandatory; the answer requires converting part-timers to equivalents and testing last year's average, not today's headcount.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "full-time-equivalent",
+        "employee-benefits"
+      ]
+    },
+    {
+      "term": "Social Security wage base",
+      "definition": "Annual earnings ceiling above which the 6.2 percent OASDI tax stops for the year while the 1.45 percent Medicare tax keeps running uncapped, joined by an additional 0.9 percent employee-only Medicare tax past $200,000.",
+      "whyItMatters": "A payroll-projection item on the Business Administration Core exam expects you to notice an executive's take-home rising mid-year once the cap is crossed, and that the employer's match stops with it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "fica-withholding",
+        "futa-credit-reduction"
+      ]
+    },
+    {
+      "term": "FUTA credit reduction",
+      "definition": "Loss of part of the 5.4 percent state credit that normally cuts the 6.0 percent federal unemployment rate to 0.6 percent on the first $7,000 of each worker's wages, imposed 0.3 points a year on states with unpaid federal loans.",
+      "whyItMatters": "An HRM budgeting roleplay in an affected state has to raise the per-employee unemployment cost from $42 toward $63 and explain to the owner that hiring, not conduct, drives the increase.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "experience-modification-factor",
+        "social-security-wage-base"
+      ]
+    },
+    {
+      "term": "Disposable earnings",
+      "definition": "Pay left after legally required deductions only — income tax, FICA, mandated retirement — never after voluntary items like 401(k) deferrals or insurance premiums, and the base on which garnishment limits are computed.",
+      "whyItMatters": "Ordinary garnishment is capped at the lesser of 25 percent of this figure or the amount above 30 times the federal minimum wage, so an HRM roleplay that subtracts health premiums first over-garnishes and creates liability.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "wage-garnishment"
+      ]
+    },
+    {
+      "term": "Bradford factor",
+      "definition": "Absence score that squares the number of separate incidents and multiplies by total days lost, so ten one-day absences score 1,000 while a single ten-day absence scores 10.",
+      "whyItMatters": "It hands an HRM roleplay a defensible way to target disruptive short-notice absenteeism rather than genuine long illness, which matters because the long absence is more likely to be protected leave.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "absenteeism-rate",
+        "employee-turnover-rate"
+      ]
+    },
+    {
+      "term": "Human capital ROI",
+      "definition": "Return metric computed as revenue minus non-people operating expenses, divided by total compensation and benefit cost — the dollars the business earns back for every dollar spent on its workforce.",
+      "whyItMatters": "When an HRM roleplay asks you to defend a headcount request to a CFO, expressing the ask as a change in this ratio beats citing engagement scores, and the exam scores the financial framing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "training-return-on-investment",
+        "benefits-load"
+      ]
+    },
+    {
+      "term": "Range penetration",
+      "definition": "Placement measure equal to salary minus the range minimum, divided by the full spread from minimum to maximum — it locates a worker across the width of the band rather than against its midpoint.",
+      "whyItMatters": "A $60,000 salary in a $50,000-to-$70,000 range sits at 50 percent penetration and a 1.00 compa-ratio; an HRM pay-equity roleplay uses penetration to compare people in ranges of unequal width.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "compa-ratio",
+        "range-spread"
+      ]
+    },
+    {
+      "term": "Pay grade overlap",
+      "definition": "Share of two adjacent salary bands that covers the same dollars, found by taking the top of the lower grade minus the bottom of the higher grade and dividing by a grade's width.",
+      "whyItMatters": "Heavy overlap is why a promoted employee in an HRM roleplay gets almost no raise, and the fix — a promotional increase policy or narrower bands — is what the judge is listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "range-spread",
+        "broadbanding",
+        "pay-compression"
+      ]
+    },
+    {
+      "term": "DART rate",
+      "definition": "Safety measure counting only the recordable cases that cost days away, restricted duty, or a job transfer, multiplied by 200,000 hours and divided by hours actually worked, where 200,000 represents 100 workers at 2,000 hours a year.",
+      "whyItMatters": "It is always at or below the total recordable rate, and an HRM safety roleplay uses the gap between the two to argue that injuries are getting more severe even as their count holds steady.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "total-recordable-incident-rate",
+        "experience-modification-factor"
+      ]
+    },
+    {
+      "term": "Actual deferral percentage test",
+      "definition": "Annual 401(k) nondiscrimination check comparing the average elective deferral rate of highly compensated employees with that of everyone else — the gap may not exceed two percentage points, or 1.25 times the lower average when it is small.",
+      "whyItMatters": "Failing it forces taxable refunds to executives or corrective employer contributions, which is the whole reason an HRM roleplay recommends a safe harbor design that skips the test entirely.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "401-k-safe-harbor-match",
+        "graded-vesting"
+      ]
+    },
+    {
+      "term": "Realistic job preview",
+      "definition": "Deliberate disclosure of a role's unattractive features — night rotations, call volume, physical demands — given before hire so candidates self-select out rather than quitting once the surprise lands.",
+      "whyItMatters": "An HRM roleplay on ninety-day turnover in a call center is solved by adding one of these to the interview, and the judge expects the trade-off named: a smaller applicant pool for a lower first-year quit rate.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "job-specification",
+        "employee-turnover-rate"
+      ]
+    },
+    {
+      "term": "Broadbanding",
+      "definition": "Collapsing many narrow salary grades into a few wide bands so pay moves with skill growth inside a band instead of requiring a title change, at the cost of easy external market comparison.",
+      "whyItMatters": "In a flat-organization HRM roleplay where there is nowhere to promote anyone, this is the structural answer, paired with an admission that managers now need discipline to avoid drifting pay upward.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "range-spread",
+        "pay-grade-overlap"
+      ]
+    },
+    {
+      "term": "Essential job function",
+      "definition": "Duty so central that removing it would change the nature of the position, judged by time spent, consequence of not performing it, and whether the role exists to do it — as opposed to a marginal duty that can be reassigned.",
+      "whyItMatters": "Accommodation roleplays turn on this line: an employer must reassign marginal duties but need not eliminate an essential one, and the written job description made before posting is the evidence.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "job-specification",
+        "bona-fide-occupational-qualification"
+      ]
+    },
+    {
+      "term": "Co-employment",
+      "definition": "Arrangement in which a staffing firm or professional employer organization and its client each hold parts of the employer role, splitting payroll, benefits, and worksite direction between two entities.",
+      "whyItMatters": "An HRM roleplay about disciplining a temp has to route the decision through the agency while the client controls day-to-day work, because acting as sole employer invites wage-hour and discrimination exposure.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "joint-employer-standard",
+        "worker-classification"
+      ]
+    },
+    {
+      "term": "Qualifying life event",
+      "definition": "Change in family or coverage status — marriage, birth, adoption, divorce, or loss of other insurance — that reopens benefit elections outside open enrollment through a special enrollment window, typically 30 days.",
+      "whyItMatters": "An employee who misses the window in an HRM benefits roleplay waits until the next plan year, so the coaching moment is documenting the event date immediately rather than after the honeymoon.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "cobra-continuation-coverage",
+        "employee-benefits"
+      ]
+    },
+    {
+      "term": "Ban-the-box",
+      "definition": "Statutes removing the conviction-history checkbox from job applications and postponing any criminal inquiry until later in hiring, often not before a conditional offer, so a record does not screen someone out unread.",
+      "whyItMatters": "A multi-state HRM roleplay on a standard application form has to strip the question and move the background check after the offer, then follow the pre-adverse-action steps if the report disqualifies someone.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HRM"
+      ],
+      "confusableWith": [
+        "pre-adverse-action-notice",
+        "negligent-hiring"
       ]
     }
   ]

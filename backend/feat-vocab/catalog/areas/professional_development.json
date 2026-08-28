@@ -5,68 +5,13 @@
   ],
   "terms": [
     {
-      "term": "Work ethic",
-      "definition": "A pattern of responsibility, effort, persistence, and reliability at work.",
-      "whyItMatters": "Work ethic is tied to performance, trust, and advancement in workplace scenarios.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
       "term": "Chain of command",
       "definition": "The line of authority defining who reports to whom in an organization.",
       "whyItMatters": "Knowing when and how to escalate is a frequent judgment point in roleplays.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Time management",
-      "definition": "Organizing, planning, and prioritizing tasks to stay productive and meet deadlines.",
-      "whyItMatters": "Timed events reward competitors who prioritize and finish efficiently.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Professional appearance",
-      "definition": "Appropriate grooming, dress, and hygiene for the workplace.",
-      "whyItMatters": "First impressions are judged in interviews and face-to-face roleplay.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Company protocols",
-      "definition": "Established procedures employees are expected to follow for consistent operations.",
-      "whyItMatters": "Adhering to protocols shows respect for organizational structure.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Rules of conduct",
-      "definition": "Behavioral and ethical standards defining acceptable workplace actions.",
-      "whyItMatters": "Violating conduct rules is a common failure point in roleplay scenarios.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Problem-solving",
-      "definition": "A systematic approach to identifying issues, analyzing causes, and implementing solutions.",
-      "whyItMatters": "Competitors are judged on working through challenges and proposing action.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Creativity",
-      "definition": "Generating novel ideas and original solutions beyond conventional approaches.",
-      "whyItMatters": "DECA scenarios reward creative thinking when handling business challenges.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Systematic behavior",
@@ -74,39 +19,8 @@
       "whyItMatters": "Judges favor structured reasoning over a scattered approach.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Goal setting",
-      "definition": "Establishing clear, specific objectives for performance over a set time frame.",
-      "whyItMatters": "Goal-oriented thinking signals ambition and strategic planning.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Work-life balance",
-      "definition": "The equilibrium between time spent on work and on personal life.",
-      "whyItMatters": "Awareness of balance reflects emotional intelligence and sustainable habits.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Job interview",
-      "definition": "A formal conversation used to assess a candidate's fit, skills, and alignment with a role.",
-      "whyItMatters": "Interview performance is directly tested and drives job-search success.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
-    },
-    {
-      "term": "Résumé",
-      "definition": "A concise written summary of education, experience, skills, and achievements for job applications.",
-      "whyItMatters": "A strong résumé is the foundation of any job-search strategy.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Professional networking",
@@ -114,7 +28,8 @@
       "whyItMatters": "Networking is essential for discovering and advancing career opportunities.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/professional_development.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Career progression",
@@ -122,14 +37,657 @@
       "whyItMatters": "Understanding progression guides career decisions in higher-level scenarios.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Occupational licensure",
+      "definition": "State-granted legal permission to perform work that is illegal without it — signing an audit opinion, selling securities, practicing law. A voluntary certification is issued by a private association instead, so losing it costs you the letters after your name but never the legal right to keep working.",
+      "whyItMatters": "A finance roleplay that asks what a new hire may and may not sign turns on this line: an unlicensed staff accountant can prepare the workpapers but cannot issue the opinion.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "professional-certification",
+        "continuing-professional-education-cpe"
       ]
     },
     {
-      "term": "Innovation skills",
-      "definition": "The ability to conceive new approaches and adapt to changing business environments.",
-      "whyItMatters": "Employers prize innovation; demonstrating it signals future-focused leadership.",
+      "term": "Professional certification",
+      "definition": "Credential a private board grants after a psychometrically validated exam and keeps alive through periodic recertification, evidencing tested competence rather than legal permission. A certificate of completion is the near-neighbor that fools students: it is awarded merely for finishing a course, is never re-earned, and no board can revoke it.",
+      "whyItMatters": "Exam items on career-advancement resources ask which credential an employer will actually pay for; the answer is the one with an exam and a renewal cycle behind it.",
+      "difficulty": "hard",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "occupational-licensure",
+        "continuing-education-unit-ceu"
+      ]
+    },
+    {
+      "term": "Continuing professional education (CPE)",
+      "definition": "Renewal credit a credentialed professional must earn on a fixed cycle to keep the credential active — most state boards require a CPA to report 120 hours across a rolling three-year period with a 20-hour annual floor plus a mandated ethics course, and unused hours lapse rather than carry forward. Unlike a degree, it has no completion point.",
+      "whyItMatters": "The finance roleplay that asks how an accountant stays qualified year to year wants the cycle and the hour count, not a sentence about lifelong learning.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "continuing-education-unit-ceu",
+        "professional-certification"
+      ]
+    },
+    {
+      "term": "Continuing education unit (CEU)",
+      "definition": "Standard measure of non-degree instruction in which one unit equals 10 contact hours of participation in an accredited program, so a two-day 16-hour seminar earns 1.6 units. A college credit hour is a different currency entirely — roughly 15 contact hours across a semester — and licensing boards rarely convert one into the other.",
+      "whyItMatters": "Asked on the exam to price a training plan against a 40-hour renewal requirement, a competitor has to convert seminar hours into units before the budget makes sense.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "continuing-professional-education-cpe"
+      ]
+    },
+    {
+      "term": "150-hour education requirement",
+      "definition": "Licensing threshold most states impose on CPA candidates: 150 semester hours of college credit — 30 beyond the 120 a bachelor's degree typically carries — plus all four sections of the Uniform CPA Exam and a year of supervised experience. Several states now allow a bachelor's degree plus two years of experience as an alternate route to the same license.",
+      "whyItMatters": "An accounting-designations roleplay asks what a college junior must still complete before licensure; the answer is a credit count and an exam, not a job offer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "occupational-licensure",
+        "certified-management-accountant-cma"
+      ]
+    },
+    {
+      "term": "CFA charter",
+      "definition": "Investment credential awarded after passing three sequential exams, each historically about six hours, and documenting 4,000 hours of qualified work experience earned over a minimum of 36 months. It certifies analytical competence only: unlike a CPA license it grants no legal authority to audit financial statements or sign a tax return.",
+      "whyItMatters": "In a business-finance roleplay explaining designations to an intern, the tested contrast is that this one signals analysis while the CPA license signals attest authority.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "certified-management-accountant-cma",
+        "series-7-license"
+      ]
+    },
+    {
+      "term": "Certified Management Accountant (CMA)",
+      "definition": "Two-part credential in financial planning, analysis and strategic decision support, requiring a bachelor's degree, two years of management-accounting experience, and 30 continuing hours a year of which 2 must be ethics. It is built for internal decision support, whereas the CPA license exists for the external attest work a CMA holder may not sign.",
+      "whyItMatters": "A corporate-finance roleplay asking which credential fits a cost-analyst career path needs this internal-versus-external split stated with its hour requirement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "cfa-charter",
+        "150-hour-education-requirement"
+      ]
+    },
+    {
+      "term": "Series 7 license",
+      "definition": "FINRA registration permitting an individual to sell general securities to the public, earned by passing the Securities Industry Essentials exam plus a top-off exam and requiring sponsorship by a member firm — a candidate cannot even sit for it unaffiliated. Charging a fee for advice rather than selling products requires a Series 65 or 66 instead.",
+      "whyItMatters": "A financial-services roleplay that asks what a new advisor may do on day one hinges on which registration is in place and who sponsored it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "suitability-standard",
+        "occupational-licensure"
+      ]
+    },
+    {
+      "term": "Auditor independence",
+      "definition": "Freedom from any relationship that would let a firm review its own work: Sarbanes-Oxley bars nine categories of non-audit service for an audit client, forces the lead partner off the engagement after five years, and imposes a one-year cooling-off period before an auditor may join that client as CFO or controller. Objectivity is a mindset; this is the enforceable rule set.",
+      "whyItMatters": "An accounting roleplay in which the audit firm is offered the client's bookkeeping work is decided by these prohibitions, not by whether the team feels unbiased.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "conflict-of-interest",
+        "code-of-ethics"
+      ]
+    },
+    {
+      "term": "Suitability standard",
+      "definition": "Duty a broker-dealer owes to recommend products that fit a customer's stated objectives, raised in 2020 to a best-interest obligation requiring conflicts to be disclosed. It still stops short of the fiduciary standard a registered investment adviser owes under the Advisers Act of 1940, where the client's interest comes first continuously, not only at the moment of a recommendation.",
+      "whyItMatters": "A financial-advising roleplay about recommending a higher-commission fund turns on which of the two duties the professional is actually held to.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "fiduciary-duty-of-loyalty",
+        "conflict-of-interest"
+      ]
+    },
+    {
+      "term": "Professional association",
+      "definition": "Member-governed body that publishes a code of ethics, administers credentialing exams and sets practice standards for a field — the AICPA for accountants, SHRM for HR professionals. A labor union may cover overlapping workers but bargains collectively over wages and conditions; an association negotiates nothing and its only sanction is revoking the credential.",
+      "whyItMatters": "The accounting roleplay that asks what a professional organization does for a member is scored on services and enforcement, and confusing it with a union loses the item.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "labor-relations",
+        "code-of-ethics"
+      ]
+    },
+    {
+      "term": "Code of ethics",
+      "definition": "Statement of the principles a profession owes the public, enforced by a licensing or membership board that can suspend or revoke the credential itself. A code of conduct is narrower and employer-issued: it lists prohibited acts and is enforced through progressive discipline up to termination, which ends the job but leaves the right to practice intact.",
+      "whyItMatters": "A roleplay where an employee follows company policy yet violates a professional standard requires naming which body can act and what each can take away.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "business-ethics",
+        "progressive-discipline"
+      ]
+    },
+    {
+      "term": "Whistleblower protection",
+      "definition": "Statutory shield for an employee who reports suspected fraud: Sarbanes-Oxley gives a retaliation complaint 180 days to reach OSHA, while Dodd-Frank pays an SEC tipster 10% to 30% of sanctions when the recovery exceeds $1 million. Reporting internally first preserves the retaliation claim but is not a precondition of the SEC award.",
+      "whyItMatters": "In a business-ethics roleplay about a coworker's falsified expense reports, the graded answer names the channel and the filing window, not just 'tell someone'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "sarbanes-oxley-act",
+        "grievance-procedure"
+      ]
+    },
+    {
+      "term": "Trading blackout period",
+      "definition": "Stretch of the calendar when insiders may not trade their own company's stock, typically closing two to four weeks before quarter-end and reopening one to two full trading days after earnings are released. A Rule 10b5-1 plan is the only clean way around it: trades are pre-scheduled and, under the 2023 amendments, cannot begin for at least 90 days.",
+      "whyItMatters": "A corporate-finance roleplay in which an employee wants to sell vested shares the week before an earnings release is answered by the window, not by intent.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "restricted-stock-unit-rsu",
+        "conflict-of-interest"
+      ]
+    },
+    {
+      "term": "De minimis gift threshold",
+      "definition": "Dollar ceiling below which accepting a business courtesy is not treated as influence — federal ethics rules cap it at $20 per occasion and $50 per source per year, and many corporate policies copy those figures. Above the line the item must be refused, returned, or reported, and splitting one gift across two occasions is itself the violation.",
+      "whyItMatters": "A purchasing roleplay where a vendor sends playoff tickets is scored on whether the competitor applies the stated dollar limit and the reporting step.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "conflict-of-interest",
+        "foreign-corrupt-practices-act"
+      ]
+    },
+    {
+      "term": "Accountable plan",
+      "definition": "Reimbursement arrangement that keeps expense payments out of taxable wages, valid only when the expense has a business connection, is substantiated with receipts within 60 days, and any excess advance is returned within 120 days. Miss any one of the three and the arrangement is non-accountable, so every reimbursed dollar is added to the W-2 and taxed as pay.",
+      "whyItMatters": "An exam item on a sales rep who never turns in travel receipts is really asking why the reimbursement showed up as taxable income.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "per-diem-rate",
+        "form-w-4"
+      ]
+    },
+    {
+      "term": "Per diem rate",
+      "definition": "Flat daily travel allowance that substitutes for itemized receipts — the federal standard for the continental U.S. runs near $110 for lodging plus $68 for meals and incidentals, with the first and last travel days paid at 75% of the meal portion. Anything paid above the published rate becomes taxable wages to the traveler.",
+      "whyItMatters": "A hospitality or sales roleplay budgeting a three-day trip needs the arithmetic: two full days at the meal rate plus two partial days at three quarters of it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "accountable-plan"
+      ]
+    },
+    {
+      "term": "Non-compete clause",
+      "definition": "Post-employment restriction barring a departing worker from joining a competitor for a stated period and geography, commonly 6 to 12 months. Enforceability is a state question — California voids them outright and several states exempt hourly workers below a wage threshold — and a court will usually narrow an unreasonable radius rather than rewrite the deal.",
+      "whyItMatters": "A roleplay advising an employee who has an offer from a rival turns on this clause's scope and on whether the state will enforce it at all.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "non-solicitation-clause",
+        "garden-leave"
+      ]
+    },
+    {
+      "term": "Non-solicitation clause",
+      "definition": "Narrower post-employment restriction that lets a departing worker take any job but forbids contacting the former employer's customers or recruiting its staff, usually for 12 to 24 months. Because it limits whom you may approach rather than where you may work, courts enforce it in states that will not enforce a non-compete at all.",
+      "whyItMatters": "A sales-management roleplay about a rep who leaves and calls his old book of business is decided by this clause, not by the broader competition ban.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "non-compete-clause",
+        "non-disclosure-agreement"
+      ]
+    },
+    {
+      "term": "Invention assignment agreement",
+      "definition": "Employment clause transferring to the employer any invention conceived during the job, reaching further than copyright's work-made-for-hire rule because it also captures patents. Statutes such as California Labor Code section 2870 carve out inventions developed entirely on the worker's own time, without company equipment or trade secrets, and unrelated to the employer's business.",
+      "whyItMatters": "An entrepreneurship roleplay about a side project built after hours is scored on whether the competitor can state the carve-out's three conditions.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "work-made-for-hire",
+        "intellectual-property"
+      ]
+    },
+    {
+      "term": "Garden leave",
+      "definition": "Paid notice period during which a resigning employee stays on payroll but is kept away from the office, from clients and from starting at a competitor, commonly one to six months. It is enforceable in places that void a bare non-compete precisely because the employer keeps paying — the restraint is bought rather than merely imposed.",
+      "whyItMatters": "A roleplay advising a senior manager on a competitor's offer must separate this paid restriction from an unpaid non-compete, because only one keeps income flowing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "non-compete-clause",
+        "notice-period"
+      ]
+    },
+    {
+      "term": "Mandatory arbitration clause",
+      "definition": "Employment term routing disputes to a private arbitrator instead of a court, waiving a jury and usually class treatment; the Federal Arbitration Act makes it binding and the award is nearly unappealable on the merits. The 2022 Ending Forced Arbitration Act carves out sexual assault and harassment claims, which an employee may still take to court.",
+      "whyItMatters": "A roleplay walking a new hire through an offer packet has to flag what this clause gives up, since signing happens on day one and matters years later.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "grievance-procedure",
+        "at-will-employment"
+      ]
+    },
+    {
+      "term": "Section 302 certification",
+      "definition": "Sworn statement the CEO and CFO sign with every quarterly and annual report, affirming that it is accurate and that they evaluated the effectiveness of disclosure controls as of the period's end. Section 906 supplies the teeth: a knowing false certification carries fines up to $5 million and imprisonment up to 20 years.",
+      "whyItMatters": "An accounting roleplay about pressure to delay recognizing an expense is answered by naming who personally signs for the numbers and what the penalty is.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "sarbanes-oxley-act",
+        "internal-control"
+      ]
+    },
+    {
+      "term": "Exempt employee",
+      "definition": "Worker excluded from federal overtime because the job clears both a salary-basis test and a duties test — at least $684 a week, which annualizes to $35,568, plus genuine executive, administrative or professional duties. A non-exempt worker, salaried or not, earns 1.5 times the regular rate beyond 40 hours in a week, and a job title alone never settles the classification.",
+      "whyItMatters": "An exam item on worker rights that gives an assistant manager a $700 weekly salary and 50 hours is testing both prongs of this test at once.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "worker-classification",
+        "full-time-equivalent"
+      ]
+    },
+    {
+      "term": "Form W-4",
+      "definition": "Withholding certificate an employee files so the employer deducts the right federal income tax; the 2020 redesign dropped allowances for a five-step worksheet stated in dollars, including $2,000 per qualifying child. It is not Form I-9, which proves work authorization within three business days of hire, nor Form W-9, which an independent contractor files instead.",
+      "whyItMatters": "A first-day onboarding roleplay is scored on knowing which of the three forms does what, since a competitor who names the wrong one has the new hire unpaid or unauthorized.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "form-i-9",
+        "fica-withholding"
+      ]
+    },
+    {
+      "term": "Pre-adverse action notice",
+      "definition": "Warning an employer must send before rejecting an applicant because of a background-check report, enclosing a copy of the report and a summary of rights under the Fair Credit Reporting Act, then waiting a reasonable interval — five business days is the common practice — so the applicant can dispute an error before the final adverse-action notice issues.",
+      "whyItMatters": "A hiring roleplay where a screening report shows a charge that belongs to someone else is scored on this two-notice sequence and the gap between them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "fair-credit-reporting-act",
+        "job-applicant-screening"
+      ]
+    },
+    {
+      "term": "Pay transparency law",
+      "definition": "State or city rule requiring an employer to publish a good-faith salary range inside the job posting itself, as Colorado's Equal Pay for Equal Work Act and New York City's Local Law 32 do. It attacks the gap at the offer stage, whereas the Equal Pay Act of 1963 works after the fact by requiring equal pay for substantially equal work.",
+      "whyItMatters": "A roleplay preparing a competitor to negotiate an offer changes completely when the posted range is public, because the anchor is set before the conversation.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "equal-pay-act-of-1963",
+        "pay-compression"
+      ]
+    },
+    {
+      "term": "Restricted stock unit (RSU)",
+      "definition": "Promise of company shares delivered on a vesting date and taxed as ordinary income on the full market value at vest — 400 shares vesting at $50 is $20,000 of W-2 wages whether or not a single share is sold. A stock option instead taxes the spread at exercise and is worth nothing while the price sits below the strike, which this grant never is.",
+      "whyItMatters": "Comparing two offers in a roleplay is impossible without valuing the equity: the exam wants shares times price times the vesting fraction, plus the tax hit at vest.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "vesting-cliff",
+        "graded-vesting",
+        "employee-option-pool"
+      ]
+    },
+    {
+      "term": "Cost-of-living adjustment (COLA)",
+      "definition": "Pay increase tied to a published price index rather than to performance — Social Security's 2.5% raise for 2025 came directly from the CPI-W. Relocation uses the same arithmetic: moving a $60,000 salary to a city with a cost index of 130 against a base of 100 takes $78,000 to hold the same purchasing power.",
+      "whyItMatters": "A roleplay weighing a transfer offer to a more expensive city is scored on running the index ratio, not on comparing the two base salaries.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "real-wage",
+        "merit-increase-matrix"
+      ]
+    },
+    {
+      "term": "Real wage",
+      "definition": "Earnings measured in what they buy rather than in dollars received: a 3% raise against 4% inflation is a cut of roughly 1%, since 1.03 divided by 1.04 comes to 0.99. The nominal number on the offer letter can rise every single year while this one falls, which is why a raise is judged against the inflation rate and not against last year's salary.",
+      "whyItMatters": "An exam item giving a raise percentage and an inflation rate is asking for this comparison, and the trap answer is the one that calls any raise an improvement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "cost-of-living-adjustment-cola",
+        "inflation"
+      ]
+    },
+    {
+      "term": "Registered apprenticeship",
+      "definition": "Department of Labor-registered training program pairing paid on-the-job hours — about 2,000 a year under a journey-worker mentor — with at least 144 hours of related classroom instruction and scheduled wage increases as each skill is certified. An internship carries no registered hour floor, no mentor requirement and no guaranteed wage progression.",
+      "whyItMatters": "A roleplay on ways to gain real work experience is scored on naming the structured, paid, credentialed route rather than only the summer internship.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "cooperative-education",
+        "primary-beneficiary-test"
+      ]
+    },
+    {
+      "term": "Primary-beneficiary test",
+      "definition": "Seven-factor analysis the Department of Labor applies to decide whether an unpaid intern is really an employee: who gains the greater benefit, whether the work is tied to academic credit, whether it displaces paid staff, and whether either side expects a paid job at the end. If the employer is the main beneficiary, minimum wage and overtime are owed retroactively.",
+      "whyItMatters": "An entrepreneurship roleplay staffing a startup with unpaid interns is scored on this test, because failing it turns free labor into back wages.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "registered-apprenticeship",
+        "worker-classification"
+      ]
+    },
+    {
+      "term": "Eisenhower matrix",
+      "definition": "Four-quadrant triage that sorts a task list on two separate axes, urgency and importance: important and urgent is handled now, important and not urgent is scheduled and is where career-building work lives, urgent and not important is delegated, and neither is dropped. The insight is that a loud task can rank last.",
+      "whyItMatters": "A management roleplay handed a full inbox and one afternoon is scored on the quadrant each item lands in and the action that quadrant dictates.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "context-switching-cost",
+        "pareto-principle"
+      ]
+    },
+    {
+      "term": "70-20-10 development model",
+      "definition": "Allocation of professional growth into three ratios: 70% from challenging on-the-job assignments, 20% from developmental relationships such as coaching and feedback, and only 10% from formal courses. It reframes a development plan away from a training catalog and toward the stretch assignment that produces most of the learning.",
+      "whyItMatters": "A roleplay building a development plan for a high-potential employee loses points if the whole plan is a list of seminars.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "training-and-development",
+        "lateral-move"
+      ]
+    },
+    {
+      "term": "Career sponsor",
+      "definition": "Senior advocate who spends political capital on someone's behalf in rooms that person is not in, putting their name into promotion and staffing decisions and absorbing reputational risk if it goes badly. A mentor spends time instead of capital — advice given directly to you, with nothing of the mentor's own staked on the outcome.",
+      "whyItMatters": "A roleplay on advancement patterns is scored on this distinction, because the competitor who only asks for coffee chats never gets named in the promotion meeting.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "professional-networking",
+        "career-progression"
+      ]
+    },
+    {
+      "term": "Competency model",
+      "definition": "Inventory of the behaviors a role requires, each rated on a defined proficiency scale — commonly five levels from awareness to expert — with written behavioral anchors describing what each level looks like in practice. A job description lists duties and reporting lines; this states how well, which is what makes it scoreable.",
+      "whyItMatters": "A roleplay asked to justify why one of two equally experienced candidates is ready for the role needs a scored scale, not an impression.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "job-description",
+        "skills-gap-analysis"
+      ]
+    },
+    {
+      "term": "Skills gap analysis",
+      "definition": "Subtraction run one competency at a time — required proficiency minus current proficiency — with the resulting gaps ranked by size multiplied by how critical the competency is, so a 2-point gap on a critical skill outranks a 3-point gap on a peripheral one. Without the criticality weighting it degenerates into a list of everything someone cannot do.",
+      "whyItMatters": "An exam item on assessing your own interests and skills against an employer's expectations is really asking for this weighted subtraction.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "competency-model",
+        "needs-assessment"
+      ]
+    },
+    {
+      "term": "360-degree feedback",
+      "definition": "Development instrument that collects ratings from four vantage points — self, manager, peers and direct reports, usually 8 to 12 raters in total — and reports where the self-rating and everyone else's diverge. A performance appraisal is single-source and administrative, feeding pay and promotion, which is exactly why these results are normally kept out of it.",
+      "whyItMatters": "A roleplay on using development resources is scored on knowing this tool informs growth, and that folding it into a pay decision makes raters stop being honest.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "performance-appraisal",
+        "behaviorally-anchored-rating-scale"
+      ]
+    },
+    {
+      "term": "Performance improvement plan",
+      "definition": "Written 30-, 60- or 90-day document listing measurable targets, the support the employer will provide and the stated consequence of missing them. It is not progressive discipline's verbal-then-written-warning ladder: discipline addresses conduct the employee chose, this addresses capability, and it doubles as the documentation trail for a for-cause termination.",
+      "whyItMatters": "A supervision roleplay about an employee who is trying hard and still missing quota calls for this, while a no-call-no-show calls for the discipline ladder instead.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "progressive-discipline",
+        "performance-appraisal"
+      ]
+    },
+    {
+      "term": "Quorum",
+      "definition": "Minimum number of members who must be present for a body's votes to count — a majority of the membership under Robert's Rules unless the bylaws set something lower, often one third. Business conducted without one is void rather than merely defeated, so a motion that loses 3 to 2 stands as rejected while the same motion passed short of this number stands as nothing at all.",
+      "whyItMatters": "A chapter-officer or board roleplay in which half the members skip the meeting is scored on whether the competitor recognizes that no decision can be made.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "robert-s-rules-of-order"
+      ]
+    },
+    {
+      "term": "Behavioral interview question",
+      "definition": "Prompt demanding a specific past incident, on the premise that past behavior predicts future behavior, with answers scored against written anchors — which is why a hypothetical answer earns zero. A situational question does the opposite, asking what you would do in a scenario you have never faced, and is scored for reasoning rather than evidence.",
+      "whyItMatters": "The interview portion of a job-seeking roleplay is graded on giving a dated, quantified incident when the question asks for one, not a description of your general habits.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "structured-interview",
+        "informational-interview"
+      ]
+    },
+    {
+      "term": "Letter of application",
+      "definition": "Cover document sent with an application to a posted opening, naming the requisition and tying two or three of its stated requirements to specific evidence from your record. A letter of inquiry does the same job for a company with no advertised opening, so it opens with the employer's problem instead of with a listing.",
+      "whyItMatters": "A written-event or job-search roleplay that supplies a job posting expects the letter to answer that posting's requirements point by point.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "business-letter",
+        "professional-writing-formats"
+      ]
+    },
+    {
+      "term": "Applicant tracking system (ATS)",
+      "definition": "Software that parses every application into structured fields and ranks candidates by keyword match against the requisition before a recruiter reads a single one. Multi-column layouts, text inside images and invented section headings are dropped during parsing, so a qualified candidate can be screened out by formatting rather than by qualifications.",
+      "whyItMatters": "A job-search roleplay advising a competitor whose applications get no response usually turns on this filter, not on the strength of the experience.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "job-applicant-screening",
+        "letter-of-application"
+      ]
+    },
+    {
+      "term": "Cooperative education",
+      "definition": "Degree program alternating full-time paid work terms with academic terms, where the work terms carry academic credit and a faculty evaluation. An internship is a single standalone placement with no required academic component, which is why students on this track often graduate with a year or more of documented, evaluated experience.",
+      "whyItMatters": "A roleplay on ways to build work experience while still in school is scored on distinguishing the credit-bearing alternating program from a one-off summer job.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "registered-apprenticeship",
+        "primary-beneficiary-test"
+      ]
+    },
+    {
+      "term": "Form 1099-NEC",
+      "definition": "The information return a business files for every non-employee it paid $600 or more for services in a calendar year, furnished to both the worker and the IRS by January 31. Nothing is withheld, so the contractor carries the whole 15.3% self-employment tax (12.4% Social Security + 2.9% Medicare) and pays it in quarterly estimates, whereas a Form W-2 employee splits that load with an employer paying 7.65%; a payee who supplies no taxpayer ID triggers 24% backup withholding.",
+      "whyItMatters": "Career-cluster exam items ask what changes when a firm hires a freelance designer instead of a staff one, and a professional-development roleplay where the judge plays a first-time gig worker is graded on naming the $600 filing trigger and the fact that no tax comes out of the check.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "form-w-4",
+        "worker-classification",
+        "fica-withholding"
+      ]
+    },
+    {
+      "term": "Licensure by endorsement",
+      "definition": "A route into a second state's professional licence that accepts a licence already held in good standing elsewhere — for CPAs, commonly practice in four of the last ten years plus education and exam requirements the receiving board judges substantially equivalent — instead of requiring the applicant to sit that state's own examination again. It runs one direction only, which is what separates it from reciprocity: the receiving state grants the privilege and the sending state owes nothing in return.",
+      "whyItMatters": "A finance roleplay in which the judge plays an accountant relocating for a promotion turns on whether they must re-test, and exam items on advancement patterns expect this route named rather than a vague 'get licensed again.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "occupational-licensure",
+        "professional-certification"
+      ]
+    },
+    {
+      "term": "Certified Financial Planner (CFP)",
+      "definition": "Planning credential CFP Board grants to a candidate who holds a bachelor's degree, completes registered coursework, passes a 170-question exam given in two three-hour sessions, and logs 6,000 hours of professional experience — or 4,000 hours under a supervised apprenticeship — then renews with 30 continuing-education hours every two years, 2 of them CFP Board ethics. Against a licence that only obliges a recommendation to be suitable, the difference is the standard of care: the holder must act as a fiduciary and place the client's interest ahead of their own whenever advice is given.",
+      "whyItMatters": "Finance roleplays that make a competitor explain designations to a client reward the fiduciary-versus-suitability line, and exam items on ongoing education use the 30-hour, two-year renewal as the tested number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "cfa-charter",
+        "suitability-standard",
+        "series-7-license"
+      ]
+    },
+    {
+      "term": "Worker Adjustment and Retraining Notification (WARN) Act",
+      "definition": "Federal statute obliging an employer of 100 or more employees to give 60 calendar days' written notice before a plant closing that ends 50 or more jobs at one site within any 30-day window, or a mass layoff of 500 workers — or of 50 to 499 when that reaches a third of the site's active workforce. Skipping notice is not a fine paid to the government: the remedy is back pay and benefits owed to each affected worker for every day of shortfall, capped at 60.",
+      "whyItMatters": "Worker-rights exam items use the 60-day count to kill distractors, and a professional-development roleplay where the judge plays an employee hearing closing rumors is scored on stating the notice entitlement and the back-pay remedy instead of offering reassurance.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "at-will-employment",
+        "cobra-continuation-coverage"
+      ]
+    },
+    {
+      "term": "Journeyworker-to-apprentice ratio",
+      "definition": "The cap a registered apprenticeship program's standards must state under 29 CFR Part 29 on how many apprentices may work per experienced worker on a job — one to one is the common floor, and a sponsor that exceeds its registered figure risks deregistration of the whole program. It travels with a stepped wage schedule: the apprentice begins near 50% of the journeyworker rate and moves up at fixed hour milestones, so the sponsor's cost per apprentice climbs across the term rather than staying flat.",
+      "whyItMatters": "A roleplay asking how a small contractor can afford to train new workers is answered with the supervision ratio and the stepped percentage, and exam items pair it with registered apprenticeship to test whether the competitor knows the arrangement is federally regulated rather than an informal handshake.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ],
+      "confusableWith": [
+        "registered-apprenticeship",
+        "cooperative-education"
+      ]
+    },
+    {
+      "term": "Neutral reference policy",
+      "definition": "An employer rule capping what any manager may tell a reference checker — dates of employment, job title, and sometimes final pay — adopted because a former employer's comment on performance holds its qualified privilege only while made in good faith and loses it, opening a defamation claim, once malice or reckless falsehood is shown. It is not a universal shield: a handful of states run service-letter statutes, Missouri's being the model, that compel a letter stating the cause of separation within 45 days of a certified-mail request from anyone who worked at least 90 days.",
+      "whyItMatters": "Professional-development roleplays hand the competitor a manager who wants to warn another firm about a fired employee, and the graded answer is the disclosure limit plus the legal reason for it; job-search exam items use the same rule to explain why a former supervisor will confirm only dates.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:professional_development"
+      ],
+      "confusableWith": [
+        "pre-adverse-action-notice",
+        "fair-credit-reporting-act"
       ]
     }
   ]

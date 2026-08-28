@@ -10,7 +10,8 @@
       "whyItMatters": "Business-law roleplays turn on whether promises, rights, and duties are enforceable.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Consideration",
@@ -18,7 +19,8 @@
       "whyItMatters": "Without consideration, an agreement is a mere promise and not legally enforceable.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Tort",
@@ -26,7 +28,8 @@
       "whyItMatters": "Businesses must understand what conduct exposes them to lawsuits and damages.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Negligence",
@@ -34,7 +37,8 @@
       "whyItMatters": "It is the most common tort in business and a leading source of liability claims.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Patent",
@@ -42,7 +46,8 @@
       "whyItMatters": "Competitors must recognize what innovations a business can legally protect from copying.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Trademark",
@@ -50,7 +55,8 @@
       "whyItMatters": "Brands are valuable assets; competitors must understand trademark protection and infringement.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Copyright",
@@ -58,7 +64,8 @@
       "whyItMatters": "Digital content and creative works are critical assets in modern business.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Intellectual property",
@@ -66,23 +73,8 @@
       "whyItMatters": "Competitors must recognize what a business can protect and how.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Liability",
-      "definition": "Legal responsibility for one's actions that may bring financial or legal consequences.",
-      "whyItMatters": "Understanding liability exposure is central to risk in any business scenario.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Statute",
-      "definition": "A formal written law enacted by a legislative body.",
-      "whyItMatters": "Federal, state, and local statutes form the foundation of business regulation.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Common law",
@@ -90,15 +82,8 @@
       "whyItMatters": "Many business principles, like contract formation, are rooted in common law.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Jurisdiction",
-      "definition": "The legal authority of a court to hear and decide a case.",
-      "whyItMatters": "Competitors must know which courts can decide disputes in a given situation.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Agency",
@@ -106,15 +91,8 @@
       "whyItMatters": "Businesses act through agents; competitors must grasp authority, liability, and duties.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Principal",
-      "definition": "A person who authorizes an agent to act on their behalf.",
-      "whyItMatters": "Principals are responsible for their agents' actions within the scope of authority.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Corporation",
@@ -122,7 +100,8 @@
       "whyItMatters": "Incorporation shields owners from personal liability for business debts.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Partnership",
@@ -130,6 +109,612 @@
       "whyItMatters": "Partnership law sets how partners share profits, decide, and bear business debts.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "UCC Article 2",
+      "definition": "Governs contracts for the sale of goods — movable, tangible items — and displaces common-law contract rules for them, so services, employment and real estate stay under common law. Its section 2-207 is the sharpest break: a definite acceptance forms a contract even when it adds terms, where the common-law mirror-image rule would have turned the same reply into a counteroffer.",
+      "whyItMatters": "Exam fact patterns about a purchase order with extra terms typed on the back are decided first by asking whether goods or services were sold.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "common-law",
+        "contract"
+      ]
+    },
+    {
+      "term": "Statute of frauds",
+      "definition": "Requires certain agreements to be evidenced by a signed writing before a court will enforce them: sales of land, promises that cannot be performed within one year, promises to answer for another party's debt, agreements made in consideration of marriage, executor promises, and sales of goods priced at $500 or more under UCC section 2-201. A covered oral deal is not void — it is unenforceable if the other side raises the defense.",
+      "whyItMatters": "Roleplay judges ask which handshake commitments a manager can still rely on, and the $500 goods figure and the one-year rule are what settle it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "parol-evidence-rule",
+        "contract"
+      ]
+    },
+    {
+      "term": "Promissory estoppel",
+      "definition": "Enforces a promise that never had a bargained-for exchange behind it when four elements line up: a clear and definite promise, the promisor's reasonable expectation that it would induce reliance, actual detrimental reliance by the promisee, and injustice avoidable only by enforcement. Recovery is usually capped at what reliance cost, not the full expectancy a consideration-backed contract would deliver.",
+      "whyItMatters": "Contract exam items about a supplier who withdrew a quoted price after the buyer already used it to bid a job test this doctrine, not consideration.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "consideration",
+        "contract"
+      ]
+    },
+    {
+      "term": "Parol evidence rule",
+      "definition": "Bars earlier or contemporaneous statements, oral or written, that would contradict a writing the parties intended as their complete and final agreement — a merger or integration clause is the usual signal of that intent. Evidence of fraud, duress, ambiguity, an unsatisfied condition precedent, or a later modification still comes in, because the rule blocks contradiction of the past and never blocks changes made afterward.",
+      "whyItMatters": "A roleplay where a customer insists the salesperson promised free installation that appears nowhere in the signed order turns on this rule and its fraud exception.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "statute-of-frauds",
+        "contract"
+      ]
+    },
+    {
+      "term": "Mailbox rule",
+      "definition": "Makes an acceptance effective the instant it is properly dispatched, while a revocation, rejection or counteroffer takes effect only when it is received — so an acceptance mailed before a revocation arrives still closes the deal. It does not apply to option contracts, where acceptance must actually reach the offeror to count.",
+      "whyItMatters": "Contract-timing questions give two crossing letters and ask which one controls; the dispatch-versus-receipt split is the whole answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "contract",
+        "consideration"
+      ]
+    },
+    {
+      "term": "Unconscionability",
+      "definition": "A defense under UCC section 2-302 letting a court refuse to enforce a contract or strike a single clause, and it normally demands both halves: procedural unfairness in how the bargain was struck (buried terms, adhesion, no meaningful choice) and substantive unfairness in the terms themselves (grossly one-sided price, remedy or risk allocation). A merely harsh deal freely negotiated between sophisticated parties fails the test.",
+      "whyItMatters": "Consumer-contract roleplays ask whether a court would strike a lopsided financing clause, and naming both prongs is what earns the points.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "contract",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Anticipatory repudiation",
+      "definition": "Occurs when a party makes clear before performance is due that it will not perform, letting the other side treat the contract as breached at once, suspend its own performance, and sue without waiting for the due date. UCC section 2-609 adds a softer middle step: a party with reasonable grounds for insecurity may demand written assurance and suspend performance until it arrives, treating silence past thirty days as a repudiation.",
+      "whyItMatters": "A roleplay where a supplier emails that it probably cannot ship the spring order tests whether that is a repudiation or only grounds to demand assurance.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "contract",
+        "liquidated-damages"
+      ]
+    },
+    {
+      "term": "Liquidated damages",
+      "definition": "A sum the parties fix in the contract as the remedy for breach, enforceable only if two things hold: actual harm was difficult to estimate when the contract was signed, and the figure is a reasonable forecast of that harm. A number set far above probable loss is an unenforceable penalty, which throws the injured party back on proving real compensatory damages item by item.",
+      "whyItMatters": "Construction and event-contract roleplays ask whether a $500-per-day late clause will hold up, and the two-part reasonableness test is the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "contract",
+        "anticipatory-repudiation"
+      ]
+    },
+    {
+      "term": "Implied warranty of merchantability",
+      "definition": "Attaches automatically under UCC section 2-314 whenever the seller is a merchant dealing in goods of that kind, promising the goods are fit for their ordinary purpose, adequately packaged and labeled, and of fair average quality. Its near neighbour, the implied warranty of fitness for a particular purpose under section 2-315, arises only when the seller knows the buyer's special use and the buyer relies on the seller to select — and that one binds non-merchant sellers too.",
+      "whyItMatters": "Product-complaint roleplays ask which warranty a customer can still invoke when the receipt says nothing about quality at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "warranties-and-guarantees",
+        "magnuson-moss-warranty-act"
+      ]
+    },
+    {
+      "term": "Magnuson-Moss Warranty Act",
+      "definition": "Federal law policing written warranties on consumer products: one costing more than $10 must be designated conspicuously as full or limited, terms must be available to read before purchase on products over $15, a full warranty may not shorten the duration of implied warranties, and issuing any written warranty strips the seller of the power to disclaim implied warranties. It also lets a prevailing consumer recover attorney fees, which is why small warranty claims get litigated at all.",
+      "whyItMatters": "Retail roleplays about extended service plans test whether a store that printed a warranty can still sell the item as is — under this Act it cannot.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "warranties-and-guarantees",
+        "implied-warranty-of-merchantability"
+      ]
+    },
+    {
+      "term": "Strict product liability",
+      "definition": "Holds every commercial seller in the distribution chain answerable for a product defective in manufacture, design, or warning that reached the user substantially unchanged and caused injury, with no proof of carelessness required — and that missing fault element is exactly what separates it from negligence. Restatement section 402A frames the question around a product that is unreasonably dangerous, so a plaintiff who cannot identify any breach of duty still recovers.",
+      "whyItMatters": "Business-tort exam items give an injured customer and a blameless retailer and ask which theory needs no showing of fault.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "negligence",
+        "tort"
+      ]
+    },
+    {
+      "term": "Res ipsa loquitur",
+      "definition": "Lets a jury infer a breach of duty from the accident itself when three conditions hold: the harm is of a kind that ordinarily does not happen without carelessness, the instrument causing it was under the defendant's exclusive control, and the plaintiff did nothing to contribute. It shifts the practical burden of explanation onto the defendant in cases where no direct evidence of the careless act exists.",
+      "whyItMatters": "Tort items about a light fixture falling on a diner test whether the plaintiff can proceed without ever proving what maintenance was skipped.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "negligence",
+        "tort"
+      ]
+    },
+    {
+      "term": "Comparative negligence",
+      "definition": "Cuts a plaintiff's award by the share of fault assigned to them — a pure system pays even a plaintiff who is 90% at fault, while a modified system bars recovery once fault reaches 50% or 51%. The older contributory-negligence rule, still law in a few states, denies any recovery at all to a plaintiff who is even 1% at fault, and that all-or-nothing contrast is what exam items are actually testing.",
+      "whyItMatters": "A slip-and-fall damages question gives $100,000 in harm and 30% plaintiff fault and asks what the business actually pays.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "negligence",
+        "tort"
+      ]
+    },
+    {
+      "term": "Respondeat superior",
+      "definition": "Makes an employer vicariously liable for an employee's torts committed within the scope of employment even though the employer itself did nothing careless. A minor deviation from the route or task — a detour — stays inside that scope, while a substantial personal errand — a frolic — falls outside it, and a genuine independent contractor generally does not trigger the doctrine at all.",
+      "whyItMatters": "Agency roleplays about a delivery driver's crash ask whether the company pays, and the frolic-versus-detour line decides it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "agency",
+        "agent",
+        "negligence"
+      ]
+    },
+    {
+      "term": "Apparent authority",
+      "definition": "Binds a principal to a deal because the principal's own words or conduct led a third party to believe reasonably that the agent was authorized, even though no actual authority — express or implied — was ever granted. The manifestation must trace back to the principal, not to the agent's own claims, which is why an agent who simply asserts power creates none.",
+      "whyItMatters": "A roleplay where a terminated sales rep still carries company cards and signs an order tests this against actual authority.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "agency",
+        "agent"
+      ]
+    },
+    {
+      "term": "Fiduciary duty of loyalty",
+      "definition": "Forbids a director, officer, partner or agent from self-dealing, taking an opportunity that belonged to the enterprise, or competing with the principal, and a challenged transaction is judged on whether it was entirely fair rather than whether it was well reasoned. That standard is the split from the duty of care, where the business judgment rule shields an informed, disinterested, good-faith decision even when it turns out badly.",
+      "whyItMatters": "Ethics roleplays about a manager steering a supply contract to a relative's firm are loyalty problems, not care problems.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "fiduciary-duty-of-care",
+        "business-judgment-rule",
+        "conflict-of-interest"
+      ]
+    },
+    {
+      "term": "Piercing the corporate veil",
+      "definition": "A court's decision to set aside limited liability and reach the owners' personal assets, available when the entity was run as a mere alter ego: personal and business funds commingled, formalities ignored, the firm deliberately undercapitalized at formation, or the corporate form used to work a fraud. Ordinary business failure never suffices — the owner has to have treated the corporation as a pocketbook.",
+      "whyItMatters": "Ownership-structure roleplays ask what an entrepreneur must actually do after incorporating to keep a house and savings out of reach.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "corporation",
+        "limited-liability-company"
+      ]
+    },
+    {
+      "term": "S corporation",
+      "definition": "A federal tax election under Subchapter S that keeps corporate limited liability while passing profit and loss straight through to the owners' personal returns, escaping the double taxation a C corporation pays once at the entity level and again on dividends. The price is eligibility: no more than 100 shareholders, only individuals who are U.S. citizens or residents, and a single class of stock.",
+      "whyItMatters": "Business-ownership exam items ask which form a startup taking on 120 investors or a foreign backer can no longer use.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "corporation",
+        "limited-liability-company",
+        "partnership"
+      ]
+    },
+    {
+      "term": "Articles of incorporation",
+      "definition": "The charter filed with the secretary of state that brings a corporation into legal existence, stating its name, registered agent, purpose and the number of authorized shares, and amendable only by shareholder vote plus another state filing. Bylaws are the separate internal rulebook — meetings, officers, quorum, notice — adopted by the board, never filed publicly, and changed without any state involvement.",
+      "whyItMatters": "A venture roleplay asks which document has to change before more shares can be issued to a new investor.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "corporation",
+        "start-up-requirements"
+      ]
+    },
+    {
+      "term": "Sherman Act Section 2",
+      "definition": "Reaches single-firm conduct and requires two elements: monopoly power in a properly defined relevant market, and the willful acquisition or maintenance of that power through exclusionary conduct rather than growth from a superior product, business acumen, or historic accident. Section 1 instead needs an agreement between two or more parties restraining trade, so one firm acting alone can violate Section 2 and never Section 1.",
+      "whyItMatters": "Legal-issues exam items about a dominant platform cutting off rivals turn on which section of the Act is even available.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "clayton-act-section-7",
+        "competitive-advantage"
+      ]
+    },
+    {
+      "term": "Clayton Act Section 7",
+      "definition": "Blocks a merger or acquisition whose effect may be substantially to lessen competition — an incipiency standard reaching a deal before any harm has occurred, unlike the Sherman Act, which needs a completed restraint or actual monopolization. Deals above reporting thresholds must be cleared with the FTC and DOJ before closing, and the agencies may sue to enjoin, force divestiture, or accept behavioral conditions.",
+      "whyItMatters": "Merger roleplays ask why regulators can stop a deal that has not yet raised a single price for a single customer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "hart-scott-rodino-act",
+        "sherman-act-section-2",
+        "conglomerate-merger"
+      ]
+    },
+    {
+      "term": "FTC Act Section 5",
+      "definition": "Bans unfair or deceptive acts or practices in commerce, and the deception branch is a three-part test: a representation, omission or practice, likely to mislead a consumer acting reasonably under the circumstances, that is material to the purchase decision. The unfairness branch is separate — substantial consumer injury that is not reasonably avoidable and not outweighed by countervailing benefits — and neither branch requires proving the seller intended to mislead anyone.",
+      "whyItMatters": "Promotion roleplays about an ad whose fine print reverses the headline are scored on materiality and the reasonable-consumer standard, not on intent.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "advertising-regulation",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Fair use",
+      "definition": "A defense to copyright infringement weighed on the four statutory factors of 17 U.S.C. section 107: the purpose and character of the use, including whether it is transformative or commercial; the nature of the copyrighted work; the amount and substantiality of the portion taken; and the effect on the potential market for the original. No factor is decisive and there is no safe word count or percentage, though the market-effect factor usually carries the most weight.",
+      "whyItMatters": "IP-protection roleplays about quoting a rival's review or reusing its product photo in a comparison ad are argued factor by factor.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "copyright",
+        "intellectual-property"
+      ]
+    },
+    {
+      "term": "Work made for hire",
+      "definition": "Vests copyright in the employer or commissioning party at the moment of creation instead of in the person who made the work, and it arises exactly two ways: a work prepared by an employee within the scope of employment, or a specially commissioned work that falls into one of nine statutory categories and is covered by a signed written agreement. Anything else a freelancer creates stays theirs until assigned in writing.",
+      "whyItMatters": "A startup roleplay about who owns the logo a contract designer drew is decided by whether a signed assignment ever existed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "copyright",
+        "intellectual-property-protection"
+      ]
+    },
+    {
+      "term": "Trade secret",
+      "definition": "Protection lasting indefinitely, but only while three conditions hold: the information draws independent economic value from not being generally known, it is not readily ascertainable by proper means, and the owner takes reasonable measures to keep it secret through NDAs, access limits and labeling. The Defend Trade Secrets Act of 2016 added a federal civil claim for misappropriation. The trade-off against a patent is disclosure — a patent publishes the invention for about twenty years of exclusivity, while lawful reverse engineering destroys a secret with no remedy.",
+      "whyItMatters": "IP roleplays comparing a beverage recipe to a bottling machine ask which protection fits, and reverse-engineering risk is the deciding fact.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "patent",
+        "intellectual-property-protection"
+      ]
+    },
+    {
+      "term": "Disparate impact",
+      "definition": "A Title VII theory attacking a facially neutral policy — a lifting test, a degree requirement, a credit check — that screens out a protected group at a substantially lower rate, with no proof of intent needed. Federal selection guidelines flag a rate below four-fifths of the highest group's, after which the employer must show the practice is job-related and consistent with business necessity. Its neighbour, disparate treatment, requires showing intentional differential treatment.",
+      "whyItMatters": "Hiring roleplays about a strength requirement that eliminates most female applicants are argued under this theory, not under intentional discrimination.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "job-applicant-screening",
+        "workplace-diversity"
+      ]
+    },
+    {
+      "term": "Reasonable accommodation",
+      "definition": "An obligation under the Americans with Disabilities Act, which covers employers with 15 or more employees, to adjust a job or workplace — modified schedule, assistive equipment, reassignment to a vacant role — so a qualified individual can perform the essential functions of the position. It is triggered by a request, worked out through an interactive process, and limited by undue hardship measured against the employer's overall size and resources rather than one department's budget.",
+      "whyItMatters": "HR roleplays about a schedule change request are scored on the interactive process and the undue-hardship limit, not on sympathy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "employee-benefits",
+        "workplace-diversity"
+      ]
+    },
+    {
+      "term": "General duty clause",
+      "definition": "Section 5(a)(1) of the Occupational Safety and Health Act, the catch-all that lets OSHA cite an employer when no specific standard covers the danger. A citation under it requires four showings: a condition present in the workplace, a hazard recognized by that employer or its industry, that the hazard is causing or likely to cause death or serious physical harm, and that a feasible means of abatement exists.",
+      "whyItMatters": "Safety roleplays about a hazard with no published standard test whether the employer is still exposed to a citation and penalty.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "risk-mitigation",
+        "business-risk"
+      ]
+    },
+    {
+      "term": "At-will employment",
+      "definition": "The default American rule that either side may end the relationship at any time for any reason or none, narrowed by three recognized exceptions: a public-policy exception covering firing for jury service, refusing to break the law, or whistleblowing; an implied-contract exception built from handbook language or long practice; and, in a minority of states, an implied covenant of good faith. Statutes on race, sex, age, disability and retaliation override it outright.",
+      "whyItMatters": "Termination roleplays ask what a manager may put in a handbook without accidentally promising contractual job security.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "labor-relations",
+        "employee-benefits"
+      ]
+    },
+    {
+      "term": "Children's Online Privacy Protection Act (COPPA)",
+      "definition": "Requires verifiable parental consent before an operator collects personal information online from a child under 13, along with a clear privacy notice, a parent's right to review and delete what was collected, a ban on conditioning participation on handing over more data than needed, and reasonable retention limits. It binds sites directed at children and general-audience sites with actual knowledge of an under-13 user, and the FTC enforces it with civil penalties per violation.",
+      "whyItMatters": "A promotion roleplay for a children's product asks whether a sweepstakes entry form may collect email addresses at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "data-security",
+        "information-ethics"
+      ]
+    },
+    {
+      "term": "Personal jurisdiction",
+      "definition": "A court's power over the defendant rather than over the dispute, established by presence, domicile, consent, or the minimum-contacts standard from International Shoe, under which the defendant purposefully availed itself of the forum state and the claim arises from those contacts. Subject-matter jurisdiction is the separate question of whether the court may hear that kind of case at all — federal diversity jurisdiction, for example, demands complete diversity plus more than $75,000 in controversy.",
+      "whyItMatters": "Judicial-system exam items ask where an online seller can be dragged into court after shipping into another state.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "preponderance-of-the-evidence",
+        "discovery"
+      ]
+    },
+    {
+      "term": "Preponderance of the evidence",
+      "definition": "The civil standard of proof — the plaintiff wins if the claim is more likely true than not, meaning greater than 50% — which sits far below the criminal beyond-a-reasonable-doubt bar and below the intermediate clear-and-convincing standard used for fraud and punitive damages. That gap is why identical conduct can produce liability in a civil suit and no conviction in a criminal one.",
+      "whyItMatters": "Legal-procedure questions ask why a company can be found liable for fraud after prosecutors declined to bring charges.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "discovery",
+        "personal-jurisdiction"
+      ]
+    },
+    {
+      "term": "Incoterms",
+      "definition": "The International Chamber of Commerce's standard three-letter trade terms fixing exactly where risk of loss and the duty to pay carriage, insurance and customs clearance pass from seller to buyer. Under FOB risk shifts when the goods are loaded at the named port; under CIF the seller pays freight and insurance to destination yet risk still shifts at shipment; under DDP the seller carries everything, import duties included, to the buyer's door.",
+      "whyItMatters": "Import/export roleplays about a container damaged mid-ocean are decided entirely by which term the invoice named.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "logistics",
+        "international-trade"
+      ]
+    },
+    {
+      "term": "Harmonized Tariff Schedule",
+      "definition": "The classification system that assigns every imported article a code — six digits harmonized worldwide, extended to ten digits in the United States — and it is that code, not the invoice description, which sets the duty rate and any quota or trade-remedy exposure. Misclassification remains the importer's liability even when a customs broker filed the entry, so back duties and negligence penalties land on the buyer.",
+      "whyItMatters": "Customs-regulation roleplays ask why two nearly identical shirts arrive carrying very different duty rates.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "international-trade",
+        "incoterms"
+      ]
+    },
+    {
+      "term": "Foreign Corrupt Practices Act",
+      "definition": "Two distinct prohibitions in one statute: an anti-bribery provision barring the offer or payment of anything of value to a foreign official to obtain or retain business, and a books-and-records provision requiring issuers to keep accurate accounts and adequate internal accounting controls, which is how most cases are actually charged. Narrow carve-outs cover small facilitating payments for routine non-discretionary acts and payments expressly lawful under the host country's written law.",
+      "whyItMatters": "International-expansion roleplays ask whether a fee paid to speed a routine permit is legal, and the facilitating-payment carve-out decides it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "ethical-dilemma",
+        "international-trade"
+      ]
+    },
+    {
+      "term": "Perfection of a security interest",
+      "definition": "The step under UCC Article 9 that makes a creditor's claim to collateral good against other creditors and a bankruptcy trustee, accomplished most often by filing a UCC-1 financing statement with the state and sometimes by possession or control of the collateral. Attachment alone binds only the debtor; among competing perfected creditors priority runs first to file or perfect, so the lender who files first outranks the lender who lent first.",
+      "whyItMatters": "Debtor-creditor roleplays with two lenders claiming the same equipment are resolved by filing date, never by loan date.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "cost-of-credit",
+        "chapter-7-bankruptcy"
+      ]
+    },
+    {
+      "term": "Potentially responsible party",
+      "definition": "The status that exposes a business to cleanup costs under the Superfund statute (CERCLA), reaching four groups: current owners or operators of a contaminated site, owners at the time of disposal, parties who arranged for disposal of the waste, and transporters who selected the site. Liability is strict, retroactive to conduct that was lawful when it happened, and joint and several, so one solvent party can be billed for the whole cleanup; the innocent-landowner defense requires all appropriate inquiry before purchase.",
+      "whyItMatters": "Environmental-law roleplays about buying a former dry-cleaning site explain why the site assessment happens before closing, not after.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "risk-assessment",
+        "risk-mitigation"
+      ]
+    },
+    {
+      "term": "Notice-and-comment rulemaking",
+      "definition": "The process section 553 of the Administrative Procedure Act requires before an agency may issue a binding legislative rule: publish a notice of proposed rulemaking in the Federal Register, take public comment for a stated period, respond to the significant comments, and publish the final rule with a statement of basis and purpose, normally effective 30 days later. A rule adopted without those steps can be vacated as procedurally invalid even when its substance is sound.",
+      "whyItMatters": "Administrative-law questions ask how an industry trade group can influence a regulation before it ever binds its members.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "advertising-regulation",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Stare decisis",
+      "definition": "The principle that a court follows the reasoning of earlier decisions on the same question, which is what makes American case law predictable enough to plan around. Precedent from a higher court in the same jurisdiction binds; decisions from other jurisdictions are only persuasive; and a court may distinguish a case on its facts or, rarely, overrule its own prior holding.",
+      "whyItMatters": "Sources-of-law exam items ask why a state trial court must follow its own supreme court but may ignore another state's.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "common-law"
+      ]
+    },
+    {
+      "term": "Statute of limitations",
+      "definition": "The deadline for filing a claim, running from when the cause of action accrued and varying by claim type — commonly two to three years for personal injury, four years for a sale of goods under the UCC, and longer for written contracts. A discovery rule can delay the start until the harm was or should have been found, and tolling pauses the clock during a plaintiff's minority or a defendant's absence from the state.",
+      "whyItMatters": "Legal-procedure questions ask whether a customer injured three years ago can still bring suit against the business.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "business-records",
+        "statute-of-frauds"
+      ]
+    },
+    {
+      "term": "Discovery",
+      "definition": "The pretrial phase in which each side must turn over relevant evidence through interrogatories, requests for production, depositions and requests for admission — which is why most business disputes settle once the documents surface. It also creates a duty to preserve records the moment litigation is reasonably anticipated, so routine deletion schedules have to be suspended under a litigation hold.",
+      "whyItMatters": "Legal-procedure roleplays about a document-retention policy hinge on the litigation hold this phase triggers.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "business-records",
+        "preponderance-of-the-evidence"
+      ]
+    },
+    {
+      "term": "Bailment",
+      "definition": "Temporary transfer of possession of personal property without any transfer of ownership — a coat check, a car left for repair, goods held in a public warehouse. The standard of care owed by the holder scales with who benefits: slight care when only the owner benefits, ordinary care when both do, and great care when only the holder benefits.",
+      "whyItMatters": "Service-business roleplays about a customer vehicle damaged overnight test what duty the shop owed while it sat on the lot.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "insurance",
+        "tort"
+      ]
+    },
+    {
+      "term": "Escheat",
+      "definition": "The process by which unclaimed property — uncashed payroll checks, dormant customer credits, and in some states unused gift-card balances — reverts to the state after a statutory dormancy period, typically three to five years. Holders must attempt due-diligence outreach to the owner and file annual reports, so the balance is a liability to remit rather than a windfall the business gets to book as income.",
+      "whyItMatters": "Roleplays about years of outstanding checks on a bank reconciliation ask who is legally entitled to that money.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/business_law.txt",
+        "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ],
+      "confusableWith": [
+        "business-records",
+        "escrow"
       ]
     }
   ]

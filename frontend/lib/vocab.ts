@@ -7,11 +7,23 @@
 import type { EventFormat } from "@/lib/deca";
 import manifest from "@/lib/data/vocab-manifest.json";
 
+/**
+ * Vocab has no `easy` tier and the value is deliberately unrepresentable — an
+ * easy term is purged, not hidden (vocab plan 01 §3). This is why vocab does
+ * NOT reuse `Difficulty` from lib/question-bank.ts, which does include "easy":
+ * sharing that union would make the rejected tier expressible again.
+ */
+export type VocabDifficulty = "medium" | "hard";
+export type VocabDifficultyCounts = Record<VocabDifficulty, number>;
+
 export interface VocabTerm {
   term: string;
   slug: string;
   definition: string;
   whyItMatters: string;
+  difficulty: VocabDifficulty;
+  /** Slugs of near-neighbour terms students mix up. Optional, and may be unrendered. */
+  confusableWith?: string[];
   tags: string[];
   sourceRefs?: string[];
 }
@@ -21,6 +33,8 @@ export interface VocabEventMeta {
   name: string;
   file: string;
   termCount: number;
+  /** Mirrors `difficultyCounts` on question-bank sets, so the two features read alike. */
+  difficultyCounts: VocabDifficultyCounts;
   format: EventFormat | null;
   tags: string[];
 }

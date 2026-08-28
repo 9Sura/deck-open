@@ -5,28 +5,13 @@
   ],
   "terms": [
     {
-      "term": "Revenue",
-      "definition": "Income a business earns from selling its products or services.",
-      "whyItMatters": "Revenue trends are the starting point for judging performance and growth.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
-    },
-    {
-      "term": "Expense",
-      "definition": "A cost a business incurs to operate, such as salaries, rent, or materials.",
-      "whyItMatters": "Analyzing expenses reveals where competitors can control cost and lift profit.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
-    },
-    {
       "term": "Invoice",
       "definition": "A document a seller issues to request payment for goods or services provided.",
       "whyItMatters": "Invoices drive accounts-receivable timing and payment terms.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Accounts payable",
@@ -34,7 +19,8 @@
       "whyItMatters": "Payables shape the cash position competitors must manage.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Accounts receivable",
@@ -42,23 +28,8 @@
       "whyItMatters": "Receivables affect cash flow timing and collection decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
-    },
-    {
-      "term": "Profit margin",
-      "definition": "The percentage of revenue left as profit after expenses are subtracted.",
-      "whyItMatters": "Margins show how efficiently a business turns sales into profit.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
-    },
-    {
-      "term": "Financial ratio",
-      "definition": "A comparison of two financial figures that reveals a relationship or trend.",
-      "whyItMatters": "Ratios let competitors size up financial health quickly.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Working capital",
@@ -66,7 +37,8 @@
       "whyItMatters": "Working capital shows whether a business can cover immediate obligations.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Accrual",
@@ -74,7 +46,8 @@
       "whyItMatters": "Accrual accounting reveals true profitability beyond the cash view.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Trial balance",
@@ -82,15 +55,8 @@
       "whyItMatters": "Trial balances verify the accuracy of financial records in case work.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
-    },
-    {
-      "term": "Financial statement analysis",
-      "definition": "Examining financial statements to evaluate performance, profitability, and position.",
-      "whyItMatters": "It lets competitors diagnose problems and back recommendations with data.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_information_management.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Budget variance",
@@ -98,6 +64,566 @@
       "whyItMatters": "Variances flag where a plan and reality diverge, prompting corrective action.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "LIFO reserve",
+      "definition": "The dollar gap between inventory valued under FIFO and the same inventory valued under LIFO — FIFO inventory minus LIFO inventory — disclosed in the notes so a reader can restate a LIFO firm's inventory and cost of goods sold onto a FIFO basis before comparing it with anyone else.",
+      "whyItMatters": "Finance exam items hand you a footnote figure and ask you to compare two competitors' inventory when one uses LIFO and one uses FIFO; the comparison means nothing until the reserve is added back.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "last-in-first-out-lifo",
+        "first-in-first-out-fifo"
+      ]
+    },
+    {
+      "term": "Lower of cost or market",
+      "definition": "A write-down rule under ASC 330: inventory carried at historical cost must be reduced to replacement cost when that is lower, but never above net realizable value — selling price minus completion and disposal costs — nor below that ceiling minus a normal profit margin.",
+      "whyItMatters": "Roleplay judges ask what to do about obsolete stock still on the books at full cost; the answer is the mandatory write-down and the loss it forces onto this period's income statement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "asset-impairment",
+        "first-in-first-out-fifo"
+      ]
+    },
+    {
+      "term": "Gross profit method",
+      "definition": "An estimate of ending inventory made without a physical count: multiply net sales by the historical gross-profit percentage to approximate cost of goods sold, then subtract that from the cost of goods available for sale.",
+      "whyItMatters": "Insurance-claim and interim-statement questions give you sales figures and a prior-year margin but no count, and this is the only route to an inventory number a judge will accept.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "cost-of-goods-sold",
+        "perpetual-inventory-system"
+      ]
+    },
+    {
+      "term": "FOB shipping point",
+      "definition": "Delivery terms placing title and risk of loss with the buyer the moment a carrier takes the goods, so the buyer adds the freight to inventory cost and reports goods still in transit at period end — the mirror of FOB destination, where the seller keeps both title and freight until delivery.",
+      "whyItMatters": "Cutoff questions ask which company reports a shipment sitting on a truck on December 31, and the answer turns entirely on which of the two terms the invoice names.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "logistics",
+        "supply-chain"
+      ]
+    },
+    {
+      "term": "Aging of accounts receivable",
+      "definition": "A bad-debt estimate built from a schedule that sorts every customer balance by days past due and applies a rising uncollectible rate to each bucket, targeting the ENDING allowance balance — unlike the percentage-of-sales approach, which computes the period's expense straight from revenue and ignores whatever already sits in the allowance.",
+      "whyItMatters": "A finance exam gives you an aging schedule plus an existing allowance balance, and the adjusting entry is the difference between them, not the computed total.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "allowance-for-doubtful-accounts",
+        "accounts-receivable-turnover"
+      ]
+    },
+    {
+      "term": "Direct write-off method",
+      "definition": "Recording a bad debt only when one specific account is judged worthless, charging it to expense in that later period — required on U.S. tax returns but unacceptable under GAAP for material amounts, because it breaks the match between the expense and the revenue that created the receivable, which the allowance method preserves.",
+      "whyItMatters": "Exam items ask why a small firm's books disagree with its tax return, and the timing split between these two methods is the reason.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "allowance-for-doubtful-accounts",
+        "matching-principle"
+      ]
+    },
+    {
+      "term": "Units-of-production depreciation",
+      "definition": "Cost minus salvage value, divided by total estimated lifetime output, multiplied by the units actually produced this period — expense tracks usage rather than the passage of time, so a machine that sat idle all year records none at all.",
+      "whyItMatters": "Given a press rated for 500,000 impressions and 40,000 run this year, the exam expects the per-unit rate, not the straight-line annual amount.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "straight-line-depreciation",
+        "declining-balance-depreciation"
+      ]
+    },
+    {
+      "term": "Modified Accelerated Cost Recovery System (MACRS)",
+      "definition": "The depreciation schedule the Internal Revenue Code requires on tax returns, assigning each asset class a fixed recovery period and IRS table percentage under a half-year or mid-quarter convention — deliberately faster than the straight-line figure the same asset carries on the GAAP books, which is exactly what creates a deferred tax liability.",
+      "whyItMatters": "Questions asking why book income and taxable income differ for the same delivery truck are answered by naming this schedule and its accelerated front-loading.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "straight-line-depreciation",
+        "declining-balance-depreciation"
+      ]
+    },
+    {
+      "term": "Asset impairment",
+      "definition": "A permanent write-down under ASC 360: when events suggest a long-lived asset will not recover its carrying amount, that amount is first compared with the undiscounted future cash flows the asset will generate, and only if it fails that recoverability test is it written down to fair value — a one-time loss, not the periodic allocation depreciation performs.",
+      "whyItMatters": "Roleplay scenarios about a shuttered plant still carried at cost test whether you know the write-down is required rather than optional.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "book-value",
+        "straight-line-depreciation"
+      ]
+    },
+    {
+      "term": "Goodwill",
+      "definition": "The excess of a purchase price over the fair value of the identifiable net assets acquired in a business combination — recognizable only through an acquisition, never for internally built reputation — and under ASC 350 never amortized, only tested for impairment at least annually.",
+      "whyItMatters": "Balance-sheet questions following an acquisition ask what the large intangible line actually represents and why it does not depreciate like equipment.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "intellectual-property",
+        "book-value"
+      ]
+    },
+    {
+      "term": "Revenue expenditure",
+      "definition": "An outlay charged to expense in the period incurred because it only maintains an asset's existing capacity — routine repairs, servicing, replacement parts — as opposed to a capital expenditure, which extends useful life or output and is therefore added to the asset account and depreciated across the years it benefits.",
+      "whyItMatters": "Exam items hand you an oil-change bill and an engine-rebuild bill on the same truck and ask which one hits this year's income statement in full.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "operating-costs",
+        "straight-line-depreciation"
+      ]
+    },
+    {
+      "term": "Deferral",
+      "definition": "A postponement entry for cash that has already changed hands but has not yet been earned or used up — unearned revenue and prepaid assets sit on the balance sheet until the service is delivered or the benefit consumed — the exact reverse of an accrual, where the revenue or expense is recognized first and the cash follows later.",
+      "whyItMatters": "Adjusting-entry questions are sorted by deciding which side of this split a transaction falls on before any journal entry gets written.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "prepaid-expense",
+        "unearned-revenue"
+      ]
+    },
+    {
+      "term": "Subsidiary ledger",
+      "definition": "A detail file holding one account per customer, vendor, or asset, whose balances must total exactly to the single control account carrying that category in the general ledger — the general ledger holds the summary figure that reaches the statements, this holds the per-name detail that supports it.",
+      "whyItMatters": "A roleplay asking which specific customers owe the overdue balance is answered from this ledger; the trial balance shows only one combined receivable line.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "business-records",
+        "t-account"
+      ]
+    },
+    {
+      "term": "Deposit in transit",
+      "definition": "Cash the company has already recorded and sent to the bank that the bank has not yet posted, so it is ADDED to the bank side of a reconciliation — the opposite column from an outstanding check, which is also unposted by the bank but subtracted there, and neither one requires a journal entry on the books.",
+      "whyItMatters": "Reconciliation items are scored on which column they adjust and whether an entry is needed, and this pair is the one candidates reverse most often.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "bank-reconciliation",
+        "internal-control"
+      ]
+    },
+    {
+      "term": "Imprest system",
+      "definition": "A fund fixed at a set dollar amount where every disbursement must be backed by a receipt, so vouchers plus remaining cash always equal that fixed total and replenishment is written for exactly what was spent — unlike a fluctuating fund, topped up in round sums, where a shortage simply disappears into the next refill.",
+      "whyItMatters": "Cash-control roleplays ask how a small office can hand out cash all week and still detect a missing twenty dollars; the fixed balance is what makes the shortage visible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "internal-control",
+        "bank-reconciliation"
+      ]
+    },
+    {
+      "term": "Contingent liability",
+      "definition": "A potential obligation that depends on some future event — a pending lawsuit, a warranty claim, a loan guarantee. Under ASC 450 it is accrued as both expense and liability only when the loss is probable AND reasonably estimable; when it is merely reasonably possible it is disclosed in the notes and stays off the balance sheet entirely.",
+      "whyItMatters": "Exam items describe a suit filed in November and ask whether it changes the statements or only the footnotes, and the two-condition test decides it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "warranties-and-guarantees",
+        "risk-management"
+      ]
+    },
+    {
+      "term": "Deferred tax liability",
+      "definition": "Tax that will come due in later years because a temporary timing difference — most often faster depreciation on the return than on the books — held taxable income below book income now. It reverses in future periods, unlike a permanent difference such as a government fine, which never reverses and creates no such account.",
+      "whyItMatters": "Balance-sheet questions ask why a profitable firm reports a tax obligation far larger than the check it actually wrote to the IRS this year.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "tax-liability",
+        "effective-tax-rate"
+      ]
+    },
+    {
+      "term": "Additional paid-in capital",
+      "definition": "The portion of a stock issuance received above the arbitrary par amount — shares sold at $12 with a $1 par put $1 per share into the common stock account and the other $11 per share here — so only the two accounts read together show what investors actually contributed.",
+      "whyItMatters": "Equity-section questions give an issue price and a par value and expect the proceeds split correctly across both lines rather than dumped into one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "book-value",
+        "corporation"
+      ]
+    },
+    {
+      "term": "Treasury stock",
+      "definition": "A company's own shares bought back and held rather than retired, carried at repurchase cost as a NEGATIVE item within stockholders' equity and never as an asset. It draws no dividend and casts no vote, which is precisely why issued shares and outstanding shares stop being the same number once a buyback occurs.",
+      "whyItMatters": "Earnings-per-share questions require the outstanding share count, and a buyback is the event that pulls the two counts apart.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "earnings-per-share",
+        "contra-account"
+      ]
+    },
+    {
+      "term": "Subsequent event",
+      "definition": "Something that happens between the balance-sheet date and the day statements are issued. ASC 855 splits them in two: if the underlying condition already existed at the balance-sheet date — a customer bankruptcy confirming a receivable was already bad — the statements are adjusted; if the condition arose afterward, such as a warehouse fire in January, it is disclosed only.",
+      "whyItMatters": "Year-end roleplays ask whether a January development changes December's reported numbers, and this recognized-versus-nonrecognized split is the whole answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "contingent-liability",
+        "business-records"
+      ]
+    },
+    {
+      "term": "Materiality",
+      "definition": "The threshold at which an omission or misstatement would change a reasonable user's decision. SEC Staff Accounting Bulletin No. 99 rejects any pure size rule: a five-percent-of-income screen may flag items, but a tiny error that flips a loss into a profit, hides a broken loan covenant, or lifts a bonus over its target is material no matter how small the dollars.",
+      "whyItMatters": "Ethics questions ask whether a deliberate but tiny misstatement is acceptable, and the qualitative half of this standard is why the answer is no.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "information-ethics",
+        "generally-accepted-accounting-principles-gaap"
+      ]
+    },
+    {
+      "term": "Financial Accounting Standards Board (FASB)",
+      "definition": "The private, non-governmental body that writes U.S. GAAP and publishes it as the Accounting Standards Codification, operating under SEC oversight rather than by direct statute — distinct from the International Accounting Standards Board, which issues IFRS for most of the rest of the world.",
+      "whyItMatters": "Regulation questions ask who actually sets the rules a U.S. company must follow, and the answer is a standard-setting board, not a government agency.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "generally-accepted-accounting-principles-gaap",
+        "sarbanes-oxley-act"
+      ]
+    },
+    {
+      "term": "International Financial Reporting Standards (IFRS)",
+      "definition": "The IASB-issued reporting framework used across most non-U.S. markets. It is principles-based where U.S. GAAP is rules-based, bans LIFO outright, permits upward revaluation of fixed assets to fair value, and allows reversal of a prior inventory write-down — three things GAAP forbids.",
+      "whyItMatters": "Questions about a firm that reports in two markets test whether you can name a specific divergence rather than just assert that the frameworks differ.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "generally-accepted-accounting-principles-gaap",
+        "last-in-first-out-lifo"
+      ]
+    },
+    {
+      "term": "Unqualified opinion",
+      "definition": "The clean verdict an independent auditor issues when statements are fairly presented in all material respects — a conclusion about conformity with the reporting framework, not a guarantee of accuracy or solvency. It ranks above a qualified opinion, which carries one bounded exception, an adverse opinion, which says the statements are materially misstated, and a disclaimer, where the auditor could not gather enough evidence to conclude at all.",
+      "whyItMatters": "Exam items quote an audit report and ask what a lender may safely conclude from that specific wording.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "internal-control",
+        "business-records"
+      ]
+    },
+    {
+      "term": "Public Company Accounting Oversight Board (PCAOB)",
+      "definition": "The oversight body created by the Sarbanes-Oxley Act to register, inspect, and discipline the firms that audit public companies and to set the standards those audits follow — replacing the profession's earlier self-regulation through the AICPA, which now writes standards only for private-company engagements.",
+      "whyItMatters": "Ethics and regulation questions ask what structurally changed for auditors after the accounting scandals, and the end of self-policing is the specific answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "sarbanes-oxley-act",
+        "internal-control"
+      ]
+    },
+    {
+      "term": "COSO internal control framework",
+      "definition": "The five-component model regulators and auditors use to evaluate controls — control environment, risk assessment, control activities, information and communication, and monitoring — and the benchmark against which management's Sarbanes-Oxley Section 404 assessment is judged. It supplies the structure; any single safeguard, such as splitting custody from recordkeeping, sits inside just one of the five.",
+      "whyItMatters": "Roleplays asking a manager to evaluate a store's controls expect the five components as the outline of the answer, not a scattered list of fixes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "internal-control",
+        "risk-assessment"
+      ]
+    },
+    {
+      "term": "Earnings management",
+      "definition": "Choosing among permissible accounting options — timing a shipment, trimming a reserve, deferring maintenance — to steer reported income toward a target while staying technically inside GAAP. That technical legality is what separates it from outright fraud, and why the ethical question becomes one of intent and disclosure rather than rule-breaking.",
+      "whyItMatters": "Ethics prompts describe a manager pushing December orders out the door to hit a quarterly number and ask whether anything wrong happened even though no rule was broken.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "revenue-recognition-principle",
+        "information-ethics"
+      ]
+    },
+    {
+      "term": "Benford's law",
+      "definition": "A statistical regularity in naturally occurring figures: the leading digit is a 1 about 30% of the time and a 9 under 5% of the time, tapering logarithmically. Auditors run whole transaction files against that expected frequency because invented numbers cluster on middle digits and round amounts, which flags a batch for review rather than proving any single entry false.",
+      "whyItMatters": "Exam items about spotting fabricated entries want a specific analytic test run against the ledger, not a general claim that software catches fraud.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "data-mining",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "term": "XBRL (eXtensible Business Reporting Language)",
+      "definition": "A machine-readable tagging standard the SEC requires in filings, attaching a defined element to every reported figure so that one firm's net revenue line and another's total revenues line resolve to the same concept and load into an analyst's model without anyone rekeying them.",
+      "whyItMatters": "Technology questions ask how thousands of filings get screened automatically, and standardized tagging rather than a spreadsheet import is the answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "data-visualization",
+        "information-system"
+      ]
+    },
+    {
+      "term": "Indirect method of cash flow reporting",
+      "definition": "Building the operating section by starting from net income and reconciling it: add back non-cash charges such as depreciation, strip out gains and losses belonging to investing, then adjust for changes in current assets and liabilities. The direct method instead lists actual cash receipts and payments; both reach an identical operating total, and this one dominates practice because it reuses figures the books already carry.",
+      "whyItMatters": "Cash-flow questions show a profitable firm running short of cash, and this reconciliation is where the receivable and inventory buildup becomes visible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "cash-flow-statement",
+        "free-cash-flow"
+      ]
+    },
+    {
+      "term": "Free cash flow",
+      "definition": "Cash generated by operating activities minus the capital expenditures needed to keep the asset base intact — what is genuinely available for dividends, debt repayment, or expansion after the business has paid to sustain itself, which is why it can be deeply negative in a year of record reported profit.",
+      "whyItMatters": "Valuation and dividend-capacity questions are answered from this figure rather than from net income, which ignores the equipment the firm had to replace.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "cash-flow-statement",
+        "working-capital"
+      ]
+    },
+    {
+      "term": "Cash conversion cycle",
+      "definition": "Days inventory outstanding plus days sales outstanding minus days payables outstanding — the number of days a dollar stays trapped between paying a supplier and collecting from a customer. A negative result means customers finance the business, and shortening it frees cash without a single additional sale.",
+      "whyItMatters": "Working-capital roleplays ask where a stretched firm can find cash without borrowing, and each of the three terms in the formula is a separate lever to pull.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "working-capital",
+        "accounts-receivable-turnover"
+      ]
+    },
+    {
+      "term": "Horizontal analysis",
+      "definition": "Comparison of the same line item across periods as a percentage change — current-period amount minus base-period amount, divided by the base-period amount — exposing growth and trend over time, where vertical analysis instead expresses every line as a share of one total within a single period.",
+      "whyItMatters": "Financial-analysis items give three years of statements and ask which expense category is climbing faster than sales.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "common-size-statement",
+        "benchmarking"
+      ]
+    },
+    {
+      "term": "Common-size statement",
+      "definition": "A restatement in which every income-statement line is divided by net sales and every balance-sheet line by total assets, turning all figures into percentages. Removing scale is what lets a single corner store be compared directly against a national chain or an industry average, a comparison raw dollar totals make impossible.",
+      "whyItMatters": "Benchmarking questions hand you two firms of wildly different size and ask which one controls cost of goods sold better.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "horizontal-analysis",
+        "benchmarking"
+      ]
+    },
+    {
+      "term": "Conversion cost",
+      "definition": "Direct labor plus manufacturing overhead — the spending required to turn raw materials into finished goods. It deliberately excludes direct materials, which is what separates it from prime cost, defined as direct materials plus direct labor; the two overlap on labor and therefore cannot be added together to reach total product cost.",
+      "whyItMatters": "Cost questions ask candidates to sort a list of factory charges into the two groupings, and the shared labor term is where most answers collapse.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "cost-of-goods-sold",
+        "operating-costs"
+      ]
+    },
+    {
+      "term": "Predetermined overhead rate",
+      "definition": "Estimated total overhead for the coming year divided by the estimated total of an allocation base such as machine hours or direct labor hours, computed before the period begins so jobs can be costed the day they finish. Because both inputs are estimates, actual spending leaves overhead over- or underapplied at year end, and that difference must be closed out.",
+      "whyItMatters": "Job-costing items ask for the full cost of an order completed in March, long before the year's real overhead is known.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "activity-based-costing",
+        "operating-costs"
+      ]
+    },
+    {
+      "term": "Activity-based costing",
+      "definition": "Overhead assignment that first pools costs by activity — machine setups, inspections, purchase orders — then charges each product using that activity's own cost driver. It corrects the distortion of a single plantwide rate spread on direct labor hours, which systematically overcosts high-volume simple products and undercosts low-volume complex ones.",
+      "whyItMatters": "Cost roleplays about a specialty item that looks profitable under the old allocation and loses money under the new one are testing exactly that reversal.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "predetermined-overhead-rate",
+        "cost-benefit-analysis"
+      ]
+    },
+    {
+      "term": "Standard cost",
+      "definition": "A predetermined benchmark for what one unit of input should cost and how much of it should be used, against which actual results are measured. The total gap decomposes into a price variance — actual price minus standard price, times actual quantity — and a quantity variance — actual quantity minus standard quantity, times standard price — so a purchasing decision and a production problem are never blamed on the same manager.",
+      "whyItMatters": "Manufacturing budget questions supply both actual and standard figures and expect the gap split across the two responsible departments.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "budget-variance",
+        "zero-based-budgeting"
+      ]
+    },
+    {
+      "term": "Payback period",
+      "definition": "Initial investment divided by annual net cash inflow — the count of years until a project returns the money put into it. It is a screening rule and not a ranking one: it ignores the time value of money and every dollar arriving after the cutoff, so net present value can and does favor the project with the slower payback.",
+      "whyItMatters": "Capital-spending roleplays ask for a quick screen on two equipment quotes, then ask why the faster payback is not automatically the better purchase.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "net-present-value",
+        "return-on-investment"
+      ]
+    },
+    {
+      "term": "Worker classification",
+      "definition": "The determination of whether a person is an employee or an independent contractor, made under the IRS common-law control test weighing behavioral control, financial control, and the nature of the relationship. An employee receives a Form W-2 with taxes withheld and the employer's matching payroll tax paid; a contractor receives a Form 1099-NEC and carries the full self-employment tax alone.",
+      "whyItMatters": "Payroll roleplays about a long-serving contractor who works set hours on company equipment test the control factors and the back-tax exposure of getting them wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "fica-withholding",
+        "employee-benefits"
+      ]
+    },
+    {
+      "term": "Pro forma financial statement",
+      "definition": "A projected or adjusted statement built on stated assumptions — next year's forecast, or reported results excluding items management labels non-recurring. It is neither audited nor GAAP, and SEC Regulation G requires a public company publishing any such figure to reconcile it to the nearest GAAP measure so readers can see precisely what was removed.",
+      "whyItMatters": "Roleplays about a startup's projections for a lender, and exam items about a press release touting adjusted earnings, both turn on the unaudited status of this statement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "income-statement",
+        "executive-summary"
+      ]
+    },
+    {
+      "term": "Accounting cycle",
+      "definition": "The fixed sequence a period's records travel — analyze source documents, journalize, post to the ledger, prepare an unadjusted trial balance, adjust, prepare statements, then close temporary accounts into equity. The order is not optional: statements are drawn before closing, and closing is what resets revenue and expense accounts to zero for the next period.",
+      "whyItMatters": "Exam items present the steps scrambled and ask what comes immediately after the adjusting entries are posted.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "closing-entry",
+        "adjusting-entry"
+      ]
+    },
+    {
+      "term": "Enterprise resource planning system",
+      "definition": "Software running sales, purchasing, inventory, payroll, and accounting off one shared database, so a single shipment posts to inventory, receivables, and the general ledger in one transaction. The gain over separate applications is that nobody re-keys data between them, which removes an entire class of reconciliation errors.",
+      "whyItMatters": "Technology questions ask why a growing firm outgrows standalone bookkeeping software once its departments each keep their own records.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_information_management.txt"
+      ],
+      "confusableWith": [
+        "information-system",
+        "database"
       ]
     }
   ]

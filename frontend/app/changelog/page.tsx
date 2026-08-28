@@ -57,6 +57,118 @@ export default function ChangelogPage() {
 
       <Entry
         date="August 2026"
+        title="Vocab decks got filters and short sessions"
+      >
+        <li>
+          <strong>This is the &ldquo;filters are next&rdquo; from last time.</strong>{" "}
+          The decks went to 250 cards and there was nothing to do but flip through
+          all of them in order. Now there is.
+        </li>
+        <li>
+          <strong>Study 20 cards, 50, or the whole deck.</strong>{" "}
+          A short session is a random draw from whatever you&rsquo;ve filtered to,
+          shuffled, with no repeats. &ldquo;New draw&rdquo; deals you a different
+          set from the same deck.
+        </li>
+        <li>
+          <strong>Filter by difficulty.</strong>{" "}
+          All, Medium or Hard, with the card count on each button so you can see
+          what you&rsquo;re about to get.
+        </li>
+        <li>
+          <strong>Filter by instructional area.</strong>{" "}
+          A deck can span up to 13 areas, so you can now drill just Financial
+          Analysis, or just Customer Relations. There&rsquo;s also an
+          &ldquo;Event-specific&rdquo; bucket for the cards written for your event
+          in particular rather than for a general area &mdash; usually 25&ndash;33
+          per deck, and the most event-specific vocabulary in it.
+        </li>
+        <li>
+          <strong>Every card says Medium or Hard.</strong>{" "}
+          The badge is on the front and the back, so you know how hard a card was
+          meant to be before you flip it.
+        </li>
+        <li>
+          <strong>Your filters are in the link.</strong>{" "}
+          Bookmark or share a deck with the difficulty, area and session size
+          already set, the same way the cluster and event have always worked.
+        </li>
+        <li>
+          <strong>The event list shows the split.</strong>{" "}
+          Every deck holds 250 cards now, so the tiles say something more useful
+          &mdash; how many of them are hard.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="Every vocab deck is now 250 cards"
+      >
+        <li>
+          <strong>Five times the vocabulary, on all 28 events.</strong>{" "}
+          Every deck went from 50 cards to 250 &mdash; 7,000 cards in total, built
+          from a term list that grew roughly fivefold. Each event still opens with
+          vocabulary specific to it, then works outward through the instructional
+          areas that event is judged on, then the rest of your cluster&rsquo;s exam.
+        </li>
+        <li>
+          <strong>The three short decks are fixed.</strong>{" "}
+          Principles of Hospitality and Tourism, Principles of Business Management
+          and Administration and Principles of Marketing were left at 38, 43 and 47
+          cards while the rebuild caught up. All three are at 250 now, like
+          everything else.
+        </li>
+        <li>
+          <strong>About three cards in five are hard.</strong>{" "}
+          Every deck is a fair sample of the terms behind it rather than whatever
+          happened to be written first, so no event gets an easier deck than its
+          neighbours by accident. Expect roughly 150 hard cards and 100 medium in
+          each one.
+        </li>
+        <li>
+          <strong>Filters are next.</strong>{" "}
+          250 cards in a row is a lot to flip through, and right now that&rsquo;s
+          all there is. Filtering by difficulty or topic, and studying a 20- or
+          50-card slice instead of the whole deck, is the next thing being built.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="Vocab decks got harder on purpose"
+      >
+        <li>
+          <strong>The easy words are gone.</strong>{" "}
+          Every vocab deck has been rebuilt from a re-graded term list. Words a
+          competitor already knows &mdash; money, profit, teamwork, work ethic
+          &mdash; were cut, and every card that stayed is now marked medium or
+          hard. Nothing is labelled easy any more, because nothing easy is left in.
+        </li>
+        <li>
+          <strong>Cards teach the part you&rsquo;d get wrong.</strong>{" "}
+          Definitions are written to name the distinction a judge is listening
+          for, and each one says where the term actually shows up on an exam or in
+          a roleplay.
+        </li>
+        <li>
+          <strong>Accounting Applications is the first deck filled to the new
+          bar.</strong>{" "}
+          Its deck is 50 cards, a third of them hard &mdash; FIFO against LIFO,
+          the two depreciation methods, adjusting versus closing entries, APR
+          against APY. The other events keep their decks and get the same
+          treatment next.
+        </li>
+        <li>
+          <strong>Three decks are temporarily smaller.</strong>{" "}
+          Principles of Hospitality and Tourism (38 cards), Principles of
+          Business Management and Administration (43) and Principles of Marketing
+          (47) lost more easy words than we&rsquo;ve replaced so far.
+          They&rsquo;ll be back above 50 as the rebuild continues.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
         title="Pool filter counts now tell you the truth"
       >
         <li>

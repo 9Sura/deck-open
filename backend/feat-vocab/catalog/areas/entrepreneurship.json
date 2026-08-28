@@ -5,20 +5,13 @@
   ],
   "terms": [
     {
-      "term": "Entrepreneur",
-      "definition": "A person who spots an opportunity and creates, owns, and runs a new venture.",
-      "whyItMatters": "Entrepreneurship events center on the owner's role in decisions and strategy.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
-    },
-    {
       "term": "Opportunity recognition",
       "definition": "Identifying unmet market needs or underserved customer segments.",
       "whyItMatters": "Judges assess how well competitors spot a genuine market need.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Feasibility study",
@@ -26,7 +19,8 @@
       "whyItMatters": "It justifies recommendations and addresses resource constraints.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Bootstrapping",
@@ -34,7 +28,8 @@
       "whyItMatters": "Many scenarios require building a business with limited resources.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Sole proprietorship",
@@ -42,23 +37,8 @@
       "whyItMatters": "Business structure shapes taxes, liability, and control for a new venture.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
-    },
-    {
-      "term": "Partnership",
-      "definition": "An unincorporated business owned by two or more people sharing profit and liability.",
-      "whyItMatters": "Structure decisions matter when multiple founders share ownership and risk.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
-    },
-    {
-      "term": "Corporation",
-      "definition": "A legal entity separate from its owners that limits liability and can sell stock.",
-      "whyItMatters": "Scaling ventures often incorporate to attract investors and protect founders.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Limited liability company",
@@ -66,7 +46,8 @@
       "whyItMatters": "An LLC suits small ventures wanting protection without complex governance.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Franchising",
@@ -74,23 +55,8 @@
       "whyItMatters": "Franchising is a lower-risk path competitors may recommend over an original build.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
-    },
-    {
-      "term": "Intellectual property",
-      "definition": "Legal protections such as patents, trademarks, copyrights, and trade secrets.",
-      "whyItMatters": "Protecting IP matters when advantage depends on innovation or brand identity.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
-    },
-    {
-      "term": "Business ethics",
-      "definition": "Moral principles guiding honest, fair, responsible business decisions.",
-      "whyItMatters": "Ethical reasoning is tested; competitors must balance profit with integrity.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Scalability",
@@ -98,7 +64,8 @@
       "whyItMatters": "Judges assess whether a proposed venture can grow efficiently.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Minimum viable product",
@@ -106,7 +73,8 @@
       "whyItMatters": "An MVP validates an idea cheaply before heavy development.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Pivot",
@@ -114,7 +82,8 @@
       "whyItMatters": "Entrepreneurs must adapt and justify course corrections when assumptions fail.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "International trade",
@@ -122,7 +91,8 @@
       "whyItMatters": "A PI targets small-business opportunity in tariffs, logistics, and culture abroad.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Angel investor",
@@ -130,6 +100,549 @@
       "whyItMatters": "Angels are a realistic funding source competitors weigh against loans or savings.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Burn rate",
+      "definition": "Gross burn counts every dollar of cash leaving the venture in a month; net burn subtracts the cash collected in the same month, so a startup spending $90,000 and collecting $40,000 posts a $90,000 gross figure and a $50,000 net figure — investors size a raise off the net one.",
+      "whyItMatters": "A roleplay judge who asks how long your funding lasts is testing whether you quote net rather than gross; the finance-side exam item pairs the two figures and asks which one divides into cash on hand.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "runway",
+        "operating-costs",
+        "cash-flow-statement"
+      ]
+    },
+    {
+      "term": "Runway",
+      "definition": "Months of survival remaining at the current spend level, found by dividing cash on hand by net monthly burn — $600,000 against $50,000 of net burn is twelve months. Raising prices or collecting faster extends it, while cutting gross spend alone extends it only to the degree net burn actually falls.",
+      "whyItMatters": "Asked in a venture roleplay when you should start fundraising, the defensible answer is a month count computed from this division, since a raise takes about six months and must begin well before the number reaches zero.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "burn-rate",
+        "working-capital",
+        "liquidity"
+      ]
+    },
+    {
+      "term": "Pre-money valuation",
+      "definition": "The agreed worth of a venture before an investor's check is added; post-money equals it plus the investment, and the investor's stake is investment divided by post-money — $2 million into an $8 million pre-money buys 20% of a $10 million company, not the 25% a founder computing off pre-money would concede.",
+      "whyItMatters": "An entrepreneurship exam item hands you a raise amount and a valuation and asks what percentage the founders keep; getting the denominator wrong is the single most common way competitors lose that question.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "capitalization-table",
+        "ebitda-multiple-valuation",
+        "book-value"
+      ]
+    },
+    {
+      "term": "Capitalization table",
+      "definition": "A running ledger of every share, option and convertible instrument, showing each holder's ownership on a fully diluted basis — reserved but unissued options and unconverted notes included — which always reads lower for the founders than the outstanding-shares basis they tend to quote.",
+      "whyItMatters": "A judge in an ownership-structure roleplay will ask what the founders own after the round; the answer has to come off the fully diluted column, and a competitor who reads the outstanding column overstates the founders' stake every time.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "employee-option-pool",
+        "pre-money-valuation",
+        "treasury-stock"
+      ]
+    },
+    {
+      "term": "Convertible note",
+      "definition": "Short-term debt that turns into equity at the next priced round rather than being repaid in cash, converting at whichever is better for the holder — a discount off the round price, commonly 20%, or a valuation cap that fixes the highest price at which it may convert. Unlike a SAFE it accrues interest and carries a maturity date that can be called.",
+      "whyItMatters": "A start-up financing roleplay that asks how to raise money before you can defend a valuation is answered with this instrument; the judge is listening for the discount and the cap, not just the word convertible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "simple-agreement-for-future-equity-safe",
+        "anti-dilution-provision"
+      ]
+    },
+    {
+      "term": "Simple agreement for future equity (SAFE)",
+      "definition": "A short instrument granting the right to shares at a future priced round, priced by a valuation cap, a discount, or both — but, unlike a convertible note, carrying no interest rate, no maturity date and no repayment claim, so it can never mature into a default the venture must cure.",
+      "whyItMatters": "Asked in a financing roleplay to compare two seed offers, the discriminator you must name is that one can come due and the other cannot; exam items test exactly that difference rather than the paperwork.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "convertible-note",
+        "series-a-round"
+      ]
+    },
+    {
+      "term": "Anti-dilution provision",
+      "definition": "Repricing protection for preferred holders when a later round prices below theirs. A full ratchet resets their conversion price all the way to the new low price no matter how few shares were sold; a broad-based weighted average blends the old and new prices in proportion to shares issued, so it takes far less from the founders.",
+      "whyItMatters": "In a term-negotiation roleplay the two forms look interchangeable on paper and are not: naming which one you would accept, and why the weighted-average form protects the common stock, is what separates a top score.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "liquidation-preference",
+        "employee-option-pool",
+        "capitalization-table"
+      ]
+    },
+    {
+      "term": "Drag-along right",
+      "definition": "Allows holders of a specified majority — often a majority of the preferred stock — to force minority shareholders to vote for an approved sale and sell on identical terms, preventing a small holder from blocking an exit. Its mirror image, the tag-along right, instead lets a minority holder demand inclusion in someone else's sale.",
+      "whyItMatters": "An exit-planning roleplay where one early shareholder refuses to sell turns on whether this clause exists; a competitor who confuses it with the tag-along gives the minority holder a veto that the documents never granted.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "term-sheet",
+        "liquidation-preference"
+      ]
+    },
+    {
+      "term": "Unit economics",
+      "definition": "Profit or loss on one customer or one order taken alone — price minus the variable cost of delivering it, measured before any fixed overhead is spread. A venture can report a healthy blended gross margin and still lose money on every additional unit once shipping, payment fees and support are charged against that unit.",
+      "whyItMatters": "In a growth roleplay the judge asks whether to spend more on customer acquisition; the correct answer is conditional on this figure being positive, because scaling a negative one accelerates the losses.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "contribution-margin-per-unit",
+        "profit-margin",
+        "operating-costs"
+      ]
+    },
+    {
+      "term": "Customer acquisition cost",
+      "definition": "Total sales and marketing spend over a period divided by the number of new customers it produced, with salaries, agency fees and tools counted in — not ad spend alone. Blended figures divide by every new customer including organic ones; paid figures count only customers from paid channels and always read higher.",
+      "whyItMatters": "A marketing-spend roleplay gives you a monthly budget and a customer count and asks whether the channel is working; the judge expects the division shown and the blended-versus-paid distinction stated out loud.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "ltv-cac-ratio",
+        "cac-payback-period",
+        "customer-lifetime-value-clv"
+      ]
+    },
+    {
+      "term": "CAC payback period",
+      "definition": "Months needed to earn back what one customer cost to win: acquisition cost divided by that customer's monthly revenue times gross margin, so a $900 cost against $100 a month at 75% margin repays in twelve months. Unlike the payback period on a capital project, this one recurs with every customer the venture acquires.",
+      "whyItMatters": "Asked in a financing roleplay why the venture needs working capital even while growing, the answer is that cash goes out to win a customer months before it comes back — this figure is the size of that gap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "payback-period",
+        "customer-acquisition-cost",
+        "cash-conversion-cycle"
+      ]
+    },
+    {
+      "term": "LTV:CAC ratio",
+      "definition": "Lifetime gross profit expected from a customer divided by the cost of winning that customer. Investors treat 3:1 as the working floor for a fundable venture; below 1:1 the business is buying revenue at a loss, and above roughly 5:1 the usual reading is underinvestment in growth rather than excellence.",
+      "whyItMatters": "An entrepreneurship exam question hands you a lifetime value and an acquisition cost and asks whether to scale spending; the benchmark number is the tested content, and the ratio must use gross profit, not revenue.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "customer-lifetime-value-clv",
+        "customer-acquisition-cost",
+        "return-on-investment"
+      ]
+    },
+    {
+      "term": "Net revenue retention",
+      "definition": "Revenue from one starting cohort measured a year later — upgrades and expansion added, downgrades and cancellations subtracted — divided by what that cohort paid at the start. It can exceed 100% when existing customers grow, whereas gross revenue retention counts only losses and can therefore never pass 100%.",
+      "whyItMatters": "In a roleplay defending a growth forecast, this figure is the evidence that revenue compounds without new customers; quoting the gross figure instead understates the venture and the judge will catch the cap at 100%.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "logo-churn",
+        "customer-lifetime-value-clv",
+        "building-clientele"
+      ]
+    },
+    {
+      "term": "Logo churn",
+      "definition": "Share of customer accounts lost during a period, counted one per account no matter how large. Revenue churn instead weights every loss by the dollars it carried, so a venture that loses ten tiny accounts while keeping one enormous one shows alarming account churn alongside near-zero revenue churn.",
+      "whyItMatters": "A retention roleplay presents both numbers and asks which crisis to work on; the judge is testing whether you can say which measure the customer-concentration risk actually shows up in.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "net-revenue-retention",
+        "employee-turnover-rate",
+        "customer-relations"
+      ]
+    },
+    {
+      "term": "Product-market fit",
+      "definition": "The state in which demand pulls harder than the sales effort pushes, and it is measured rather than felt: the Sean Ellis survey treats it as reached when more than 40% of active users say they would be very disappointed if the product disappeared, alongside flattening retention curves.",
+      "whyItMatters": "Asked in a roleplay when the venture should hire salespeople, the graded answer is not yet if the threshold is unmet — hiring ahead of it burns the runway on a product customers do not miss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "minimum-viable-product",
+        "market-identification",
+        "build-measure-learn-loop"
+      ]
+    },
+    {
+      "term": "Total addressable market",
+      "definition": "Annual revenue if every possible buyer bought — market units times average selling price, or the bottom-up count of buyers times price per buyer. The serviceable addressable slice is only the portion the venture's model, licensing and geography can reach, and the serviceable obtainable slice is the share it could realistically win within a few years.",
+      "whyItMatters": "A venture-pitch roleplay is scored partly on whether the market figure was built up from buyers and prices or borrowed from a headline industry number; the three-tier breakdown is what makes it defensible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "market-share",
+        "market-identification",
+        "market-analysis"
+      ]
+    },
+    {
+      "term": "Term sheet",
+      "definition": "The short summary of an investment's price, preference and control terms that precedes the definitive documents. Almost all of it is expressly non-binding — only the no-shop exclusivity clause and the confidentiality clause bind on signature — which is why a signed one still lets either side walk away over valuation.",
+      "whyItMatters": "In a financing roleplay a competitor who calls this a signed deal loses the point; the judge wants to hear which two clauses actually bind and that exclusivity stops you shopping the offer elsewhere.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "letter-of-intent",
+        "contract",
+        "due-diligence"
+      ]
+    },
+    {
+      "term": "Liquidation preference",
+      "definition": "The preferred holder's first claim on exit proceeds, normally 1x the money invested before common stock receives anything. Non-participating means the holder chooses the preference or converts to common, whichever pays more; participating means the holder takes the preference and then shares the remainder alongside common.",
+      "whyItMatters": "An exit roleplay gives a sale price below the last valuation and asks what the founders receive; the participating-versus-non-participating split changes that answer entirely and is the graded distinction.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "anti-dilution-provision",
+        "drag-along-right",
+        "earnout"
+      ]
+    },
+    {
+      "term": "Vesting cliff",
+      "definition": "The initial stretch during which founder or employee equity is granted but not yet earned. On the standard four-year schedule nothing at all vests for the first twelve months, then 25% vests at once on the anniversary and the rest accrues monthly — so a cofounder who leaves in month eleven departs with zero shares.",
+      "whyItMatters": "A roleplay about a cofounder walking out early turns on this clause; without it the departing founder keeps a large stake and the venture becomes unfundable, which is the consequence a judge wants named.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "sweat-equity",
+        "employee-option-pool",
+        "founders-agreement"
+      ]
+    },
+    {
+      "term": "Employee option pool",
+      "definition": "Shares set aside for future hires, usually 10% to 20% of the company. Investors normally insist the pool be carved out of the pre-money valuation, which means the whole dilution lands on the existing shareholders — a 15% pool inside an $8 million pre-money quietly lowers the price the founders are really being paid.",
+      "whyItMatters": "In a term-negotiation roleplay this is the term that changes the effective valuation without changing the headline number; a competitor who negotiates only the valuation and ignores where the pool sits has conceded the point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "capitalization-table",
+        "vesting-cliff",
+        "compensation"
+      ]
+    },
+    {
+      "term": "Series A round",
+      "definition": "The first priced round of preferred stock — commonly $5 million to $20 million for 15% to 25% of the company — raised on evidence that revenue repeats predictably. A seed round is smaller, frequently sold on a note or SAFE with no set price, and pays for the search for that repeatability rather than for scaling it.",
+      "whyItMatters": "Asked in a financing roleplay which round the venture is ready for, the graded answer is a milestone claim, not a dollar amount: repeatable revenue first, then the priced round.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "convertible-note",
+        "angel-investor",
+        "simple-agreement-for-future-equity-safe"
+      ]
+    },
+    {
+      "term": "SBA 7(a) loan",
+      "definition": "A loan made by an ordinary bank that the Small Business Administration guarantees against default — 85% of the balance on loans up to $150,000 and 75% above that, to a $5 million ceiling. The guarantee is what persuades a lender to accept a borrower whose collateral and operating history would otherwise be too thin.",
+      "whyItMatters": "In a financing roleplay for a start-up that a bank has already declined, naming this program and the guarantee percentage is the concrete recommendation a judge is waiting for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "sba-microloan",
+        "revenue-based-financing",
+        "cost-of-credit"
+      ]
+    },
+    {
+      "term": "Franchise disclosure document",
+      "definition": "The 23-item filing a franchisor must place in a prospect's hands at least 14 calendar days before any money changes hands or any agreement is signed. Its items cover fees, litigation and bankruptcy history, territory rights, and the roster of current franchisees plus everyone who left in the past three years.",
+      "whyItMatters": "A franchise-purchase roleplay is scored on whether you use the waiting period to call former franchisees; a competitor who signs on the spot has skipped the protection the rule exists to give.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "franchising",
+        "due-diligence",
+        "contract"
+      ]
+    },
+    {
+      "term": "Business model canvas",
+      "definition": "A single-page grid of nine blocks — customer segments, value propositions, channels, customer relationships, revenue streams, key resources, key activities, key partnerships and cost structure — used in place of a long written plan so that assumptions about how money is made can be swapped and retested quickly.",
+      "whyItMatters": "When a roleplay asks you to lay out a venture in ten minutes, working the nine blocks aloud gives the judge a complete answer; the two right-hand-side blocks people forget are key partnerships and cost structure.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "venture-planning-tools",
+        "marketing-plan",
+        "feasibility-study"
+      ]
+    },
+    {
+      "term": "Equity crowdfunding",
+      "definition": "Raising capital from a large number of small investors who each receive real shares and an ownership claim, which makes the raise a securities offering subject to filing and reporting. Rewards crowdfunding sells a pre-order or a perk instead, creates no shareholder, and triggers no securities filing at all.",
+      "whyItMatters": "A roleplay comparing two online raises is graded on this split: one leaves the founder with hundreds of shareholders on the cap table forever, the other leaves only orders to fulfill.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "regulation-crowdfunding",
+        "angel-investor",
+        "capitalization-table"
+      ]
+    },
+    {
+      "term": "Regulation Crowdfunding",
+      "definition": "The SEC exemption that lets a company raise up to $5 million in any twelve months from the general public through a registered funding portal, capping how much a non-accredited investor may put in based on their income and net worth, and obliging the issuer to file annual reports afterward.",
+      "whyItMatters": "Asked in a financing roleplay whether the venture can simply ask the public for money, the answer is yes but only inside this exemption — the ceiling and the ongoing reporting duty are the tested details.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "equity-crowdfunding",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Startup accelerator",
+      "definition": "A fixed-length cohort program, typically about three months and ending in a demo day, that invests roughly $100,000 to $150,000 in exchange for about 6% to 7% of the company. An incubator by contrast offers space, services and mentoring on an open-ended timeline and often takes no equity at all.",
+      "whyItMatters": "In a roleplay choosing between two support programs, the graded discriminator is the equity cost against the deadline: one buys a demo-day audience with dilution, the other buys time without it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "business-incubator",
+        "angel-investor",
+        "venture-start-up"
+      ]
+    },
+    {
+      "term": "Sweat equity",
+      "definition": "Ownership issued for labor rather than cash, valued at what buying that work would have cost. Because the shares are normally restricted and vest over time, the recipient has 30 days from the grant to file an 83(b) election and be taxed on today's near-zero value instead of on the higher value at each future vesting date.",
+      "whyItMatters": "A roleplay about paying an early developer in shares is scored on whether you flag the filing window; missing it hands the recipient a tax bill on paper gains they cannot sell.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "vesting-cliff",
+        "compensation",
+        "bootstrapping"
+      ]
+    },
+    {
+      "term": "Letter of intent",
+      "definition": "The pre-contract document sketching a deal's outline, in which price and structure are expressly non-binding but the exclusivity, confidentiality and expense-allocation clauses bind the moment it is signed — so it is emphatically not the harmless handshake its informal tone suggests.",
+      "whyItMatters": "A business-sale roleplay where the seller wants to keep talking to another buyer turns on which clauses in this document survive; the judge is testing whether you know price is the part that does not bind.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "term-sheet",
+        "contract",
+        "asset-purchase-agreement"
+      ]
+    },
+    {
+      "term": "Asset purchase agreement",
+      "definition": "A sale structured so the buyer takes only the assets it names and only the liabilities it lists, leaving unknown claims behind with the seller's legal entity and resetting depreciation on what was bought. A stock purchase transfers the whole company instead — contracts and licenses intact, but hidden liabilities included.",
+      "whyItMatters": "Asked in an acquisition roleplay which structure to recommend, the buyer's answer and the seller's answer differ for a reason you must be able to state: liability follows the entity in one structure and not the other.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "earnout",
+        "letter-of-intent",
+        "due-diligence"
+      ]
+    },
+    {
+      "term": "EBITDA multiple valuation",
+      "definition": "Pricing a company at earnings before interest, taxes, depreciation and amortization multiplied by a factor taken from comparable completed sales: $800,000 of EBITDA at a 5x multiple gives a $4 million enterprise value, from which outstanding debt is subtracted and cash added back to reach the equity price.",
+      "whyItMatters": "A business-sale roleplay hands you an earnings figure and an industry multiple and asks what the owner walks away with; the debt subtraction is the step competitors skip.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "price-to-earnings-ratio",
+        "pre-money-valuation",
+        "book-value"
+      ]
+    },
+    {
+      "term": "Revenue-based financing",
+      "definition": "Capital repaid as a fixed slice of monthly revenue — commonly 3% to 8% — until a set multiple of the advance, usually 1.3x to 1.5x, has been returned. There is no fixed maturity date the way a term loan has one, and no ownership is given up the way an equity round would require.",
+      "whyItMatters": "In a financing roleplay for a venture with steady revenue but no collateral, this is the recommendation that avoids both dilution and a fixed payment the slow months cannot cover.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "merchant-cash-advance",
+        "sba-7-a-loan",
+        "invoice-factoring"
+      ]
+    },
+    {
+      "term": "Invoice factoring",
+      "definition": "Selling unpaid customer invoices to a third party for an immediate advance of roughly 80% to 90% of face value, with a fee of about 1% to 4% per 30 days deducted from the balance when the customer finally pays. A 2% fee on 30-day paper works out near a 24% annual cost, far above what the headline percentage suggests.",
+      "whyItMatters": "A cash-flow roleplay where a venture has sales on 60-day terms and payroll due Friday is answered with this tool; converting the fee to an annual rate is what shows the judge you understand its real price.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "accounts-receivable",
+        "merchant-cash-advance",
+        "cost-of-credit"
+      ]
+    },
+    {
+      "term": "Merchant cash advance",
+      "definition": "A lump sum repaid by withholding 10% to 20% of daily card sales until a factor rate — normally 1.2 to 1.5 times the amount advanced — has been satisfied. Because a factor rate is a flat multiple rather than an interest rate, a 1.3 factor repaid over six months costs vastly more per year than 30%.",
+      "whyItMatters": "An ethics-flavored financing roleplay asks whether to accept fast funding at this price; the graded move is converting the factor rate into an annual cost before answering.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "revenue-based-financing",
+        "invoice-factoring",
+        "usury"
+      ]
+    },
+    {
+      "term": "SBA microloan",
+      "definition": "Financing of up to $50,000 — the typical loan running closer to $13,000 — made not by a bank but by nonprofit intermediary lenders on terms of up to 72 months, aimed at ventures too small to interest a 7(a) lender and normally conditioned on the borrower completing business training.",
+      "whyItMatters": "In a start-up roleplay for a venture needing a few thousand dollars of equipment, this program is the right named answer; recommending a 7(a) loan for that amount shows the sizes are not understood.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "sba-7-a-loan",
+        "bootstrapping",
+        "cost-of-credit"
+      ]
+    },
+    {
+      "term": "Lifestyle business",
+      "definition": "A venture deliberately held at the size that supports its owner's income and preferred schedule, funded out of its own cash flow and valued on owner earnings when sold. A scalable startup instead accepts deep planned losses to chase a market big enough to return an investor's entire fund.",
+      "whyItMatters": "A judge who asks whether to take outside investment is testing this choice: the venture that never intends to exit should not sell equity, because the investor's return depends on a sale that will never come.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "scalability",
+        "bootstrapping",
+        "small-business-impact"
+      ]
+    },
+    {
+      "term": "J-curve",
+      "definition": "The shape a venture's cumulative cash flow traces over time — falling deeper into negative territory through product build and customer acquisition, bottoming at the point of maximum funding need, then climbing as retained customers pay back. The depth of that trough, not the eventual slope, determines how much must be raised.",
+      "whyItMatters": "Asked in a planning roleplay why a growing, profitable-per-customer venture still runs out of money, this curve is the explanation, and the trough is the number the raise has to cover.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/entrepreneurship.txt"
+      ],
+      "confusableWith": [
+        "burn-rate",
+        "runway",
+        "cash-flow-statement"
+      ]
+    },
+    {
+      "term": "Default alive test",
+      "definition": "Asks whether the venture's current revenue growth would carry it to profitability before its cash runs out, holding spending flat from today. A venture that fails the test is default dead and must repair growth or cut costs now, rather than planning around a future round that may never be offered.",
+      "whyItMatters": "In a roleplay advising a founder who assumes the next investor will arrive, applying this test converts a hopeful plan into a dated decision about hiring and spending.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "runway",
+        "burn-rate",
+        "j-curve"
+      ]
+    },
+    {
+      "term": "Earnout",
+      "definition": "The slice of an acquisition price held back at closing and paid only if the acquired business reaches agreed revenue or profit targets afterward. It bridges a buyer and seller who cannot agree on what the business is worth, and it is why a headline sale price routinely overstates the cash a founder actually receives.",
+      "whyItMatters": "A business-sale roleplay quotes an impressive price; the graded insight is asking how much is contingent and who will control the operations that decide whether those targets are hit.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:entrepreneurship"
+      ],
+      "confusableWith": [
+        "asset-purchase-agreement",
+        "liquidation-preference",
+        "letter-of-intent"
       ]
     }
   ]

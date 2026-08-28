@@ -2,26 +2,6 @@
   "code": "ACT",
   "terms": [
     {
-      "term": "Accounting equation",
-      "definition": "Assets equal liabilities plus owner's equity.",
-      "whyItMatters": "Accounting events often require competitors to interpret how transactions affect business position.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ACT",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
-      "term": "Income statement",
-      "definition": "A financial statement showing revenue, expenses, and profit over a period.",
-      "whyItMatters": "Income statements help evaluate operating performance.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/ACT",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
       "term": "Cost of goods sold",
       "definition": "The direct cost of inventory or materials sold to customers.",
       "whyItMatters": "COGS affects gross profit and pricing decisions.",
@@ -29,6 +9,393 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/ACT",
         "backend/test-gen-model/data"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Accounting equation",
+      "definition": "Assets equal liabilities plus owner's equity — the identity every transaction must leave intact, which is why a single-sided entry is always an error.",
+      "whyItMatters": "Accounting Applications items give two of the three figures and ask for the third, and the same identity is what a competitor uses to prove a balance sheet balances.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "double-entry-accounting"
+      ]
+    },
+    {
+      "term": "Double-entry accounting",
+      "definition": "A system recording every transaction in at least two accounts so that total debits equal total credits, which is what makes an out-of-balance ledger detectable.",
+      "whyItMatters": "An ACT roleplay asking a competitor to explain why the books will not balance expects this rule, not a search for a missing receipt.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "accounting-equation",
+        "t-account"
+      ]
+    },
+    {
+      "term": "Debit entry",
+      "definition": "The left side of an account, which increases assets and expenses but decreases liabilities, equity and revenue — direction depends on the account type, not on whether money came in.",
+      "whyItMatters": "Journalizing items on the accounting exam are lost by assuming a debit always means an increase, which is only true for half the account types.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "credit-entry"
+      ]
+    },
+    {
+      "term": "Credit entry",
+      "definition": "The right side of an account, which increases liabilities, equity and revenue but decreases assets and expenses — the mirror of a debit, and unrelated to a credit card.",
+      "whyItMatters": "Recording a cash sale on the exam requires debiting cash and crediting revenue; reversing the pair is the single most common journalizing error.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "debit-entry"
+      ]
+    },
+    {
+      "term": "T-account",
+      "definition": "A two-column sketch of one account with debits on the left and credits on the right, used to work out an entry before it is journalized.",
+      "whyItMatters": "Competitors use these to reason through a multi-account transaction under exam time pressure rather than journalizing straight from memory.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "double-entry-accounting"
+      ]
+    },
+    {
+      "term": "Adjusting entry",
+      "definition": "A period-end entry recording revenue earned or expense incurred that no cash transaction has yet captured, such as accrued wages or expired prepaid insurance.",
+      "whyItMatters": "Exam items ask what happens if one is skipped: the statements misstate both net income and the balance sheet for that period.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "closing-entry",
+        "matching-principle"
+      ]
+    },
+    {
+      "term": "Closing entry",
+      "definition": "A period-end entry zeroing revenue, expense and drawing accounts into equity so the next period starts fresh, while asset and liability balances carry forward.",
+      "whyItMatters": "Distinguishing which accounts close from which carry over is a recurring accounting-exam item and the reason temporary and permanent accounts are named that way.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "adjusting-entry"
+      ]
+    },
+    {
+      "term": "Matching principle",
+      "definition": "Expenses are recorded in the same period as the revenue they helped produce, not in the period they were paid, which is what forces period-end adjustments.",
+      "whyItMatters": "It is the reason an ACT scenario records December commissions against December sales even though the checks clear in January.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "revenue-recognition-principle",
+        "cash-basis-accounting"
+      ]
+    },
+    {
+      "term": "Revenue recognition principle",
+      "definition": "Revenue is recorded when the good or service is delivered, not when the order is signed or the cash arrives, so a deposit on undelivered work is a liability.",
+      "whyItMatters": "A client in an accounting roleplay who wants to book a prepayment as this month's sales is asking for something this rule forbids.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "matching-principle"
+      ]
+    },
+    {
+      "term": "Going concern assumption",
+      "definition": "Financial statements are prepared on the premise the business will keep operating, which is why assets are carried at cost rather than at what they would fetch in a liquidation.",
+      "whyItMatters": "It explains an exam answer competitors find odd — that a balance sheet does not report what a company is worth if sold today.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ]
+    },
+    {
+      "term": "Straight-line depreciation",
+      "definition": "Cost minus salvage value divided by useful life, producing the same expense every year of an asset's life.",
+      "whyItMatters": "Accounting exam items hand over a purchase price, a salvage value and a life expectancy and expect the annual figure computed, not estimated.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "declining-balance-depreciation",
+        "salvage-value"
+      ]
+    },
+    {
+      "term": "Declining-balance depreciation",
+      "definition": "An accelerated method applying a fixed rate to the asset's remaining book value, so expense is largest in year one and falls every year after.",
+      "whyItMatters": "Choosing between this and the straight-line method changes reported net income early in an asset's life, which is exactly what an exam item tests.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "straight-line-depreciation"
+      ]
+    },
+    {
+      "term": "First-in, first-out (FIFO)",
+      "definition": "An inventory costing method assuming the oldest units sell first, which in a period of rising prices leaves newer, costlier units on the balance sheet and reports higher profit.",
+      "whyItMatters": "Accounting items give a purchase history and ask for ending inventory; the costing method chosen changes the answer even though the physical goods are identical.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "last-in-first-out-lifo",
+        "weighted-average-cost-method"
+      ]
+    },
+    {
+      "term": "Last-in, first-out (LIFO)",
+      "definition": "An inventory costing method assuming the newest units sell first, which under rising prices charges the higher costs against revenue and reports lower profit and lower tax.",
+      "whyItMatters": "The tax consequence is the point of the exam item: two firms with identical inventory report different net income purely on this choice.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "first-in-first-out-fifo"
+      ]
+    },
+    {
+      "term": "Weighted-average cost method",
+      "definition": "Costing inventory at total cost of goods available divided by total units available, so every unit carries the same average cost regardless of when it was bought.",
+      "whyItMatters": "It is the third answer choice on every inventory-costing item, and it lands between the FIFO and LIFO figures under rising prices.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "first-in-first-out-fifo",
+        "last-in-first-out-lifo"
+      ]
+    },
+    {
+      "term": "Cash-basis accounting",
+      "definition": "Recording revenue and expenses only when cash moves, which is simpler than the accrual basis but reports a month's profit in whichever period the payment happens to land.",
+      "whyItMatters": "An ACT roleplay advising a small client on which basis to use rests on this distortion, and most businesses above a size threshold may not use it.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "accrual",
+        "matching-principle"
+      ]
+    },
+    {
+      "term": "Contra account",
+      "definition": "An account deliberately carrying a balance opposite its partner — accumulated depreciation against an asset, sales returns against revenue — so the original figure stays visible alongside the reduction.",
+      "whyItMatters": "It answers the exam item asking why equipment still shows its full purchase price years after it was bought.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "allowance-for-doubtful-accounts"
+      ]
+    },
+    {
+      "term": "Allowance for doubtful accounts",
+      "definition": "A contra-asset estimate of receivables that will never be collected, recorded in the period of the sale rather than when a specific customer's account is finally written off.",
+      "whyItMatters": "Accounting items test the timing: estimating bad debt up front is what keeps the expense in the same period as the revenue it came from.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "contra-account",
+        "matching-principle"
+      ]
+    },
+    {
+      "term": "Generally accepted accounting principles (GAAP)",
+      "definition": "The common rule set governing how U.S. financial statements are prepared, which is what lets an outside reader compare two companies' books at all.",
+      "whyItMatters": "An ACT roleplay where a client wants to record something a convenient way is answered by whether these rules permit it, not by whether it looks reasonable.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "matching-principle",
+        "going-concern-assumption"
+      ]
+    },
+    {
+      "term": "Unearned revenue",
+      "definition": "Cash collected before the work is delivered, recorded as a liability rather than income until the obligation is filled.",
+      "whyItMatters": "Accounting items give a customer deposit and ask where it lands on the statements; calling it revenue overstates income for the period.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "revenue-recognition-principle",
+        "prepaid-expense"
+      ]
+    },
+    {
+      "term": "Prepaid expense",
+      "definition": "Cash paid ahead for a future benefit — insurance or rent — carried as an asset and expensed a period at a time as it is used up.",
+      "whyItMatters": "It is the standard period-end adjustment on the accounting exam: the payment happened once, the expense belongs to several months.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "unearned-revenue",
+        "adjusting-entry"
+      ]
+    },
+    {
+      "term": "Book value",
+      "definition": "An asset's original cost minus accumulated depreciation, which is what the ledger reports and rarely what the asset would sell for.",
+      "whyItMatters": "Items ask for the reported value of equipment after three years, and the answer requires subtracting the accumulated total, not one year's depreciation.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "contra-account",
+        "straight-line-depreciation"
+      ]
+    },
+    {
+      "term": "Accounts receivable turnover",
+      "definition": "Net credit sales divided by average receivables, counting how many times a year a business collects what customers owe it.",
+      "whyItMatters": "A falling figure in an accounting scenario is the early warning that credit customers are paying slower, before any account goes bad.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "allowance-for-doubtful-accounts"
+      ]
+    },
+    {
+      "term": "Perpetual inventory system",
+      "definition": "Updating inventory and cost of goods sold at every sale, so the balance is known continuously — unlike a periodic system, which learns it only from a physical count.",
+      "whyItMatters": "Which system a business runs decides whether an ACT scenario can state cost of goods sold mid-period or has to wait for the count.",
+      "difficulty": "hard",
+      "areas": [
+        "financial_information_management",
+        "information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "first-in-first-out-fifo"
+      ]
+    },
+    {
+      "term": "Internal control",
+      "definition": "The procedures protecting assets and records — separating who authorizes, who records and who holds the cash — so no one person can both commit and conceal an error.",
+      "whyItMatters": "An ACT roleplay asking how a small business prevents theft expects this separation of duties, not stricter hiring.",
+      "difficulty": "medium",
+      "areas": [
+        "financial_information_management",
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "deca-domain:ACT"
+      ],
+      "confusableWith": [
+        "petty-cash-fund"
       ]
     }
   ]

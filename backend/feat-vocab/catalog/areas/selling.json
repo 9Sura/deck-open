@@ -10,7 +10,8 @@
       "whyItMatters": "Selling vocabulary supports recommendations about staff, service, and revenue.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Selling process",
@@ -18,7 +19,8 @@
       "whyItMatters": "Knowing the process helps competitors execute each stage well.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Prospecting",
@@ -26,7 +28,8 @@
       "whyItMatters": "Effective prospecting builds the foundation for successful sales.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Approach",
@@ -34,7 +37,8 @@
       "whyItMatters": "A professional approach sets the first impression that drives interest.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Needs assessment",
@@ -42,7 +46,8 @@
       "whyItMatters": "Assessing needs ensures recommendations truly solve the customer's problem.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Product features and benefits",
@@ -50,7 +55,8 @@
       "whyItMatters": "Competitors must separate features from benefits to sell effectively.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Feature-benefit selling",
@@ -58,7 +64,8 @@
       "whyItMatters": "It turns product facts into customer value.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Sales presentation",
@@ -66,7 +73,8 @@
       "whyItMatters": "A compelling presentation moves a prospect toward purchase.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Objection handling",
@@ -74,7 +82,8 @@
       "whyItMatters": "Handling objections improves trust and conversion.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Closing the sale",
@@ -82,7 +91,8 @@
       "whyItMatters": "Knowing when and how to close prevents lost opportunities.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Suggestive selling",
@@ -90,23 +100,8 @@
       "whyItMatters": "Suggestive selling raises transaction value and meets more needs.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
-    },
-    {
-      "term": "Upselling",
-      "definition": "Offering a higher-value or premium version of a product.",
-      "whyItMatters": "Upselling grows revenue per customer with a better-fit product.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/selling.txt"
-      ]
-    },
-    {
-      "term": "Follow-up",
-      "definition": "Contacting a customer after the sale to confirm satisfaction and build loyalty.",
-      "whyItMatters": "Follow-up creates repeat business and turns customers into advocates.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Building clientele",
@@ -114,7 +109,8 @@
       "whyItMatters": "A strong clientele provides stable revenue and drives growth.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Buying motives",
@@ -122,6 +118,601 @@
       "whyItMatters": "Understanding motives helps position products around what matters.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Close rate",
+      "definition": "Deals won divided by every qualified opportunity worked in the period — 15 wins out of 60 qualified opportunities is 25%. The denominator keeps opportunities that are still open or that ended in no decision, which is exactly what win rate throws out, so this figure always reads lower than win rate for the same rep.",
+      "whyItMatters": "In a sales-management roleplay that asks you to diagnose a rep whose revenue is falling, a dropping close rate against a steady win rate points at unqualified prospecting rather than weak closing technique.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "win-rate",
+        "quota-attainment"
+      ]
+    },
+    {
+      "term": "Win rate",
+      "definition": "Deals won divided only by the deals that reached a final decision — wins plus losses — so 15 wins among 45 resolved deals is 33%, with open and no-decision opportunities excluded from the denominator entirely. That narrower denominator is the whole difference from close rate.",
+      "whyItMatters": "Exam questions that hand you a pipeline table expect you to notice which opportunities belong in the denominator; counting still-open deals as losses is the single most common wrong answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "close-rate"
+      ]
+    },
+    {
+      "term": "Pipeline coverage ratio",
+      "definition": "Open opportunity value divided by the quota for the period: $900,000 of open deals against a $300,000 quota is 3x, the usual rule of thumb for a team that wins about one deal in three. Coverage below the reciprocal of the win rate means the quota is arithmetically unreachable no matter how well the rep sells.",
+      "whyItMatters": "A district-manager roleplay judged on forecasting expects you to test coverage before promising a number, and to prescribe prospecting rather than closing coaching when coverage is thin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "win-rate",
+        "sales-forecast"
+      ]
+    },
+    {
+      "term": "Sales velocity",
+      "definition": "Number of open opportunities multiplied by average deal size multiplied by win rate, all divided by the average sales cycle length in days, which yields revenue per day: 50 x $4,000 x 0.30 / 60 days = $1,000 a day. It is the one common metric where shortening the cycle raises revenue without adding a single new prospect.",
+      "whyItMatters": "When an exam item asks which of four fixes lifts revenue fastest, the velocity formula shows that cutting cycle time is a divisor change and beats a small win-rate gain.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "sales-cycle-length",
+        "average-deal-size"
+      ]
+    },
+    {
+      "term": "Average deal size",
+      "definition": "Closed-won revenue divided by the number of deals won — $480,000 across 60 wins is $8,000 each. It measures one whole customer agreement, where average order value measures one transaction, so a customer who reorders four times a year raises order count without raising this figure at all.",
+      "whyItMatters": "A roleplay asking you to justify spending more selling time per account is answered by comparing deal size against cost per sales call, not by citing total revenue.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "cost-per-sales-call",
+        "attach-rate"
+      ]
+    },
+    {
+      "term": "Attach rate",
+      "definition": "Units of a specific add-on sold divided by units of the primary product sold, times 100 — 300 protection plans on 1,000 phones is 30%. It scores one named pairing, where cross-sell measurement counts every additional category a customer buys, so a store can raise total cross-sell revenue while this figure falls.",
+      "whyItMatters": "Retail roleplays that set an accessories goal are graded on whether you name the ratio you will move and the counter behavior that moves it, not on a general promise to sell more.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "cross-selling",
+        "suggestive-selling"
+      ]
+    },
+    {
+      "term": "Total cost of ownership",
+      "definition": "Purchase price plus installation, training, consumables, maintenance and downtime across the asset's life, minus its resale value — so a $12,000 machine burning $400 of supplies a year beats a $9,000 machine burning $1,600 within five years. It answers a price objection by moving the comparison from acquisition price to lifetime cost.",
+      "whyItMatters": "When a roleplay customer says a competitor quoted less, judges look for this calculation rather than a discount, because conceding on price is the response the rubric marks down.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "value-selling",
+        "objection-handling"
+      ]
+    },
+    {
+      "term": "MEDDIC",
+      "definition": "A six-part qualification framework — Metrics, Economic buyer, Decision criteria, Decision process, Identify pain, Champion — that adds the buyer's internal mechanics, the written criteria and the approval path, to the money-and-authority checks BANT stops at. It is built for long committee purchases where the signer is never the first contact.",
+      "whyItMatters": "In a business-to-business roleplay with a committee, naming the economic buyer and the decision criteria is the specific step judges look for before any presentation content.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "bant",
+        "buying-committee"
+      ]
+    },
+    {
+      "term": "Challenger sales model",
+      "definition": "A method built on teach, tailor and take control, in which the rep opens with a commercial insight that reframes how the buyer sees their own business and then respectfully pushes back on the buyer's assumptions. Relationship selling does the reverse: it builds trust first and delivers whatever the buyer already says they want.",
+      "whyItMatters": "A roleplay judged on demonstrating expertise rewards teaching the buyer something about their own market, while a purely agreeable rep reads as an order taker.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "consultative-selling",
+        "rapport"
+      ]
+    },
+    {
+      "term": "Consultative selling",
+      "definition": "Diagnosing the buyer's problem through questioning and recommending the right fit even when that means a smaller order, as against transactional selling, which moves a known item at speed and treats the exchange as complete at the register. The dividing line is who defines the need: the buyer arrives with it in a transaction, the rep uncovers it here.",
+      "whyItMatters": "When a roleplay customer asks for a product that will not solve their stated problem, the rubric credits the competitor who redirects the recommendation over the one who rings up the request.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "spin-selling",
+        "value-selling"
+      ]
+    },
+    {
+      "term": "Value selling",
+      "definition": "Quantifying the buyer's gain in the buyer's own numbers — hours saved times loaded labor rate, or scrap avoided times unit cost — so the proposal shows a payback period instead of a feature list. Feature-benefit selling states what a feature does for the customer; this states what that outcome is worth in dollars per year.",
+      "whyItMatters": "Business-to-business roleplays that give you the client's volumes and costs are asking for a dollar case, and a competitor who only lists benefits leaves the quantified point unscored.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "feature-benefit-selling",
+        "total-cost-of-ownership"
+      ]
+    },
+    {
+      "term": "Puppy-dog close",
+      "definition": "Placing the product in the customer's hands for a free trial, test drive or home-approval period and letting possession persuade, because giving the item back later registers as a loss. A takeaway close works from the opposite direction, threatening to withdraw the offer or the model rather than handing it over.",
+      "whyItMatters": "Retail and automotive roleplays with a hesitant buyer reward a named trial-based close, and pairing it with the store's return policy shows you know the company's selling rules.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "assumptive-close",
+        "selling-policy"
+      ]
+    },
+    {
+      "term": "Draw against commission",
+      "definition": "An advance paid to a rep against commission not yet earned — a $3,000 monthly draw against $2,200 of earnings leaves $800 outstanding. A recoverable draw carries that $800 forward against next month's commissions, while a non-recoverable draw forgives it, which makes the second version a guaranteed minimum in everything but name.",
+      "whyItMatters": "Human-resources and selling exam items ask which pay plan protects a new rep during a long ramp, and the recoverable-versus-non-recoverable distinction is the answer's hinge.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "on-target-earnings",
+        "commission-accelerator"
+      ]
+    },
+    {
+      "term": "On-target earnings",
+      "definition": "Total pay a rep receives at exactly 100% of quota — base salary plus variable pay at plan, so a $60,000 base with $60,000 of commission at plan is $120,000 at a 50/50 pay mix. It is a plan figure and not a promise: only the base half is paid regardless of results, which is what separates it from a salary.",
+      "whyItMatters": "A recruiting roleplay that pitches a sales job is scored on explaining the split honestly, and quoting the total as if it were guaranteed is an ethical mark against you.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "draw-against-commission",
+        "quota-attainment"
+      ]
+    },
+    {
+      "term": "Commission accelerator",
+      "definition": "A higher commission rate applied only to revenue above quota — 8% up to plan and 12% beyond it — so each dollar of overperformance pays more than the first dollar did. A cap or a decelerator does the reverse and is precisely what tempts a rep to hold a signed deal until the next period opens.",
+      "whyItMatters": "Exam items on motivating a sales force ask which plan change stops sandbagging at quarter end, and the rate structure above quota is the mechanism being tested.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "sales-quota",
+        "on-target-earnings"
+      ]
+    },
+    {
+      "term": "Workload method",
+      "definition": "Sizing territories by the work each contains: accounts multiplied by the calls per year each requires, divided by the calls one rep can make — 400 accounts needing 12 calls each is 4,800 calls, and at 800 calls per rep that is six territories. The breakdown method instead divides a sales forecast by average revenue per rep and ignores how much service each account demands.",
+      "whyItMatters": "A management roleplay asking you to rebalance territories after a merger wants the calculation and the service load, not an even split of the map.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "cost-per-sales-call",
+        "house-account"
+      ]
+    },
+    {
+      "term": "Cross-selling",
+      "definition": "Adding a product from a different category to the purchase — a case bought with a laptop — while upselling moves the customer up within the same line to a larger or higher-grade version of what they already chose. Suggestive selling covers both from the counter; the line that separates these two is category versus tier.",
+      "whyItMatters": "Retail roleplays scored on add-on sales ask you to name and demonstrate the technique, and calling a larger size a cross-sell is the error judges catch immediately.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "suggestive-selling",
+        "attach-rate"
+      ]
+    },
+    {
+      "term": "Cooling-off rule",
+      "definition": "The Federal Trade Commission provision giving a buyer until midnight of the third business day to cancel a sale of $25 or more made at their home or anywhere other than the seller's permanent place of business, with the seller required to hand over two dated cancellation forms at signing. Sales made inside the seller's own store are not covered.",
+      "whyItMatters": "Legal and ethical selling items on the exam test the dollar threshold and the location condition, and in-home roleplays expect you to disclose the cancellation right rather than hurry the signature.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "selling-policy",
+        "express-warranty"
+      ]
+    },
+    {
+      "term": "Puffery",
+      "definition": "Exaggerated subjective praise no reasonable buyer would treat as fact — the finest coffee in town — which creates no liability, as opposed to a misrepresentation, a specific factual claim about performance, condition or origin that does. The dividing test is whether the statement could be proven false.",
+      "whyItMatters": "Ethical selling roleplays plant a tempting overstatement, and knowing that this machine will cut your costs in half is a checkable claim while our machines are the best is not keeps you on the right side of the rubric.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "express-warranty",
+        "bait-and-switch"
+      ]
+    },
+    {
+      "term": "Express warranty",
+      "definition": "A seller's factual affirmation, description, sample or model that becomes part of the basis of the bargain, created by the statement itself with no formal words and no intent required — where an implied warranty arises automatically from the sale by operation of law. A rep quoting a performance figure in a presentation can create one without meaning to.",
+      "whyItMatters": "Selling exam items ask which of four salesperson statements creates a binding promise, and the answer is always the specific, checkable one rather than the general praise beside it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "puffery",
+        "warranties-and-guarantees"
+      ]
+    },
+    {
+      "term": "Patronage motive",
+      "definition": "The reason a customer buys from this particular seller — service, location, reputation, staff knowledge or credit terms — as distinct from the product motive, which is the reason they want the item from anyone at all. A rep losing on patronage grounds cannot recover the sale by describing the product better.",
+      "whyItMatters": "Buying-behavior exam items sort a list of customer statements into the two motive types, and a roleplay customer who says a competitor is closer to home is testing whether you answer with service instead of features.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "buying-motives",
+        "buying-behavior"
+      ]
+    },
+    {
+      "term": "Lead-to-opportunity conversion rate",
+      "definition": "Share of one cohort of leads that becomes a qualified opportunity: opportunities created divided by the leads that entered in that same period, never by every lead sitting in the database. 40 opportunities from 500 new leads is 8 percent; dividing by a 12,000-record database reports 0.3 percent and hides the follow-up problem entirely.",
+      "whyItMatters": "Funnel-math items hand you a month of lead counts and opportunity counts and grade the denominator you pick, and a roleplay on tracking prospecting results expects the rate quoted per period rather than against the whole list.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "close-rate",
+        "win-rate",
+        "sales-qualified-lead-sql"
+      ]
+    },
+    {
+      "term": "Quota coverage",
+      "definition": "Total quota handed out across the sales force divided by the revenue the company actually forecasts. Assigning 1.1 to 1.3 times the target is deliberate over-assignment that absorbs ramping reps, mid-year attrition and under-performers, so the plan still lands if some reps miss — it measures quota against target, where pipeline coverage measures open deals against quota.",
+      "whyItMatters": "A sales-management roleplay that asks you to set quotas for next year is scored on whether you over-assign on purpose and can say why; the exam pairs this with pipeline coverage to see if you can tell the two ratios apart.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "pipeline-coverage-ratio",
+        "sales-capacity",
+        "sales-forecast"
+      ]
+    },
+    {
+      "term": "Weighted pipeline",
+      "definition": "Every open deal multiplied by the win probability its current stage carries, then summed. A $200,000 deal sitting in a 30 percent stage counts as $60,000, so $1.4 million of raw pipeline spread across early stages may weight to under $400,000 — the total becomes a forecast instead of a list of what is theoretically in play.",
+      "whyItMatters": "Forecasting items give a table of deal values and stage probabilities and expect the weighted total, not the sum; in a roleplay defending a forecast to a manager, quoting raw pipeline reads as the rookie answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "pipeline-coverage-ratio",
+        "sales-forecast",
+        "sales-velocity"
+      ]
+    },
+    {
+      "term": "Sales capacity",
+      "definition": "Ramped headcount times individual quota times the attainment rate the team really achieves — 20 reps carrying $500,000 each but hitting 70 percent supports $7 million of revenue, not the $10 million the quota sheet implies. Skipping the attainment factor is what makes a hiring plan promise revenue the team has never once delivered.",
+      "whyItMatters": "A growth-planning roleplay that asks how many reps to hire to reach a revenue goal is graded on multiplying in historical attainment; the exam tests it as a three-factor calculation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "quota-coverage",
+        "workload-method",
+        "ramp-period"
+      ]
+    },
+    {
+      "term": "Ramp period",
+      "definition": "Months a newly hired rep needs before carrying full quota, credited in steps — commonly no quota in the first quarter, half in the second and full in the third. A rep hired in March therefore contributes roughly a quarter of an annual number that year, which is why headcount added late almost never rescues a current-year gap.",
+      "whyItMatters": "Sales-management items ask what revenue a mid-year hire adds this year, and the credit schedule is the whole answer; a roleplay on onboarding new sellers expects you to name the stepped quota rather than promise full production on day one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "sales-capacity",
+        "onboarding",
+        "draw-against-commission"
+      ]
+    },
+    {
+      "term": "No-decision loss rate",
+      "definition": "Count of deals where the buyer bought nothing at all, divided by all closed-lost deals — not by all opportunities. If 60 of 100 losses were no-decisions, the problem is urgency and the business case, because a buyer who chose a rival was at least persuaded to purchase; splitting losses this way points at two completely different fixes.",
+      "whyItMatters": "A win-loss review roleplay is scored on separating the two loss types before recommending anything, and the exam plants a competitor-versus-status-quo distinction in the stem.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "win-rate",
+        "close-rate",
+        "sales-cycle-length"
+      ]
+    },
+    {
+      "term": "Commission split",
+      "definition": "One deal's single commission pool divided between the rep who sourced it and the rep who closed it — 50/50, 30/70 or whatever the plan states — and the shares must total 100 percent. It changes who gets paid, never how much the company pays out, which is exactly the point students miss when they assume both reps earn a full commission.",
+      "whyItMatters": "Compensation items give a deal value, a commission rate and two named reps and check whether you double the payout; a team-selling roleplay expects you to settle credit before the sale, not after.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "draw-against-commission",
+        "spiff",
+        "on-target-earnings"
+      ]
+    },
+    {
+      "term": "Clawback provision",
+      "definition": "Plan language reversing commission already paid when the customer cancels or fails to pay inside a stated chargeback window — often 90 days for non-payment or the first 12 months of a subscription. Once that window closes the money is the rep's to keep, so the length of the window, not the cancellation itself, decides whether the company recovers anything.",
+      "whyItMatters": "Ethics-and-compensation items ask what happens when a rep sells to a customer who churns in month two, and the answer depends on the window; a roleplay on writing a commission plan is graded on naming one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "draw-against-commission",
+        "commission-accelerator",
+        "commission-split"
+      ]
+    },
+    {
+      "term": "Discount authority matrix",
+      "definition": "A tiered approval ladder capping how deep each level may cut price before escalating — a rep to 10 percent, a sales manager to 20, a vice president to 30, and anything past that to finance. Margin is protected by who is allowed to sign, not by how well an individual rep negotiates, so a buyer stalling for more has to be moved up the ladder.",
+      "whyItMatters": "A price-negotiation roleplay where the buyer demands 25 percent off is scored on whether you know you must escalate instead of conceding; pricing items test the ladder as a control on gross margin.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "cost-plus-pricing",
+        "maintained-markup",
+        "minimum-advertised-price-policy"
+      ]
+    },
+    {
+      "term": "SPIFF",
+      "definition": "A short-window, fixed-dollar bonus paid per unit on one targeted product — $50 a unit for 30 days, frequently funded by the manufacturer and paid outside the regular commission plan. An accelerator instead lifts the commission percentage on everything sold past quota, so one steers which item gets pushed and the other rewards total volume.",
+      "whyItMatters": "Channel-selling items describe a vendor paying a retailer's floor staff per unit and ask what the payment is; a promotion roleplay expects you to name the mechanism that redirects selling effort to one slow-moving SKU.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "commission-accelerator",
+        "trade-allowance",
+        "promotional-allowance"
+      ]
+    },
+    {
+      "term": "Telemarketing Sales Rule",
+      "definition": "The FTC rule confining outbound sales calls to a residence to the hours between 8 a.m. and 9 p.m. in the customer's local time zone, and requiring the caller to state who is calling, what is being sold and the total cost before taking any payment. A New York center dialing California at 8:30 p.m. Eastern is legal because the customer's clock reads 5:30 p.m.",
+      "whyItMatters": "Legal-and-ethical selling items plant a two-time-zone call and ask whether it is lawful, which is decided by the customer's local hour; an outbound-calling roleplay expects the disclosure sequence before any card number is requested.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "national-do-not-call-registry",
+        "telephone-consumer-protection-act-tcpa",
+        "cooling-off-rule"
+      ]
+    },
+    {
+      "term": "National Do Not Call Registry",
+      "definition": "Sellers must re-scrub their calling lists against the federal registry at least every 31 days, and may reach a listed consumer only through an existing business relationship — 18 months after that person's last purchase, or 3 months after an inquiry — or with signed written permission. A list bought once and used for a year fails the scrub requirement no matter how it was sourced.",
+      "whyItMatters": "Exam items give a purchase date and a call date and ask whether the relationship exemption still covers the call; a prospecting roleplay is scored on saying how often the list is cleaned.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "telemarketing-sales-rule",
+        "telephone-consumer-protection-act-tcpa",
+        "direct-marketing"
+      ]
+    },
+    {
+      "term": "Telephone Consumer Protection Act (TCPA)",
+      "definition": "Federal law requiring prior express written consent — signed, specific to marketing contact, and not made a condition of buying anything — before an autodialer or prerecorded message may call or text a mobile number, and requiring every seller to keep its own internal do-not-call list for five years. A checkbox buried in a purchase flow does not meet the standard.",
+      "whyItMatters": "A digital-selling roleplay on texting a prospect list is graded on whether you ask how consent was captured; exam items contrast a consumer who bought something with one who signed a marketing permission.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "national-do-not-call-registry",
+        "telemarketing-sales-rule",
+        "data-security"
+      ]
+    },
+    {
+      "term": "Unordered merchandise rule",
+      "definition": "Federal postal law lets anyone who receives goods they never ordered keep them as a free gift, with no duty to pay and no duty to ship them back, and a follow-up invoice creates no obligation. Only free samples plainly marked as such and merchandise sent by a charity asking for a donation fall outside it.",
+      "whyItMatters": "Legal-and-ethical selling items describe a company mailing a product with a bill attached and ask what the recipient owes; a customer-complaint roleplay expects you to tell the caller the item is theirs.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "negative-option-plan",
+        "bait-and-switch",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Negative option plan",
+      "definition": "A selling arrangement in which silence counts as a yes — the seller announces the coming shipment and bills unless the buyer declines in time. It is lawful only if the buyer agreed to the terms up front, gets at least 10 days to reject each announced selection, and can cancel through a route as simple as the one used to enroll.",
+      "whyItMatters": "Exam items describe a book or subscription club and ask what makes the automatic shipment legal; a subscription-selling roleplay is scored on disclosing the cancellation route before the customer signs.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "unordered-merchandise-rule",
+        "cooling-off-rule",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "FTC Endorsement Guides",
+      "definition": "Guidance requiring any material connection between an endorser and a seller — payment, free product, a job, a family tie — to be disclosed clearly and right next to the claim rather than buried in a profile or behind a More link, and requiring a testimonial showing unusual results to state what a typical buyer should expect.",
+      "whyItMatters": "A social-selling roleplay that has you brief an influencer is graded on where the disclosure sits; exam items ask whether a free product with no cash payment still has to be disclosed, and it does.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "puffery",
+        "advertising-regulation",
+        "ftc-act-section-5"
+      ]
+    },
+    {
+      "term": "Economic nexus",
+      "definition": "The sales-tax duty a seller picks up in a state where it owns no building and employs no one, triggered purely by volume — commonly $100,000 of sales or 200 separate transactions into that state in the current or prior year. Cross the threshold and the seller must register, collect and remit there; a purely online business is not exempt.",
+      "whyItMatters": "E-commerce selling items give a state-by-state sales table and ask where tax must now be collected; an expansion roleplay expects you to raise registration before recommending a push into a new state.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "tax-liability",
+        "tax-incidence",
+        "territorial-exclusivity"
+      ]
+    },
+    {
+      "term": "Green River ordinance",
+      "definition": "A municipal rule making uninvited door-to-door solicitation of a home unlawful, so a canvasser needs a local permit or an invitation from the occupant before knocking. Courts have upheld these ordinances, and violating one is an offense in that town even when the product, the price and the sales pitch are all perfectly legitimate.",
+      "whyItMatters": "Legal-and-ethical selling items place a canvassing crew in a town with such an ordinance and ask what must happen first; a field-selling roleplay expects permits checked before a neighborhood route is planned.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "cooling-off-rule",
+        "telemarketing-sales-rule",
+        "personal-selling"
+      ]
+    },
+    {
+      "term": "Implied warranty disclaimer",
+      "definition": "Under the UCC a seller sheds merchantability only with conspicuous language that actually uses the word merchantability, or with an as-is / with-all-faults notice, and sheds fitness for a particular purpose only in writing. An express promise once made cannot be disclaimed at all — fine print cannot cancel what the salesperson said out loud.",
+      "whyItMatters": "Exam items pair a spoken performance promise with an as-is sticker and ask which survives; a product-selling roleplay is scored on not making a claim the contract cannot later walk back.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/selling.txt"
+      ],
+      "confusableWith": [
+        "express-warranty",
+        "implied-warranty-of-merchantability",
+        "magnuson-moss-warranty-act"
+      ]
+    },
+    {
+      "term": "Sales qualified lead (SQL)",
+      "definition": "An inquiry the sales team has formally accepted after confirming a named need, a budget owner and a decision timeline, where a marketing-qualified lead has cleared only a behavior score such as downloads or page visits. Handoff agreements usually give sales a fixed window, often 24 hours, to accept it or send it back with a stated reason.",
+      "whyItMatters": "Funnel items ask at which stage marketing's responsibility ends and sales' begins; a roleplay on fixing a marketing-sales dispute is scored on defining the acceptance criteria and the return window.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "lead-to-opportunity-conversion-rate",
+        "prospecting",
+        "customer-profile"
+      ]
+    },
+    {
+      "term": "Economic buyer",
+      "definition": "The one person who controls the funds and can release them without another signature, distinct from a technical buyer who screens against specifications and can veto but never approve, and from a user buyer who judges daily impact and lives with the result. Only one of the three can say yes; either of the other two can end the deal.",
+      "whyItMatters": "Business-to-business items describe three contacts and ask who must be reached before the close; an organizational-selling roleplay is graded on identifying who signs rather than pitching whoever answered the phone.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "champion",
+        "meddic",
+        "consultative-selling"
+      ]
+    },
+    {
+      "term": "Champion",
+      "definition": "An insider with real political capital who argues the vendor's case in meetings the vendor is not invited to, and whose own standing rises if the purchase works out. A coach, by contrast, supplies intelligence and coaching on how to navigate the account but cannot spend influence or move the decision — access is not the same as power.",
+      "whyItMatters": "Business-to-business items describe a friendly contact who shares information but has no budget and ask what role that person plays; a long-cycle selling roleplay expects you to test for personal stake, not just friendliness.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "economic-buyer",
+        "meddic",
+        "challenger-sales-model"
+      ]
+    },
+    {
+      "term": "Inside sales",
+      "definition": "A model where reps sell entirely by phone, email and video from one location, never traveling to the customer. A field visit costs roughly five to ten times as much per contact, so firms set a deal-size floor — accounts below it are covered from the desk and only larger ones earn a visit, which is a coverage-cost decision rather than a preference.",
+      "whyItMatters": "Sales-management items give a cost per contact and an average order size and ask which channel serves an account segment; a territory-planning roleplay is graded on justifying coverage by cost, not by habit.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:selling"
+      ],
+      "confusableWith": [
+        "personal-selling",
+        "workload-method",
+        "direct-marketing"
       ]
     }
   ]

@@ -26,6 +26,56 @@ generators end to end, because their inputs are the material being withheld.
 
 ---
 
+## 2026-08-27
+
+### `chore(migration): sync the public mirror — 2026-08-27 23:43 EDT`
+
+The largest single change to the study material since the mirror opened: every
+vocabulary deck was rebuilt, and the vocab page grew the controls that make a
+250-card deck usable. Around 130 changed files, most of them the decks
+themselves.
+
+**Every deck is 250 cards, on all 28 events.** They were 50, and three of them
+were shorter still — Principles of Hospitality and Tourism at 38, Principles of
+Business Management and Administration at 43, Principles of Marketing at 47.
+All 28 are now 250, which is 7,000 cards in total. Each deck still opens with
+vocabulary written for that event in particular, then works outward through the
+instructional areas the event is judged on, then the rest of the cluster's exam.
+Roughly 150 of the 250 are hard and 100 medium, and the split is a fair sample of
+the terms behind each deck rather than whatever happened to be authored first —
+so no event ends up with an easier deck than its neighbours by accident.
+
+**Nothing easy is left in.** The term list was re-graded from scratch and every
+word a competitor already knows — money, profit, teamwork, work ethic — was cut.
+Terms that were cut are recorded so they cannot drift back in later. Every card
+that survived carries a difficulty of medium or hard; there is no easy grade any
+more, and the tool that checks a deck before it ships refuses the value outright.
+Definitions are written to name the distinction a judge is listening for, and
+each says where the term actually shows up on an exam or in a roleplay.
+
+**The vocab page can now cut a deck down.** Study 20 cards, 50, or the whole
+deck — a short session is a shuffled random draw from whatever you have filtered
+to, with no repeats, and a new draw deals a different set. Filter by difficulty
+(all, medium, hard) or by instructional area; a deck can span up to 13 areas, so
+you can drill just Financial Analysis or just Customer Relations. There is also
+an event-specific bucket for the cards written for your event rather than for a
+general area — usually 25 to 33 per deck, and the most event-specific vocabulary
+in it. Every card shows its difficulty badge on both sides, the event tiles say
+how many hard cards a deck holds, and the filters live in the URL, so a deck link
+carries the difficulty, area and session size along with the cluster and event.
+
+**The vocabulary authoring tools ship too.** `backend/feat-vocab/` now carries
+the quality gate that schema-checks a deck and enforces the difficulty bar, the
+prompt builder and ingest step that author terms area by area, and the purge tool
+that removes a term and records the removal. The vocabulary is our own writing,
+so its whole source catalog is published alongside the decks it produces, and the
+gate and the ingest step run here on that catalog. The prompt builder and the
+purge tool do not: both read the performance-indicator library, which is one of
+the withheld inputs described at the top of this file.
+
+**Smaller things.** The dot-grid background is gone from behind the pages, and
+the decorative sparkle marks are gone from the beta line and the footer wordmark.
+
 ## 2026-08-25
 
 ### `chore(migration): sync the public mirror — 2026-08-25 12:23 EDT`

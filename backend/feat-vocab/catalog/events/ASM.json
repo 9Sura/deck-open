@@ -1,0 +1,336 @@
+{
+  "code": "ASM",
+  "terms": [
+    {
+      "term": "Effective labor rate",
+      "definition": "Total labor sales divided by the flat-rate hours actually billed, which lands below the posted retail rate once discounts, coupons, warranty time and internal work are blended in.",
+      "whyItMatters": "A service-manager roleplay that asks why gross is down when the door rate just went up is solved by showing the effective rate fell — the judge wants the division, not the posted rate.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "door-rate",
+        "retail-warranty-reimbursement-rate"
+      ]
+    },
+    {
+      "term": "Door rate",
+      "definition": "The posted retail price for one hour of labor on the service-drive sign, before any coupon, menu discount, fleet agreement or warranty schedule pulls the realized rate down.",
+      "whyItMatters": "Pricing roleplays hand you a rate increase to justify; the winning answer prices off the door rate but forecasts gross off the effective rate, because raising one does not raise the other one-for-one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "effective-labor-rate"
+      ]
+    },
+    {
+      "term": "Technician efficiency",
+      "definition": "Flat-rate hours produced divided by clock hours actually worked on the floor — a tech who bills 9.0 hours in an 8-hour shift runs 112%, and anything over 100% is the shop's labor gross engine.",
+      "whyItMatters": "An exam item gives hours flagged and hours worked and asks for efficiency; picking the wrong denominator gives you productivity instead and the answer is wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "technician-productivity",
+        "flat-rate-hour"
+      ]
+    },
+    {
+      "term": "Technician productivity",
+      "definition": "Clock hours actually spent on repair orders divided by the hours the technician was paid to be available, so it measures how much of the shift the dispatcher managed to fill, not how fast the work went.",
+      "whyItMatters": "When a roleplay says techs are fast but the shop misses its hours target, productivity is the number to fix — the answer is dispatching and appointment load, not paying for speed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "technician-efficiency",
+        "bay-utilization-rate"
+      ]
+    },
+    {
+      "term": "Flat-rate hour",
+      "definition": "A unit of billed labor set by the manufacturer's or an independent time guide rather than by the clock, so a job published at 2.4 bills 2.4 whether it took 1.5 hours or four.",
+      "whyItMatters": "Every service-drive gross calculation on the exam multiplies flat-rate hours by a labor rate, and a competitor who bills clock time instead misstates both the estimate and the tech's pay.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "technician-efficiency",
+        "warranty-labor-time-allowance"
+      ]
+    },
+    {
+      "term": "Hours per repair order",
+      "definition": "Total flat-rate hours sold divided by the number of repair orders closed, the single lever that grows labor gross without more cars — moving 1.8 to 2.1 on 900 ROs sells 270 extra hours.",
+      "whyItMatters": "A fixed-operations roleplay judged on growing revenue with the same traffic wants this metric raised through inspection and upsell, not a rate increase.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "deferred-service",
+        "effective-labor-rate"
+      ]
+    },
+    {
+      "term": "Bay utilization rate",
+      "definition": "Hours a service stall is occupied divided by the hours it was open and staffed, where the denominator is bays multiplied by open hours — eight bays over a nine-hour day is 72 available hours, not eight.",
+      "whyItMatters": "Capacity roleplays ask whether to add a bay or add a shift; computing utilization first shows whether the constraint is physical space or unfilled appointment slots.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "technician-productivity"
+      ]
+    },
+    {
+      "term": "Parts markup matrix",
+      "definition": "A tiered pricing schedule that applies a shrinking percentage as replacement-part cost climbs — a $4 part may be priced at cost times 2.4 while a $600 part is priced at cost times 1.25.",
+      "whyItMatters": "Given a parts cost and the tier table, the exam expects the right band chosen and the retail computed; using one flat markup for every part overprices small items and kills the big-ticket sale.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "parts-to-labor-ratio",
+        "parts-days-supply"
+      ]
+    },
+    {
+      "term": "Parts-to-labor ratio",
+      "definition": "Customer-pay parts sales divided by customer-pay labor sales on the same repair orders, benchmarked near 0.8 to 1.0 — a ratio far under it says technicians are diagnosing but not replacing.",
+      "whyItMatters": "In a fixed-operations analysis roleplay the ratio pins the shortfall on one department, telling you whether to coach the advisers or fix parts availability.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "parts-markup-matrix",
+        "customer-pay-to-warranty-mix"
+      ]
+    },
+    {
+      "term": "Absorption rate",
+      "definition": "Combined parts and service gross profit divided by the dealership's total fixed overhead, so 100% means the back end alone pays every light bill and salary before a single car is sold.",
+      "whyItMatters": "A dealer-principal roleplay that asks how the store survives a slow sales month is answered with this percentage — the target is 100% and most stores run 60–80%.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "fixed-operations"
+      ]
+    },
+    {
+      "term": "Comeback rate",
+      "definition": "Repair orders returning for the same complaint within a set window, usually 30 days, divided by total ROs closed — every one costs the labor twice while billing it once.",
+      "whyItMatters": "A quality roleplay judged on retention needs the rate computed and the cost of rework quantified, because a 3% comeback rate on 900 ROs is 27 jobs paid for out of gross.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "three-c-s"
+      ]
+    },
+    {
+      "term": "Customer-pay-to-warranty mix",
+      "definition": "The share of labor hours billed to the vehicle owner versus billed to the manufacturer, which matters because warranty work reimburses at a lower published time and rate and therefore dilutes gross per hour.",
+      "whyItMatters": "When a roleplay reports rising hours but flat gross, the mix has shifted toward warranty; the fix is customer-pay marketing to older vehicles, not more technicians.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "retail-warranty-reimbursement-rate",
+        "parts-to-labor-ratio"
+      ]
+    },
+    {
+      "term": "Warranty labor time allowance",
+      "definition": "The manufacturer's published repair time for a covered job, typically set below the retail flat-rate time for the identical operation, and the only time a factory claim will pay regardless of what the guide shows.",
+      "whyItMatters": "Estimating a warranty job at retail time overstates the claim and triggers a chargeback in audit — the exam tests that the two time schedules are different numbers for the same repair.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "flat-rate-hour",
+        "warranty-claim-submission-window"
+      ]
+    },
+    {
+      "term": "Warranty claim submission window",
+      "definition": "The manufacturer's deadline — commonly 30 days from the repair date — inside which a completed claim must be filed, after which the dealer eats the parts and labor entirely.",
+      "whyItMatters": "A warranty-administration roleplay about an aging claims queue is scored on knowing the deadline and the chargeback consequence, not on generally urging faster paperwork.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "warranty-labor-time-allowance",
+        "goodwill-authorization-threshold"
+      ]
+    },
+    {
+      "term": "Goodwill authorization threshold",
+      "definition": "The dollar ceiling a service manager may approve out of policy on an expired or ineligible repair before the district or zone representative must sign off — often a few hundred dollars per vehicle.",
+      "whyItMatters": "A retention roleplay hands you an angry owner just past warranty; the strong answer names the limit, covers what fits inside it and escalates the rest instead of promising a free repair.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "warranty-claim-submission-window"
+      ]
+    },
+    {
+      "term": "Recall completion rate",
+      "definition": "Vehicles actually remedied divided by the population covered by a safety campaign, reported quarterly to NHTSA for eight quarters, with rates on older campaigns routinely stalling near 70%.",
+      "whyItMatters": "A campaign-management roleplay is judged on lifting a measurable percentage through VIN-list outreach, so the metric and its reporting duty have to be named.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "odometer-disclosure-statement"
+      ]
+    },
+    {
+      "term": "Lemon law repair-attempt threshold",
+      "definition": "The state-set trigger for a refund or replacement, in most states four unsuccessful attempts at the same substantial defect, or 30 cumulative days out of service, inside the warranty term or first 12–24 months.",
+      "whyItMatters": "A complaint roleplay where the same fault returns a third time turns on counting attempts against the threshold — the answer is to escalate before the fourth, not to keep repairing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "comeback-rate",
+        "used-car-rule-buyers-guide"
+      ]
+    },
+    {
+      "term": "Used Car Rule Buyers Guide",
+      "definition": "The FTC-mandated window form on every used vehicle offered for sale, declaring As Is or the warranty's exact percentage of parts and labor covered, and its terms override any contrary clause in the sales contract.",
+      "whyItMatters": "A used-vehicle roleplay about a dispute over a post-sale repair is decided by the posted form, so the competitor must know it controls the contract rather than the other way round.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "salvage-title-threshold",
+        "odometer-disclosure-statement"
+      ]
+    },
+    {
+      "term": "Repair estimate authorization limit",
+      "definition": "The state-law cap on exceeding a written estimate without new consent, commonly 10% or a fixed dollar amount, above which the shop must reach the customer and log the approval before continuing.",
+      "whyItMatters": "When a roleplay has a technician finding extra damage mid-job, the scored move is stopping at the limit and documenting fresh authorization, because unauthorized work is often uncollectable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "three-c-s",
+        "deferred-service"
+      ]
+    },
+    {
+      "term": "Odometer disclosure statement",
+      "definition": "The federal Truth in Mileage Act transfer certification of mileage and its accuracy, required on title assignment but exempt for vehicles over 16,000 pounds and, under the current rule, older than 20 model years.",
+      "whyItMatters": "A wholesale or trade-in roleplay tests whether the competitor knows a mileage misstatement is a federal violation with treble damages, not a paperwork slip.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "salvage-title-threshold",
+        "used-car-rule-buyers-guide"
+      ]
+    },
+    {
+      "term": "Salvage title threshold",
+      "definition": "The point at which a state brands a vehicle unrepairable-or-rebuilt, typically when estimated repair cost reaches 70–80% of pre-loss actual cash value, and the brand follows the VIN permanently.",
+      "whyItMatters": "An appraisal roleplay is scored on comparing the repair estimate to that percentage of value before promising a resale price, since a branded title cuts trade value sharply.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "odometer-disclosure-statement",
+        "used-car-rule-buyers-guide"
+      ]
+    },
+    {
+      "term": "Retail warranty reimbursement rate",
+      "definition": "A statutory right in most states for a dealer to force the factory to pay warranty labor and parts at retail, proved by submitting a run of consecutive qualifying customer-pay repair orders — often 100 in a row or 90 days' worth.",
+      "whyItMatters": "A fixed-operations roleplay about warranty gross dilution is won by naming this filing and the sequential-RO evidence, which recovers dollars no pricing change can.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "effective-labor-rate",
+        "customer-pay-to-warranty-mix"
+      ]
+    },
+    {
+      "term": "Parts days supply",
+      "definition": "Inventory value divided by average daily cost of parts sold, benchmarked at roughly 45–60 days, with anything unsold for twelve months counted as obsolescence against the pad.",
+      "whyItMatters": "An inventory roleplay must choose between stocking depth and cash tied up; the days figure decides it, and the twelve-month line decides what gets returned on the annual stock order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "parts-markup-matrix",
+        "parts-to-labor-ratio"
+      ]
+    },
+    {
+      "term": "Three C's",
+      "definition": "The mandatory repair-order narrative — complaint in the customer's words, cause found by diagnosis, correction actually performed — and a claim missing any one of the three fails a factory audit.",
+      "whyItMatters": "Documentation roleplays and warranty-audit scenarios expect the competitor to name all three parts and explain that vague wording is what gets a paid claim charged back.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "labor-operation-code",
+        "warranty-claim-submission-window"
+      ]
+    },
+    {
+      "term": "Labor operation code",
+      "definition": "The standardized identifier attached to each line of a repair order that fixes the published time, the pay and the warranty eligibility for that job, so mis-coding changes what the claim pays.",
+      "whyItMatters": "A service-writer roleplay about inconsistent pricing between advisers is traced to coding the same job differently, which the exam expects named rather than described as sloppiness.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "three-c-s",
+        "flat-rate-hour"
+      ]
+    },
+    {
+      "term": "Fixed operations",
+      "definition": "The parts, service and body departments taken together, called fixed because their overhead persists whether or not a single vehicle is sold, which is why their gross is measured against total store expense.",
+      "whyItMatters": "A dealership-structure roleplay asks where stable profit comes from in a down sales market, and the answer has to distinguish these departments from the variable sales side.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:ASM"
+      ],
+      "confusableWith": [
+        "absorption-rate"
+      ]
+    }
+  ]
+}

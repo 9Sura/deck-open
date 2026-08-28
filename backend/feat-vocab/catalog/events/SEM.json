@@ -1,0 +1,338 @@
+{
+  "code": "SEM",
+  "terms": [
+    {
+      "term": "Media-equivalent value (MEV)",
+      "definition": "What it would cost to buy, as paid advertising, the same screen time a sponsor's marks earned inside a broadcast: qualified exposure seconds priced at that window's 30-second spot rate, then discounted roughly 25-50% because passive signage sells less than a commercial does.",
+      "whyItMatters": "A sponsorship-valuation roleplay asks whether a $400,000 rights fee paid off; you price the exposure seconds and apply the passive discount rather than quoting attendance.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "earned-media",
+        "cost-per-thousand-cpm"
+      ]
+    },
+    {
+      "term": "In-view exposure threshold",
+      "definition": "The measurement rule that counts only branding a viewer could actually read — the logo must sit on screen unobstructed and in focus for at least one continuous second and fill a minimum share of the frame, or those seconds are struck from the valuation.",
+      "whyItMatters": "Judges hand you an audit where gross on-screen time and qualified time differ by half; naming the threshold explains the gap instead of arguing the report is wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "media-equivalent-value-mev"
+      ]
+    },
+    {
+      "term": "Activation-to-rights ratio",
+      "definition": "How many dollars of promotional spending stand behind each dollar paid for the association itself; practice runs 1:1 at minimum and often 2:1, so a $500,000 rights fee needs another $500,000 to $1,000,000 before the partnership can work.",
+      "whyItMatters": "In a sponsorship-sale roleplay the client calls the fee affordable; you have to show the real budget is two to three times the fee or the signage sits unleveraged.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "rights-fee"
+      ]
+    },
+    {
+      "term": "Category exclusivity premium",
+      "definition": "The uplift a property charges to lock every rival in one product class out of the venue, broadcast and apparel — the incremental fee less the revenue forgone by refusing the next-best buyer in that class, commonly 20-40% over the non-exclusive rate.",
+      "whyItMatters": "A sponsorship-pricing case gives you two soft-drink bidders; you must show exclusivity only pays when the premium beats what the excluded bidder would have spent.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "exclusive-dealing",
+        "territorial-exclusivity"
+      ]
+    },
+    {
+      "term": "Value-in-kind offset",
+      "definition": "Consideration delivered as goods, services or media instead of cash, credited against the rights fee at fair market value rather than list price — a $250,000 package carrying $100,000 of trade leaves $150,000 in cash, while the property books the trade at its own cost.",
+      "whyItMatters": "A roleplay sponsor offers product in place of money; the negotiation turns on valuing that trade at market before it may offset the fee.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "rights-fee"
+      ]
+    },
+    {
+      "term": "Rights-fee amortization",
+      "definition": "Spreading a multi-year broadcast payment across the games actually telecast rather than evenly by calendar month, so a network carrying most of its schedule in one quarter recognizes most of that year's expense in that quarter.",
+      "whyItMatters": "A media-economics exam item asks why a broadcaster's fourth-quarter costs spike on a flat annual payment; the amortization pattern is the answer, not a fee increase.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "amortization"
+      ]
+    },
+    {
+      "term": "Blackout rule",
+      "definition": "A contract term barring a game's local telecast unless a stated condition is met — classically a sellout confirmed 72 hours before kickoff — inside a defined radius of the venue, shielding gate revenue from the broadcast of its own event.",
+      "whyItMatters": "A broadcast-rights roleplay asks whether to lift the local blackout; you weigh the walk-up ticket sales given up against the ratings and sponsor delivery the telecast adds.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "windowing"
+      ]
+    },
+    {
+      "term": "Windowing",
+      "definition": "Releasing one piece of content through exhibition channels in a fixed sequence, each protected by a contractual holdback of a set number of days before the next channel may carry it, with the price of each window falling as its exclusivity shortens.",
+      "whyItMatters": "An entertainment-distribution roleplay asks about sending an event straight to streaming; the holdback lengths quantify the pay-per-view revenue that decision skips.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "blackout-rule"
+      ]
+    },
+    {
+      "term": "Rating guarantee",
+      "definition": "A network's promise that an advertiser's schedule will deliver a stated audience level, with any shortfall owed back in inventory computed as the guaranteed rating minus the delivered rating, multiplied by the units bought.",
+      "whyItMatters": "A sports-broadcast sales roleplay has a game under-deliver; you must state what the advertiser is owed and in what form before conceding a cash discount you do not owe.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "make-good",
+        "rating-point"
+      ]
+    },
+    {
+      "term": "Audience deficiency unit (ADU)",
+      "definition": "The compensating commercial inventory issued when a guaranteed audience level is missed, valued at the original purchase rate rather than today's market rate and required to run in comparable dayparts so the replacement is genuinely equivalent.",
+      "whyItMatters": "When a rights-holder network under-delivers in a roleplay, the fight is over which daypart and which rate the replacement spots are valued at.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "rating-guarantee",
+        "make-good"
+      ]
+    },
+    {
+      "term": "Retransmission consent fee",
+      "definition": "A per-subscriber monthly payment a distributor owes a broadcaster for carrying its signal: ten million subscribers at $2.50 each is $300 million a year, which is why a regional sports network is priced off subscriber count rather than ratings.",
+      "whyItMatters": "A media-rights case asks why a team's own channel is worth more than its advertising revenue suggests; the subscriber arithmetic carries the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "rights-fee"
+      ]
+    },
+    {
+      "term": "Royalty on net sales",
+      "definition": "The licensee's payment computed on invoiced wholesale price after contractually allowed deductions — returns, freight and trade discounts, usually capped at a few percent — never on the retail shelf price, so 12% of a $30 wholesale unit is $3.60 and not $7.20.",
+      "whyItMatters": "A merchandise-licensing roleplay quotes a rate without naming the base; pinning wholesale versus retail is the whole negotiation, because one percentage can pay double.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "royalty-base",
+        "franchise-royalty"
+      ]
+    },
+    {
+      "term": "Royalty advance recoupment",
+      "definition": "The upfront sum a licensor takes before any product ships is credited against royalties as they are earned, so a $100,000 advance at a 10% rate means the licensee owes nothing further until net sales pass $1,000,000.",
+      "whyItMatters": "A licensing roleplay asks when the licensor next sees money; you compute the recoupment threshold instead of promising quarterly checks from day one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "guaranteed-minimum-royalty",
+        "royalty-on-net-sales"
+      ]
+    },
+    {
+      "term": "Name, image and likeness (NIL) deal",
+      "definition": "Paid use of an amateur athlete's identity for endorsement, lawful only where it is genuine compensation for work rather than pay-for-play or a recruiting inducement, and reportable to the school — most policies require disclosure of any agreement at or above $600 within days of signing.",
+      "whyItMatters": "A collegiate-sponsorship roleplay dangles a booster-funded offer; the disclosure threshold and the inducement line decide whether you may sign it, not whether the athlete wants it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "right-of-publicity"
+      ]
+    },
+    {
+      "term": "Right of publicity",
+      "definition": "A person's property interest in the commercial use of their identity, enforceable with no trademark or copyright behind it and surviving death in many states for a fixed term — seventy years in several — so an estate can still block an advertisement.",
+      "whyItMatters": "An entertainment-licensing case puts a retired athlete's likeness on packaging; this doctrine and its post-mortem term are why clearance is required at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "trademark",
+        "name-image-and-likeness-nil-deal"
+      ]
+    },
+    {
+      "term": "Group licensing royalty pool",
+      "definition": "Royalties from products depicting several athletes are collected centrally and divided per unit among the players actually shown, so a card set featuring three athletes splits one royalty three ways rather than paying each of them a full rate.",
+      "whyItMatters": "A players-association roleplay asks how a team-wide trading-card deal pays out; the per-unit split, not individual star power, sets each athlete's check.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "royalty-on-net-sales"
+      ]
+    },
+    {
+      "term": "Morals clause",
+      "definition": "A termination right triggered by conduct bringing an endorser into public disrepute, where the drafted trigger decides everything: 'conviction' lets a brand act only after a verdict, while 'accusation' or 'public disrepute' lets it suspend payment on an allegation alone.",
+      "whyItMatters": "An endorsement-crisis roleplay hands you a headline with no charge filed; whether you may suspend the contract turns entirely on which trigger the clause uses.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "pay-or-play-clause"
+      ]
+    },
+    {
+      "term": "Per-post rate",
+      "definition": "Social-endorsement pricing benchmarked to audience size — roughly $10 per thousand followers per post, adjusted by measured engagement rate — so a 500,000-follower athlete posting at 3% engagement prices near $5,000, not at whatever the agent opens with.",
+      "whyItMatters": "An athlete-influencer negotiation roleplay starts from a number pulled out of the air; the follower-and-engagement math is how you defend or attack it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "appearance-fee"
+      ]
+    },
+    {
+      "term": "Endorsement escalator clause",
+      "definition": "A term stepping compensation up automatically once a defined objective achievement occurs — a major championship adding a set percentage to the annual retainer — as opposed to a bonus the brand may award at its own discretion.",
+      "whyItMatters": "A talent-contract roleplay tells you to hold the fee down; conceding an escalator rather than a higher base moves the cost into the year the win actually pays for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "pay-or-play-clause"
+      ]
+    },
+    {
+      "term": "Pay-or-play clause",
+      "definition": "The brand or studio owes the full contracted fee whether or not it ever uses the talent, unless it terminates inside a defined window before services begin — so shelving a campaign is a budgeting decision, not a saving.",
+      "whyItMatters": "An entertainment-marketing roleplay kills a campaign after the spokesperson signs; this clause decides whether cancelling saves the client any money at all.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "morals-clause"
+      ]
+    },
+    {
+      "term": "Fan equity",
+      "definition": "The revenue and price premium a franchise commands beyond what its market size and won-loss record predict — the residual once those are stripped out — which is why a losing team with deep support remains worth sponsoring.",
+      "whyItMatters": "A sponsorship-valuation case hands you two teams with equal attendance and opposite records; the residual, not the standings, says which audience a sponsor should buy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "brand-equity",
+        "customer-equity"
+      ]
+    },
+    {
+      "term": "Cost per acquired season-ticket holder",
+      "definition": "Total campaign spend divided by net new full-season accounts — net of accounts lost over the same period — and judged against each account's renewal-adjusted multi-year value rather than one season's price.",
+      "whyItMatters": "A ticket-marketing roleplay calls a $300 acquisition cost too high; the renewal rate across three seasons decides whether it actually is.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "cost-per-acquisition-cpa"
+      ]
+    },
+    {
+      "term": "Brand affinity index",
+      "definition": "A fan base's favorability toward a brand divided by the general population's, times 100 — a score of 140 means those fans are 40% more likely to favor it, and sponsors generally want above roughly 120 before paying a premium.",
+      "whyItMatters": "A sponsorship-sales roleplay demands proof the audience fits; the index score is the argument for charging above the rate card.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "brand-development-index-bdi",
+        "category-development-index-cdi"
+      ]
+    },
+    {
+      "term": "Rights fee",
+      "definition": "The guaranteed payment buying the association itself — the right to be called an official partner and to use the marks — separate from the money spent activating it and separate from any advertising bought around the event.",
+      "whyItMatters": "Roleplay judges test whether you can split the three budgets; quoting one blended 'sponsorship cost' loses the point every time.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "activation-to-rights-ratio"
+      ]
+    },
+    {
+      "term": "Fan avidity",
+      "definition": "A measured intensity tier — avid, casual or aware — built from attendance, media consumption and merchandise spend together rather than from ticket purchases alone, because the tiers convert to sponsor and premium offers at very different rates.",
+      "whyItMatters": "A fan-database roleplay asks who to target for a premium package; the avidity tier, not last season's buyer list, is what converts.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "fan-equity"
+      ]
+    },
+    {
+      "term": "Clean zone",
+      "definition": "A perimeter around a host venue, set by ordinance for a defined window of dates, inside which signage, sampling and vending by non-sponsors is prohibited — the enforcement tool that makes paid exclusivity worth anything.",
+      "whyItMatters": "An event-sponsorship roleplay has a rival brand sampling across the street; whether you can stop them depends on the zone's boundary and its dates.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "category-exclusivity-premium"
+      ]
+    },
+    {
+      "term": "Exclusive negotiating window",
+      "definition": "A period before rights reach open bidding in which the incumbent partner may negotiate alone, often paired with a matching right afterward, so a rival's bid can be topped rather than won outright.",
+      "whyItMatters": "A media-rights renewal roleplay asks why a competitor never got to bid; the window and the matching right are the whole reason.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:SEM"
+      ],
+      "confusableWith": [
+        "right-of-first-refusal"
+      ]
+    }
+  ]
+}

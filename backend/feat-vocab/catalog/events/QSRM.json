@@ -1,0 +1,346 @@
+{
+  "code": "QSRM",
+  "terms": [
+    {
+      "term": "Drive-thru service time",
+      "definition": "The timed segment the lane's detection loops actually measure — order point to product handout — which deliberately excludes the minutes a car spends queued before it reaches the order point.",
+      "whyItMatters": "A roleplay judge asks why guests complain about a five-minute wait when the store posts a 175-second average; the answer is that the standard measures only the segment after the order point.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "total-experience-time",
+        "pull-forward-rate"
+      ]
+    },
+    {
+      "term": "Total experience time",
+      "definition": "The full clock a vehicle is in the lane, from triggering the entry loop to clearing the window, so it carries the queue the service-time standard leaves out: a store averaging 180 seconds of service with six cars stacked ahead at 30 seconds apiece is delivering a 360-second experience.",
+      "whyItMatters": "When a case gives both a service-time average and a queue length, the exam answer is that only total experience time explains falling satisfaction scores at a store hitting its speed target.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "drive-thru-service-time",
+        "vehicle-stacking-capacity"
+      ]
+    },
+    {
+      "term": "Pull-forward rate",
+      "definition": "Cars sent to a waiting bay before their food is handed out, divided by cars served — the figure that tells you how much of a posted speed number is real, because the lane timer stops when the car leaves the window even though the order is still open. At 20% pull-forward with a two-minute average bay wait, true handout time runs about 24 seconds longer than the board says.",
+      "whyItMatters": "A roleplay where the district manager asks why a store leads the market on timers but trails on accuracy and complaints is solved by pulling the pull-forward rate.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "drive-thru-service-time",
+        "bottleneck-station-cycle-time"
+      ]
+    },
+    {
+      "term": "Cars per hour capacity",
+      "definition": "The ceiling a lane can serve in an hour, found by dividing 3,600 seconds by the cycle time of the slowest station rather than by the average order time — a 40-second grill cycle caps the lane at 90 cars an hour no matter how fast the window and order taker are.",
+      "whyItMatters": "Given a peak-hour forecast of 110 cars, the exam expects you to compare it against this ceiling and conclude the store will lose cars unless the constraining station is relieved.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "bottleneck-station-cycle-time",
+        "capacity-utilization-rate"
+      ]
+    },
+    {
+      "term": "Bottleneck station cycle time",
+      "definition": "The longest per-order processing time among the positions in the line, which alone sets what the whole store can produce — cutting ten seconds at a 25-second assembly position while the 40-second fry station is untouched changes hourly output by zero, and relieving the fry station simply moves the constraint to whatever is now slowest.",
+      "whyItMatters": "A roleplay that hands you station-by-station timings and one extra crew member is testing whether you deploy that person to the constraint instead of the busiest-looking spot.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "cars-per-hour-capacity",
+        "kitchen-display-system-bump-time",
+        "takt-time"
+      ]
+    },
+    {
+      "term": "Dual-lane merge ratio",
+      "definition": "The alternation rule that decides how orders from two side-by-side order points are sequenced into one production line and one window — commonly one-for-one, or weighted toward the outside lane. Two order points add roughly 10 to 15 percent throughput only while the ratio is enforced; unmanaged merging makes orders arrive out of sequence and the re-sorting at the window gives the gain back.",
+      "whyItMatters": "An exam item on a store that added a second order lane and saw no throughput improvement is asking about merge discipline, not equipment.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "cars-per-hour-capacity",
+        "vehicle-stacking-capacity"
+      ]
+    },
+    {
+      "term": "Vehicle stacking capacity",
+      "definition": "How many cars can queue on the property before the line spills into the street or blocks the parking lot, judged against the queue the peak actually creates: serving 90 cars an hour with a four-minute average wait means six cars are in line at any moment, so an eight-space stack works and a five-space stack sends the ninth car away.",
+      "whyItMatters": "Site-selection and remodel roleplays turn on this number, because a lane that blocks a public road can put the store in violation of its use permit.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "drive-off-rate",
+        "total-experience-time"
+      ]
+    },
+    {
+      "term": "Drive-off rate",
+      "definition": "Vehicles that enter the lane or lot and leave without ordering, divided by vehicles that entered — sales that never appear in any sales report, which is why the loss is invisible without lane counters. One point of it during a 120-car hour at a $9 average check is more than $10 an hour of sales gone.",
+      "whyItMatters": "Asked to justify a second order point or a bump in peak staffing, you quantify the case with drive-offs rather than with complaints.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "vehicle-stacking-capacity",
+        "abandonment-rate"
+      ]
+    },
+    {
+      "term": "Digital menu board dwell time",
+      "definition": "The seconds a guest genuinely spends facing the board — roughly 20 to 40 in a moving drive-thru lane against 60 to 90 at a counter — which caps how many rotating creative frames anyone actually sees. Four frames on a 15-second rotation is a 60-second loop, so a 25-second dwell shows under two of them and a promotion parked in frame four reaches almost nobody.",
+      "whyItMatters": "A promotion roleplay asking why a limited-time offer under-sold despite full digital-board coverage is testing whether you check rotation length against dwell.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "order-confirmation-board",
+        "audience-share"
+      ]
+    },
+    {
+      "term": "Mobile order lead-time offset",
+      "definition": "The number of minutes ahead of a guest's predicted arrival that an order-ahead app releases the ticket to the kitchen, computed from GPS travel time minus cook time. Release too early and the food sits toward the end of its hold window; release too late and the guest waits at a pickup shelf — a seven-minute ETA on a three-minute build means holding the ticket about four minutes.",
+      "whyItMatters": "A roleplay on cold or stale order-ahead pickups is answered by tuning this offset, not by adding crew.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "product-hold-time",
+        "build-to-chart"
+      ]
+    },
+    {
+      "term": "Kitchen display system bump time",
+      "definition": "The seconds between an order appearing on a station's screen and the crew member clearing it, logged per station and per ticket. Comparing the same tickets across stations tells you which position is actually accumulating the delay, so the number decides where the next labor hour goes instead of leaving it to whoever looks busiest.",
+      "whyItMatters": "Given a table of station timings in a case, the expected answer identifies the constraining station from bump times rather than from total order time.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "bottleneck-station-cycle-time",
+        "average-handle-time-aht"
+      ]
+    },
+    {
+      "term": "Product hold time",
+      "definition": "The maximum minutes a cooked item may stay in the holding cabinet before quality standards require discarding it, and therefore the hard cap on cooking ahead: with a 20-minute standard, you may only pre-cook what the forecast says sells in the next 20 minutes, so an item selling 15 an hour supports a staged batch of five.",
+      "whyItMatters": "Roleplays that ask you to raise speed without raising waste are decided by batching inside this window, and a judge will expect the arithmetic, not the promise.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "build-to-chart",
+        "production-waste-rate"
+      ]
+    },
+    {
+      "term": "Build-to chart",
+      "definition": "The table that converts the next half hour's forecast into how many finished units should be sitting in the cabinet right now — target level equals forecast sales across one hold window plus a small buffer, minus what is already held. It replaces cooking by feel, and it is why two managers with the same forecast stage the same amount.",
+      "whyItMatters": "A roleplay on preparing for a bus rush or a school lunch surge wants the build-to arithmetic, since cooking to a guess produces either a queue or a bin of discards.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "product-hold-time",
+        "make-line-par-level"
+      ]
+    },
+    {
+      "term": "Make-line par level",
+      "definition": "The staged quantity of each prepped component held at the assembly line when a daypart opens, set as forecast usage over the restock interval plus a buffer — 30 minutes of usage if a runner restocks every half hour. Set it high and prepped product ages out of standard; set it low and the line stops mid-peak to refill.",
+      "whyItMatters": "An operations roleplay on a line that keeps stalling during lunch is solved by recalculating pars against the restock interval, and the judge is listening for that interval.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "build-to-chart",
+        "reorder-point"
+      ]
+    },
+    {
+      "term": "Fryer recovery time",
+      "definition": "The seconds equipment needs to return to its cooking setpoint after a frozen load drops in, which belongs in the station's true cycle: a three-minute cook plus 45 seconds of recovery is a 3:45 cycle, so a four-vat battery yields about 64 baskets an hour rather than the 80 the cook time alone suggests.",
+      "whyItMatters": "Capacity questions that ask whether existing equipment can carry a forecast peak are wrong by 20 percent if you plan on cook time and ignore recovery.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "bottleneck-station-cycle-time",
+        "cars-per-hour-capacity"
+      ]
+    },
+    {
+      "term": "Production waste rate",
+      "definition": "Units cooked and then discarded divided by units cooked, read against the projection that ordered them — the direct price of staging ahead for speed. Thirty discards on a 1,000-unit day is three percent, and a rate near zero is usually evidence of under-projecting and making guests wait rather than of good discipline.",
+      "whyItMatters": "A roleplay pairing a speed complaint with a waste complaint expects you to treat the two as one tradeoff and name the rate you would accept.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "product-hold-time",
+        "build-to-chart"
+      ]
+    },
+    {
+      "term": "Sales per labor hour",
+      "definition": "Net sales divided by every crew and management hour worked in the same period — $4,800 across 120 hours is $40 — giving a productivity figure that does not move when the wage rate moves, unlike labor cost as a percentage of sales, which improves on paper the moment menu prices rise.",
+      "whyItMatters": "Asked to defend a schedule to a franchisee watching labor percentage, you argue in this measure because it separates crew productivity from pricing and wage changes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "transactions-per-labor-hour",
+        "labor-deployment-matrix"
+      ]
+    },
+    {
+      "term": "Transactions per labor hour",
+      "definition": "Guest transactions divided by crew hours worked, which unlike its dollar-denominated sibling is immune to menu price increases — so when the dollar measure climbs eight percent after a price rise while this one is flat, the store gained pricing, not productivity.",
+      "whyItMatters": "A case showing improving labor metrics after a price increase is testing whether you can tell a real efficiency gain from an arithmetic one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "sales-per-labor-hour",
+        "average-check"
+      ]
+    },
+    {
+      "term": "Labor deployment matrix",
+      "definition": "The grid that turns each hour's forecast sales into a crew count and a named position for every person on the floor — one added crew member per roughly $150 of incremental hourly sales, with the added position specified. It is what makes two managers with the same forecast schedule the same people to the same stations.",
+      "whyItMatters": "A scheduling roleplay gives you a sales forecast by hour and expects a staffed schedule out of it, not a headcount guess.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "sales-per-labor-hour",
+        "split-shift-deployment"
+      ]
+    },
+    {
+      "term": "Split-shift deployment",
+      "definition": "Scheduling one crew member for two separated blocks in a single day so they cover both the lunch and dinner peaks without being paid through the slow afternoon between them. Several jurisdictions require a premium payment when the unpaid gap exceeds a set length, so the savings are not automatic.",
+      "whyItMatters": "A roleplay on cutting labor without cutting peak coverage points here, and the judge expects you to flag the premium rule rather than assume the hours are free.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "labor-deployment-matrix",
+        "shift-differential"
+      ]
+    },
+    {
+      "term": "Average check",
+      "definition": "Net sales divided by the number of transactions, not by the number of people fed — a single drive-thru transaction may carry four meals — so it rises with party size, combo mix and upsize rate as readily as it does with price.",
+      "whyItMatters": "A case reporting a rising average check with flat transactions expects you to identify which of those drivers moved before crediting a price increase.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "transactions-per-labor-hour",
+        "combo-conversion-rate"
+      ]
+    },
+    {
+      "term": "Upsize rate",
+      "definition": "The share of eligible orders sold in the larger size, and the highest-leverage number on the order taker's scorecard because the incremental cost of a bigger drink or fry is pennies: 100 upsizes a day at a $0.70 upcharge against $0.10 of added cost drops about $60 a day straight to contribution.",
+      "whyItMatters": "Asked in a selling roleplay to raise sales without raising traffic or prices, you quantify the opportunity from this rate and the upcharge spread.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "combo-conversion-rate",
+        "attach-rate",
+        "suggestive-selling"
+      ]
+    },
+    {
+      "term": "Combo conversion rate",
+      "definition": "Entrée transactions sold as a bundled meal rather than à la carte, divided by entrée transactions — each point moves the average check by the bundle premium, so lifting 55 percent to 60 percent across 400 daily entrées is 20 more combos a day and the premium multiplied by that.",
+      "whyItMatters": "A promotion or coaching roleplay that must produce a dollar projection is built from this rate, the entrée count and the bundle premium.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "upsize-rate",
+        "average-check",
+        "attach-rate"
+      ]
+    },
+    {
+      "term": "Third-party delivery commission rate",
+      "definition": "The percentage of an order subtotal a marketplace platform retains for listing, dispatch and courier pay — commonly 15 to 30 percent depending on the tier bought. A $20 order at 30 percent nets $14, which turns an item earning a healthy in-store margin into a loss delivered unless price, basket size or tier changes.",
+      "whyItMatters": "A roleplay on whether to join or stay on a delivery marketplace is decided by running this rate against the item margins, not by counting incremental orders.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "delivery-menu-price-premium",
+        "commission-split"
+      ]
+    },
+    {
+      "term": "Delivery menu price premium",
+      "definition": "The percentage by which listed prices are raised on a marketplace to leave the same dollars behind after commission — and the raise is not equal to the commission. Covering a 30 percent take requires dividing by 0.70, a 42.9 percent increase; matching it at 30 percent still leaves the store nine percent short.",
+      "whyItMatters": "A pricing question on delivery menus is graded on this reciprocal, and matching the commission percentage is the trap answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "third-party-delivery-commission-rate",
+        "markup-on-cost"
+      ]
+    },
+    {
+      "term": "Breakeven transactions per daypart",
+      "definition": "The transaction count a block of the day must hit for its contribution to cover the labor and fixed cost of being open for it: $260 of scheduled breakfast labor against $2.60 of contribution per transaction breaks even at 100 transactions, and averaging 70 means opening early loses money every morning.",
+      "whyItMatters": "A roleplay on whether to open earlier, close later or drop late night is settled with this arithmetic rather than with traffic counts.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:QSRM"
+      ],
+      "confusableWith": [
+        "daypart",
+        "break-even-point-in-units"
+      ]
+    }
+  ]
+}

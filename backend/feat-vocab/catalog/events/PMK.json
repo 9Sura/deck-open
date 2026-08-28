@@ -1,0 +1,356 @@
+{
+  "code": "PMK",
+  "terms": [
+    {
+      "term": "Unit pricing",
+      "definition": "Shelf-tag disclosure of cost per standardized measure — package price divided by quantity — so a 24 oz jar at $4.56 ($0.19/oz) is cheaper than a 16 oz jar at $3.36 ($0.21/oz); most state rules impose it only on stores above a sales-volume or square-footage threshold.",
+      "whyItMatters": "A pricing roleplay that asks you to justify a larger package size is scored on the per-ounce arithmetic, not on the sticker price the shopper sees first.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "markup-on-retail",
+        "keystone-markup"
+      ]
+    },
+    {
+      "term": "Triggering terms",
+      "definition": "Credit-ad phrases — a stated down payment, the number of payments, the payment amount, or the dollar finance charge — that force Regulation Z's full disclosure set (APR and terms of repayment) into the same advertisement; naming the APR alone triggers nothing.",
+      "whyItMatters": "Exam items on a car or furniture financing promotion turn on which phrase in the ad copy pulls in the mandatory APR disclosure.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "annual-percentage-rate-apr",
+        "advertising-regulation"
+      ]
+    },
+    {
+      "term": "Telephone Consumer Protection Act",
+      "definition": "Federal statute capping live telemarketing at 8 a.m. to 9 p.m. in the called party's local time, requiring prior express written consent for autodialed or prerecorded marketing calls and texts, and setting damages of $500 per violation, trebled to $1,500 when willful.",
+      "whyItMatters": "An SMS-campaign roleplay is decided by consent and calling-window rules; a judge expects the 9 p.m. cutoff and the $500/$1,500 damages named aloud.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "national-do-not-call-registry",
+        "can-spam-act"
+      ]
+    },
+    {
+      "term": "Children's Television Act",
+      "definition": "Broadcast rule capping commercial matter inside programming directed to children 12 and under at 10.5 minutes per hour on weekends and 12 minutes per hour on weekdays, and barring host-selling and program-length commercials.",
+      "whyItMatters": "A promotion plan for a toy or cereal brand is graded on whether the proposed media schedule respects the per-hour ceiling for the child audience.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "children-s-online-privacy-protection-act-coppa",
+        "advertising-regulation"
+      ]
+    },
+    {
+      "term": "Verifiable parental consent",
+      "definition": "The COPPA precondition for collecting personal information from a child under 13 — a signed form, a credit-card or government-ID check, or a monitored call — obtained before collection begins; a neutral age screen a 12-year-old can answer as 14 does not satisfy it.",
+      "whyItMatters": "Any roleplay proposing an app sign-up or contest aimed at middle-schoolers has to name the under-13 line and the specific consent mechanism.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "children-s-online-privacy-protection-act-coppa",
+        "california-consumer-privacy-act"
+      ]
+    },
+    {
+      "term": "Made in USA standard",
+      "definition": "FTC's bar for an unqualified origin claim: all or virtually all of the significant parts, processing and final assembly must be domestic, leaving only negligible foreign content — anything more forces a qualified claim such as “Assembled in USA from imported components.”",
+      "whyItMatters": "A labeling question that hands you a product with an imported motor is testing whether you drop from the unqualified claim to a qualified one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "ad-substantiation",
+        "puffery"
+      ]
+    },
+    {
+      "term": "Former price comparison",
+      "definition": "A “regularly $80, now $50” claim is lawful only when the higher figure was a bona fide price openly offered for a reasonably substantial recent period — commonly read as at least 28 of the preceding 90 days — and not an inflated tag set up to manufacture the discount.",
+      "whyItMatters": "A clearance-sale roleplay is scored on whether your reference price was actually charged, not on how large the advertised markdown looks.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "bait-and-switch",
+        "markdown-percentage"
+      ]
+    },
+    {
+      "term": "Proportionally equal terms",
+      "definition": "Robinson-Patman sections 2(d) and 2(e) require promotional allowances, display materials and co-op advertising dollars to reach every competing customer on a basis proportional to purchases — usually a fixed percentage of volume — with usable alternatives offered to small accounts.",
+      "whyItMatters": "A trade-promotion roleplay that hands a big-box account 5% co-op money and the independent grocer nothing fails this test in front of a judge.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "robinson-patman-act",
+        "cooperative-advertising"
+      ]
+    },
+    {
+      "term": "Meeting competition defense",
+      "definition": "Statutory escape from a price-discrimination charge: the seller cut the price in good faith to match — never to beat — a specific competitor's equally low offer to that same buyer, verified at the time it was granted, and it holds even when the discount is not cost-justified.",
+      "whyItMatters": "Price-discrimination exam items turn on whether the sales rep matched the rival quote or undercut it by a few cents.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "robinson-patman-act",
+        "price-fixing"
+      ]
+    },
+    {
+      "term": "Lanham Act false advertising",
+      "definition": "Section 43(a) hands a competitor — not a regulator — a private federal suit over a false or misleading commercial statement that deceives a material portion of the audience and causes injury, with damages, corrective advertising and the defendant's profits available and no FTC action required.",
+      "whyItMatters": "When a case gives a rival brand publishing a false comparative claim, the remedy is the injured competitor's own lawsuit, not an FTC complaint.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "puffery",
+        "ad-substantiation"
+      ]
+    },
+    {
+      "term": "Green Guides",
+      "definition": "FTC guidance on environmental claims: an unqualified “recyclable” needs collection programs available to at least 60% of consumers where the item is sold, “degradable” needs complete breakdown within one year of customary disposal, and general “eco-friendly” claims are deceptive on their face.",
+      "whyItMatters": "A sustainability-positioning roleplay is graded on whether the packaging claim clears the 60% access threshold or has to be qualified.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "ad-substantiation",
+        "puffery"
+      ]
+    },
+    {
+      "term": "No purchase necessary rule",
+      "definition": "A promotion becomes an illegal private lottery only when prize, chance and consideration all appear together; removing any one — a free mail-in entry route, or judging entries on skill — legalizes it, which is why sweepstakes publish an alternate method of entry and contests are scored.",
+      "whyItMatters": "Any sales-promotion roleplay proposing a giveaway is scored on which of the three elements you deliberately removed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "sweepstakes",
+        "premium"
+      ]
+    },
+    {
+      "term": "Price gouging",
+      "definition": "Charging an unconscionably excessive price for essential goods during a declared emergency; most state statutes fix the line at a set percentage above the pre-emergency price — commonly 10% to 25% — measured against the seller's own price over the prior 30 days, not against the market.",
+      "whyItMatters": "A pricing-ethics roleplay set after a hurricane needs the statutory percentage cap named, not a general appeal to fairness.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "price-fixing",
+        "penetration-pricing"
+      ]
+    },
+    {
+      "term": "5/20 rule",
+      "definition": "Nutrition-panel reading shortcut: 5% Daily Value or less of a nutrient per serving counts as low and 20% or more counts as high, so a cereal carrying 22% DV of sodium cannot be positioned as a low-sodium choice.",
+      "whyItMatters": "A food-marketing roleplay that asks you to build a health message from the label is scored on these two cutoffs.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "fair-packaging-and-labeling-act",
+        "puffery"
+      ]
+    },
+    {
+      "term": "Sample size formula",
+      "definition": "n = z squared times p(1 − p) divided by E squared — at 95% confidence (z = 1.96) with p = 0.5 and a plus-or-minus 5% error tolerance you need 384 completed responses, and halving the tolerance to 2.5% quadruples that to roughly 1,537.",
+      "whyItMatters": "Marketing-research exam items hand you a confidence level and an error tolerance and expect the count, not a guess of “about 100 shoppers.”",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "margin-of-error",
+        "confidence-interval"
+      ]
+    },
+    {
+      "term": "Confidence level",
+      "definition": "The share of repeated samples whose interval would capture the true population value, fixed by a z-score — 1.645 for 90%, 1.96 for 95%, 2.576 for 99% — so raising it either widens the interval or forces a larger sample; it never makes a single estimate more accurate.",
+      "whyItMatters": "A research question asking why the error band grew after the client demanded 99% certainty is testing the z-score you swapped in.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "confidence-interval",
+        "margin-of-error"
+      ]
+    },
+    {
+      "term": "Response rate",
+      "definition": "Completed usable questionnaires divided by eligible units contacted — 120 completes from 800 delivered invitations is 15% — and it is not the completion rate, which drops everyone who never opened the instrument out of the denominator and always reads higher.",
+      "whyItMatters": "A research roleplay that reports “we heard back from 120 customers” is scored on whether you asked how many were invited in the first place.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "nonresponse-bias",
+        "incidence-rate"
+      ]
+    },
+    {
+      "term": "Incidence rate",
+      "definition": "Share of screened contacts who actually qualify for a study — a 20% figure means roughly 500 people must be screened to land 100 interviews — and it drives fieldwork cost more than sample size does, because every disqualified screen is still paid for.",
+      "whyItMatters": "A budget question on a low-incidence audience such as left-handed golfers is answered with this multiplier, not with the target sample.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "response-rate",
+        "sampling-frame"
+      ]
+    },
+    {
+      "term": "Nonresponse bias",
+      "definition": "Error that appears when the people who answered differ systematically from those who did not, so a larger sample cannot cure it — the test is comparing early to late responders or profiling refusers, never simply raising the count of completes.",
+      "whyItMatters": "A judge will push back on “we surveyed 2,000 customers” once it emerges every respondent was a loyalty-program member.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "sampling-error",
+        "response-rate"
+      ]
+    },
+    {
+      "term": "Value share",
+      "definition": "A brand's percentage of total category dollars rather than of units sold, so a premium brand holding 8% of units at twice the average category price commands roughly 16% of the money — the two figures diverge whenever price sits off the category average.",
+      "whyItMatters": "A market-share exam item that supplies both unit and dollar figures is testing which one supports a premium positioning argument.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "market-share",
+        "relative-market-share"
+      ]
+    },
+    {
+      "term": "Vertical territorial restraint",
+      "definition": "A supplier's limit on where or to whom a dealer may resell — protected sales areas, location clauses — judged since GTE Sylvania (1977) under the rule of reason rather than as a per se violation, so it survives if the gain in interbrand competition outweighs the intrabrand loss.",
+      "whyItMatters": "A distribution roleplay that assigns protected dealer territories has to argue why the restraint is reasonable, not merely assert that it is legal.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "exclusive-distribution",
+        "resale-price-maintenance"
+      ]
+    },
+    {
+      "term": "Slotting allowance",
+      "definition": "A one-time per-SKU, per-store fee a manufacturer pays a retailer to stock a new item — often $250 to $25,000 per item per chain — which counts as a promotional allowance and therefore has to be offered on proportionally equal terms to competing buyers.",
+      "whyItMatters": "A new-product launch roleplay is scored on whether the launch budget carries this line item multiplied across every store in the chain.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "proportionally-equal-terms",
+        "channel-power"
+      ]
+    },
+    {
+      "term": "Sampling frame",
+      "definition": "The actual list or mechanism units are drawn from — a customer email file, a block of phone numbers, a mall's foot traffic — where any gap between it and the target population is frame error, which no increase in sample size will repair.",
+      "whyItMatters": "A research plan that draws only from the loyalty database is critiqued on this gap before a single statistic in it is read.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "probability-sampling",
+        "nonresponse-bias"
+      ]
+    },
+    {
+      "term": "Convenience sampling",
+      "definition": "Nonprobability selection of whoever is easiest to reach, so no unit has a known chance of inclusion and neither a margin of error nor a confidence level can legitimately be computed from the result — the findings are exploratory only.",
+      "whyItMatters": "Presenting mall-intercept results as “plus or minus 4% at 95% confidence” is the error a research judge is waiting for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "probability-sampling",
+        "quota-sampling"
+      ]
+    },
+    {
+      "term": "Cash-and-carry wholesaler",
+      "definition": "Limited-function merchant middleman that takes title to a narrow line of fast-moving goods but strips out delivery and credit — the retailer drives in, pays on the spot and hauls the order away — which is exactly why its prices undercut a full-service house.",
+      "whyItMatters": "A channel-cost roleplay for a small grocer turns on which services the buyer gives up in exchange for the lower unit price.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "merchant-wholesaler",
+        "truck-jobber"
+      ]
+    },
+    {
+      "term": "Truck jobber",
+      "definition": "Limited-function wholesaler that takes title and both sells and delivers from the vehicle in a single stop, carrying perishable or fast-turning stock such as bread, snacks and tobacco on a fixed route, usually for cash and with no credit extended.",
+      "whyItMatters": "A distribution question about restocking convenience stores twice a week is describing this middleman, not a rack jobber who only maintains the display.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "rack-jobber",
+        "drop-shipper"
+      ]
+    },
+    {
+      "term": "Fair Packaging and Labeling Act",
+      "definition": "Federal requirement that a consumer commodity's principal display panel carry three statements — the identity of the product, the net quantity of contents in both metric and US customary units, and the name and place of business of the manufacturer, packer or distributor.",
+      "whyItMatters": "A packaging-redesign roleplay is scored on whether all three mandatory statements survive the new artwork on the front panel.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PMK"
+      ],
+      "confusableWith": [
+        "5-20-rule",
+        "unit-pricing"
+      ]
+    }
+  ]
+}

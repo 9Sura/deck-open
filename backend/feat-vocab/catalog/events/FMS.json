@@ -1,0 +1,343 @@
+{
+  "code": "FMS",
+  "terms": [
+    {
+      "term": "Reference amount customarily consumed (RACC)",
+      "definition": "FDA-published gram amount per food category that fixes the serving declared on the Nutrition Facts panel, so the label's serving is derived from a federal table rather than from package size or what a shopper actually eats.",
+      "whyItMatters": "When a roleplay judge asks why your store-brand chips show fewer calories per serving than the national brand on the shelf beside them, the defensible answer compares label servings back to the same RACC instead of comparing bag sizes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "net-weight",
+        "package-size"
+      ]
+    },
+    {
+      "term": "Percent Daily Value 5/20 rule",
+      "definition": "Reading shortcut written into FDA labelling guidance: 5% DV or less of a nutrient per serving is low and 20% DV or more is high, which turns the panel's right-hand column into a per-serving screen rather than a per-package one.",
+      "whyItMatters": "Exam items give a panel and ask whether an item qualifies as a high-fiber or low-sodium choice for a shopper on a dietitian's list; the 5/20 cut points decide the answer, and the values are per serving, so a two-serving package doubles the intake.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "nutrient-content-claim",
+        "reference-amount-customarily-consumed-racc"
+      ]
+    },
+    {
+      "term": "Nutrient content claim",
+      "definition": "Front-of-pack statement about a nutrient's level that is legal only at a defined threshold — \"low sodium\" at 140 mg or less per serving, \"reduced\" at 25% less than the reference food, \"good source\" at 10-19% DV — all measured against the RACC, never the package.",
+      "whyItMatters": "A vendor presenting a new better-for-you line in a buying roleplay will call it 'reduced sodium'; you have to ask which reference food that 25% is measured against before the claim goes on your shelf tag or your circular.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "percent-daily-value-5-20-rule",
+        "qualified-health-claim"
+      ]
+    },
+    {
+      "term": "Use-by date",
+      "definition": "The last day a manufacturer will vouch for peak quality, and the only such date federally regulated in the United States is the one on infant formula — for every other food it is a quality judgment, not a safety deadline or a legal bar to sale.",
+      "whyItMatters": "When a shopper at the service desk demands a refund on milk one day past the stamp, the defensible response separates the single federally regulated case from the manufacturer's quality date, and store policy takes it from there.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "sell-by-date",
+        "open-dating"
+      ]
+    },
+    {
+      "term": "Closed code dating",
+      "definition": "Manufacturer's packing code — plant, line, shift and often a Julian day — printed for the supply chain rather than the shopper, and it is the only marking precise enough to bound which cases a recall actually touches.",
+      "whyItMatters": "In a recall roleplay the notice names a lot code, not a calendar date; reading the closed code is what keeps you from pulling three weeks of a category off the shelf when only one shift's production is implicated.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "open-dating",
+        "food-traceability-list"
+      ]
+    },
+    {
+      "term": "USDA organic labeling tiers",
+      "definition": "Four-step ladder set by percentage of organic ingredients: 100% organic, organic at 95% or more, \"made with organic ingredients\" at 70-94%, and below 70% only an ingredient-statement mention — and the USDA seal is permitted only on the top two tiers.",
+      "whyItMatters": "A supplier pitching a 78% organic soup for your natural set cannot carry the seal or front-panel 'organic', and mis-tagging it is a labelling violation you own once it is on your shelf.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "price-look-up-plu-code",
+        "nutrient-content-claim"
+      ]
+    },
+    {
+      "term": "Price look-up (PLU) code",
+      "definition": "Numbering scheme for bulk produce in which a four-digit code marks conventionally grown product and a five-digit code beginning with 9 marks certified organic, so the digit count and the leading 9 decide which ring price the cashier keys.",
+      "whyItMatters": "Organic apples ringing at the conventional price is a shrink-and-margin leak traced entirely to the wrong PLU, and produce-department roleplays ask you to explain the training fix to a new cashier.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "catch-weight",
+        "usda-organic-labeling-tiers"
+      ]
+    },
+    {
+      "term": "First-expired, first-out (FEFO)",
+      "definition": "Rotation discipline that ships and shelves by remaining shelf life rather than by receipt order, which diverges from FIFO whenever a later delivery arrives with an earlier expiry — common when a supplier clears its own aging stock.",
+      "whyItMatters": "Dairy and deli sets are rotated FEFO, and a roleplay on rising perishable shrink usually turns on a clerk who rotated by delivery date and buried a short-dated case behind a fresher one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "first-in-first-out-fifo",
+        "remaining-shelf-life-requirement"
+      ]
+    },
+    {
+      "term": "Remaining shelf-life requirement",
+      "definition": "Receiving standard written into a supply agreement stating the minimum fraction of total shelf life a delivery must still have at the dock — commonly one-third or 75% — and product below it is refused at delivery, not marked down later.",
+      "whyItMatters": "A vendor arguing that a load of 30-day yogurt with 9 days left is still saleable is asking you to absorb his markdown; quoting the receiving standard is what makes the refusal defensible to your buyer and to the judge.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "first-expired-first-out-fefo",
+        "use-by-date"
+      ]
+    },
+    {
+      "term": "Perishable shrink",
+      "definition": "Loss concentrated in produce, meat, deli and bakery, where spoilage, trim and markdowns typically run 3-6% of department sales against well under 1% in dry grocery — so one storewide shrink target either starves the fresh departments or excuses the center store.",
+      "whyItMatters": "A store-manager roleplay handing you a 2% shrink goal expects you to set it by department; holding produce to the dry-grocery number forces under-ordering, empty shelves and lost sales that cost more than the shrink saved.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "inventory-shrinkage-rate",
+        "trim-loss"
+      ]
+    },
+    {
+      "term": "Reduced-for-quick-sale markdown",
+      "definition": "Timed price reduction taken while a short-dated perishable can still sell, sized so the discounted price beats the expected value of holding it — if a $4.00 item has a 40% chance of selling at full price tomorrow, anything above $1.60 today is the better outcome.",
+      "whyItMatters": "Meat and bakery roleplays hinge on markdown timing: waiting until the final morning converts a partial recovery into a total loss, and the judge wants to hear the discount compared against expected remaining sell-through, not a fixed 50% rule.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "markdown-percentage",
+        "perishable-shrink"
+      ]
+    },
+    {
+      "term": "Trim loss",
+      "definition": "Weight removed as fat, bone, rind or wilted outer leaves between the as-purchased case and the saleable package, which raises effective cost per saleable pound: $4.00 per pound bought at a 20% trim rate costs $5.00 per saleable pound.",
+      "whyItMatters": "Pricing a meat or produce cut off the invoice cost is how a department books a margin it never earns; the cutting-test number is what a judge expects behind your retail price on a whole-muscle or whole-melon item.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "yield-percentage",
+        "edible-portion-cost"
+      ]
+    },
+    {
+      "term": "Time-temperature indicator (TTI)",
+      "definition": "Case- or pack-level tag whose irreversible color change accumulates exposure over the whole journey, so it reports cumulative abuse rather than the instantaneous reading a probe thermometer gives at the dock.",
+      "whyItMatters": "A frozen load arriving at spec on the probe can still have thawed and refrozen in transit; the indicator is the evidence that lets you reject the delivery and charge the carrier instead of eating the loss.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "cold-chain",
+        "remaining-shelf-life-requirement"
+      ]
+    },
+    {
+      "term": "Scan-based trading",
+      "definition": "Consignment arrangement in which the supplier keeps title to product sitting in the store and is paid only from POS scan data, so the retailer carries no inventory investment and shrink before the scan is the supplier's loss.",
+      "whyItMatters": "Common in DSD categories like bread and snacks; a vendor-negotiation roleplay turns on who owns the unsold and stolen units, and the answer follows title, which under this arrangement does not transfer until checkout.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "consignment",
+        "off-invoice-allowance"
+      ]
+    },
+    {
+      "term": "Off-invoice allowance",
+      "definition": "Trade funding deducted from the case cost on the purchase invoice itself for a set deal window, which pays on everything bought rather than on anything sold and therefore invites buying far more than the promotion can move.",
+      "whyItMatters": "A buyer roleplay asks why the manufacturer wants to move you off this structure: the deal was funded on 12 weeks of purchases to support a 2-week ad, and the extra cases either sit or leak into another market.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "bill-back-allowance",
+        "scan-down-allowance"
+      ]
+    },
+    {
+      "term": "Bill-back allowance",
+      "definition": "Trade funding paid after the fact against documented performance — proof of ad, display photos or shipment reports — so the retailer buys at full cost, funds the working capital in the interim, and collects only on what was actually performed.",
+      "whyItMatters": "Deductions disputes in a vendor roleplay almost always sit here: the retailer claims the ad ran, the supplier says the documentation is short, and the money hangs in accounts receivable until the performance evidence is produced.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "off-invoice-allowance",
+        "co-op-advertising-accrual"
+      ]
+    },
+    {
+      "term": "Scan-down allowance",
+      "definition": "Per-unit funding paid on the units that actually scan at the promoted retail during the ad week, which strips out forward-buy incentive entirely because unpurchased-for-promotion inventory earns nothing.",
+      "whyItMatters": "When you are asked to justify a deeper feature price to a supplier, this is the structure that lets you promise the discount reaches the shopper — every funded unit is a unit that rang at the ad price.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "off-invoice-allowance",
+        "bill-back-allowance"
+      ]
+    },
+    {
+      "term": "Case-pack rounding",
+      "definition": "Effect of an order multiple that cannot be broken: a shelf needing 14 units of a 12-count case must take 12 or 24, and on a short-dated perishable the rounded-up half case becomes markdown rather than sales.",
+      "whyItMatters": "Ordering roleplays on slow perishable SKUs are solved by changing the pack or the delivery frequency, not the order quantity — with a 24-count case and 3 units of weekly movement, the arithmetic guarantees spoilage.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "shelf-capacity-days-of-supply",
+        "reduced-for-quick-sale-markdown"
+      ]
+    },
+    {
+      "term": "Shelf capacity days of supply",
+      "definition": "Facings multiplied by units deep, divided by daily unit movement — the number of days a full shelf covers, which is what decides whether a SKU can be replenished on a two-day delivery cycle without going out of stock.",
+      "whyItMatters": "A shelf holding 18 units against 12 a day covers a day and a half, so a Monday-Thursday delivery schedule empties it every weekend; the fix a judge is listening for is more facings or more deliveries, not a bigger backroom.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "case-pack-rounding",
+        "retail-ready-packaging"
+      ]
+    },
+    {
+      "term": "Price gap",
+      "definition": "The percentage distance held between a store brand and the national brand beside it, typically managed to 15-25%: too narrow and the shopper has no reason to switch, too wide and the shopper reads the store brand as inferior goods.",
+      "whyItMatters": "Private-label roleplays ask you to reprice an item, and the answer is a gap target with a reason on both sides — the national brand's own promoted price can close the gap to zero during an ad week and stall your own-brand sales.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "private-label-brand",
+        "opening-price-point"
+      ]
+    },
+    {
+      "term": "Opening price point",
+      "definition": "The lowest-priced item stocked in a category, held below the mainstream store brand and run at a thin or near-zero margin because its job is price image and traffic, with the category's margin recovered on the tier above it.",
+      "whyItMatters": "When a judge challenges you on stocking an item that barely makes money, the defense is architecture: the cheap item anchors the category's price perception and the shoppers it draws trade up within the same set.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "price-gap",
+        "loss-leader"
+      ]
+    },
+    {
+      "term": "Known value item",
+      "definition": "The handful of SKUs — milk, eggs, bananas, a leading soda — whose prices shoppers actually remember and use to judge a whole store, which is why they are priced at or below market while unremembered items in the same basket carry the margin.",
+      "whyItMatters": "A margin-improvement roleplay is failed by raising the price of milk: the price-image items must stay put and the recovery has to come from the items shoppers cannot recall, which is a list you should be able to name.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "loss-leader",
+        "price-gap"
+      ]
+    },
+    {
+      "term": "Catch weight",
+      "definition": "Item sold at a price per pound on a package of variable actual weight, so cases contain a known count but an unknown total weight and every unit rings a different total at the register.",
+      "whyItMatters": "Meat, cheese and seafood inventory cannot be valued by case count; a roleplay on department costing expects you to know that receiving records weight, not just cases, or the margin report is fiction.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "price-look-up-plu-code",
+        "trim-loss"
+      ]
+    },
+    {
+      "term": "Category role",
+      "definition": "The job a retailer assigns a category within the store — destination, routine, seasonal or convenience — which sets the metric it is judged on, so a destination category is measured on share and traffic while a convenience category is measured on margin.",
+      "whyItMatters": "Category-management roleplays start here, because space, price aggressiveness and promotional spend all follow from the role; arguing for more space without naming the role gives the judge nothing to agree with.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "known-value-item",
+        "category-captain"
+      ]
+    },
+    {
+      "term": "Sell-by date",
+      "definition": "Stamp directing the store when to pull an item from the shelf, leaving deliberate remaining life for the shopper at home — it is a stock-rotation instruction to the retailer, not a statement to the consumer about safety.",
+      "whyItMatters": "Explaining to a shopper who found an item dated tomorrow that the date is aimed at the store and not at them is a routine customer-relations roleplay, and the answer separates rotation from spoilage.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "use-by-date",
+        "open-dating"
+      ]
+    },
+    {
+      "term": "Open dating",
+      "definition": "Calendar date printed in plain language for the shopper — sell by, best if used by, use by — as opposed to the manufacturer's coded packing date, and outside infant formula it is voluntary under federal law.",
+      "whyItMatters": "A roleplay on donating or discounting past-date product depends on knowing these dates are quality guidance rather than a federal expiration, so the store's own policy is what actually governs the decision.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:FMS"
+      ],
+      "confusableWith": [
+        "closed-code-dating",
+        "use-by-date"
+      ]
+    }
+  ]
+}

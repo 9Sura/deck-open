@@ -10,23 +10,8 @@
       "whyItMatters": "Judges expect competitors to handle questions and concerns clearly.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Nonverbal cues",
-      "definition": "Signals such as facial expressions, gestures, and posture that carry meaning without words.",
-      "whyItMatters": "Reading cues lets competitors adjust to a customer's or judge's reaction.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Group discussion",
-      "definition": "A structured conversation among several people to share ideas and reach conclusions.",
-      "whyItMatters": "Team events depend on effective group discussion.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Professional email",
@@ -34,7 +19,8 @@
       "whyItMatters": "Written events reward mastery of email conventions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Business letter",
@@ -42,31 +28,8 @@
       "whyItMatters": "Judges expect correct formatting, tone, and structure.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Communication styles",
-      "definition": "Distinct ways of delivering information chosen to fit the audience.",
-      "whyItMatters": "Adapting style builds rapport and persuades more effectively.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Verbal communication",
-      "definition": "Sharing information through spoken words, including tone, pace, and clarity.",
-      "whyItMatters": "Roleplay and presentation events hinge on articulate speech.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Written communication",
-      "definition": "Expressing ideas through written text organized for clarity and professionalism.",
-      "whyItMatters": "Written events score organization, grammar, tone, and persuasion.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Graphic aids",
@@ -74,7 +37,8 @@
       "whyItMatters": "Competitors must select and justify aids that support their analysis.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Data visualization",
@@ -82,7 +46,8 @@
       "whyItMatters": "Visuals make recommendations look credible and actionable.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Professional writing formats",
@@ -90,7 +55,8 @@
       "whyItMatters": "Judges expect the correct format for each document type.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Workplace communication channel",
@@ -98,7 +64,8 @@
       "whyItMatters": "Justifying channel choice signals professional maturity.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Social media brand",
@@ -106,7 +73,8 @@
       "whyItMatters": "A personal social media brand can boost or damage credibility.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Executive summary",
@@ -114,7 +82,8 @@
       "whyItMatters": "Written events reward a crisp, decision-ready summary.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Persuasive message",
@@ -122,7 +91,8 @@
       "whyItMatters": "Competitors must move customers and stakeholders toward an outcome.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Digital communication risk",
@@ -130,6 +100,707 @@
       "whyItMatters": "Poor digital choices carry real legal and brand consequences.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Flesch-Kincaid grade level",
+      "definition": "A readability score that converts a passage into a U.S. school grade: 0.39 x (total words / total sentences) + 11.8 x (total syllables / total words) - 15.59. Because sentence length is multiplied by 0.39 and syllable count by 11.8, swapping 'utilize' for 'use' moves the score less than splitting one 30-word sentence into two 15-word ones; consumer-facing documents are normally targeted at grade 8 or below.",
+      "whyItMatters": "A roleplay that asks you to rewrite a return policy for shoppers is scored on whether you can name a measurable target and the two levers that hit it, instead of promising to 'make it simpler.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "plain-language",
+        "professional-writing-formats"
+      ]
+    },
+    {
+      "term": "Full block format",
+      "definition": "A letter layout in which every element - date, inside address, salutation, body, complimentary close and signature block - begins flush at the left margin with no indentation, set on one-inch margins with a blank line between parts and no blank-line indents inside paragraphs. Modified block, its near neighbour, moves the date and the closing to start at the horizontal center of the page; semi-block does that and also indents the first line of each paragraph.",
+      "whyItMatters": "Formatting items on the exam give you the same letter three ways and ask which is full block, and written-event submissions lose presentation points for mixing two of the three.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "business-letter",
+        "professional-writing-formats"
+      ]
+    },
+    {
+      "term": "Direct message pattern",
+      "definition": "An arrangement that puts the main idea, request or answer in the very first sentence and places explanation after it - correct for routine requests, good news, and most internal messages, and expected by busy or senior readers. The indirect pattern reverses that into four ordered parts: a neutral buffer, the reasons, the bad news itself stated once, and a goodwill close. Choose by predicted reaction, not by topic: a refusal a reader already expects can still be written directly.",
+      "whyItMatters": "The most common written-event error is burying a recommendation in paragraph three of a message the reader will happily agree with.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "buffer-statement",
+        "executive-summary",
+        "inverted-pyramid"
+      ]
+    },
+    {
+      "term": "Monroe's motivated sequence",
+      "definition": "A five-step persuasive outline - attention, need, satisfaction, visualization, action - where the fourth step is the one that distinguishes it: the audience is walked through a vivid picture of life after adopting the proposal (or of life if they refuse) before any request is made. A plain problem-solution outline stops after satisfaction, and a call to action without the visualization step is the most common way competitors flatten it back into three parts.",
+      "whyItMatters": "When a roleplay asks you to sell a manager on a new procedure, this sequence gives a scored structure; naming the five steps beats an unstructured pitch every time.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "persuasive-message",
+        "persuasive-communication",
+        "toulmin-model"
+      ]
+    },
+    {
+      "term": "Toulmin model",
+      "definition": "An argument broken into six named parts: the claim, the grounds (the data offered), the warrant - the usually unstated assumption that licenses moving from the grounds to the claim - plus backing that supports the warrant, a qualifier that limits how strongly the claim holds, and a rebuttal that names the conditions under which it fails. Arguments collapse at the warrant far more often than at the data, because the missing piece was never said aloud.",
+      "whyItMatters": "Defending a recommendation to a judge who pushes back means naming the assumption connecting your figures to your conclusion, which is the step competitors skip when they simply repeat the data louder.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "monroe-s-motivated-sequence",
+        "persuasive-communication"
+      ]
+    },
+    {
+      "term": "Lie factor",
+      "definition": "Tufte's distortion metric: the size of the effect shown in the graphic divided by the size of the effect in the data, where an honest chart lands between 0.95 and 1.05. A 20 percent rise drawn as a bar twice as tall scores 5; scaling a pictogram by both height and width doubles a doubling into a fourfold area, scoring about 2. A truncated vertical axis inflates it the same way, which is why a bar chart's axis must start at zero even when a line chart's need not.",
+      "whyItMatters": "Data-visualization items give a chart and ask why it misleads, and the scored answer names the exaggeration, not just 'the graph looks unfair.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "data-ink-ratio",
+        "data-visualization"
+      ]
+    },
+    {
+      "term": "Semantic noise",
+      "definition": "Interference produced by the message's own words - unfamiliar jargon, an ambiguous pronoun, a term whose connotation differs for sender and receiver - as opposed to physical noise, which is external to the message (a loud room, a dropped call, small type), and psychological noise, which is inside the receiver (anxiety, distraction, a prior grudge). The distinction decides the fix: repeating the sentence louder cures only the physical kind.",
+      "whyItMatters": "An exam scenario where a customer misreads a policy term is a semantic-noise item, and the scored remedy is rewording, not resending.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "shannon-weaver-communication-model",
+        "jargon",
+        "connotation"
+      ]
+    },
+    {
+      "term": "Proxemics",
+      "definition": "Edward Hall's study of how people use physical distance, mapped to four zones: intimate from contact to about 18 inches, personal from 18 inches to 4 feet, social from 4 to 12 feet, and public beyond 12 feet. Normal business is transacted in the social zone, so a salesperson who closes to 3 feet has entered personal space and is read as pressure rather than warmth. The distances themselves are cultural, and the same 3 feet reads as ordinary in much of Latin America and as intrusive in northern Europe.",
+      "whyItMatters": "Nonverbal-cue items describe a customer stepping back during a demonstration, and the scored answer names the zone violation instead of calling it 'being uncomfortable.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "kinesics",
+        "high-context-culture"
+      ]
+    },
+    {
+      "term": "7-38-55 rule",
+      "definition": "Albert Mehrabian's finding that when a speaker's words, tone and facial expression contradict each other about how they feel, listeners resolve the conflict by weighting words 7 percent, tone of voice 38 percent, and facial expression 55 percent. The routine misuse is the claim that 93 percent of all communication is nonverbal: the studies tested single words about liking, said by women, in a laboratory, and say nothing about the content of an informational message. Cited correctly, it covers incongruence only.",
+      "whyItMatters": "It is the standard trap answer on nonverbal-communication items, and a judge who has heard the '93 percent' line all day notices the competitor who states its actual scope.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "kinesics",
+        "paralanguage"
+      ]
+    },
+    {
+      "term": "Kinesics",
+      "definition": "The nonverbal channel of body motion - posture, gesture, facial expression and eye behavior - which is distinct from paralanguage, the vocal qualities wrapped around the words (pitch, rate, volume, pauses, filled hesitations like 'um'), and from chronemics, the messages carried by the use of time such as arriving late, answering after three days, or scheduling only 10 minutes. Naming the right channel matters because each has a different repair.",
+      "whyItMatters": "Items that ask you to read a supervisor's crossed arms, clipped tone and delayed reply are testing three separate channels in one scenario.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "proxemics",
+        "7-38-55-rule"
+      ]
+    },
+    {
+      "term": "Robert's Rules of Order",
+      "definition": "The parliamentary manual whose thresholds get tested: a main motion needs a second and passes on a simple majority of votes cast, an amendment needs a majority, closing debate by moving the previous question needs two-thirds because it takes away a member's right to speak, and a tie fails. Precedence governs order - while an amendment is pending, no new main motion is in order - and a point of order can interrupt because it concerns the rules rather than the question.",
+      "whyItMatters": "Officer and staff-meeting scenarios ask what vote a motion requires, and the two-thirds threshold for cutting off debate is the one competitors miss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "minutes",
+        "consensus-building"
+      ]
+    },
+    {
+      "term": "Nominal group technique",
+      "definition": "A structured idea session run in four fixed stages: members write ideas silently and independently, then a round-robin in which each person contributes one idea per turn with no discussion allowed, then clarification of each posted item, then private ranking whose tally decides the outcome. Silent generation and one-at-a-time posting are what separate it from open brainstorming, where the loudest member anchors the room; the Delphi technique goes further by keeping experts anonymous across written rounds so they never meet at all.",
+      "whyItMatters": "Problem-solving group items ask which method protects the quiet member's idea, and this is the process that names how.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "consensus-building",
+        "raci-matrix"
+      ]
+    },
+    {
+      "term": "Power distance",
+      "definition": "Hofstede's 0-to-100 index of how far a society's less powerful members accept unequal distribution of authority - Malaysia scores near 100, Austria near 11, the United States around 40. It is a separate dimension from individualism: a high-power-distance audience expects the most senior person to speak first, treats public disagreement with a manager as an attack, and takes an invitation to challenge the presenter as a trap, so a presentation that works in a low-index room must be restructured rather than merely translated.",
+      "whyItMatters": "Asked to adapt a pitch for an overseas client, the scored answer changes who presents and how questions are invited, not just the language.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "high-context-culture",
+        "cultural-adaptation"
+      ]
+    },
+    {
+      "term": "Gunning fog index",
+      "definition": "A readability formula that grades a passage as 0.4 x (words per sentence + percentage of words carrying three or more syllables), so it counts only 'hard words' instead of weighting every syllable the way Flesch-Kincaid does. On the same paragraph the two scores diverge whenever long sentences are built from plain words: a 40-word sentence of one-syllable words drives fog up sharply while Flesch-Kincaid barely moves. General business writing is normally targeted at 12 or below and news writing near 11.",
+      "whyItMatters": "An editing item hands you one paragraph and two readability scores and asks which formula flagged it, and a roleplay defending a rewritten warranty is scored on naming a target number rather than promising the draft now 'reads better.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "flesch-kincaid-grade-level",
+        "flesch-reading-ease",
+        "plain-language"
+      ]
+    },
+    {
+      "term": "Flesch Reading Ease",
+      "definition": "Scores a passage from 0 to 100 where a HIGHER number means easier, running opposite in direction to every grade-level formula: 206.835 - 1.015 x (words per sentence) - 84.6 x (syllables per word). The 60-to-70 band is the plain-English range consumer documents target, 30 and below is college-graduate difficulty, and 90-100 is fifth-grade text. Because the scale runs to 100, a score of 70 is good here while a grade-level score of 70 would be absurd.",
+      "whyItMatters": "Exam items and written-event judges both hand you a score and ask whether the document suits its audience; reading this 0-to-100 scale as though it were a grade level reverses your answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "flesch-kincaid-grade-level",
+        "gunning-fog-index",
+        "plain-language"
+      ]
+    },
+    {
+      "term": "Modified block format",
+      "definition": "Letter layout that keeps the inside address, salutation, body paragraphs and any lists flush at the left margin but starts the dateline, complimentary close and signature block at the horizontal center of the page - about the 3-inch tab on a page with 1-inch margins. That one shifted column is the only difference from full block; adding a half-inch first-line indent to every paragraph converts it again into semi-block.",
+      "whyItMatters": "Formatting questions show the same letter three ways and score the competitor who can point to which elements moved, rather than judging the page by how balanced it looks.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "full-block-format",
+        "simplified-letter-format",
+        "business-letter"
+      ]
+    },
+    {
+      "term": "Particularism",
+      "definition": "Trompenaars' pole opposite universalism: which rule applies depends on the relationship and the circumstance, so a signed contract is a starting point a long-standing partner may reopen, and an obligation to a friend can outrank written policy. Universalist cultures - the U.S., Canada, the U.K., Germany - hold that one standard binds everyone regardless of who is asking, which is why the identical request reads as reasonable flexibility on one side of the table and as favoritism on the other.",
+      "whyItMatters": "An international roleplay where a long-time distributor asks for terms no other account receives is scored on naming the cultural logic at work before ruling on the request.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "high-context-culture",
+        "power-distance",
+        "individualism-collectivism-index"
+      ]
+    },
+    {
+      "term": "Emblem",
+      "definition": "A gesture carrying a fixed verbal translation that works with no speech at all - a thumbs-up, a head shake, the finger-and-thumb ring - which is precisely what separates it from an illustrator, a gesture that means nothing apart from the words it accompanies, such as sketching a package's size in the air. Because the translation is assigned by culture rather than by resemblance, this type can invert across a border: the same ring means money in Japan and is obscene in Brazil.",
+      "whyItMatters": "An international roleplay that has you demonstrate a product to a foreign buyer is scored on choosing gestures whose meaning does not flip, and exam items ask which gesture type still communicates when used silently.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "kinesics",
+        "oculesics"
+      ]
+    },
+    {
+      "term": "Individualism-collectivism index",
+      "definition": "Hofstede's 0-to-100 measure of whether people define themselves as 'I' or as part of a permanent in-group: the United States scores about 91, the highest of the fifty-plus countries surveyed, and Guatemala about 6. It answers a different question than power distance, which measures tolerance of unequal authority, and a country can be strongly collectivist while low in power distance. The communication consequence differs accordingly - a high score licenses naming one person's contribution and negotiating one-to-one, a low score requires the group to settle a position before any single voice states it.",
+      "whyItMatters": "An exam item asking why singling out one employee for praise backfired with an overseas team is scored on this dimension, not on generic 'cultural differences.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "power-distance",
+        "uncertainty-avoidance",
+        "high-context-culture"
+      ]
+    },
+    {
+      "term": "Uncertainty avoidance",
+      "definition": "Hofstede's 0-to-100 measure of how threatened a culture feels by ambiguity, which predicts how much written structure a message must carry: high scorers such as Greece near 100 and Japan near 92 expect detailed agendas, explicit rules and signed detail before acting, while low scorers such as Singapore near 8 and Denmark near 23 will work from an open-ended proposal. It is not risk aversion in the financial sense - a high-scoring culture may take a very large risk, provided the procedure for taking it is spelled out.",
+      "whyItMatters": "A roleplay asking how to prepare for a first meeting with a Japanese partner is scored on sending the agenda and documentation in advance rather than planning to improvise.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "power-distance",
+        "individualism-collectivism-index"
+      ]
+    },
+    {
+      "term": "Lewis model",
+      "definition": "Sorts national communication styles into three categories rather than scoring dimensions: linear-active cultures (Germany, Switzerland, the U.S.) plan sequentially, do one thing at a time and argue from facts; multi-active cultures (Italy, Brazil, much of Africa) speak over one another, run several tasks at once and put the relationship ahead of the schedule; reactive cultures (Japan, China, Finland) listen first, do not interrupt, and answer only after a silence that outsiders misread as disagreement. Each country lands in one category, which is what makes it usable mid-meeting where a six-dimension score is not.",
+      "whyItMatters": "An international roleplay in which the counterpart falls silent after your proposal is scored on reading the pause as a reactive-style norm instead of filling it with an unnecessary concession.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "high-context-culture",
+        "power-distance",
+        "individualism-collectivism-index"
+      ]
+    },
+    {
+      "term": "Transition-relevance place",
+      "definition": "The point inside a speaker's turn - a completed clause, a finished idea, a falling intonation - at which someone else may take the floor without it counting as an interruption. Conversation analysis clocks the median gap between turns at about 200 milliseconds across languages, so speech beginning before one of these points is an interruption while speech beginning at one is a harmless overlap, and a silence stretched past roughly 700 milliseconds is itself heard as reluctance or disagreement.",
+      "whyItMatters": "Group-discussion and team-event judges score whether a competitor gets into the conversation without cutting anyone off, which is a finer rule than 'wait until they stop talking.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "active-listening",
+        "backchanneling"
+      ]
+    },
+    {
+      "term": "Ladder of inference",
+      "definition": "Chris Argyris's seven-rung account of how observable data turns into action - available data, selected data, added meaning, assumptions, conclusions, beliefs, action - closed by a loop in which today's beliefs decide which data gets selected tomorrow. Nearly every workplace disagreement traces to the second rung rather than the last: two people acting on opposite conclusions are usually looking at different slices of the same facts, so arguing about the conclusion never settles it.",
+      "whyItMatters": "A conflict roleplay between two departments is scored on asking what each side is actually looking at before defending a position.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "active-listening",
+        "perception-check"
+      ]
+    },
+    {
+      "term": "Delphi technique",
+      "definition": "Structured group judgment in which the participants never meet: an expert panel answers a questionnaire anonymously, a facilitator returns an anonymized summary of the reasoning, and the panel answers again - usually two or three rounds, until the responses converge. Anonymity sustained across rounds is what removes the loudest-voice effect, unlike the nominal group technique, whose members sit in one room and rank ideas after generating them silently, and unlike open brainstorming, where influence is immediate.",
+      "whyItMatters": "A problem-solving-group item that specifies experts in different cities and a need to keep rank from steering the answer is scored on naming this method rather than calling a meeting.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "nominal-group-technique",
+        "raci-matrix"
+      ]
+    },
+    {
+      "term": "Spoliation",
+      "definition": "Destroying or failing to preserve messages, files and metadata once litigation is reasonably anticipated - a duty that attaches before any suit is filed rather than when a subpoena arrives, and one that overrides a routine auto-delete policy the moment it triggers. Courts sanction it independently of the merits of the underlying case and may instruct a jury to assume the missing email said the worst; running business decisions through disappearing-message apps is the current version of the problem.",
+      "whyItMatters": "Exam items about the legal exposure a firm takes on by doing business over chat and email are scored on this preservation duty, and a roleplay where a manager tells staff to 'clean up old emails' after a customer threatens to sue is the trap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills",
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "digital-communication-risk",
+        "record-retention-schedule"
+      ]
+    },
+    {
+      "term": "SMOG index",
+      "definition": "A readability formula built on polysyllables alone: count every word of three or more syllables in 30 sentences - 10 from the start, 10 from the middle, 10 from the end - take the square root of that count, round to the nearest perfect square, and add 3 to get the required grade level. It is calibrated to 100 percent comprehension, while Flesch-Kincaid and Gunning fog are calibrated to roughly 50 to 75 percent, so on the same passage it normally returns a grade one to two levels higher.",
+      "whyItMatters": "Allergen notices, safety cards and medical consent copy are written to a SMOG target, so a hospitality roleplay on rewriting a warning label is scored on naming the stricter comprehension standard rather than promising 'plain English.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "gunning-fog-index",
+        "flesch-kincaid-grade-level"
+      ]
+    },
+    {
+      "term": "Coleman-Liau index",
+      "definition": "Estimates U.S. grade level from letters rather than syllables: 0.0588 x (letters per 100 words) - 0.296 x (sentences per 100 words) - 15.8. Counting characters is the point - a syllable count needs a pronunciation dictionary and a character count does not - which is why word processors and web tools can score a document automatically, and why it rates dense technical prose full of short-but-long-lettered words harder than Flesch-Kincaid does.",
+      "whyItMatters": "An exam item asking which readability check a company can run inside its own email platform with no extra software is testing the characters-versus-syllables distinction.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "flesch-kincaid-grade-level",
+        "smog-index"
+      ]
+    },
+    {
+      "term": "Dale-Chall readability formula",
+      "definition": "Scores difficulty against a fixed list of roughly 3,000 words a fourth-grader is known to recognize: 0.1579 x (percent of words absent from the list) + 0.0496 x (average sentence length), plus 3.6365 whenever more than 5 percent of the words are unfamiliar. It is the only common formula that can call a short word hard because it is rare, so 'writ' counts against the score and 'refrigerator' does not.",
+      "whyItMatters": "A question asking why a two-syllable legal term makes a customer notice harder to read than a five-syllable everyday word is answered by the familiar-word list, not by syllable counting.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "smog-index",
+        "flesch-reading-ease"
+      ]
+    },
+    {
+      "term": "Masculinity-femininity index",
+      "definition": "Hofstede's third national-culture score, on a 0 to 100 scale, for how far a society rewards competition, achievement and visible success over cooperation, modesty and quality of life. A high score predicts that public recognition and a stretch target motivate a sales force; a low score predicts that consensus and protected time off do, and that an assertive closing style reads as rude. Japan scores about 95, Sweden about 5.",
+      "whyItMatters": "An international-business roleplay that asks you to design an incentive plan for sales teams in two countries is judged on changing the reward itself, and this is the dimension that tells you which reward lands.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "power-distance",
+        "individualism-collectivism-index"
+      ]
+    },
+    {
+      "term": "Long-term orientation",
+      "definition": "Hofstede's fifth score, first labelled Confucian dynamism, for how far a society accepts that thrift, perseverance and adapting tradition pay off later, against a short-term pole that prizes immediate results, meeting social obligations now and keeping tradition intact. High-scoring markets tolerate a multi-year payback on an investment; low-scoring ones judge the same project on this quarter's numbers.",
+      "whyItMatters": "A roleplay that asks you to pitch a store expansion to an overseas partner is scored on whether you frame the payback period the way that culture reads it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "uncertainty-avoidance",
+        "indulgence-versus-restraint"
+      ]
+    },
+    {
+      "term": "Indulgence versus restraint",
+      "definition": "Hofstede's sixth and newest dimension, scoring how far a society lets people act on natural drives to enjoy life and have fun against how far strict social norms suppress them. Restrained societies report fewer people describing themselves as very happy, tighter rules about leisure and a weaker sense of control over their own lives - which is why humour, casual imagery and lifestyle appeals in an advertisement travel badly into a low-scoring market.",
+      "whyItMatters": "A promotion roleplay that asks you to adapt a playful campaign for an overseas launch is scored on naming the cultural dimension that predicts the backlash, not on saying the ad should be 'more serious.'",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "long-term-orientation",
+        "power-distance"
+      ]
+    },
+    {
+      "term": "GLOBE study",
+      "definition": "A 62-society research program led by Robert House, surveying about 17,000 managers, that extended Hofstede's work to nine dimensions - adding performance orientation, humane orientation, assertiveness and in-group collectivism - and measured every one of them twice: 'as is' practices and 'should be' values. The two scores often run in opposite directions, so a society can practise high power distance while wishing for far less of it, and a manager who reads only the practice score misreads what employees actually want.",
+      "whyItMatters": "When an exam item asks why two cultural studies rank the same country differently, the answer is this practices-versus-values split rather than a sampling error.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "power-distance",
+        "uncertainty-avoidance"
+      ]
+    },
+    {
+      "term": "Achievement versus ascription",
+      "definition": "Trompenaars' dimension for where a culture grants status: earned from what a person has accomplished and can demonstrate, or ascribed from age, seniority, schooling or family connection. It decides who must be in the room - in an ascription culture, sending a talented 25-year-old to negotiate with a 60-year-old director signals that the deal is unimportant, no matter how strong the proposal is.",
+      "whyItMatters": "A roleplay that asks you to staff a meeting with an overseas supplier is judged on matching the seniority of the delegation, and this dimension is the reason.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "particularism",
+        "power-distance"
+      ]
+    },
+    {
+      "term": "Elaboration likelihood model",
+      "definition": "Petty and Cacioppo's two-route account of persuasion. An audience with both the motivation and the ability to think takes the central route, where argument quality decides and the resulting attitude is durable and resists counter-argument. An audience missing either one takes the peripheral route, where source attractiveness, the sheer length of the list and mood decide, and the attitude fades quickly. Adding more evidence for a distracted, uninvolved audience therefore changes nothing.",
+      "whyItMatters": "A persuasive-message item that asks why a detailed cost-savings memo convinced the CFO but not the frontline staff is asking which route each audience was on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "persuasive-message",
+        "inoculation-theory"
+      ]
+    },
+    {
+      "term": "Inoculation theory",
+      "definition": "McGuire's finding that resistance to persuasion is built the way immunity is: expose the audience to a weakened form of the attack - state the opposing argument, then refute it - and they build defences that hold when the full-strength version arrives. A message that only asserts your own side leaves the listener undefended, which is why a two-sided message with refutation beats a one-sided one whenever the audience will later hear the other side.",
+      "whyItMatters": "In a sales roleplay where the judge plays a client who will hear a competitor's pitch next, raising and answering the competitor's objection yourself is the scored move.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "elaboration-likelihood-model",
+        "persuasive-message"
+      ]
+    },
+    {
+      "term": "Extended parallel process model",
+      "definition": "Witte's account of why a fear appeal sometimes backfires. The audience first appraises the threat - how severe it is and how likely it is to hit them - and then appraises efficacy: whether the recommended action actually works and whether they can personally perform it. High threat with high efficacy produces danger control and the behaviour changes; high threat with low efficacy produces fear control, where people reduce the fear instead of the risk by denying, avoiding or mocking the message. Raising the threat without raising efficacy makes the outcome worse than saying nothing.",
+      "whyItMatters": "A workplace-safety or public-service roleplay is scored on pairing the alarming statistic with one specific step the audience can carry out, and this names why the pairing is required.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "persuasive-message",
+        "elaboration-likelihood-model"
+      ]
+    },
+    {
+      "term": "Stasis theory",
+      "definition": "A classical four-question procedure for locating the exact point at which two sides disagree: conjecture (did it happen?), definition (what should it be called?), quality (how serious is it?) and policy (what should be done about it?). Arguing at the wrong level is the standard failure - answering 'what should we do' while the other side is still disputing whether anything happened produces two speeches that never touch.",
+      "whyItMatters": "When a judge in a conflict roleplay disputes your facts and you answer with a solution, you lose points for never meeting the objection; this names the level you skipped.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "toulmin-model",
+        "rogerian-argument"
+      ]
+    },
+    {
+      "term": "Rogerian argument",
+      "definition": "A persuasive structure adapted from Carl Rogers' therapy: open by restating the opposing position accurately enough that its holder would accept your summary, name the conditions under which it is valid, and only then introduce your own claim and the ground the two share. It deliberately withholds the thesis until the audience has been disarmed, which makes it the standard choice for a hostile listener and a poor choice for one who already agrees and wants the recommendation in the first line.",
+      "whyItMatters": "A roleplay in which the judge plays an angry supervisor or a customer who has already refused once is scored on this opening move rather than on a louder restatement of your case.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "monroe-s-motivated-sequence",
+        "direct-message-pattern"
+      ]
+    },
+    {
+      "term": "Enthymeme",
+      "definition": "Aristotle's rhetorical syllogism, in which one premise is deliberately left unspoken because the audience already believes it and will supply it themselves. 'We should sponsor the tournament - our customers are all high school families' hides the premise that reaching high school families is worth what the sponsorship costs. The unstated premise is where the argument is strongest with a friendly audience and weakest with a hostile one, because attacking what was never said aloud is easier than attacking what was.",
+      "whyItMatters": "Exam items that ask what assumption a memo's recommendation rests on are asking you to recover exactly this missing premise.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "toulmin-model",
+        "artistic-proof"
+      ]
+    },
+    {
+      "term": "Artistic proof",
+      "definition": "In Aristotle's Rhetoric, the persuasive material the speaker actually invents - ethos, the character the speaker projects; pathos, the emotion produced in the audience; and logos, the reasoning inside the message. It stands against inartistic proof, which the speaker only finds and presents: contracts, testimony, laws, prior statistics. The distinction matters because a weak case is repaired by inventing better proof of the first kind, never by restating the same evidence more loudly.",
+      "whyItMatters": "Presentation rubrics award points across all three, so a roleplay answer that is pure data with no credibility and no audience appeal caps out even when every number is right.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "enthymeme",
+        "toulmin-model"
+      ]
+    },
+    {
+      "term": "Post hoc ergo propter hoc",
+      "definition": "The reasoning error of treating sequence as cause: sales rose after the new sign went up, therefore the sign raised sales. The test has two parts - could any other change explain the same movement (season, a competitor closing, a price cut, a general market lift), and is there a mechanism connecting the two? It is the fallacy behind most claimed advertising results, because campaigns are launched in the same weeks that demand naturally climbs.",
+      "whyItMatters": "A promotion roleplay that hands you a sales bump right after a campaign is scored on whether you ask for a control comparison instead of claiming the credit.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "toulmin-model",
+        "ladder-of-inference"
+      ]
+    },
+    {
+      "term": "Gricean maxim",
+      "definition": "One of the four rules Paul Grice argued every speaker in a cooperative exchange is assumed to be following: quantity (say as much as is needed and no more), quality (say only what you believe true and can support), relation (stay relevant) and manner (be brief, orderly and unambiguous). Meaning rides on a broken rule as much as a kept one - an unusually short answer to 'how did the interview go' communicates trouble precisely because it violates quantity.",
+      "whyItMatters": "Items about reading between the lines of a customer's reply, or about why an over-detailed email starts to sound evasive, are testing these four rules by name.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "semantic-noise",
+        "active-listening"
+      ]
+    },
+    {
+      "term": "Illocutionary act",
+      "definition": "In speech act theory (Austin and Searle), the action a speaker performs in saying something - promising, ordering, warning, refusing - as distinct from the locutionary act, which is the literal words and their sense, and the perlocutionary act, which is the effect actually produced in the hearer. 'It is cold in here' is locutionally a remark about temperature, illocutionarily a request, and perlocutionarily successful only if somebody closes the window.",
+      "whyItMatters": "A service roleplay in which the customer says 'I have been waiting a while' is scored on whether you answer the request rather than the sentence.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "performative-utterance",
+        "active-listening"
+      ]
+    },
+    {
+      "term": "Performative utterance",
+      "definition": "A sentence that does not describe an act but carries it out, so it cannot be true or false - only successful or void: 'I accept your offer,' 'I resign,' 'I hereby order 500 units.' Austin's felicity conditions are what make it stick - the right person, the right circumstances, the right form - which is why a casually typed 'agreed' from an authorized employee can create a binding acceptance while a long email full of enthusiasm creates nothing.",
+      "whyItMatters": "Digital-risk items that ask how a staff member bound the company in a chat message turn on this distinction between describing and doing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "digital-communication-risk",
+        "illocutionary-act"
+      ]
+    },
+    {
+      "term": "Face-threatening act",
+      "definition": "Brown and Levinson's term for any move that damages a hearer's public self-image - a criticism, a refusal, an order, a correction - together with the two repairs speakers use on it. Negative politeness protects the hearer's freedom by hedging and leaving an exit ('if you have a moment, could you possibly...'); positive politeness protects the hearer's need to be liked, using shared identity, praise and in-group language. Choosing the wrong repair is why a technically polite email still lands badly.",
+      "whyItMatters": "A supervisor roleplay that asks you to correct an employee's work is scored on which softening strategy you choose, not just on the accuracy of the correction.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "professional-email",
+        "direct-message-pattern"
+      ]
+    },
+    {
+      "term": "Previous question",
+      "definition": "The motion in Robert's Rules that closes debate and forces an immediate vote on the pending item. It is not the item itself and it is not a question: it must be seconded, is undebatable and unamendable, and takes a two-thirds vote because it strips members of the right to speak. Someone shouting 'Question!' from the floor has not made this motion and has not ended debate - the chair must still put it to the assembly.",
+      "whyItMatters": "A meeting-procedure item that shows a chair cutting off discussion on a simple majority is testing the two-thirds threshold attached to this motion.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "robert-s-rules-of-order",
+        "point-of-order"
+      ]
+    },
+    {
+      "term": "Point of order",
+      "definition": "A member's assertion that the rules are being broken at this moment - a motion made out of order, debate wandering off the pending question, a vote miscounted. It may interrupt a speaker, requires no second, is not debatable, and is settled by the chair's ruling rather than a vote, though any two members may appeal that ruling to the assembly. It must be timely: raised after the offending action is complete, it is normally too late.",
+      "whyItMatters": "Chapter meetings and management roleplays run on a written agenda test whether you know which objections may interrupt a speaker and which must wait for the floor.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "robert-s-rules-of-order",
+        "previous-question"
+      ]
+    },
+    {
+      "term": "Privileged motion",
+      "definition": "The highest-ranking class of motion in Robert's Rules - adjourn, recess, raise a question of privilege, call for the orders of the day - urgent enough that it may be made while other business is pending and outranks every subsidiary motion. Because it does not relate to the pending question it is undebatable in most forms, and its rank is exactly why a motion to adjourn can be made while an amendment is on the floor but an amendment cannot be made while adjournment is.",
+      "whyItMatters": "Items that ask which motion may be made while another is still pending are testing the precedence ladder, and this class is its top rung.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "deca-domain:communication_skills"
+      ],
+      "confusableWith": [
+        "robert-s-rules-of-order",
+        "previous-question"
+      ]
+    },
+    {
+      "term": "Litigation hold",
+      "definition": "A written instruction, issued the moment a company reasonably anticipates a dispute, that suspends every routine deletion schedule and directs named custodians to preserve emails, chat threads, drafts and text messages on the subject. The duty attaches before any complaint is filed, and letting an auto-delete rule keep running past that point is what converts ordinary records management into spoliation, exposing the company to an adverse-inference instruction at trial.",
+      "whyItMatters": "Digital-risk items that ask what an employee must do with a group chat once a customer threatens to sue are testing this duty and, above all, its trigger point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt",
+        "backend/roleplay-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "spoliation",
+        "digital-communication-risk"
+      ]
+    },
+    {
+      "term": "WCAG contrast ratio",
+      "definition": "The measured luminance relationship between text and the background behind it under the Web Content Accessibility Guidelines, expressed from 1:1 to 21:1. Level AA requires at least 4.5:1 for body text and 3:1 for large text - 18 point, or 14 point bold - plus 3:1 for interface components and meaningful graphics; level AAA raises body text to 7:1. Light grey captions and a pale brand colour on a white slide are the two failures that show up most.",
+      "whyItMatters": "A written event or presentation judged on accessibility is scored on naming the threshold your deck actually meets, not on asserting that the colours look readable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "graphic-aids",
+        "data-visualization"
+      ]
+    },
+    {
+      "term": "Small multiple",
+      "definition": "Tufte's format for comparison: a grid of miniature charts sharing identical axes, identical scales and identical design, with exactly one variable changing from panel to panel - one region, one month or one product each. Holding the scale constant across every panel is the whole specification, and letting each panel auto-scale to its own data is the most common way the format is faked, because it destroys the comparison it exists to make.",
+      "whyItMatters": "A data-visualization task that hands you five years of sales across eight stores is scored on choosing this over one line chart with eight tangled series.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/communication_skills.txt"
+      ],
+      "confusableWith": [
+        "data-visualization",
+        "graphic-aids"
       ]
     }
   ]

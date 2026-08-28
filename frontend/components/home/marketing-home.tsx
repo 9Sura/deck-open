@@ -127,7 +127,7 @@ export function MarketingHome() {
   );
 
   return (
-    <div className="dot-grid bg-paper" onClickCapture={onClickCapture}>
+    <div className="bg-paper" onClickCapture={onClickCapture}>
       {/* ------------------------------------------------------------- HERO */}
       <section className="relative mx-auto max-w-6xl overflow-hidden px-5 pb-16 pt-14 sm:px-8 sm:pt-20">
         {/* margin doodles — fewer, more meaningful marks */}
@@ -200,7 +200,7 @@ export function MarketingHome() {
       </section>
 
       {/* --------------------------------------------------------- HOW IT WORKS */}
-      <section id="how" className="dot-grid border-t border-dashed border-line bg-paper-2">
+      <section id="how" className="border-t border-dashed border-line bg-paper-2">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
           <AnimatedSection className="mb-12 text-center">
             <MarkerText rotate={-3} className="text-base">
@@ -230,10 +230,7 @@ export function MarketingHome() {
             <Button asChild size="lg" variant="accent">
               <Link href="/test-generator">Start practicing</Link>
             </Button>
-            <div className="flex items-center gap-2 text-sm text-muted">
-              <Sparkle className="h-4 w-4 text-accent" />
-              Free while in beta
-            </div>
+            <div className="text-sm text-muted">Free while in beta</div>
           </AnimatedSection>
         </div>
       </section>

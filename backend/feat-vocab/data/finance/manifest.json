@@ -21,31 +21,31 @@
       "code": "ACT",
       "name": "Accounting Applications Series",
       "file": "ACT/vocab.json",
-      "termCount": 50
+      "termCount": 250
     },
     {
       "code": "BFS",
       "name": "Business Finance Series",
       "file": "BFS/vocab.json",
-      "termCount": 50
+      "termCount": 250
     },
     {
       "code": "FTDM",
       "name": "Financial Services Team Decision Making",
       "file": "FTDM/vocab.json",
-      "termCount": 50
+      "termCount": 250
     },
     {
       "code": "PFN",
       "name": "Principles of Finance",
       "file": "PFN/vocab.json",
-      "termCount": 50
+      "termCount": 250
     },
     {
       "code": "PFL",
       "name": "Personal Financial Literacy",
       "file": "PFL/vocab.json",
-      "termCount": 50
+      "termCount": 250
     }
   ]
 }

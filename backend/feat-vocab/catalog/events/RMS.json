@@ -1,0 +1,434 @@
+{
+  "code": "RMS",
+  "terms": [
+    {
+      "term": "Gross margin return on footage (GMROF)",
+      "definition": "Margin dollars a department earns divided by the square footage it occupies, so a category producing $80,000 of margin on 400 feet returns $200 a foot and outranks one producing $120,000 on 900 feet.",
+      "whyItMatters": "A floor-plan roleplay that asks which department surrenders space to a new fixture is settled on margin per foot; the bigger seller frequently returns less per foot than the smaller one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "sales-per-square-foot",
+        "gross-margin-return-on-inventory-investment-gmroi"
+      ]
+    },
+    {
+      "term": "Gross margin return on labor (GMROL)",
+      "definition": "Margin dollars divided by the payroll hours a department consumed to produce them; a service-heavy category can beat a self-select one on margin percent and still lose on this figure once its selling hours are counted.",
+      "whyItMatters": "Roleplays about trimming scheduled hours in one department turn on it — the judge wants the payroll dollar set against the margin it generated, not against sales volume.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "gross-margin-return-on-footage-gmrof",
+        "sales-per-square-foot"
+      ]
+    },
+    {
+      "term": "Sales per linear foot",
+      "definition": "Net sales divided by the running feet of fixture a category occupies, measured horizontally along the wall or gondola no matter how many shelves are stacked within it — the figure that decides how much of a four-foot section a slow SKU keeps.",
+      "whyItMatters": "Shelf-reset roleplays require justifying the transfer of a foot of space from one brand to another; linear productivity is the number that makes that defensible instead of arbitrary.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "sales-per-square-foot",
+        "space-to-sales-index"
+      ]
+    },
+    {
+      "term": "Weeks of supply",
+      "definition": "On-hand units divided by average weekly unit sales — 240 units moving 30 a week is eight weeks — converting a raw count into a forward statement about whether the store runs out before the next delivery or is still holding goods at markdown time.",
+      "whyItMatters": "In a replenishment roleplay the competitor must turn 'we have plenty' into a provable number the judge can check against the delivery cycle.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "stock-to-sales-ratio",
+        "days-sales-of-inventory"
+      ]
+    },
+    {
+      "term": "Off-retail markdown percentage",
+      "definition": "A reduction measured against the ticket the item carries today rather than its original price: a $50 item already cut to $40 and now moved to $30 is 25% off retail but 40% off original, and only the first figure may go on the sign.",
+      "whyItMatters": "Price-change roleplays and markdown math items both hinge on which base was used; quoting the off-original figure on a second reduction overstates the discount to the customer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "markdown-percentage",
+        "markdown-cancellation"
+      ]
+    },
+    {
+      "term": "Markdown cancellation",
+      "definition": "The upward price change that returns a temporarily reduced item toward its former ticket when a sale ends; it can offset the earlier reduction but never exceed it, because anything above the original price is an additional markup instead.",
+      "whyItMatters": "Weekend-promotion roleplays require showing that Monday's price restoration is a cancellation, not a markup — only cancellations net against the season's markdown dollars.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "off-retail-markdown-percentage",
+        "retail-reductions"
+      ]
+    },
+    {
+      "term": "Retail reductions",
+      "definition": "Everything that lowers the retail value of stock other than a full-price sale — markdowns, employee and customer discounts, and shrinkage — totalled and stated against net sales: $40,000 plus $6,000 plus $4,000 on $250,000 of sales is 20%.",
+      "whyItMatters": "Exam items ask which of four listed items belongs in the total, and roleplays ask a manager to explain why planned sales alone understate what the season's inventory must cover.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "inventory-shrinkage-rate",
+        "markdown-percentage"
+      ]
+    },
+    {
+      "term": "Book-to-physical variance",
+      "definition": "The gap between what the perpetual records say should be on hand and what the count actually finds, stated in retail dollars and as a percent of sales — books of $412,000 against a counted $398,600 on $1.2M of sales is a 1.1% loss.",
+      "whyItMatters": "The figure a loss-prevention roleplay opens with; the competitor has to separate genuine loss from paperwork causes such as uncounted transfers or unposted vendor returns before proposing a remedy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "inventory-shrinkage-rate",
+        "shrink-accrual"
+      ]
+    },
+    {
+      "term": "Shrink accrual",
+      "definition": "An estimated loss booked each month between physical counts — usually last year's audited rate applied to current sales — so the P&L carries a steady charge, with a true-up entry correcting the estimate once the count lands.",
+      "whyItMatters": "Explains why a store's monthly margin looks level and then drops sharply in the count month; a competitor asked why gross margin fell in one period must name the true-up rather than blame pricing.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "book-to-physical-variance",
+        "inventory-shrinkage-rate"
+      ]
+    },
+    {
+      "term": "Cycle count accuracy rate",
+      "definition": "The share of counted locations whose on-hand matched the system within tolerance, scored per location rather than per unit — 47 of 50 bins clean is 94%, and a bin wrong by a single unit fails outright.",
+      "whyItMatters": "An operations roleplay that sets up a counting program has to state the standard (commonly 95%+ on A items) and the tolerance; 'we count often' is not a measurable answer for a judge.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "cycle-counting",
+        "rfid-read-rate"
+      ]
+    },
+    {
+      "term": "RFID read rate",
+      "definition": "The percentage of tagged units a handheld or overhead reader actually detects in one pass; retail programs hold it near 95-99%, and every point below that inflates apparent loss because an unread tag looks exactly like a missing unit.",
+      "whyItMatters": "In an inventory-accuracy roleplay the competitor must explain why a tag-based count still needs a stated standard — a 92% read on 10,000 units invents 800 losses that were never stolen.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "cycle-count-accuracy-rate",
+        "phantom-inventory"
+      ]
+    },
+    {
+      "term": "Planogram compliance rate",
+      "definition": "The share of audited facings matching the plan in position, facing count and signing, scored per section — a four-foot bay carrying 40 facings with 6 wrong scores 85%, not 'mostly right'.",
+      "whyItMatters": "Vendor-funded resets and display allowances are paid against an audited percentage, so a roleplay about losing that funding turns on producing the number rather than describing the effort.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "facing-capacity",
+        "space-to-sales-index"
+      ]
+    },
+    {
+      "term": "Facing capacity",
+      "definition": "How many units sit behind the front unit of one shelf position — depth times stack height — which caps what can sell between deliveries: 9 units per position on a shelf served twice a week limits that SKU to 18 units a week regardless of demand.",
+      "whyItMatters": "The arithmetic behind 'add a facing': a competitor asking for more space must show current capacity falls short of the sell rate, not merely that the shelf looked empty at closing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "days-of-supply-per-facing",
+        "planogram-compliance-rate"
+      ]
+    },
+    {
+      "term": "Days of supply per facing",
+      "definition": "Shelf capacity for one position divided by average daily unit sales — 12 units against 4 a day is three days — telling the store whether a SKU survives a weekend without a mid-day fill from the backroom.",
+      "whyItMatters": "Space-allocation roleplays expect any item scoring below the delivery interval to earn another facing or a service visit, and the judge wants that comparison stated out loud.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "facing-capacity",
+        "weeks-of-supply"
+      ]
+    },
+    {
+      "term": "Endcap productivity index",
+      "definition": "Sales per square foot earned in a promotional end-of-aisle position divided by the same figure for the store's in-line shelving; a display running under roughly 3x in-line productivity is not earning the premium space it sits in.",
+      "whyItMatters": "Judges expect a promotional plan to defend which product wins the endcap with a ratio, not with an opinion about which brand deserves the exposure this month.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "sales-per-square-foot",
+        "space-to-sales-index"
+      ]
+    },
+    {
+      "term": "Space-to-sales index",
+      "definition": "A category's percentage of linear feet compared against its percentage of store sales, read as the ratio of the two — 12% of the space driving 8% of sales indexes 0.67 and is over-spaced no matter how large its absolute sales look.",
+      "whyItMatters": "The single number that turns a floor-plan roleplay into an argument: it names which categories give feet up and which take them, and it survives a judge's follow-up question.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "sales-per-linear-foot",
+        "endcap-productivity-index"
+      ]
+    },
+    {
+      "term": "Ship-from-store cost per unit",
+      "definition": "Pick labor, packaging and outbound parcel freight charged against one order line filled from a store's selling stock — normally several dollars above a distribution-center pick, so the markdown avoided on aged inventory has to exceed it before the routing pays.",
+      "whyItMatters": "An omnichannel roleplay asking whether a store should accept online orders is answered by setting this cost against the markdown avoided, not by calling the service convenient.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "bopis-attach-rate",
+        "pick-accuracy-rate"
+      ]
+    },
+    {
+      "term": "BOPIS attach rate",
+      "definition": "The share of pickup customers who buy something additional at the counter — attached transactions divided by pickups, so 300 pickups yielding 66 add-on sales is 22% — and the figure that makes an otherwise unprofitable online order pay.",
+      "whyItMatters": "Justifying pickup-desk staffing in a roleplay requires converting those add-on sales into dollars per pickup and comparing them with the labor hours the desk consumes.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "ship-from-store-cost-per-unit",
+        "buy-online-return-in-store-boris"
+      ]
+    },
+    {
+      "term": "Pick accuracy rate",
+      "definition": "Correctly filled order lines as a percent of lines picked, scored per line rather than per order — a five-line order with one wrong item is 80% — and store-fulfilment programs generally hold it at 98% or better.",
+      "whyItMatters": "A roleplay about online-order complaints needs the error quantified per line before a fix such as scan-verify at packing can be justified to the judge on cost grounds.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "cycle-count-accuracy-rate",
+        "ship-from-store-cost-per-unit"
+      ]
+    },
+    {
+      "term": "On-shelf availability",
+      "definition": "Whether a customer standing in the aisle can actually pick the product up, measured at the shelf instead of in the system — a store can show 99% in stock on the books and still be empty at the point of sale because the units sit in the backroom.",
+      "whyItMatters": "Judges reward the competitor who separates what the inventory report claims from what the shelf shows when asked why sales fell on an item that never registered as out of stock.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "phantom-inventory",
+        "days-of-supply-per-facing"
+      ]
+    },
+    {
+      "term": "Sweethearting",
+      "definition": "Employee theft committed through the register — passing merchandise to a friend without scanning it, or applying a discount the customer is not entitled to — which surfaces as shrink but leaves a transaction trail the register data can be mined for.",
+      "whyItMatters": "Loss-prevention roleplays ask how internal loss differs from shoplifting and what evidence supports discipline; this is the case exception reporting exists to catch.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "exception-based-reporting",
+        "inventory-shrinkage-rate"
+      ]
+    },
+    {
+      "term": "Exception-based reporting",
+      "definition": "Mining point-of-sale data for the transactions that break a pattern — no-sales, voids, receiptless refunds, discounts clustered on one cashier — and flagging only those for review instead of auditing every sale.",
+      "whyItMatters": "The expected answer when a judge asks how a store investigates internal loss without watching every cashier; naming the specific exception types is what earns the point.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "sweethearting",
+        "shrink-accrual"
+      ]
+    },
+    {
+      "term": "Buy online, return in store (BORIS)",
+      "definition": "Accepting at a store counter the return of an item purchased on the website, which puts the unit back into that location's sellable stock and its markdown exposure even though the store never booked the original sale.",
+      "whyItMatters": "Roleplays about managers resisting online returns turn on this split: the store absorbs the labor and the inventory risk while the online channel keeps the revenue credit.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "bopis-attach-rate",
+        "ship-from-store-cost-per-unit"
+      ]
+    },
+    {
+      "term": "Traffic conversion rate",
+      "definition": "Shoppers who buy divided by the door-counter traffic that walked in — the middle term of sales = traffic x rate x average sale — so moving 18% to 19% on 4,000 weekly visitors spending $38 adds $1,520 a week without one additional shopper.",
+      "whyItMatters": "A roleplay asking a store manager to defend added weekend hours is won by pricing the conversion point those hours buy against what they cost, rather than promising better service.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "units-per-transaction-upt",
+        "payroll-to-sales-percentage"
+      ]
+    },
+    {
+      "term": "Units per transaction (UPT)",
+      "definition": "Physical units sold divided by transactions rung — a three-pack scanned once still counts three, which is where it parts company with items per ticket — and sales are transactions x this figure x average unit retail, so 0.2 more units across 900 tickets at $12 is $2,160.",
+      "whyItMatters": "Suggestive-selling roleplays are scored on converting 'sell more add-ons' into the exact per-ticket unit lift the store's sales goal requires, then naming the coaching that produces it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "traffic-conversion-rate",
+        "bopis-attach-rate"
+      ]
+    },
+    {
+      "term": "Terminal stock",
+      "definition": "Units projected to be left over when a season closes — on hand minus weeks remaining times the current rate, so 400 pieces with six weeks to go selling 30 a week strand 220 — and that leftover, not the calendar, sets how deep the first reduction has to be while selling weeks still exist.",
+      "whyItMatters": "A markdown roleplay hinges on proving the cut is needed now; the judge wants the leftover projection, not an assurance that the item might still sell through.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "markdown-ladder",
+        "weeks-of-supply"
+      ]
+    },
+    {
+      "term": "Markdown ladder",
+      "definition": "A fixed schedule of reductions an aged item steps through — 25% at week eight, 40% at twelve, 60% at sixteen — where each step is sized to multiply the sell rate enough to clear the units still on hand before the next step lands, not merely to look cheaper than last week.",
+      "whyItMatters": "Clearance roleplays ask why an item was cut on that date at that depth; naming the step, the week and the units it must move is the answer that scores, and 'it wasn't moving' is not.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "terminal-stock",
+        "off-retail-markdown-percentage"
+      ]
+    },
+    {
+      "term": "Scan price accuracy",
+      "definition": "The share of a random shelf sample that rings at the posted price, audited by weights-and-measures inspectors on 50 items against a 98% floor — two misses fail the lot — with overcharges scored on their own so undercharges can never net them out.",
+      "whyItMatters": "An inspection roleplay turns on the sample size, the pass mark and that asymmetry; 'we correct wrong prices quickly' does not survive the judge's first follow-up question.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "planogram-compliance-rate",
+        "off-retail-markdown-percentage"
+      ]
+    },
+    {
+      "term": "Phantom inventory",
+      "definition": "A positive on-hand the shelf cannot actually produce, which costs more than plain loss because automatic replenishment only fires below the reorder point: a stuck count of four against a point of three orders nothing ever again, so stores hunt it with a stock-on-hand-but-zero-sales rule instead of waiting for the annual count.",
+      "whyItMatters": "Asked why a top seller quietly stopped selling while never once recording an out-of-stock, the competitor has to name the record error that froze ordering and the audit trigger that surfaces it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "on-shelf-availability",
+        "book-to-physical-variance"
+      ]
+    },
+    {
+      "term": "Payroll-to-sales percentage",
+      "definition": "Store labor dollars measured against net sales, of which only a part can actually move: a site running 8% on $60,000 spends $4,800, and if $1,900 covers management and open-to-close coverage, a 10% sales miss has to come out of the $2,900 that flexes — about a fifth of those hours.",
+      "whyItMatters": "Roleplays that hand a manager a sales shortfall and a payroll target are scored on cutting from the flexible pool with the arithmetic shown, not on trimming every department equally.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "traffic-conversion-rate",
+        "gross-margin-return-on-labor-gmrol"
+      ]
+    },
+    {
+      "term": "Comparable store sales",
+      "definition": "Growth measured only across locations open through both periods — customarily thirteen months, with remodels and relocations pulled out of the base — which is how a chain opening doors posts record total revenue while this figure falls and the existing fleet is in fact shrinking.",
+      "whyItMatters": "When a judge asks whether the company is really growing, the expected answer defines the base first and then explains what the total-sales headline was concealing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "selling-to-gross-square-footage-ratio",
+        "sales-per-linear-foot"
+      ]
+    },
+    {
+      "term": "Selling-to-gross square footage ratio",
+      "definition": "How much of a building's footprint actually holds sellable fixtures — 16,800 feet of 24,000 is 70% — and the reason two stores' productivity numbers cannot be compared until both use the same base, since rent is charged on every gross foot while sales come only from the selling ones.",
+      "whyItMatters": "Benchmarking roleplays fall apart when one store divides sales by gross feet and its comparison divides by selling feet; the competitor has to state the base before quoting the figure.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "sales-per-linear-foot",
+        "space-to-sales-index"
+      ]
+    },
+    {
+      "term": "Store fulfillment cancel rate",
+      "definition": "Online order lines a store accepts and then cannot locate, divided by lines routed to it — each one forfeits the sale plus the pick labor already spent — and the remedy is arithmetic rather than effort: lifting the routing buffer so any SKU at two or fewer on hand is never offered online removes most of them.",
+      "whyItMatters": "An omnichannel roleplay about cancellation emails is answered by weighing that buffer against the sellable demand it hides, which is the trade-off the judge is waiting to hear.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:RMS"
+      ],
+      "confusableWith": [
+        "pick-accuracy-rate",
+        "phantom-inventory"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,360 @@
+{
+  "code": "HLM",
+  "terms": [
+    {
+      "term": "RevPAR index",
+      "definition": "A hotel's revenue per available room divided by the competitive set's, times 100 — 100 means the property is capturing exactly its fair share, 112 means it is taking 12% more revenue per room than its share of the market's rooms would predict.",
+      "whyItMatters": "STR-report roleplays hand you a property at 92 and ask what to do; the index tells you the hotel is losing share even in a year its own RevPAR rose, which a raw dollar figure hides.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "revenue-per-available-room-revpar",
+        "market-penetration-index",
+        "average-rate-index"
+      ]
+    },
+    {
+      "term": "Market penetration index",
+      "definition": "Occupancy divided by the competitive set's occupancy, times 100 — it isolates how well a hotel fills rooms independently of what it charges for them, so a property can score 118 here while losing money on rate.",
+      "whyItMatters": "When a judge asks why a full hotel is underperforming, the answer is an MPI above 100 paired with an ARI below 100: it is buying occupancy with discounts.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "average-rate-index",
+        "revpar-index",
+        "fair-share"
+      ]
+    },
+    {
+      "term": "Average rate index",
+      "definition": "A property's average daily rate divided by the competitive set's, times 100; multiplied by the occupancy index and divided by 100 it reproduces the RevPAR index exactly, which is why the three are read as one triangle.",
+      "whyItMatters": "Given MPI 105 and ARI 90, a competitor must be able to say RevPAR index is 94.5 and recommend rate discipline rather than more discounting.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "market-penetration-index",
+        "revpar-index"
+      ]
+    },
+    {
+      "term": "Fair share",
+      "definition": "The percentage of a competitive set's total room supply a hotel owns — 150 rooms in a 1,000-room comp set is 15%, and that 15% is the baseline any occupancy or revenue index is measured against.",
+      "whyItMatters": "Adding a 200-room competitor drops the same hotel's fair share to 12.5%; a rooms-division case turns on recognizing that the index moved because supply moved, not because the hotel got worse.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "market-penetration-index",
+        "revpar-index"
+      ]
+    },
+    {
+      "term": "GOPPAR",
+      "definition": "Gross operating profit divided by available room nights — unlike a top-line rooms metric it nets out every department's revenue and every controllable expense, so it moves with flow-through and can fall in a quarter when RevPAR rises.",
+      "whyItMatters": "Owner and asset-manager roleplays are graded on profit per room, not revenue per room; a discount program that lifts RevPAR while adding labor and commission cost shows up here as a loss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "revenue-per-available-room-revpar",
+        "incentive-management-fee"
+      ]
+    },
+    {
+      "term": "Yield statistic",
+      "definition": "Actual rooms revenue divided by potential rooms revenue — the dollars a hotel would earn selling every room at rack — expressed as a percentage, so 100% occupancy at half price scores 50%.",
+      "whyItMatters": "A revenue-management roleplay that praises a sold-out night is testing whether you can compute the yield and show the sellout was bought with rate the property did not need to give away.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "revenue-per-available-room-revpar",
+        "net-adr-yield"
+      ]
+    },
+    {
+      "term": "Hubbart formula",
+      "definition": "A bottom-up room-pricing method that starts from the owner's required return on investment, adds income tax, fixed charges, operating expenses and other departments' losses, then divides the total by forecast rooms sold to yield the rate the property must average.",
+      "whyItMatters": "Asked to justify a rate to an owner rather than to the market, a competitor works this backwards from the desired profit; a bottom-line target of $1.2M over 40,000 room nights sets a floor no competitive shop can override.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "best-available-rate"
+      ]
+    },
+    {
+      "term": "Double occupancy percentage",
+      "definition": "Guests in house minus rooms sold, divided by rooms sold — 320 guests in 250 occupied rooms is 28%, and that figure, not the room count, forecasts breakfast covers, amenity par and housekeeping linen draw.",
+      "whyItMatters": "A group booked at two guests per room changes the F&B and labor forecast even though the rooms number is unchanged; hospitality cases hide the labor overrun in exactly that gap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "cost-per-occupied-room"
+      ]
+    },
+    {
+      "term": "Displacement analysis",
+      "definition": "The arithmetic that compares the revenue a low-rate group would bring against the higher-rate transient business it would push out on the same dates, counting the ancillary spend of each, before a group rate is quoted.",
+      "whyItMatters": "A group asking for 80 rooms at $119 on a night forecast to sell out at $189 is a net loss of roughly $5,600 in rooms revenue; the roleplay wants that number computed before the discount is refused.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "last-room-availability",
+        "walk-cost"
+      ]
+    },
+    {
+      "term": "Walk cost",
+      "definition": "The full price of relocating an oversold guest — a comparable room paid at the receiving hotel, transportation, a phone call home, plus the recovery gesture and the lost future value of the relationship — which is what the overbooking level must stay cheaper than.",
+      "whyItMatters": "Overbooking questions are decided by comparing this figure against the average rate lost to a no-show; if walking costs $340 and an empty room costs $150, the property overbooks less aggressively.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "no-show-factor",
+        "displacement-analysis"
+      ]
+    },
+    {
+      "term": "No-show factor",
+      "definition": "The historical percentage of guaranteed reservations that never arrive, segmented by market and day of week, applied to the reservations on the books to set how many rooms above capacity may safely be sold.",
+      "whyItMatters": "With 400 rooms, 400 on the books and a 6% factor for corporate midweek, a competitor sells 24 more rooms rather than guessing; the roleplay is graded on showing the multiplication.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "walk-cost",
+        "rooms-availability-formula"
+      ]
+    },
+    {
+      "term": "Rooms availability formula",
+      "definition": "Total rooms less out-of-order rooms, less stayovers, less reservations, plus expected understays and no-shows — the arithmetic that says how many rooms may still be sold for tonight, which is never simply capacity minus reservations.",
+      "whyItMatters": "A front-office roleplay hands you the house count and asks whether a walk-in can be accommodated; forgetting the understay and no-show additions leaves rooms empty that were sellable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "no-show-factor"
+      ]
+    },
+    {
+      "term": "Rate parity",
+      "definition": "A distribution-contract obligation to publish no lower price on any other channel than the one given to the contracting intermediary, which is why a hotel undercuts online travel agencies with member-only closed rates and added value rather than a lower public price.",
+      "whyItMatters": "When an owner demands the website beat the OTA, a competitor must explain the clause and route the answer through a loyalty log-in rate — several European jurisdictions have narrowed or banned the wide form, and quoting that distinction earns the point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "best-available-rate",
+        "last-room-availability",
+        "net-rate"
+      ]
+    },
+    {
+      "term": "Net ADR yield",
+      "definition": "Average daily rate less all distribution cost — commission, transaction fee, loyalty charge — divided by the average daily rate; a $200 booking carrying $36 of channel cost yields 82%, so it is worth less than a $180 direct booking.",
+      "whyItMatters": "Channel-mix roleplays are won by ranking sources on this rather than on rate, because the highest-rate channel is routinely the least profitable one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "net-rate",
+        "yield-statistic",
+        "billboard-effect"
+      ]
+    },
+    {
+      "term": "Last room availability",
+      "definition": "A negotiated-account clause requiring the hotel to honor the contracted rate for as long as any room of that type remains unsold, stripping away the length-of-stay and closed-date fences revenue management would otherwise apply.",
+      "whyItMatters": "A corporate account demanding it on a citywide sellout date is asking the hotel to give up its highest-rate night; the roleplay wants the displacement cost quantified before the clause is conceded.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "displacement-analysis",
+        "rate-parity",
+        "best-available-rate"
+      ]
+    },
+    {
+      "term": "Par level",
+      "definition": "The multiple of a full house a property stocks of a circulating item — three par of linen means one set on the bed, one in the laundry cycle and one on the shelf, so a 200-room hotel buys 600 sets, not 200.",
+      "whyItMatters": "Housekeeping budget roleplays turn on this multiplication; ordering one par is the error that strands a property when the laundry goes down and forces emergency purchasing at retail.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "cost-per-occupied-room",
+        "room-attendant-credit"
+      ]
+    },
+    {
+      "term": "Room attendant credit",
+      "definition": "The workload unit behind a housekeeping schedule — a standard guestroom counts as one and takes about half an hour, a suite or a checkout counts as more, and a full eight-hour shift carries roughly fifteen of them after breaks and briefing.",
+      "whyItMatters": "Asked to staff 240 occupied rooms, a competitor divides by the credit standard to get sixteen attendants and can defend the number to a general manager who wants twelve.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "par-level",
+        "cost-per-occupied-room"
+      ]
+    },
+    {
+      "term": "Cost per occupied room",
+      "definition": "A department's controllable expense divided by rooms actually sold rather than rooms available, which makes it the only labor or supply figure that can be compared honestly between a 45% and an 85% occupancy month.",
+      "whyItMatters": "A housekeeping manager whose total payroll rose in a strong month is defended by showing this measure fell; the exam item is testing the occupied-versus-available denominator.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "goppar",
+        "par-level",
+        "double-occupancy-percentage"
+      ]
+    },
+    {
+      "term": "City ledger",
+      "definition": "The set of nonguest receivable accounts — direct-bill companies, travel-agency commissions, bad checks, late charges — that a folio is transferred into once the guest has departed, moving the balance out of the in-house ledger and into collections aging.",
+      "whyItMatters": "Night-audit questions ask where a departed guest's unpaid balance lives; putting it in the guest ledger overstates in-house accounts and hides an aging receivable the controller must chase.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "night-audit",
+        "house-limit"
+      ]
+    },
+    {
+      "term": "House limit",
+      "definition": "The maximum balance a property will let a folio reach before intervention, set by management and usually well above the card issuer's own floor limit; crossing it puts the account on the high-balance report the night audit generates.",
+      "whyItMatters": "A long-stay guest whose incidentals pass the threshold has to be re-authorized before the stay continues, and the roleplay is graded on handling that conversation without accusing the guest.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "city-ledger",
+        "night-audit"
+      ]
+    },
+    {
+      "term": "Furniture, fixtures and equipment reserve",
+      "definition": "A percentage of gross revenue, commonly around 4% and escrowed monthly under the management or franchise agreement, that may only be spent on replacing soft goods and case goods — never on operating shortfalls or debt service.",
+      "whyItMatters": "When a brand mandates a renovation, whether the owner can fund it comes down to the balance this clause has built; an owner who negotiated 2% to protect cash flow is the standard case-study conflict.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "property-improvement-plan",
+        "incentive-management-fee"
+      ]
+    },
+    {
+      "term": "Incentive management fee",
+      "definition": "The operator's second fee, computed as a share of gross operating profit earned only above an owner's stated priority return, and stacked on a base fee taken off total revenue whether or not the hotel makes money.",
+      "whyItMatters": "It explains why an operator paid 3% of revenue plus 10% of profit over the owner's priority pushes GOPPAR rather than occupancy, and a management-agreement roleplay wants that incentive alignment named.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "goppar",
+        "key-money",
+        "furniture-fixtures-and-equipment-reserve"
+      ]
+    },
+    {
+      "term": "Best available rate",
+      "definition": "The lowest unrestricted, publicly bookable price for a given date and room type — no advance purchase, no minimum stay, fully cancellable — which is the ceiling every discount and the reference every parity clause is measured from.",
+      "whyItMatters": "Guests who ask why last night cost less are answered by explaining this is a date-by-date figure, not a fixed price list, and every negotiated discount is quoted as a percentage off it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "rate-parity",
+        "net-rate"
+      ]
+    },
+    {
+      "term": "Billboard effect",
+      "definition": "The lift in direct bookings a hotel gets purely from being visible on an online travel agency, where the shopper finds the property on the intermediary and then books on the brand site instead.",
+      "whyItMatters": "It is the argument against pulling out of an OTA to save commission — the listing was also the advertising, and the direct bookings it fed disappear with it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "net-adr-yield",
+        "rate-parity"
+      ]
+    },
+    {
+      "term": "Night audit",
+      "definition": "The daily close of the hotel's accounting day — posting room and tax charges, reconciling every department's outlets to the property management system, verifying no-shows and rolling the business date forward.",
+      "whyItMatters": "Front-office roleplays about a disputed charge or an unbalanced shift depend on knowing when the day closes and what a late charge does once it has.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "city-ledger",
+        "house-limit"
+      ]
+    },
+    {
+      "term": "Property improvement plan",
+      "definition": "The brand-mandated schedule of renovations and equipment upgrades an owner must complete, on a stated deadline, as a condition of a new franchise license, a change of ownership or a license renewal.",
+      "whyItMatters": "A conversion roleplay hangs on telling an owner that the flag comes with a multimillion-dollar capital obligation, not just a royalty rate.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "furniture-fixtures-and-equipment-reserve",
+        "key-money"
+      ]
+    },
+    {
+      "term": "Key money",
+      "definition": "A capital contribution a brand or operator advances to an owner to win a management or franchise deal, amortized across the agreement's term and repayable on a pro-rata basis if the owner terminates early.",
+      "whyItMatters": "It is the concession an owner asks for when two brands are competing for the same site, and the clawback is what keeps the owner from flipping flags two years later.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HLM"
+      ],
+      "confusableWith": [
+        "incentive-management-fee",
+        "property-improvement-plan"
+      ]
+    }
+  ]
+}

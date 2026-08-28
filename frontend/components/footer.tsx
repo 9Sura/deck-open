@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Sparkle } from "@/components/doodles";
 import { FooterAccountLinks } from "@/components/footer-account-links";
 import { FooterPracticeLinks } from "@/components/footer-practice-links";
 
@@ -8,7 +7,6 @@ export function Footer() {
     <footer className="border-t border-dashed border-line">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 py-8 sm:flex-row sm:px-8">
         <div className="flex items-center gap-2 font-display font-extrabold tracking-tight">
-          <Sparkle className="h-4 w-4 text-highlight-ink" />
           <span className="sketch-radius border-2 border-ink bg-accent px-1.5 py-0.5 text-[var(--on-accent)]">DECK</span>
         </div>
         {/* Wraps, because this row grows: a guest carries four links but

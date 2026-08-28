@@ -2,26 +2,6 @@
   "code": "BLTDM",
   "terms": [
     {
-      "term": "Consideration",
-      "definition": "Something of value exchanged by each party in a contract.",
-      "whyItMatters": "This term helps teams analyze whether an agreement is valid.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/BLTDM",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
-      "term": "Liability",
-      "definition": "Legal responsibility for a debt, damage, or obligation.",
-      "whyItMatters": "Liability helps competitors discuss risk and accountability.",
-      "areas": [],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/BLTDM",
-        "backend/test-gen-model/data"
-      ]
-    },
-    {
       "term": "Conflict of interest",
       "definition": "A situation where personal interests could interfere with fair business judgment.",
       "whyItMatters": "Ethics cases often turn on identifying and managing conflicts.",
@@ -29,6 +9,358 @@
       "sourceRefs": [
         "backend/roleplay-gen-model/data/BLTDM",
         "backend/test-gen-model/data"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Severe or pervasive standard",
+      "definition": "Workplace harassment becomes legally actionable only when conduct is grave enough in one incident or repeated often enough to alter the conditions of employment, and it must clear that bar twice over: in the target's own perception and in an objective reasonable person's.",
+      "whyItMatters": "Given a roleplay about a manager who tells one crude joke, this is the line that lets you tell the judge the company still owes a coaching response but likely faces no Title VII claim, instead of conflating rude with unlawful.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "quid-pro-quo-harassment",
+        "hostile-work-environment"
+      ]
+    },
+    {
+      "term": "Faragher-Ellerth defense",
+      "definition": "An employer escapes vicarious liability for a supervisor's harassment only by proving both halves at once — that it took reasonable care to prevent and promptly correct the conduct, and that the employee unreasonably failed to use the reporting channel — and the whole defense disappears the moment a tangible employment action such as a firing, demotion or pay cut occurred.",
+      "whyItMatters": "It is the reason a BLTDM answer about an unreported harassment complaint has to check whether the accuser was also demoted: with a tangible action the published policy buys the company nothing, and the recommendation flips from defend to settle.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "severe-or-pervasive-standard",
+        "vicarious-liability"
+      ]
+    },
+    {
+      "term": "Undue hardship",
+      "definition": "The ceiling on the duty to accommodate, and it sits at two different heights: significant difficulty or expense weighed against the employer's size and resources for a disability, but substantial increased costs for a religious request after Groff v. DeJoy retired the old trivial-cost reading.",
+      "whyItMatters": "A case asking whether a warehouse must grant a Sabbath schedule turns on which statute is in play — quoting the disability threshold at a religious-accommodation panel is the error judges mark, because the two tests now differ.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "reasonable-accommodation",
+        "bona-fide-occupational-qualification"
+      ]
+    },
+    {
+      "term": "Herfindahl-Hirschman Index (HHI)",
+      "definition": "Market concentration scored by squaring each firm's market share in percentage points and summing the squares, so four equal rivals score 2,500 and a monopolist scores 10,000; enforcers presume a merger unlawful when the post-deal figure passes 1,800 and the deal itself moves it more than 100 points.",
+      "whyItMatters": "A merger roleplay that lists competitor shares wants the index computed and compared to the threshold, because whether the answer is close it quietly or expect a second request is decided by those two numbers, not by how big the buyer feels.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "clayton-act-section-7",
+        "hart-scott-rodino-act"
+      ]
+    },
+    {
+      "term": "Rule of reason",
+      "definition": "The default antitrust analysis, which weighs a restraint's proven competitive harm in a defined market against its procompetitive justification instead of condemning it outright; it forces the plaintiff to establish market power, which the per se track lets them skip entirely.",
+      "whyItMatters": "It decides how much evidence a BLTDM team needs on a vertical agreement such as an exclusive territory: under this analysis the practice may well survive, whereas a naked horizontal price fix is illegal on its face and no efficiency story saves it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "per-se-illegality",
+        "sherman-act-section-2"
+      ]
+    },
+    {
+      "term": "Tying arrangement",
+      "definition": "Conditioning the sale of a product a buyer wants on that buyer also taking a second product, unlawful only where the seller holds real market power in the first product and a substantial dollar volume of commerce in the second is foreclosed to rivals.",
+      "whyItMatters": "In a case where a software vendor bundles mandatory support, the two-part showing is the answer: without market power in the software, the bundle is aggressive selling rather than an antitrust violation, and a team that skips that step over-advises the client.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "warranty-anti-tying-rule",
+        "rule-of-reason"
+      ]
+    },
+    {
+      "term": "Short-swing profit rule",
+      "definition": "Section 16(b) forces officers, directors and holders of more than 10% of a registered class to disgorge any profit from a matched purchase and sale falling inside six months of each other, and it operates mechanically — good faith, ignorance and the absence of inside information are all irrelevant defenses.",
+      "whyItMatters": "An ethics case where a VP buys in March and sells in July is settled by counting months, not by asking what she knew, and the recovery runs to the corporation itself, which changes who the team advises.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "insider-trading",
+        "rule-10b-5"
+      ]
+    },
+    {
+      "term": "Rule 10b-5",
+      "definition": "The catch-all securities fraud provision, which a private plaintiff wins only by proving a material misstatement or omission, scienter, a connection to an actual purchase or sale, reliance, and loss causation — meaning an honestly careless forecast that later proves wrong does not qualify.",
+      "whyItMatters": "When a case gives you a CFO whose optimistic guidance collapsed, this element list is the tool that separates a disclosure that was merely wrong from one that is actionable fraud, and the presentation should walk the panel through it in order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "scienter",
+        "materiality-standard"
+      ]
+    },
+    {
+      "term": "Misappropriation theory",
+      "definition": "Liability for trading on confidential information rests on a duty owed to the source of that information rather than to whoever sits on the other side of the trade, which is how an outside printer, lawyer or consultant with no tie to the issuer still commits insider trading.",
+      "whyItMatters": "A BLTDM case featuring a consultant who bought stock in a client's takeover target fails under the classical theory and succeeds under this one, so naming the right theory is what turns the team's recommendation from no violation into report it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "insider-trading",
+        "fiduciary-duty-of-loyalty"
+      ]
+    },
+    {
+      "term": "Dodd-Frank whistleblower award",
+      "definition": "A tipster whose original information leads to monetary sanctions above $1 million is paid between 10% and 30% of what the SEC actually collects, with the percentage set by the tip's quality, the harm prevented, and whether the reporter went through internal compliance first.",
+      "whyItMatters": "It reframes the retaliation case a BLTDM team is handed: an employee sitting on evidence of a $20 million fraud is looking at a seven-figure statutory incentive, so a company that discourages internal reporting is pushing that reporter straight to the regulator.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "whistleblower-protection",
+        "qui-tam-relator-share"
+      ]
+    },
+    {
+      "term": "Qui tam relator share",
+      "definition": "The slice of a False Claims Act recovery paid to the private citizen who filed the suit — 15% to 25% where the government intervenes and 25% to 30% where it declines and the relator litigates alone — carved out of damages the statute has already trebled.",
+      "whyItMatters": "In a government-contract case, multiplying the overbilling by three and then taking a quarter of it shows the panel exactly why an employee would sue rather than complain internally, which is the pressure the ethics recommendation has to address.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "dodd-frank-whistleblower-award",
+        "whistleblower-protection"
+      ]
+    },
+    {
+      "term": "Facilitating payment exception",
+      "definition": "A narrow carve-out permitting small payments that merely speed a routine, non-discretionary government act such as stamping an already-approved permit; it never reaches a payment made to win or keep business, the books-and-records provisions still require the payment be recorded honestly, and the UK Bribery Act recognizes no such exception at all.",
+      "whyItMatters": "Given an international expansion case where a port clerk asks for cash, the team has to draw three lines — routine versus discretionary act, US versus UK exposure, and how it is booked — instead of answering with a flat all bribes are illegal.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "foreign-corrupt-practices-act",
+        "code-of-ethics"
+      ]
+    },
+    {
+      "term": "Effective compliance program credit",
+      "definition": "Sentencing law rewards structure with arithmetic: an organization convicted of an offense subtracts three points from its culpability score for maintaining the seven required program elements, and more for self-reporting, cooperating and accepting responsibility, with each point moving the fine multiplier applied to the base fine.",
+      "whyItMatters": "It is the business answer to why spend money on compliance in a case about a modest ethics budget — the program is not decoration, it measurably shrinks the multiplier on a future fine, and a team can argue that in dollars.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "code-of-ethics",
+        "deferred-prosecution-agreement"
+      ]
+    },
+    {
+      "term": "Expectation damages",
+      "definition": "The default contract remedy, computed as the injured party's loss in value plus incidental and consequential losses, minus any cost avoided and any loss avoided by the breach — the figure that puts them where full performance would have, not where they started.",
+      "whyItMatters": "A supplier-breach case usually supplies every input for that subtraction, and the team that nets out the costs the buyer no longer had to incur produces a defensible number while the team that claims the gross contract price overstates the claim.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "liquidated-damages",
+        "duty-to-mitigate"
+      ]
+    },
+    {
+      "term": "Duty to mitigate",
+      "definition": "Recovery is reduced by every loss the injured party could reasonably have avoided, so a wrongfully fired employee's award drops by what comparable work would have paid whether or not they looked, and a jilted seller's drops by the resale it turned down.",
+      "whyItMatters": "It is the defense argument in a wrongful-termination roleplay: the exposure is not the full remaining salary but that figure minus available comparable earnings, which is often the difference between litigating and settling.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "expectation-damages",
+        "constructive-discharge"
+      ]
+    },
+    {
+      "term": "Punitive damages ratio",
+      "definition": "The due-process guidepost from State Farm v. Campbell, under which an award exceeding roughly nine times the compensatory figure rarely survives review, and where compensatory damages are already substantial the outer limit compresses toward one-to-one.",
+      "whyItMatters": "A product case with $2 million in compensatory damages and a $90 million punitive verdict is a settlement-value question the team can answer numerically: that ratio is far outside the guidepost and the award is a strong candidate to be cut on appeal.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "liquidated-damages",
+        "strict-product-liability"
+      ]
+    },
+    {
+      "term": "Battle of the forms",
+      "definition": "Where merchants swap a purchase order and an acknowledgment with clashing boilerplate, UCC 2-207 still forms a contract instead of treating the reply as a counteroffer, and between merchants the added terms become part of the deal unless they materially alter it, the offer expressly limited acceptance, or objection follows within a reasonable time.",
+      "whyItMatters": "In a case where the buyer's order says no arbitration and the seller's confirmation adds it, this three-part filter decides whether the dispute goes to a courtroom or a hearing room, and common-law mirror-image reasoning gets the answer backwards.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "ucc-article-2",
+        "mandatory-arbitration-clause"
+      ]
+    },
+    {
+      "term": "Perfect tender rule",
+      "definition": "In a sale of goods the buyer may reject the whole shipment for any nonconformity at all, however trivial, subject only to the seller's right to cure within the contract time — a far harsher bar than the substantial-performance standard that governs services contracts.",
+      "whyItMatters": "It settles a case where a delivery arrives on time but a case short: for goods the buyer can reject outright, while the same shortfall on a construction job would leave the owner paying and deducting, and the team has to say which regime applies.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "ucc-article-2",
+        "substantial-performance"
+      ]
+    },
+    {
+      "term": "Proximate cause",
+      "definition": "The foreseeability limit that cuts liability off even after but-for causation is established, asking whether this type of harm to this type of plaintiff was a predictable consequence of the defendant's conduct rather than the end of a freak chain of events.",
+      "whyItMatters": "A negligence case where a delivery driver's fender bender delays an ambulance and a third party dies is won or lost on this element, so a team that stops at the driver caused it has skipped the part the judge is scoring.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "negligence",
+        "comparative-negligence"
+      ]
+    },
+    {
+      "term": "Upjohn warning",
+      "definition": "The caution corporate counsel must give an employee before an internal interview: the lawyer represents the company and not you, the privilege over this conversation belongs to the company, and the company alone can waive it and hand your statements to prosecutors.",
+      "whyItMatters": "An internal-investigation roleplay turns on it — an employee who was never warned may reasonably believe he had his own lawyer, which taints the interview and hands the company an ethics problem on top of the underlying misconduct.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "attorney-client-privilege",
+        "code-of-ethics"
+      ]
+    },
+    {
+      "term": "Entire fairness standard",
+      "definition": "Once a director sits on both sides of a transaction, the deferential presumption evaporates and the burden flips: the board itself must prove both fair dealing in how the deal was negotiated and timed, and fair price against what an arm's-length buyer would have paid.",
+      "whyItMatters": "It is the reason a BLTDM case about a CEO selling her own building to the company is not answered with the directors acted in good faith — the team must show an independent committee and a valuation, or concede the board carries the burden.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "business-judgment-rule",
+        "fiduciary-duty-of-loyalty"
+      ]
+    },
+    {
+      "term": "Attorney-client privilege",
+      "definition": "Protection covering confidential communications made to obtain legal advice, which shields what was said to the lawyer but never the underlying facts themselves, and which is destroyed by a third party's presence or by seeking the advice to further an ongoing crime or fraud.",
+      "whyItMatters": "In a case where a manager forwards counsel's memo to a vendor, the team has to explain that the forwarding waived protection over that document while the facts inside it were always discoverable anyway.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "upjohn-warning",
+        "discovery"
+      ]
+    },
+    {
+      "term": "Deferred prosecution agreement",
+      "definition": "A negotiated pause in which prosecutors file charges but hold them in abeyance while the company pays a penalty, cooperates, reforms its controls and often accepts an outside monitor; finish the term and the charges are dismissed, breach it and they are revived.",
+      "whyItMatters": "It is the realistic outcome a BLTDM team should propose for a company caught in systemic fraud, since it keeps the licenses and contracts a conviction would forfeit while still imposing accountability.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "effective-compliance-program-credit",
+        "sarbanes-oxley-act"
+      ]
+    },
+    {
+      "term": "Shareholder derivative suit",
+      "definition": "An action a stockholder brings in the corporation's name against its own directors or officers, where any recovery belongs to the company rather than the plaintiff, and which cannot proceed until the shareholder has demanded board action or pleaded specific facts showing demand would be futile.",
+      "whyItMatters": "A case about a board that ignored repeated audit warnings should identify this as the vehicle, and note that the demand step is where most such suits die, which shapes how urgently the board must respond to the letter.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "business-judgment-rule",
+        "class-action-certification"
+      ]
+    },
+    {
+      "term": "Ultra vires act",
+      "definition": "Corporate conduct beyond the powers the charter grants, which modern statutes largely bar outsiders from invoking to unwind a completed deal, leaving it as a remedy shareholders or the state can press against the officers who exceeded their authority.",
+      "whyItMatters": "When a case has an officer committing the company to a business its articles never authorized, the team should say the counterparty is still likely protected while the officer is personally exposed, rather than declaring the contract void.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "articles-of-incorporation",
+        "apparent-authority"
+      ]
+    },
+    {
+      "term": "Scienter",
+      "definition": "The guilty mental state a fraud plaintiff must plead and prove — intent to deceive, or recklessness so extreme that it approximates intent — and the element that separates actionable fraud from a statement that was merely careless or mistaken.",
+      "whyItMatters": "It is the pivot in an exam item contrasting a CFO who buried a known liability with one whose estimate was simply bad: same wrong number, and only the first supports a securities fraud claim.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "rule-10b-5",
+        "negligence"
+      ]
+    },
+    {
+      "term": "Quid pro quo harassment",
+      "definition": "Conditioning a job benefit such as a promotion, a shift or continued employment on submission to sexual demands, actionable from a single incident when the person making the demand holds authority over the target, with none of the repetition a hostile-environment claim requires.",
+      "whyItMatters": "In a roleplay where a supervisor offers a schedule change in exchange for a date, correctly labeling the claim tells the panel the company is looking at automatic employer liability once a tangible job action follows, not a coaching conversation.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BLTDM"
+      ],
+      "confusableWith": [
+        "severe-or-pervasive-standard",
+        "faragher-ellerth-defense"
       ]
     }
   ]

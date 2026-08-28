@@ -5,60 +5,13 @@
   ],
   "terms": [
     {
-      "term": "Money",
-      "definition": "Anything widely accepted as payment for goods, services, and debts.",
-      "whyItMatters": "The functions of money underpin every pricing, saving, and exchange decision in finance events.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
-    },
-    {
-      "term": "Income",
-      "definition": "Money received from work, investments, or other sources over a period of time.",
-      "whyItMatters": "Competitors must connect sources of income to budgets, savings, and financial goals.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
-    },
-    {
-      "term": "Credit",
-      "definition": "The ability to borrow money or obtain goods now and pay for them later.",
-      "whyItMatters": "Understanding the purpose and cost of credit is central to personal-finance and lending scenarios.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
-    },
-    {
-      "term": "Saving",
-      "definition": "Setting aside income now for future use instead of spending it.",
-      "whyItMatters": "The need to save and invest anchors recommendations about goals, emergencies, and growth.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
-    },
-    {
-      "term": "Financial goal",
-      "definition": "A specific money target a person or business plans to reach within a set time frame.",
-      "whyItMatters": "Goals turn vague advice into measurable, prioritized financial recommendations.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
-    },
-    {
-      "term": "Net worth",
-      "definition": "Total assets minus total liabilities.",
-      "whyItMatters": "Net worth gives a one-number snapshot of financial position that competitors interpret before advising.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
-    },
-    {
       "term": "Cost of credit",
       "definition": "The total amount, including interest and fees, paid to borrow money.",
       "whyItMatters": "Comparing the true cost of credit lets competitors judge whether borrowing is worthwhile.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Tax liability",
@@ -66,15 +19,8 @@
       "whyItMatters": "Tax liabilities affect take-home income and the real return on financial decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
-    },
-    {
-      "term": "Investment",
-      "definition": "Using money to buy assets expected to grow in value or produce income.",
-      "whyItMatters": "Investment vocabulary supports recommendations about growth, risk, and long-term goals.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Diversification",
@@ -82,7 +28,8 @@
       "whyItMatters": "Diversification is the standard answer to lowering investment risk in finance events.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Financial-services provider",
@@ -90,7 +37,8 @@
       "whyItMatters": "Choosing the right provider is a recurring judgment in personal-finance scenarios.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Time value of money",
@@ -98,7 +46,8 @@
       "whyItMatters": "This concept justifies interest, discounting, and why saving early beats saving late.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Cash flow statement",
@@ -106,7 +55,8 @@
       "whyItMatters": "Cash flow reveals whether a business can pay its bills even when it reports a profit.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Balance sheet",
@@ -114,7 +64,8 @@
       "whyItMatters": "The balance sheet is where competitors read financial position and solvency.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Income statement",
@@ -122,7 +73,8 @@
       "whyItMatters": "It is the primary tool for judging whether operations are profitable.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Liquidity",
@@ -130,6 +82,531 @@
       "whyItMatters": "Liquidity explains why a profitable business can still run short of cash.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Annual percentage rate (APR)",
+      "definition": "The yearly cost of borrowing stated as a percentage that folds in interest plus required fees, so two loans quoted at the same interest rate can carry different borrowing costs.",
+      "whyItMatters": "Cost-of-credit questions on the finance exam ask which loan is cheaper, and the answer is the one with the lower APR, not the lower nominal interest rate.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "annual-percentage-yield-apy",
+        "simple-interest"
+      ]
+    },
+    {
+      "term": "Annual percentage yield (APY)",
+      "definition": "What a deposit actually earns over a year once compounding is counted, which is why a savings account paying 5% compounded monthly returns more than 5%.",
+      "whyItMatters": "A savings-comparison roleplay hands the competitor two accounts with the same stated rate but different compounding periods; APY is the only figure that ranks them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "annual-percentage-rate-apr"
+      ]
+    },
+    {
+      "term": "Debt-to-income ratio",
+      "definition": "Total monthly debt payments divided by gross monthly income, the figure a lender uses to decide how much more a borrower can carry.",
+      "whyItMatters": "Loan-approval scenarios turn on this number, and competitors are expected to compute it from a client's payment list rather than judge the debt total by feel.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "credit-utilization-ratio"
+      ]
+    },
+    {
+      "term": "Credit utilization ratio",
+      "definition": "Balances owed divided by total available revolving credit, weighted heavily in a credit score and generally kept under 30% to avoid a penalty.",
+      "whyItMatters": "Credit-score advising roleplays reward the competitor who tells a client to pay down balances or raise a limit instead of closing an unused card.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "debt-to-income-ratio",
+        "credit-score"
+      ]
+    },
+    {
+      "term": "Amortization",
+      "definition": "Paying a loan off through fixed installments split between interest and principal, with the interest share largest at the start and shrinking every payment.",
+      "whyItMatters": "Exam items ask why an early mortgage payment barely reduces the balance; the amortization split is the reason, not a fee.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "simple-interest"
+      ]
+    },
+    {
+      "term": "Rule of 72",
+      "definition": "A shortcut that estimates how many years an investment takes to double by dividing 72 by the annual percentage return.",
+      "whyItMatters": "Investing roleplays reward a competitor who can tell a client on the spot that 8% doubles their money in about nine years.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "time-value-of-money"
+      ]
+    },
+    {
+      "term": "Marginal tax rate",
+      "definition": "The rate applied to the next dollar earned, which is the top bracket a taxpayer reaches rather than the rate paid on all of their income.",
+      "whyItMatters": "Tax-liability items test whether a raise into a higher bracket taxes the whole salary at the new rate — it does not, only the dollars above the bracket line.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "effective-tax-rate",
+        "progressive-tax"
+      ]
+    },
+    {
+      "term": "Effective tax rate",
+      "definition": "Total tax paid divided by total income, always lower than the top bracket a taxpayer falls in because earlier dollars were taxed at lower rates.",
+      "whyItMatters": "A finance exam item gives income and tax owed and asks for the rate actually paid; answering with the bracket rate is the trap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "marginal-tax-rate"
+      ]
+    },
+    {
+      "term": "Progressive tax",
+      "definition": "A tax structure whose rate rises as income rises, taxing each band of income at its own rate — the opposite of a regressive tax that takes a larger share from lower earners.",
+      "whyItMatters": "Tax-structure questions ask competitors to classify income tax, sales tax and payroll tax, and sales tax is regressive despite its single rate.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "marginal-tax-rate"
+      ]
+    },
+    {
+      "term": "Tax credit",
+      "definition": "An amount subtracted directly from tax owed, so it is worth its full face value — unlike a deduction, which only reduces the income the tax is figured on.",
+      "whyItMatters": "Exam items pair a $1,000 credit with a $1,000 deduction and ask which saves more; the credit does, by the taxpayer's bracket rate.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "marginal-tax-rate"
+      ]
+    },
+    {
+      "term": "FICA withholding",
+      "definition": "The payroll deduction funding Social Security and Medicare, taken at a fixed percentage of wages and matched dollar for dollar by the employer.",
+      "whyItMatters": "Pay-stub interpretation items ask why gross pay minus income tax still does not equal take-home pay, and FICA is the missing line.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "effective-tax-rate"
+      ]
+    },
+    {
+      "term": "Capital gain",
+      "definition": "Profit from selling an asset for more than its purchase price, taxable only once the sale happens and taxed at a lower rate when the asset was held over a year.",
+      "whyItMatters": "Investment scenarios ask whether a client owes tax on a stock that has risen in value; unrealized gains are not taxed until sold.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "tax-deferred-account"
+      ]
+    },
+    {
+      "term": "Tax-deferred account",
+      "definition": "A retirement account whose contributions escape tax now and whose withdrawals are taxed later, trading a deduction today for taxable income in retirement.",
+      "whyItMatters": "Retirement-planning roleplays turn on when the client wants the tax bill, which is the whole traditional-versus-Roth decision.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "roth-ira",
+        "capital-gain"
+      ]
+    },
+    {
+      "term": "Roth IRA",
+      "definition": "A retirement account funded with money already taxed, whose qualified withdrawals — contributions and growth alike — come out tax-free.",
+      "whyItMatters": "Advising a young client in a retirement roleplay usually points here, because decades of growth escape tax when the current bracket is low.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "tax-deferred-account"
+      ]
+    },
+    {
+      "term": "Dollar-cost averaging",
+      "definition": "Investing a fixed amount on a fixed schedule regardless of price, which buys more shares when prices are low and lowers the average cost per share over time.",
+      "whyItMatters": "Investment roleplays ask how a client should handle a volatile market, and this is the answer that beats trying to time an entry point.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "diversification"
+      ]
+    },
+    {
+      "term": "Expense ratio",
+      "definition": "The yearly percentage of assets a fund charges to operate, deducted from returns automatically so the investor never sees a bill for it.",
+      "whyItMatters": "Comparing two funds with identical holdings in an investment scenario comes down to this figure, since it compounds against the client every year.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "dollar-cost-averaging"
+      ]
+    },
+    {
+      "term": "Bank reconciliation",
+      "definition": "Matching a checkbook or ledger against a bank statement by adjusting both sides — outstanding checks and deposits in transit on the bank's, fees and interest on the depositor's.",
+      "whyItMatters": "A finance exam item gives a statement balance and a book balance and asks for the true cash figure; only adjusting one side gets it wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "cash-flow-statement"
+      ]
+    },
+    {
+      "term": "Current ratio",
+      "definition": "Current assets divided by current liabilities, the standard test of whether a business can cover what it owes within the next twelve months.",
+      "whyItMatters": "Finance exam items hand over a balance sheet and ask whether the firm can meet short-term obligations; a ratio under 1.0 is the answer that says no.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "quick-ratio",
+        "liquidity"
+      ]
+    },
+    {
+      "term": "Quick ratio",
+      "definition": "Current assets minus inventory, divided by current liabilities — the stricter liquidity test, because inventory may not convert to cash in time to pay a bill.",
+      "whyItMatters": "A retailer with a healthy current ratio and a weak quick ratio is the classic exam case, and the difference is inventory the business cannot sell fast.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "current-ratio"
+      ]
+    },
+    {
+      "term": "Debt-to-equity ratio",
+      "definition": "Total liabilities divided by owner's equity, showing how much of the business is financed by lenders rather than owners and how exposed it is to a downturn.",
+      "whyItMatters": "Financing scenarios ask whether a firm can take on another loan, and a high ratio is the reason a lender says no.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "debt-to-income-ratio"
+      ]
+    },
+    {
+      "term": "Return on equity",
+      "definition": "Net income divided by owner's equity, measuring profit generated per dollar the owners have invested rather than per dollar of sales.",
+      "whyItMatters": "Exam items compare two firms with equal profits and different equity bases; the one earning more per invested dollar wins.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "return-on-investment"
+      ]
+    },
+    {
+      "term": "Earnings per share",
+      "definition": "Net income available to common shareholders divided by shares outstanding, the per-share figure that lets companies of different sizes be compared.",
+      "whyItMatters": "Investment scenarios quote it as the headline number, and a competitor is expected to know a buyback raises it without any change in profit.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "price-to-earnings-ratio"
+      ]
+    },
+    {
+      "term": "Price-to-earnings ratio",
+      "definition": "Share price divided by earnings per share, the number of dollars investors pay for each dollar of annual profit — a rough gauge of how much growth is priced in.",
+      "whyItMatters": "Advising a client on whether a stock looks expensive in an investing roleplay turns on this multiple, not on the share price alone.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "earnings-per-share"
+      ]
+    },
+    {
+      "term": "Dividend yield",
+      "definition": "Annual dividends per share divided by share price, stating income return as a percentage so a dividend stock can be compared against a savings rate.",
+      "whyItMatters": "A client asking for income rather than growth in a retirement roleplay is asking about this figure, which moves whenever the share price moves.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "expense-ratio"
+      ]
+    },
+    {
+      "term": "Net present value",
+      "definition": "The sum of a project's future cash flows discounted back to today's dollars, minus its initial cost — positive means the project earns more than the required return.",
+      "whyItMatters": "Capital-investment items ask whether to buy the equipment, and the sign of this figure is the answer regardless of how large the raw cash flows look.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "discount-rate",
+        "time-value-of-money"
+      ]
+    },
+    {
+      "term": "Discount rate",
+      "definition": "The percentage used to convert a future dollar into today's dollars; raising it lowers the present value of every future cash flow and can flip a project from worth doing to not.",
+      "whyItMatters": "It is the input that makes a net-present-value question answerable, and exam items test that a riskier project carries a higher one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "net-present-value"
+      ]
+    },
+    {
+      "term": "Future value",
+      "definition": "What a sum invested today grows to by a stated date at a stated rate, computed forward with compounding rather than by adding equal yearly amounts.",
+      "whyItMatters": "Savings-goal items give a monthly deposit and a rate and ask what the account holds in ten years; straight multiplication understates it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "net-present-value",
+        "rule-of-72"
+      ]
+    },
+    {
+      "term": "Real rate of return",
+      "definition": "The nominal return minus the inflation rate — what an investment actually gained in purchasing power, which can be negative while the account balance rises.",
+      "whyItMatters": "Exam items pair a 2% savings account with 3% inflation and ask whether the saver gained; the account grew and the money bought less.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "annual-percentage-yield-apy"
+      ]
+    },
+    {
+      "term": "Yield to maturity",
+      "definition": "The total annualized return on a bond held to the end of its term, counting coupon payments plus any gain or loss between purchase price and face value.",
+      "whyItMatters": "A bond bought below face value returns more than its stated coupon rate, and this is the figure that shows it in an investment comparison.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "interest-rate-risk",
+        "dividend-yield"
+      ]
+    },
+    {
+      "term": "Interest rate risk",
+      "definition": "The exposure of a bondholder to rate changes: when market rates rise, existing bonds paying the older lower rate fall in price, and longer maturities fall further.",
+      "whyItMatters": "It is why an investment roleplay calls long-term bonds risky for a client who may need the money early, despite the bonds being fully repaid at maturity.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "yield-to-maturity"
+      ]
+    },
+    {
+      "term": "Exchange-traded fund (ETF)",
+      "definition": "A basket of securities that trades on an exchange throughout the day like a single stock, unlike a mutual fund, which prices once after the market closes.",
+      "whyItMatters": "Recommending one over a mutual fund in an investing roleplay rests on intraday pricing and typically lower costs, not on different holdings.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "expense-ratio",
+        "diversification"
+      ]
+    },
+    {
+      "term": "Annuity",
+      "definition": "A contract paying a fixed stream of income for a set term or for life, bought with a lump sum — insurance against outliving savings rather than an investment for growth.",
+      "whyItMatters": "Retirement roleplays raise it for a client who fears running out of money, and its trade-off is giving up access to the principal.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "tax-deferred-account"
+      ]
+    },
+    {
+      "term": "Deductible",
+      "definition": "The amount a policyholder pays out of pocket before insurance pays anything, and the lever that moves premiums — a higher one lowers the monthly cost and raises the risk carried.",
+      "whyItMatters": "Insurance-selection scenarios ask which policy suits a client, and the answer depends on whether they could absorb that first payment in an emergency.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "coinsurance"
+      ]
+    },
+    {
+      "term": "Coinsurance",
+      "definition": "The percentage of a covered cost the policyholder keeps paying after the deductible is met, such as 20% of every bill until an out-of-pocket maximum is reached.",
+      "whyItMatters": "Health-plan comparison items test that meeting the deductible does not end the client's share of the bill.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "deductible"
+      ]
+    },
+    {
+      "term": "Truth in Lending Act",
+      "definition": "Federal law requiring lenders to disclose the annual percentage rate, finance charge and total payments in a standard form before a consumer signs.",
+      "whyItMatters": "It is why two loan offers in a roleplay can be compared at all, and why a lender quoting only a monthly payment is out of compliance.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "annual-percentage-rate-apr"
+      ]
+    },
+    {
+      "term": "Fair Credit Reporting Act",
+      "definition": "Federal law governing consumer credit files: it grants access to the report, sets who may pull it, and obliges a bureau to investigate a disputed item.",
+      "whyItMatters": "A client in a roleplay whose report shows an account they never opened has a statutory remedy under it, not just a complaint.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "credit-report",
+        "credit-score"
+      ]
+    },
+    {
+      "term": "Usury",
+      "definition": "Charging interest above the legal ceiling a state sets, which makes the loan itself unlawful rather than merely expensive.",
+      "whyItMatters": "It is the legal line separating a high-cost lender from an illegal one in consumer-credit scenarios, and the reason rate caps exist at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "annual-percentage-rate-apr"
+      ]
+    },
+    {
+      "term": "Chapter 7 bankruptcy",
+      "definition": "A court-supervised liquidation discharging most unsecured debts by selling non-exempt assets, unlike a Chapter 13 filing, which keeps assets under a multi-year repayment plan.",
+      "whyItMatters": "Debt-control scenarios test that student loans and most taxes survive discharge, and that the filing sits on a credit report for a decade.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "wage-garnishment"
+      ]
+    },
+    {
+      "term": "Wage garnishment",
+      "definition": "A court order directing an employer to withhold part of a worker's pay and send it to a creditor, capped by federal law as a share of disposable earnings.",
+      "whyItMatters": "It is the end point of the debt-control storyline in a personal-finance roleplay, and it reaches the paycheck without the debtor's consent.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "chapter-7-bankruptcy"
+      ]
+    },
+    {
+      "term": "Loan-to-value ratio",
+      "definition": "Loan amount divided by the appraised value of the asset securing it; the higher it is, the less cushion a lender has and the more likely mortgage insurance is required.",
+      "whyItMatters": "Home-financing scenarios test why a larger down payment lowers the cost of borrowing, and this ratio is the mechanism.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "debt-to-income-ratio"
+      ]
+    },
+    {
+      "term": "Certificate of deposit",
+      "definition": "A deposit locked for a fixed term at a fixed rate, paying more than a savings account in exchange for a penalty on early withdrawal.",
+      "whyItMatters": "Savings-vehicle scenarios rule it out for an emergency fund precisely because the money is not reachable without giving up interest.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "liquidity"
+      ]
+    },
+    {
+      "term": "Escrow",
+      "definition": "Money held by a neutral third party until an obligation is met — in a mortgage, the monthly share of property taxes and insurance the lender collects and pays out.",
+      "whyItMatters": "It explains why a mortgage payment exceeds principal and interest in a home-buying scenario, and why it changes when taxes are reassessed.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
+      "term": "Credit report",
+      "definition": "The bureau's file of a consumer's accounts, balances and payment history — the underlying record, not the three-digit number calculated from it.",
+      "whyItMatters": "A client disputing a score in a roleplay has to correct the report first, since the score is only a summary of what the report says.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ],
+      "confusableWith": [
+        "credit-score",
+        "fair-credit-reporting-act"
       ]
     }
   ]

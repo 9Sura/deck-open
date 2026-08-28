@@ -1,0 +1,421 @@
+{
+  "code": "BSM",
+  "terms": [
+    {
+      "term": "Four nines availability",
+      "definition": "An uptime promise of 99.99%, which allows only 52.6 minutes of unplanned outage a year — about 4.4 minutes a month — against the 8.8 hours a 99.9% tier permits.",
+      "whyItMatters": "When a client in a business-services roleplay demands a tighter guarantee, you have to convert each tier into allowed downtime minutes before you can price the upgrade or refuse it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "five-nines-availability",
+        "service-level-agreement"
+      ]
+    },
+    {
+      "term": "SLA measurement window",
+      "definition": "The period over which uptime is averaged before credits are computed; a four-hour outage breaches a daily window but disappears inside a monthly average, so the window length decides whether the same failure costs the vendor anything.",
+      "whyItMatters": "Judges reward the competitor who asks how availability is measured rather than only what percentage is promised, because the window is where a generous-looking SLA is quietly defanged.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "service-credit-cap",
+        "excused-downtime"
+      ]
+    },
+    {
+      "term": "Resolution time target",
+      "definition": "A contractual clock that runs until the client's issue is actually fixed rather than merely acknowledged, so a vendor can meet a 15-minute acknowledgement promise and still breach a four-hour fix promise on the same ticket.",
+      "whyItMatters": "Support-contract roleplays hinge on separating the two clocks; quoting one response number when the client is complaining about repair speed reads as evasion to a judge.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "first-response-time",
+        "first-contact-resolution-rate-fcr"
+      ]
+    },
+    {
+      "term": "Billable utilization rate",
+      "definition": "Hours charged to clients divided by hours available in the period; on a 2,000-hour year a consultant at 75% bills 1,500 hours, so each point lost is roughly 20 hours of revenue that cannot be recovered later.",
+      "whyItMatters": "Staffing and hiring questions on a services exam are settled with this ratio — you cannot argue for another consultant without showing the current team's utilization.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "capacity-utilization-rate",
+        "realization-rate"
+      ]
+    },
+    {
+      "term": "Realization rate",
+      "definition": "Dollars actually collected divided by the dollars standard rates would have produced; a firm billing 1,500 hours at $200 but collecting $255,000 realizes 85%, with the gap made of write-offs, courtesy hours and negotiated discounts.",
+      "whyItMatters": "It explains the exam scenario where a fully booked practice still misses its revenue target — the hours were worked and utilization was fine, but they were not all billed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "billable-utilization-rate",
+        "blended-rate"
+      ]
+    },
+    {
+      "term": "Bill rate multiplier",
+      "definition": "Client price divided by the delivery staffer's fully loaded cost rate — a $50 cost billed at $150 is a 3.0 multiple, roughly the floor a services firm needs to cover overhead, bench time and still earn a profit.",
+      "whyItMatters": "A discount request in a B2B selling roleplay is answered with this number: cutting a $150 rate to $110 drops the multiple to 2.2 and eats the margin the firm runs on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "rate-card",
+        "blended-rate"
+      ]
+    },
+    {
+      "term": "Delivery leverage ratio",
+      "definition": "The mix of junior to senior staff carrying an engagement; pushing work down a level lifts margin because juniors bill somewhat less but cost far less, which is why a pyramid-shaped team beats an all-expert team on the same fixed fee.",
+      "whyItMatters": "Staffing a fixed-fee project in a roleplay means defending the mix to a client who wants only senior people on the account.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "bill-rate-multiplier",
+        "bench-cost"
+      ]
+    },
+    {
+      "term": "Bid bond",
+      "definition": "A surety instrument worth roughly 5% to 10% of the amount bid, forfeited if the winning bidder walks away or refuses to sign at the price submitted, which is what makes a lowball number costly to withdraw.",
+      "whyItMatters": "Public-sector and large corporate solicitations require one, so a roleplay about pursuing a government services contract has to account for its cost in the bid decision.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "fidelity-bond",
+        "best-and-final-offer"
+      ]
+    },
+    {
+      "term": "Compound availability",
+      "definition": "Chained dependencies multiply rather than average, so a service running on a 99.9% platform behind a 99.9% network and a 99.95% payment gateway can honestly promise only 99.75% end to end — roughly 22 hours of outage a year.",
+      "whyItMatters": "A roleplay where a client wants 99.9% guaranteed on a stack you resell is answered by multiplying your vendors' numbers first; promising more than the product is a breach you signed at the outset.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "four-nines-availability",
+        "service-level-agreement"
+      ]
+    },
+    {
+      "term": "Error budget",
+      "definition": "The downtime a target permits, treated as an allowance to spend rather than a line to defend — a 99.9% monthly promise leaves 43.2 minutes, so one 20-minute release failure has already consumed nearly half the month.",
+      "whyItMatters": "Change-management items on a services exam use it as the trigger: once the budget is spent the vendor freezes releases, which is the concrete answer to when you stop shipping.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "four-nines-availability",
+        "sla-measurement-window"
+      ]
+    },
+    {
+      "term": "Mean time to restore",
+      "definition": "Average elapsed time from detection to the service being usable again, and the lever inside availability = MTBF / (MTBF + MTTR); with a failure every 500 hours, cutting restoration from four hours to one moves uptime from 99.2% to 99.8%.",
+      "whyItMatters": "When a client demands fewer outages in a managed-services roleplay, faster recovery is the cheaper counter-offer, and you need the formula to prove it lands on the same uptime number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "mean-time-between-failures",
+        "resolution-time-target"
+      ]
+    },
+    {
+      "term": "Service credit schedule",
+      "definition": "Banded refunds tied to the month's measured uptime — 99.0 to 99.9% returns 10% of the fee, 95 to 99% returns 25%, under 95% returns 50% — so a month at 98.7% on a $40,000 contract owes $10,000 and the band edge, not the outage length, sets the bill.",
+      "whyItMatters": "Renewal negotiations turn on which band an outage lands in; a competitor who can price the month before conceding a credit keeps the account profitable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "sla-measurement-window",
+        "four-nines-availability"
+      ]
+    },
+    {
+      "term": "Support coverage window",
+      "definition": "The hours during which response clocks actually run: under 8x5 coverage a severity-one ticket opened at 4 p.m. Friday with a four-hour target is not late until Monday noon, while the identical promise under 24x7 breaches at 8 p.m.",
+      "whyItMatters": "Judges in a support-contract roleplay watch for the competitor who sells the coverage upgrade rather than a tighter number — the clock's hours, not its length, are what the client is complaining about.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "resolution-time-target",
+        "sla-measurement-window"
+      ]
+    },
+    {
+      "term": "Cost per ticket",
+      "definition": "Total support spend divided by tickets resolved, a figure that rises when self-service succeeds, because the cheap contacts are the ones deflected and the expensive escalated ones are all that remain in the denominator.",
+      "whyItMatters": "An exam scenario where automation raised cost per ticket is testing whether you read the mix change instead of calling the deflection program a failure.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "self-service-deflection-rate",
+        "average-handle-time-aht"
+      ]
+    },
+    {
+      "term": "Collection rate",
+      "definition": "Cash actually received divided by the amount invoiced — a different fraction from realization, because a firm can bill 95% of standard rates and still collect only 80% of those invoices, and only the second number funds payroll.",
+      "whyItMatters": "A cash-squeeze roleplay at a fully booked agency is solved here: the repair is in collections and credit terms, not in selling more hours.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "realization-rate",
+        "billable-utilization-rate"
+      ]
+    },
+    {
+      "term": "Fully loaded cost rate",
+      "definition": "Salary plus payroll taxes, benefits and allocated overhead, divided by the hours a person is genuinely available to bill rather than the 2,080 they are paid for; using the payroll denominator understates true cost by roughly 15 to 20% and prices work below breakeven.",
+      "whyItMatters": "Every pricing-floor question on a services exam starts here, and quoting a bill rate off unloaded salary in a roleplay ends the sale as soon as a judge asks about benefits.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "bill-rate-multiplier",
+        "predetermined-overhead-rate"
+      ]
+    },
+    {
+      "term": "Backlog coverage ratio",
+      "definition": "Signed but undelivered revenue divided by average monthly delivery capacity, read in months — under about three months a firm is hiring into hope, and over six it is quietly turning away work it could have sold.",
+      "whyItMatters": "A hiring recommendation in a business-services roleplay needs this number, because \"we're busy\" is not evidence a judge accepts for adding headcount.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "billable-utilization-rate",
+        "delivery-leverage-ratio"
+      ]
+    },
+    {
+      "term": "Unbilled work in process",
+      "definition": "Hours already delivered but not yet invoiced; add the days they sit unbilled to the days an invoice waits for payment and a monthly billing cycle on net-45 terms funds about 75 days of payroll before the first dollar arrives.",
+      "whyItMatters": "The cash-flow roleplay at a growing consultancy is won by shortening the billing cycle, which only makes sense once unbilled days and receivable days are counted as one lag.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "accounts-receivable-turnover",
+        "realization-rate"
+      ]
+    },
+    {
+      "term": "Percent-complete revenue recognition",
+      "definition": "Booking a share of a fixed fee equal to costs incurred over total estimated costs, which means an overrun mechanically pulls revenue forward: spend 70% of the budget on half the work and the books show 70% earned until the estimate is revised and it reverses.",
+      "whyItMatters": "Exam questions about a services firm restating a quarter test whether you know the cost estimate, not the invoice, drives when revenue lands.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "revenue-recognition-principle",
+        "estimate-at-completion"
+      ]
+    },
+    {
+      "term": "Estimate at completion",
+      "definition": "Forecast final cost of an engagement: money already spent plus the remaining work divided by the cost performance index, so $60,000 spent with $40,000 of work left at a CPI of 0.8 finishes at $110,000, not the $100,000 in the proposal.",
+      "whyItMatters": "Mid-project roleplays where the client asks whether the budget still holds require this arithmetic before you promise anything you cannot deliver.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "percent-complete-revenue-recognition",
+        "fixed-fee-effective-rate"
+      ]
+    },
+    {
+      "term": "Engagement gross margin",
+      "definition": "Revenue on one project less only its direct delivery cost — loaded labor, travel and subcontractors — before any overhead, so a 40% result at a firm carrying a 35% overhead load leaves five points and is a project worth declining.",
+      "whyItMatters": "A go/no-go roleplay on a discounted proposal turns on comparing this margin against the overhead load, not on whether the project appears to make money.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "contribution-margin-ratio",
+        "profit-margin"
+      ]
+    },
+    {
+      "term": "Fixed-fee effective rate",
+      "definition": "The agreed fee divided by the hours the team actually consumed: $48,000 delivered in 320 hours is $150 an hour against a $200 rate card, a 25% erosion that never appears in revenue and shows up only when delivered hours are counted.",
+      "whyItMatters": "Post-project debriefs on the services exam ask why a profitable-looking fixed fee hurt the year, and this ratio is the evidence a judge expects you to produce.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "bill-rate-multiplier",
+        "realization-rate"
+      ]
+    },
+    {
+      "term": "Fixed-fee crossover point",
+      "definition": "The hour count at which two pricing structures cost the buyer the same — a $60,000 fee against a $200 blended rate breaks even at 300 hours — so a client whose scope truly needs 250 should refuse the fixed price and one expecting 400 should insist on it.",
+      "whyItMatters": "Pricing roleplays are decided by naming that crossover out loud; recommending a structure without it reads as a preference rather than analysis.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "cost-plus-pricing",
+        "fixed-fee-effective-rate"
+      ]
+    },
+    {
+      "term": "Drawdown retainer",
+      "definition": "A prepaid bank of hours billed at a discount and forfeited if unused inside the period, unlike an access retainer that buys availability whether or not any work is requested — the expiry, not the discount, is the term worth negotiating.",
+      "whyItMatters": "A client asking to roll over unused hours at renewal is asking you to change which retainer they bought, so you have to know the two are different products before conceding.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "gainshare-fee",
+        "minimum-billing-increment"
+      ]
+    },
+    {
+      "term": "Gainshare fee",
+      "definition": "Payment set as a share of verified savings above an agreed baseline, which means whoever defines the baseline defines the payout — anchor it on a peak-cost year and the vendor earns a bonus for the client merely reverting to normal spending.",
+      "whyItMatters": "Outsourcing roleplays that open with \"we only pay if you save us money\" are won by negotiating the baseline and the measurement method, never the percentage.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "cost-plus-pricing",
+        "fixed-fee-crossover-point"
+      ]
+    },
+    {
+      "term": "Cost-plus-percentage-of-cost",
+      "definition": "A fee computed as a fixed share of whatever the job ends up costing, which pays the provider more for every overrun and is barred outright in federal contracting for exactly that reason; a fee fixed in dollars at award is the lawful version.",
+      "whyItMatters": "Government-services roleplays require pricing the work in a structure the buyer may legally accept — proposing a percentage of cost disqualifies the bid before the price is compared.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "cost-plus-pricing",
+        "gainshare-fee"
+      ]
+    },
+    {
+      "term": "Minimum billing increment",
+      "definition": "The smallest unit a ticket can bill in, and at a quarter-hour floor forty six-minute calls invoice ten hours against four actually worked, which is why increment size rather than hourly rate often decides whether a support contract earns anything.",
+      "whyItMatters": "A client disputing an invoice in a roleplay is usually disputing the increment, so you have to reconstruct the bill from ticket counts to answer them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "drawdown-retainer",
+        "fixed-fee-effective-rate"
+      ]
+    },
+    {
+      "term": "Tail coverage",
+      "definition": "An endorsement extending the reporting period after a claims-made professional liability policy ends, priced near 100 to 200% of the last annual premium; skip it and work already delivered becomes uninsured the moment the policy lapses.",
+      "whyItMatters": "Selling or winding down a services firm in a roleplay means budgeting for it, because past clients can still sue and the buyer's diligence list asks for proof it was purchased.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "errors-and-omissions-insurance",
+        "claims-made-policy"
+      ]
+    },
+    {
+      "term": "Policy sublimit",
+      "definition": "A smaller cap sitting inside a larger one for a named category of loss, so a $5 million cyber policy carrying a $250,000 social-engineering sublimit pays a quarter of a million on a wire-fraud loss no matter what the headline limit says.",
+      "whyItMatters": "When a client's contract demands $5 million of cyber coverage, the roleplay answer is to read the sublimits, because that is where the protection they actually need is rationed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "cyber-liability-insurance",
+        "annual-aggregate-limit"
+      ]
+    },
+    {
+      "term": "Annual aggregate limit",
+      "definition": "The most an insurer will pay across every claim in a policy year, a separate ceiling from the per-occurrence cap — a $1 million / $2 million policy that pays two full claims in March leaves the client uncovered for the remaining nine months.",
+      "whyItMatters": "A vendor-qualification roleplay where the client requires $1 million of errors-and-omissions coverage is answered with both numbers; meeting the per-occurrence figure alone can leave the contract effectively bare.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "policy-sublimit",
+        "certificate-of-insurance"
+      ]
+    },
+    {
+      "term": "PCI DSS merchant level",
+      "definition": "Card-transaction volume decides which validation a provider must pass: above roughly six million a year forces an on-site assessment by a qualified assessor plus quarterly network scans, while a small e-commerce seller self-assesses on a questionnaire.",
+      "whyItMatters": "A payments-adjacent services roleplay hinges on whether absorbing a client's volume pushes you over the threshold, because the compliance cost, not the processing fee, is what changes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "pci-dss",
+        "data-security"
+      ]
+    },
+    {
+      "term": "SOC 2 bridge letter",
+      "definition": "A signed statement covering the gap between an audit report's period end and the client's fiscal year end — a report closing September 30 needs one for October through December, and most auditors refuse to bridge more than about three months.",
+      "whyItMatters": "Enterprise procurement roleplays stall exactly here: the client's auditor wants assurance through December and the vendor's only report stops in September.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:BSM"
+      ],
+      "confusableWith": [
+        "soc-2-type-ii",
+        "auditor-independence"
+      ]
+    }
+  ]
+}

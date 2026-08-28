@@ -1,0 +1,343 @@
+{
+  "code": "MTDM",
+  "terms": [
+    {
+      "term": "Revenue churn",
+      "definition": "The share of recurring or repeat-purchase dollars lost in a period, measured on money rather than on accounts, so one enterprise account leaving at $40,000 outweighs forty $100 customers; the gross figure ignores expansion, while the net figure subtracts upgrades from it and can read below zero.",
+      "whyItMatters": "A case reporting 5% of customers lost but 18% of dollars lost is telling the team the losses are concentrated in the top tier, so the retention budget belongs on key accounts rather than on a mass win-back email.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "logo-churn",
+        "churn-rate"
+      ]
+    },
+    {
+      "term": "Average customer lifespan",
+      "definition": "The reciprocal of the periodic churn rate — 1 divided by 2% monthly churn is 50 months — and the multiplier that turns monthly contribution into lifetime value; it collapses fast, because moving churn from 2% to 4% halves the horizon and halves what a customer is worth bidding for.",
+      "whyItMatters": "Roleplays that hand the team a monthly churn percentage and ask what may be spent to acquire a customer are solved by converting churn into months first; skip that step and the acquisition ceiling is a guess.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "churn-rate",
+        "customer-lifetime-value-clv"
+      ]
+    },
+    {
+      "term": "Cohort contribution margin",
+      "definition": "Contribution dollars traced back to the month a group of customers was acquired, so every acquisition class is judged on the margin it eventually returns against the acquisition spend it consumed; a cohort is profitable only once cumulative contribution crosses the cost that bought it, which pooled monthly revenue can never show.",
+      "whyItMatters": "When a case shows revenue rising while the newest cohorts return less contribution than older ones, the recommendation is to cut spend on the channel feeding them — and only cohort-level contribution exposes that.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "cohort-retention-curve",
+        "customer-lifetime-value-clv"
+      ]
+    },
+    {
+      "term": "Repeat purchase rate",
+      "definition": "Of the buyers who tried a product in a defined window, the percentage that bought it at least once more, counted on buyers rather than on transactions; 40% trial with 15% repeat is a very different business from 10% trial with 60% repeat, because only the second builds a base.",
+      "whyItMatters": "In a new-product case this number decides whether the fix is more sampling or a reformulation: weak repeat after strong trial means the product disappointed, and more advertising only buys more disappointed triers.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "trial-and-repeat-volume-model",
+        "retention-rate"
+      ]
+    },
+    {
+      "term": "Penetration and buying rate decomposition",
+      "definition": "Splitting a volume change into how many households bought at all and how much each buying household took, since volume equals penetration times buying rate; a 6% decline driven by penetration falling from 12% to 11% is a lost-buyers problem, while the same decline at flat penetration is a lost-occasions problem.",
+      "whyItMatters": "Judges reward a team that opens a declining-brand case by naming which half moved, because it picks the plan — penetration losses argue for reach and distribution, buying-rate losses argue for loyalty programs and larger packs.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "market-penetration-rate",
+        "buying-rate-index"
+      ]
+    },
+    {
+      "term": "Marginal return on spend",
+      "definition": "What the next dollar in a channel returns, not what the average dollar returned — because response curves bend, a channel averaging $4.00 back can be returning $0.80 at the margin, and money should shift out of it until the last dollar spent in every channel returns the same amount.",
+      "whyItMatters": "Reallocation questions that list each channel's total ROI are traps: a team that pours more into the highest-average channel without asking where its curve flattened will over-fund a saturated line and starve a growing one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "equimarginal-principle",
+        "marketing-roi"
+      ]
+    },
+    {
+      "term": "Minimum detectable effect",
+      "definition": "The smallest lift a test can separate from noise at the chosen sample size and confidence level, fixed before the test runs; halving it roughly quadruples the sample required, so a two-week holdout in one small market can prove only a large effect and reports nothing for a real 2% gain.",
+      "whyItMatters": "Before approving a lift test in a case the team must state what size result the design can actually see, or a null read gets carried to the client as proof the campaign did nothing when the test was simply too small.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "incrementality-holdout",
+        "confidence-interval"
+      ]
+    },
+    {
+      "term": "Baseline volume",
+      "definition": "The sales a brand would have made in a period with no promotion or media support, estimated from de-seasonalized history, and the line every incremental claim is measured against; a promoted week running 30% above last year on a base already rising 10% on seasonality delivered 20 points of lift, not 30.",
+      "whyItMatters": "Marketing-mix output is unusable in a case until the team separates base from incremental — counting the whole promoted week as lift is the error that makes a money-losing promotion look profitable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "incremental-lift",
+        "break-even-promotional-lift"
+      ]
+    },
+    {
+      "term": "Trade promotion ROI",
+      "definition": "Incremental contribution margin from a retailer deal divided by the full cost of that deal, including the discount handed to units that would have sold anyway; most consumer-goods events come back below 1.0, which is why this ratio and not the volume spike is the decision number.",
+      "whyItMatters": "A case reporting that a promotion moved 40% more cases expects the team to net out the discount given on baseline volume and say whether the event paid, then recommend repeating, reshaping or killing it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "promotional-allowance",
+        "break-even-promotional-lift"
+      ]
+    },
+    {
+      "term": "Promotion pass-through rate",
+      "definition": "The fraction of a manufacturer's trade allowance a retailer actually converts into a lower shelf price — a $1.00 per-case allowance that moves shelf price only $0.60 passed through 60%, and the missing $0.40 became retailer margin rather than consumer demand.",
+      "whyItMatters": "Forecasting a deal's volume in a case requires stating this assumption out loud; assuming full pass-through overstates the lift and makes an event the team should have declined look like a winner.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "promotional-allowance",
+        "trade-promotion-roi"
+      ]
+    },
+    {
+      "term": "Pantry loading",
+      "definition": "Buyers stockpiling a discounted item they would have bought later anyway at full price, which inflates the promoted week and then digs a hole in the weeks after it; volume borrowed from the future is not incremental, so a read that stops at the spike overstates what the deal earned.",
+      "whyItMatters": "When a case's weekly data shows a spike followed by two soft weeks, the team should net the dip against the spike before quoting lift, or a recommendation to repeat the deal rests on volume that was never new.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "baseline-volume",
+        "incremental-lift"
+      ]
+    },
+    {
+      "term": "Source of volume",
+      "definition": "Where a new item's sales actually come from — rivals' buyers, buyers new to the category, or the company's own existing line — and the split decides whether launch volume is worth having, because 60% drawn from a sibling brand makes most of the top line a transfer rather than growth.",
+      "whyItMatters": "Line-extension cases turn on this: a 500,000-unit forecast is a good result when it switches competitors' buyers and a bad one when it cannibalizes, and the judge is waiting for the team to say which.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "cannibalization-rate",
+        "brand-switching-matrix"
+      ]
+    },
+    {
+      "term": "Van Westendorp price sensitivity meter",
+      "definition": "A four-question survey — too cheap, cheap, expensive, too expensive — whose cumulative curves cross to bracket an acceptable price range, with the points of marginal cheapness and marginal expensiveness at the edges and the optimal price point where the two extreme curves intersect.",
+      "whyItMatters": "In a pricing case that supplies raw survey answers instead of a demand curve, this is the technique that converts them into a defensible price range to bring the client.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "gabor-granger-price-test",
+        "conjoint-analysis"
+      ]
+    },
+    {
+      "term": "Gabor-Granger price test",
+      "definition": "Purchase intent asked of one respondent at a ladder of specific prices, which produces a demand curve directly: multiplying the share still willing to buy at each price by that price locates the revenue-maximizing point, which usually sits well below the highest price anyone would still pay.",
+      "whyItMatters": "It is the fastest way in a roleplay to answer what to charge with a curve and a number rather than a markup rule, and it separates the revenue-maximizing price from the margin-maximizing one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "van-westendorp-price-sensitivity-meter",
+        "monadic-test"
+      ]
+    },
+    {
+      "term": "Part-worth utility",
+      "definition": "The score conjoint analysis assigns to each level of each attribute, so a product's appeal is the sum of its levels' scores; because price is one of the attributes, the utility gap between two features divided by the utility lost per dollar states that feature's worth in money.",
+      "whyItMatters": "A product-design case carrying conjoint output expects the team to convert utilities into dollars before choosing features, so the recommendation reads that the larger screen is worth $18 and costs $9, not that customers preferred it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "conjoint-analysis",
+        "willingness-to-pay"
+      ]
+    },
+    {
+      "term": "Price-pack architecture",
+      "definition": "The deliberate ladder of sizes, formats and price points a brand offers, engineered so price per ounce falls as pack size rises while margin per transaction climbs; the design decides which shoppers trade up and which entry price holds the line against a cheaper rival.",
+      "whyItMatters": "Cases about a competitor undercutting on shelf price are usually answered by adding a smaller entry pack instead of cutting the flagship's price, and the team needs the per-unit math to prove the margin survives.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "price-lining",
+        "penetration-pricing"
+      ]
+    },
+    {
+      "term": "Trial-and-repeat volume model",
+      "definition": "A year-one forecast assembled as trial households times units per trial, plus repeating households times repeat occasions times units per occasion, where the trial half is driven by awareness and distribution and the repeat half by product satisfaction — two levers that must be forecast separately.",
+      "whyItMatters": "New-product cases hand out awareness, distribution and repeat percentages precisely so the team can build this number and say whether the launch clears its volume hurdle.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "atar-model",
+        "repeat-purchase-rate"
+      ]
+    },
+    {
+      "term": "Purchase-intent discount factor",
+      "definition": "The haircut applied to survey buying intent before it becomes a forecast, because stated intent overstates behavior: a common convention counts about 80% of the definitely-would-buy responses and 30% of the probably-would-buy ones, then trims again for awareness and distribution.",
+      "whyItMatters": "Handed a concept test where 45% say they would buy, a team forecasting 45% trial loses to the team that discounts intent and then multiplies by awareness and distribution to reach a number the judge can believe.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "top-two-box-score",
+        "trial-and-repeat-volume-model"
+      ]
+    },
+    {
+      "term": "Cost per incremental customer",
+      "definition": "Campaign spend divided by the customers a holdout proves would not have bought otherwise, which runs far above blended acquisition cost because organic and returning buyers are stripped out of the denominator; it is the only acquisition figure that can honestly be set against lifetime value.",
+      "whyItMatters": "When a case reports $20 acquisition cost while the control group shows most of those buyers would have come anyway, the true figure may be $90 and the channel that looked cheapest is the one to cut.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "customer-acquisition-cost",
+        "incrementality-holdout"
+      ]
+    },
+    {
+      "term": "Interpurchase interval",
+      "definition": "The typical number of days between one customer's consecutive buys, which sets both when an offer should land and when silence starts to mean lapsed; in a category bought every 45 days a 60-day gap is a churn signal, while the same gap means nothing in an annually purchased category.",
+      "whyItMatters": "Retention plans in a case need a defensible definition of a lapsed customer, and deriving it from the category's own purchase cycle beats the arbitrary 90 days a judge will challenge.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "repeat-purchase-rate",
+        "churn-rate"
+      ]
+    },
+    {
+      "term": "Pocket price waterfall",
+      "definition": "The step-by-step fall from list price to the revenue actually kept, subtracting off-invoice rebates, freight and stocking allowances, co-op payments and early-payment terms, so two accounts on the same list price can differ by 15 points in what they really pay — leakage no invoice shows.",
+      "whyItMatters": "A margin-erosion case is solved by mapping the waterfall account by account and closing the biggest off-invoice leak, not by raising list price, which the same discounts would simply absorb again.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "promotional-allowance",
+        "trade-promotion-roi"
+      ]
+    },
+    {
+      "term": "Media mix model (MMM)",
+      "definition": "A regression over years of aggregate sales, spend, price and outside factors that estimates each channel's contribution and the bend in its response curve; it needs no user-level tracking and so survives privacy limits, but it reads slowly and cannot settle the worth of one creative.",
+      "whyItMatters": "When a case asks how to split next year's budget across channels, this is the evidence a team cites for the split — and knowing it requires years of variation explains why it cannot answer whether last week's email worked.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "marginal-return-on-spend",
+        "incrementality-holdout"
+      ]
+    },
+    {
+      "term": "Objective-and-task budgeting",
+      "definition": "Setting spend by naming the marketing objective, listing every task required to reach it and costing those tasks, so the budget is built upward from what the goal demands rather than downward from a share of last year's revenue.",
+      "whyItMatters": "Asked to justify a budget request to a skeptical CFO in a roleplay, the team that prices the tasks needed to hit a stated share goal outperforms the team that cites a percentage of sales.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "marketing-budget-to-sales-ratio",
+        "advertising-to-sales-ratio"
+      ]
+    },
+    {
+      "term": "Brand switching matrix",
+      "definition": "A grid of where each brand's buyers came from and went to between two periods, the diagonal holding those who stayed loyal and the off-diagonal cells showing gains and losses rival by rival, which names the one competitor a plan is actually fighting.",
+      "whyItMatters": "In a share-loss case it turns we lost two points into we lost them to one rival on price, which is the difference between a vague recommendation and a targeted one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "source-of-volume",
+        "cannibalization-rate"
+      ]
+    },
+    {
+      "term": "Simulated test market",
+      "definition": "A pre-launch method in which recruited shoppers see advertising and a mock shelf, buy or decline, take product home and are re-contacted for repeat intent, producing a volume estimate in weeks without exposing the launch plan to competitors.",
+      "whyItMatters": "When a case's timeline or secrecy rules out a real city test, this is the method to propose, and knowing it forecasts trial and repeat rather than measuring real sales keeps the team honest about how firm the number is.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "test-marketing",
+        "test-market-projection"
+      ]
+    },
+    {
+      "term": "Monadic test",
+      "definition": "A research design in which each respondent evaluates only one version — one price, one concept, one package — so the rating is uncontaminated by side-by-side comparison; it burns more sample than a comparative design but yields numbers that behave like real-world exposure.",
+      "whyItMatters": "Presenting concept-test results in a roleplay, the team must say whether respondents saw one option or all of them, because sequential comparison inflates preference for the cheaper option and flatters the wrong concept.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:MTDM"
+      ],
+      "confusableWith": [
+        "gabor-granger-price-test",
+        "simulated-test-market"
+      ]
+    }
+  ]
+}

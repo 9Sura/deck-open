@@ -1,0 +1,356 @@
+{
+  "code": "PFN",
+  "terms": [
+    {
+      "term": "FDIC ownership category",
+      "definition": "The legal capacity in which deposits are held — single, joint, revocable trust, certain retirement, business — each of which carries its own separate $250,000 of coverage at the same insured bank, so one household can be fully covered well past $250,000 without opening an account anywhere else.",
+      "whyItMatters": "A PFN roleplay where a client with $600,000 asks whether they must move money to a second bank is answered by re-titling across categories, and the judge wants the per-category arithmetic, not a warning.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "fdic-deposit-insurance-limit"
+      ]
+    },
+    {
+      "term": "Pass-through deposit insurance",
+      "definition": "Coverage that reaches each underlying owner of funds an agent, fiduciary or fintech places at an insured bank, up to $250,000 apiece, but only when the account is titled to disclose the custodial relationship and someone's records identify every owner and their share.",
+      "whyItMatters": "Advising a payroll or prepaid-card program on why it must keep an owner ledger — and telling a customer of a failed fintech partner what they actually recover — turns on those two recordkeeping conditions.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "fdic-ownership-category",
+        "fdic-deposit-insurance-limit"
+      ]
+    },
+    {
+      "term": "Regulation CC next-day availability",
+      "definition": "The federal floor for when a deposit must be withdrawable: cash, wires, government and cashier's checks and the first $275 of a day's check deposits are available the business day after deposit, with most of the remainder due by the second business day.",
+      "whyItMatters": "A teller-window roleplay asking when a customer can spend a $2,000 check is scored on splitting the deposit into the next-day slice and the rest, not on answering 'a few days.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "exception-hold",
+        "on-us-item"
+      ]
+    },
+    {
+      "term": "Exception hold",
+      "definition": "A longer availability delay — up to seven business days — a bank may impose only when a deposit trips a named trigger: an account open less than 30 days, check deposits above $6,725 in one day, a redeposited or repeatedly overdrawn item, or reasonable cause to doubt collectibility, and only with written notice to the depositor.",
+      "whyItMatters": "When a customer disputes a hold on a large check deposited into a two-week-old account, judges expect the competitor to name the specific trigger and the notice requirement rather than citing bank policy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "regulation-cc-next-day-availability"
+      ]
+    },
+    {
+      "term": "Midnight deadline",
+      "definition": "Under UCC Article 4 a paying bank must return or dishonor an item by midnight of the banking day following the banking day it received it; miss that clock and the bank is accountable for the full amount even though the check was never good.",
+      "whyItMatters": "Returned-item and check-fraud roleplays hinge on it: once the deadline passes the loss sits with the paying bank, which decides whether the branch tells the customer to pursue the writer or the bank.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "nonsufficient-funds-item"
+      ]
+    },
+    {
+      "term": "Substitute check",
+      "definition": "A paper reproduction of both sides of an original item that Check 21 makes the legal equivalent of the original when it bears the required legend, and whose recipient may demand expedited recredit of up to $2,500 within ten business days if it was charged in error.",
+      "whyItMatters": "A roleplay where a customer claims a duplicate posting from a check image is answered with the recredit ceiling and the ten-day clock, not with a promise to research it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "remote-deposit-capture"
+      ]
+    },
+    {
+      "term": "ACH same-day window",
+      "definition": "One of three daily submission cutoffs that let an originator settle an electronic entry the same banking day instead of the next one or two, subject to a per-entry cap of $1,000,000 and a requirement that the receiving bank make the funds available by 5:00 p.m. local time.",
+      "whyItMatters": "Payroll-correction and emergency-vendor-payment roleplays turn on whether the competitor knows the cap and the availability time, or reaches for a wire and its fee by default.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "wire-transfer-finality"
+      ]
+    },
+    {
+      "term": "ACH unauthorized return window",
+      "definition": "How long a receiving bank has to send an entry back as unauthorized — 60 calendar days from settlement for a consumer debit, on the customer's written statement, against only two banking days for a business debit, which is why corporate accounts buy debit blocks and filters.",
+      "whyItMatters": "A small-business client who finds a bad debit three weeks later is already out of time, so the roleplay answer is ACH positive pay, and it only lands if the competitor knows the two-day figure.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "regulation-e-liability-tiers"
+      ]
+    },
+    {
+      "term": "Wire transfer finality",
+      "definition": "The principle that a Fedwire payment settles gross and in real time and cannot be recalled once the receiving bank accepts it, so recovering a mistaken or fraud-induced transfer depends entirely on the beneficiary bank's cooperation — unlike ACH, whose return rights are measured in days.",
+      "whyItMatters": "Business-email-compromise roleplays are scored on advising the client that the wire is gone and the ACH is not, and on choosing the rail before the payment leaves.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "ach-unauthorized-return-window",
+        "ach-same-day-window"
+      ]
+    },
+    {
+      "term": "Regulation E liability tiers",
+      "definition": "The stepped cap on what a consumer owes for unauthorized electronic transfers: $50 if the lost card or statement is reported within two business days of learning of the loss, $500 if reported after that but within 60 days of the statement, and unlimited losses for transfers occurring past the 60-day mark.",
+      "whyItMatters": "A debit-card fraud roleplay is won by telling the customer which tier the timing of their call puts them in — a graduated exposure that has no counterpart on the credit-card side.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "regulation-e-error-resolution",
+        "regulation-e-overdraft-opt-in"
+      ]
+    },
+    {
+      "term": "Stop payment order",
+      "definition": "An instruction not to pay an item, which under UCC 4-403 lapses after 14 calendar days if given orally and never confirmed in writing, runs six months in written form and is renewable, and which cannot reach a cashier's or certified check the bank has already obligated itself on.",
+      "whyItMatters": "A roleplay where a customer wants to halt a check written to a bad contractor is scored on the oral-versus-written clocks and on the certified-check exception.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "nonsufficient-funds-item"
+      ]
+    },
+    {
+      "term": "High-to-low posting order",
+      "definition": "A batch-sequencing practice that posts a day's debits largest first, draining the balance before the small items clear and multiplying the number of overdraft fees charged on exactly the same set of transactions a chronological run would have covered.",
+      "whyItMatters": "Bank ethics and consumer-fairness roleplays ask the competitor to work a four-transaction example and show that the ordering, not the balance, produced the fee count.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "nonsufficient-funds-item"
+      ]
+    },
+    {
+      "term": "Regulation E overdraft opt-in",
+      "definition": "The affirmative, advance consent a bank must obtain on a segregated notice before it may charge overdraft fees on ATM withdrawals and one-time debit card purchases — consent that checks, ACH debits and recurring payments do not require, so those items can overdraw an account whether or not the customer ever agreed.",
+      "whyItMatters": "Explaining why one $35 fee must be refunded and an identical one need not be depends on sorting the transaction into the opt-in half or the exempt half.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "regulation-e-liability-tiers",
+        "high-to-low-posting-order"
+      ]
+    },
+    {
+      "term": "Truth in Savings Act",
+      "definition": "The deposit-side disclosure law that forces a bank to quote a 365-day annual percentage yield rather than a nominal rate, to state the minimum balance needed to earn that yield in any advertisement of it, and to give 30 days' advance written notice before a change that reduces the customer's return.",
+      "whyItMatters": "A savings-account roleplay comparing a 4.9% nominal rate against a 4.95% yield is scored on which figure the law makes comparable and on the notice owed before the bank cuts it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "annual-percentage-yield-apy",
+        "truth-in-lending-act"
+      ]
+    },
+    {
+      "term": "Regulation P privacy notice",
+      "definition": "The disclosure a financial institution owes when a customer relationship begins, and annually unless it qualifies for the exception, naming the nonpublic personal information it shares and giving a reasonable opportunity — commonly 30 days — to opt out of sharing with nonaffiliated third parties, an opt-out that does not reach affiliates or joint-marketing partners.",
+      "whyItMatters": "A data-sharing roleplay is scored on drawing the line between sharing the customer can stop and sharing they cannot, plus the timing of the notice they should already have received.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "general-data-protection-regulation"
+      ]
+    },
+    {
+      "term": "T+1 settlement cycle",
+      "definition": "The standard for U.S. equities, corporate bonds and municipal securities since May 28, 2024, under which cash and securities change hands one business day after the trade date — halving the window a buyer has to fund the account and compressing every date that keys off settlement.",
+      "whyItMatters": "A brokerage-service roleplay asking when sale proceeds can be wired out is answered from trade date plus one, and the shortened cycle is what makes unsettled-funds violations easier to trip.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "good-faith-violation",
+        "ex-dividend-date"
+      ]
+    },
+    {
+      "term": "Ex-dividend date",
+      "definition": "The first trading day on which a buyer no longer acquires the declared distribution; under one-business-day settlement it now falls on the record date itself, so shares bought that morning pay the dividend to the seller and the price typically opens lower by roughly the dividend amount.",
+      "whyItMatters": "Investing roleplays that ask when a client must own a stock to collect the quarterly payout are scored on this date, not on the declaration or payable date.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "dividend-yield",
+        "t-1-settlement-cycle"
+      ]
+    },
+    {
+      "term": "Good-faith violation",
+      "definition": "A cash-account infraction committed by selling a security that was bought with funds not yet settled, before those funds settle; three of them inside a rolling twelve months restricts the account to settled cash only for 90 days.",
+      "whyItMatters": "A roleplay with a client trading in and out of positions in a cash account turns on that count and the 90-day restriction, which a margin account avoids entirely.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "t-1-settlement-cycle",
+        "pattern-day-trader-rule"
+      ]
+    },
+    {
+      "term": "Regulation T initial margin",
+      "definition": "The Federal Reserve's cap on the credit a broker may extend on a new purchase — 50% of the price — so a $20,000 position requires at least $10,000 of the investor's own money, and a call is issued when the deposit falls short.",
+      "whyItMatters": "Leverage roleplays are scored on computing the buying power a $10,000 deposit creates and on separating this one-time requirement from the ongoing FINRA maintenance level.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "maintenance-margin-call"
+      ]
+    },
+    {
+      "term": "Maintenance margin call",
+      "definition": "A demand for cash or securities triggered when the investor's equity drops below the ongoing minimum — 25% of market value under FINRA rules and often 30% or more at the firm — which after a 50% initial purchase means roughly a one-third price decline sets it off.",
+      "whyItMatters": "A roleplay asking how far a leveraged position can fall before the client hears from the broker is answered with that percentage and the resulting price, not with a vague warning about risk.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "regulation-t-initial-margin"
+      ]
+    },
+    {
+      "term": "SIPC coverage limit",
+      "definition": "Protection of up to $500,000 per customer per capacity at a failed brokerage, of which no more than $250,000 may be cash, and which restores missing securities from the firm's failure only — a portfolio that simply lost value is not covered at all.",
+      "whyItMatters": "A client who mistakes brokerage protection for deposit insurance is a standard PFN roleplay, and the answer is the cash sub-limit plus the exclusion of market losses.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "fdic-deposit-insurance-limit",
+        "fdic-ownership-category"
+      ]
+    },
+    {
+      "term": "Pattern day trader rule",
+      "definition": "A FINRA designation applied to a margin account that makes four or more same-day round trips within five business days when those trades exceed 6% of total activity, after which the account must hold at least $25,000 in equity before it may day trade again.",
+      "whyItMatters": "A roleplay with a student client who wants to trade actively is scored on naming both the four-trade count and the $25,000 floor, a threshold no cash account requirement matches.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "good-faith-violation",
+        "regulation-t-initial-margin"
+      ]
+    },
+    {
+      "term": "Effective annual rate",
+      "definition": "What a quoted nominal rate actually returns over a year once compounding inside that year is counted, computed as (1 + i/n)^n minus 1 — so 12% compounded monthly is 12.68% and compounded daily is 12.75%, and it is the only basis on which two differently compounded offers can be compared.",
+      "whyItMatters": "Choosing between a 5.90% quarterly-compounded CD and a 5.85% daily-compounded one is a live PFN case, and nothing but this conversion decides which pays more.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "annual-percentage-yield-apy",
+        "compound-interest",
+        "annual-percentage-rate-apr"
+      ]
+    },
+    {
+      "term": "Annuity due",
+      "definition": "A stream of equal payments made at the beginning of each period instead of the end, so every payment earns one extra period of interest and both its present and future values equal the ordinary-annuity figures multiplied by (1 + i).",
+      "whyItMatters": "Lease payments and insurance premiums are annuities due; using the ordinary-annuity factor understates the answer by exactly one period of interest and loses the item.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "annuity",
+        "time-value-of-money"
+      ]
+    },
+    {
+      "term": "Remote deposit capture",
+      "definition": "Depositing an item by transmitting an image from a phone or scanner instead of presenting the paper, which shifts duplicate-presentment risk onto the depositor and is why banks require a restrictive endorsement and retention of the original for a stated period.",
+      "whyItMatters": "A small-business onboarding roleplay asks what the customer must write on the back of the check and how long to keep it, which is the entire control for this channel.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "substitute-check"
+      ]
+    },
+    {
+      "term": "On-us item",
+      "definition": "A check drawn on the same bank that takes it for deposit, so it never enters interbank collection and posts on that bank's own books, which is why it can be made available faster than a transit item cleared through the Federal Reserve or a correspondent.",
+      "whyItMatters": "Explaining why one deposited check clears overnight and another takes two days begins with sorting the item into this category or the transit category.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "regulation-cc-next-day-availability"
+      ]
+    },
+    {
+      "term": "Nonsufficient funds item",
+      "definition": "A presented check or ACH debit the bank returns unpaid because the collected balance will not cover it, charging the payor a returned-item fee — as distinct from paying it into a negative balance, which produces an overdraft fee instead and leaves the payee holding good funds.",
+      "whyItMatters": "A roleplay about a bounced rent check is scored on which of the two fees the account actually took, and on the fact that re-presentment can generate the charge a second time.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "high-to-low-posting-order",
+        "regulation-e-overdraft-opt-in"
+      ]
+    },
+    {
+      "term": "Street name registration",
+      "definition": "Holding securities in a broker-dealer's nominee name for the customer, with beneficial ownership tracked on the firm's books and the position immobilized at a central depository — the arrangement that makes one-day settlement and instant transfer possible while routing proxies and dividends through the broker.",
+      "whyItMatters": "A roleplay where a client asks for a paper certificate is answered by explaining what registration form the account already uses and why the settlement cycle depends on it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PFN"
+      ],
+      "confusableWith": [
+        "t-1-settlement-cycle"
+      ]
+    }
+  ]
+}

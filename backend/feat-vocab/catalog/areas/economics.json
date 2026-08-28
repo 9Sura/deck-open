@@ -10,7 +10,8 @@
       "whyItMatters": "Distinguishing goods from services underlies every business model.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Economic resources",
@@ -18,31 +19,8 @@
       "whyItMatters": "Managing limited resources is central to operations and strategy.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Supply and demand",
-      "definition": "The relationship between how much of a good is available and how much customers want to buy.",
-      "whyItMatters": "It explains pricing, scarcity, inventory, and opportunity.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Competition",
-      "definition": "The rivalry among businesses to attract the same customers.",
-      "whyItMatters": "Competitive pressure shapes pricing, service, product mix, and promotion.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Profit",
-      "definition": "The money left after a business subtracts all costs and expenses from revenue.",
-      "whyItMatters": "The profit motive drives the decisions competitors must justify.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Productivity",
@@ -50,7 +28,8 @@
       "whyItMatters": "Higher productivity lowers cost and builds competitive advantage.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Inflation",
@@ -58,7 +37,8 @@
       "whyItMatters": "Inflation affects demand, business costs, and pricing strategy.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Unemployment rate",
@@ -66,23 +46,8 @@
       "whyItMatters": "It signals economic health and shapes consumer spending and hiring.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Functions of price",
-      "definition": "The role prices play in balancing supply and demand while signaling value and scarcity.",
-      "whyItMatters": "Prices coordinate the market; competitors must price to match demand.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Consumer spending",
-      "definition": "The total money households spend on goods and services.",
-      "whyItMatters": "Spending drives most economic activity and business revenue.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Gross domestic product",
@@ -90,7 +55,8 @@
       "whyItMatters": "GDP is the standard gauge of economic health competitors reference.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Diminishing returns",
@@ -98,31 +64,8 @@
       "whyItMatters": "It explains why scaling operations becomes less efficient past a point.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Interest-rate fluctuations",
-      "definition": "Changes in the cost of borrowing money that affect spending and investment.",
-      "whyItMatters": "Rates drive financing costs and long-term investment decisions.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Exchange rate",
-      "definition": "The price at which one currency trades for another.",
-      "whyItMatters": "Exchange shifts move export costs, import prices, and global strategy.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Economic systems",
-      "definition": "The rules and institutions governing how a society produces and distributes goods.",
-      "whyItMatters": "Competitors must know how market, command, and mixed economies shape business.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Specialization",
@@ -130,6 +73,651 @@
       "whyItMatters": "Specialization improves efficiency and is the basis of trade.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Money multiplier",
+      "definition": "Equals 1 divided by the required reserve ratio, and caps how far one new deposit can expand the money supply: at a 10% reserve ratio the multiplier is 10, so $1,000 of fresh reserves can support up to $10,000 of deposits. Cash held outside banks and excess reserves both shrink the real-world figure below the formula.",
+      "whyItMatters": "Macro items that hand you a reserve ratio and a deposit want this reciprocal computed, and the deposit-expansion number is graded, not the explanation of lending.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "fractional-reserve-banking",
+        "spending-multiplier",
+        "velocity-of-money"
+      ]
+    },
+    {
+      "term": "Velocity of money",
+      "definition": "How many times the average dollar is spent on final goods and services in a year, computed as nominal GDP divided by the money supply. It is the V in the equation of exchange MV = PQ, so when V is stable, growth in the money supply passes straight through into higher prices.",
+      "whyItMatters": "Inflation items that ask why a large increase in the money supply did not produce proportional price increases are asking the competitor to reason about a fall in this ratio.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "money-multiplier",
+        "inflation",
+        "gross-domestic-product"
+      ]
+    },
+    {
+      "term": "Fisher effect",
+      "definition": "The relationship stating that the real interest rate equals the nominal rate minus expected inflation, so a savings account paying 7% during 5% inflation earns only about 2% in purchasing power — and a 3% account during 4% inflation loses money in real terms even though the balance grows.",
+      "whyItMatters": "A personal-finance or economics item that gives a stated rate and an inflation rate is asking for the real return; answering with the posted nominal rate is the standard miss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "real-rate-of-return",
+        "inflation",
+        "annual-percentage-yield-apy"
+      ]
+    },
+    {
+      "term": "FDIC deposit insurance limit",
+      "definition": "Federal coverage of $250,000 per depositor, per insured bank, per ownership category — so a couple's joint account is insured separately from each spouse's individual account, and the cap applies per institution rather than per branch or per account number.",
+      "whyItMatters": "A roleplay in which a client asks whether their savings are safe after a bank failure is scored on stating the dollar cap and the per-depositor, per-bank, per-category structure.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "fractional-reserve-banking",
+        "certificate-of-deposit",
+        "financial-services-provider"
+      ]
+    },
+    {
+      "term": "Inverted yield curve",
+      "definition": "Occurs when short-term Treasury yields sit above long-term ones — the 10-year minus 2-year spread turns negative — because investors expect rate cuts and weaker growth ahead. It has preceded every U.S. recession since the 1950s, typically by six to twenty-four months, which is why it is treated as a leading signal rather than a description of current conditions.",
+      "whyItMatters": "Business-cycle items that hand you bond yields at several maturities are asking what the shape of the curve forecasts, not what the economy is doing today.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "leading-economic-indicator",
+        "recession",
+        "federal-funds-rate"
+      ]
+    },
+    {
+      "term": "Marginal propensity to consume",
+      "definition": "The share of each ADDITIONAL dollar of after-tax income a household spends rather than saves, computed as the change in consumption divided by the change in income. It always pairs with the marginal propensity to save, and the two sum to 1 — so an MPC of 0.75 implies an MPS of 0.25.",
+      "whyItMatters": "Items that give a household's income increase and its spending increase want this ratio, which then feeds the spending multiplier; using average spending out of total income instead of the change is the classic error.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "spending-multiplier",
+        "consumer-spending",
+        "crowding-out"
+      ]
+    },
+    {
+      "term": "Spending multiplier",
+      "definition": "Equals 1 divided by (1 − MPC), so an economy whose households spend 80 cents of each extra dollar turns $10 billion of new government purchases into as much as $50 billion of added output. The tax multiplier is always smaller, because the first dollar of a tax cut is partly saved before any of it is spent.",
+      "whyItMatters": "A macro item that supplies an MPC and a spending figure is asking for this computation; the tax-cut version of the same question uses a smaller multiplier and is where competitors lose points.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "marginal-propensity-to-consume",
+        "money-multiplier",
+        "crowding-out"
+      ]
+    },
+    {
+      "term": "Expenditure approach to GDP",
+      "definition": "Totals a nation's output as C + I + G + (X − M) — consumption plus business investment plus government purchases plus net exports. Imports are SUBTRACTED because they were produced abroad but already counted inside C, I and G, which is why a widening trade deficit mechanically lowers the measured figure.",
+      "whyItMatters": "GDP items hand you four spending categories and expect the sum with imports netted out; adding imports in, or counting government transfer payments as G, are the two ways competitors miss it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "gross-domestic-product",
+        "gdp-deflator",
+        "balance-of-payments"
+      ]
+    },
+    {
+      "term": "GDP deflator",
+      "definition": "Nominal GDP divided by real GDP, times 100 — a price index covering every good and service an economy produces. Unlike the consumer price index it uses no fixed basket, so its weights shift automatically as spending patterns change, and it excludes imported goods that the CPI includes.",
+      "whyItMatters": "An item giving nominal and real GDP for the same year is asking for this ratio, and an item asking which price measure covers the whole economy rather than a household basket is asking for it by name.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "consumer-price-index",
+        "inflation",
+        "gross-domestic-product"
+      ]
+    },
+    {
+      "term": "Phillips curve",
+      "definition": "The short-run inverse trade-off between inflation and unemployment: driving unemployment below the natural rate buys fewer jobless at the price of faster inflation. The long-run version is vertical at the natural rate, so once workers build the higher inflation into their expectations the trade-off disappears and only the inflation remains.",
+      "whyItMatters": "Items ask what a central bank gives up when it stimulates an economy already at full employment; the long-run vertical version is what explains why the 1970s tried to buy jobs and got stagflation instead.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "natural-rate-of-unemployment",
+        "stagflation",
+        "demand-pull-inflation"
+      ]
+    },
+    {
+      "term": "Okun's law",
+      "definition": "The empirical rule that each percentage point of unemployment above the natural rate costs roughly 2% of potential real GDP, so an economy running 3 points above that rate is producing about 6% less than its capacity.",
+      "whyItMatters": "Items that give an actual unemployment rate and a natural rate and ask what output is being lost are solved with this two-to-one ratio rather than by describing the recession in words.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "natural-rate-of-unemployment",
+        "unemployment-rate",
+        "gross-domestic-product"
+      ]
+    },
+    {
+      "term": "Labor force participation rate",
+      "definition": "The labor force — everyone employed or actively searching within the last four weeks — divided by the civilian noninstitutional population aged 16 and over, times 100. It can fall at the same time as the unemployment rate, because a discouraged worker who stops searching leaves the numerator and the jobless count simultaneously.",
+      "whyItMatters": "Items pair a falling unemployment rate with a falling participation rate and ask whether the labor market really improved; the arithmetic of who leaves the labor force is what settles it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "unemployment-rate",
+        "structural-unemployment",
+        "natural-rate-of-unemployment"
+      ]
+    },
+    {
+      "term": "Comparative advantage",
+      "definition": "The ability to produce a good at a lower OPPORTUNITY cost than a trading partner, which is what makes trade mutually profitable even when one country is more efficient at producing everything. Absolute advantage — simply making more per hour of input — does not by itself establish any reason to trade.",
+      "whyItMatters": "Global-trade items give a two-country, two-good output table and ask who should specialize in what; the answer comes from the opportunity-cost ratios, not from whichever column of raw output is larger.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "specialization",
+        "international-trade",
+        "competitive-advantage"
+      ]
+    },
+    {
+      "term": "Balance of payments",
+      "definition": "The complete record of a nation's transactions with the rest of the world — the current account of goods, services, income and transfers, plus the capital and financial accounts — which sums to zero by construction, since a current-account deficit is financed by an offsetting inflow of capital. The balance of trade is only the goods-and-services slice of the current account.",
+      "whyItMatters": "Global-business items ask what a persistent trade deficit implies; the correct answer follows the offsetting capital inflow rather than treating the deficit as unfunded loss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "international-trade",
+        "expenditure-approach-to-gdp",
+        "currency-depreciation"
+      ]
+    },
+    {
+      "term": "Purchasing power parity",
+      "definition": "The theory that exchange rates should adjust until an identical basket of goods costs the same in both countries: if a burger is $5 in the U.S. and £4 in Britain, the implied rate is $1.25 per pound, and a market rate of $1.60 says the pound is overvalued. Trade barriers and non-traded services keep real rates from converging to it.",
+      "whyItMatters": "Global-business items give two local prices for one product and ask what the exchange rate implies, or ask why a salary converts to very different living standards in two countries.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "currency-depreciation",
+        "international-trade",
+        "consumer-price-index"
+      ]
+    },
+    {
+      "term": "Deadweight loss",
+      "definition": "The value of mutually beneficial trades destroyed when price is pushed away from the market-clearing level by a tax, a ceiling, a floor or a monopoly. On a supply-and-demand diagram it is the triangle between the two curves over the lost quantity — one-half base times height — and it goes to no one: not the buyer, not the seller, not the government.",
+      "whyItMatters": "Items ask who bears the cost of a per-unit tax and answer with the split of the burden plus this un-captured loss; naming only the tax revenue is an incomplete answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "price-ceiling",
+        "negative-externality",
+        "oligopoly"
+      ]
+    },
+    {
+      "term": "Public good",
+      "definition": "Passes a strict two-part test: non-excludable, meaning a non-payer cannot be kept from using it, and non-rival, meaning one person's use does not reduce what is left for anyone else. National defense and a lighthouse qualify; cable television is excludable and a crowded highway is rival, so neither does — which is why private firms underprovide the real thing and taxes fund it.",
+      "whyItMatters": "Items list several government-provided services and ask which genuinely meets the economic definition; roads, schools and parks fail one prong each and are the intended distractors.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "negative-externality",
+        "mixed-economy",
+        "economic-goods"
+      ]
+    },
+    {
+      "term": "Moral hazard",
+      "definition": "Increased risk-taking AFTER an agreement is signed because someone else now bears the downside — an insured driver who stops locking the car, a bank lending recklessly while expecting a rescue. Adverse selection is the mirror problem BEFORE signing, when the riskiest applicants are the most eager buyers and the seller cannot tell them apart.",
+      "whyItMatters": "Items describing a party who behaves worse once protected are testing the before-versus-after timing that separates these two information problems; the timing is the whole answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "adverse-selection",
+        "business-risk",
+        "insurance"
+      ]
+    },
+    {
+      "term": "Marginal utility",
+      "definition": "The extra satisfaction gained from consuming one more unit, which declines as consumption rises — the second slice of pizza is worth less than the first. A consumer maximizes total satisfaction by spreading a budget until satisfaction per dollar is equal across goods: the marginal utility of A over the price of A equals the marginal utility of B over the price of B.",
+      "whyItMatters": "Consumer-spending items give utility figures and prices for two products and ask which the buyer purchases next; the per-dollar rule, not the raw utility number, decides it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "diminishing-returns",
+        "buying-behavior",
+        "customer-value"
+      ]
+    },
+    {
+      "term": "Rule of 70",
+      "definition": "Divide 70 by an annual growth rate written in whole percentage points to get the years a quantity needs to double: real output growing 3.5% a year doubles in 20 years, while 7% growth doubles it in 10 — so a one-point difference in growth is a decade of living standards.",
+      "whyItMatters": "Global-trade and economic-development items ask which of two developing markets a firm should enter first; the answer turns on doubling time, not on this year's growth number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "rule-of-72",
+        "compound-interest"
+      ]
+    },
+    {
+      "term": "Output gap",
+      "definition": "Actual real GDP minus potential real GDP, divided by potential and multiplied by 100. Actual output of $19.4 trillion against potential of $20 trillion is a gap of −3%, the recessionary case that pulls prices and hiring down; a positive gap signals an overheating economy.",
+      "whyItMatters": "Business-cycle questions give an actual and a potential output figure and expect the sign and the percentage, not the word 'slowdown'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "gross-domestic-product",
+        "recession",
+        "okun-s-law"
+      ]
+    },
+    {
+      "term": "Employment-population ratio",
+      "definition": "Employed people divided by the civilian working-age population — the denominator counts everyone of working age, including those not looking for work. With 155 million employed out of 260 million, the ratio is 59.6%; the jobless rate uses the labor force instead and can fall simply because searchers quit looking.",
+      "whyItMatters": "Unemployment-rate items pair a falling jobless rate with a falling employment share and ask which one shows the labor market actually improving.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "labor-force-participation-rate",
+        "unemployment-rate"
+      ]
+    },
+    {
+      "term": "Misery index",
+      "definition": "Add the annual inflation rate to the unemployment rate: 6% price growth plus 5% joblessness scores 11. The two are weighted equally, so a policy that trades two points of inflation for one point of employment worsens the score even when the jobs number improves.",
+      "whyItMatters": "Roleplays about consumer confidence and discretionary spending hand you both rates; the combined figure is what explains why traffic fell.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "phillips-curve",
+        "consumer-price-index"
+      ]
+    },
+    {
+      "term": "Equation of exchange",
+      "definition": "Money stock times the number of times each dollar is spent equals the price level times real output: M × V = P × Q. Restated in growth rates, %ΔM + %ΔV = %ΔP + %ΔQ, so with turnover steady and output rising 2%, an 8% jump in the money stock leaves about 6% inflation.",
+      "whyItMatters": "Interest-rate and inflation items ask what happens to prices when the central bank expands the money stock faster than the economy grows; this identity produces the number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "velocity-of-money",
+        "money-multiplier",
+        "inflation"
+      ]
+    },
+    {
+      "term": "Market basket",
+      "definition": "A fixed list of goods and quantities repriced each period; this period's cost divided by the base period's cost, times 100, is the index. A $2,400 basket against a $2,000 base year prints 120, meaning prices are 20% above base — and because the quantities never change, substitution toward cheaper goods is invisible and the index overstates the true rise.",
+      "whyItMatters": "Inflation-impact questions ask a competitor to compute an index from two years of basket costs and then explain why the printed rate overstates what shoppers actually pay.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "gdp-deflator",
+        "inflation"
+      ]
+    },
+    {
+      "term": "Tax multiplier",
+      "definition": "−MPC ÷ (1 − MPC): with a marginal propensity to consume of 0.8 it is −4, one unit smaller in size than the 5 attached to direct spending and opposite in sign, because the first round of a tax cut is partly saved rather than spent. A $100 million tax cut therefore adds about $400 million to output, not $500 million.",
+      "whyItMatters": "Government-and-business items ask which stimulates output more per dollar, a tax cut or direct purchases; the sign and the one-unit gap are the whole answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "spending-multiplier",
+        "marginal-propensity-to-consume",
+        "balanced-budget-multiplier"
+      ]
+    },
+    {
+      "term": "Balanced budget multiplier",
+      "definition": "Raising purchases and taxes by the same dollar amount still lifts output by exactly that amount, because the spending multiplier 1 ÷ (1 − MPC) and the tax multiplier −MPC ÷ (1 − MPC) sum to 1. Spending and taxing $50 billion each adds $50 billion to GDP with no change in the deficit.",
+      "whyItMatters": "Fiscal items test whether a competitor thinks a deficit-neutral package does nothing; the arithmetic says its effect is positive and equal to the package.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "tax-multiplier",
+        "spending-multiplier"
+      ]
+    },
+    {
+      "term": "Marginal propensity to save",
+      "definition": "One minus the share of each additional dollar of income that gets spent, so an MPC of 0.75 leaves 0.25. It is the multiplier's denominator: 1 ÷ 0.25 = 4, meaning the more households save out of a raise, the smaller the ripple from any injection of spending.",
+      "whyItMatters": "Consumer-spending questions give a change in income and a change in saving and expect the multiplier that follows, not a definition of thrift.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "marginal-propensity-to-consume",
+        "spending-multiplier"
+      ]
+    },
+    {
+      "term": "Laffer curve",
+      "definition": "Revenue equals the rate times the taxable base, and the base itself shrinks as the rate climbs, so collections are zero at a 0% rate and zero again at 100% and peak somewhere between. Above that peak a rate cut raises revenue; below it — where most real systems sit — a cut still loses money.",
+      "whyItMatters": "Tax questions ask whether cutting a rate can raise collections; credit goes to the competitor who names which side of the peak the rate has to be on.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "marginal-tax-rate",
+        "effective-tax-rate",
+        "progressive-tax"
+      ]
+    },
+    {
+      "term": "Tax incidence",
+      "definition": "The split of a per-unit levy between buyer and seller, fixed by relative elasticities rather than by who writes the check: buyers absorb the fraction Es ÷ (Es + Ed). With supply elasticity 2 and demand elasticity 1, buyers carry two-thirds of a $3 tax as a $2 price rise and the seller nets $1 less.",
+      "whyItMatters": "Taxation items name the party legally charged and then ask who actually pays; the elasticity ratio, not the statute, decides.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "price-elasticity",
+        "deadweight-loss"
+      ]
+    },
+    {
+      "term": "Required reserve ratio",
+      "definition": "Fraction of checkable deposits a bank is barred from lending — mandated reserves ÷ deposits. At 10%, a $1,000 deposit locks up $100 and frees $900, and the ceiling on deposit creation is 1 ÷ 0.10 = 10; cutting the ratio to 5% doubles that ceiling without the central bank buying a single security.",
+      "whyItMatters": "Interest-rate-fluctuation items ask how a change in this one fraction moves the amount of money in circulation, and the answer is the reciprocal.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "money-multiplier",
+        "discount-rate"
+      ]
+    },
+    {
+      "term": "Real exchange rate",
+      "definition": "Nominal rate multiplied by the ratio of home prices to foreign prices, which is what decides whether exporting is actually cheaper. A 10% currency fall paired with 10% more home inflation than abroad leaves this measure unchanged, so the apparent export advantage is worth nothing.",
+      "whyItMatters": "Global-trade roleplays hand you a currency move and an inflation gap and ask whether the firm's goods really got cheaper overseas.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "purchasing-power-parity",
+        "currency-cross-rate"
+      ]
+    },
+    {
+      "term": "Currency cross rate",
+      "definition": "Price of one currency in another, derived from each one's quote against a third: if $1 buys €0.90 and $1 buys £0.80, then €1 buys £0.889, since 0.80 ÷ 0.90 = 0.889. Any quoted pair that disagrees with that division is an arbitrage opportunity, which is why the three quotes stay consistent.",
+      "whyItMatters": "Exchange-rate items quote two currencies against the dollar and ask what a euro invoice costs a British subsidiary — a division, not a lookup.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "real-exchange-rate",
+        "purchasing-power-parity"
+      ]
+    },
+    {
+      "term": "Terms of trade",
+      "definition": "Export price index divided by import price index, times 100. A country whose export prices climb 6% while import prices climb 2% moves from 100 to about 104 and can buy more foreign goods per unit shipped; a commodity exporter watching prices slide sees the figure drop even with export volume flat.",
+      "whyItMatters": "Trade-alliance and global-environment questions ask who gained from a shift in world prices, and the ratio of the two indexes settles it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "balance-of-payments",
+        "comparative-advantage"
+      ]
+    },
+    {
+      "term": "Interest rate parity",
+      "definition": "The forward premium on a currency has to equal the gap between the two countries' interest rates, or borrowing in one and lending in the other earns a riskless profit. A 5% domestic rate against 2% abroad implies the foreign currency trades forward about 3% above spot, which cancels the yield advantage exactly.",
+      "whyItMatters": "International-finance items ask why a competitor should not simply park cash in the highest-yielding currency; the forward discount is the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "purchasing-power-parity",
+        "real-exchange-rate",
+        "fisher-effect"
+      ]
+    },
+    {
+      "term": "Marginal propensity to import",
+      "definition": "Share of each extra dollar of income that leaves the country for foreign goods. It enters the multiplier as a leakage, turning 1 ÷ (1 − MPC) into 1 ÷ (1 − MPC + MPI): with MPC 0.8 the closed figure of 5 falls to 1 ÷ (0.2 + 0.1) = 3.33 once a tenth of new income is spent abroad.",
+      "whyItMatters": "Globalization questions ask why a stimulus works less well in a highly open economy; the leakage in the denominator is the mechanism.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "spending-multiplier",
+        "marginal-propensity-to-consume",
+        "balance-of-payments"
+      ]
+    },
+    {
+      "term": "Growth accounting",
+      "definition": "Splits output growth into three addends — the contribution of added capital, the contribution of added hours, and the residual left over. If output rises 4% while capital and labor together explain 2.5%, the remaining 1.5% is productivity growth, the only piece that raises income per worker permanently.",
+      "whyItMatters": "Productivity items ask a competitor to separate growth that came from hiring more people from growth that came from each worker producing more.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "productivity",
+        "specialization"
+      ]
+    },
+    {
+      "term": "Four-firm concentration ratio",
+      "definition": "Sum of the market shares of the four biggest sellers: 18 + 15 + 9 + 6 = 48%. Crossing roughly 40% marks an industry as an oligopoly, and 100% is a monopoly or a tight cartel — but because it adds shares without squaring them, it cannot tell four equal firms apart from one giant and three minnows.",
+      "whyItMatters": "Competition questions give a share table and ask for the structure label plus its threshold, and the blind spot is exactly what the follow-up tests.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "herfindahl-hirschman-index",
+        "market-share"
+      ]
+    },
+    {
+      "term": "Lerner index",
+      "definition": "(Price − marginal cost) ÷ price, running from 0 under perfect competition to near 1 for an unchallenged monopolist. A $50 price on $40 of marginal cost scores 0.20, and because the figure equals the reciprocal of demand elasticity, a firm facing elasticity of 5 can hold only a 20% markup over marginal cost.",
+      "whyItMatters": "Pricing-power items ask how much a firm can charge above its own marginal cost, and the elasticity link converts a demand estimate into a markup ceiling.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "markup-on-cost",
+        "price-elasticity",
+        "profit-margin"
+      ]
+    },
+    {
+      "term": "Profit-maximizing output rule",
+      "definition": "Keep producing while the revenue the next unit brings in exceeds the cost it adds, and stop at the output where the two are equal. If the next unit adds $12 of revenue and $9 of cost, making it gains $3; past the crossing point each extra unit subtracts from profit even though total revenue is still rising.",
+      "whyItMatters": "Factors-affecting-profit items ask for the quantity a firm should produce from a marginal cost and marginal revenue schedule, not from total revenue.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "contribution-margin-per-unit",
+        "diminishing-returns",
+        "shutdown-rule"
+      ]
+    },
+    {
+      "term": "Shutdown rule",
+      "definition": "Keep the doors open in the short run only while price covers average variable cost; at a lower price closing loses less, because fixed costs are owed either way. At $8 price with $7 variable and $4 fixed cost per unit, the firm loses $3 a unit but still operates, since shutting down would lose the full $4.",
+      "whyItMatters": "Operating-cost roleplays ask whether a location losing money should close now; the test is variable cost coverage, not whether the site is profitable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "break-even-point-in-units",
+        "operating-costs",
+        "contribution-margin-per-unit"
+      ]
+    },
+    {
+      "term": "Marginal product of labor",
+      "definition": "Extra output produced by one more worker, computed as the change in quantity divided by the change in workers. Going from 4 to 5 employees and from 40 to 46 units gives 6. It also sets marginal cost: at a $120 daily wage, that worker's units cost 120 ÷ 6 = $20 each, so cost per unit rises the moment the added output starts shrinking.",
+      "whyItMatters": "Staffing and productivity items ask what one more scheduled worker actually adds and what that output costs, which is where diminishing returns become dollars.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "diminishing-returns",
+        "productivity",
+        "value-of-the-marginal-product"
+      ]
+    },
+    {
+      "term": "Value of the marginal product",
+      "definition": "Selling price multiplied by the extra output the next worker adds — $15 a unit times 6 units is $90 a day. Hire while that figure is at or above the wage and stop when it drops below: at a $100 wage this worker is not worth adding, even though the worker before, adding 9 units and $135, clearly was.",
+      "whyItMatters": "Labor and productivity questions ask how many people a firm should employ, and the comparison of this figure to the wage is the tested rule.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "marginal-product-of-labor",
+        "compensation",
+        "diminishing-returns"
+      ]
+    },
+    {
+      "term": "Minimum efficient scale",
+      "definition": "The smallest output at which long-run average cost stops falling and flattens out. If unit cost drops from $9 to $6 between 10,000 and 50,000 units and then holds at $6, the threshold is 50,000 — a rival producing 20,000 pays $7 or $8 and cannot match a $6.50 price, which is how the number becomes an entry barrier.",
+      "whyItMatters": "Competition items ask why a small entrant cannot match an incumbent's price, and the expected answer is the output threshold, not brand loyalty.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "economies-of-scope",
+        "capacity-utilization-rate",
+        "average-fixed-cost"
+      ]
+    },
+    {
+      "term": "Consumer surplus",
+      "definition": "Gap between what buyers would have paid and what they did pay, measured as the area under the demand curve and above the market price. With demand starting at $50, a $20 price and 300 units sold, it equals ½ × 300 × ($50 − $20) = $4,500 — and a price rise to $30 cuts it, which is the value a seller captures when it segments buyers.",
+      "whyItMatters": "Price-function questions ask what buyers lose when a price rises or a shortage appears; the triangle turns that into a dollar figure.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "deadweight-loss",
+        "value-based-pricing",
+        "customer-value"
+      ]
+    },
+    {
+      "term": "Gini coefficient",
+      "definition": "Area between the equal-shares diagonal and the actual income curve, divided by the whole triangle under that diagonal, giving 0 for identical incomes and 1 for one household holding everything. A move from 0.38 to 0.45 means income concentrated, and since it is a ratio it says nothing about whether anyone got richer.",
+      "whyItMatters": "Economic-development items compare two markets' income spread to pick a target segment, and the score is the measure they hand you.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:economics"
+      ],
+      "confusableWith": [
+        "demographics",
+        "market-segmentation"
+      ]
+    },
+    {
+      "term": "Equimarginal principle",
+      "definition": "Allocate a budget so the last dollar spent on each good returns the same added satisfaction: MUx ÷ Px = MUy ÷ Py. If one item returns 20 utils per dollar and another 10, shifting spending toward the first raises total satisfaction until the two ratios meet — the rule that produces the downward-sloping demand curve.",
+      "whyItMatters": "Buying-behavior roleplays ask why a shopper walked away from the better product; the per-dollar comparison, not the raw benefit, explains the switch.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/economics.txt"
+      ],
+      "confusableWith": [
+        "marginal-utility",
+        "buying-motives",
+        "customer-value"
       ]
     }
   ]

@@ -10,7 +10,8 @@
       "whyItMatters": "Insurance protects businesses and people from large, unexpected losses.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Risk management",
@@ -18,31 +19,8 @@
       "whyItMatters": "It protects assets, reputation, and profitability.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
-    },
-    {
-      "term": "Safety policies",
-      "definition": "Written rules and procedures meant to prevent workplace accidents and injuries.",
-      "whyItMatters": "They set a consistent standard that protects employees and limits liability.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
-    },
-    {
-      "term": "Security precautions",
-      "definition": "Measures that protect company assets, data, and facilities from theft or intrusion.",
-      "whyItMatters": "Routine precautions prevent costly breaches and protect information.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
-    },
-    {
-      "term": "Safe work environment",
-      "definition": "A workplace designed and maintained to minimize hazards and injuries.",
-      "whyItMatters": "Safety protects health, cuts liability, and lifts productivity.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Business risk",
@@ -50,23 +28,8 @@
       "whyItMatters": "Recognizing risk types lets a business prepare and respond.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
-    },
-    {
-      "term": "Legal considerations",
-      "definition": "The laws and compliance requirements that shape how a business manages risk.",
-      "whyItMatters": "Understanding them helps avoid fines, lawsuits, and penalties.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
-    },
-    {
-      "term": "Ethics in risk management",
-      "definition": "The principles guiding responsible identification and handling of risk.",
-      "whyItMatters": "Ethical risk practices build stakeholder trust and protect reputation.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Intellectual property protection",
@@ -74,7 +37,8 @@
       "whyItMatters": "Protecting information preserves competitive advantage.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Business threat analysis",
@@ -82,7 +46,8 @@
       "whyItMatters": "It focuses risk effort on what most endangers the business.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Risk assessment",
@@ -90,7 +55,8 @@
       "whyItMatters": "Assessment is the foundation of any protection strategy.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Risk-management program",
@@ -98,7 +64,8 @@
       "whyItMatters": "A program ensures systematic protection across all functions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Business continuity planning",
@@ -106,7 +73,8 @@
       "whyItMatters": "It is the standard answer for surviving major disruptions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Risk and reward",
@@ -114,6 +82,605 @@
       "whyItMatters": "Weighing risk against reward guides sound business decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Pure risk",
+      "definition": "An exposure that can end only in loss or in no loss and never in gain — fire, theft, a liability suit — which is exactly why an insurer will write it; speculative risk, where the same event can also produce a profit, such as launching a product or buying stock, is uninsurable and must be handled by business judgment instead.",
+      "whyItMatters": "The first question in any risk-management roleplay is which exposures can be insured at all; judges expect you to sort the client's list into insurable and speculative before you recommend a single policy.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "business-risk",
+        "risk-and-reward"
+      ]
+    },
+    {
+      "term": "Peril",
+      "definition": "The specific cause of a loss — the fire itself, the hailstorm, the burglary — as opposed to a hazard, which is a condition that makes that cause more likely or the resulting damage worse, such as oily rags stored beside the furnace or an unlit parking lot.",
+      "whyItMatters": "Exam items hand you a scenario and ask which item is the peril and which the hazard; getting them backwards loses the point even when the recommended control is correct.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "morale-hazard",
+        "named-peril-policy"
+      ]
+    },
+    {
+      "term": "Morale hazard",
+      "definition": "Carelessness that grows out of knowing a loss will be reimbursed — leaving the delivery van unlocked because the policy will pay — which is distinct from moral hazard, deliberate dishonesty such as staging the theft to collect. The first is indifference, the second is fraud, and only the second voids the contract.",
+      "whyItMatters": "A loss-prevention roleplay usually turns on employees who stopped caring after the store was insured; naming this as morale rather than moral hazard tells the judge you know the difference between sloppiness and a claim you can deny.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "moral-hazard",
+        "fraud-triangle"
+      ]
+    },
+    {
+      "term": "Loss frequency",
+      "definition": "How often losses occur per unit of exposure in a period — claims divided by exposure units, so 6 collision claims across 40 trucks is 0.15 per truck-year — and it is kept strictly apart from how large each of those losses turns out to be, because the two point to opposite treatments.",
+      "whyItMatters": "Insurance-and-risk exam questions ask which treatment fits: high-frequency, low-severity losses get retained and controlled, while the rare catastrophic loss gets transferred to an insurer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "expected-loss",
+        "loss-control"
+      ]
+    },
+    {
+      "term": "Expected loss",
+      "definition": "The amount a firm should budget for an exposure before anything happens: average number of losses in the period multiplied by average dollar cost per loss, so 4 incidents a year at $12,500 each is $50,000 that belongs in the risk budget whether or not any single incident occurs.",
+      "whyItMatters": "When a roleplay asks whether to retain a risk or buy coverage, you compare this figure to the quoted premium — a premium far above expected loss is buying volatility protection, not savings.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "loss-frequency",
+        "total-cost-of-risk"
+      ]
+    },
+    {
+      "term": "Loss control",
+      "definition": "Spending that cuts how often losses happen or how much each one costs — sprinklers, driver training, guards at the door — the treatment that changes the exposure itself. Loss financing, by contrast, changes only who pays afterward: retention, deductibles and insurance move dollars but leave the hazard exactly as it was.",
+      "whyItMatters": "A judge asking you to protect a client from loss wants both halves of the answer; recommending only insurance shows you cannot separate preventing a loss from paying for it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "risk-mitigation",
+        "self-insured-retention"
+      ]
+    },
+    {
+      "term": "Self-insured retention",
+      "definition": "A dollar layer the insured pays from its own funds and administers itself before the policy responds at all — an SIR of $250,000 means the firm investigates and settles every claim under that figure. Under a deductible the insurer handles the claim from the first dollar and then bills the insured back, so the duty to defend differs.",
+      "whyItMatters": "Finance and risk roleplays often ask why a large employer chose an SIR over a deductible; the answer is claim control and cash flow, not just a cheaper premium.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "deductible",
+        "captive-insurer"
+      ]
+    },
+    {
+      "term": "Captive insurer",
+      "definition": "A licensed insurance subsidiary a parent company owns in order to write its own risks, funding claims out of premiums that stay inside the corporate group. It turns informal retention into a real insurer that can buy reinsurance and deduct premiums, unlike simply booking losses as they happen.",
+      "whyItMatters": "Exam items on financing large exposures contrast buying commercial coverage, retaining losses outright, and forming a captive; the captive is the option that keeps underwriting profit in the family.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "self-insured-retention",
+        "reinsurance"
+      ]
+    },
+    {
+      "term": "Reinsurance",
+      "definition": "Coverage one insurer buys from another to hand off part of what it has already written. The ceding company keeps a share and passes the rest, as in a 30% quota-share treaty where the reinsurer takes 30% of both the premium and the losses, which lets the cedent write policies larger than its own surplus would support.",
+      "whyItMatters": "Questions about how insurers survive hurricanes turn on this; a competitor who can name the ceding company and the share split explains catastrophe capacity instead of guessing at it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "captive-insurer",
+        "law-of-large-numbers"
+      ]
+    },
+    {
+      "term": "Principle of indemnity",
+      "definition": "The rule that a settlement restores the insured to the financial position held just before the loss and no better, capping recovery at the amount actually lost even when the policy limit is far higher — which is why a $40,000 loss under a $100,000 limit pays $40,000 and not a dollar more.",
+      "whyItMatters": "Insurance exam items test whether over-insuring a building buys a bigger payout; it does not, and this doctrine is the reason to give the judge.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "subrogation",
+        "actual-cash-value"
+      ]
+    },
+    {
+      "term": "Insurable interest",
+      "definition": "The requirement that a policyholder would suffer a genuine financial loss if the covered person or property were harmed — tested at the time of loss for property coverage but only at policy inception for life coverage. Without it the agreement is an unenforceable wager rather than insurance.",
+      "whyItMatters": "A roleplay where a company insures the life of a departed executive or a building it just sold hinges on this; the timing rule is what decides whether the claim pays.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "key-person-insurance",
+        "principle-of-indemnity"
+      ]
+    },
+    {
+      "term": "Subrogation",
+      "definition": "The right an insurer gains after paying its own insured to step into that insured's shoes and pursue whoever caused the loss. It is what keeps indemnity intact, because it stops the insured from collecting twice — once from the policy and again in damages from the wrongdoer.",
+      "whyItMatters": "When a roleplay client wants to sign away recovery rights in a vendor contract, this is the clause the carrier cares about, and signing it can void coverage.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "principle-of-indemnity",
+        "hold-harmless-clause"
+      ]
+    },
+    {
+      "term": "Loss ratio",
+      "definition": "Incurred losses divided by earned premium — $650,000 over $1,000,000 is 65% — showing the share of each premium dollar an insurer hands back out as claims, before any of its own commissions, salaries or overhead are counted against the rest.",
+      "whyItMatters": "Insurance-track exam items give you an insurer's numbers and ask whether it made money underwriting; this ratio is the first half of that answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "combined-ratio",
+        "expense-ratio"
+      ]
+    },
+    {
+      "term": "Combined ratio",
+      "definition": "Loss ratio plus expense ratio: 65% claims plus 32% operating costs equals 97%, meaning the insurer kept three cents of underwriting profit per premium dollar. Anything above 100% is an underwriting loss that only investment income can cover, which is why 100% is read as the break-even line.",
+      "whyItMatters": "This is the single number an exam uses to ask whether an insurer is profitable on the policies themselves rather than on its investment portfolio.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "loss-ratio",
+        "expense-ratio"
+      ]
+    },
+    {
+      "term": "Experience modification factor",
+      "definition": "A multiplier applied to a firm's workers' compensation premium, built from its own claim history measured against the losses expected for its industry and payroll. A 1.00 is dead average, 0.85 cuts the premium by 15%, and 1.20 adds 20% — so this year's safety record prices next year's coverage.",
+      "whyItMatters": "In a roleplay arguing for a safety budget, this factor is how you convert injury reduction into a premium dollar figure the owner will actually respond to.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "exclusive-remedy-doctrine",
+        "loss-control"
+      ]
+    },
+    {
+      "term": "Copayment",
+      "definition": "A flat dollar amount owed per service — $30 at each office visit — no matter what the bill totals. It is separate from the deductible, the annual amount paid before coverage begins, and from coinsurance, a percentage share such as the patient's 20% of every charge once the deductible has been satisfied.",
+      "whyItMatters": "Employee-benefits questions give a plan with all three cost-sharing pieces and ask what a specific claim costs the employee; mixing them up produces the wrong number every time.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "deductible",
+        "coinsurance"
+      ]
+    },
+    {
+      "term": "Umbrella liability policy",
+      "definition": "Extra limits sitting above underlying general liability, auto and employer's liability policies, paying only once those are exhausted — a $5 million umbrella over a $1 million primary responds at dollar 1,000,001 — and in some forms dropping down to answer for a few claims the primary policies exclude.",
+      "whyItMatters": "When a roleplay client asks how to survive a catastrophic lawsuit without buying enormous primary limits, this is the layered answer a judge is listening for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "errors-and-omissions-insurance",
+        "premises-liability"
+      ]
+    },
+    {
+      "term": "Errors and omissions insurance",
+      "definition": "Liability coverage for financial harm caused by a professional's advice or service failing — a missed filing deadline, a flawed design, bad tax counsel. General liability will not respond to any of it, because that form answers only for bodily injury and physical property damage.",
+      "whyItMatters": "A consulting or agency client in a roleplay who already carries general liability still has an uncovered gap; naming that gap is the recommendation the judge is scoring.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "negligence",
+        "umbrella-liability-policy"
+      ]
+    },
+    {
+      "term": "Exclusive remedy doctrine",
+      "definition": "The workers' compensation bargain: an injured employee collects scheduled medical and wage-replacement benefits without proving anyone was at fault, and in exchange gives up the right to sue the employer in tort for pain and suffering. Both halves are why the system is described as no-fault.",
+      "whyItMatters": "Exam items ask what an employer actually buys with a comp premium; the answer is predictable benefits plus immunity from most injury lawsuits, not merely medical bills.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "negligence",
+        "tort"
+      ]
+    },
+    {
+      "term": "Business interruption insurance",
+      "definition": "Payment for the income a shut-down operation would have earned plus the fixed expenses that keep running, measured across the restoration period — the time reasonably needed to repair or rebuild, not the time the owner actually takes — so the clock stops when the work could have been finished.",
+      "whyItMatters": "In a continuity roleplay after a fire, this is the coverage that keeps payroll and rent paid; the restoration-period limit is the detail that separates a prepared competitor from a vague one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "recovery-time-objective"
+      ]
+    },
+    {
+      "term": "Fidelity bond",
+      "definition": "Coverage reimbursing an employer for money or property its own employees steal — a two-party arrangement between the insurer and the employer. A surety bond is a three-party guarantee instead: the surety promises an outside owner that a contractor will perform, then seeks repayment from that contractor if it pays.",
+      "whyItMatters": "Cash-handling and construction roleplays call for different bonds; recommending a surety bond to control internal theft tells the judge the two were never distinguished.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "segregation-of-duties",
+        "fraud-triangle"
+      ]
+    },
+    {
+      "term": "Cyber liability insurance",
+      "definition": "Coverage split into first-party costs the breached firm absorbs itself — forensics, notification letters, credit monitoring, lost income — and third-party costs owed to customers and regulators, including defense and fines. Standard property forms exclude data as non-tangible, which is why the separate form exists at all.",
+      "whyItMatters": "After a breach in a roleplay, the judge wants both the response costs and the liability exposure addressed; naming only one half leaves the client half-covered.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "data-security",
+        "pci-dss"
+      ]
+    },
+    {
+      "term": "Hold-harmless clause",
+      "definition": "A contract term shifting one party's legal liability onto the other before any loss occurs, so a landlord's lease can make the tenant answer for injuries inside the leased space. It transfers the risk itself by agreement, while insurance transfers only the financing of a risk to a third party.",
+      "whyItMatters": "Vendor-contract roleplays turn on who signs this and in which direction; a competitor who reads the clause before signing protects the client without buying anything.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "certificate-of-insurance",
+        "subrogation"
+      ]
+    },
+    {
+      "term": "Certificate of insurance",
+      "definition": "A one-page snapshot of another party's coverage, limits and expiration dates, issued for information only. It grants the holder no rights whatever under the policy, so a client who wants real protection from a vendor must be named on an additional-insured endorsement rather than settling for the certificate.",
+      "whyItMatters": "A contractor-management roleplay tests whether you know that collecting certificates is documentation, not protection — a distinction judges reward specifically.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "hold-harmless-clause",
+        "claims-made-policy"
+      ]
+    },
+    {
+      "term": "Actual cash value",
+      "definition": "Replacement cost minus depreciation for age and wear: a ten-year-old roof that would cost $20,000 to rebuild and is halfway through its expected life settles near $10,000, leaving the owner to fund the gap unless the policy was written on a replacement-cost basis instead.",
+      "whyItMatters": "Property-coverage questions ask why a claim check fell far short of the repair bill; the valuation clause, not the policy limit, is the reason.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "coinsurance-penalty",
+        "principle-of-indemnity"
+      ]
+    },
+    {
+      "term": "Coinsurance penalty",
+      "definition": "The reduction applied when property is insured for less than the percentage of value the policy requires. Payment equals limit carried divided by limit required, times the loss, less the deductible — so $600,000 carried where an 80% clause on a $1,000,000 building requires $800,000 pays only three-quarters of a covered loss.",
+      "whyItMatters": "This is a standard calculation item on the finance and insurance exams, and the penalty applies even to a partial loss well under the limit carried.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "coinsurance",
+        "actual-cash-value"
+      ]
+    },
+    {
+      "term": "Named-peril policy",
+      "definition": "A form paying only for causes it actually lists — fire, windstorm, vandalism — which puts the burden on the insured to prove the loss came from a listed cause. An open-peril or all-risk form reverses that burden, covering every cause except the ones its exclusions name, so the insurer must prove the exclusion applies.",
+      "whyItMatters": "When a roleplay client wants the cheapest property quote, the judge expects you to explain what the cheaper form costs them in burden of proof, not just in premium.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "peril",
+        "claims-made-policy"
+      ]
+    },
+    {
+      "term": "Claims-made policy",
+      "definition": "A form responding only when the claim is first reported while the policy is in force, whatever the date of the act behind it. An occurrence form instead answers for anything that happened during its term even if the claim surfaces years later, which is why leaving a claims-made program requires buying tail coverage.",
+      "whyItMatters": "Professional-liability roleplays test the switching trap: a firm that changes carriers without tail coverage has silently uninsured every past year of work.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "errors-and-omissions-insurance",
+        "named-peril-policy"
+      ]
+    },
+    {
+      "term": "Law of large numbers",
+      "definition": "The statistical fact that as the number of similar independent exposures grows, actual results converge on predicted results — insuring 50,000 drivers makes the yearly claim count forecastable within a narrow band, while insuring 50 does not — which is why insurers price pools rather than individuals.",
+      "whyItMatters": "Exam items ask why insurance works at all, or why a tiny specialty pool needs reinsurance; this principle is the required explanation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "reinsurance",
+        "expected-loss"
+      ]
+    },
+    {
+      "term": "Risk heat map",
+      "definition": "A grid scoring each identified risk on likelihood and on impact, commonly 1 to 5 on each axis, and ranking by the product: a 4 by 5 scoring 20 sits in the red corner and demands treatment now, while a 2 by 2 scoring 4 is simply accepted. It converts a long unordered risk list into a queue.",
+      "whyItMatters": "A judge who asks you to prioritize a client's threats wants a defensible ordering; scoring likelihood times impact out loud gives one in under a minute.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "risk-assessment",
+        "residual-risk"
+      ]
+    },
+    {
+      "term": "Residual risk",
+      "definition": "What is left after controls are in place, as opposed to inherent risk, which is the same exposure measured as if no control existed at all. Management compares the residual figure against its stated tolerance, and the distance between inherent and residual is the measurable value the control program delivers.",
+      "whyItMatters": "Reporting a risk program to an owner in a roleplay means showing both numbers; quoting only the after-controls figure hides what the spending actually bought.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "risk-assessment",
+        "risk-heat-map"
+      ]
+    },
+    {
+      "term": "Value at risk",
+      "definition": "A loss threshold quoted with both a probability and a time frame: a one-day 95% figure of $250,000 means that on nineteen trading days out of twenty the loss stays below $250,000. It deliberately says nothing about how severe the worst one day in twenty becomes.",
+      "whyItMatters": "Finance roleplays that ask how much a portfolio or a trading desk could lose want the confidence level and horizon stated; a bare dollar figure is not an answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "expected-loss",
+        "interest-rate-risk"
+      ]
+    },
+    {
+      "term": "Recovery time objective",
+      "definition": "The longest a process may stay down before the damage becomes unacceptable — order entry back within four hours — which sets how much standby capacity to buy. It answers how fast, while the recovery point objective answers how much data may be lost and is set by how often backups run.",
+      "whyItMatters": "Continuity roleplays hand you a system outage and ask what to restore first; pairing this target with the data-loss target is what turns a wish list into a plan.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "business-impact-analysis"
+      ]
+    },
+    {
+      "term": "Failure mode and effects analysis",
+      "definition": "A structured walk through every way a process step can fail, scoring each on severity, likelihood of occurrence and likelihood of detection from 1 to 10 and multiplying the three into a risk priority number as high as 1,000, so limited engineering time goes to the highest-scoring failure modes first.",
+      "whyItMatters": "Operations and quality roleplays reward a named method for choosing which defect to fix first; the priority number gives the judge an auditable reason for your order.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "risk-heat-map",
+        "bow-tie-analysis"
+      ]
+    },
+    {
+      "term": "Segregation of duties",
+      "definition": "Splitting authorization, custody of the asset and recording of the transaction among three different people so that no one can both take something and conceal the entry. Where headcount makes that impossible, compensating controls such as the owner opening the bank statement personally stand in for the split.",
+      "whyItMatters": "Small-business roleplays where one bookkeeper does everything are asking for exactly this control plus its small-shop workaround.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "internal-control",
+        "fidelity-bond"
+      ]
+    },
+    {
+      "term": "Fraud triangle",
+      "definition": "The explanation that employee theft needs all three of pressure (a debt that cannot be discussed), opportunity (a control weak enough to exploit), and rationalization (telling yourself it is only a loan). Management can realistically attack only the second leg, which is why controls beat character screening.",
+      "whyItMatters": "Asked in a roleplay why an employee stole, the strong answer names all three legs and then targets the one an employer can actually remove.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "segregation-of-duties",
+        "morale-hazard"
+      ]
+    },
+    {
+      "term": "PCI DSS",
+      "definition": "The card brands' twelve-requirement security standard, enforced through contract rather than statute, applying to every system that stores, processes or transmits a card account number. Keeping that number out of a system removes it from scope entirely, which is why tokenization shrinks an audit rather than passing one.",
+      "whyItMatters": "Retail and hospitality roleplays about card acceptance test whether you know non-compliance costs a merchant its ability to take cards, plus fines the brands assess directly.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "data-security",
+        "cyber-liability-insurance"
+      ]
+    },
+    {
+      "term": "Multi-factor authentication",
+      "definition": "Access control demanding evidence from two different categories among knowledge (a password), possession (a phone or hardware token) and inherence (a fingerprint or face). Two passwords are not two factors, and that category rule is what makes a single stolen credential insufficient to get in.",
+      "whyItMatters": "A security-precautions roleplay after a stolen login is scored on naming the categories, not on saying the client should use a stronger password.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "data-security",
+        "pci-dss"
+      ]
+    },
+    {
+      "term": "Premises liability",
+      "definition": "The duty an occupier owes a visitor, graded by why that visitor came: an invitee shopping in the store is owed inspection for and repair of dangers the owner does not yet know about, a licensee is owed only a warning of known hazards, and a trespasser is owed merely no deliberate harm.",
+      "whyItMatters": "A slip-and-fall roleplay turns on which rung the injured person occupied; the customer rung carries the affirmative duty to inspect, which is what makes the wet-floor log evidence.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "negligence",
+        "comparative-negligence"
+      ]
+    },
+    {
+      "term": "Total cost of risk",
+      "definition": "The full annual figure by which an executive judges a risk program: insurance premiums, plus retained losses paid out of pocket, plus loss-control spending, plus administrative and broker fees. A cheaper premium that raises retained losses by more than it saves leaves this total worse, not better.",
+      "whyItMatters": "Presenting a risk-management program to an owner in a roleplay means defending the whole number; cutting premium alone is the trap the case is built around.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "expected-loss",
+        "risk-management-program"
+      ]
+    },
+    {
+      "term": "Underwriting",
+      "definition": "The insurer's decision process for whether to accept an applicant at all, which class of risk to file it under, and what rate to charge, done so each policyholder pays roughly in proportion to the losses it brings into the pool rather than an average price for everyone.",
+      "whyItMatters": "Insurance exam items ask why two similar businesses were quoted different premiums; the classification step, not negotiation, is the reason.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "experience-modification-factor",
+        "loss-run"
+      ]
+    },
+    {
+      "term": "Business impact analysis",
+      "definition": "The step that ranks business processes by how quickly their loss becomes intolerable and by what each hour of downtime costs, producing the recovery targets and the priority ordering that a continuity plan is then built to satisfy.",
+      "whyItMatters": "A continuity roleplay expects this before any plan is written; recommending backup systems without knowing which process matters most is what judges mark down.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "recovery-time-objective"
+      ]
+    },
+    {
+      "term": "Tabletop exercise",
+      "definition": "A discussion-based rehearsal in which the response team talks through an injected scenario against the written plan without moving equipment or shutting anything down, used to expose gaps in roles, authority and call trees before anyone attempts a live failover test.",
+      "whyItMatters": "Asked how a client should test a continuity plan without disrupting the business, this is the low-cost first step a judge wants named before full interruption testing.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "holding-statement"
+      ]
+    },
+    {
+      "term": "Bow-tie analysis",
+      "definition": "A one-page diagram placing the unwanted event at the center, its causes fanning left and its consequences fanning right, with preventive controls and mitigating controls drawn as barriers on each side, showing at a glance where a single barrier is carrying far too much weight.",
+      "whyItMatters": "It gives a risk presentation a visual a non-technical owner can follow, which is often what earns the communication points in a risk-management roleplay.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "failure-mode-and-effects-analysis",
+        "risk-heat-map"
+      ]
+    },
+    {
+      "term": "Holding statement",
+      "definition": "A short pre-approved message released in the first hour of an incident that confirms only what is known, states what the organization is doing about it, and promises a further update at a named time — issued precisely because the facts are not yet established.",
+      "whyItMatters": "In a crisis roleplay the judge is timing your first public response; silence while you investigate is scored as a failure to communicate.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "business-continuity-planning",
+        "tabletop-exercise"
+      ]
+    },
+    {
+      "term": "Loss run",
+      "definition": "The claim history report an insurer issues listing every claim in a period with its date, amounts paid and any reserve still open. Brokers price renewals from it and use it to prove a firm's record when moving carriers, so reserves left open on settled claims quietly inflate the next quote.",
+      "whyItMatters": "A roleplay about shopping a client's coverage starts by pulling this report; asking for it shows the judge you know renewals are priced from history, not from a sales pitch.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/risk_management.txt"
+      ],
+      "confusableWith": [
+        "underwriting",
+        "experience-modification-factor"
       ]
     }
   ]

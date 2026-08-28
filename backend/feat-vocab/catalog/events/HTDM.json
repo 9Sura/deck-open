@@ -1,0 +1,352 @@
+{
+  "code": "HTDM",
+  "terms": [
+    {
+      "term": "Room block attrition clause",
+      "definition": "Contract language binding a group to pick up a set share of its contracted rooms — typically 80% — and to pay the hotel lost room revenue on the shortfall if it does not, usually net of the rooms the hotel resells.",
+      "whyItMatters": "A team case handing you a signed group contract is decided on this arithmetic: 300 rooms contracted, 80% clause, 210 actually picked up leaves 30 rooms billable, and judges want the number before they want the apology.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "cumulative-attrition",
+        "sliding-scale-cancellation-damages"
+      ]
+    },
+    {
+      "term": "Wash factor",
+      "definition": "The historical share of a group's blocked rooms that never gets picked up, applied in advance to shrink the block the hotel actually holds — a 15% wash on 400 rooms releases 60 back to public sale before the pattern is even contracted.",
+      "whyItMatters": "When a case gives you three years of a convention's pickup history, the winning recommendation right-sizes next year's block instead of re-contracting last year's number and eating the attrition fight.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "room-block-attrition-clause",
+        "block-cutoff-date"
+      ]
+    },
+    {
+      "term": "Cumulative attrition",
+      "definition": "Measuring pickup against a block's total room nights across the whole pattern rather than night by night, so a heavy Tuesday covers a thin Sunday — a concession worth thousands to a group with an uneven arrival curve.",
+      "whyItMatters": "Roleplays that ask you to negotiate a contract for a group with a lopsided arrival pattern are won by asking for this one word change, and you must be able to show the judge the two different damage totals it produces.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "room-block-attrition-clause",
+        "peak-night"
+      ]
+    },
+    {
+      "term": "Complimentary room ratio",
+      "definition": "The concession giving a group one free room night for every fixed number it actually consumes — 1 per 40 turns a 600 room-night pickup into 15 comps — and it is pickup, never the contracted block, that earns them.",
+      "whyItMatters": "Association clients in a team case treat comps as staff housing, so a proposal that quotes 1-per-40 against the contracted block instead of realized pickup overpromises rooms the hotel will not give.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "group-room-rebate",
+        "rooms-to-space-ratio"
+      ]
+    },
+    {
+      "term": "Group room rebate",
+      "definition": "A negotiated per-room-night credit the hotel posts back to the group's master account — $10 a night on 800 room nights returns $8,000 the association uses to fund its own program budget, cutting the effective rate without moving the published one.",
+      "whyItMatters": "A case where the client demands a lower rate but the hotel must protect rate integrity for its other accounts is solved with a rebate, and you have to compute what the same concession costs each way.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "complimentary-room-ratio",
+        "third-party-intermediary-commission"
+      ]
+    },
+    {
+      "term": "Banquet guarantee",
+      "definition": "The attendee count a catering client locks in a set number of hours before service — usually 72 — after which the client pays for that count or the number actually served, whichever is higher.",
+      "whyItMatters": "In a catering roleplay the client who guarantees 400 and seats 340 still owes for 400, and the judge is listening for whether you explain that before the event rather than defending it on the invoice.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "overset",
+        "food-and-beverage-minimum"
+      ]
+    },
+    {
+      "term": "Overset",
+      "definition": "The extra seats and covers a kitchen prepares above the guaranteed count as insurance — commonly 5%, often capped — and billed only for the meals actually served past the guarantee, which is why it protects the client without doubling the risk.",
+      "whyItMatters": "Team cases about a walk-in surge at a gala turn on whether you set the overset high enough to seat the extras and low enough that unserved food is not charged to the host.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "banquet-guarantee",
+        "per-cover-cost"
+      ]
+    },
+    {
+      "term": "Per-cover cost",
+      "definition": "Total catered food and beverage spend divided by guests actually served, the figure that makes a $48 plated dinner comparable to a $39 buffet once service charge and tax are stripped back out of both.",
+      "whyItMatters": "When a case gives a client a fixed banquet budget and a headcount, the recommendation has to be defended in dollars per person, not in menu descriptions.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "plus-plus-pricing",
+        "food-and-beverage-minimum"
+      ]
+    },
+    {
+      "term": "Consumption bar pricing",
+      "definition": "Charging the host for each drink poured instead of a flat per-person package, so the two options cross at a computable point — a $28 two-hour package against $9 drinks only pays off above roughly three drinks per guest.",
+      "whyItMatters": "A reception roleplay that hands you a guest count and a beverage budget expects the break-even drinks-per-guest calculation, not a preference for one bar style.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "corkage-fee",
+        "per-cover-cost"
+      ]
+    },
+    {
+      "term": "Mandatory service charge",
+      "definition": "A fixed percentage the venue adds to food and beverage that is house revenue rather than a tip — the operator may keep or reallocate it, it is generally taxable revenue and taxable wages when paid out, and presenting it as a gratuity when staff do not receive it invites a wage claim.",
+      "whyItMatters": "A case where a client asks why 22% was added and whether the servers get it is testing this legal line; conflating it with a voluntary gratuity is the answer that loses the roleplay.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "plus-plus-pricing"
+      ]
+    },
+    {
+      "term": "Food and beverage minimum",
+      "definition": "A contractual spend floor a group must reach on catering, counted before tax and service charge, with any shortfall billed as room rental — a $20,000 floor met with $17,000 of covers leaves a $3,000 charge.",
+      "whyItMatters": "Groups routinely believe the service charge counts toward the floor; a team that catches that in a contract-review case saves the client a rental charge it never budgeted.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "plus-plus-pricing",
+        "rooms-to-space-ratio"
+      ]
+    },
+    {
+      "term": "Plus-plus pricing",
+      "definition": "Menu quoting that excludes service charge and sales tax, both of which stack onto the base — $75++ at a 22% service charge and 8.5% tax is really about $99 a head, so a budget built on the quoted figure is short by a third.",
+      "whyItMatters": "Every banquet-budget case plants a ++ menu price, and the team that multiplies it out before recommending a menu is the one whose numbers survive judge questioning.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "mandatory-service-charge",
+        "per-cover-cost"
+      ]
+    },
+    {
+      "term": "Banquet server ratio",
+      "definition": "The staffing standard setting covers per server by service style — roughly one server per 16 guests plated, one per 32 for buffet — which converts a guarantee of 320 into 20 or 10 bodies and prices the labor line of the event.",
+      "whyItMatters": "A case that asks whether a plated dinner is affordable is really asking you to price the extra servers, and quoting only the food difference misses most of the cost gap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "per-cover-cost",
+        "banquet-guarantee"
+      ]
+    },
+    {
+      "term": "Force majeure clause",
+      "definition": "Contract language excusing performance only when a specified extraordinary event makes performing illegal or commercially impracticable — a hurricane closing the airport qualifies, while weak registration or a tightened budget does not.",
+      "whyItMatters": "A client demanding to walk from a contract because attendance projections fell is the classic team case here, and the answer is that this doctrine does not cover disappointing business.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "sliding-scale-cancellation-damages",
+        "reverse-performance-clause"
+      ]
+    },
+    {
+      "term": "Sliding-scale cancellation damages",
+      "definition": "Pre-agreed damages that climb as the event date nears, stated as a percentage of anticipated revenue — 25% at twelve months out, 100% inside 30 days — so the date a group walks, not the reason, sets what it owes.",
+      "whyItMatters": "Cases give you a cancellation date and a contract schedule; the team that computes the exposure at the actual notice date, then negotiates a rebook credit against it, wins the room.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "force-majeure-clause",
+        "room-block-attrition-clause"
+      ]
+    },
+    {
+      "term": "Reverse performance clause",
+      "definition": "The group's mirror of attrition: the hotel owes a stated remedy if it fails to deliver the contracted rooms, the promised function space or a renovation finished on time, turning a one-sided contract into a two-sided one.",
+      "whyItMatters": "A negotiation roleplay where the property is mid-renovation is the place to ask for this, and judges reward the team that names a specific remedy rather than asking for reassurance.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "force-majeure-clause",
+        "room-block-attrition-clause"
+      ]
+    },
+    {
+      "term": "Set-style capacity factor",
+      "definition": "Square feet needed per person by seating style — roughly 8 theater, 12 for rounds, 18 classroom — which tells a team that an 8,000-square-foot ballroom seats 900 for a general session but under 450 classroom-set.",
+      "whyItMatters": "Site-selection cases hand you an attendee count and a floor plan; the recommendation is only defensible once you divide the space by the factor for the set the program actually needs.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "net-to-gross-exhibit-ratio",
+        "rooms-to-space-ratio"
+      ]
+    },
+    {
+      "term": "Net-to-gross exhibit ratio",
+      "definition": "The relationship between sold booth square footage and the total hall a show needs once aisles, registration and service areas are added — near two gross square feet per net one, so 400 ten-by-ten booths require roughly 80,000 square feet.",
+      "whyItMatters": "A trade-show case that says the client sold 400 booths is testing whether you can size the hall before choosing a convention center, not whether you can describe an exhibit floor.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "set-style-capacity-factor",
+        "drayage"
+      ]
+    },
+    {
+      "term": "Drayage",
+      "definition": "Material handling on a show floor, billed by hundredweight against a minimum — freight moved dock to booth and back at, say, $95 per 100 pounds with a 200-pound minimum means a 150-pound crate still bills at $190.",
+      "whyItMatters": "Exhibitor-budget cases are won by the team that prices the freight, since this line routinely costs a small exhibitor more than the booth space itself.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "load-in-window",
+        "net-to-gross-exhibit-ratio"
+      ]
+    },
+    {
+      "term": "Third-party intermediary commission",
+      "definition": "The percentage a hotel pays a site-selection or meeting-management firm, standardly 10% of realized guest-room revenue only — not tax, not food and beverage — and paid on actualized rooms, so attrition shrinks the commission with the pickup.",
+      "whyItMatters": "When a case asks who really pays the planner the client says is free, the answer is the hotel out of room revenue, and you should be able to compute the fee on a given block.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "housing-bureau",
+        "group-room-rebate"
+      ]
+    },
+    {
+      "term": "Rooms-to-space ratio",
+      "definition": "How much function space a hotel gives without rental relative to the room nights a group buys — one meeting room per 50 room nights, for example — the test that decides whether space rental appears on the proposal at all.",
+      "whyItMatters": "A meeting-heavy, room-light group is the standard team case here: you have to show why the hotel is charging rental and either buy more rooms or trade a food and beverage commitment for the space.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "food-and-beverage-minimum",
+        "set-style-capacity-factor"
+      ]
+    },
+    {
+      "term": "Peak night",
+      "definition": "The single night of a pattern requiring the most rooms, which sizes the entire block and drives whether a hotel will take the business — a 900 room-night program peaking at 400 competes for a very different property than one peaking at 180.",
+      "whyItMatters": "Site-selection cases are decided on this number, not the total: a team that quotes only total room nights cannot explain why the hotel turned the group down.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "cumulative-attrition",
+        "wash-factor"
+      ]
+    },
+    {
+      "term": "Corkage fee",
+      "definition": "A per-bottle charge for beverage a client brings in rather than buying from the venue, set to recover the lost margin — $25 a bottle against a $40 house list means outside wine only saves the client money below about $15 a bottle.",
+      "whyItMatters": "A wedding or gala client who wants to supply their own wine is a recurring roleplay, and the persuasive answer runs the per-bottle comparison instead of simply refusing.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "consumption-bar-pricing"
+      ]
+    },
+    {
+      "term": "Block cutoff date",
+      "definition": "The deadline, commonly 30 days out, after which rooms still unreserved in a group's block return to general inventory at whatever rate the hotel is then selling, leaving late attendees to pay retail.",
+      "whyItMatters": "Complaint roleplays about attendees charged $289 instead of the $159 group rate almost always trace to this date, and the recovery has to explain it without blaming the guest.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "wash-factor",
+        "room-block-attrition-clause"
+      ]
+    },
+    {
+      "term": "Banquet event order",
+      "definition": "The operational document translating a signed catering contract into instructions — timing, counts, menu, room set, audiovisual and billing detail — and the single sheet every hotel department works from on event day.",
+      "whyItMatters": "When a case describes a function that went wrong, the diagnosis is usually a detail that never made it onto this document, and the fix is a process change, not an apology.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "convention-resume",
+        "banquet-guarantee"
+      ]
+    },
+    {
+      "term": "Housing bureau",
+      "definition": "A third party, often run by a destination organization, that manages reservations across the many hotels of a citywide convention, holding the official room list and reporting pickup back to the organizer.",
+      "whyItMatters": "Citywide cases ask who controls the attendee reservation data, and knowing this office owns it is what lets a team explain why one hotel cannot see its own pickup in real time.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "third-party-intermediary-commission"
+      ]
+    },
+    {
+      "term": "Convention resume",
+      "definition": "The internal briefing circulated to every hotel department before a group arrives, consolidating arrival patterns, VIP handling, billing instructions and the function schedule so operations execute exactly what sales sold.",
+      "whyItMatters": "Team cases about a group whose experience did not match the proposal usually come back to this handoff, and the recommendation is a distribution and pre-convention meeting fix.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:HTDM"
+      ],
+      "confusableWith": [
+        "banquet-event-order"
+      ]
+    }
+  ]
+}

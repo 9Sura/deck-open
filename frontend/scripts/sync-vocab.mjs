@@ -26,6 +26,19 @@ async function readJson(file) {
   return JSON.parse(await readFile(file, "utf8"));
 }
 
+// Vocab has two tiers and no "easy" — see VocabDifficulty in lib/vocab.ts. A term
+// carrying anything else is counted nowhere, which is what makes a zero total
+// visible instead of silently folded into "medium".
+const VOCAB_DIFFICULTIES = ["medium", "hard"];
+
+function difficultyCounts(terms) {
+  const counts = Object.fromEntries(VOCAB_DIFFICULTIES.map((d) => [d, 0]));
+  for (const term of terms ?? []) {
+    if (VOCAB_DIFFICULTIES.includes(term?.difficulty)) counts[term.difficulty] += 1;
+  }
+  return counts;
+}
+
 async function main() {
   if (!existsSync(SRC)) {
     console.error(`[sync-vocab] backend vocab data not found at:\n  ${SRC}`);
@@ -63,6 +76,7 @@ async function main() {
         name: event.name,
         file: event.file,
         termCount: event.termCount,
+        difficultyCounts: difficultyCounts(vocab?.terms),
         format: vocab?.event?.format ?? null,
         tags,
       };

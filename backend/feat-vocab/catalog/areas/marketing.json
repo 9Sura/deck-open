@@ -10,31 +10,8 @@
       "whyItMatters": "This is the umbrella concept behind many cluster and roleplay decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
-    },
-    {
-      "term": "Brand image",
-      "definition": "The overall impression customers have of a business or product.",
-      "whyItMatters": "Image affects trust, loyalty, and perceived value.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing.txt"
-      ]
-    },
-    {
-      "term": "Consumer",
-      "definition": "A person who buys and uses goods and services.",
-      "whyItMatters": "Naming the consumer keeps recommendations grounded in who actually benefits.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing.txt"
-      ]
-    },
-    {
-      "term": "Goods",
-      "definition": "Tangible products that satisfy customer needs and wants.",
-      "whyItMatters": "Distinguishing goods from services shapes how a business markets and delivers value.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Services",
@@ -42,7 +19,8 @@
       "whyItMatters": "Services require different quality, staffing, and marketing choices than goods.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Customer value",
@@ -50,7 +28,8 @@
       "whyItMatters": "Value helps explain why a customer chooses one offer over another.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Buying behavior",
@@ -58,7 +37,8 @@
       "whyItMatters": "Understanding buying-behavior factors lets competitors target the right message and offer.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Marketing mix",
@@ -66,7 +46,8 @@
       "whyItMatters": "The four Ps are the standard framework for building a marketing recommendation.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Marketing concept",
@@ -74,7 +55,8 @@
       "whyItMatters": "It reminds competitors that every tactic should trace back to a real customer need.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Value proposition",
@@ -82,7 +64,8 @@
       "whyItMatters": "A sharp value proposition anchors positioning, messaging, and pricing.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Marketing functions",
@@ -90,7 +73,8 @@
       "whyItMatters": "Competitors organize their analysis around which marketing functions a decision touches.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Brand equity",
@@ -98,7 +82,8 @@
       "whyItMatters": "Brand equity explains why customers pay more for, and stay loyal to, established brands.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Market share",
@@ -106,14 +91,616 @@
       "whyItMatters": "Market share quantifies competitive position and the payoff of a growth strategy.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Form utility",
+      "definition": "Value created by converting raw materials into a finished good a buyer actually wants — wheat into bread, bauxite into a can — as distinct from place utility (moving the good to where the buyer shops), time utility (having it on hand at the hour demand occurs), and possession utility (transferring ownership through payment terms); a redesign adds form utility, a faster truck does not.",
+      "whyItMatters": "Roleplays that ask how marketing adds value to a product are scored on naming which of the four utilities each activity creates and separating them; a general answer about 'adding value' loses the point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "possession-utility",
+        "marketing-functions"
       ]
     },
     {
-      "term": "Product positioning",
-      "definition": "The image or place a product occupies in the customer's mind relative to competitors.",
-      "whyItMatters": "Positioning decisions drive messaging, pricing, and which competitors you fight.",
+      "term": "Possession utility",
+      "definition": "Value added by making ownership transferable — credit terms, layaway, financing, leasing, the transaction mechanics themselves — rather than by making the good (form utility), delivering it to the buyer's location (place utility), or holding it until demand appears (time utility); a dealer that adds 60-month zero-interest financing changes the product's form, place, and time not at all.",
+      "whyItMatters": "Hospitality and finance roleplays that ask you to justify offering a payment plan want the answer framed as a marketing utility the firm creates, not as a favor to the customer.",
+      "difficulty": "hard",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "form-utility",
+        "marketing-functions"
+      ]
+    },
+    {
+      "term": "Psychographic segmentation",
+      "definition": "Divides a market by activities, interests, opinions, values and lifestyle captured through AIO inventories, unlike demographic segmentation, which uses census-verifiable facts such as age, income and household size; two 34-year-olds each earning $60,000 fall in one demographic cell and can still land in opposite psychographic segments, which is why demographics alone cannot explain why one buys the premium line.",
+      "whyItMatters": "A market-planning roleplay that hands you a customer base and asks for a segmentation base is scored on naming the base and defending it against the other three; the usual failure is calling lifestyle data 'demographics'.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "demographics",
+        "behavioral-segmentation",
+        "market-segmentation"
+      ]
+    },
+    {
+      "term": "Behavioral segmentation",
+      "definition": "Groups buyers by what they measurably did — purchase occasion, usage rate, loyalty status, benefit sought — read from transaction records, while psychographic segmentation groups them by what they say they value and geographic segmentation by where they live; a heavy user and a light user can match on every demographic and psychographic trait and still belong in different behavioral segments, so it is the only base that predicts volume directly.",
+      "whyItMatters": "Loyalty-program roleplays ask which customers to reward; the winning answer segments on measured usage rate rather than on who the customers are.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "psychographic-segmentation",
+        "heavy-half-rule",
+        "rfm-analysis"
+      ]
+    },
+    {
+      "term": "Geodemographic segmentation",
+      "definition": "Assigns every small geographic unit — a ZIP+4 or a census block group of roughly 100 to 200 households — to a lifestyle cluster by joining census demographics to purchase data, on the assumption that neighbors buy alike; Nielsen's PRIZM sorts U.S. neighborhoods into 68 such clusters, so media and direct mail are bought against a cluster code rather than against an age band.",
+      "whyItMatters": "Site-selection and direct-mail roleplays reward naming the cluster system and the unit it works at; saying 'we will target that ZIP code' without the cluster logic reads as guessing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "psychographic-segmentation",
+        "vals-framework",
+        "demographics"
+      ]
+    },
+    {
+      "term": "VALS framework",
+      "definition": "Sorts U.S. adults into eight consumer types on two axes — primary motivation (ideals, achievement or self-expression) and level of resources and innovation — with Innovators at the top of the resource axis and Survivors at the bottom; it classifies the individual from a survey instrument, whereas PRIZM classifies the neighborhood from census and purchase data, so the two cannot be used interchangeably.",
+      "whyItMatters": "When a judge asks which segmentation system you would buy, naming VALS and stating its two axes shows you know the difference between a person-level and a household-level system.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "psychographic-segmentation",
+        "geodemographic-segmentation"
+      ]
+    },
+    {
+      "term": "Segment viability criteria",
+      "definition": "A candidate group qualifies as a market segment only if it passes five named tests — measurable (its size and buying power can be quantified), substantial (large and profitable enough to serve alone), accessible (reachable through some channel or medium), differentiable (it responds differently from other segments to a change in the mix) and actionable (the firm can actually build and run a program for it); failing any one of the five makes it a description of people, not a segment.",
+      "whyItMatters": "Market-planning roleplays that ask you to defend a chosen segment are scored on running it against the criteria out loud; the segment competitors usually pick fails 'substantial' or 'accessible'.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "market-segmentation",
+        "target-market"
+      ]
+    },
+    {
+      "term": "Heavy-half rule",
+      "definition": "Empirical pattern in which roughly the top 20% of a category's buyers generate about 80% of its volume, and the heavier half of buyers accounts for 80% to 90% of units in many packaged-goods categories — so a 10% lift among heavy users is worth several times the same percentage lift among light users, and a promotion measured in customers reached can be worth less than one measured in volume reached.",
+      "whyItMatters": "Promotion-budget roleplays that ask where to spend a limited fund are won by weighting the target by consumption share rather than by headcount.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "behavioral-segmentation",
+        "share-of-wallet",
+        "rfm-analysis"
+      ]
+    },
+    {
+      "term": "Share of wallet",
+      "definition": "One brand's sales to a single customer divided by that customer's total category spending over the same period — a household that spends $400 a year on coffee and $120 of it at one chain gives that chain 30% — so it is a per-customer ratio, unlike market share, which divides a brand's sales by the whole category's sales across all buyers; a brand can hold flat market share while its wallet share collapses.",
+      "whyItMatters": "Customer-relations roleplays that ask how to grow revenue without new customers are answered with this ratio and the cross-sell that raises it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "market-share",
+        "market-penetration-rate",
+        "customer-lifetime-value-clv"
+      ]
+    },
+    {
+      "term": "Category development index (CDI)",
+      "definition": "The percentage of a category's national sales occurring in one market divided by the percentage of the national population living there, multiplied by 100 — a metro holding 2% of the population but 3% of category sales scores 150 — where 100 is exactly average and anything above it means the category is over-developed in that market regardless of how any single brand performs there.",
+      "whyItMatters": "Media-allocation roleplays ask which markets deserve the spend; the index pair, not gut feel about city size, is what a judge expects to hear.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "brand-development-index-bdi",
+        "market-share"
+      ]
+    },
+    {
+      "term": "Brand development index (BDI)",
+      "definition": "The percentage of one brand's national sales made in a market divided by that market's percentage of national population, times 100; read against the category index it sorts markets into four actions — high BDI with low CDI means a strong brand in a weak category, while low BDI with high CDI is the classic opportunity market where the category sells well and the brand does not, and both indexes below 100 argues for withdrawal.",
+      "whyItMatters": "The paired index read is the standard answer to a roleplay asking which market to defend and which to invest in; giving one index without the other gets a follow-up you cannot answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "category-development-index-cdi",
+        "market-share"
+      ]
+    },
+    {
+      "term": "Market penetration rate",
+      "definition": "Distinct customers who bought at least once in a period divided by the total defined target population, as a percentage — 40,000 buyers out of a 500,000-person target is 8% — which counts buyers, not units or dollars; that is exactly what separates it from market share, so a brand can raise share by selling more to the same people while its penetration does not move at all.",
+      "whyItMatters": "Growth roleplays hinge on whether the plan should recruit new buyers or sell more to current ones, and this is the number that tells the judge you know which lever you chose.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "market-share",
+        "share-of-wallet",
+        "penetration-pricing"
+      ]
+    },
+    {
+      "term": "Unaided brand awareness",
+      "definition": "Share of respondents who name a brand when asked only to list the brands they can think of in a category with nothing shown to them, as opposed to aided awareness, where the interviewer reads the name and the respondent only confirms recognition; aided scores typically run two to four times higher than unaided ones, so the two measures can never be compared with each other or with a competitor's differently-worded question.",
+      "whyItMatters": "Roleplays that hand you awareness research want you to challenge the number's basis before acting on it; treating an aided figure as proof of strong awareness is the standard trap.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "brand-equity",
+        "brand-insistence"
+      ]
+    },
+    {
+      "term": "Brand insistence",
+      "definition": "The top rung of the three-stage loyalty ladder: at recognition the buyer merely knows the mark, at preference the buyer chooses it but accepts a substitute when it is out of stock, and at insistence the buyer will leave the store or delay the purchase rather than take another brand — the only stage that lets a firm hold price through a competitor's promotion.",
+      "whyItMatters": "Branding roleplays ask what a strong brand is actually worth; naming the three stages and the out-of-stock behavior that separates preference from insistence is what earns the point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "brand-equity",
+        "unaided-brand-awareness",
+        "customer-equity"
+      ]
+    },
+    {
+      "term": "Perceptual map",
+      "definition": "Plots competing brands against two axes chosen from the attributes buyers actually use to tell brands apart — often price against perceived quality — using respondent ratings rather than the firm's own specifications, and adds an ideal point where the target segment says it wants a brand to sit; an empty region on the map is a positioning opportunity only when an ideal point falls inside it, otherwise it is empty because nobody wants that combination.",
+      "whyItMatters": "Positioning roleplays that hand you competitor data are scored on naming the two axes and defending why buyers discriminate on them; competitors lose the point by mapping attributes only the company cares about.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "positioning",
+        "positioning-statement",
+        "product-positioning"
+      ]
+    },
+    {
+      "term": "Points of parity",
+      "definition": "Attributes a brand must match well enough for buyers to accept it as a legitimate member of the category — a car that is safe, a bank that clears deposits — which buy entry and win no preference at all; the attributes that win preference are points of difference, and because parity is a threshold rather than a scale, money spent beating a rival on a parity attribute returns nothing.",
+      "whyItMatters": "A roleplay asking where to invest a product-improvement budget is a parity-versus-difference question; spending to over-deliver on a category minimum is the error the judge is watching for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "points-of-difference",
+        "competitive-advantage",
+        "positioning"
+      ]
+    },
+    {
+      "term": "Points of difference",
+      "definition": "Attributes buyers strongly associate with one brand, rate favorably, and believe no competitor delivers as well — all three conditions, not just the first — which is what makes them the reason to choose it, unlike points of parity, which only qualify the brand for the consideration set; once rivals match a claimed difference it has quietly become a parity attribute and stops moving share even though the advertising still runs.",
+      "whyItMatters": "Asked to identify what sets a company apart, a competitor who names a feature every rival also offers has named a parity attribute and will be corrected on the spot.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "points-of-parity",
+        "unique-selling-proposition",
+        "competitive-advantage"
+      ]
+    },
+    {
+      "term": "Positioning statement",
+      "definition": "A one-sentence internal formula built from four required elements — the target segment, the frame of reference (the category the brand is to be compared against), the point of difference, and the reason to believe that substantiates it; drop the frame of reference and the claim has no competitive set to be better than, drop the reason to believe and it is an assertion. It is never customer-facing copy, which is the tagline's job.",
+      "whyItMatters": "Judges frequently ask a competitor to state the positioning out loud; delivering all four elements in one sentence is the difference between a scored answer and a slogan.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "positioning",
+        "value-proposition",
+        "unique-selling-proposition"
+      ]
+    },
+    {
+      "term": "STP framework",
+      "definition": "Three decisions taken strictly in order — segment the market on one chosen base, target the segments worth serving against a stated attractiveness test, then position the offer against a named competitive set — where each step's output constrains the next; a positioning claim written before the segment is chosen has nobody in particular to be different for, which is why reordering the letters produces a plan that cannot be defended.",
+      "whyItMatters": "Marketing-plan roleplays are graded on sequence as much as content; presenting a promotion idea before naming the segment invites the judge to ask who it is for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "marketing-strategy",
+        "market-segmentation",
+        "positioning"
+      ]
+    },
+    {
+      "term": "House of brands",
+      "definition": "A brand architecture in which the corporate name stays off the products and each brand carries its own separate equity — Procter & Gamble's Tide, Pampers and Gillette show no visible parent — which is the opposite of a branded house, where one master name fronts every offering; the trade-off is that a failure in one brand cannot contaminate the others, paid for by funding awareness separately for each name.",
+      "whyItMatters": "Corporate-branding roleplays ask whether a new line should carry the parent name; the answer turns on this architecture choice and the contamination risk it prices.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "branded-house",
+        "endorsed-brand",
+        "corporate-branding"
+      ]
+    },
+    {
+      "term": "Branded house",
+      "definition": "A brand architecture where one master name fronts every offering and the sub-offerings are descriptors rather than brands — Google Maps, Google Drive, FedEx Freight — so every dollar of marketing on any one product raises awareness for all of them; the opposing structure is a house of brands, where each product owns its equity and one scandal is quarantined to a single name instead of reaching the whole portfolio.",
+      "whyItMatters": "A roleplay weighing a launch's branding cost against its risk is decided by naming both architectures and the efficiency-versus-contagion trade between them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "house-of-brands",
+        "endorsed-brand",
+        "corporate-branding"
+      ]
+    },
+    {
+      "term": "Endorsed brand",
+      "definition": "A product brand that leads with its own name while carrying a visible parent guarantee — Courtyard by Marriott, Polo by Ralph Lauren — sitting between a house of brands, where no parent is shown at all, and a sub-brand, where the parent name leads and the descriptor trails, as in Microsoft Office; the endorsement lends credibility without forcing the parent to own the product's positioning.",
+      "whyItMatters": "Hotel and hospitality roleplays about launching a new tier are answered with this middle structure, and judges expect the sub-brand contrast to be drawn explicitly.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "house-of-brands",
+        "branded-house",
+        "brand-extension"
+      ]
+    },
+    {
+      "term": "Brand extension",
+      "definition": "Launching into a different product category under an existing brand name — Dove soap into Dove shampoo — whereas a line extension adds a variant inside the category the brand already sells, such as another Dove soap scent; the category jump risks diluting what the parent name means, while the in-category variant mainly risks stealing volume from its own siblings, so the two carry different failure modes and different tests.",
+      "whyItMatters": "Product roleplays that hand you a growth mandate are scored on naming which of the two you chose and the specific risk it carries; treating them as the same move loses both points.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "cannibalization-rate",
+        "brand-dilution",
+        "brand-equity"
+      ]
+    },
+    {
+      "term": "Cannibalization rate",
+      "definition": "Lost unit sales of a firm's existing products divided by the unit sales of the new product that displaced them — 30,000 new units alongside a 12,000-unit drop on the old line is a 40% rate, leaving 18,000 units of true incremental volume; a launch reported on gross volume alone can show growth while total company units fall, which is why the ratio is computed before the launch is called a success.",
+      "whyItMatters": "A roleplay presenting strong launch numbers usually hides this; asking for the effect on the existing line is what separates a scored answer from applause.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "brand-extension",
+        "incremental-lift",
+        "product-line"
+      ]
+    },
+    {
+      "term": "Co-branding",
+      "definition": "Two independently known brands appear together on one finished offering and both stake positioning risk on it — a Doritos Locos Taco — whereas in ingredient branding one brand is a component inside a host product and is advertised to end users to pull the host's sales, as with Intel Inside; the ingredient brand never owns the final purchase decision, while co-brands share it and share the damage if the partner stumbles.",
+      "whyItMatters": "Partnership roleplays ask what each side actually contributes and risks; naming which of the two structures is on the table is the first thing the judge listens for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "brand-equity",
+        "corporate-branding",
+        "affinity-partner"
+      ]
+    },
+    {
+      "term": "Private label brand",
+      "definition": "Merchandise sold under the retailer's own name and sourced from a contract manufacturer, typically carrying a retail gross margin about 10 percentage points above the comparable national brand — roughly 35% against 25% — while retailing 15% to 30% cheaper, because the retailer carries no national advertising cost; the national brand by contrast is owned, advertised and priced by the manufacturer, who keeps that margin.",
+      "whyItMatters": "Retail roleplays about shelf space are settled with this margin arithmetic, and a competitor who argues only that the store brand is cheaper has missed why the retailer prefers it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "manufacturer-s-suggested-retail-price",
+        "markup-on-retail",
+        "brand-equity"
+      ]
+    },
+    {
+      "term": "Brand dilution",
+      "definition": "Weakening of a famous mark's distinctiveness through blurring, where an unrelated use erodes the one-to-one link between mark and source, or tarnishment, where a use ties it to something unsavory; under the U.S. Trademark Dilution Revision Act of 2006 the owner of a mark famous to the general consuming public can sue without showing any likelihood of confusion or proof of actual economic injury, which is what makes it broader than ordinary infringement.",
+      "whyItMatters": "Branding and business-law roleplays about a licensing or extension request turn on this doctrine; citing the no-confusion-required standard is the technical half of the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "trademark",
+        "trade-dress",
+        "brand-extension"
+      ]
+    },
+    {
+      "term": "Royalty relief method",
+      "definition": "Values a brand as the licensing fee the owner avoids paying by owning it: forecast the revenue the brand will carry, multiply by an arm's-length royalty rate drawn from comparable licenses — commonly 2% to 6% of net sales — deduct tax, then discount the resulting stream to present value; unlike a cost-based valuation it ignores what was actually spent building the name, and unlike a market comparison it needs no sale of a similar brand.",
+      "whyItMatters": "A roleplay asking what the brand is worth on the balance sheet expects a named valuation method with its arithmetic, not the claim that a brand cannot be valued.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "brand-equity",
+        "goodwill",
+        "customer-equity"
+      ]
+    },
+    {
+      "term": "Trade dress",
+      "definition": "The overall look and feel of a product or its packaging — the contour of a Coca-Cola bottle, a restaurant chain's interior scheme — protected under Lanham Act section 43(a) only when it is non-functional and has acquired secondary meaning in buyers' minds; product design trade dress can never be inherently distinctive, so unlike a coined word mark it always requires evidence that consumers link the look to a single source.",
+      "whyItMatters": "Roleplays about a competitor copying a store's look are scored on naming this protection and its two conditions; calling it a trademark or a copyright is the common miss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "trademark",
+        "copyright",
+        "brand-dilution"
+      ]
+    },
+    {
+      "term": "Marketing ROI",
+      "definition": "Incremental gross profit from a campaign minus its marketing cost, divided by that marketing cost: $150,000 of incremental revenue at a 40% gross margin against $30,000 of spend is ($60,000 - $30,000) / $30,000, or 100%. It runs on margin rather than revenue, and only on the lift a holdout group shows the campaign actually caused, so a campaign whose sales would have happened anyway returns a negative figure no matter how large the revenue number looks.",
+      "whyItMatters": "When a roleplay asks whether a promotion paid for itself, the graded answer is this ratio on margin with a baseline, not the raw sales the campaign period produced.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "return-on-investment",
+        "incremental-lift",
+        "profit-margin"
+      ]
+    },
+    {
+      "term": "Customer equity",
+      "definition": "The sum of the discounted lifetime values of a firm's current and future customers — the asset value of the customer base itself — which can rise while brand equity falls, as when a firm buys volume with deep discounts and wins customers who think less of the name each year; brand equity is the value held in what buyers believe about the mark, customer equity the value held in the relationships and their future cash.",
+      "whyItMatters": "Asked whether a discount-driven growth plan is healthy, the judged answer separates the two equities and says which one the plan is spending down.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "brand-equity",
+        "customer-lifetime-value-clv",
+        "customer-value"
+      ]
+    },
+    {
+      "term": "Excess share of voice",
+      "definition": "A brand's share of category advertising spend minus its share of category sales — 12% of spend against 8% of sales gives +4 points. Binet and Field's analysis of IPA effectiveness cases found roughly every 10 points of positive excess buys about half a point of annual market-share growth, so a brand that holds its budget flat while rivals raise theirs loses share on an unchanged budget because the metric is relative, not absolute.",
+      "whyItMatters": "Budget roleplays that propose holding advertising spend steady are answered with this relative measure, which shows why a flat budget is a cut in competitive terms.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "share-of-voice",
+        "market-share",
+        "promotional-mix"
+      ]
+    },
+    {
+      "term": "Double jeopardy law",
+      "definition": "Ehrenberg's empirical finding that a brand with a smaller customer base is punished twice over — fewer people buy it at all, and those who do buy it less often — so measured loyalty is almost entirely a consequence of penetration rather than an independent lever; the practical consequence is that a small brand's plan to grow purely by deepening loyalty among existing buyers contradicts the pattern found in essentially every category studied.",
+      "whyItMatters": "A roleplay proposing a retention-only growth plan for a small brand is a trap; naming this regularity and redirecting toward penetration is the scored move.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "market-penetration-rate",
+        "market-share",
+        "brand-equity"
+      ]
+    },
+    {
+      "term": "Diffusion of innovations",
+      "definition": "Rogers' model dividing adopters over time into five fixed bands measured in standard deviations from the mean adoption date — innovators 2.5%, early adopters 13.5%, early majority 34%, late majority 34% and laggards 16% — so the opinion-leading early adopters are a narrow 13.5% band that must be won before the 34% early majority will move, and a launch plan aimed at the mass market from day one is aimed at people who are not yet buying.",
+      "whyItMatters": "New-product roleplays ask who to target first; naming the band and its percentage is what turns 'we'll target trendsetters' into a defensible answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "adoption-chasm",
+        "product-life-cycle",
+        "minimum-viable-product"
+      ]
+    },
+    {
+      "term": "Adoption chasm",
+      "definition": "Moore's gap between the 13.5% early-adopter band, which buys on the promise of a breakthrough and tolerates an incomplete product, and the 34% early majority, which buys only on references from people already like themselves; products stall in it because the two groups will not act as references for each other, and the standard bridge is dominating one narrow beachhead segment until its references become credible to the next group.",
+      "whyItMatters": "When a roleplay shows strong early sales that suddenly flatten, naming this gap and the beachhead fix is the diagnosis a judge is listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "diffusion-of-innovations",
+        "product-life-cycle",
+        "target-market"
+      ]
+    },
+    {
+      "term": "Market challenger",
+      "definition": "The number-two or number-three firm by share — roughly 30% against a leader's 40% in Kotler's benchmark structure, above a follower's 20% and a nicher's 10% — which attacks the leader or smaller rivals head-on rather than imitating; a firm with the same share that deliberately copies the leader and avoids provoking retaliation is a follower, so the label is set by chosen posture, not by size alone.",
+      "whyItMatters": "Strategy roleplays that hand you a share table expect the four positions named and the posture defended; calling every non-leader a competitor loses the distinction.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "relative-market-share",
+        "market-share",
+        "competitive-advantage"
+      ]
+    },
+    {
+      "term": "Relative market share",
+      "definition": "A brand's own market share divided by the share of its single largest competitor — 20% against a leader's 40% is 0.5x, and only the market leader can score above 1.0 — which is the horizontal axis of the growth-share matrix; two brands holding an identical absolute share therefore land in opposite quadrants depending on how dominant the rival directly above each of them happens to be.",
+      "whyItMatters": "A roleplay that reports 20% share and calls it strong is answered by asking what the leader holds; the ratio, not the raw percentage, is what drives the portfolio decision.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "market-share",
+        "bcg-growth-share-matrix",
+        "market-challenger"
+      ]
+    },
+    {
+      "term": "First-mover advantage",
+      "definition": "The share and cost lead a pioneer can lock in through buyer switching costs, scarce shelf space or spectrum, and a learning-curve cost position — but Golder and Tellis found market pioneers failed roughly 47% of the time and held about 10% share on average, while the fast follower entering after the category's standard settles skips the cost of educating the market and buys the pioneer's proof of demand for free.",
+      "whyItMatters": "Roleplays about racing a competitor to launch expect both sides argued with evidence; asserting that being first always wins is the answer the data contradicts.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "competitive-advantage",
+        "minimum-viable-product",
+        "diffusion-of-innovations"
+      ]
+    },
+    {
+      "term": "Viral coefficient",
+      "definition": "Invitations sent per existing user multiplied by the share of those invitations that convert into new users — 5 invites at a 25% conversion rate gives k = 1.25 — where any value above 1.0 compounds into self-sustaining growth and any value below 1.0 produces a decaying series that halts on its own once paid acquisition stops, so the threshold is exactly 1.0 and not merely 'high'.",
+      "whyItMatters": "A referral-program roleplay is scored on stating the break-even threshold and the two inputs you would change to reach it, not on calling the campaign shareable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "word-of-mouth-marketing",
+        "customer-acquisition-cost",
+        "customer-buzz"
+      ]
+    },
+    {
+      "term": "Greenwashing",
+      "definition": "Environmental marketing claims the seller cannot substantiate, policed in the United States by the FTC's Green Guides at 16 CFR Part 260, which treat unqualified general claims such as 'eco-friendly' or 'green' as deceptive because they imply every possible environmental benefit, and require a degradability claim to mean complete breakdown within one year of customary disposal; a truthful narrow claim must therefore be stated narrowly to be lawful.",
+      "whyItMatters": "Sustainability roleplays that ask you to approve a packaging claim are scored on naming the standard and qualifying the claim, since an unqualified benefit statement is a legal exposure, not just a marketing choice.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "corporate-social-responsibility",
+        "advertising-regulation",
+        "ftc-act-section-5"
+      ]
+    },
+    {
+      "term": "Marketing audit",
+      "definition": "A comprehensive, systematic, independent and periodic examination of a firm's whole marketing environment, objectives, strategies and activities — all four adjectives are required, so a review of one campaign conducted by the team that ran it qualifies as none of them; its deliverable is a ranked list of corrective actions, not a score or a performance rating.",
+      "whyItMatters": "When a roleplay asks how you would diagnose a marketing department that is missing its targets, the independence and scope conditions are what distinguish an audit from an internal post-mortem.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:marketing"
+      ],
+      "confusableWith": [
+        "situation-analysis",
+        "environmental-scan",
+        "benchmarking"
+      ]
+    },
+    {
+      "term": "Moment of truth",
+      "definition": "Any contact at which a buyer forms a judgment about a brand with no marketing message present to help — Procter & Gamble named the 3 to 7 seconds facing the shelf the first such moment and the first use of the product the second; the practical rule is that advertising spend cannot repair a touchpoint at which the customer has already decided against the brand.",
+      "whyItMatters": "Hospitality roleplays about check-in or complaint handling are scored on identifying the exact contact that decides the guest's opinion and fixing that, not on adding promotion.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "brand-touchpoint",
+        "customer-journey-map",
+        "service-recovery"
+      ]
+    },
+    {
+      "term": "Relationship marketing",
+      "definition": "Optimizes the discounted value of a customer's entire future stream of purchases and will accept a thinner margin on any single sale to protect it, whereas transactional marketing maximizes margin on each separate exchange and budgets acquisition and retention as unrelated lines; the two approaches give opposite answers to whether a long-standing customer should be granted a concession on one order.",
+      "whyItMatters": "A roleplay in which a loyal customer asks for an exception is decided by which of the two frames you argue from, and judges expect the alternative named.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "customer-relationship-management-crm",
+        "customer-lifetime-value-clv",
+        "building-clientele"
+      ]
+    },
+    {
+      "term": "Societal marketing concept",
+      "definition": "Holds that a firm should satisfy its target market's wants profitably only in ways that also preserve long-run consumer and social welfare — the third test the plain marketing concept leaves out — so an offering that customers genuinely want and the company profits from can still fail this standard because of the harm it does over time.",
+      "whyItMatters": "Ethics questions that pit a profitable, popular product against a long-term harm are answered by naming this third test rather than by choosing between customers and profit.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing.txt"
+      ],
+      "confusableWith": [
+        "marketing-concept",
+        "corporate-social-responsibility",
+        "triple-bottom-line"
       ]
     }
   ]

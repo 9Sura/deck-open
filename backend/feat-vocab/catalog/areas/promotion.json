@@ -10,7 +10,8 @@
       "whyItMatters": "Promotion choices must fit the audience, message, and budget.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Promotional mix",
@@ -18,7 +19,8 @@
       "whyItMatters": "A mix lets competitors recommend more than one communication path.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Advertising",
@@ -26,7 +28,8 @@
       "whyItMatters": "Advertising builds broad brand awareness efficiently and at scale.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Sales promotion",
@@ -34,7 +37,8 @@
       "whyItMatters": "Promotions drive quick sales, trial, and inventory clearance.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Personal selling",
@@ -42,7 +46,8 @@
       "whyItMatters": "It enables customized pitches and problem-solving for high-value sales.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Public relations",
@@ -50,7 +55,8 @@
       "whyItMatters": "PR manages image, trust, and credibility through third-party voices.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Publicity",
@@ -58,7 +64,8 @@
       "whyItMatters": "Publicity builds credibility through sources other than paid ads.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Advertising media",
@@ -66,7 +73,8 @@
       "whyItMatters": "Choosing the right media reaches the target audience cost-effectively.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Direct marketing",
@@ -74,7 +82,8 @@
       "whyItMatters": "Direct marketing allows personalized, measurable, one-to-one engagement.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Word-of-mouth marketing",
@@ -82,7 +91,8 @@
       "whyItMatters": "Word-of-mouth builds organic advocacy and trust beyond paid ads.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Advertisement components",
@@ -90,7 +100,8 @@
       "whyItMatters": "Each component ensures the ad communicates its message persuasively.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Integrated marketing communication",
@@ -98,7 +109,8 @@
       "whyItMatters": "Consistency across touchpoints reinforces the message and maximizes impact.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Digital promotion",
@@ -106,7 +118,8 @@
       "whyItMatters": "Digital promotion reaches audiences efficiently with measurable results.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Target audience",
@@ -114,7 +127,8 @@
       "whyItMatters": "Defining the audience shapes the message, media, and timing.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Advertising regulation",
@@ -122,6 +136,534 @@
       "whyItMatters": "Compliance protects consumers and shields a business from liability.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/promotion.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Gross rating points (GRPs)",
+      "definition": "Reach multiplied by average frequency, the one number that sizes a schedule's total weight: 40% of the target seen four times is 160. The same 160 can be bought as 80% reach at 2.0 frequency, which is why the figure alone never describes a schedule.",
+      "whyItMatters": "Media-planning items hand the competitor a reach figure and a frequency figure and ask for the schedule's weight, or give the weight and one factor and ask for the other; a roleplay defending a media plan to a client is expected to state both halves, not just the total.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "target-rating-points-trps",
+        "effective-reach",
+        "rating-point"
+      ]
+    },
+    {
+      "term": "Target rating points (TRPs)",
+      "definition": "Rating points counted only against the demographic actually being bought instead of against every household in the market, so a broad-appeal buy delivering 200 gross rating points may deliver just 60 of these if only 30% of its viewers fall inside the target.",
+      "whyItMatters": "An exam item that shows a schedule looking strong on total weight but thin on the buying demographic is testing this distinction, and a media-plan roleplay that quotes only the gross figure to a client buying an 18-to-34 audience has hidden the waste.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "gross-rating-points-grps",
+        "rating-point"
+      ]
+    },
+    {
+      "term": "Rating point",
+      "definition": "One percent of all the households or people in a market's universe, counted whether or not their set is switched on, so a program watched by 90,000 homes in a 1,500,000-household market rates 6.0.",
+      "whyItMatters": "Cost-per-point math on the marketing exam starts here, and competitors lose the item by treating the figure as a share of viewers rather than a percent of the whole market.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "audience-share",
+        "cost-per-point-cpp",
+        "gross-rating-points-grps"
+      ]
+    },
+    {
+      "term": "Audience share",
+      "definition": "The percentage of sets actually in use that are tuned to a given program, so a show rating 6 in a market where only half the sets are on carries a 12 — the figure is always larger than the program's own rating because its denominator is smaller.",
+      "whyItMatters": "Exam items pair a rating and this figure for the same program and ask which one a national advertiser should buy against; the answer is the rating, because only it is measured against the full market a campaign is paying to cover.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "rating-point",
+        "gross-rating-points-grps"
+      ]
+    },
+    {
+      "term": "Effective frequency",
+      "definition": "The number of exposures needed inside a single purchase cycle before a message registers at all — below it the spend is wasted and above it the spend is redundant. The working planning standard is three exposures, from Krugman's three-hit theory.",
+      "whyItMatters": "A roleplay where a client wants the budget spread over more vehicles is a test of this: adding vehicles raises reach but can drop everyone below three exposures, leaving a campaign that technically touched the market and communicated nothing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "effective-reach",
+        "frequency-capping",
+        "gross-rating-points-grps"
+      ]
+    },
+    {
+      "term": "Effective reach",
+      "definition": "The share of the target exposed at or above the threshold number of times — conventionally three or more — so a schedule with 70% total reach may deliver only 35% of this, because the half of the audience that saw the ad once or twice does not count toward it.",
+      "whyItMatters": "Media-plan items give a reach curve and a frequency distribution and ask which of two schedules performs better; the one with lower total reach usually wins because more of its audience cleared the three-exposure threshold.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "effective-frequency",
+        "gross-rating-points-grps",
+        "target-rating-points-trps"
+      ]
+    },
+    {
+      "term": "Flighting",
+      "definition": "A schedule that alternates concentrated bursts with hiatus periods carrying no advertising at all — eight weeks on, four weeks dark — which buys higher in-season frequency than a flat continuous weight, at the cost of awareness decay during the dark weeks.",
+      "whyItMatters": "Seasonal-business roleplays turn on choosing this over pulsing or continuity, and the competitor is expected to name the trade the client is making rather than simply calling the plan seasonal.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "pulsing",
+        "effective-frequency"
+      ]
+    },
+    {
+      "term": "Pulsing",
+      "definition": "A schedule carrying a low continuous weight all year with heavier bursts layered over the peak selling weeks, so unlike flighting the brand is never entirely off air, and unlike continuity the weekly weight is not flat.",
+      "whyItMatters": "A client with year-round sales and a holiday spike is the standard prompt for this pattern; naming it and drawing the line against the other two schedules is what separates a scored answer from a vague one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "flighting",
+        "gross-rating-points-grps"
+      ]
+    },
+    {
+      "term": "Cost per thousand (CPM)",
+      "definition": "Media cost divided by impressions delivered and multiplied by 1,000 — a $6,000 magazine page reaching 400,000 readers is $15 — the conversion that makes a cheap small vehicle and an expensive large one directly comparable.",
+      "whyItMatters": "The most common media-math item on the marketing exam gives two vehicles with different prices and different audiences and asks which is the better buy; the raw price answers nothing and this figure answers it in one step.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-point-cpp",
+        "cost-per-click-cpc",
+        "circulation"
+      ]
+    },
+    {
+      "term": "Cost per point (CPP)",
+      "definition": "What one rating point of a market costs: spot price divided by the program's rating, so a $3,000 spot on a 5-rated program is $600. It prices a percentage of a market where cost per thousand prices raw impressions, which is why it cannot be compared across markets of different sizes.",
+      "whyItMatters": "Broadcast-buying items ask a competitor to rank stations within one market, where this is the right measure, then ask to compare a small market against a large one, where it is the wrong one and cost per thousand is needed instead.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-thousand-cpm",
+        "rating-point"
+      ]
+    },
+    {
+      "term": "Cost per click (CPC)",
+      "definition": "Total spend divided by clicks received — $800 over 3,200 clicks is $0.25 — a pricing basis that charges only when someone acts, unlike cost per thousand, which charges for the impression whether or not anyone ever clicks it.",
+      "whyItMatters": "A digital-promotion roleplay asks which pricing model protects a small client's budget; the answer turns on whether the goal is awareness, where impressions are the product, or traffic, where only the click is worth paying for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-thousand-cpm",
+        "cost-per-acquisition-cpa",
+        "clickthrough-rate-ctr"
+      ]
+    },
+    {
+      "term": "Cost per acquisition (CPA)",
+      "definition": "Total media spend divided by completed conversions rather than by clicks — $800 producing 16 purchases is $50, even though that same $800 buying 3,200 clicks made cost per click look like $0.25. Rising here with a flat cost per click means the landing page, not the media, is failing.",
+      "whyItMatters": "An exam item showing cheap clicks and expensive customers is testing whether the competitor can locate the failure downstream of the ad, and a roleplay client who wants to cut the ad budget is usually the one who needs the page fixed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-click-cpc",
+        "conversion-rate",
+        "return-on-ad-spend-roas"
+      ]
+    },
+    {
+      "term": "Return on ad spend (ROAS)",
+      "definition": "Revenue attributable to a campaign divided by what that campaign cost: $40,000 of revenue on $10,000 of spend is 4.0. It differs from return on investment, which subtracts cost of goods and the spend itself before dividing, so a 4.0 here is still a losing campaign at a 20% gross margin.",
+      "whyItMatters": "A client presenting a campaign as a four-to-one success is the setup for this distinction; the competitor is expected to ask for the margin before agreeing the campaign made money.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-acquisition-cpa",
+        "advertising-to-sales-ratio"
+      ]
+    },
+    {
+      "term": "Circulation",
+      "definition": "Copies a publication actually distributes in an average issue, audited by the Alliance for Audited Media, as opposed to readership, which multiplies those copies by a pass-along factor of roughly 2 to 3 — so a 500,000-copy magazine can legitimately claim 1,200,000 readers.",
+      "whyItMatters": "Print-buying items give one vehicle's audited copies and a rival's claimed readers and ask which is the larger audience; the competitor has to convert both to the same basis before the cost-per-thousand comparison means anything.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-thousand-cpm",
+        "media-kit"
+      ]
+    },
+    {
+      "term": "Rate card",
+      "definition": "A medium's published open prices per unit of time or space, quoted before any negotiation; national buyers routinely settle 30% to 50% under them, so a media plan costed at these published figures overstates what the buy will actually cost.",
+      "whyItMatters": "A roleplay in which a small client is handed a station's published prices tests whether the competitor knows the quoted number is an opening position, and a plan built on it will look unaffordable when it is not.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "media-kit",
+        "make-good",
+        "cost-per-thousand-cpm"
+      ]
+    },
+    {
+      "term": "Make-good",
+      "definition": "Replacement time or space a medium owes when a commitment ran in the wrong position, ran late, or fell short of guaranteed delivery — a station that guarantees 150 gross rating points and delivers 120 owes those 30 points back as inventory, not as a cash refund.",
+      "whyItMatters": "An under-delivery roleplay tests whether the competitor asks for the right remedy; demanding money back where the contract promises replacement inventory usually forfeits the claim entirely.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "rate-card",
+        "gross-rating-points-grps"
+      ]
+    },
+    {
+      "term": "Earned media",
+      "definition": "Coverage, mentions and shares a brand receives without buying placement — as against paid media, which is bought inventory the brand controls outright, and owned media, which is the brand's own site, list and channels. Only the paid third can be guaranteed to appear on a chosen date.",
+      "whyItMatters": "A launch-planning roleplay that leans on press pickup for a fixed launch day is the trap this term defends against, and public-relations items on the exam expect the three-way split to be named, not just the unpaid half.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "publicity",
+        "public-relations",
+        "native-advertising"
+      ]
+    },
+    {
+      "term": "Second-price auction",
+      "definition": "An auction in which the winner pays one increment above the runner-up's bid rather than the amount they themselves bid, so a $4.00 bid beating a $2.50 bid clears at $2.51 — which is why bidding true value can never cost more than that value is worth.",
+      "whyItMatters": "Digital-buying items ask why an advertiser should enter its real maximum instead of shading the bid down; the mechanic, not the strategy, is the answer, and competitors who guess pay-what-you-bid get it backwards.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-click-cpc",
+        "quality-score"
+      ]
+    },
+    {
+      "term": "Viewability",
+      "definition": "The Media Rating Council standard that counts a display impression only when at least 50% of its pixels hold the screen for one continuous second — two continuous seconds for video — so a campaign can serve 1,000,000 impressions and have only 600,000 of them count.",
+      "whyItMatters": "A digital-promotion roleplay where the client is billed for impressions the audience never had a chance to see is resolved by this standard, and exam items use the gap between served and counted impressions to test whether the competitor knows the threshold.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "clickthrough-rate-ctr",
+        "view-through-conversion",
+        "cost-per-thousand-cpm"
+      ]
+    },
+    {
+      "term": "Clickthrough rate (CTR)",
+      "definition": "Clicks divided by impressions: 250 clicks on 125,000 impressions is 0.2%, which is an ordinary display result and a poor search result. The denominator is impressions served, not people reached, so the figure falls as frequency rises even when the creative is working.",
+      "whyItMatters": "Campaign-review roleplays hand over a rate that dropped week over week; the competitor is expected to check whether frequency rose before concluding the creative went stale.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "conversion-rate",
+        "cost-per-click-cpc",
+        "email-open-rate"
+      ]
+    },
+    {
+      "term": "Conversion rate",
+      "definition": "Completed goal actions divided by the visits or clicks that could have completed them — the denominator is sessions, never impressions — so 40 orders from 2,000 landing-page visits is 2% no matter how many people saw the ad that sent them.",
+      "whyItMatters": "The single most common analytics error on the marketing exam is dividing sales by impressions; an item that supplies impressions, clicks and orders together is checking which denominator the competitor reaches for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "clickthrough-rate-ctr",
+        "cost-per-acquisition-cpa",
+        "view-through-conversion"
+      ]
+    },
+    {
+      "term": "View-through conversion",
+      "definition": "A purchase credited to an ad that was served and seen but never clicked, counted only when it falls inside a fixed look-back window — commonly one day for display against 30 days for a click — which is why these totals overstate a campaign next to click-through conversions.",
+      "whyItMatters": "A results presentation where the platform's reported sales exceed the client's actual order count is this in action, and the competitor is expected to say which conversions were assumed rather than observed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "conversion-rate",
+        "incrementality-holdout",
+        "last-touch-attribution"
+      ]
+    },
+    {
+      "term": "Incrementality holdout",
+      "definition": "A randomly selected slice of the target deliberately shown no advertising, so campaign lift is the exposed group's conversion rate minus the withheld group's — if exposed converts at 3.2% and the holdout at 2.6%, only 0.6 points were caused by the campaign and the rest would have happened anyway.",
+      "whyItMatters": "A client convinced a campaign drove every sale in its window is the setup for this method, and a competitor who can propose withholding a control group is answering a measurement question that platform-reported totals cannot.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "view-through-conversion",
+        "conversion-rate",
+        "return-on-ad-spend-roas"
+      ]
+    },
+    {
+      "term": "Quality Score",
+      "definition": "Google Ads' 1-to-10 diagnostic combining expected clickthrough rate, ad relevance and landing-page experience; it multiplies into the bid to set ad position, so an advertiser bidding $2.00 with a score of 8 outranks one bidding $3.00 with a score of 4 and pays less per click.",
+      "whyItMatters": "A search-advertising roleplay where the client wants to win position by raising the bid is the classic misread; the cheaper fix is tightening ad-to-keyword-to-page relevance, and the exam tests all three components by name.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "cost-per-click-cpc",
+        "second-price-auction"
+      ]
+    },
+    {
+      "term": "Email open rate",
+      "definition": "Opens divided by messages delivered — not messages sent — so 4,000 opens on 20,000 delivered is 20% while the same 4,000 against 25,000 sent looks like 16%. The count only fires when a tracking pixel loads, so image blocking and Apple's Mail Privacy Protection both distort it.",
+      "whyItMatters": "A direct-marketing roleplay reporting a suspiciously high figure after a privacy change is testing whether the competitor knows the metric is inferred from a pixel and will point to clicks as the reliable measure instead.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "hard-bounce",
+        "clickthrough-rate-ctr",
+        "can-spam-act"
+      ]
+    },
+    {
+      "term": "Hard bounce",
+      "definition": "An email permanently rejected because the address does not exist or the domain is dead, as opposed to a soft bounce, which is a temporary failure such as a full mailbox or a server outage and gets retried; mailbox providers begin filtering a sender whose permanent-failure rate passes roughly 2%.",
+      "whyItMatters": "A client whose newsletter suddenly lands in spam usually has an unpurged list, and a direct-marketing roleplay expects the competitor to distinguish the two failure types before recommending list hygiene.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "email-open-rate",
+        "can-spam-act",
+        "direct-marketing"
+      ]
+    },
+    {
+      "term": "CAN-SPAM Act",
+      "definition": "The 2003 federal statute governing commercial email: every message needs truthful headers and subject line, a valid physical postal address, and an opt-out mechanism honored within 10 business days, with civil penalties assessed per individual message sent rather than per campaign.",
+      "whyItMatters": "An email-promotion roleplay where a client wants to keep mailing customers who unsubscribed is a compliance question with a specific deadline attached, and the per-message penalty structure is what makes a single bad send expensive.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "hard-bounce",
+        "email-open-rate",
+        "advertising-regulation"
+      ]
+    },
+    {
+      "term": "Ad substantiation",
+      "definition": "The FTC doctrine that an advertiser must already hold the evidence for an objective claim before that claim runs, and that health or performance claims require competent and reliable scientific evidence — the line separating a provable assertion from puffery, which makes no measurable claim and needs no proof.",
+      "whyItMatters": "A roleplay client who wants to advertise that a product works twice as fast is asking a legal question, and the competitor is scored on requiring the proof up front rather than promising to find it if challenged.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "puffery",
+        "advertising-regulation",
+        "native-advertising"
+      ]
+    },
+    {
+      "term": "Native advertising",
+      "definition": "Paid placement built to match the form and feel of the surrounding editorial content, which the FTC requires be labeled Ad, Sponsored or Paid before the reader clicks — precisely because matching the publisher's format is what stops a reader from telling it apart from unpaid editorial.",
+      "whyItMatters": "A digital-promotion roleplay proposing an article that reads like the site's own reporting is scored on whether the competitor puts the disclosure ahead of the click, and exam items contrast it with publicity, which is unpaid and carries no label duty.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "publicity",
+        "earned-media",
+        "ftc-endorsement-guides"
+      ]
+    },
+    {
+      "term": "Slippage",
+      "definition": "The share of a rebate offer's buyers who qualify but never file the paperwork, which is why a $50 mail-in rebate with 40% of buyers never claiming actually costs the manufacturer $30 per unit sold — the gap between a promotion's face value and its real cost.",
+      "whyItMatters": "A pricing-and-promotion roleplay comparing an instant discount against a mail-in offer of the same face value turns on this: the two look identical to the customer and cost the manufacturer very different amounts.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "breakage",
+        "redemption-rate",
+        "sales-promotion"
+      ]
+    },
+    {
+      "term": "Breakage",
+      "definition": "Loyalty points, gift-card balances and promotional credits that were issued but are never redeemed and eventually release to revenue; a program booking 15% and then seeing only 5% has understated its outstanding liability threefold.",
+      "whyItMatters": "A loyalty-program roleplay asks whether a richer earn rate is affordable, and the answer depends on how much of what is issued is assumed never to be claimed — an assumption that turns into a balance-sheet problem when it is wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "slippage",
+        "redemption-rate"
+      ]
+    },
+    {
+      "term": "Sweepstakes",
+      "definition": "A prize promotion whose winners are drawn purely at random, which means it must strip one of the three elements of an illegal lottery — prize, chance and consideration — by publishing a free alternate method of entry so that no purchase is ever necessary.",
+      "whyItMatters": "A roleplay client who wants entries limited to paying customers is proposing an illegal lottery without realizing it, and the competitor is scored on naming the three elements and the free-entry fix rather than just calling it risky.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "skill-contest",
+        "sales-promotion",
+        "advertising-regulation"
+      ]
+    },
+    {
+      "term": "Skill contest",
+      "definition": "A prize promotion decided by judged ability — an essay, a photo, a recipe — rather than by random draw, which removes the chance element of an illegal lottery and is the only reason it may lawfully require a purchase, where a chance-based sweepstakes must offer free entry instead.",
+      "whyItMatters": "When a roleplay client insists that entrants buy something first, this is the structure that makes it legal, and knowing which element each format removes is what turns a vague warning into usable advice.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "sweepstakes",
+        "sales-promotion"
+      ]
+    },
+    {
+      "term": "DAGMAR",
+      "definition": "An objective-setting standard requiring an advertising goal to name a measurable communication task, a defined audience, a starting benchmark and a deadline — raise unaided awareness among women 18 to 34 from 20% to 45% within six months — rather than a sales target that advertising alone cannot own.",
+      "whyItMatters": "Promotional-plan roleplays are frequently scored on whether the stated objective is measurable; a competitor who promises to increase sales has written a goal that no post-campaign study can grade.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "copy-platform",
+        "advertising"
+      ]
+    },
+    {
+      "term": "Copy platform",
+      "definition": "A written brief fixing one campaign's target, its single key benefit claim, the support that proves that claim, the tone of voice and the legal mandatories, so that every execution in every medium argues the same one thing.",
+      "whyItMatters": "An exam item on why the pieces of a campaign must agree points here, and a roleplay presenting a campaign is expected to trace each execution back to the one claim the document fixed.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "storyboard",
+        "dagmar",
+        "advertisement-components"
+      ]
+    },
+    {
+      "term": "Cooperative advertising",
+      "definition": "An arrangement where a manufacturer reimburses part of a retailer's local advertising cost, usually on the condition that the ad features the manufacturer's brand and follows its format and logo rules, with reimbursement accrued against the retailer's purchase volume.",
+      "whyItMatters": "A retail roleplay where the store cannot afford a campaign alone is solved by claiming these funds, and the competitor is expected to name the strings attached rather than treat the money as unrestricted.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/promotion.txt",
+        "deca-domain:promotion"
+      ],
+      "confusableWith": [
+        "trade-allowance",
+        "promotional-allowance",
+        "advertising"
       ]
     }
   ]

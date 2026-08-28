@@ -10,15 +10,8 @@
       "whyItMatters": "Strong customer relations support repeat business and reputation.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
-    },
-    {
-      "term": "Customer service",
-      "definition": "The assistance and support a business provides to meet customer needs.",
-      "whyItMatters": "Service quality is central to satisfaction and retention.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Rapport",
@@ -26,7 +19,8 @@
       "whyItMatters": "Building rapport raises trust and the odds of repeat business.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Service orientation",
@@ -34,7 +28,8 @@
       "whyItMatters": "It helps employees deliver consistent, customer-focused interactions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Brand promise",
@@ -42,7 +37,8 @@
       "whyItMatters": "Knowing the promise helps employees deliver a consistent experience.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Service recovery",
@@ -50,7 +46,8 @@
       "whyItMatters": "Recovery answers the complaint and negative-feedback scenarios competitors face.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Cultural adaptation",
@@ -58,47 +55,8 @@
       "whyItMatters": "Culturally aware service builds stronger, more diverse relationships.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
-    },
-    {
-      "term": "Customer inquiry",
-      "definition": "A question or request from a customer seeking information or help.",
-      "whyItMatters": "Prompt, accurate responses signal genuine customer commitment.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
-    },
-    {
-      "term": "Complaint handling",
-      "definition": "The process of addressing and resolving customer concerns.",
-      "whyItMatters": "Handled well, a complaint becomes a loyalty opportunity.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
-    },
-    {
-      "term": "Difficult customer",
-      "definition": "A customer who is unhappy, demanding, or hard to work with.",
-      "whyItMatters": "Managing them calmly prevents escalation and shows professionalism.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
-    },
-    {
-      "term": "Company image",
-      "definition": "The public perception and reputation a business holds in the marketplace.",
-      "whyItMatters": "Every interaction either reinforces or erodes that image.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
-    },
-    {
-      "term": "Business policy",
-      "definition": "Rules and procedures a company sets to guide operations and customer interactions.",
-      "whyItMatters": "Interpreting policy fairly to customers builds trust and prevents disputes.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Customer relationship management (CRM)",
@@ -106,7 +64,8 @@
       "whyItMatters": "CRM tracks preferences and delivers personalized service at scale.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Customer lifetime value (CLV)",
@@ -114,6 +73,679 @@
       "whyItMatters": "CLV guides how much to invest in retention and service.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "term": "First contact resolution rate (FCR)",
+      "definition": "Contacts fully resolved on the first interaction divided by total contacts handled — 1,200 of 1,500 is 80%. A case that is transferred to a second agent or reopened later counts as a failure even if it is solved the same day, which is why it moves in the opposite direction from average handle time whenever agents rush callers off the line.",
+      "whyItMatters": "In a contact-center roleplay judged on service improvement, the fix a competitor proposes has to raise this number; trimming call length by promising a callback lowers it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "average-handle-time-aht",
+        "reopen-rate",
+        "escalation-rate"
+      ]
+    },
+    {
+      "term": "Average handle time (AHT)",
+      "definition": "Talk time plus hold time plus after-call work, divided by contacts handled — 6 minutes of talk, 1 minute of hold and 3 minutes of wrap-up across 40 calls averages 10 minutes. Leaving wrap-up out of the numerator is the standard error, and it makes every staffing model built on the figure understaff the queue.",
+      "whyItMatters": "Staffing math in a peak-demand hospitality or call-center roleplay starts here, and exam items expect the wrap-up term to be inside the average.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "first-contact-resolution-rate-fcr",
+        "average-speed-of-answer-asa",
+        "cost-per-contact"
+      ]
+    },
+    {
+      "term": "Service level (80/20)",
+      "definition": "The share of contacts answered inside a stated number of seconds, written as a pair — the industry default target is 80% answered within 20 seconds, and the other 20% may wait any length of time at all. That blind spot is why it is reported alongside average speed of answer rather than instead of it.",
+      "whyItMatters": "A roleplay that asks a competitor to set a staffing target for a holiday peak wants this pair of numbers, not a promise to answer quickly.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "average-speed-of-answer-asa",
+        "abandonment-rate",
+        "service-level-agreement"
+      ]
+    },
+    {
+      "term": "Abandonment rate",
+      "definition": "Contacts that disconnect while waiting divided by contacts offered — 90 hang-ups out of 3,000 offered is 3%, and most centers exclude calls dropped inside the first 5 seconds as misdials before reporting it. Under 5% is the common acceptance band, and the number rises non-linearly once average wait passes the caller's patience threshold.",
+      "whyItMatters": "Exam items hand over the offered and abandoned counts and expect both the percentage and the staffing conclusion drawn from it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "service-level-80-20",
+        "average-speed-of-answer-asa",
+        "virtual-queue-callback"
+      ]
+    },
+    {
+      "term": "Average speed of answer (ASA)",
+      "definition": "Total queue wait across all answered contacts divided by the number answered — an arithmetic mean, so it hides the tail. Nine callers waiting 5 seconds and one waiting 300 still reports 34.5 seconds, while the 80/20 service level exposes the outlier because it counts callers rather than averaging them.",
+      "whyItMatters": "In a service-improvement roleplay, the competitor who explains why the average looks healthy while customers complain is using this against service level.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "service-level-80-20",
+        "average-handle-time-aht",
+        "abandonment-rate"
+      ]
+    },
+    {
+      "term": "Agent occupancy",
+      "definition": "Time spent handling contacts and wrap-up divided by time logged in and available — 45 minutes of work inside a 50-minute available hour is 90%. Utilization puts total paid hours in the denominator instead, so it absorbs breaks, training and meetings and always reads lower; sustained occupancy above roughly 85% is the figure that predicts agent burnout.",
+      "whyItMatters": "A staffing roleplay judged on turnover risk needs the two denominators kept apart, or the schedule looks comfortable on paper and burns the team out.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "contact-center-shrinkage",
+        "capacity-utilization-rate",
+        "productivity"
+      ]
+    },
+    {
+      "term": "Contact center shrinkage",
+      "definition": "The share of paid staff time not available to take contacts — breaks, training, meetings, absence and paid leave. A center budgeting 30% shrinkage must schedule about 1.43 bodies for every agent it needs live on the phones, because 1 divided by 0.70 is 1.43; ignoring it understaffs a peak by roughly a third.",
+      "whyItMatters": "Peaks-in-demand roleplays ask how many people to put on the schedule, and the gross-up is where the answer is won or lost.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "agent-occupancy",
+        "absenteeism-rate",
+        "full-time-equivalent"
+      ]
+    },
+    {
+      "term": "Erlang C staffing model",
+      "definition": "A queuing formula that converts contact volume, average handle time and a target answer speed into required agents, and its output is non-linear: doubling volume needs well under double the staff, while removing the last agent from a tight schedule can multiply wait time. Averages alone cannot produce the answer because arrivals are random, not evenly spaced.",
+      "whyItMatters": "Explains the counter-intuitive result in a staffing case — cutting one agent from a 20-agent schedule can break an 80/20 target outright.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "contact-center-shrinkage",
+        "service-level-80-20",
+        "workload-method"
+      ]
+    },
+    {
+      "term": "Cost per contact",
+      "definition": "Fully loaded center cost — wages, benefits, technology and facilities — divided by contacts handled; $180,000 a month across 30,000 contacts is $6.00 each. A live phone contact typically runs several times the cost of a self-service session, and that spread, not the software licence, is the business case for deflection.",
+      "whyItMatters": "A roleplay proposing a chatbot or a help center has to set this figure against the deflected channel to justify the spend.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "self-service-deflection-rate",
+        "cost-to-serve",
+        "average-handle-time-aht"
+      ]
+    },
+    {
+      "term": "Reopen rate",
+      "definition": "Closed cases a customer reopens divided by cases closed in the period — 60 of 1,200 is 5%. It is the audit on first contact resolution: an agent can inflate the resolution figure by closing tickets early, and this is the only metric that catches it, which is why the two are always reported as a pair.",
+      "whyItMatters": "In a service-quality case, the competitor who pairs a resolution claim with this check shows the judge they know the headline metric can be gamed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "first-contact-resolution-rate-fcr",
+        "escalation-rate",
+        "service-failure"
+      ]
+    },
+    {
+      "term": "Escalation rate",
+      "definition": "Contacts passed up to a supervisor or a higher support tier divided by total contacts. A transfer moves a contact sideways to a peer queue; an escalation moves it up a level of authority — so an agent whose refund limit is $50 must escalate every $60 refund, and the rate is measuring the policy, not the customers.",
+      "whyItMatters": "Roleplays about empowering frontline staff turn on this: raising an agent's approval limit is usually the cheapest way to cut it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "first-contact-resolution-rate-fcr",
+        "impact-urgency-priority-matrix",
+        "goodwill-adjustment"
+      ]
+    },
+    {
+      "term": "Self-service deflection rate",
+      "definition": "Help-center or bot sessions that end without a human contact, divided by total sessions — 7,000 of 10,000 is 70%. A session only counts as deflected when no contact follows inside a set window, usually 24 hours; without that window an abandoned bot session where the customer gave up and phoned later is scored as a save.",
+      "whyItMatters": "The savings claim in a technology-in-CRM roleplay collapses without the follow-up window, and judges look for the competitor who states it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "cost-per-contact",
+        "virtual-queue-callback",
+        "proactive-service"
+      ]
+    },
+    {
+      "term": "First response time",
+      "definition": "The clock from a customer's message to the first substantive human reply, which stops on that reply even though nothing is fixed yet; resolution time runs on until the issue is actually closed. A 1-hour response with a 3-day resolution is a legitimate and common pair, and quoting one figure for both makes a team look twice as fast as it is.",
+      "whyItMatters": "Email and social-service roleplays set two separate targets, so a competitor who reports a single number has misread the case.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "severity-1-incident",
+        "service-credit",
+        "service-level-agreement"
+      ]
+    },
+    {
+      "term": "Impact-urgency priority matrix",
+      "definition": "A grid that derives a case's priority from how many people or how much revenue is affected, set against how fast the situation degrades — high impact with high urgency becomes P1, high impact with low urgency P2, and so on across a 3x3 or 4x4 grid. Priority is computed from the two axes rather than argued by whoever complains loudest.",
+      "whyItMatters": "Given a backlog of angry customers in a roleplay, the competitor who sorts by this grid instead of by volume of complaint wins the judged point on fairness.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "severity-1-incident",
+        "complaint-pareto-analysis",
+        "escalation-rate"
+      ]
+    },
+    {
+      "term": "Severity 1 incident",
+      "definition": "A total outage or safety-affecting failure with no workaround, carrying the tightest published clock — commonly a 15-minute acknowledgement, hourly status updates and continuous work until restoration. Severity rates the technical damage while priority adds business context, so a Sev-1 affecting one tiny account can still be worked at P2.",
+      "whyItMatters": "Service-level roleplays hinge on the severity-versus-priority split, and quoting the acknowledgement clock is what makes the answer specific rather than reassuring.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "impact-urgency-priority-matrix",
+        "service-credit",
+        "first-response-time"
+      ]
+    },
+    {
+      "term": "Service credit",
+      "definition": "The contractual penalty owed when a provider misses its service-level target — typically 10% of the monthly fee for the first missed tier, rising by band and capped at 100%. In most agreements it is the customer's sole remedy, and it must be claimed inside a stated window, often 30 days, or the right to it lapses entirely.",
+      "whyItMatters": "In a business-to-business account roleplay, the competitor who knows the credit must be requested rather than issued automatically recovers real money for the client.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "service-level-agreement",
+        "service-guarantee",
+        "goodwill-adjustment"
+      ]
+    },
+    {
+      "term": "Service recovery paradox",
+      "definition": "The finding that a customer whose problem is fixed exceptionally well can finish more loyal than one who never had a problem — but it holds only for a first, low-severity failure resolved fast by someone empowered to fix it on the spot. On a repeat failure the effect reverses and satisfaction lands below the never-failed baseline, so engineering failures is never the strategy.",
+      "whyItMatters": "Complaint roleplays reward naming the condition; a competitor who claims the paradox always applies is marked down for it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "service-recovery",
+        "service-remedy-ladder",
+        "service-guarantee"
+      ]
+    },
+    {
+      "term": "Complaint iceberg",
+      "definition": "The measured gap between complaints received and customers actually dissatisfied — the classic TARP studies put the share of unhappy customers who bother to complain at roughly 4 in 100, so one voiced complaint stands in for about two dozen silent defectors. A falling complaint count can therefore signal abandonment rather than improvement.",
+      "whyItMatters": "A management roleplay that celebrates fewer complaints needs this correction, and it is the argument that funds proactive outreach.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "voice-of-the-customer-voc",
+        "win-back-rate",
+        "detractor"
+      ]
+    },
+    {
+      "term": "Win-back rate",
+      "definition": "Lapsed customers who return after a targeted campaign, divided by lapsed customers contacted — 120 of 2,000 is 6%. It usually beats new acquisition on cost because the contact data and purchase history are already owned, but only when the offer answers the stated reason for leaving rather than simply discounting the same product.",
+      "whyItMatters": "A retention roleplay asks which list gets the budget, and this rate weighed against customer acquisition cost is the comparison judges expect.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "customer-acquisition-cost",
+        "repurchase-rate",
+        "churn-rate"
+      ]
+    },
+    {
+      "term": "Repurchase rate",
+      "definition": "The share of customers who buy again inside a defined window, counted per purchase occasion — 30 of 100 first-time buyers ordering again within 90 days is 30%. Retention rate counts customers still active at period end whether or not they bought anything, so a subscription can post 95% retention alongside a repurchase rate of zero.",
+      "whyItMatters": "Loyalty cases mix the two constantly, and naming the difference in the denominator is the discriminating answer a judge is listening for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "retention-rate",
+        "churn-rate",
+        "win-back-rate"
+      ]
+    },
+    {
+      "term": "Cost to serve",
+      "definition": "The support, delivery, returns and account-management cost attributable to one customer or segment, subtracted after cost of goods before any margin judgement — a segment buying $50,000 at 30% gross margin but generating $12,000 of returns and service calls earns $3,000, not $15,000. Revenue rank and profit rank routinely disagree because of it.",
+      "whyItMatters": "Explains why the largest account in a case can be the unprofitable one, and any roleplay recommending a service fee or a channel change for that account has to show this subtraction.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "customer-lifetime-value-clv",
+        "cost-per-contact",
+        "customer-equity"
+      ]
+    },
+    {
+      "term": "Goodwill adjustment",
+      "definition": "A refund, credit or replacement granted where the company owes nothing contractually — outside warranty, past the return window, or where the customer caused the damage. It is expensed as a service or marketing cost rather than charged against the warranty reserve, which is why finance tracks it separately and caps each agent's authority in dollars.",
+      "whyItMatters": "A roleplay where the customer's claim is genuinely out of policy tests whether the competitor can grant an exception and state what it costs the company.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "warranty-reserve",
+        "service-remedy-ladder",
+        "service-credit"
+      ]
+    },
+    {
+      "term": "Service remedy ladder",
+      "definition": "A published schedule matching the size of the failure to the size of the fix — apology plus correction for a minor first delay, a partial credit of roughly 10% to 25% of the transaction for a repeat, and a full refund plus a retention offer where the failure cost the customer money. It keeps compensation consistent and stops the loudest complainer being paid the most.",
+      "whyItMatters": "Judges in complaint roleplays reward a proportionate remedy; naming the rung and its value beats offering a blanket refund every time.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "goodwill-adjustment",
+        "service-recovery",
+        "service-guarantee"
+      ]
+    },
+    {
+      "term": "Customer referral rate",
+      "definition": "Customers who bring in at least one new paying customer, divided by total customers — 400 of 8,000 is 5%, and it can never exceed 100% because it counts referrers. The viral coefficient counts new customers produced per existing customer instead, so it can exceed 1; quoting one where the other belongs makes a growth forecast impossible.",
+      "whyItMatters": "Word-of-mouth roleplays ask for a measurable target, and the wrong one of the two makes the projection arithmetically unachievable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "viral-coefficient",
+        "net-promoter-score",
+        "word-of-mouth-marketing"
+      ]
+    },
+    {
+      "term": "Customer effort score (CES)",
+      "definition": "One question rated 1 to 7 on how easy the company made it to get an issue resolved, scored either as the share answering 5 to 7 or as a plain mean. It is asked right after a single service interaction rather than about the relationship, and it predicts repeat purchase better than satisfaction does, because removing effort keeps customers while delight rarely moves them.",
+      "whyItMatters": "In a service-redesign roleplay, arguing for deleting steps rather than adding perks needs this metric to carry the recommendation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "customer-satisfaction-score-csat",
+        "net-promoter-score",
+        "detractor"
+      ]
+    },
+    {
+      "term": "Customer satisfaction score (CSAT)",
+      "definition": "The share of respondents picking the top boxes on a satisfaction scale — the 4s and 5s on a 5-point scale, so 380 top-box replies out of 500 is 76%. It measures one transaction immediately after it happens, while the recommend question measures the whole relationship, which is why the two can move in opposite directions in the same month.",
+      "whyItMatters": "Exam items supply raw response counts and expect the top-box percentage; roleplays expect the right survey chosen for a transaction rather than a relationship.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "net-promoter-score",
+        "top-two-box-score",
+        "customer-effort-score-ces"
+      ]
+    },
+    {
+      "term": "Detractor",
+      "definition": "A respondent scoring 0 to 6 on the 0-to-10 recommend question; 7 and 8 are passives and 9 and 10 are promoters. Passives are dropped from the calculation entirely rather than counted as neutral, so nudging a 6 up to a 7 raises the score while nudging a 7 up to an 8 changes nothing at all.",
+      "whyItMatters": "A roleplay deciding where a limited service-recovery budget goes is settled by which score band the customer sits in, not by how upset they sound.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "net-promoter-score",
+        "customer-satisfaction-score-csat",
+        "complaint-iceberg"
+      ]
+    },
+    {
+      "term": "RATER dimensions of service quality",
+      "definition": "The five things customers actually grade — reliability, assurance, tangibles, empathy and responsiveness. Reliability, meaning the promise was kept, outweighs the other four in most studies while tangibles rank last, so refurbishing the lobby while orders keep arriving late is the classic misallocation of a service budget.",
+      "whyItMatters": "A retail-image or service-improvement roleplay wants the spend aimed at the heaviest dimension, and naming that ranking is what earns the point.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "servqual",
+        "gap-model-of-service-quality",
+        "zone-of-tolerance"
+      ]
+    },
+    {
+      "term": "Expectancy-disconfirmation model",
+      "definition": "Satisfaction treated as the gap between what was expected and what was perceived, not as an absolute level of performance — the same 20-minute wait delights a diner quoted 30 minutes and enrages one quoted 10. The operational consequence is that lowering the promise raises satisfaction without changing the kitchen at all.",
+      "whyItMatters": "Explains a quoted-wait-time or delivery-date decision in a restaurant roleplay far better than any appeal to trying harder.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "zone-of-tolerance",
+        "gap-model-of-service-quality",
+        "moment-of-truth"
+      ]
+    },
+    {
+      "term": "LAST service recovery sequence",
+      "definition": "A four-step frontline script — listen without interrupting, apologize for the impact rather than admitting fault, solve inside the agent's own authority, thank the customer for reporting it. It ends at the individual fix, whereas the HEARD sequence appends a diagnose step that pushes the cause back into the process, so LAST alone leaves the failure free to recur.",
+      "whyItMatters": "A difficult-customer roleplay is scored step by step, and the absent diagnose step is what separates a passing recovery from a winning one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "heard-service-recovery-sequence",
+        "service-recovery",
+        "service-remedy-ladder"
+      ]
+    },
+    {
+      "term": "HEARD service recovery sequence",
+      "definition": "Hear, empathize, apologize, resolve, diagnose — five steps whose last one is the whole difference: once the customer is satisfied the employee traces why the failure happened and reports it, converting a single complaint into a process fix. The four-step LAST script stops at resolve and generates no such feedback into the operation.",
+      "whyItMatters": "Hospitality roleplays about a failure that keeps recurring reward the competitor who closes the loop rather than just the ticket.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "last-service-recovery-sequence",
+        "five-whys-analysis",
+        "service-recovery"
+      ]
+    },
+    {
+      "term": "Complaint Pareto analysis",
+      "definition": "Ranking complaint categories by volume and cutting where the cumulative share crosses about 80% — if billing errors, late delivery and wrong item are 82% of 1,000 complaints, the remaining eleven categories split 18% and wait. Because it sorts on frequency alone, a rare category that costs the most per case needs a severity weight before it is set aside.",
+      "whyItMatters": "A roleplay handing over a year of complaint data expects the vital few named and the severity caveat stated out loud.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "five-whys-analysis",
+        "impact-urgency-priority-matrix",
+        "abc-inventory-analysis"
+      ]
+    },
+    {
+      "term": "Mail, Internet, or Telephone Order Merchandise Rule",
+      "definition": "An FTC rule under which a seller advertising no shipping date must ship within 30 days of a properly completed order, or send the buyer a revised date carrying the right to cancel for a prompt refund. Staying silent past the deadline obliges a refund whether or not the customer asks, so the clock runs against the seller by default.",
+      "whyItMatters": "An online-order complaint roleplay is decided by this clock, and the winning answer is a legal duty rather than a courtesy gesture.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "cooling-off-rule",
+        "unordered-merchandise-rule",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "CARD Act gift card protections",
+      "definition": "Federal rules under which gift card funds may not expire for at least 5 years from the date of the last load, and an inactivity fee may not be charged unless the card has gone unused for at least 12 months and then no more than once per month, with every fee disclosed on the card itself.",
+      "whyItMatters": "A retail service roleplay about a card the customer says has expired turns on whether the balance is still owed, and the numbers are the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "breakage",
+        "escheat",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Chargeback representment",
+      "definition": "The merchant's rebuttal after a cardholder disputes a transaction with the issuing bank — compelling evidence such as delivery confirmation and the authorization record is filed inside the network's response window, commonly 30 days. Losing costs the sale plus a fee of roughly $15 to $100, and a dispute ratio approaching 1% of transactions drops the merchant into a network monitoring program.",
+      "whyItMatters": "A payments-dispute roleplay rewards the competitor who separates a chargeback from an ordinary refund and knows the evidence deadline is not negotiable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "vendor-compliance-chargeback",
+        "goodwill-adjustment",
+        "consumer-protection"
+      ]
+    },
+    {
+      "term": "Verifiable consumer request",
+      "definition": "A privacy demand the business must first authenticate as coming from the consumer, then answer within 45 days, extendable once by a further 45 with notice, covering the categories collected in the preceding 12 months. It must be handled free of charge unless it is manifestly unfounded or excessive, and acting on it without verifying identity is itself a breach.",
+      "whyItMatters": "A roleplay where a caller demands their records deleted tests whether the competitor verifies identity before acting and can state the response clock.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "california-consumer-privacy-act",
+        "general-data-protection-regulation",
+        "data-security"
+      ]
+    },
+    {
+      "term": "Service guarantee",
+      "definition": "An advance promise of a specific payout when a stated service standard is missed — the meal free after 30 minutes, the night comped on a late check-in — paid on the condition alone with no proof of loss and no argument. A warranty answers a product defect after the fact and requires a claim to be substantiated; this one is designed to be trivially easy to invoke.",
+      "whyItMatters": "Judges reward a competitor who proposes an unconditional, easy-to-claim guarantee for a service failure instead of extending a warranty that does not apply.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "warranties-and-guarantees",
+        "service-credit",
+        "service-recovery-paradox"
+      ]
+    },
+    {
+      "term": "Transactional service model",
+      "definition": "Support organized around closing each contact quickly and cheaply, measured on handle time and cost per contact, with no expectation the same employee ever sees that customer again. A relationship model assigns named ownership and is measured on lifetime value and retention, accepting longer contacts to win a larger share of future spend — the two sets of targets contradict each other if mixed.",
+      "whyItMatters": "Choosing the model is the first decision in a customer-strategy roleplay, because every metric the competitor then proposes has to follow from it.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "relationship-marketing",
+        "cost-per-contact",
+        "customer-lifetime-value-clv"
+      ]
+    },
+    {
+      "term": "Service failure",
+      "definition": "Any gap between what the customer expected and what was delivered, including delivery that met every internal specification — a technically perfect order arriving after a promised time has failed. A defect is a measurable breach of a standard the company set, so every defect is a failure while many failures pass every internal check, which is why complaint data can never be replaced by quality-control data.",
+      "whyItMatters": "A roleplay where the operation insists nothing went wrong is won by naming this distinction before proposing the remedy.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "quality-control",
+        "service-recovery",
+        "reopen-rate"
+      ]
+    },
+    {
+      "term": "Service profit chain",
+      "definition": "Links internal service quality to employee satisfaction and retention, then to productivity and delivered value, then to customer loyalty and finally revenue growth. The practical claim is that the cheapest lever on the customer end of the chain usually sits at the employee end, so a loyalty problem is often a scheduling or training problem.",
+      "whyItMatters": "Backs a roleplay recommendation to fix rostering or training when the case presents falling guest satisfaction as the problem.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "internal-customer",
+        "employee-engagement",
+        "customer-lifetime-value-clv"
+      ]
+    },
+    {
+      "term": "Regulation E error resolution",
+      "definition": "Under the Electronic Fund Transfer Act's implementing rule, a consumer has 60 days from the statement showing a disputed debit-card or ACH transfer to notify the bank; the bank then has 10 business days to investigate, or may extend to 45 calendar days only if it posts provisional credit inside those 10 days, and must report its findings within 3 business days of finishing. Liability for a lost card is capped at $50 when reported within 2 business days of discovery and $500 after that. Credit-card charges are excluded — those run on the Fair Credit Billing Act's two-billing-cycle track.",
+      "whyItMatters": "A financial-services or banking roleplay in which a client's debit card was drained overnight is scored on whether the competitor cites the 10-business-day investigation and the provisional-credit condition, instead of promising an immediate refund no associate can authorize.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "fair-credit-billing-act-billing-error-window",
+        "chargeback-representment",
+        "fair-credit-reporting-act"
+      ]
+    },
+    {
+      "term": "Fair Credit Billing Act billing-error window",
+      "definition": "A credit-card holder must dispute a charge in writing within 60 days of the statement date on which it first appeared; the issuer then has 30 days to acknowledge the notice and two complete billing cycles — never more than 90 days — to resolve it, and may not report the disputed amount as delinquent while the claim is open. It reaches open-end credit only, so the same $400 charge disputed on a debit card is handled instead under Regulation E's 10-business-day investigation.",
+      "whyItMatters": "Business-law and finance exam items pair this window against the debit-card rule, and a customer-complaint roleplay about a double-billed credit-card charge expects the competitor to state the 60-day filing deadline before offering any goodwill.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "regulation-e-error-resolution",
+        "chargeback-representment",
+        "truth-in-lending-act"
+      ]
+    },
+    {
+      "term": "Chat containment rate",
+      "definition": "Sessions a virtual agent closes without handing the customer to a live representative, divided by every session that virtual agent opened — a bot that finishes 700 of 1,000 chats and passes 300 along contains 70%. The denominator is bot sessions only, which is what separates it from a self-service deflection rate measured against total support demand, so a bot nobody reaches can post a high containment figure while deflecting almost nothing.",
+      "whyItMatters": "A customer-service management roleplay that asks a competitor to justify a chatbot's return turns on this pair of denominators; quoting containment as though it were deflection overstates the labor saved and a judge listening for cost per contact will catch it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "self-service-deflection-rate",
+        "cost-per-contact",
+        "first-contact-resolution-rate-fcr"
+      ]
+    },
+    {
+      "term": "Transfer rate",
+      "definition": "Contacts an agent passes to another agent or queue, divided by contacts that agent handled — 40 hand-offs across 500 calls is 8%. It counts lateral moves to a peer at the same authority level, whereas an escalation rate counts only contacts pushed up to a supervisor or a higher support tier, so a caller routed sideways to a billing specialist raises this figure and leaves escalation untouched. Every transfer also breaks first contact resolution, even when the second agent solves the issue on the same call.",
+      "whyItMatters": "In a contact-center roleplay judged on resolving service situations, a competitor proposing skills-based routing has to say which of the two ratios the change should move, since routing callers correctly the first time cuts transfers without touching escalations.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "escalation-rate",
+        "first-contact-resolution-rate-fcr",
+        "reopen-rate"
+      ]
+    },
+    {
+      "term": "Warranty anti-tying rule",
+      "definition": "Section 102(c) of the Magnuson-Moss Warranty Act forbids conditioning a written warranty on the buyer's use of a branded part or an authorized service center unless the warrantor supplies that part or service free of charge or holds an FTC waiver — so an independent repair shop cannot by itself void coverage, and neither can failing to mail back a registration card, because the purchase date is what proves the claim. A service contract sold for separate consideration is not a warranty and never falls under this rule.",
+      "whyItMatters": "An automotive- or electronics-services roleplay where a guest was told their warranty died because they used an outside mechanic is scored on interpreting the policy correctly to the customer rather than repeating the store's line.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "magnuson-moss-warranty-act",
+        "express-warranty",
+        "implied-warranty-of-merchantability"
+      ]
+    },
+    {
+      "term": "Save offer",
+      "definition": "A concession — a discount, a credit, or a downgrade to a cheaper plan — put in front of a customer at the moment they state an intent to cancel, and priced by a margin test: the ceiling is the gross margin still expected over the account's remaining tenure minus what winning that customer back would cost, so a 30% discount on a subscription carrying a 25% gross margin destroys value even though the account is retained. It is offered before cancellation is processed, unlike a win-back campaign, which targets customers who have already gone.",
+      "whyItMatters": "A retention roleplay that hands a competitor a cancelling account expects the concession to be defended with the account's remaining margin and acquisition cost, not with the largest discount the associate is allowed to give.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
+        "deca-domain:customer_relations"
+      ],
+      "confusableWith": [
+        "win-back-rate",
+        "customer-lifetime-value-clv",
+        "goodwill-adjustment"
       ]
     }
   ]

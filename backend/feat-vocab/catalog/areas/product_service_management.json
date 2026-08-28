@@ -10,7 +10,8 @@
       "whyItMatters": "It ensures offerings meet customer needs and generate sustainable revenue.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Product life cycle",
@@ -18,15 +19,8 @@
       "whyItMatters": "The stage a product is in drives its marketing, pricing, and distribution.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
-    },
-    {
-      "term": "Product mix",
-      "definition": "The full range of products and services a company offers.",
-      "whyItMatters": "Product-mix decisions shape positioning, resources, and revenue.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Product line",
@@ -34,15 +28,8 @@
       "whyItMatters": "Line decisions balance customer choice against cost and complexity.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
-    },
-    {
-      "term": "Product bundling",
-      "definition": "Grouping related products and selling them as one package.",
-      "whyItMatters": "Bundling raises transaction value and perceived value.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Corporate branding",
@@ -50,7 +37,8 @@
       "whyItMatters": "Strong corporate branding creates loyalty and justifies premium pricing.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Product positioning",
@@ -58,7 +46,8 @@
       "whyItMatters": "Clear positioning conveys unique value and targets the right segments.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Product/service branding",
@@ -66,31 +55,8 @@
       "whyItMatters": "Product branding helps customers identify and prefer that offering.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
-    },
-    {
-      "term": "Customer touchpoint",
-      "definition": "Any moment of interaction between a customer and a company.",
-      "whyItMatters": "Optimizing touchpoints improves experience and builds loyalty.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
-    },
-    {
-      "term": "Customer voice",
-      "definition": "The feedback, preferences, and opinions customers express about offerings.",
-      "whyItMatters": "Listening to the customer voice guides product development and marketing.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
-    },
-    {
-      "term": "Product opportunity",
-      "definition": "A chance to develop or improve a product based on a market gap.",
-      "whyItMatters": "Spotting opportunities keeps a business competitive with changing needs.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Idea generation",
@@ -98,15 +64,8 @@
       "whyItMatters": "Structured idea generation yields higher-quality innovations.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
-    },
-    {
-      "term": "Grades and standards",
-      "definition": "Quality levels and specifications a product must meet.",
-      "whyItMatters": "Meeting grades and standards protects consumers and builds trust.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Warranties and guarantees",
@@ -114,7 +73,8 @@
       "whyItMatters": "They reduce customer risk and signal confidence in quality.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Consumer protection",
@@ -122,7 +82,8 @@
       "whyItMatters": "Understanding it helps a business operate ethically and avoid liability.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Unique selling proposition",
@@ -130,6 +91,609 @@
       "whyItMatters": "A clear USP gives customers a compelling reason to choose the product.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Product mix width",
+      "definition": "Counts how many separate product lines a company carries, never how many items sit inside them: a grocer running dairy, bakery, and frozen lines has a width of 3 even when those lines hold 400 items between them, while product mix depth counts the items within one line.",
+      "whyItMatters": "A mix-planning roleplay that asks how a retailer should expand expects width and depth reported as two different counts; answering with adjectives like 'broad' instead of a number loses the indicator.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "product-mix-depth",
+        "product-mix-length",
+        "product-line"
+      ]
+    },
+    {
+      "term": "Product mix depth",
+      "definition": "Counts the individual items inside a single line -- sizes, flavors, formulations, models: a toothpaste line of 4 flavors in 3 tube sizes is 12 items deep, and adding a fifth flavor deepens the mix without widening it, because width counts lines alone.",
+      "whyItMatters": "Exam items give a table of lines and items and ask for one number; students who add every item in the company report the length instead of the depth of the line asked about.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "product-mix-width",
+        "product-mix-length",
+        "line-filling"
+      ]
+    },
+    {
+      "term": "Product mix length",
+      "definition": "Total number of items across every line the firm sells, equal to width multiplied by average depth: 5 lines averaging 8 items each gives a length of 40, so a company can lengthen its mix without widening it by adding items to lines it already runs.",
+      "whyItMatters": "Product-mix questions hand you width and average depth and expect the multiplication; a roleplay judge scoring a merchandising plan looks for the total item count you commit the buyer to carrying.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "product-mix-width",
+        "product-mix-depth",
+        "sku-rationalization"
+      ]
+    },
+    {
+      "term": "Product mix consistency",
+      "definition": "Measures how closely the lines relate in production, distribution, and end use -- something neither width nor depth can show: two firms each carrying 4 lines and 40 items differ sharply when one sells only refrigerated foods through grocers and the other sells food, tires, and insurance.",
+      "whyItMatters": "Diversification questions ask whether a proposed line fits; the scoring point is that the new line shares plants or channels with the existing ones, not that it sounds related.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "product-mix-width",
+        "diversification",
+        "core-competency"
+      ]
+    },
+    {
+      "term": "Line extension",
+      "definition": "Adds a new size, flavor, color, or form under an existing brand inside the category it already competes in; a brand extension instead carries that brand into a different category -- a cherry version of a cola is the first, a cola-branded snack chip is the second.",
+      "whyItMatters": "Branding roleplays ask you to grow a brand without new advertising weight; naming the wrong one of the pair gives away that you cannot tell same-category growth from category entry.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "brand-extension",
+        "line-filling",
+        "product-line"
+      ]
+    },
+    {
+      "term": "Line filling",
+      "definition": "Adds items between price or feature points a line already covers, usually to close a gap a rival occupies -- dropping a $600 model between the existing $450 and $850 units; line stretching instead pushes the line past the top or bottom of its current range.",
+      "whyItMatters": "A merchandising roleplay that reports a competitor winning a mid-price slot is scored on filling the gap rather than repricing the whole line.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "line-stretching",
+        "line-extension",
+        "price-lining"
+      ]
+    },
+    {
+      "term": "Line stretching",
+      "definition": "Extends a line beyond the price range it now serves -- downward into cheaper segments, upward into premium ones, or both at once, as when a marque starting at $30,000 adds a $19,000 entry car; line filling by contrast stays entirely inside the range already covered.",
+      "whyItMatters": "Positioning roleplays warn about trading down: stretching downward risks the parent brand's image, and judges look for that risk named alongside the volume it buys.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "line-filling",
+        "brand-dilution",
+        "product-positioning"
+      ]
+    },
+    {
+      "term": "SKU rationalization",
+      "definition": "Cuts slow items from a line by ranked contribution rather than by unit volume, acting on the common finding that the bottom half of a catalog produces under 5% of sales; the deciding test is what share of a cut item's buyers switch to a surviving item instead of to a rival.",
+      "whyItMatters": "An assortment roleplay hands you a sales-by-item list; the winning answer cuts on contribution and states the transfer assumption, because a high-volume item can carry almost no margin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "cannibalization-rate",
+        "contribution-margin-per-unit",
+        "sell-through-rate"
+      ]
+    },
+    {
+      "term": "Harvest strategy",
+      "definition": "Cuts promotion, development, and service spending on a declining item toward zero while continuing to sell it, milking cash from the buyers who remain; divestment instead sells or discontinues the item outright, freeing shelf space and capital at once but ending that cash stream immediately.",
+      "whyItMatters": "Life-cycle roleplays put a fading item in front of you and score whether you choose between milking it and killing it, with a reason tied to remaining loyal demand.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "product-life-cycle",
+        "bcg-growth-share-matrix",
+        "spin-off"
+      ]
+    },
+    {
+      "term": "Market modification",
+      "definition": "Lifts a mature item's sales by changing who buys it or how often rather than changing the item: volume equals users times usage rate, so new user segments, new uses, and more use per occasion are the three levers; product modification instead alters the item's quality, features, or style.",
+      "whyItMatters": "Maturity-stage questions ask what a marketer does when sales flatten; the pair of levers must be told apart, since a judge hears 'add a feature' as the other strategy entirely.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "product-life-cycle",
+        "market-penetration-rate",
+        "line-extension"
+      ]
+    },
+    {
+      "term": "Stage-gate process",
+      "definition": "Moves a new product through fixed stages separated by go/kill reviews with written criteria, so a project can die at any gate -- screening, business analysis, development, testing, launch; the long-standing planning ratio is roughly 7 serious ideas entering for every 1 commercial success.",
+      "whyItMatters": "Development roleplays ask what happens between an idea and a launch; the scoring point is that each gate can kill the project, not that the stages happen in order.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "idea-screening",
+        "feasibility-study",
+        "minimum-viable-product"
+      ]
+    },
+    {
+      "term": "Idea screening",
+      "definition": "Applies stated go/no-go criteria to drop weak concepts before money is spent, and guards against two opposite errors -- a drop-error that kills a winner and a go-error that carries a loser into costly development; idea generation, by contrast, deliberately withholds all judgment to maximize the count.",
+      "whyItMatters": "A brainstorming roleplay is scored badly if you evaluate while generating; competitors must say which stage they are in and which error that stage is trying to avoid.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "idea-generation",
+        "concept-testing",
+        "stage-gate-process"
+      ]
+    },
+    {
+      "term": "Concept testing",
+      "definition": "Puts a written or drawn description of an unbuilt product before target buyers and scores stated purchase intent, normally reading the top two boxes of a 5-point scale -- 'definitely' plus 'probably would buy' -- then discounting that figure, because stated intent runs far above actual trial.",
+      "whyItMatters": "Feasibility roleplays ask how you would test an idea before building it; naming the intent scale and the discount separates a real answer from 'ask some customers.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "top-two-box-score",
+        "test-marketing",
+        "initial-feasibility"
+      ]
+    },
+    {
+      "term": "Alpha testing",
+      "definition": "A pre-release trial run by the developer's own employees inside a controlled company setting, so defects are found before any outsider sees the product; beta testing hands the same build to real customers in their own environment, which makes who runs it and where the dividing line between the two.",
+      "whyItMatters": "Development-stage exam items list a testing activity and ask which stage it belongs to; the answer turns entirely on whether outsiders are involved.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "beta-testing",
+        "test-marketing",
+        "minimum-viable-product"
+      ]
+    },
+    {
+      "term": "Beta testing",
+      "definition": "Places a pre-release version with outside customers doing real work in their own conditions, capturing failures no internal lab reproduces; alpha testing comes first and is run in-house by employees, so a beta's whole value is the uncontrolled use an alpha deliberately excludes.",
+      "whyItMatters": "A roleplay proposing a limited launch is scored on why outside users are needed before full production, not merely on saying the product will be tested.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "alpha-testing",
+        "test-marketing",
+        "minimum-viable-product"
+      ]
+    },
+    {
+      "term": "Test marketing",
+      "definition": "Sells the finished product with its full marketing plan in a few representative cities while matched control cities keep the old plan, so the result read is the difference between the two areas rather than the test area's raw sales; the cost is secrecy, since rivals see the plan months early.",
+      "whyItMatters": "Launch roleplays ask how you would prove the plan works before national rollout; the matched control is the detail that turns a demo into a measurement.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "beta-testing",
+        "concept-testing",
+        "incremental-lift"
+      ]
+    },
+    {
+      "term": "Innovator (adopter category)",
+      "definition": "The first 2.5% of a market to buy something new -- venturesome, able to absorb a failed purchase, and often socially outside the mainstream, which limits their influence; the early adopters who follow are the next 13.5% and carry the opinion leadership that actually moves the majority.",
+      "whyItMatters": "New-product roleplays ask who to target at launch; quoting the 2.5% band and then explaining why that group cannot spread adoption alone is what separates the top scores.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "early-adopter",
+        "diffusion-of-innovations",
+        "adoption-chasm"
+      ]
+    },
+    {
+      "term": "Early adopter",
+      "definition": "The 13.5% of buyers who follow the innovators -- respected opinion leaders inside the mainstream whose endorsement decides whether an item reaches the 34% early majority; innovators, the first 2.5%, buy sooner but sit too far outside the group to persuade it.",
+      "whyItMatters": "Promotion plans for a launch are scored on targeting the group that others watch; naming the 13.5% band and its opinion-leader role answers the indicator directly.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "innovator-adopter-category",
+        "adoption-chasm",
+        "diffusion-of-innovations"
+      ]
+    },
+    {
+      "term": "Specialty good",
+      "definition": "A purchase for which buyers accept no substitute and will pass closer outlets to reach one brand -- insistence, not preference; a shopping good is one buyers compare on price, quality, and style across several stores and will happily switch brands on to save money.",
+      "whyItMatters": "Distribution questions follow from this classification: specialty goods justify exclusive distribution and few outlets, while shopping goods need enough outlets for comparison to happen.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "unsought-good",
+        "brand-insistence",
+        "exclusive-distribution"
+      ]
+    },
+    {
+      "term": "Unsought good",
+      "definition": "Something buyers do not think to look for and may not know exists, so it has to be sold to them rather than bought -- burial plots, life insurance, a brand-new category's first entrant; a specialty good is the opposite pole, actively hunted by name with special effort.",
+      "whyItMatters": "Selling roleplays for insurance or services are scored on recognizing that no one walks in asking, which forces prospecting and personal selling rather than displays.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "specialty-good",
+        "prospecting",
+        "personal-selling"
+      ]
+    },
+    {
+      "term": "Accessory equipment",
+      "definition": "Portable, shorter-lived business goods bought routinely by middle managers and written off over a few years -- hand tools, laptops, forklifts; an installation is the major capital asset such as a plant or a production line, approved by top management on a multi-year capital budget.",
+      "whyItMatters": "Business-to-business selling roleplays are scored on calling on the right buyer: the pair differs by who signs, so pitching an installation to a department manager is a scoring miss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "component-part",
+        "economic-buyer",
+        "revenue-expenditure"
+      ]
+    },
+    {
+      "term": "Component part",
+      "definition": "A finished business good that goes into another product and keeps its own identity there -- a car battery, a tire, a microchip; raw materials are processed until that identity is lost, and maintenance and repair supplies never enter the finished product at all.",
+      "whyItMatters": "Industrial product questions ask you to classify an input; the identity test decides it, and it also explains why component makers can advertise to the end consumer at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "accessory-equipment",
+        "ingredient-branding",
+        "supply-chain"
+      ]
+    },
+    {
+      "term": "Durable good",
+      "definition": "A tangible item expected to survive repeated use, the standard statistical cutoff being an expected life of three years or more, which is why appliances and vehicles qualify; nondurables are consumed in one or a few uses and are bought on habit rather than deliberation.",
+      "whyItMatters": "Warranty, financing, and personal-selling effort all follow this split, so an exam item on why one product gets a service plan and another does not is answered with the three-year line.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "specialty-good",
+        "warranties-and-guarantees",
+        "economic-goods"
+      ]
+    },
+    {
+      "term": "Service intangibility",
+      "definition": "Nothing can be inspected, weighed, or returned before purchase, so buyers judge search qualities beforehand, experience qualities only during delivery, and credence qualities -- a surgeon's technique, a tax opinion -- never at all; a good lets buyers verify most attributes before paying.",
+      "whyItMatters": "A roleplay contrasting service marketing with product marketing is scored on the tangible cues you add -- uniforms, facilities, guarantees -- to stand in for inspection.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "service-inseparability",
+        "service-perishability",
+        "services"
+      ]
+    },
+    {
+      "term": "Service inseparability",
+      "definition": "Production and consumption happen at the same instant with the buyer present, so the employee is part of the product and no defective unit can be caught before a customer receives it; a manufactured good is built, inspected, and warehoused weeks before anyone buys it.",
+      "whyItMatters": "Service-quality roleplays are scored on front-line hiring and training as quality control, because there is no inspection step to add between production and the customer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "service-intangibility",
+        "service-heterogeneity",
+        "quality-control"
+      ]
+    },
+    {
+      "term": "Service perishability",
+      "definition": "Unused capacity is destroyed the moment it goes unsold: a 200-room hotel that sells 150 rooms tonight cannot add the other 50 to tomorrow's inventory, which is why capacity is priced by demand period; unsold physical goods simply stay in inventory and sell later.",
+      "whyItMatters": "Hospitality roleplays about slow midweek nights are scored on demand-shifting tactics -- off-peak pricing, overbooking policy -- that follow directly from capacity that cannot be stored.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "yield-management",
+        "revenue-per-available-room-revpar",
+        "service-intangibility"
+      ]
+    },
+    {
+      "term": "Service heterogeneity",
+      "definition": "The same offering varies by employee, by customer, and by hour, so quality is a distribution rather than a specification; a factory good is held to a stated tolerance and any unit outside it is scrapped, while service variance has to be squeezed by scripts, training, and blueprints.",
+      "whyItMatters": "A roleplay on internal service standards is scored on how you narrow the spread between your best and worst shift, not on restating that people differ.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "service-inseparability",
+        "service-blueprint",
+        "quality-culture"
+      ]
+    },
+    {
+      "term": "Service level agreement",
+      "definition": "The contract section fixing measurable performance targets and the credit owed when they are missed: 99.9% monthly uptime allows roughly 43 minutes of outage in a 30-day month, and each tier missed below that refunds a stated percentage of the month's fee.",
+      "whyItMatters": "Business-services roleplays ask what the client is actually promised; converting a percentage into allowed minutes and naming the credit is what makes the promise enforceable.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "five-nines-availability",
+        "warranties-and-guarantees",
+        "recovery-time-objective"
+      ]
+    },
+    {
+      "term": "SERVQUAL",
+      "definition": "Scores quality as perception minus expectation on paired 22-item scales across five dimensions -- reliability, assurance, tangibles, empathy, responsiveness -- so a dimension scoring 0 means expectations were met exactly and every negative number is a measured shortfall to fix.",
+      "whyItMatters": "A roleplay asking how you would measure service quality is scored on the subtraction: measuring satisfaction alone cannot tell an over-promise from an under-delivery.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "gap-model-of-service-quality",
+        "net-promoter-score",
+        "zone-of-tolerance"
+      ]
+    },
+    {
+      "term": "Gap model of service quality",
+      "definition": "Locates a failure in one of five gaps -- not knowing what customers expect, setting wrong standards, delivery that misses those standards, promotion promising what operations cannot deliver, and the customer gap between expectation and perception, which is produced by the first four.",
+      "whyItMatters": "Guest-recovery roleplays are scored on diagnosing which gap caused the complaint, since an over-promising ad and an untrained server call for opposite fixes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "servqual",
+        "service-recovery",
+        "zone-of-tolerance"
+      ]
+    },
+    {
+      "term": "Zone of tolerance",
+      "definition": "The band between desired service, what the customer hopes for, and adequate service, the least they will accept: performance inside the band passes unnoticed, above it delights, below it triggers complaint or defection, and the band narrows sharply in urgent or first-time-fix situations.",
+      "whyItMatters": "Roleplays about exceeding guest expectations are scored on knowing that ordinary delivery earns nothing; the band explains why effort spent in the middle is invisible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "servqual",
+        "gap-model-of-service-quality",
+        "moment-of-truth"
+      ]
+    },
+    {
+      "term": "Class I recall",
+      "definition": "The severest federal recall classification, used when a defect carries a reasonable probability of serious injury or death; Class II covers defects whose harm is temporary or medically reversible and where serious harm is remote, and Class III covers violations unlikely to cause any harm.",
+      "whyItMatters": "Consumer-protection questions give a defect scenario and ask how urgently the firm must act; the class decides the notification reach and the speed regulators expect.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "cpsc-section-15-b-report",
+        "consumer-protection",
+        "strict-product-liability"
+      ]
+    },
+    {
+      "term": "CPSC Section 15(b) report",
+      "definition": "The Consumer Product Safety Act duty to notify the Commission within 24 hours of obtaining information that a product contains a defect creating a substantial hazard, fails a mandatory standard, or poses an unreasonable risk -- and the duty applies even when the firm still disputes the defect.",
+      "whyItMatters": "Ethics and consumer-protection roleplays test whether you report before finishing your own investigation; waiting for certainty is the answer that loses the indicator and, in practice, draws the fine.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "class-i-recall",
+        "consumer-protection",
+        "strict-product-liability"
+      ]
+    },
+    {
+      "term": "Full warranty",
+      "definition": "A label a written warranty may carry only if it repairs defects free within a reasonable time, puts no duty on the buyer beyond giving notice, does not limit the duration of implied warranties, and offers a refund or replacement after a reasonable number of failed repairs; missing any one forces the 'limited' label.",
+      "whyItMatters": "Warranty roleplays ask what a store may print on the tag; a written warranty that charges a handling fee cannot be called full, and knowing which of the four conditions broke is the scoring point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "magnuson-moss-warranty-act",
+        "express-warranty",
+        "implied-warranty-of-merchantability"
+      ]
+    },
+    {
+      "term": "Warranty reserve",
+      "definition": "The liability booked at the moment of sale for repairs expected later -- units sold times expected claim rate times cost per claim, so 100,000 units at a 2% claim rate and $40 per claim accrues $80,000 of expense in the period the revenue is recognized, not when the repairs happen.",
+      "whyItMatters": "Questions pairing a generous warranty with its cost are answered with this accrual; a roleplay proposing a longer warranty has to price it, and the reserve is the number to quote.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "warranties-and-guarantees",
+        "contingent-liability",
+        "matching-principle"
+      ]
+    },
+    {
+      "term": "Defective parts per million",
+      "definition": "Defect count divided by units shipped, times 1,000,000: 35 rejects out of 500,000 units is 70, the scale supplier scorecards use because the same figure written as a percentage -- 0.007% -- rounds toward nothing and cannot separate a good supplier from an excellent one.",
+      "whyItMatters": "Vendor-selection roleplays hand you competing quality records; comparing them on this scale, rather than on a rounded percentage, is what makes the recommendation defensible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "six-sigma",
+        "first-pass-yield",
+        "acceptance-sampling"
+      ]
+    },
+    {
+      "term": "First-pass yield",
+      "definition": "The share of units clearing a step with no rework or scrap; multiplied across steps it gives rolled throughput yield, so four stations each at 95% deliver only 0.95^4 = 81.5% clean units, meaning a line whose every station reports 95% is really losing almost one unit in five.",
+      "whyItMatters": "Quality roleplays are scored on catching hidden rework: each station passing its own target while the finished-goods number falls short is exactly the scenario this calculation explains.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "defective-parts-per-million",
+        "quality-control",
+        "overall-equipment-effectiveness"
+      ]
+    },
+    {
+      "term": "Kano model",
+      "definition": "Sorts features into must-be, whose absence angers buyers while its presence earns nothing, performance features, where satisfaction rises with the amount delivered, and delighters, unnoticed when missing but thrilling when present -- and it predicts each delighter decays into a must-be as rivals copy it.",
+      "whyItMatters": "Feature-prioritization roleplays are scored on where to spend: pouring money into a must-be buys no preference, while the delighter that differentiates today becomes table stakes next season.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "product-features-and-benefits",
+        "points-of-parity",
+        "points-of-difference"
+      ]
+    },
+    {
+      "term": "House of quality",
+      "definition": "The matrix that converts weighted customer wants into engineering specifications, scoring each intersection 9, 3, or 1 for a strong, moderate, or weak relationship, then ranking every specification by the sum of customer weight times relationship score to decide what engineering works on first.",
+      "whyItMatters": "A product-development roleplay that must justify which feature ships first is scored on tracing the choice back to weighted customer input rather than to engineering preference.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "voice-of-the-customer",
+        "conjoint-analysis",
+        "kano-model"
+      ]
+    },
+    {
+      "term": "Grades and standards",
+      "definition": "A standard states the minimum a unit must meet to be sold under a name at all, while a grade ranks the units that already clear it -- USDA beef sorted Prime, Choice, or Select by marbling and maturity has met one identical wholesomeness standard at every grade.",
+      "whyItMatters": "Buying and menu roleplays are scored on specifying the grade you will purchase; saying a product 'meets standards' says nothing about the quality tier you promised the customer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "quality-control",
+        "hazard-analysis-and-critical-control-points",
+        "vendor-compliance-chargeback"
+      ]
+    },
+    {
+      "term": "Genericide",
+      "definition": "Loss of trademark rights when the public adopts a mark as the common name for the whole product class -- aspirin, escalator, thermos; the Lanham Act's Section 14(3) test is the mark's primary significance to the relevant public, so an owner's protests do not save it once ordinary usage has flipped.",
+      "whyItMatters": "Branding roleplays about protecting a name are scored on naming the concrete defenses -- always pairing the mark with the generic noun, policing verb use -- and on why success itself creates the risk.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "trademark",
+        "trade-dress",
+        "brand-dilution"
+      ]
+    },
+    {
+      "term": "Service blueprint",
+      "definition": "A process map drawn in horizontal bands split by the line of interaction, the line of visibility, and the line of internal interaction, so front-stage steps the customer sees sit above the backstage support that produces them, with failure points and wait times marked on the flow.",
+      "whyItMatters": "Operations roleplays that ask you to redesign a guest experience are scored on separating what the customer sees from the support behind it, which is where most delays actually live.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:product_service_management"
+      ],
+      "confusableWith": [
+        "service-heterogeneity",
+        "moment-of-truth",
+        "critical-path-method"
+      ]
+    },
+    {
+      "term": "Brand mark",
+      "definition": "The element of a brand that is recognized but cannot be spoken -- a symbol, distinctive lettering, color, or design -- as against the brand name, which is the part said aloud, and the trade name, which identifies the company rather than any product it sells.",
+      "whyItMatters": "Brand-building roleplays are scored on naming the pieces separately, since a logo redesign and a name change are different decisions with different legal and equity consequences.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/product_service_management.txt"
+      ],
+      "confusableWith": [
+        "trade-dress",
+        "product-service-brand",
+        "brand-equity"
       ]
     }
   ]

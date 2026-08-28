@@ -32,7 +32,7 @@ deck-open/
 │   ├── hooks/                      # shared React hooks
 │   ├── lib/                        # ProgressStore, route gating, themes, DECA mirrors
 │   ├── public/question-bank/       # THE question bank — canonical, served verbatim (16,283 questions)
-│   ├── public/vocab/               # event vocab catalogs (28 events, 1,400 terms)
+│   ├── public/vocab/               # event vocab catalogs (28 events, 7,000 terms)
 │   ├── public/roleplays/           # roleplay bank + the dealt day files
 │   ├── scripts/                    # derive-bank-artifacts.mjs, sync-vocab.mjs, check-data-sync.mjs
 │   └── supabase/migrations/        # schema for the optional accounts feature
@@ -58,8 +58,8 @@ Counted from disk — count it yourself rather than trusting these numbers:
 | What | Where | Size |
 |------|-------|------|
 | Questions | `frontend/public/question-bank/` | 16,283 across 5 clusters (finance, marketing, entrepreneurship, pbm, hospitality) |
-| Vocab | `frontend/public/vocab/` | 1,400 terms across 28 event catalogs |
-| Roleplays | `frontend/public/roleplays/bank/` | 30 banked, on 1 of 28 event shelves — the bank is mid-regeneration |
+| Vocab | `frontend/public/vocab/` | 7,000 terms across 28 event catalogs (250 each) |
+| Roleplays | `frontend/public/roleplays/bank/` | 60 banked, on 2 of 28 event shelves — the bank is mid-regeneration |
 
 Recount the bank any time:
 

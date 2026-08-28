@@ -5,20 +5,13 @@
   ],
   "terms": [
     {
-      "term": "Break-even point",
-      "definition": "The sales level where total revenue equals total costs.",
-      "whyItMatters": "Break-even shows the minimum sales a price or product strategy needs to be viable.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/pricing.txt"
-      ]
-    },
-    {
       "term": "Markup",
       "definition": "The amount or percentage added to a product's cost to set its selling price.",
       "whyItMatters": "Markup links cost directly to a pricing recommendation.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Profit margin",
@@ -26,7 +19,8 @@
       "whyItMatters": "Margin reflects pricing effectiveness against financial goals.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Pricing strategy",
@@ -34,7 +28,8 @@
       "whyItMatters": "A sound strategy is central to case presentations and positioning.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Cost-plus pricing",
@@ -42,7 +37,8 @@
       "whyItMatters": "It is a foundational method when a price must ensure cost recovery.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Price skimming",
@@ -50,7 +46,8 @@
       "whyItMatters": "Skimming fits new or innovative products willing buyers will pay for.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Penetration pricing",
@@ -58,7 +55,8 @@
       "whyItMatters": "Penetration helps when entering a new market or fighting competition.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Psychological pricing",
@@ -66,7 +64,8 @@
       "whyItMatters": "It shows how price presentation affects customer behavior and sales.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Competitive pricing",
@@ -74,15 +73,8 @@
       "whyItMatters": "It is essential for positioning and staying competitive.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
-    },
-    {
-      "term": "Discount",
-      "definition": "A reduction from the regular price offered for volume, loyalty, or timing.",
-      "whyItMatters": "Discounts are a tactical tool to adjust sales volume and clear inventory.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Price elasticity",
@@ -90,7 +82,8 @@
       "whyItMatters": "Elasticity predicts demand shifts and helps optimize price for revenue.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Everyday low pricing",
@@ -98,7 +91,8 @@
       "whyItMatters": "EDLP offers a sustainable cost-leadership pricing approach.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Value-based pricing",
@@ -106,7 +100,8 @@
       "whyItMatters": "It aligns price with customer benefit and market demand.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Pricing objective",
@@ -114,7 +109,8 @@
       "whyItMatters": "Clear objectives, like profit or market share, guide pricing recommendations.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Manufacturer's suggested retail price",
@@ -122,6 +118,513 @@
       "whyItMatters": "MSRP frames legal and ethical pricing and channel relationships.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Markup on cost",
+      "definition": "Expresses the dollar markup as a percentage of what the merchandise cost the seller: (retail - cost) / cost. A $40 item ticketed at $100 carries a 150% markup on cost but only a 60% markup on retail; convert between them with markup-on-retail = markup-on-cost / (1 + markup-on-cost).",
+      "whyItMatters": "Merchandising math items hand a competitor one percentage and ask for the other selling price, and dividing by retail when the problem said cost throws off every later step of the calculation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "markup-on-retail",
+        "keystone-markup"
+      ]
+    },
+    {
+      "term": "Markup on retail",
+      "definition": "Divides the same dollar markup by the selling price instead of by the cost: (retail - cost) / retail. It is the form buyers and merchandise plans quote, it always reads lower than the cost-based figure on the same item, and it converts back with markup-on-cost = markup-on-retail / (1 - markup-on-retail).",
+      "whyItMatters": "In a retail-buying roleplay a judge states margins the way the trade states them, so a candidate has to convert a vendor's quoted markup before comparing it to the store's own target.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "markup-on-cost",
+        "maintained-markup"
+      ]
+    },
+    {
+      "term": "Keystone markup",
+      "definition": "The retail convention of doubling delivered cost, so a $22 cost gets a $44 ticket. That one move is simultaneously a 100% markup on cost and exactly a 50% markup on retail, which is why the same practice gets quoted as two different percentages depending on the denominator.",
+      "whyItMatters": "Apparel and specialty-store pricing cases open with keystone as the starting ticket, then ask what margin survives after the item is marked down twice.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "markup-on-cost",
+        "markup-on-retail"
+      ]
+    },
+    {
+      "term": "Initial markup",
+      "definition": "The percentage placed on goods when they first reach the floor, sized to absorb everything that will erode it: (operating expenses + profit + markdowns + employee discounts + shortages) / (net sales + markdowns + discounts + shortages). It is set deliberately higher than maintained markup because none of those reductions have happened yet.",
+      "whyItMatters": "Buying-plan questions ask why a store tickets at 52% when it only expects to keep 40%, and the gap between this figure and maintained markup is the entire answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "maintained-markup",
+        "markdown-percentage"
+      ]
+    },
+    {
+      "term": "Maintained markup",
+      "definition": "What the retailer actually keeps once reductions are taken: net sales minus gross cost of goods sold, stated as a percent of net sales. It sits below initial markup by the amount of markdowns, shortages and employee discounts, and it - not the original ticket - is the margin that has to cover operating expenses.",
+      "whyItMatters": "Finance and marketing exams give the initial markup plus a markdown total and ask for the margin that survived, which is this number rather than the one on the price tag.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "initial-markup",
+        "markdown-percentage"
+      ]
+    },
+    {
+      "term": "Markdown percentage",
+      "definition": "Reduction dollars measured against actual net sales rather than against the original ticket: dollar markdown / net sales. The off-retail version instead divides the reduction by the original price, so a $20 cut on a $50 item is a 40% off-retail markdown but a different number in the store's markdown-to-sales figure.",
+      "whyItMatters": "Clearance-planning roleplays require a candidate to say which denominator they used before a judge will accept the percentage they quote.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "maintained-markup",
+        "initial-markup"
+      ]
+    },
+    {
+      "term": "Gross margin return on inventory investment (GMROI)",
+      "definition": "Ties margin to the money tied up in stock: gross margin dollars / average inventory at cost, which equals gross-margin percent multiplied by the sales-to-stock ratio. A result of 3.00 means three dollars of margin per dollar invested, whereas inventory turnover counts how often stock sells and says nothing about the margin earned each turn.",
+      "whyItMatters": "A buyer's roleplay compares two vendors with identical turnover and different margins, and this is the single figure that separates them for the judge.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "inventory-turnover",
+        "maintained-markup"
+      ]
+    },
+    {
+      "term": "Contribution margin per unit",
+      "definition": "Selling price minus variable cost per unit - the dollars each extra sale releases to cover fixed costs and then profit. Gross profit per unit subtracts the full cost of goods sold instead, charging the unit for fixed manufacturing cost that this measure deliberately leaves out.",
+      "whyItMatters": "Every break-even item on the finance exam needs this figure first, and a competitor who reaches for gross profit computes a break-even volume that is too high.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "contribution-margin-ratio",
+        "break-even-point-in-units"
+      ]
+    },
+    {
+      "term": "Contribution margin ratio",
+      "definition": "Stated as a share of the selling price rather than in dollars: (price - variable cost) / price, or total contribution / total sales. It converts a dollar sales target straight into profit, and it differs from a gross margin ratio because only genuinely variable costs are subtracted from revenue.",
+      "whyItMatters": "A roleplay that asks how much additional revenue is needed to fund a $5,000 promotion is solved by dividing that spend by this ratio, not by the gross margin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "contribution-margin-per-unit",
+        "break-even-point-in-units"
+      ]
+    },
+    {
+      "term": "Break-even point in units",
+      "definition": "Fixed costs / contribution margin per unit - the volume at which total revenue and total cost meet and profit is exactly zero. Dividing fixed costs by the contribution margin ratio instead answers the same question in sales dollars, which is the form used when a firm sells a mix of products.",
+      "whyItMatters": "An entrepreneurship written event has to show the venture's break-even volume before a judge will give credit for the financial section of the plan.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "target-profit-volume",
+        "contribution-margin-per-unit"
+      ]
+    },
+    {
+      "term": "Target-profit volume",
+      "definition": "The break-even formula with the owner's desired profit added to the numerator: (fixed costs + target profit) / contribution margin per unit. Break-even sets that target to zero, so the answer here is always the larger of the two volumes for the same cost structure.",
+      "whyItMatters": "A finance judge asks not whether the store survives but how many units it must sell to fund a $30,000 owner's draw, which is this calculation rather than break-even.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "break-even-point-in-units",
+        "margin-of-safety"
+      ]
+    },
+    {
+      "term": "Margin of safety",
+      "definition": "How far sales can fall before the firm hits break-even: (actual or budgeted sales - break-even sales) / actual sales. A 12% figure means a 13% sales decline puts the operation into a loss, which is why a lender reads it next to the break-even volume rather than instead of it.",
+      "whyItMatters": "Business-plan defense questions ask how risky a sales forecast is, and this ratio answers that in one number a judge can check.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "break-even-point-in-units",
+        "target-profit-volume"
+      ]
+    },
+    {
+      "term": "Cross elasticity of demand",
+      "definition": "Measures how one product's unit sales respond to a different product's price: %change in quantity of A / %change in price of B. A positive coefficient marks substitutes and a negative one marks complements, whereas own-price elasticity compares a product only against its own price.",
+      "whyItMatters": "A pricing roleplay about a two-item lineup asks what raising the price of one does to the other, and the sign of this coefficient is the whole answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "price-elasticity",
+        "income-elasticity-of-demand"
+      ]
+    },
+    {
+      "term": "Income elasticity of demand",
+      "definition": "Compares unit sales to buyers' income rather than to price: %change in quantity / %change in income. A positive coefficient marks a normal good and a value above 1 marks a luxury, while a negative coefficient marks an inferior good whose sales rise when incomes fall.",
+      "whyItMatters": "Questions about which line a retailer should push in a downturn are decided by the sign of this figure, not by the product's margin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "cross-elasticity-of-demand",
+        "price-elasticity"
+      ]
+    },
+    {
+      "term": "Unitary elasticity",
+      "definition": "The knife-edge case where the coefficient equals exactly 1: a 10% price cut brings a 10% volume gain and total revenue does not move at all. Above 1 demand is elastic and revenue moves opposite to price; below 1 it is inelastic and revenue moves with price.",
+      "whyItMatters": "Exam items give a matched pair of percentages and ask what happens to revenue, and recognizing this case rather than assuming revenue rises is the trap being tested.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "price-elasticity",
+        "total-revenue-test"
+      ]
+    },
+    {
+      "term": "Total revenue test",
+      "definition": "Infers elasticity from the direction revenue moves after a price change: if raising price raises total revenue, demand is inelastic; if revenue falls, demand is elastic; if revenue holds steady, elasticity is unitary. It needs no coefficient at all, unlike the midpoint calculation it substitutes for.",
+      "whyItMatters": "Roleplay judges accept this shortcut when a candidate has to justify a price increase on the spot without the data to compute an elasticity coefficient.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "midpoint-method",
+        "unitary-elasticity"
+      ]
+    },
+    {
+      "term": "Midpoint method",
+      "definition": "Removes the direction bias in an elasticity calculation by dividing each change by the average of the two values: (change in Q / [(Q1+Q2)/2]) divided by (change in P / [(P1+P2)/2]). A plain percentage change gives one answer for a price rise and a different one for the identical fall; this gives the same coefficient both ways.",
+      "whyItMatters": "Elasticity math on the finance exam is scored against this formula, so a competitor using simple percentage change lands on a distractor answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "total-revenue-test",
+        "price-elasticity"
+      ]
+    },
+    {
+      "term": "Target-return pricing",
+      "definition": "Sets price to earn a stated percentage on invested capital: unit cost + (desired return x invested capital) / expected unit sales. Cost-plus pricing adds a flat markup no matter what the business has invested, so two firms with identical costs but very different capital bases price the same under cost-plus and differently under this method.",
+      "whyItMatters": "A manufacturer roleplay that names a required 20% return on a $2 million plant is asking for this calculation, and a markup answer will not satisfy the judge.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "cost-plus-pricing",
+        "pricing-objective"
+      ]
+    },
+    {
+      "term": "Transfer pricing",
+      "definition": "The price one division charges another inside the same company, which shifts reported profit between units and, across borders, between tax jurisdictions. Section 482 of the Internal Revenue Code requires it to meet the arm's-length standard - the price unrelated parties would have agreed on - so a firm cannot simply invoice its own subsidiary at cost or at zero.",
+      "whyItMatters": "Global-business roleplays ask why one division's results look poor while the company's consolidated profit is healthy, and the internal price is the mechanism.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "net-price",
+        "pricing-strategy"
+      ]
+    },
+    {
+      "term": "Price fixing",
+      "definition": "An agreement among competitors to set, raise, peg or stabilize what they charge - including agreeing on discounts, credit terms or a shared formula rather than on a final number. Section 1 of the Sherman Act treats it as per se illegal, so no business justification is a defense, unlike conscious parallelism, where rivals simply match a published price with no agreement and commit no offense.",
+      "whyItMatters": "Ethics-in-pricing items describe two owners comparing rates at a trade show, and the tested point is that the agreement itself, not any proven harm, is the violation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "predatory-pricing",
+        "resale-price-maintenance"
+      ]
+    },
+    {
+      "term": "Predatory pricing",
+      "definition": "Cutting price below an appropriate measure of cost - courts generally use average variable cost - to drive rivals out, with a realistic prospect of recouping the losses later through higher prices. The Brooke Group standard requires both elements, which is what separates it from a loss leader, where a below-cost item exists only to pull traffic for other purchases.",
+      "whyItMatters": "Legal-considerations questions turn on the recoupment element, so a candidate who simply says selling below cost is illegal is scored wrong.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "loss-leader",
+        "price-fixing"
+      ]
+    },
+    {
+      "term": "Resale price maintenance",
+      "definition": "A supplier's agreement with its dealers fixing the minimum price they may resell at. The Leegin decision moved minimum RPM from per se illegal to a rule-of-reason analysis under federal law, though several states still bar it outright; a minimum advertised price policy differs because it restricts only the advertised figure and leaves the checkout price free.",
+      "whyItMatters": "Manufacturer-channel roleplays ask whether a brand may stop a discounter from undercutting its dealers, and the answer depends on this distinction.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "minimum-advertised-price-policy",
+        "price-fixing"
+      ]
+    },
+    {
+      "term": "Minimum advertised price policy",
+      "definition": "A supplier rule conditioning co-op advertising support on retailers not promoting below a stated figure, while leaving the actual transaction price untouched. Announced unilaterally under the Colgate doctrine it involves no agreement at all, which is why it carries less antitrust exposure than resale price maintenance.",
+      "whyItMatters": "Channel-conflict roleplays about a retailer's online listing are resolved by knowing that what is controlled is the advertised number, not the price the customer pays at checkout.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "resale-price-maintenance",
+        "promotional-allowance"
+      ]
+    },
+    {
+      "term": "Robinson-Patman Act",
+      "definition": "The 1936 amendment to the Clayton Act barring a seller from charging competing buyers different prices for commodities of like grade and quality where competition may be injured. Two defenses exist - cost justification and meeting a competitor's price in good faith - and because it reaches goods rather than services, a service firm's tiered rates fall outside it.",
+      "whyItMatters": "Wholesale roleplays ask whether a special volume deal for one chain is lawful, and the expected answer names the cost-justification defense rather than the size of the discount.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "cumulative-quantity-discount",
+        "price-fixing"
+      ]
+    },
+    {
+      "term": "Bait-and-switch",
+      "definition": "Advertising a product at an attractive price with no real intent to sell it, then disparaging it or claiming it is unavailable to move the shopper onto a costlier item. The FTC treats this as a deceptive practice under Section 5 of the FTC Act; a loss leader differs because the advertiser genuinely stocks and sells the promoted item at the promoted price.",
+      "whyItMatters": "Ethics items put a candidate on a sales floor where the advertised model is sold out every single week, and the judge wants the practice named and refused.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "loss-leader",
+        "anchoring-effect"
+      ]
+    },
+    {
+      "term": "Price gouging statute",
+      "definition": "State laws capping increases on essentials once a disaster or emergency is formally declared, many of them fixing a numeric trigger such as more than 10% above the pre-emergency price or above the seller's own documented cost increase. There is no federal counterpart, so legality depends on the state and on the declaration being in force.",
+      "whyItMatters": "An ethics question about raising generator prices during a hurricane tests whether the competitor knows the trigger is the declared emergency, not merely a high price.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "predatory-pricing",
+        "price-war"
+      ]
+    },
+    {
+      "term": "Loss leader",
+      "definition": "An item deliberately priced at or below cost to pull traffic that then buys higher-margin goods. Roughly half the states police the tactic through unfair sales acts requiring a minimum markup over cost, often near 6% at retail, and it stays lawful because it lacks the recoupment intent that makes predatory pricing actionable.",
+      "whyItMatters": "Grocery and drugstore roleplays ask a candidate to defend a below-cost milk price to a judge who suspects the practice is illegal.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "predatory-pricing",
+        "bait-and-switch"
+      ]
+    },
+    {
+      "term": "Two-part tariff",
+      "definition": "Splits the charge into a fixed access fee plus a per-unit price - a club's annual dues plus a per-round greens fee. Because the entry fee captures buyer surplus up front, the usage charge can sit near variable cost, which a single straight per-unit price could never do without giving up the fixed-fee revenue entirely.",
+      "whyItMatters": "Membership and subscription roleplays ask how to raise revenue without raising the usage price, and splitting the charge in two is the move a judge is listening for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "captive-product-pricing",
+        "mixed-bundling"
+      ]
+    },
+    {
+      "term": "Captive-product pricing",
+      "definition": "Prices the durable base item low and takes the margin on the required consumables or replacement parts - printers and cartridges, razors and blades, a console and its games. Bundle pricing sells the pieces together in one transaction, whereas here the follow-on purchases are separate, repeated, and where the profit actually lives.",
+      "whyItMatters": "Product-and-pricing roleplays about equipment with proprietary refills expect the candidate to move the two halves of the line in opposite directions.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "mixed-bundling",
+        "two-part-tariff"
+      ]
+    },
+    {
+      "term": "Mixed bundling",
+      "definition": "Offers the components both individually and as a discounted package, so a buyer may take one piece alone or the whole set. Pure bundling removes the standalone option entirely, which extracts more from buyers who value the pieces evenly but loses every customer who wants only one of them.",
+      "whyItMatters": "Fast-food and software roleplays about a value meal or a suite ask which of the two forms fits a customer base with mixed preferences.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "captive-product-pricing",
+        "price-lining"
+      ]
+    },
+    {
+      "term": "Price lining",
+      "definition": "Restricts a category to a few preset price points - say $29, $59 and $99 - and buys merchandise to fit them rather than pricing each item off its own cost. Psychological tactics change the digits shown at a single price point, whereas this decides how many price points the assortment offers at all.",
+      "whyItMatters": "Apparel-buying roleplays ask how a store can carry forty styles without paralyzing shoppers, and the answer is the number of price points rather than the number of items.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "psychological-pricing",
+        "mixed-bundling"
+      ]
+    },
+    {
+      "term": "Anchoring effect",
+      "definition": "The buyer's tendency to judge a price against the first figure they encounter, so a $199 compare-at number makes $149 read as a bargain. Marketers separate the internal reference price a shopper carries in memory from the external one printed on the tag, and the FTC requires that any advertised former price actually have been charged.",
+      "whyItMatters": "Promotional-pricing roleplays ask a candidate to defend a compare-at price to a judge, which needs both the psychology and the former-price disclosure rule.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "psychological-pricing",
+        "bait-and-switch"
+      ]
+    },
+    {
+      "term": "2/10, net 30",
+      "definition": "Invoice terms granting a 2% discount if the bill is paid within 10 days, with the full amount due on day 30. Passing it up is costly: (2 / 98) x (365 / 20) works out near 37% a year, which is why forgone cash discounts are treated as one of the most expensive sources of short-term funds a business can use.",
+      "whyItMatters": "A supplier-terms roleplay asks whether to borrow in order to take the discount, and the annualized figure is what convinces the judge either way.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "chain-discount",
+        "net-price"
+      ]
+    },
+    {
+      "term": "Chain discount",
+      "definition": "A series of trade discounts taken one after another off list: 30/20/10 means 70% of list, then 80% of that, then 90% of that, for a net factor of 0.504 rather than the 40% of list that adding the rates would suggest. These compensate channel members for functions performed, unlike a cash discount, which rewards only speed of payment.",
+      "whyItMatters": "Wholesale-quote roleplays hand a competitor a stacked discount and ask for the net price, and adding the percentages together is precisely the error being tested.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "net-price",
+        "2-10-net-30"
+      ]
+    },
+    {
+      "term": "Cumulative quantity discount",
+      "definition": "Rewards total volume purchased across a stated period, so a buyer's separate orders add together toward the break. A noncumulative discount resets with every order, which is why the cumulative form builds account loyalty while the noncumulative one is far easier to defend as cost-justified under Robinson-Patman.",
+      "whyItMatters": "Distributor roleplays ask which discount structure stops an account from splitting its orders among three suppliers, and the two forms give opposite answers.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "robinson-patman-act",
+        "seasonal-discount"
+      ]
+    },
+    {
+      "term": "Yield management",
+      "definition": "Varies price and allocates a fixed, perishable capacity across booking classes so the highest-paying demand can still be served late - airline seats, hotel rooms, rental cars. Dynamic pricing simply moves the number with demand, whereas here the binding constraint is capacity that expires worthless at a deadline and cannot be inventoried.",
+      "whyItMatters": "A lodging roleplay about a sold-out weekend expects the candidate to hold rooms back for late high-rate bookings instead of filling the house early at a discount.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "revenue-per-available-room-revpar",
+        "algorithmic-repricing"
+      ]
+    },
+    {
+      "term": "Revenue per available room (RevPAR)",
+      "definition": "Rooms revenue / rooms available, which is the same as average daily rate multiplied by occupancy percentage. Because it charges the property for its empty rooms, it exposes the trade-off that ADR alone hides: a rate cut that fills the house can raise this figure even while the average rate falls.",
+      "whyItMatters": "Hospitality roleplays about discounting a slow midweek are settled by comparing this metric against ADR rather than by looking at the room rate on its own.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "yield-management"
+      ]
+    },
+    {
+      "term": "Promotional allowance",
+      "definition": "A price reduction or payment a manufacturer gives a reseller in exchange for performing an advertising or display function - a co-op ad, an end-cap, a feature in the weekly circular. Robinson-Patman requires it be made available on proportionally equal terms to all competing customers.",
+      "whyItMatters": "Vendor-negotiation roleplays ask what the retailer owes in return for the money, and the answer is a performed service rather than simply a larger order.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/pricing.txt"
+      ],
+      "confusableWith": [
+        "seasonal-discount",
+        "minimum-advertised-price-policy"
+      ]
+    },
+    {
+      "term": "Net price",
+      "definition": "What the buyer actually owes after every trade, quantity and cash discount has come off the list figure. List price is the published starting point and the invoice price is what the seller bills before payment terms are applied, so all three numbers can differ on a single order.",
+      "whyItMatters": "Purchasing roleplays hand a competitor a list price plus a stack of discounts and ask what the check will actually be written for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:pricing"
+      ],
+      "confusableWith": [
+        "chain-discount",
+        "2-10-net-30"
       ]
     }
   ]

@@ -10,64 +10,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Information needs",
-      "definition": "The specific information a business must have to answer a question, solve a problem, or make a decision.",
-      "whyItMatters": "Identifying information needs keeps data collection focused and useful.",
-      "areas": [
-        "information_management"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Customer feedback",
-      "definition": "Comments, ratings, complaints, suggestions, or other information customers provide about their experience.",
-      "whyItMatters": "The 2026 PEN scenario centers on collecting and using feedback for a mobile mechanic service.",
-      "areas": [
-        "information_management",
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Customer rating",
-      "definition": "A scored evaluation, often online, that summarizes a customer's opinion of a business.",
-      "whyItMatters": "Ratings influence trust, search visibility, and new-customer decisions for small ventures.",
-      "areas": [
-        "information_management",
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Technology impact",
-      "definition": "The way digital tools, platforms, systems, or devices change how a business operates and serves customers.",
-      "whyItMatters": "Principles competitors should connect technology to speed, accuracy, customer access, and data quality.",
-      "areas": [
-        "information_management"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
-      ]
-    },
-    {
-      "term": "Positive customer relations",
-      "definition": "Consistent actions that build customer satisfaction, trust, loyalty, and goodwill.",
-      "whyItMatters": "PEN roleplays reward answers that show how service behavior supports the company's image.",
-      "areas": [
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Customer service mindset",
@@ -78,43 +22,8 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
-      ]
-    },
-    {
-      "term": "Service orientation",
-      "definition": "A business focus on meeting customer needs through helpful communication and reliable support.",
-      "whyItMatters": "PEN students can use this when explaining how employees reinforce image through communication.",
-      "areas": [
-        "customer_relations",
-        "communication_skills"
       ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
-      ]
-    },
-    {
-      "term": "Company image",
-      "definition": "The overall impression customers and the public have of a business.",
-      "whyItMatters": "Employee performance and communication can strengthen or weaken the image a new business needs.",
-      "areas": [
-        "customer_relations",
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
-      ]
-    },
-    {
-      "term": "Employee performance",
-      "definition": "How well employees carry out their duties, meet standards, and represent the business.",
-      "whyItMatters": "In customer-facing ventures, performance directly affects reviews, repeat business, and reputation.",
-      "areas": [
-        "customer_relations",
-        "human_resources_management"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/PEN/district_2025_1.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Entrepreneurship",
@@ -126,7 +35,8 @@
       "sourceRefs": [
         "backend/test-gen-model/data/entrepreneurship/ent-district-2025.txt",
         "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Risk-taking",
@@ -137,53 +47,8 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
-    },
-    {
-      "term": "Work ethic",
-      "definition": "A pattern of responsibility, effort, persistence, and reliability in work.",
-      "whyItMatters": "Work ethic is a common trait used to evaluate entrepreneurial readiness.",
-      "areas": [
-        "entrepreneurship",
-        "professional_development"
       ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
-    },
-    {
-      "term": "Private enterprise",
-      "definition": "An economy where individuals and businesses own resources and make decisions to earn profit.",
-      "whyItMatters": "Principles students should understand why profit, competition, and ownership matter to entrepreneurs.",
-      "areas": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
-    },
-    {
-      "term": "Profit motive",
-      "definition": "The desire to earn profit from business activity.",
-      "whyItMatters": "Profit motive explains why entrepreneurs invest time, money, and effort into ventures.",
-      "areas": [
-        "economics",
-        "entrepreneurship"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
-    },
-    {
-      "term": "Supply and demand",
-      "definition": "The economic relationship between how much of something is available and how much customers want to buy.",
-      "whyItMatters": "This helps students explain pricing, shortages, customer demand, and market opportunity.",
-      "areas": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
+      "difficulty": "medium"
     },
     {
       "term": "Persuasive communication",
@@ -194,7 +59,8 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/entrepreneurship/ent-district-2026.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Online review response",
@@ -206,6 +72,432 @@
       ],
       "sourceRefs": [
         "backend/roleplay-gen-model/data/PEN/district_2026_1.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Estimated tax safe harbor",
+      "definition": "Paying 90% of the current year's tax or 100% of last year's — 110% when prior-year income was above $150,000 — in four quarterly installments, which switches off the underpayment penalty no matter how large April's balance turns out to be.",
+      "whyItMatters": "When a judge asks how an owner with no withholding avoids a penalty, the answer is this installment arithmetic, not 'set money aside.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "self-employment-tax",
+        "marginal-tax-rate"
+      ]
+    },
+    {
+      "term": "Startup cost deduction",
+      "definition": "A first-year write-off capped at $5,000 of pre-opening expenses, cut dollar for dollar once those costs pass $50,000, with everything left over amortized in equal pieces across 180 months.",
+      "whyItMatters": "A PEN case listing $12,000 of spending before opening day tests whether the student knows only part of it lands on year one's return.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "start-up-requirements",
+        "amortization"
+      ]
+    },
+    {
+      "term": "Simplified home office deduction",
+      "definition": "A flat $5 per square foot of space used exclusively for business, capped at 300 square feet and therefore $1,500 a year, taken instead of tracking a share of actual rent, utilities and insurance.",
+      "whyItMatters": "A PEN roleplay about a venture run out of a spare bedroom turns on the exclusive-use test and on which of the two methods returns more money.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "operating-costs"
+      ]
+    },
+    {
+      "term": "Standard mileage deduction",
+      "definition": "A per-mile IRS figure that covers gas, repairs, insurance and depreciation in one number, and it must be chosen in the vehicle's first business year — electing actual expenses first locks the owner out of switching to it later.",
+      "whyItMatters": "Asked how a delivery microbusiness should deduct the car, the tested point is that first-year election, not the cents-per-mile rate itself.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "accountable-plan",
+        "per-diem-rate"
+      ]
+    },
+    {
+      "term": "De minimis safe harbor election",
+      "definition": "An annual election letting a business expense any item invoiced at or below $2,500 right away instead of capitalizing and depreciating it, so long as the same treatment is used on its own books.",
+      "whyItMatters": "A PEN scenario buying a $900 grinder and a $4,000 oven tests which purchase can be written off this year and which must be spread out.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "section-179-expensing",
+        "straight-line-depreciation"
+      ]
+    },
+    {
+      "term": "Section 179 expensing",
+      "definition": "An election to deduct the whole cost of qualifying equipment in the year it is placed in service, bounded both by an annual dollar cap and by the business's taxable income, so it can never create or deepen a loss.",
+      "whyItMatters": "Equipment-purchase roleplays hinge on that income limit: a first-year venture with no profit gets nothing from the election at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "de-minimis-safe-harbor-election",
+        "modified-accelerated-cost-recovery-system-macrs"
+      ]
+    },
+    {
+      "term": "Qualified business income deduction",
+      "definition": "A write-off worth up to 20% of a pass-through owner's net business income, taken on the personal return without itemizing and phased out for certain service businesses once taxable income clears a stated threshold.",
+      "whyItMatters": "Comparing an LLC against a corporation in a PEN case is wrong until the student applies that 20% reduction to the pass-through side first.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "disregarded-entity",
+        "effective-tax-rate"
+      ]
+    },
+    {
+      "term": "Hobby loss rule",
+      "definition": "The IRS presumption that an activity is a genuine business, and its losses deductible against other income, when it shows a profit in three of the last five years; fail that and deductions are capped at the activity's own revenue.",
+      "whyItMatters": "A PEN roleplay about a side venture that has lost money four years running tests whether the student knows the losses stop sheltering wage income.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "lifestyle-business"
+      ]
+    },
+    {
+      "term": "Disregarded entity",
+      "definition": "A single-owner LLC the IRS ignores for federal income tax, so its profit lands on the owner's personal return exactly as a sole proprietorship would, while state law still keeps the liability shield fully in place.",
+      "whyItMatters": "When a judge asks whether forming an LLC changes the tax bill, the scored answer separates the tax treatment from the liability protection.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "limited-liability-company",
+        "s-corporation"
+      ]
+    },
+    {
+      "term": "Owner's draw",
+      "definition": "Cash a sole proprietor or LLC member pulls out of the business, which lowers owner's equity but is not payroll, not a deductible expense and not the event that triggers tax — the profit was already taxed when it was earned.",
+      "whyItMatters": "A PEN roleplay where the owner says 'I pay myself $2,000 a month' tests whether the student knows that figure never appears on the income statement.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "compensation",
+        "dividend-yield"
+      ]
+    },
+    {
+      "term": "Administrative dissolution",
+      "definition": "The state's revocation of a company's charter after it misses an annual report or franchise-tax deadline, which ends the liability shield and can leave the owner personally answerable for debts run up while the entity was lapsed.",
+      "whyItMatters": "A PEN case about a two-year-old LLC that 'forgot the paperwork' is scored on that consequence, not on the size of the filing fee.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "articles-of-incorporation",
+        "registered-agent"
+      ]
+    },
+    {
+      "term": "Merchant discount rate",
+      "definition": "The processor's total take on a card sale, built as a percentage plus a fixed per-transaction charge, which is why a $4 sale surrenders a far larger share of its margin than a $40 sale at the identical quoted rate.",
+      "whyItMatters": "Pricing a low-ticket item in a PEN roleplay is not defensible until the student works the fixed cent charge out as a percentage of that specific sale.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "cost-per-contact",
+        "form-1099-k"
+      ]
+    },
+    {
+      "term": "Labor burden rate",
+      "definition": "The multiplier converting an hourly wage into what the worker actually costs, adding payroll taxes, insurance and paid time off — commonly 1.2 to 1.4 times base pay — and it is that loaded number a service job must be priced against.",
+      "whyItMatters": "Quoting a job in a PEN roleplay off the bare $18 wage underprices it; the scored move is loading the wage first, then adding margin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "benefits-load",
+        "predetermined-overhead-rate"
+      ]
+    },
+    {
+      "term": "Reasonable compensation",
+      "definition": "The market-rate salary an S-corporation owner must run through payroll before taking any distribution; pay too little and the IRS recharacterizes those distributions as wages and bills the back payroll tax with penalties.",
+      "whyItMatters": "A PEN roleplay where the owner takes $10,000 in salary and $90,000 in distributions is scored on whether the student draws that line rather than praising the tax saving.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "owner-s-draw",
+        "self-employment-tax"
+      ]
+    },
+    {
+      "term": "Form 2553 filing deadline",
+      "definition": "The window of two months and fifteen days from the start of a tax year in which a company must elect S-corporation treatment; miss it and the business is taxed under its default classification for that entire year.",
+      "whyItMatters": "A PEN case where an owner decides in August to be taxed as an S corporation turns on which year the election can even reach.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "disregarded-entity",
+        "s-corporation"
+      ]
+    },
+    {
+      "term": "Beneficial ownership information report",
+      "definition": "A federal filing naming every individual holding 25% or more of a small company or exercising substantial control over it, refiled within 30 days of any change, with a per-day penalty for letting it go stale.",
+      "whyItMatters": "A PEN roleplay where a co-founder's stake shifts tests whether the student knows a 30-day clock starts, not just that paperwork exists somewhere.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "administrative-dissolution",
+        "articles-of-incorporation"
+      ]
+    },
+    {
+      "term": "Resale certificate",
+      "definition": "A buyer-signed document letting a supplier skip sales tax on goods headed for resale, moving the audit exposure onto the buyer — use it on supplies the business consumes itself and the skipped tax returns as use tax plus penalty.",
+      "whyItMatters": "A PEN roleplay about a boutique buying both inventory and its own register tape is scored on which invoice the certificate may cover.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "destination-based-sourcing",
+        "economic-nexus"
+      ]
+    },
+    {
+      "term": "Foreign qualification",
+      "definition": "Registering a company chartered in one state to transact business in another; skip it and the company can be barred from suing in that state's courts and billed back franchise taxes for every year it operated there.",
+      "whyItMatters": "A PEN case about a venture that opened a second location across the state line is scored on that court-access consequence, not on the registration fee.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "administrative-dissolution",
+        "assumed-name-registration"
+      ]
+    },
+    {
+      "term": "Cottage food law",
+      "definition": "A state exemption letting non-hazardous food produced in a home kitchen be sold direct to consumers without a commercial license, bounded by an annual gross-sales cap — commonly around $50,000 — above which a permitted facility becomes mandatory.",
+      "whyItMatters": "A PEN roleplay about a baking venture growing past that cap turns on the revenue figure that forces a move into a rented commercial kitchen.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "home-occupation-permit",
+        "certificate-of-occupancy"
+      ]
+    },
+    {
+      "term": "Federal unemployment tax credit",
+      "definition": "A 5.4% offset against the 6.0% federal rate charged on the first $7,000 of each worker's wages, cutting the annual bill to about $42 a head — but only for an employer whose state unemployment tax was paid on time.",
+      "whyItMatters": "A PEN payroll-budget roleplay is scored on the $42 figure and on what happens to it when the state deposit slips, not on naming the tax.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "labor-burden-rate",
+        "payroll-deposit-schedule"
+      ]
+    },
+    {
+      "term": "Backup withholding",
+      "definition": "A flat 24% a payer must hold out of a contractor's payments when the contractor's taxpayer ID is missing or does not match IRS records, remitted immediately and recoverable by the contractor only on the next year's return.",
+      "whyItMatters": "A PEN roleplay where a freelancer refuses to hand over a W-9 tests whether the student knows the business must still pay, minus 24%.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "form-1099-nec",
+        "common-law-control-test"
+      ]
+    },
+    {
+      "term": "Chargeback ratio",
+      "definition": "Disputed transactions divided by total transactions in a month; cross roughly 0.9% and the card networks place the merchant in a monitoring program with per-dispute fines, and a sustained 1% can end the account entirely.",
+      "whyItMatters": "A PEN roleplay about a store with rising disputes is scored on the percentage that triggers monitoring, not on advising better customer service.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "chargeback-representment",
+        "merchant-discount-rate"
+      ]
+    },
+    {
+      "term": "Interchange-plus pricing",
+      "definition": "A processing quote stated as the card network's own pass-through cost plus a disclosed fixed markup, which lets an owner divide a month's total fees by total card volume and see the effective rate a flat 2.9%-plus-30-cents plan conceals.",
+      "whyItMatters": "Comparing two processors in a PEN roleplay requires computing that effective rate from a real month of sales rather than reading the headline number.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "merchant-discount-rate",
+        "credit-card-surcharge-cap"
+      ]
+    },
+    {
+      "term": "Credit card surcharge cap",
+      "definition": "The ceiling on the fee a business may add to a credit sale — currently 3% under network rules and never more than the merchant's own cost of acceptance — with debit excluded entirely, advance notice to the networks required, and several states banning the practice outright.",
+      "whyItMatters": "A PEN roleplay proposing to pass processing costs to customers is scored on that ceiling and the debit carve-out, not on whether passing costs along is fair.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "merchant-discount-rate",
+        "interchange-plus-pricing"
+      ]
+    },
+    {
+      "term": "Payroll deposit schedule",
+      "definition": "Whether taxes withheld from employees are due monthly or twice weekly, decided by the total reported over a four-quarter lookback period — above $50,000 an employer moves to the faster schedule, and $100,000 accumulated in a single day forces a next-day deposit.",
+      "whyItMatters": "A PEN roleplay about a venture that just doubled its staff is scored on recognizing the deposit rhythm changes before the next payroll runs.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "trust-fund-recovery-penalty",
+        "estimated-tax-safe-harbor"
+      ]
+    },
+    {
+      "term": "Effective hourly rate",
+      "definition": "Total revenue divided by every hour the owner works, unbillable ones included, so a solo operator quoting $80 an hour who spends 40% of the week estimating, invoicing and driving is really earning $48.",
+      "whyItMatters": "Asked in a PEN roleplay whether a service price is high enough, the scored answer divides by all the hours worked, not the hours billed.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "labor-burden-rate"
+      ]
+    },
+    {
+      "term": "Destination-based sourcing",
+      "definition": "Charging sales tax at the combined rate in force where the buyer takes delivery rather than where the seller sits, which is why two orders leaving the same stockroom on the same day carry different tax.",
+      "whyItMatters": "A PEN roleplay about a shop that started shipping online is scored on which address sets the rate, a detail flat-rate guessing gets wrong.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "economic-nexus",
+        "resale-certificate"
+      ]
+    },
+    {
+      "term": "Assumed name registration",
+      "definition": "The county or state filing a business must make before trading under any name other than its owner's legal name or its chartered name; without it a bank may refuse the account and some states bar the company from enforcing contracts signed under the unregistered name until it cures the filing.",
+      "whyItMatters": "A PEN case where a sole proprietor signs a supplier contract as a brand name is scored on that enforceability gap, not on branding advice.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "foreign-qualification",
+        "articles-of-incorporation"
+      ]
+    },
+    {
+      "term": "Depreciation recapture",
+      "definition": "Tax charged at ordinary income rates rather than capital-gain rates on the slice of a sale price that earlier write-offs already deducted — sell a fully expensed $9,000 van for $4,000 and the whole $4,000 is ordinary income.",
+      "whyItMatters": "A PEN case where a venture upgrades its equipment is scored on the tax the trade-in creates, which the student must compute against the deduction taken earlier.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "section-179-expensing",
+        "straight-line-depreciation"
+      ]
+    },
+    {
+      "term": "Common-law control test",
+      "definition": "The IRS standard separating an employee from a contractor by who directs the method of the work rather than its result, weighed across behavioral, financial and relationship evidence; classify wrong and the business owes the payroll tax it never withheld, plus penalties.",
+      "whyItMatters": "A PEN roleplay about a shop that sets a worker's hours and supplies the tools is scored on that method-versus-result line, whatever the signed agreement calls them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "abc-test",
+        "backup-withholding"
+      ]
+    },
+    {
+      "term": "Occupancy load",
+      "definition": "The maximum number of people a fire code permits in a space, found by dividing usable square footage by a per-person factor set by use — roughly 15 square feet each for seated tables, 7 for standing crowds — and it caps ticket sales before demand ever does.",
+      "whyItMatters": "A PEN roleplay pricing a pop-up event has to size the crowd from the room's square footage first, then build the revenue forecast on that ceiling.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "certificate-of-occupancy"
+      ]
+    },
+    {
+      "term": "Home occupation permit",
+      "definition": "A zoning approval to run a business from a residence, typically capping the share of floor area it may use, forbidding exterior signage and customer traffic, and limiting non-resident employees — conditions that can rule out the business model itself, not merely the address.",
+      "whyItMatters": "A PEN roleplay about a home-based venture wanting walk-in customers is scored on the traffic restriction, which forces a real storefront decision.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "simplified-home-office-deduction",
+        "cottage-food-law"
+      ]
+    },
+    {
+      "term": "Trust fund recovery penalty",
+      "definition": "A 100% personal assessment against any owner or bookkeeper responsible for money withheld from employees' paychecks and never sent to the IRS — the one business liability an LLC or corporation does not shield anyone from.",
+      "whyItMatters": "A PEN case where the owner covers rent with withheld payroll tax is scored on that piercing of the liability shield, not on the cash-flow shortfall.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:PEN"
+      ],
+      "confusableWith": [
+        "administrative-dissolution",
+        "payroll-deposit-schedule"
       ]
     }
   ]

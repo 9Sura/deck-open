@@ -10,7 +10,8 @@
       "whyItMatters": "Channel choices affect convenience, cost, access, and customer experience.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Direct channel",
@@ -18,7 +19,8 @@
       "whyItMatters": "Direct channels maximize control and margin but demand more sales and logistics effort.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Indirect channel",
@@ -26,7 +28,8 @@
       "whyItMatters": "Indirect channels widen reach and share costs but reduce producer control.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Intermediary",
@@ -34,7 +37,8 @@
       "whyItMatters": "Intermediaries expand reach but add cost and control tradeoffs.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Wholesaler",
@@ -42,15 +46,8 @@
       "whyItMatters": "Wholesalers aggregate inventory and provide the logistics that enable retail networks.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
-    },
-    {
-      "term": "Retailer",
-      "definition": "An intermediary that buys from wholesalers or producers and sells to final consumers.",
-      "whyItMatters": "Retailers provide the accessible point of sale that completes the distribution chain.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Agent",
@@ -58,7 +55,8 @@
       "whyItMatters": "Agents lower channel cost by handling transactions without holding inventory.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Intensive distribution",
@@ -66,7 +64,8 @@
       "whyItMatters": "It maximizes convenience and market penetration for high-demand goods.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Selective distribution",
@@ -74,7 +73,8 @@
       "whyItMatters": "It balances accessibility with brand control and partner profitability.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Exclusive distribution",
@@ -82,15 +82,8 @@
       "whyItMatters": "It gives partners strong incentives and control, ideal for premium products.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
-    },
-    {
-      "term": "Supply chain",
-      "definition": "The sequence of organizations that produce and deliver a product from materials to customer.",
-      "whyItMatters": "Understanding it lets a business optimize cost, quality, and delivery in channel decisions.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Channel conflict",
@@ -98,15 +91,8 @@
       "whyItMatters": "Conflict damages efficiency; resolving it is key to long-term channel health.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
-    },
-    {
-      "term": "Channel-member relationship",
-      "definition": "The ongoing cooperation between a producer and its intermediary partners.",
-      "whyItMatters": "Strong relationships reduce conflict, align incentives, and improve performance.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Affinity partner",
@@ -114,7 +100,8 @@
       "whyItMatters": "Affinity partnerships extend reach and value without adding intermediaries.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Logistics",
@@ -122,6 +109,541 @@
       "whyItMatters": "Logistics efficiency drives channel cost, speed, and customer satisfaction.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Contactual efficiency",
+      "definition": "The drop in required buyer-seller contacts when an intermediary is inserted: 5 producers selling to 20 retailers need 5 x 20 = 100 direct contacts, but routing through one wholesaler needs only 5 + 20 = 25. The M x N to M + N shift, not friendliness of service, is the economic justification for paying an intermediary a margin.",
+      "whyItMatters": "A distribution roleplay that asks you to defend adding a wholesaler is scored on whether you can produce the contact math; judges reject the vague answer that a middleman 'saves time.'",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "intermediary",
+        "breaking-bulk"
+      ]
+    },
+    {
+      "term": "Channel level",
+      "definition": "Each independent layer that performs negotiation work or takes title on the way from producer to end user. A zero-level channel is producer straight to consumer; a broker or agent counts as a level even though it never owns the goods, while carriers, banks and public warehouses count as none because they never negotiate terms.",
+      "whyItMatters": "Exam items give a shipping diagram and ask how many levels it has; the trap is counting the trucking firm, which never negotiates and therefore adds no level.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "facilitating-agency",
+        "direct-channel"
+      ]
+    },
+    {
+      "term": "Horizontal channel conflict",
+      "definition": "Friction between firms at the SAME stage of a channel — two franchisees of one brand advertising into each other's trade area, or two dealers discounting against each other. Vertical channel conflict, by contrast, runs between DIFFERENT stages: a manufacturer and its distributor fighting over margin or over the manufacturer's own web store.",
+      "whyItMatters": "A channel-management roleplay hands you an angry dealer and asks for a fix; the remedy differs by type — territory rules settle horizontal disputes, margin or policy changes settle vertical ones.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "channel-conflict",
+        "territorial-exclusivity"
+      ]
+    },
+    {
+      "term": "Vertical marketing system",
+      "definition": "Successive stages of a channel run as one coordinated unit instead of independent bargainers, in exactly three forms: corporate, where a single owner holds title at every stage; contractual, where legally separate firms are bound by agreement such as a franchise or retailer cooperative; and administered, where neither ownership nor contract exists and one member's sheer size dictates terms.",
+      "whyItMatters": "Marketing and channel exams show a scenario and ask which of the three forms it is; the corporate/contractual line is ownership, and the contractual/administered line is whether a signed agreement exists.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "horizontal-marketing-system",
+        "vertical-integration",
+        "franchising"
+      ]
+    },
+    {
+      "term": "Horizontal marketing system",
+      "definition": "Two firms at the SAME channel stage pooling capital, production or distribution to chase an opportunity neither could take alone — a coffee brand operating kiosks inside a bookstore chain. A vertical marketing system, by contrast, joins firms at DIFFERENT stages of the same channel under one owner, contract or dominant member.",
+      "whyItMatters": "Entrepreneurship and marketing roleplays that propose a co-branded partnership are graded on naming this structure and the fact that neither partner is the other's supplier.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "vertical-marketing-system",
+        "joint-venture"
+      ]
+    },
+    {
+      "term": "Channel power",
+      "definition": "One member's ability to make another do what it otherwise would not, drawn from the five French-and-Raven bases: coercive (threatening to cut supply or shelf space), reward (extra margin or funds), expert (knowledge the other lacks), referent (the partner wants the association), and legitimate (a contract already requires it). Coercive power gets compliance but raises conflict; referent and expert power get cooperation.",
+      "whyItMatters": "A channel-relationship roleplay asks how you would move a resistant distributor; naming the base you are using, and why coercion would cost you the relationship, is the scored discrimination.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "channel-captain",
+        "channel-conflict"
+      ]
+    },
+    {
+      "term": "Disintermediation",
+      "definition": "Cutting an existing layer out of a channel so the producer reaches the buyer directly — a manufacturer closing its distributor network and selling from its own site. Its mirror image, reintermediation, is a NEW intermediary re-entering that same direct channel, such as a marketplace or comparison platform that resells the manufacturer's goods after the old distributor was removed.",
+      "whyItMatters": "Roleplays about launching direct-to-consumer are scored on whether you flag the dealer backlash and the fact that the removed layer's functions still have to be performed by somebody.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "direct-channel",
+        "channel-cannibalization"
+      ]
+    },
+    {
+      "term": "Omnichannel retailing",
+      "definition": "Selling across store, web, app and marketplace on ONE shared inventory pool, price and customer record, so a shopper can start a purchase in one place and finish it in another. The test that separates it from multichannel is integration: multichannel runs each channel as a separate P&L with its own stock and pricing, so an order begun online cannot be returned or completed in the store.",
+      "whyItMatters": "Retail and marketing roleplays ask you to fix a customer who bought online and was refused a store return — the answer names the missing integration, not better staff training.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "hybrid-channel",
+        "dual-distribution"
+      ]
+    },
+    {
+      "term": "Hybrid channel",
+      "definition": "Splitting the work of a SINGLE sale across different members — the customer configures and orders online, a local dealer installs and services, and the manufacturer invoices. It differs from dual distribution, where two COMPLETE channels each handle a whole sale end to end and therefore compete with each other for the same order.",
+      "whyItMatters": "Channel-selection roleplays for a product needing installation are scored on assigning each channel function to whoever performs it best rather than choosing one channel outright.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "dual-distribution",
+        "omnichannel-retailing"
+      ]
+    },
+    {
+      "term": "Dual distribution",
+      "definition": "A producer moving the same product through two channels that compete for the same buyer — company-owned stores alongside independent dealers, or a factory site priced against its own retail accounts. Courts judge the resulting squeeze on dealers under the rule of reason rather than treating it as automatically unlawful, so the legal exposure comes from how the two channels are priced, not from having both.",
+      "whyItMatters": "A distribution roleplay that adds a direct web store to an existing dealer network is graded on anticipating the dealer revolt and proposing price or territory rules that keep the arrangement defensible.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "hybrid-channel",
+        "channel-cannibalization"
+      ]
+    },
+    {
+      "term": "Gray market goods",
+      "definition": "GENUINE branded products sold through a channel the trademark owner never authorized, usually diverted from a market where the wholesale price was lower. They are lawful to resell in the United States because the first-sale doctrine exhausts the owner's control over that particular unit; counterfeit goods differ absolutely — those are fake, and selling them is trademark infringement no matter who bought them first.",
+      "whyItMatters": "Legal-considerations items in channel management hinge on this split: a competitor undercutting an authorized dealer with real goods is generally legal, and the manufacturer's remedy is contractual, not a lawsuit for infringement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "parallel-importing",
+        "first-sale-doctrine",
+        "trademark"
+      ]
+    },
+    {
+      "term": "Parallel importing",
+      "definition": "Buying a producer's goods legitimately in a low-price country and importing them for resale below the authorized dealer's price at home. The Supreme Court's 2013 ruling in Kirtsaeng v. John Wiley & Sons held that the first-sale doctrine covers copies lawfully made abroad, so the importer wins on copyright grounds and the producer's only real defenses are contract terms with its foreign distributors and genuine material differences in the product.",
+      "whyItMatters": "Ethical- and legal-consideration questions in channel management use this case to separate what a manufacturer dislikes from what it can actually stop.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "gray-market-goods",
+        "first-sale-doctrine"
+      ]
+    },
+    {
+      "term": "First-sale doctrine",
+      "definition": "Codified at 17 U.S.C. section 109(a): once a copyright owner authorizes the first sale of a particular copy, its distribution right in THAT copy is exhausted, so the buyer may resell, rent or give it away without permission. Exhaustion covers distribution only — the reproduction right survives, so reselling a book is protected while photocopying it is not.",
+      "whyItMatters": "It is the rule behind resale markets, used bookstores and outlet diverters, and channel exams test whether you know a manufacturer cannot use copyright to block resale of units it already sold.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "gray-market-goods",
+        "copyright",
+        "parallel-importing"
+      ]
+    },
+    {
+      "term": "Merchant wholesaler",
+      "definition": "An independent business that BUYS the goods, holds title, and therefore carries inventory risk, obsolescence and the credit exposure on resale, earning a margin rather than a fee. Agents and brokers sit on the other side of that line: they never take title, never bear the inventory risk, and are paid a commission — commonly 2 to 7 percent of the sale — for arranging the transaction.",
+      "whyItMatters": "Exam items describe a distribution partner and ask which type it is; the deciding fact is always whether title passed, and title decides who eats unsold stock.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "wholesaler",
+        "broker",
+        "manufacturers-representative"
+      ]
+    },
+    {
+      "term": "Broker",
+      "definition": "A paid matchmaker who brings a buyer and seller together for ONE transaction, takes neither title nor physical possession, and has no ongoing representation of either side once the deal closes. A manufacturers' representative differs on exactly that point: it works under a continuing contract for a defined territory and product line, calling on the same accounts year after year.",
+      "whyItMatters": "Food, real-estate and insurance channel scenarios turn on this: a broker cannot promise delivery terms or warranty support because it never owned the goods and has no standing agency.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "agent",
+        "manufacturers-representative",
+        "merchant-wholesaler"
+      ]
+    },
+    {
+      "term": "Rack jobber",
+      "definition": "A merchant wholesaler that owns the merchandise sitting on a retailer's fixture, chooses the assortment, sets the planogram, restocks on its own route, and is paid only for units that actually scan — so the retailer risks nothing but the floor space. A conventional wholesaler is the opposite arrangement: it bills the retailer at delivery and the retailer owns the unsold goods.",
+      "whyItMatters": "Convenience-store, greeting-card and paperback scenarios use this to test who bears shrink and markdown risk when the supplier still owns the stock on the shelf.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "consignment-selling",
+        "merchant-wholesaler",
+        "full-service-wholesaler"
+      ]
+    },
+    {
+      "term": "Drop shipper",
+      "definition": "A wholesaler that TAKES TITLE to a shipment but never physically handles it — it sells the load, then instructs the producer to ship straight to the buyer, collecting the margin between the two prices. That title-without-possession position is what separates it from a broker, which never takes title at all, and from a full-service wholesaler, which warehouses and delivers the goods itself.",
+      "whyItMatters": "Bulk-commodity channel questions test whether you see that this member is legally the seller of record and therefore liable on the sale, even though it never touched the freight.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "merchant-wholesaler",
+        "broker",
+        "fob-shipping-point"
+      ]
+    },
+    {
+      "term": "Full-service wholesaler",
+      "definition": "Performs the whole function set — carries inventory, extends trade credit, delivers, fields a sales force, and merchandises the account — and prices for it, typically working on a 15 to 25 percent gross margin. A limited-service wholesaler strips some of those out (cash-and-carry drops credit and delivery, a truck jobber drops credit) and consequently operates nearer 8 to 12 percent.",
+      "whyItMatters": "Channel-cost questions ask why one supplier quotes a higher landed price than another; the answer is the bundle of functions inside the margin, not inefficiency.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "merchant-wholesaler",
+        "rack-jobber",
+        "drop-shipper"
+      ]
+    },
+    {
+      "term": "Manufacturers' representative",
+      "definition": "An independent salesperson carrying several producers' NON-COMPETING lines in a defined territory on commission of roughly 5 to 15 percent of net sales, with no title to the goods and no authority to set price or terms. A selling agent is the stronger form: it contracts for a producer's ENTIRE output and does hold authority over price, terms and promotion, effectively acting as that producer's marketing department.",
+      "whyItMatters": "A start-up roleplay choosing between hiring salespeople and appointing reps is graded on the fixed-versus-variable cost trade and on who controls pricing under each arrangement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "broker",
+        "agent",
+        "personal-selling"
+      ]
+    },
+    {
+      "term": "Franchise royalty",
+      "definition": "A recurring fee the franchisee owes on GROSS SALES, not profit — commonly 4 to 8 percent — plus a separate advertising-fund contribution of about 1 to 3 percent, both paid on top of a one-time initial fee. Because the base is revenue, the fee is owed in full in a month the outlet loses money, which is the fact most competitors miss.",
+      "whyItMatters": "Franchise roleplays that ask whether a location can carry its costs are scored on running the royalty off sales; treating it as a share of profit produces the wrong break-even every time.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "franchising",
+        "franchise-disclosure-document",
+        "channel-margin-stack"
+      ]
+    },
+    {
+      "term": "Territorial exclusivity",
+      "definition": "A supplier's promise not to appoint another reseller inside a defined area — a radius, a ZIP-code set, or a named account list — in exchange for the dealer's investment in stock, demo space and trained staff. Since Continental T.V. v. GTE Sylvania in 1977, such non-price vertical restraints are judged under the rule of reason rather than being automatically unlawful, so they stand unless they measurably harm competition among brands.",
+      "whyItMatters": "A distributor-agreement roleplay asks what the dealer gets for a large stocking commitment; naming the restraint and its rule-of-reason treatment is the legal-considerations point judges look for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "exclusive-distribution",
+        "exclusive-dealing",
+        "distributor-agreement"
+      ]
+    },
+    {
+      "term": "Exclusive dealing",
+      "definition": "A contract barring a reseller from carrying RIVAL suppliers' lines at all, which Section 3 of the Clayton Act reaches when the effect may be to substantially lessen competition. Courts look to the share of the market foreclosed — arrangements tying up less than roughly 30 to 40 percent of available outlets usually survive — so the offense is the foreclosure, not the exclusivity itself. Territorial exclusivity is the reverse promise: there the SUPPLIER is the one restricted, agreeing not to add another dealer nearby.",
+      "whyItMatters": "Legal-considerations exam items in channel management use this pair to test who is being restricted and whether market foreclosure is large enough to matter.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "territorial-exclusivity",
+        "exclusive-distribution",
+        "clayton-act-section-7"
+      ]
+    },
+    {
+      "term": "Slotting fee",
+      "definition": "A lump sum a supplier pays a retail chain to get a new item onto the shelf and into the item file, commonly $250 to $25,000 per SKU per chain, charged before a single unit sells and rarely refunded if the item fails. It buys placement, whereas a promotional allowance pays for advertising or display the retailer actually performs and can be documented.",
+      "whyItMatters": "Ethics questions in channel management use it to ask whether the practice locks small suppliers out of shelf space, and product-launch roleplays must budget it as a sunk cost of entry.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "trade-allowance",
+        "promotional-allowance",
+        "co-op-advertising-accrual"
+      ]
+    },
+    {
+      "term": "Trade allowance",
+      "definition": "Money taken off the invoice for a channel FUNCTION the reseller performs — buying a truckload, stocking ahead of season, or warehousing the goods. A promotional allowance pays instead for ADVERTISING or display effort. Both fall under Robinson-Patman sections 2(d) and 2(e), which require that they be offered on proportionally equal terms to every competing reseller, so a deal given only to the largest chain is the violation.",
+      "whyItMatters": "A roleplay in which a big-box buyer demands a deal the independents will not get is scored on citing the proportionally-equal-terms requirement rather than on negotiating skill.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "promotional-allowance",
+        "slotting-fee",
+        "robinson-patman-act"
+      ]
+    },
+    {
+      "term": "Co-op advertising accrual",
+      "definition": "The fund a reseller earns at a stated rate on its purchases — say 3 percent of net purchases, so $400,000 bought builds a $12,000 balance — against which the supplier reimburses an agreed share, often 50 percent, of documented advertising cost up to that balance. Unspent accruals usually expire at year end, and claims without tear sheets or invoices are denied.",
+      "whyItMatters": "Channel-and-promotion coordination roleplays ask how to fund a dealer's local campaign; the scored answer works from the accrued balance and the proof-of-performance requirement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "market-development-funds-mdf",
+        "trade-allowance",
+        "promotional-allowance"
+      ]
+    },
+    {
+      "term": "Sell-through rate",
+      "definition": "Units sold to shoppers divided by units received, times 100, over a stated period: a store that took in 400 units and sold 260 in four weeks is at 65 percent. It is measured against sell-in, which counts only what the supplier shipped INTO the retailer — a supplier can post a record sell-in quarter while the goods sit unsold in the store, which is how channel stuffing hides itself.",
+      "whyItMatters": "Channel-performance roleplays give shipment figures and ask whether the launch is working; answering from sell-in instead of sell-through is the error judges are watching for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "inventory-turnover",
+        "markdown-percentage"
+      ]
+    },
+    {
+      "term": "Channel margin stack",
+      "definition": "The chain of markups that turns factory cost into shelf price, each level pricing off ITS OWN selling price: $12 factory cost sold to a distributor working on a 20 percent margin becomes $15 ($12 / 0.80), and that $15 sold to a retailer working on a 40 percent margin becomes $25 ($15 / 0.60). Dividing by one minus the margin is the step students miss when they add the percentages instead.",
+      "whyItMatters": "Pricing-and-channel roleplays ask what a product must leave the factory at to hit a $25 shelf price; you have to work the stack backwards through every level's margin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "keystone-markup",
+        "markup-on-retail",
+        "markup-on-cost"
+      ]
+    },
+    {
+      "term": "Consignment selling",
+      "definition": "Goods placed with a reseller while the SUPPLIER keeps title until the item sells: the reseller pays only for what it sells and returns the rest, so obsolescence and markdown risk stay upstream. To keep the stock out of the reseller's bankruptcy estate the supplier must file a UCC-1 financing statement under UCC Article 9, section 9-319 — without it, a court can treat the goods as the reseller's own.",
+      "whyItMatters": "A roleplay pitching an untested product to a cautious retailer is scored on offering this structure and on naming what the supplier gives up in exchange for the placement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "rack-jobber",
+        "perfection-of-a-security-interest",
+        "merchant-wholesaler"
+      ]
+    },
+    {
+      "term": "Vendor compliance chargeback",
+      "definition": "A deduction a retailer subtracts from a supplier's invoice for breaking routing, labeling, carton or ship-window rules — typically $50 to $500 per occurrence, or 1 to 5 percent of the purchase-order value — netted out before payment rather than billed separately. Because it lands after the price is agreed, a supplier quoting an acceptable margin can still realize several points less on the account.",
+      "whyItMatters": "Channel-profitability roleplays ask why a large account earns less than the price sheet implies; the deductions, not the negotiated price, are usually the answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "advance-ship-notice-asn",
+        "invoice",
+        "purchase-order"
+      ]
+    },
+    {
+      "term": "Advance ship notice (ASN)",
+      "definition": "The EDI 856 document a supplier transmits BEFORE the truck arrives, listing carton-level contents keyed to SSCC-18 pallet labels so the receiver scans the shipment in instead of counting units. It is the mirror of the EDI 850 purchase order, which OPENS the transaction by stating what the buyer wants; the 856 closes the loop by declaring what is actually on the way, and a late or inaccurate one is the most common chargeback trigger.",
+      "whyItMatters": "Technology-in-channel-management questions test whether you can name which transaction set does what between trading partners, not merely that they exchange data electronically.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "vendor-compliance-chargeback",
+        "purchase-order",
+        "three-way-match"
+      ]
+    },
+    {
+      "term": "Fulfillment center",
+      "definition": "A facility built to pick individual EACHES and ship parcels to consumers, so it is staffed for pick-pack labor, carries returns processing, and is measured in orders per hour. A distribution center serves STORES instead: it moves full cases and pallets on scheduled truck routes, needs far less labor per unit, and is measured in cases shipped.",
+      "whyItMatters": "E-commerce channel roleplays ask why store-serving warehouses cannot simply absorb online orders; the unit of work and the labor cost per unit are the scored distinction.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "logistics",
+        "third-party-logistics",
+        "cross-docking"
+      ]
+    },
+    {
+      "term": "Direct store delivery (DSD)",
+      "definition": "The supplier's own driver delivers to the individual store and often stocks the shelf, so the retailer never takes possession at a warehouse and title passes at the store door. Warehouse delivery is the alternative: the retailer receives at its own distribution center, takes title there, and self-distributes — cheaper per case, but adding days of lag that short-shelf-life and high-turn items cannot absorb.",
+      "whyItMatters": "Beverage, snack and bakery channel scenarios test which method fits a perishable line and who therefore controls the shelf set and out-of-stock recovery.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "fulfillment-center",
+        "rack-jobber",
+        "cross-docking"
+      ]
+    },
+    {
+      "term": "Marketplace take rate",
+      "definition": "The share of each order a platform keeps, generally 8 to 20 percent of gross merchandise value plus a fixed per-item charge, deducted before the seller is paid: a $50 order at 15 percent plus $0.99 nets the seller $41.51 before shipping and returns. Whether the channel is viable depends on that net landing above the seller's fully loaded cost, not on the headline price.",
+      "whyItMatters": "Entrepreneurship and channel roleplays comparing a marketplace to an owned web store are scored on netting the take rate out before comparing the two channels' contribution.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "first-party-retail-relationship",
+        "channel-margin-stack"
+      ]
+    },
+    {
+      "term": "First-party retail relationship",
+      "definition": "The retailer issues a purchase order, TAKES TITLE to the goods, sets its own retail price, carries the inventory risk, and owns the customer record and the return. In a third-party marketplace relationship the seller keeps title and sets price while the platform merely lists and collects a commission — so the seller keeps control and the margin but also the unsold stock, and the platform, not the seller, may hold the buyer's data.",
+      "whyItMatters": "Channel-selection roleplays for an online launch turn on who owns the customer relationship afterward, which decides whether the brand can remarket to those buyers at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "marketplace-take-rate",
+        "merchant-wholesaler",
+        "consignment-selling"
+      ]
+    },
+    {
+      "term": "Channel cannibalization",
+      "definition": "Sales a new channel takes from an existing one rather than creating: a direct site booking $500,000 while dealer revenue falls $400,000 is 80 percent cannibalized and contributes only $100,000 of truly incremental volume. Because the incumbent channel's margin is usually different, the right comparison is incremental CONTRIBUTION, not incremental revenue.",
+      "whyItMatters": "A roleplay proposing a company store or direct site is scored on subtracting the incumbent channel's lost sales; presenting the new channel's gross revenue as growth is the classic error.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "dual-distribution",
+        "disintermediation",
+        "channel-conflict"
+      ]
+    },
+    {
+      "term": "Deal registration",
+      "definition": "A partner-program rule granting the FIRST partner to register a named end-customer opportunity an exclusive extra discount — commonly 5 to 20 points below standard partner price — for a fixed window of about 60 to 90 days. It exists to stop two partners quoting the same customer and bidding the vendor's own product down, and it lapses automatically if the window closes without a sale.",
+      "whyItMatters": "Business-to-business channel roleplays about two resellers chasing one account are graded on this mechanism, which resolves the conflict without the vendor picking a favorite.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:channel_management"
+      ],
+      "confusableWith": [
+        "horizontal-channel-conflict",
+        "territorial-exclusivity",
+        "market-development-funds-mdf"
+      ]
+    },
+    {
+      "term": "Market development funds (MDF)",
+      "definition": "Discretionary money a vendor awards a partner for a pre-approved marketing plan and pays only on proof of performance, with no entitlement based on past volume. Co-op funds work the opposite way: they accrue AUTOMATICALLY as a stated percentage of what the partner already purchased, so co-op rewards history while MDF buys a specific future activity, often from partners too new to have accrued anything.",
+      "whyItMatters": "Coordinating channel work with promotion is a tested indicator, and roleplays ask how to fund a new partner's launch when there is no purchase history to accrue against.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "co-op-advertising-accrual",
+        "trade-allowance",
+        "deal-registration"
+      ]
+    },
+    {
+      "term": "Push strategy",
+      "definition": "Spending the promotional budget ON THE CHANNEL — trade allowances, dealer incentives, training and sales calls — so intermediaries stock and sell the line to shoppers who arrived with no preference. A pull strategy spends the same money on END CONSUMERS instead, so demand arrives at the store and forces the retailer to carry the item. Push is typical for low-differentiation and business-to-business goods; pull requires enough advertising weight to move consumers first.",
+      "whyItMatters": "Coordinating channel management with marketing activity is directly tested, and roleplays ask which way to aim a limited promotional budget for a product no consumer has heard of.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "promotional-mix",
+        "trade-allowance",
+        "channel-power"
+      ]
+    },
+    {
+      "term": "Facilitating agency",
+      "definition": "A participant that helps goods, money or information move through a channel — a trucking line, public warehouse, bank, insurer or freight forwarder — without ever negotiating terms of sale or taking title. Because it does neither, it adds no channel level, which is why a producer shipping straight to consumers by parcel carrier still has a zero-level channel.",
+      "whyItMatters": "Exam items that diagram a channel and ask for its length are scored wrong when the carrier is counted; knowing what these participants do and do not do is the fix.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/channel_management.txt"
+      ],
+      "confusableWith": [
+        "channel-level",
+        "intermediary",
+        "third-party-logistics"
       ]
     }
   ]

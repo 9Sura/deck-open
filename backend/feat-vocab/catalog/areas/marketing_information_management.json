@@ -10,15 +10,8 @@
       "whyItMatters": "Research helps a business understand needs before choosing tactics.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
-    },
-    {
-      "term": "Marketing data",
-      "definition": "Information on customer behavior, market trends, sales, and competitive activity.",
-      "whyItMatters": "Quality data enables predictive insight and competitive advantage.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Primary research",
@@ -26,7 +19,8 @@
       "whyItMatters": "It gives firsthand customer and market insight for a specific question.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Secondary research",
@@ -34,7 +28,8 @@
       "whyItMatters": "It is cost-effective for understanding market context before original research.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Qualitative research",
@@ -42,7 +37,8 @@
       "whyItMatters": "Qualitative insight reveals why customers decide, sharpening messaging.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Quantitative research",
@@ -50,7 +46,8 @@
       "whyItMatters": "Quantitative findings give statistical proof to justify marketing decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Sampling",
@@ -58,7 +55,8 @@
       "whyItMatters": "Sound sampling cuts cost and time while keeping conclusions valid.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Sampling plan",
@@ -66,15 +64,8 @@
       "whyItMatters": "A solid plan is what makes research findings trustworthy.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
-    },
-    {
-      "term": "Survey",
-      "definition": "A tool that gathers information from respondents through questions.",
-      "whyItMatters": "Surveys are the most common way to learn customer needs and satisfaction.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Questionnaire design",
@@ -82,7 +73,8 @@
       "whyItMatters": "Good design yields valid data; poor design introduces error.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Research study design",
@@ -90,15 +82,8 @@
       "whyItMatters": "Design choices decide whether research answers the business question.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
-    },
-    {
-      "term": "Data collection",
-      "definition": "Gathering information from sources via surveys, interviews, or observation.",
-      "whyItMatters": "Accurate collection is the foundation for every downstream decision.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Marketing-information system",
@@ -106,7 +91,8 @@
       "whyItMatters": "It enables real-time monitoring and rapid response to market change.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Descriptive statistics",
@@ -114,7 +100,8 @@
       "whyItMatters": "They translate raw data into insights that justify strategy choices.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Customer buzz",
@@ -122,7 +109,8 @@
       "whyItMatters": "Monitoring buzz reveals brand perception and emerging issues early.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Research project error",
@@ -130,6 +118,634 @@
       "whyItMatters": "Spotting errors like sampling bias is critical to credible research.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Probability sampling",
+      "definition": "Any selection scheme in which every unit in the frame has a known, non-zero chance of being drawn, which is the only family that permits sampling error and a margin of error to be calculated at all; nonprobability designs such as quota or convenience selection can support neither, no matter how large they get.",
+      "whyItMatters": "When a research roleplay asks whether the findings can be projected to the whole market, the defensible answer turns on whether the design was probability-based, not on how many people answered.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "quota-sampling",
+        "stratified-random-sampling",
+        "sampling-plan"
+      ]
+    },
+    {
+      "term": "Stratified random sampling",
+      "definition": "Split the population into internally similar subgroups, then draw at random inside every one of them, usually allocating each subgroup a share of the sample equal to its share of the population (n_h = n x N_h/N); cluster sampling looks similar but randomly picks a few whole groups and skips the rest entirely.",
+      "whyItMatters": "A sampling-plan roleplay that requires each store region to be represented in proportion is solved with strata, and the judge listens for the proportional allocation, not just the word random.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "cluster-sampling",
+        "quota-sampling",
+        "systematic-sampling"
+      ]
+    },
+    {
+      "term": "Cluster sampling",
+      "definition": "Divide the population into naturally occurring groups such as stores, campuses or ZIP codes, randomly select a few of those groups, and survey everyone inside the selected ones; it costs far less per completed interview than stratified random sampling but carries a larger sampling error, because people inside one group resemble each other.",
+      "whyItMatters": "Exam items on choosing a cost-effective field plan for a geographically spread customer base hinge on trading this design's cheapness against its wider error band.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "stratified-random-sampling",
+        "sampling-frame"
+      ]
+    },
+    {
+      "term": "Systematic sampling",
+      "definition": "Choose a random start inside the first interval, then take every kth record from the list, where k is the frame size divided by the sample size (a 12,000-name file sampled 400 times gives k = 30); the shortcut breaks when the list contains a repeating cycle that lines up with k, such as a roster ordered manager-then-staff.",
+      "whyItMatters": "Given a customer database and a target of 400 responses, an exam question expects the interval to be computed and the periodicity trap named.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "probability-sampling",
+        "cluster-sampling"
+      ]
+    },
+    {
+      "term": "Quota sampling",
+      "definition": "Interviewers must fill preset counts per subgroup, say 120 women and 80 men, but pick the individual respondents themselves, so the subgroup proportions match the population while the selection itself stays nonprobability; stratified random sampling sets the very same proportions and then draws each person at random, which is what makes it projectable.",
+      "whyItMatters": "Mall-intercept and street-intercept scenarios in a research roleplay are this design, and the competitor is expected to name the limitation before quoting any percentage.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "stratified-random-sampling",
+        "probability-sampling"
+      ]
+    },
+    {
+      "term": "Sampling error",
+      "definition": "The gap between a sample statistic and the true population value caused purely by which units happened to be drawn; it shrinks with the square root of sample size, so quadrupling the sample only halves it, and it is the single error a larger sample actually fixes, while nonsampling errors such as bad wording or a skewed list grow right along with scale.",
+      "whyItMatters": "Research-error questions ask which problems a bigger sample cures, and this is the only one on the list, so it separates the two error families in one stroke.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "margin-of-error",
+        "nonresponse-bias",
+        "research-project-error"
+      ]
+    },
+    {
+      "term": "Margin of error",
+      "definition": "The plus-or-minus band reported around a survey percentage, calculated as a z value times the square root of p(1 - p)/n, which works out to roughly plus or minus 3.1 points on a sample of 1,000 at 95% confidence; it describes precision only, so it says nothing whatever about bias in who chose to respond.",
+      "whyItMatters": "Interpreting a research finding for a client, a competitor who reports 46% without the band, or who treats a 2-point lead inside the band as a real lead, loses the point.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "confidence-interval",
+        "sampling-error"
+      ]
+    },
+    {
+      "term": "Confidence interval",
+      "definition": "The range a statistic is expected to occupy, such as 42% plus or minus 3 points meaning 39% to 45%, while the confidence level is the separate 95% or 99% figure describing how often intervals built this way capture the true value; raising the level widens the range at the same sample size, so more certainty always costs precision.",
+      "whyItMatters": "Presenting findings to a manager who wants a single number, the tested skill is stating the range and the level as two different things rather than collapsing them.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "margin-of-error",
+        "statistical-analysis"
+      ]
+    },
+    {
+      "term": "Semantic differential scale",
+      "definition": "Rates an object in the space between two opposite adjectives, modern against old-fashioned or cheap against expensive, usually across seven positions, and the item means plotted in sequence form a brand profile that can be overlaid on a competitor's; a Likert item by contrast measures agreement with one written statement.",
+      "whyItMatters": "Image and positioning studies are reported as these profiles, so a competitor asked how to measure how a brand is perceived versus a rival names this instrument.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "likert-scale",
+        "positioning"
+      ]
+    },
+    {
+      "term": "Ratio scale",
+      "definition": "Measurement that has equal intervals and a true zero, as with dollars spent, units purchased or minutes in store, so ratios carry meaning and one shopper can correctly be said to spend twice what another does; an interval scale such as a 1-to-7 rating has equal spacing but an arbitrary zero, so averaging is legitimate while twice as satisfied is not.",
+      "whyItMatters": "Descriptive-statistics items test which arithmetic a given measure permits, and the classic trap is multiplying or dividing rating-scale scores as though they behaved like dollars.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "likert-scale",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "term": "Skewness",
+      "definition": "Asymmetry in a distribution that drags the mean away from the middle, so a handful of $900 orders inside a file of $30 orders pulls the mean above the median and the median becomes the honest typical figure; income, home price and basket-size data are routinely reported this way, while the mean suits data that is roughly symmetric.",
+      "whyItMatters": "Presenting an average order value that no actual customer resembles is the classic descriptive-statistics error a judge probes, and the answer is which measure of center fits the shape.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "descriptive-statistics",
+        "outlier"
+      ]
+    },
+    {
+      "term": "Standard deviation",
+      "definition": "The square root of the average squared distance of the observations from their mean, expressed in the same units as the data, and in a roughly normal distribution about 68% of cases fall within one of them and 95% within two; it converts a bare average satisfaction of 4.1 into a statement about how consistent the experience actually is.",
+      "whyItMatters": "Two locations with identical mean scores but different spread call for different management action, and interpreting research findings for a client rests on saying so.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "descriptive-statistics",
+        "margin-of-error"
+      ]
+    },
+    {
+      "term": "Correlation coefficient",
+      "definition": "A single number running from -1 through 0 to +1 that measures how tightly two variables move together, with 0 meaning no linear relationship; squaring it gives the share of variation explained, so a value of 0.6 accounts for only 36% of the movement, and even a value near 1 establishes association and never that one variable caused the other.",
+      "whyItMatters": "Handed an output showing ad spend and sales at 0.72, the tested response reports the strength, converts it to explained variation, and refuses the causal claim.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "spurious-correlation",
+        "linear-regression"
+      ]
+    },
+    {
+      "term": "Linear regression",
+      "definition": "Fits the line y = a + bx through the observations so the slope b estimates how much the outcome moves per one-unit change in the driver, letting a finding be stated as each extra $1,000 of local ad spend adding 62 units; a correlation coefficient reports only how tight the relationship is and yields no rate of change to plan with.",
+      "whyItMatters": "Turning research into a recommendation a manager can budget against needs the slope, which is why forecasting prompts reach for this rather than a correlation.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "correlation-coefficient",
+        "sales-forecast"
+      ]
+    },
+    {
+      "term": "Type I error",
+      "definition": "Concluding that a difference is real when it is not, the false positive that a 0.05 significance threshold knowingly accepts about 5% of the time; the mirror-image mistake of missing a difference that genuinely exists is a Type II error, and tightening the threshold to cut the risk of one necessarily raises the risk of the other.",
+      "whyItMatters": "Deciding whether a test result justifies a full rollout, the tested judgment is what it costs to be wrong in each direction, not just whether the number cleared 0.05.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "a-b-test",
+        "research-project-error"
+      ]
+    },
+    {
+      "term": "Construct validity",
+      "definition": "Whether an instrument truly measures the abstract idea it claims to, so a three-item loyalty battery may in fact be capturing nothing but recent convenience; this is a separate question from reliability, which only asks whether repeated administrations agree, and a broken thermometer reading 50 every single time is perfectly reliable and completely invalid.",
+      "whyItMatters": "Assessing whether a proposed study will actually answer the business question, this is the distinction a judge listens for when a competitor defends an instrument.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "research-study-design",
+        "questionnaire-design"
+      ]
+    },
+    {
+      "term": "Conjoint analysis",
+      "definition": "Shows respondents whole product profiles whose attributes are deliberately traded off against one another, say three price points crossed with three warranty lengths and two brands, then derives a part-worth utility for every level from the choices made, revealing what a feature is worth in dollars; asking directly how important price is can never produce that trade-off.",
+      "whyItMatters": "Pricing a feature bundle for a client, this is the method that answers how much a second-year warranty is worth, and importance ratings simply cannot.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "quantitative-research",
+        "value-based-pricing"
+      ]
+    },
+    {
+      "term": "Syndicated research",
+      "definition": "A standardized study a research firm runs on its own initiative and then sells to every subscriber in the category, splitting the cost across all of them; proprietary or custom research is commissioned by a single client, answers that client's exact question and stays confidential, so the trade is comparability and low price against fit and exclusivity.",
+      "whyItMatters": "Recommending where a small business should get category data on a tight budget, the scored distinction is why cheap shared data cannot answer a company-specific question.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "secondary-research",
+        "primary-research"
+      ]
+    },
+    {
+      "term": "Net Promoter Score",
+      "definition": "The percentage of respondents answering 9 or 10 on an eleven-point recommendation question minus the percentage answering 0 through 6, with the 7s and 8s discarded entirely, producing a figure that can run from -100 to +100; because the middle is dropped, a respectable score of 30 can still conceal a large block of detractors.",
+      "whyItMatters": "A roleplay where management reports a score of 30 as good needs the formula unpacked, because the discarded middle and the detractor share are where the action is.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "customer-satisfaction-score",
+        "customer-buzz"
+      ]
+    },
+    {
+      "term": "Churn rate",
+      "definition": "Customers lost during a period divided by customers held at its start, so 240 lost from 4,000 is 6%, with retention rate as its complement at 94%; the figure counts departures and not the revenue those departures carried, so 6% concentrated among the largest accounts damages far more than the percentage implies.",
+      "whyItMatters": "Choosing which measures to monitor for a subscription business, the tested nuance is pairing the customer-count figure with a revenue-weighted view.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "customer-satisfaction-score",
+        "cohort-analysis"
+      ]
+    },
+    {
+      "term": "RFM analysis",
+      "definition": "Ranks a customer file on three purchase behaviors, how recently they bought, how often they buy and how much they have spent in total, scoring each into quintiles from 1 to 5 so that a 555 is the strongest target and a 155 flags a heavy spender who has gone quiet; it segments on recorded transactions rather than on demographics.",
+      "whyItMatters": "Asked which customers should get a reactivation offer, this produces a defensible list straight from the database instead of a guess about who looks likely.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "market-segmentation",
+        "demographics",
+        "cohort-analysis"
+      ]
+    },
+    {
+      "term": "Type II error",
+      "definition": "Failing to reject a null hypothesis that is in fact false, so a real difference exists and the test misses it; its probability is beta, power equals 1 minus beta, and a study planned at the conventional 0.80 power still misses a true effect 20 percent of the time. A Type I error is the opposite mistake, calling a difference real when it is not.",
+      "whyItMatters": "When a research write-up reports no difference between two package designs and the exam asks which project error was made, the answer is the missed-effect error, and it is the one an undersized sample causes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "type-i-error",
+        "statistical-power",
+        "sampling-error"
+      ]
+    },
+    {
+      "term": "Statistical power",
+      "definition": "Probability that a test detects an effect that really is there, computed as 1 minus beta, with 0.80 the planning convention that accepts a one-in-five chance of missing a true difference; it rises with a larger sample, a larger true effect, and a looser alpha, which is why sample size is chosen before data collection, not after.",
+      "whyItMatters": "A sampling-plan roleplay that asks how many respondents are enough is answered by the effect worth detecting and the power target, not by a round number like 100.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "type-ii-error",
+        "margin-of-error",
+        "sampling-plan"
+      ]
+    },
+    {
+      "term": "p-value",
+      "definition": "Assuming the null hypothesis is true, the chance of observing a result at least as extreme as the one obtained; it is compared with a stated alpha, conventionally 0.05, and the null is rejected only when it falls below, so 0.03 rejects at the 0.05 level but not at 0.01. It is not the probability that the hypothesis is true.",
+      "whyItMatters": "Exam items that hand you a test result and an alpha are asking whether to reject, and a roleplay judge listens for the comparison to the threshold rather than the phrase statistically significant.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "type-i-error",
+        "effect-size-cohen-s-d",
+        "confidence-interval"
+      ]
+    },
+    {
+      "term": "Effect size (Cohen's d)",
+      "definition": "Gap between two group means divided by their pooled standard deviation, so 0.2 reads as small, 0.5 as medium and 0.8 as large; it answers how big the difference is, where a significance test only answers whether it is likely real. With 50,000 respondents a d of 0.05 can clear p less than 0.05 and still be worth nothing commercially.",
+      "whyItMatters": "Turning findings into a recommendation means saying whether a difference is large enough to act on, and this is the number that separates a meaningful gap from a merely detectable one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "p-value",
+        "correlation-coefficient",
+        "coefficient-of-determination-r-squared"
+      ]
+    },
+    {
+      "term": "Coefficient of determination (r-squared)",
+      "definition": "Square of the correlation coefficient, read as the share of variation in the outcome that the model accounts for: r of 0.60 gives 0.36, so 36 percent is explained and 64 percent is left to everything else. It is not the slope, and a high value still proves association rather than causation.",
+      "whyItMatters": "Given a regression of sales on ad spend, an exam item asks how much of the sales swing the ads explain, and the answer is the squared correlation, not the correlation itself.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "correlation-coefficient",
+        "linear-regression",
+        "variance-inflation-factor"
+      ]
+    },
+    {
+      "term": "Variance inflation factor",
+      "definition": "Diagnostic for redundant predictors: regress each independent variable on the others and take 1 divided by (1 minus that fit's r-squared), where anything above 5, and certainly above 10, says the predictor is so entangled with another that its individual coefficient cannot be trusted even while the overall model fits well.",
+      "whyItMatters": "When a model includes both ad spend and impressions and the coefficients come out with impossible signs, this is the check that explains why, and the fix is to drop or combine the tangled predictors.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "linear-regression",
+        "coefficient-of-determination-r-squared",
+        "spurious-correlation"
+      ]
+    },
+    {
+      "term": "Standard error of the mean",
+      "definition": "Standard deviation divided by the square root of the sample size, so precision improves far slower than the sample grows: going from 100 to 400 respondents only halves it, and going to 1,600 only halves it again. It describes how much sample means bounce around the true mean, not how spread out individual respondents are.",
+      "whyItMatters": "It is the quantity behind a reported margin of error, so a roleplay asking whether doubling the sample is worth the cost is answered with the square-root rule.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "standard-deviation",
+        "margin-of-error",
+        "sampling-error"
+      ]
+    },
+    {
+      "term": "Empirical rule",
+      "definition": "For a roughly bell-shaped distribution, about 68 percent of values sit within one standard deviation of the mean, 95 percent within two and 99.7 percent within three; with a mean basket of $50 and a standard deviation of $10, roughly 95 percent of baskets land between $30 and $70 and anything past $80 is a genuine rarity.",
+      "whyItMatters": "Descriptive-statistics items give a mean and a standard deviation and ask what share of customers fall in a stated range, which is a direct application of the three bands.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "standard-deviation",
+        "z-score",
+        "skewness"
+      ]
+    },
+    {
+      "term": "Z-score",
+      "definition": "Distance of one observation from the mean measured in standard deviations, (x minus the mean) divided by the standard deviation, so a store running 2.5 standard deviations above average scores 2.5 whether sales are in units or dollars; it is what lets two measures on different scales be ranked on one ruler, and it is negative below the mean.",
+      "whyItMatters": "Comparing a store's traffic performance with its basket-size performance requires putting both on the same standardized scale before either can be called the bigger outlier.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "standard-deviation",
+        "empirical-rule",
+        "outlier"
+      ]
+    },
+    {
+      "term": "Central limit theorem",
+      "definition": "Whatever shape the population takes, the distribution of sample means approaches a normal curve as the sample grows, with n of at least 30 used as the working threshold; that is the reason a margin of error can be computed from a single sample even when the underlying spending data is heavily skewed by a few large buyers.",
+      "whyItMatters": "It is the justification a judge wants when a research plan projects one sample's average onto the whole market, and it is why a 12-person sample cannot carry that projection.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "law-of-large-numbers",
+        "standard-error-of-the-mean",
+        "probability-sampling"
+      ]
+    },
+    {
+      "term": "Chi-square test of independence",
+      "definition": "Compares the counts actually observed in a cross-tabulation against the counts expected if the two variables were unrelated, summing (observed minus expected) squared divided by expected across every cell, with degrees of freedom of (rows minus 1) times (columns minus 1). It works on category counts, where a test of means cannot be run at all.",
+      "whyItMatters": "A cross-tab of purchase versus age bracket looks different by eye long before the difference is real, and this is the test that decides whether the pattern survives sampling noise.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "cross-tabulation",
+        "p-value",
+        "independent-samples-t-test"
+      ]
+    },
+    {
+      "term": "Independent-samples t-test",
+      "definition": "Checks whether two separate groups' means differ by more than sampling noise, dividing the gap between the means by the standard error of that gap and comparing the result with alpha; it covers two groups only, because running three pairwise tests at 0.05 pushes the chance of at least one false positive to roughly 14 percent, which is what analysis of variance avoids.",
+      "whyItMatters": "A test-market readout comparing average spend in the treated city against the control city is this test, and the exam wants the two-group limit named before three cities are compared.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "chi-square-test-of-independence",
+        "p-value",
+        "type-i-error"
+      ]
+    },
+    {
+      "term": "Cronbach's alpha",
+      "definition": "Internal-consistency measure of how tightly the several items meant to capture one construct move together, on a 0-to-1 scale where 0.70 is the usual floor for a usable multi-item scale and anything above about 0.95 means the items are near-duplicates padding the questionnaire. A high value says the items agree, never that they measure the right thing.",
+      "whyItMatters": "Evaluating a draft questionnaire means judging whether the five satisfaction items form one scale worth averaging, and this is the number the evaluation reports.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "construct-validity",
+        "discriminant-validity",
+        "likert-scale"
+      ]
+    },
+    {
+      "term": "Discriminant validity",
+      "definition": "Evidence that a scale is not quietly measuring its neighbour: its correlations with measures of a different construct must be clearly lower than its correlations with other measures of the same construct, which is convergent validity. A satisfaction scale correlating 0.85 with a loyalty scale has failed it and the two are one construct, not two.",
+      "whyItMatters": "When a tracker reports satisfaction and loyalty as separate drivers and both move identically, this is the check that shows the study is double-counting one thing.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "construct-validity",
+        "cronbach-s-alpha",
+        "spurious-correlation"
+      ]
+    },
+    {
+      "term": "Interval scale",
+      "definition": "Ordered measurement with equal gaps between adjacent points but no true zero, so differences can be added and averaged while ratios cannot: 40 degrees is not twice as warm as 20, and a 7-point agreement rating of 6 is not twice the agreement of 3. A ratio scale such as dollars spent or units sold has the true zero and does permit the ratio.",
+      "whyItMatters": "Deciding whether a questionnaire's answers may be averaged, or only counted, turns on which level of measurement each question produced.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "ratio-scale",
+        "semantic-differential-scale",
+        "likert-scale"
+      ]
+    },
+    {
+      "term": "Finite population correction",
+      "definition": "Multiplies the standard error by the square root of (N minus n) divided by (N minus 1), shrinking it when the sample is a large slice of a small population; it is ignored until the sample passes roughly 5 percent of the population, which is why 400 respondents buy nearly the same precision in a town of 8,000 as in a nation of 300 million.",
+      "whyItMatters": "It settles the recurring roleplay objection that a national sample of 1,000 must be too small, because precision tracks the sample size rather than the fraction of the population covered.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "margin-of-error",
+        "sampling-error",
+        "sampling-frame"
+      ]
+    },
+    {
+      "term": "Snowball sampling",
+      "definition": "Recruiting through referrals, each respondent naming the next, which is often the only practical route into a rare or hidden population; because no one's chance of being reached is known, no sampling error or margin of error can be computed. Quota sampling shares that defect but at least fills preset subgroup counts, while this design lets one social circle dominate.",
+      "whyItMatters": "A sampling-plan roleplay about reaching a niche buyer, such as competitive drone racers, needs this design named along with the honest admission that the results cannot be projected.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/marketing_information_management.txt"
+      ],
+      "confusableWith": [
+        "quota-sampling",
+        "probability-sampling",
+        "sampling-frame"
+      ]
+    },
+    {
+      "term": "Buying power index",
+      "definition": "Weighted composite of a market area's share of national income, retail sales and population, conventionally 0.5, 0.3 and 0.2, summing to that area's percent of national buying power: 2 percent of income, 3 percent of retail sales and 4 percent of population gives 1.0 plus 0.9 plus 0.8, or 2.7 percent. Population alone overstates a poor, crowded market.",
+      "whyItMatters": "Choosing which metro gets the next store or the next media flight is decided on this weighted share rather than headcount, and the weights are the part competitors forget.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "market-share",
+        "chain-ratio-method",
+        "demographics"
+      ]
+    },
+    {
+      "term": "Chain-ratio method",
+      "definition": "Estimates market potential by starting from a broad population count and multiplying through a chain of narrowing percentages: 2,000,000 residents times 40 percent in the target age times 30 percent who own a pet times 25 percent who buy premium food times $200 spent a year yields $12,000,000. Every shaky percentage in the chain compounds into the final number.",
+      "whyItMatters": "An entrepreneurship or research roleplay that asks how big the opportunity is wants this chain shown step by step, with the source of each percentage named.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "buying-power-index",
+        "total-addressable-market",
+        "sales-forecast"
+      ]
+    },
+    {
+      "term": "Top-two-box score",
+      "definition": "Percent of respondents picking either of the two most favorable options on a rating scale, the 4s and 5s on a five-point scale, reported instead of the average because averages hide splits: ratings of 1, 1, 5, 5 and ratings of 3, 3, 3, 3 both average 3.0, yet the first scores 50 percent here and the second scores zero.",
+      "whyItMatters": "Reporting satisfaction tracking to a manager means choosing between the mean and this share, and a polarized customer base is only visible in the second.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "net-promoter-score",
+        "likert-scale",
+        "descriptive-statistics"
+      ]
+    },
+    {
+      "term": "Share of voice",
+      "definition": "A brand's advertising spend divided by total category advertising spend over the same period, so $2 million inside a $20 million category is 10 percent. Held against market share it becomes a plan: a brand whose voice share exceeds its market share is buying growth, and one whose voice share sits below it is harvesting a position it is no longer defending.",
+      "whyItMatters": "Tracking a campaign against competitors requires a spend-relative measure, since raw dollars up 10 percent still lose ground when the category's spend is up 30 percent.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "market-share",
+        "promotional-mix",
+        "brand-equity"
+      ]
+    },
+    {
+      "term": "Exit rate",
+      "definition": "Share of a page's total views that were the last page of the session, exits divided by that page's pageviews, which is not the bounce rate: bounces count only sessions that both began and ended on that page, divided by sessions that began there. An order-confirmation page should show a high exit rate and a near-zero bounce rate.",
+      "whyItMatters": "Diagnosing where a checkout funnel leaks means telling a page people leave from after doing something from a page people never engage with at all, and the two metrics disagree constantly.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "bounce-rate",
+        "conversion-rate",
+        "digital-promotion"
+      ]
+    },
+    {
+      "term": "Last-touch attribution",
+      "definition": "Assigns 100 percent of a conversion's credit to the final channel the buyer used before purchase, which reliably overpays branded search and retargeting and starves the awareness channels a first-touch model would credit instead; a linear model splits the credit evenly across every touch, and the three models can rank the same channels in opposite orders.",
+      "whyItMatters": "Recommending where next quarter's budget goes is a trap when the report behind it uses one attribution rule, so the model has to be named before the ranking is trusted.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "incremental-lift",
+        "customer-acquisition-cost",
+        "integrated-marketing-communication"
+      ]
+    },
+    {
+      "term": "Incremental lift",
+      "definition": "Treatment group's response rate minus an untouched holdout group's rate, divided by the holdout rate: 6 percent against 4 percent is a 50 percent lift, and the 4 percent would have bought with no campaign at all. Without a holdout the campaign is credited with the whole 6 percent, which is how a coupon aimed at loyal buyers appears to work.",
+      "whyItMatters": "Judging whether a promotion actually caused sales, rather than coinciding with them, requires the untouched control group to be designed in before launch.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "last-touch-attribution",
+        "test-marketing",
+        "control-group"
+      ]
+    },
+    {
+      "term": "Seasonal index",
+      "definition": "A period's average value divided by the average across all periods, times 100, so a December index of 140 means that month runs 40 percent above a typical month and a February of 85 runs 15 percent below. Dividing actual sales by the index deseasonalizes the series, which is the only way a real trend can be told from the calendar.",
+      "whyItMatters": "A roleplay claiming sales collapsed from December to January is answered by deseasonalizing first, because the drop may be entirely the index and not a trend at all.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:marketing_information_management"
+      ],
+      "confusableWith": [
+        "sales-forecast",
+        "longitudinal-study",
+        "moving-average"
       ]
     }
   ]

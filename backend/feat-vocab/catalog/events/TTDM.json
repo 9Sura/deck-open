@@ -1,0 +1,319 @@
+{
+  "code": "TTDM",
+  "terms": [
+    {
+      "term": "GDS segment fee",
+      "definition": "The per-leg charge a global distribution system bills an airline for every booked coupon, roughly $4 to $6 a segment, so a round trip with one connection each way costs the carrier four charges rather than one booking charge.",
+      "whyItMatters": "A TTDM case asking why a carrier pushes travellers to its own site is answered by pricing the same itinerary through both channels — four segments at $5 is about $20 of distribution cost the direct booking does not incur.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "net-rate",
+        "merchant-model"
+      ]
+    },
+    {
+      "term": "Nested booking-class inventory",
+      "definition": "A seat-allocation structure in which each fare bucket is a ceiling that includes every cheaper bucket beneath it, so selling one discount seat decrements availability in that bucket and in every higher bucket at once, and 9 seats in class Y does not mean 9 more seats on top of class Q's 4.",
+      "whyItMatters": "Revenue-management items hand a competitor an availability display and ask how many seats remain on the aircraft; adding the class counts together is the wrong answer because the buckets overlap.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "fare-basis-code"
+      ]
+    },
+    {
+      "term": "Override commission",
+      "definition": "A bonus percentage a supplier pays retroactively on an agency's whole year of bookings once a volume threshold is crossed, so an agency at $480,000 against a $500,000 tier earns not 10% but 13% on all of it the moment the last $20,000 books — making that final sale worth roughly $17,000 in commission, not $2,000.",
+      "whyItMatters": "A TTDM decision case about which supplier to steer a corporate account toward is decided by the retroactive tier, not by the headline base commission both suppliers quote.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "net-rate",
+        "merchant-model"
+      ]
+    },
+    {
+      "term": "Merchant model",
+      "definition": "A distribution arrangement in which the intermediary buys inventory at a supplier's wholesale price, sets its own retail price, and collects the traveller's full payment up front — keeping a spread of roughly 15 to 25% and holding the supplier's money until after the stay, where the alternative pays the intermediary 10 to 15% only after the supplier has been paid.",
+      "whyItMatters": "A TTDM case weighing an online travel agency contract turns on both numbers — the wider spread and the delayed cash — not on the commission rate alone.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "net-rate",
+        "rate-parity-clause"
+      ]
+    },
+    {
+      "term": "Rate parity clause",
+      "definition": "A distribution contract term barring a supplier from publishing a lower price on any other channel, including its own site; a narrow version restricts only public rates and leaves closed loyalty and mobile-app pricing free, while a wide version closes those too and has been struck down or banned in several jurisdictions.",
+      "whyItMatters": "When a TTDM roleplay asks how a hotel can undercut its own listing without breaching the agreement, the answer is the narrow-parity carve-out — a member-only rate behind a login — not a public discount.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "merchant-model"
+      ]
+    },
+    {
+      "term": "Tour conductor ratio",
+      "definition": "The number of paying passengers a group must deliver to earn one free berth or seat, quoted as 15+1 or 20+1, whose cost the operator must spread across the payers — a complimentary place on a $1,200 tour adds $80 to each of 15 fares, or the group leader travels free only if the price already carries it.",
+      "whyItMatters": "A TTDM group-travel roleplay that offers a school a free chaperone place is scored on whether the team rebuilt the per-person price to absorb the comp rather than quoting the brochure rate and losing the margin.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "single-supplement",
+        "tour-departure-break-even"
+      ]
+    },
+    {
+      "term": "Single supplement",
+      "definition": "The surcharge a solo traveller pays because tour and cruise prices are quoted per person on two people sharing, and a room's cost does not halve when only one guest occupies it — commonly 30 to 100% of the land portion, and near 100% where the operator has already contracted the room at a flat nightly rate.",
+      "whyItMatters": "A TTDM item asking what a solo client pays on a $2,400 per-person double-occupancy tour with a 60% supplement wants $3,840, and the supplement applies only to the land component when air is priced separately.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "land-only-rate",
+        "tour-conductor-ratio"
+      ]
+    },
+    {
+      "term": "Tour departure break-even",
+      "definition": "The passenger count at which a scheduled departure's fixed costs — coach charter, guide, escort, and any complimentary places — are finally covered by per-person contribution, and the number below which an operator cancels rather than operates: $4,500 of fixed cost against $300 of contribution per traveller cancels below 15.",
+      "whyItMatters": "TTDM cases about whether to run or consolidate a thin departure are decided by this count and the cancellation deadline in the brochure, not by whether the departure shows a headline loss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "tour-conductor-ratio",
+        "land-only-rate"
+      ]
+    },
+    {
+      "term": "Lower-berth occupancy",
+      "definition": "A cruise capacity measure whose denominator counts two guests per cabin regardless of how many the cabin sleeps, so filling third and fourth berths pushes the figure above 100% — a ship reported at 105% is full and carrying extra guests, not overbooked.",
+      "whyItMatters": "A TTDM competitor handed a cruise line's 104% occupancy must read it as upper-berth fill driving onboard spend, and not describe it as an oversell problem the way a hotel figure over 100% would be.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "cruise-per-diem",
+        "guarantee-cabin"
+      ]
+    },
+    {
+      "term": "Cruise per diem",
+      "definition": "Fare divided by nights on a double-occupancy basis, the only figure that compares itineraries of different lengths — a $1,400 seven-night sailing at $200 a night is more expensive than a $1,800 ten-night at $180, even though the headline fare says otherwise, and port charges and taxes are normally excluded from it.",
+      "whyItMatters": "A TTDM roleplay asking a team to justify a recommendation between two sailings is won on this per-night number plus what is excluded from it, not on the total fare the client first sees.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "lower-berth-occupancy",
+        "land-only-rate"
+      ]
+    },
+    {
+      "term": "Transient occupancy tax",
+      "definition": "A percentage levied on room revenue for stays under a statutory length — commonly 28 or 30 consecutive nights, past which the guest becomes a resident and the tax stops — collected by the property on top of any sales tax and remitted to the local government, so a $200 room in a jurisdiction charging 9% lodging plus 7% sales bills $232.",
+      "whyItMatters": "A TTDM case on extended-stay pricing or on where a destination's marketing budget comes from needs both the stacking of the two taxes and the night threshold that ends the lodging one.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "tourism-improvement-district"
+      ]
+    },
+    {
+      "term": "Tourism improvement district",
+      "definition": "A self-assessment scheme in which lodging properties in a defined boundary vote to charge themselves a fixed percentage of each room night — typically 1 to 2% — to fund destination marketing, adopted only on petition of owners representing more than half the assessed revenue and renewable for a set term.",
+      "whyItMatters": "A TTDM case asking how a destination funds a campaign without a public tax vote turns on this petition threshold and on the fact that the assessment is the hotels' own money, which is why they demand the campaign's room-night return.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "transient-occupancy-tax",
+        "matching-funds-ratio"
+      ]
+    },
+    {
+      "term": "Matching funds ratio",
+      "definition": "The proportion of a cooperative campaign a destination organization will cover against partner money, written as grant to partner — a 1:2 offer capped at $30,000 means the partner must spend $60,000 to draw the full grant and the campaign carries $90,000, and partner spend below the cap scales the grant down rather than forfeiting it.",
+      "whyItMatters": "A TTDM co-op marketing roleplay is scored on sizing the partner contribution the ratio demands and on stating the cap, because a team that budgets only the grant funds a third of the campaign it just promised.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "tourism-improvement-district",
+        "cost-per-room-night-generated"
+      ]
+    },
+    {
+      "term": "Cost per room night generated",
+      "definition": "Campaign spend divided by the incremental room nights it can be shown to have caused — $200,000 against 4,000 attributable nights is $50 a night — which is judged against the lodging tax and assessment those nights yield, so a $50 cost on a $180 room paying 9% tax returns about $16 and fails.",
+      "whyItMatters": "A TTDM case defending a destination marketing budget to a hotel board must compare this figure with the tax yield per room night, and must use incremental nights rather than every night booked during the flight.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "matching-funds-ratio",
+        "transient-occupancy-tax"
+      ]
+    },
+    {
+      "term": "Tourism multiplier",
+      "definition": "The factor converting visitor spending into total economic output by adding indirect supplier purchases and induced household spending to the direct amount — a coefficient of 1.6 turns $1,000,000 of visitor spend into $1,600,000 of output, and the figure is a regional estimate that shrinks as more supplies are imported.",
+      "whyItMatters": "TTDM economic-impact cases hand a team an arrivals count, an average spend and a coefficient and expect the total impact computed, plus the caution that the coefficient is not transferable between destinations.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "tourism-leakage",
+        "day-tripper-spending-value"
+      ]
+    },
+    {
+      "term": "Tourism leakage",
+      "definition": "The share of visitor spending that leaves the host economy immediately — imported food and fuel, foreign-owned hotel profit sent home, and fares paid to non-local carriers — reaching 70 to 80% in small island destinations, so $10,000,000 of arrivals spending may retain only $2,000,000 locally before any multiplier is applied.",
+      "whyItMatters": "A TTDM case arguing for local sourcing or community-based operators is built on this percentage; quoting gross visitor spending as the community benefit is the error the judge is watching for.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "tourism-multiplier"
+      ]
+    },
+    {
+      "term": "Day-tripper spending value",
+      "definition": "The per-visit contribution of a same-day visitor, typically a quarter to a third of an overnight guest's because it carries no room charge and therefore no lodging tax at all — 50,000 day visitors at $75 can be worth less to the destination's marketing fund than 10,000 overnight visitors at $250 across two nights.",
+      "whyItMatters": "A TTDM festival or attraction case that reports huge attendance must convert it into overnight equivalents before claiming a lodging-tax return, because the funding the campaign is defended by comes only from rooms.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "tourism-multiplier",
+        "transient-occupancy-tax"
+      ]
+    },
+    {
+      "term": "Baggage liability limit",
+      "definition": "The statutory ceiling on what a carrier owes for lost or damaged luggage, set per passenger in dollars on US domestic itineraries and in Special Drawing Rights — a fluctuating IMF unit, not dollars — under the Montreal Convention internationally, with anything above it recoverable only if excess value was declared and paid for at check-in.",
+      "whyItMatters": "A TTDM claim roleplay for a client whose $4,000 of equipment vanished turns on which regime the itinerary fell under and whether excess valuation was purchased, not on the replacement cost the client quotes.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "denied-boarding-compensation"
+      ]
+    },
+    {
+      "term": "Schengen 90/180 rule",
+      "definition": "A visa-free limit allowing 90 days of stay inside the zone within any rolling 180-day window, counted backwards from each day present rather than reset by a single exit — so a traveller who used 60 days in the last four months has 30 left today, and every day of an old stay only frees up once it falls outside the window.",
+      "whyItMatters": "A TTDM itinerary-planning roleplay for a client returning to Europe within months is answered by counting the rolling window; treating a trip home as a reset is what produces a refused entry at the border.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "six-month-passport-validity-rule"
+      ]
+    },
+    {
+      "term": "Six-month passport validity rule",
+      "definition": "An entry requirement, common across Asia, the Middle East and parts of Latin America, that a passport remain valid for six months beyond the arrival date — so a document expiring in four months is refused for a trip departing next week even though it has not yet expired, and airlines are fined for boarding the passenger.",
+      "whyItMatters": "A TTDM booking roleplay must check the expiry date against the return date plus six months before ticketing; the client is turned away at check-in, not at the border, and the agency wears the rebooking.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "schengen-90-180-rule"
+      ]
+    },
+    {
+      "term": "Seller of travel bond",
+      "definition": "A surety bond or trust account a travel seller must post to register in states such as California, Florida, Washington and Hawaii, sized in the tens of thousands of dollars and paired in some states with a consumer restitution fund fee per transaction, so client deposits are protected if the seller fails before departure.",
+      "whyItMatters": "A TTDM case on opening an agency across state lines is scored on naming the registration and the client-funds protection; an unregistered seller taking deposits in those states is committing an offence, not an oversight.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "full-fare-advertising-rule"
+      ]
+    },
+    {
+      "term": "Fare basis code",
+      "definition": "The alphanumeric string attached to a ticketed fare that encodes its conditions — the booking class letter first, then markers for season, weekday or weekend travel, advance purchase in days, minimum stay, and refundability — so two passengers in the same cabin can hold completely different change rights.",
+      "whyItMatters": "A TTDM roleplay asking whether a client may move a flight is answered by reading this code's restriction markers, not by the cabin the client is sitting in.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "nested-booking-class-inventory"
+      ]
+    },
+    {
+      "term": "Guarantee cabin",
+      "definition": "A cruise booking sold by category only, with no stateroom number assigned until close to sailing, priced below the lowest published fare in that category in exchange for the line keeping the right to place the guest anywhere at or above it.",
+      "whyItMatters": "A TTDM client who wants a discount but insists on a specific deck cannot be sold one, and the trade-off — cheaper, possible free upgrade, no location control, often no cancellation flexibility — is what the judge expects explained.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "lower-berth-occupancy",
+        "cruise-per-diem"
+      ]
+    },
+    {
+      "term": "Full fare advertising rule",
+      "definition": "A US Department of Transportation requirement that the first price shown for air travel include every mandatory tax and government fee, so a carrier may not advertise a base fare and add unavoidable charges later — optional charges such as checked bags may still be added, but must be disclosed.",
+      "whyItMatters": "A TTDM promotion roleplay writing a fare advertisement is scored on quoting the all-in figure; splitting out mandatory taxes to make the headline number smaller is the violation the judge is looking for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "seller-of-travel-bond"
+      ]
+    },
+    {
+      "term": "Voluntary denied boarding",
+      "definition": "Giving up a seat on an oversold flight in exchange for negotiated compensation the passenger accepts — usually a voucher, sometimes cash, plus a confirmed later seat — which is not capped by regulation and is not owed at all, unlike the statutory payment for a passenger removed against their will.",
+      "whyItMatters": "A TTDM roleplay coaching a client at an oversold gate depends on knowing that accepting the offer converts a legal entitlement into whatever was negotiated, so the counter-offer has to be made before agreeing.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "deca-domain:TTDM"
+      ],
+      "confusableWith": [
+        "denied-boarding-compensation"
+      ]
+    }
+  ]
+}

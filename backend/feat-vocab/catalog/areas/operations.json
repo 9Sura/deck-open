@@ -5,44 +5,13 @@
   ],
   "terms": [
     {
-      "term": "Inventory",
-      "definition": "The stock of goods or materials a business holds for sale or use.",
-      "whyItMatters": "Inventory management balances meeting demand against storage cost.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/operations.txt"
-      ]
-    },
-    {
       "term": "Purchase order",
       "definition": "A formal document requesting goods or services from a vendor at set terms.",
       "whyItMatters": "Purchase orders create the paper trail for efficient procurement.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
-    },
-    {
-      "term": "Vendor",
-      "definition": "A supplier that provides goods or services to a business.",
-      "whyItMatters": "Vendor choice drives product quality, cost, and supply reliability.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/operations.txt"
-      ]
-    },
-    {
-      "term": "Safety procedures",
-      "definition": "Documented steps employees follow to prevent workplace accidents and injuries.",
-      "whyItMatters": "Following them protects employees and limits liability.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/operations.txt"
-      ]
-    },
-    {
-      "term": "Work prioritization",
-      "definition": "Ranking tasks by importance and urgency to meet deadlines.",
-      "whyItMatters": "Prioritizing ensures critical work and resources come first.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Quality control",
@@ -50,15 +19,8 @@
       "whyItMatters": "It catches defects early, protecting satisfaction and reducing waste.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
-    },
-    {
-      "term": "Standard operating procedure",
-      "definition": "A documented, step-by-step method for a recurring task.",
-      "whyItMatters": "SOPs improve consistency, training, quality, and safety.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Project management",
@@ -66,15 +28,8 @@
       "whyItMatters": "It lets managers coordinate resources and deliver on schedule.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
-    },
-    {
-      "term": "Purchasing",
-      "definition": "Acquiring the goods and services a business needs to operate.",
-      "whyItMatters": "Smart purchasing shapes inventory, quality, and supplier relationships.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Data security",
@@ -82,15 +37,8 @@
       "whyItMatters": "Good data security prevents costly breaches and keeps trust.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
-    },
-    {
-      "term": "Production",
-      "definition": "Creating or manufacturing goods from raw materials, labor, and equipment.",
-      "whyItMatters": "Production efficiency drives profitability, quality, and delivery.",
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Operating costs",
@@ -98,7 +46,8 @@
       "whyItMatters": "Controlling operating costs is a lever competitors use to lift profit.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Supply chain",
@@ -106,7 +55,8 @@
       "whyItMatters": "Supply-chain thinking underlies inventory, vendor, and cost decisions.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Inventory turnover",
@@ -114,7 +64,8 @@
       "whyItMatters": "Turnover reveals inventory efficiency and its impact on cash flow.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "hard"
     },
     {
       "term": "Supply-chain collaboration",
@@ -122,7 +73,8 @@
       "whyItMatters": "Collaboration reduces delays and strengthens competitive advantage.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
-      ]
+      ],
+      "difficulty": "medium"
     },
     {
       "term": "Quality culture",
@@ -130,6 +82,553 @@
       "whyItMatters": "A quality culture lowers defects and lifts loyalty over time.",
       "sourceRefs": [
         "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "term": "Economic order quantity",
+      "definition": "The square root of (2 x annual demand x cost per order) divided by annual holding cost per unit — the single order size where rising carrying cost and falling ordering cost cross and total cost bottoms out.",
+      "whyItMatters": "An operations roleplay that asks you to cut the cost of holding stock is answered with this trade-off, not with 'order less': you must say that ordering more often lowers carrying cost but raises order cost, and name the quantity where the two balance.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "reorder-point",
+        "safety-stock"
+      ]
+    },
+    {
+      "term": "Reorder point",
+      "definition": "Average daily usage multiplied by lead time in days, plus safety stock — the on-hand level that triggers a replenishment order, so it answers WHEN to order while economic order quantity answers HOW MUCH.",
+      "whyItMatters": "Exam items give you daily usage, a supplier lead time and a buffer and ask at what stock level a buyer should place the reorder; picking the order size instead of the trigger level is the standard wrong answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "economic-order-quantity",
+        "safety-stock"
+      ]
+    },
+    {
+      "term": "Safety stock",
+      "definition": "Buffer units sized as a service-level z-value times the standard deviation of demand over lead time, held only to absorb variability — unlike cycle stock, which is the working quantity consumed between deliveries and would exist even with perfectly steady demand.",
+      "whyItMatters": "A supplier-reliability roleplay turns on this: raising the promised in-stock service level raises the buffer more than proportionally, so the judge wants the cost of that extra protection weighed against the cost of a stockout.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "reorder-point",
+        "just-in-time-inventory"
+      ]
+    },
+    {
+      "term": "Days sales of inventory",
+      "definition": "Average inventory divided by cost of goods sold, multiplied by 365 — the same relationship as inventory turnover but expressed as days on hand, so it falls when turnover rises and 365 divided by turnover reproduces it.",
+      "whyItMatters": "Given a balance sheet and a cost of goods sold figure, exam questions ask how long a firm's stock sits before selling; answering with the turnover ratio when the item asked for days is a scored miss.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "inventory-turnover",
+        "cycle-counting"
+      ]
+    },
+    {
+      "term": "ABC inventory analysis",
+      "definition": "A Pareto split of stock by annual dollar usage: roughly the top 20 percent of items carrying about 80 percent of the value are class A and get tight control and frequent counts, class B moderate control, class C the low-value bulk that is managed loosely with large buffers.",
+      "whyItMatters": "Asked how a warehouse manager should spend limited counting and control effort, the accepted answer is to classify by dollar usage and concentrate on class A rather than treat every item alike.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "cycle-counting",
+        "warehouse-slotting"
+      ]
+    },
+    {
+      "term": "Cycle counting",
+      "definition": "Auditing a small subset of items on a rotating schedule — high-value class A lines several times a year, class C lines once — so the business keeps operating, in contrast with a full physical count, which prices accuracy by shutting the facility for a wall-to-wall count once a year.",
+      "whyItMatters": "In a shrink-control roleplay the judge expects you to catch record errors continuously without closing the store, and to explain why the rotating audit finds problems months earlier than the annual shutdown.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "inventory-shrinkage-rate",
+        "abc-inventory-analysis"
+      ]
+    },
+    {
+      "term": "Inventory shrinkage rate",
+      "definition": "Book inventory value minus counted physical value, divided by book value (or by net sales), expressed as a percentage — it isolates loss to theft, damage, spoilage and paperwork error, and never includes units legitimately sold.",
+      "whyItMatters": "Loss-prevention items give a recorded value and a counted value and ask for the percentage lost; the retail benchmark of roughly one to two percent of sales is what a judge compares your figure against.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "cycle-counting",
+        "internal-control"
+      ]
+    },
+    {
+      "term": "Just-in-time inventory",
+      "definition": "Scheduling deliveries to arrive as production consumes them so carrying cost and warehouse space approach zero; the explicit trade against safety-stock buffering is that it removes the cushion that absorbs a late supplier, so one disrupted shipment stops the line.",
+      "whyItMatters": "A supply-disruption roleplay wants both halves — the carrying-cost saving and the exposure it creates — because recommending it without naming the supplier-reliability requirement is what costs the point.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "safety-stock",
+        "kanban"
+      ]
+    },
+    {
+      "term": "Kanban",
+      "definition": "A card, bin or electronic signal that authorizes replenishment only after downstream consumption, making it a PULL system — the opposite of material requirements planning, which PUSHES output on a forecast whether or not the next station has consumed the last batch.",
+      "whyItMatters": "Production questions test the pull-versus-push distinction directly: the signal-driven system builds only what was used, so it is the answer when the scenario complains of piled-up work in process.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "material-requirements-planning",
+        "just-in-time-inventory"
+      ]
+    },
+    {
+      "term": "Kaizen",
+      "definition": "Continuous small improvements generated by the workers doing the job, accumulating gradually at near-zero capital cost — deliberately opposed to kaikaku or reengineering, which is a rare, top-down, capital-heavy redesign of the whole process.",
+      "whyItMatters": "When a roleplay asks how to streamline work without a budget, the incremental frontline approach is the fitting recommendation, and the judge listens for why you did not propose a full redesign.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "gemba-walk",
+        "total-quality-management"
+      ]
+    },
+    {
+      "term": "5S",
+      "definition": "A five-step workplace discipline — sort out what is not needed, set remaining items in fixed marked locations, shine and inspect, standardize the arrangement in writing, and sustain it by audit — where the fifth step is the one that fails and turns the program into a one-time cleanup.",
+      "whyItMatters": "Safety and efficiency roleplays reward naming a structured method for a cluttered work area rather than saying 'organize it,' and the sustain-by-audit step is the detail that separates a full answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "kaizen",
+        "gemba-walk"
+      ]
+    },
+    {
+      "term": "Poka-yoke",
+      "definition": "A physical or software constraint that makes the wrong action impossible or immediately obvious — a plug that only fits one way, a field that refuses an invalid date — so defects are PREVENTED at the source, unlike statistical process control, which detects defects after they have already been produced.",
+      "whyItMatters": "Quality-method questions distinguish prevention from detection, and the mistake-proofing device is the accepted example of prevention when a scenario describes a repeated human error.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "statistical-process-control",
+        "acceptance-sampling"
+      ]
+    },
+    {
+      "term": "Theory of constraints",
+      "definition": "A doctrine holding that one bottleneck sets the output of the whole system, worked through five focusing steps — identify the constraint, exploit it, subordinate everything else to it, elevate it with added capacity, then repeat because the constraint has moved — so improvement anywhere else adds inventory, not throughput.",
+      "whyItMatters": "When a production roleplay describes one slow station, the judge wants the constraint named and the rest of the line paced to it, not a blanket speed-up of every station.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "takt-time",
+        "overall-equipment-effectiveness"
+      ]
+    },
+    {
+      "term": "Takt time",
+      "definition": "Available production time in a shift divided by customer units demanded in that shift — the pace demand dictates, which is set outside the factory, unlike cycle time, the pace the line actually achieves; a cycle time above it means the plant cannot keep up with orders.",
+      "whyItMatters": "Line-balancing items give shift minutes and a daily order quantity and ask how often a unit must come off the line; confusing the demand-set pace with the observed one flips the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "theory-of-constraints",
+        "overall-equipment-effectiveness"
+      ]
+    },
+    {
+      "term": "Overall equipment effectiveness",
+      "definition": "Availability multiplied by performance multiplied by quality, each a percentage — so a machine running 90 percent uptime at 90 percent of rated speed with 90 percent good output scores about 73 percent, which is why the product exposes losses the three separate rates hide.",
+      "whyItMatters": "Equipment and maintenance questions ask why a line reported as 'ninety percent up' still misses its quota; multiplying the three loss categories is the accepted way to show it.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "capacity-utilization-rate",
+        "takt-time"
+      ]
+    },
+    {
+      "term": "Material requirements planning",
+      "definition": "Software that explodes a master production schedule through the bill of materials and nets it against on-hand stock to time component orders; it plans materials only, while enterprise resource planning extends the same database to finance, human resources and sales as one system.",
+      "whyItMatters": "Technology-in-operations items test whether you can scope the two acronyms apart — the narrow materials planner versus the company-wide platform — which is the discrimination most competitors get backwards.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "kanban",
+        "bill-of-materials"
+      ]
+    },
+    {
+      "term": "Gantt chart",
+      "definition": "A horizontal bar timeline showing each task's start, duration and overlap against calendar dates; it displays schedule but not logic, whereas a PERT network draws the dependency arrows that reveal which tasks actually control the finish date.",
+      "whyItMatters": "Project-management roleplays ask which tool to bring to a status meeting: the bar timeline communicates progress to a client, but it cannot answer which delay pushes the deadline.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "program-evaluation-and-review-technique",
+        "critical-path-method"
+      ]
+    },
+    {
+      "term": "Program evaluation and review technique",
+      "definition": "A dependency network that estimates each task's expected duration as optimistic plus four times most likely plus pessimistic, divided by six — a weighted three-point estimate for work with uncertain durations, unlike a critical path calculation, which assumes one fixed duration per task.",
+      "whyItMatters": "Exam items hand you three time estimates for a task and ask for the expected duration; the weighted formula, not a plain average of the three numbers, is the scored answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "gantt-chart",
+        "critical-path-method"
+      ]
+    },
+    {
+      "term": "Critical path method",
+      "definition": "Summing durations along every dependency chain and taking the longest one as the shortest possible project duration; every task on it has zero float, so any slip there slips the whole project, while a delay off it is absorbed.",
+      "whyItMatters": "A project roleplay that asks which of several late tasks to escalate is answered by locating the zero-float chain, because effort spent on the others buys no finish-date improvement.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "schedule-float",
+        "program-evaluation-and-review-technique"
+      ]
+    },
+    {
+      "term": "Schedule float",
+      "definition": "Latest allowable start minus earliest possible start for a task — the delay it can absorb before the project finish moves; total float is shared along a chain, whereas free float is the smaller amount that delays no immediately following task at all.",
+      "whyItMatters": "Given a network with early and late start dates, exam questions ask how long a task can slip; confusing the shared allowance with the task-level one over-promises the client in a status roleplay.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "critical-path-method",
+        "scope-creep"
+      ]
+    },
+    {
+      "term": "Earned value management",
+      "definition": "Comparing budgeted cost of work actually completed against what was spent and what was planned: cost performance index is earned value divided by actual cost, schedule performance index is earned value divided by planned value, and any index below 1.0 signals over budget or behind schedule.",
+      "whyItMatters": "Project-evaluation items ask whether a project that has spent sixty percent of its budget is in trouble; only the ratio against work completed answers it, and a raw spending percentage does not.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "critical-path-method",
+        "scope-creep"
+      ]
+    },
+    {
+      "term": "Work breakdown structure",
+      "definition": "A deliverable-oriented decomposition of a project into progressively smaller work packages governed by the 100 percent rule — the children of any element must sum to exactly that element, no more and no less — so it captures scope, not sequence, which the schedule adds afterward.",
+      "whyItMatters": "Asked how to start planning a project, the accepted first move is decomposing deliverables before estimating or scheduling, and the completeness rule is what stops forgotten work becoming a budget overrun.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "scope-creep",
+        "gantt-chart"
+      ]
+    },
+    {
+      "term": "Statistical process control",
+      "definition": "Charting sample measurements over time against limits computed from the process's own variation to separate common-cause noise from assignable-cause shifts; it monitors a process while it runs, unlike acceptance sampling, which judges a finished lot after the fact.",
+      "whyItMatters": "Quality-method roleplays ask how to catch a drifting machine before it produces scrap; watching the charted trend is the in-process answer, and inspecting finished goods is the one judges mark as too late.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/quality_management.txt"
+      ],
+      "confusableWith": [
+        "control-limits",
+        "acceptance-sampling"
+      ]
+    },
+    {
+      "term": "Control limits",
+      "definition": "Boundaries drawn three standard deviations above and below the process mean and calculated FROM the process's own output, which makes them a statement of what the process does — specification limits are set by the customer or engineer and state what the product must be, so a process can sit inside one pair and outside the other.",
+      "whyItMatters": "The classic exam trap shows points inside the charted band but outside customer tolerance; recognizing that a stable process can still be producing unacceptable parts is the tested discrimination.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/quality_management.txt"
+      ],
+      "confusableWith": [
+        "statistical-process-control",
+        "process-capability-index"
+      ]
+    },
+    {
+      "term": "Process capability index",
+      "definition": "The width of the customer's tolerance divided by six standard deviations of process spread, with Cpk penalizing an off-center mean by measuring only the nearer specification limit; 1.33 is the common minimum and a value below 1.0 means defects are unavoidable even when the process is perfectly stable.",
+      "whyItMatters": "Supplier-quality roleplays use this figure as the acceptance bar: a supplier can hold a steady process and still fail, which is the argument you make when resolving a quality dispute.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/quality_management.txt"
+      ],
+      "confusableWith": [
+        "control-limits",
+        "six-sigma"
+      ]
+    },
+    {
+      "term": "Acceptance sampling",
+      "definition": "Inspecting a randomly drawn sample from a delivered lot and accepting or rejecting the entire lot on the count of defects found, against a stated acceptable quality level — the highest defect percentage treated as satisfactory — which trades a known risk of passing a bad lot for the cost of inspecting every unit.",
+      "whyItMatters": "Receiving-process questions ask how a buyer verifies a large shipment economically; naming the tolerable defect percentage and the risk it accepts is what distinguishes a full answer from 'check some of them'.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/quality_management.txt"
+      ],
+      "confusableWith": [
+        "statistical-process-control",
+        "poka-yoke"
+      ]
+    },
+    {
+      "term": "ISO 9001",
+      "definition": "An international quality-management standard certifying that documented processes exist, are followed and are audited by an independent registrar with surveillance visits — it certifies the management SYSTEM, not the product, so a registered firm can lawfully make a mediocre item consistently.",
+      "whyItMatters": "Vendor-selection roleplays treat registration as evidence of process discipline, and the judge is listening for the caveat that it guarantees consistency rather than excellence.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/quality_management.txt"
+      ],
+      "confusableWith": [
+        "total-quality-management",
+        "quality-culture"
+      ]
+    },
+    {
+      "term": "Hazard analysis and critical control points",
+      "definition": "A seven-principle food-safety system that analyzes biological, chemical and physical hazards, fixes the specific steps where a hazard can be eliminated or controlled, sets a measurable critical limit at each such step, then monitors, corrects, verifies and records — control at those points, not final-product testing, is what proves safety.",
+      "whyItMatters": "Hospitality roleplays about food handling reward naming the control step and its measurable limit — a cooking temperature or a holding time — instead of general cleanliness advice.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "safety-data-sheet",
+        "quality-control"
+      ]
+    },
+    {
+      "term": "Total quality management",
+      "definition": "A company-wide philosophy making every employee responsible for continuous improvement and customer-defined quality; quality assurance is the narrower set of process activities designed to prevent defects, and quality control is the narrowest — the inspection and testing that finds defects after production.",
+      "whyItMatters": "Exam items line up the three terms and ask which one an inspection station belongs to; sorting philosophy from prevention from detection is the whole question.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/quality_management.txt"
+      ],
+      "confusableWith": [
+        "quality-control",
+        "quality-culture"
+      ]
+    },
+    {
+      "term": "Cross-docking",
+      "definition": "Unloading inbound freight and transferring it directly to outbound trailers within hours, sorting by destination on the dock, so the goods are never put away — the opposite of conventional warehousing, which stores, picks and holds stock and therefore incurs carrying cost that this eliminates.",
+      "whyItMatters": "Distribution roleplays about cutting inventory cost and speeding delivery expect this as the named technique, and the judge wants the requirement that inbound and outbound schedules be tightly synchronized.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "logistics",
+        "warehouse-slotting"
+      ]
+    },
+    {
+      "term": "Third-party logistics",
+      "definition": "Outsourcing physical distribution functions — warehousing, transportation, freight handling — to a provider that owns trucks and buildings; a fourth-party provider owns no assets and instead manages the other providers, acting as a single coordinating layer over several third parties.",
+      "whyItMatters": "Distribution-strategy questions ask which outsourcing level fits a firm that lacks not trucks but the ability to coordinate several carriers, and the asset-owning versus orchestrating split is the answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "logistics",
+        "intermediary"
+      ]
+    },
+    {
+      "term": "Bullwhip effect",
+      "definition": "Amplification of demand variability moving upstream, where a small retail sales swing becomes a larger distributor order swing and a still larger factory order swing, driven by batch ordering, price promotions, forecast updating and shortage gaming — shared point-of-sale data damps it.",
+      "whyItMatters": "Supply-chain collaboration roleplays use this to justify sharing real sales data with suppliers, and the four named causes are what turn a vague answer about 'communication' into a scored one.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "supply-chain-collaboration",
+        "vendor-managed-inventory"
+      ]
+    },
+    {
+      "term": "Landed cost",
+      "definition": "Unit price plus freight, insurance, duties and tariffs, customs brokerage, and handling to the receiving dock — the total that makes an offshore quote comparable to a domestic one, which is why the lower quoted unit price frequently loses once every downstream charge is added.",
+      "whyItMatters": "Vendor-selection roleplays present a cheaper overseas bid and expect you to reject a comparison based on quoted price alone by adding the delivery-related charges before deciding.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "cost-of-goods-sold",
+        "request-for-proposal"
+      ]
+    },
+    {
+      "term": "Request for proposal",
+      "definition": "A solicitation that describes a problem and invites vendors to propose their own solution, approach and price, evaluated on weighted criteria beyond cost — where a request for quotation specifies the exact item and quantity already and asks only for price and delivery, making it a lowest-bidder instrument.",
+      "whyItMatters": "Bid-process roleplays turn on choosing the right document: asking for solutions when you already know the specification wastes vendor effort, and asking only for price on an undefined need produces incomparable bids.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "purchase-requisition",
+        "three-way-match"
+      ]
+    },
+    {
+      "term": "Purchase requisition",
+      "definition": "An INTERNAL request from a department asking purchasing to buy something, carrying no commitment to any outside party; the purchase order that purchasing then issues is the EXTERNAL document, and it is the offer that forms a binding contract when the supplier accepts it.",
+      "whyItMatters": "Purchasing-control questions ask which document a department head signs and which one legally obligates the company; treating the internal request as the order is the standard error.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "three-way-match",
+        "invoice"
+      ]
+    },
+    {
+      "term": "Three-way match",
+      "definition": "A control that releases payment only when the purchase order, the receiving report and the supplier invoice agree on item, quantity and price; any one document alone can be forged or wrong, so requiring all three is what blocks payment for goods never ordered or never delivered.",
+      "whyItMatters": "Accounts-payable and ethics-in-purchasing roleplays ask what stops a fraudulent invoice from being paid, and naming all three documents plus the fields compared is the complete answer.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "purchase-requisition",
+        "internal-control"
+      ]
+    },
+    {
+      "term": "Vendor-managed inventory",
+      "definition": "An arrangement where the supplier monitors the buyer's usage data and decides replenishment timing and quantity, while the buyer still owns and pays for the stock on hand — consignment differs precisely there: the supplier retains ownership until the item is sold or consumed.",
+      "whyItMatters": "Supply-chain collaboration roleplays ask who should hold the replenishment decision and who carries the cash tied up in the stock; the ownership line is what separates the two arrangements.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "bullwhip-effect",
+        "supply-chain-collaboration"
+      ]
+    },
+    {
+      "term": "Total recordable incident rate",
+      "definition": "Recordable injuries and illnesses multiplied by 200,000, divided by total hours worked — the 200,000 representing 100 full-time employees working a 2,000-hour year, which is what makes a small firm's figure comparable with a large one's.",
+      "whyItMatters": "Safety roleplays give an injury count and an hours-worked total and ask whether the site is above its industry benchmark; a raw injury count cannot be benchmarked and is scored as an incomplete answer.",
+      "difficulty": "hard",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "near-miss-reporting",
+        "safety-data-sheet"
+      ]
+    },
+    {
+      "term": "Lockout/tagout",
+      "definition": "An energy-control procedure requiring every power source to a machine to be isolated, physically locked, and tagged by the individual servicing it — with the rule that only that person may remove their own lock — so no one can restart equipment while a colleague is inside it.",
+      "whyItMatters": "Equipment-safety roleplays about a maintenance injury expect this named procedure and the one-worker-one-lock rule, not general advice to turn the machine off.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "safety-data-sheet",
+        "near-miss-reporting"
+      ]
+    },
+    {
+      "term": "Gemba walk",
+      "definition": "A structured visit by managers to the actual place work happens, to observe the process and ask questions rather than to inspect people or correct anyone on the spot — the no-blame, observe-only rule is what keeps workers from staging the process for the visitor.",
+      "whyItMatters": "Asked how a manager should diagnose a slow process, the expected answer is direct observation at the work site rather than a report or a meeting, which is what an operations judge is listening for.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "kaizen",
+        "5s"
+      ]
+    },
+    {
+      "term": "Warehouse slotting",
+      "definition": "Assigning each item a storage location based on picking velocity, unit weight and case cube, so the fastest-moving lines sit closest to packing at waist height — the objective is minimizing picker travel distance, which is the largest single component of order-fulfillment labor.",
+      "whyItMatters": "Distribution roleplays about slow order fulfillment expect a layout answer tied to pick frequency, not more staff, and the travel-time argument is what makes it persuasive.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "abc-inventory-analysis",
+        "cross-docking"
+      ]
+    },
+    {
+      "term": "Safety data sheet",
+      "definition": "A supplier-provided document in a fixed sixteen-section order under the Globally Harmonized System, covering hazards, handling, exposure controls, first aid and disposal — the fixed section order is the point, because a responder finds first-aid information in the same place on every sheet.",
+      "whyItMatters": "A chemical-spill roleplay expects you to say where the handling and first-aid instructions live and that the sheets must be accessible to employees on the shift, not filed in a manager's office.",
+      "difficulty": "medium",
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ],
+      "confusableWith": [
+        "hazard-analysis-and-critical-control-points",
+        "lockout-tagout"
       ]
     }
   ]
