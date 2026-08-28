@@ -46,8 +46,9 @@ DECA competitors prepare for two things: a **cluster exam** (100 multiple-choice
   difficulty mix you choose. Instant, free to re-roll, composed from the question bank below.
 - **Question Bank** — browse the ready-made exam sets by cluster, set, and level. Every question
   is labelled Easy, Medium, or Hard and tagged with the performance indicator it tests.
-- **Vocab Terms** — flashcards for all 28 DECA events, 50 terms each, with a definition and a
-  "why it matters" note.
+- **Vocab Terms** — flashcards for all 28 DECA events, 250 terms each, with a definition, a
+  "why it matters" note and a difficulty. Filter by difficulty or topic area, or draw a 20- or
+  50-card session out of the deck.
 - **Roleplay Challenge** — full case studies across the 28 events, run against real DECA prep and
   presentation timers, ending in a self-scored debrief. The archive is thin so far (see §9).
 - **Progress** — a readiness score, a mastery heatmap by topic, and a practice history.
@@ -267,17 +268,38 @@ This is the same experience as a real cluster exam, minus the clock.
 
 Flashcards for terminology, organised **cluster → event → deck**.
 
-Every one of DECA's 28 competitive events has a **50-term deck** — 1,400 terms in total.
+Every one of DECA's 28 competitive events has a **250-term deck** — 7,000 cards in total. Every
+card is **medium or hard**; there is no easy tier, because a term you already know is not worth a
+card.
 
 Each card has:
 
 - the **term** on the front;
 - click (or **Flip**) to reveal the **definition** and a **"Why it matters"** note explaining how
   the term actually shows up in competition;
-- up to three **topic tags** so you know what area it belongs to.
+- a **difficulty badge** — Medium or Hard — on both faces;
+- a **topic tag** for the instructional area it belongs to. Most cards carry exactly one. Cards
+  written specifically for your event carry none and are labelled **Event-specific** instead —
+  they are the most event-particular vocabulary in the deck, not cards that were missed.
 
 Controls: **Prev / Next**, **Flip**, and **Mark learned**. A progress bar tracks your position in
 the deck and a tape label counts how many you've marked learned.
+
+**Three ways to cut the deck down**, because 250 cards in a row is a lot:
+
+- **Difficulty** — All, Medium or Hard.
+- **Area** — any single topic area in the deck, or Event-specific. A deck spans 12 to 21 areas
+  depending on the event, covering the whole cluster exam rather than only the topics tied to
+  your event's roleplay.
+- **Session** — All, or a random draw of **20** or **50**. A sized draw never repeats a card, and
+  **New draw** re-deals it.
+
+The two filters count against each other, so each number tells you what you would actually get if
+you clicked it. All three live in the address bar, so a filtered deck is a link you can share or
+bookmark.
+
+**Marking a card learned is not saved yet.** It resets on a reload or a filter change — the
+20-card session exists partly for that reason. Getting it onto your account is planned work.
 
 > Vocab is a reading tool, not a graded one — marking a card learned is for your own tracking in
 > that sitting and doesn't feed the Progress page.
@@ -487,10 +509,19 @@ Finance and Business Admin Core are deeper than the rest because they've been th
 pass that fills in every performance indicator until there's enough behind each one to actually
 drill it. The other three clusters are queued for the same treatment.
 
-### Vocab — 1,400 terms
+### Vocab — 7,000 cards
 
-**28 events × 50 terms**, across all five clusters (Marketing 11 events, Hospitality & Tourism 6,
-Finance 5, Business Admin Core 3, Entrepreneurship 3).
+**28 events × 250 terms**, across all five clusters (Marketing 11 events, Hospitality & Tourism 6,
+Finance 5, Business Admin Core 3, Entrepreneurship 3). Every card is medium or hard.
+
+Decks overlap on purpose. Events in the same cluster sit the same cluster-wide exam — BLTDM, HRM
+and PBM all take Business Administration Core — so the 7,000 cards are drawn from a smaller pool
+of distinct terms, and studying your own event's deck is still studying the right material.
+
+That pool holds **1,978 distinct terms, and 1,976 of them appear in at least one deck.** A deck
+still leans on your own event's topics; it just no longer stops there, so an area on your cluster
+exam that no event's roleplay names — Strategic Management is the clearest one — is in every deck
+rather than almost none.
 
 ### Roleplays — 7 scenarios
 

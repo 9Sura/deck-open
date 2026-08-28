@@ -26,6 +26,46 @@ generators end to end, because their inputs are the material being withheld.
 
 ---
 
+## 2026-08-28
+
+### `chore(migration): sync the public mirror — 2026-08-28 19:32 EDT`
+
+Two changes to how vocabulary works: the decks were re-dealt so each one covers the
+whole exam its event sits, and the flashcards themselves now move.
+
+**A deck now spans your cluster exam, not just your event's roleplay.** Decks were
+built outward from the topics tied to an event's roleplay, and they leaned on those
+topics so heavily that some subjects on the same exam never made the cut. A deck now
+covers 12 to 21 topic areas instead of 5 to 13, so the Area filter lists the subjects
+you will actually be tested on. Strategic Management is the clearest case: it is on
+all five cluster exams and it had 2 cards in the entire app. It now has 103, spread
+across all 28 decks. Business Law went from 42 cards to 153, and Pricing from 89 to
+123.
+
+**Terms that were written but unreachable are now in a deck.** 247 finished terms sat
+in the catalog where the deck builder could not draw them. 245 of those now appear in
+at least one deck — 1,976 of 1,978 distinct terms in total.
+
+Every deck is still 250 cards and every card is still medium or hard, and the balance
+between the two is about what it was. The cards themselves are unchanged; which deck
+each one lands in is what moved. A deck you were part-way through will look different.
+
+**Flashcards flip, and a card you mark learned blows away.** Clicking a card turns it
+over in 3D rather than swapping the text, so the term and the definition read as two
+sides of one card. Marking a card learned lifts it, tumbles it and drifts it off the
+screen while the next card is already there underneath, so nothing waits on the
+animation. Each card catches the wind a little differently, and the same card always
+flies the same way. Pressing Learned again only takes the mark off — a card flying
+away to say you do not know it after all would read as the opposite of what it means.
+Both animations respect the system Reduce Motion setting: the card swaps faces
+instantly and nothing flies.
+
+**Marking a card learned still is not saved.** It resets on a reload or a filter
+change. The 20- and 50-card sessions exist partly for that reason, and putting the
+mark on your account is planned work.
+
+---
+
 ## 2026-08-27
 
 ### `chore(migration): sync the public mirror — 2026-08-27 23:43 EDT`

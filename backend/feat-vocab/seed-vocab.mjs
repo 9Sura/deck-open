@@ -15,12 +15,35 @@
 // event's roleplay PI list. Tiers 2 and 3 are UNIONED, never assumed to contain
 // one another — four events declare an area their cluster blueprint does not
 // list (see resolveAreas below), and taking tier 3 alone would silently drop it.
-// Tier order is the priority order: the event's own areas are exhausted before
-// the wider blueprint is drawn on, so ACT's deck still leans accounting.
+// Tier order is the priority order, but it is a WEIGHTING, not a concatenation:
+// tier 3 is woven into tier 2 one row every TIER3_EVERY (default 5), so a deck
+// stays ~5/6 its own areas — ACT still leans accounting — while a blueprint area
+// no event declares still lands cards. Appending tier 3 after tier 2 instead is
+// what made it dead code: an event with 5+ declared areas holds more than
+// MAX_TERMS_PER_EVENT of its own, so the cut landed inside tier 2 and 25 of the
+// 28 decks drew ZERO tier-3 rows (#243).
+//
+// Weighting alone makes the reachability gap WORSE, so it is only half the fix.
+// interleave() takes a PREFIX of every area file, and every deck took the same
+// prefix, so a file's tail only shipped where some deck drew deep enough to
+// exhaust it. Broadening the draw makes every draw shallower: measured on the
+// finished catalog, weaving alone takes unreachable authored terms from 247 to
+// 460, and a per-area cap to 787. The other half is `cursor` — a per-area
+// running offset threaded through every deck in a FIXED order, so each deck
+// starts an area file where the previous deck stopped in it and consecutive
+// decks tile the file rather than re-reading its head. Together: 1,976 of 1,978
+// authored terms reach a deck, against 1,731 before.
+//
+// The cursor is why deck order is load-bearing. clusters/events iteration order
+// is the deck order; changing it re-cuts every deck. Rotation costs nothing on
+// difficulty balance because stratifyByDifficulty makes ANY window of an area
+// file carry that file's hard share, not just its head.
+//
 // Every term carries sourceRefs tracing to a real PI / roleplay / exam source.
 // Fully offline, deterministic, $0 at runtime.
 //
-// Env: MAX_TERMS_PER_EVENT (default 250), MIN_TERMS_PER_EVENT floor (default 200).
+// Env: MAX_TERMS_PER_EVENT (default 250), MIN_TERMS_PER_EVENT floor (default 200),
+// TIER3_EVERY (default 5) — tier-2 rows drawn per tier-3 row.
 // A deck below the floor fails the build unless VOCAB_ALLOW_THIN=1 (authoring).
 // Every catalog term must carry difficulty "medium" | "hard" (vocab plan 01 §5);
 // an ungraded term fails the run unless VOCAB_ALLOW_UNGRADED=1. That guard is
@@ -41,6 +64,8 @@ const MAX_TERMS_PER_EVENT = Number(process.env.MAX_TERMS_PER_EVENT ?? 250);
 const MIN_TERMS_PER_EVENT = Number(process.env.MIN_TERMS_PER_EVENT ?? 200);
 const ALLOW_THIN = process.env.VOCAB_ALLOW_THIN === "1";
 const ALLOW_UNGRADED = process.env.VOCAB_ALLOW_UNGRADED === "1";
+// Tier-2 rows drawn per tier-3 row. Must be >= 1 — 0 would make weave() spin.
+const TIER3_EVERY = Math.max(1, Number(process.env.TIER3_EVERY ?? 5));
 const DIFFICULTIES = new Set(["medium", "hard"]);
 
 // The exam blueprint — `core` shared by all five clusters plus per-cluster
@@ -178,6 +203,27 @@ function interleave(lists) {
   return out;
 }
 
+// Weighted merge: `ratio` rows of `primary` per row of `secondary`, then whichever
+// list outlives the other drains in order. This is what keeps tier 3 reachable
+// without letting it displace the event's own areas.
+function weave(primary, secondary, ratio) {
+  const out = [];
+  let i = 0;
+  let j = 0;
+  while (i < primary.length || j < secondary.length) {
+    for (let k = 0; k < ratio && i < primary.length; k += 1) out.push(primary[i++]);
+    if (j < secondary.length) out.push(secondary[j++]);
+  }
+  return out;
+}
+
+// Start an area's list at `offset`, wrapping — the cursor's window into the file.
+function rotate(list, offset) {
+  if (!list.length) return list;
+  const start = offset % list.length;
+  return start ? [...list.slice(start), ...list.slice(0, start)] : list;
+}
+
 // Tier 2 (the event's own areas) and tier 3 (the rest of its cluster's exam
 // blueprint) as two disjoint, order-stable lists. The union is what the draw
 // spans; the split is what keeps tier 2 ahead of tier 3.
@@ -196,10 +242,15 @@ function resolveAreas(eventAreas, cluster) {
   return { tier2: eventAreas, tier3: blueprintAreas.filter((area) => !own.has(area)) };
 }
 
-function composeDeck(eventAreas, code, cluster) {
+// `cursor` is a live area -> offset map shared by every deck, in deck order. It
+// is mutated here, so composeDeck is deterministic only for a fixed call order.
+function composeDeck(eventAreas, code, cluster, cursor) {
   const { tier2, tier3 } = resolveAreas(eventAreas, cluster);
   const listFor = (area) =>
-    stratifyByDifficulty((areaCatalog[area] ?? []).map((t) => ({ ...t, area })));
+    rotate(
+      stratifyByDifficulty((areaCatalog[area] ?? []).map((t) => ({ ...t, area }))),
+      cursor.get(area) ?? 0,
+    );
   const tier2Lists = tier2.map(listFor);
   const tier3Lists = tier3.map(listFor);
 
@@ -240,21 +291,33 @@ function composeDeck(eventAreas, code, cluster) {
     };
   };
 
-  // Event flavor first (guaranteed inclusion), then the event's own areas, then
-  // the rest of the blueprint — deduped by slug, capped at MAX_TERMS_PER_EVENT.
+  // Event flavor first (guaranteed inclusion), then the event's own areas woven
+  // with the rest of the blueprint at TIER3_EVERY:1 — deduped by slug, capped at
+  // MAX_TERMS_PER_EVENT.
   const seen = new Set();
   const deck = [];
   const draw = [
-    ...eventRows,
-    ...interleave(tier2Lists).map(toAreaRow),
-    ...interleave(tier3Lists).map(toAreaRow),
+    ...eventRows.map((row) => ({ row })),
+    ...weave(interleave(tier2Lists), interleave(tier3Lists), TIER3_EVERY).map((t) => ({
+      row: toAreaRow(t),
+      area: t.area,
+    })),
   ];
-  for (const row of draw) {
+
+  // Advance each area's cursor by every row this deck REACHED from it, dedupe
+  // skips included: a skipped row is already in this deck under another area, so
+  // leaving it under the cursor would only make the next deck re-offer a term
+  // that is already reachable.
+  const reached = new Map();
+  for (const { row, area } of draw) {
+    if (area) reached.set(area, (reached.get(area) ?? 0) + 1);
     if (!row.term || seen.has(row.slug)) continue;
     seen.add(row.slug);
     deck.push(row);
     if (deck.length >= MAX_TERMS_PER_EVENT) break;
   }
+  for (const [area, n] of reached) cursor.set(area, (cursor.get(area) ?? 0) + n);
+
   return deck;
 }
 
@@ -264,6 +327,9 @@ const ungraded = [];
 // Compose every deck in memory FIRST, then check the guards, then write. A guard
 // that fires after the write has already published what it was meant to stop.
 const pending = [];
+
+// Shared across every deck — see composeDeck. Deck order IS clusters/events order.
+const cursor = new Map();
 
 for (const [cluster, meta] of Object.entries(clusters)) {
   const clusterPath = path.join(dataRoot, cluster);
@@ -282,7 +348,7 @@ for (const [cluster, meta] of Object.entries(clusters)) {
 
   for (const code of meta.events) {
     const [name, format, instructionalAreas] = eventMeta[code];
-    const terms = composeDeck(instructionalAreas, code, cluster);
+    const terms = composeDeck(instructionalAreas, code, cluster, cursor);
     if (terms.length < MIN_TERMS_PER_EVENT) thinDecks.push(`${cluster}/${code} (${terms.length})`);
     for (const t of terms) {
       if (!DIFFICULTIES.has(t.difficulty)) ungraded.push(`${cluster}/${code}: ${t.slug} (${t.difficulty ?? "none"})`);
@@ -294,7 +360,7 @@ for (const [cluster, meta] of Object.entries(clusters)) {
       instructionalAreas,
       sourceNotes: [
         `Seeded from ${code} roleplay performance indicators and ${meta.examName.toLowerCase()} exam data.`,
-        `Drawn in three tiers: ${code} event flavor, then this event's own instructional areas, then the rest of the ${meta.examName.toLowerCase()} exam blueprint.`,
+        `Drawn in three tiers: ${code} event flavor first, then this event's own instructional areas woven with the rest of the ${meta.examName.toLowerCase()} exam blueprint.`,
         "Terms are scoped for future vocab-card, quiz, and event-filter UI use.",
       ],
       terms,
@@ -304,6 +370,30 @@ for (const [cluster, meta] of Object.entries(clusters)) {
   }
 
   pending.push({ file: path.join(clusterPath, "manifest.json"), payload: manifest });
+}
+
+// Reachability report. The whole point of #243 is that an authored, gated,
+// committed term reaching no deck is invisible from the app — every deck is full
+// and correct either way — so the assembler says so out loud. A warning, not a
+// gate: `risk_management` is eligible in only four decks and PFL holds 46 of its
+// 55 terms, which leaves two structurally unreachable at any TIER3_EVERY.
+const authoredSlugs = new Set();
+for (const terms of [...Object.values(areaCatalog), ...Object.values(eventCatalog)]) {
+  for (const t of terms) authoredSlugs.add(slugify(t.term));
+}
+const shipped = new Set();
+for (const { payload } of pending) {
+  for (const t of payload.terms ?? []) shipped.add(t.slug);
+}
+const unreachable = [...authoredSlugs].filter((slug) => !shipped.has(slug));
+if (unreachable.length) {
+  const shown = unreachable.slice(0, 20);
+  const rest = unreachable.length - shown.length;
+  console.warn(
+    `[seed-vocab] ${unreachable.length} of ${authoredSlugs.size} authored term(s) reach no deck:\n  ${shown.join("\n  ")}${rest > 0 ? `\n  ...and ${rest} more` : ""}`,
+  );
+} else {
+  console.log(`[seed-vocab] all ${authoredSlugs.size} authored term(s) reach at least one deck.`);
 }
 
 if (ungraded.length) {

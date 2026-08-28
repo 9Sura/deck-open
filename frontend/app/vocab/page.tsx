@@ -3,6 +3,7 @@
 import * as React from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
+import { motion, type Transition } from "motion/react";
 import { CheckCircle2, ChevronLeft, ChevronRight, RotateCcw, Shuffle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -13,6 +14,7 @@ import { Segmented } from "@/components/ui/segmented";
 import { Select } from "@/components/ui/select";
 import { StickyNote, Sparkle } from "@/components/doodles";
 import { cn } from "@/lib/utils";
+import { usePrefersReducedMotion } from "@/hooks/use-prefers-reduced-motion";
 import { CLUSTERS } from "@/lib/data/clusters";
 import { FORMAT_LABEL } from "@/lib/deca";
 import {
@@ -65,7 +67,11 @@ const SIZE_VALUES: SessionSize[] = ["all", "20", "50"];
 
 export default function VocabPage() {
   return (
-    <div className="mx-auto max-w-6xl px-5 py-12 sm:px-8">
+    // `overflow-x-clip` is load-bearing, not tidiness: the card the wind takes drifts past the
+    // right edge of this column, and on a 390px screen that pushed `scrollWidth` from 390 to 617
+    // — a horizontal scrollbar that appeared for one second every time a card was marked learned.
+    // `clip` rather than `hidden` because `hidden` would make this a scroll container.
+    <div className="mx-auto max-w-6xl overflow-x-clip px-5 py-12 sm:px-8">
       <Link href="/" className="text-sm text-muted hover:text-ink">
         Back home
       </Link>
@@ -254,6 +260,150 @@ function shuffled<T>(items: T[], seed: number): T[] {
   return out;
 }
 
+/**
+ * A card's flight path is a pure function of its slug, the same way the session draw is a pure
+ * function of (pool, seed). A leaf that tumbled differently on every re-render would re-roll
+ * mid-flight, and "which way did that one go" would stop being a property of the card.
+ *
+ * FNV-1a over the slug, then one 0–1 number spread across four parameters — how far the gust
+ * carries it, how high it lifts before it drops, how far it tumbles in-plane, and how much it
+ * wobbles out of plane. The ranges are deliberately narrow: every card should read as the same
+ * wind, not as four different animations.
+ */
+interface Wind {
+  drift: number;
+  lift: number;
+  spin: number;
+  tilt: number;
+}
+
+function windFor(slug: string): Wind {
+  let h = 2166136261;
+  for (let i = 0; i < slug.length; i += 1) {
+    h ^= slug.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  const unit = ((h >>> 0) % 1000) / 1000;
+  return {
+    drift: 190 + unit * 90,
+    lift: -46 - unit * 74,
+    spin: 26 + unit * 40,
+    tilt: 16 + unit * 28,
+  };
+}
+
+/** The card the wind took: enough to redraw the face it was showing, and nothing else. */
+interface FlyingCard {
+  term: VocabTerm;
+  index: number;
+  revealed: boolean;
+  wind: Wind;
+}
+
+/**
+ * Depth for the flip. High enough that the turn reads as a card rather than as a squash, low
+ * enough that the near edge does not balloon on a wide screen.
+ */
+const PERSPECTIVE = "1600px";
+
+/** A card has weight. A spring settles like one; a tween arrives and stops dead. */
+const FLIP_TRANSITION: Transition = {
+  type: "spring",
+  stiffness: 220,
+  damping: 26,
+  mass: 0.9,
+};
+
+/** Slow out of the gust, quick through the fall — a leaf does not travel at a constant rate. */
+const LEAF_TRANSITION: Transition = {
+  duration: 1.2,
+  times: [0, 0.22, 0.62, 1],
+  ease: [0.3, 0, 0.45, 1],
+};
+
+/**
+ * `backfaceVisibility` is what makes this a flip rather than two cards sharing a box: without it
+ * both faces paint at every angle and the back shows through the front, mirrored. Safari still
+ * wants the prefixed property, and Tailwind's arbitrary-property syntax will not emit both, so
+ * these are inline.
+ */
+const FACE_FRONT: React.CSSProperties = {
+  gridArea: "1 / 1",
+  backfaceVisibility: "hidden",
+  WebkitBackfaceVisibility: "hidden",
+};
+
+const FACE_BACK: React.CSSProperties = {
+  ...FACE_FRONT,
+  transform: "rotateY(180deg)",
+};
+
+/**
+ * One face of a flashcard. Extracted because it is now rendered three times — the two faces of
+ * the live card and the ghost the wind carries off — and the difficulty badge has to be identical
+ * on all three. Inlining it three times is how the badge ends up on two of them.
+ *
+ * `variant` follows the position in the session, not in the full 250-card deck, so the frame
+ * rhythm stays stable as you page through whatever you filtered to.
+ */
+function CardFace({
+  term,
+  index,
+  side,
+}: {
+  term: VocabTerm;
+  index: number;
+  side: "term" | "definition";
+}) {
+  return (
+    <Card variant={index} className="min-h-[21rem] p-6 sm:p-8">
+      <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
+        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-ink font-display text-sm font-bold text-paper">
+          {index + 1}
+        </span>
+        <div className="flex flex-wrap items-center gap-2">
+          {term.tags.length > 0 ? (
+            term.tags.map((tag) => (
+              <Highlight
+                key={tag}
+                color="highlight"
+                animate={false}
+                className="text-sm font-medium"
+              >
+                {formatTag(tag)}
+              </Highlight>
+            ))
+          ) : (
+            <Highlight color="highlight" animate={false} className="text-sm font-medium">
+              Event-specific
+            </Highlight>
+          )}
+          <DifficultyBadge difficulty={term.difficulty} />
+        </div>
+      </div>
+
+      {side === "term" ? (
+        <div className="flex min-h-56 flex-col justify-center">
+          <p className="marker text-sm text-muted">term</p>
+          <p className="mt-3 font-display text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+            {term.term}
+          </p>
+          <p className="mt-8 text-sm text-muted">Click the card to reveal the definition.</p>
+        </div>
+      ) : (
+        <div className="flex min-h-56 flex-col justify-center">
+          <p className="marker text-sm text-muted">definition</p>
+          <p className="mt-3 text-xl font-semibold leading-relaxed">{term.definition}</p>
+          <div className="mt-6 rounded-2xl bg-paper-2 p-4">
+            <p className="text-[0.8rem] font-semibold uppercase text-muted">Why it matters</p>
+            <p className="mt-1 leading-relaxed text-ink/80">{term.whyItMatters}</p>
+          </div>
+        </div>
+      )}
+    </Card>
+  );
+}
+
 function matchesArea(term: VocabTerm, area: string): boolean {
   if (area === AREA_ALL) return true;
   if (area === AREA_EVENT) return term.tags.length === 0;
@@ -291,6 +441,8 @@ function FlashcardStudy({
   const [revealed, setRevealed] = React.useState(false);
   const [learned, setLearned] = React.useState<Set<string>>(() => new Set());
   const [seed, setSeed] = React.useState(() => Math.floor(Math.random() * 0xffffffff));
+  const [flying, setFlying] = React.useState<FlyingCard | null>(null);
+  const reduced = usePrefersReducedMotion();
 
   React.useEffect(() => {
     let cancelled = false;
@@ -425,12 +577,27 @@ function FlashcardStudy({
 
   const toggleLearned = () => {
     if (!active) return;
+    const already = learned.has(active.slug);
     setLearned((current) => {
       const next = new Set(current);
-      if (next.has(active.slug)) next.delete(active.slug);
+      if (already) next.delete(active.slug);
       else next.add(active.slug);
       return next;
     });
+
+    // Only *marking* blows the card away — un-marking is a correction, and a card that flew off
+    // to say "you don't know this after all" would read as the opposite of what it means. The
+    // ghost is a copy layered over the deck rather than the live card, so the next card is
+    // already in place underneath before the leaf has finished falling; nothing waits on the
+    // animation and nothing reflows when it ends. Under reduced motion there is no ghost at all.
+    if (already) return;
+    if (!reduced) {
+      setFlying({ term: active, index, revealed, wind: windFor(active.slug) });
+    }
+    if (index < session.length - 1) {
+      setIndex((current) => current + 1);
+      setRevealed(false);
+    }
   };
 
   if (state === "loading") {
@@ -566,60 +733,69 @@ function FlashcardStudy({
         <div className="h-full bg-highlight transition-all" style={{ width: `${progress}%` }} />
       </div>
 
-      <button
-        type="button"
-        onClick={() => setRevealed((value) => !value)}
-        aria-pressed={revealed}
-        className="block w-full text-left transition-transform hover:-translate-y-0.5"
-      >
-        {/* `variant` follows the position in the session, not in the full 250-card deck, so
-            the frame rhythm stays stable as you page through whatever you filtered to. */}
-        <Card variant={index} className="min-h-[21rem] p-6 sm:p-8">
-          <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
-            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-ink font-display text-sm font-bold text-paper">
-              {index + 1}
-            </span>
-            <div className="flex flex-wrap items-center gap-2">
-              {active.tags.length > 0 ? (
-                active.tags.map((tag) => (
-                  <Highlight
-                    key={tag}
-                    color="highlight"
-                    animate={false}
-                    className="text-sm font-medium"
-                  >
-                    {formatTag(tag)}
-                  </Highlight>
-                ))
-              ) : (
-                <Highlight color="highlight" animate={false} className="text-sm font-medium">
-                  Event-specific
-                </Highlight>
-              )}
-              <DifficultyBadge difficulty={active.difficulty} />
+      {/* The flip stage. `perspective` has to sit on the PARENT of the rotating element — put it
+          on the rotating element itself and the card turns flat, with no foreshortening at all.
+          The ghost of a card the wind took is layered over this box, which is why it is relative. */}
+      <div className="relative">
+        <button
+          type="button"
+          onClick={() => setRevealed((value) => !value)}
+          aria-pressed={revealed}
+          className="block w-full text-left transition-transform hover:-translate-y-0.5"
+          style={{ perspective: PERSPECTIVE }}
+        >
+          {/* Both faces occupy the same grid cell, so the box is as tall as the TALLER of them and
+              nothing resizes mid-flip. Absolute positioning would have been the usual way to stack
+              them and would have collapsed the card to the height of whichever face was in flow. */}
+          <motion.div
+            className="grid"
+            style={{ transformStyle: "preserve-3d" }}
+            animate={{ rotateY: revealed ? 180 : 0 }}
+            transition={reduced ? { duration: 0 } : FLIP_TRANSITION}
+          >
+            <div style={FACE_FRONT} aria-hidden={revealed}>
+              <CardFace term={active} index={index} side="term" />
             </div>
-          </div>
+            <div style={FACE_BACK} aria-hidden={!revealed}>
+              <CardFace term={active} index={index} side="definition" />
+            </div>
+          </motion.div>
+        </button>
 
-          {!revealed ? (
-            <div className="flex min-h-56 flex-col justify-center">
-              <p className="marker text-sm text-muted">term</p>
-              <p className="mt-3 font-display text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
-                {active.term}
-              </p>
-              <p className="mt-8 text-sm text-muted">Click the card to reveal the definition.</p>
-            </div>
-          ) : (
-            <div className="flex min-h-56 flex-col justify-center">
-              <p className="marker text-sm text-muted">definition</p>
-              <p className="mt-3 text-xl font-semibold leading-relaxed">{active.definition}</p>
-              <div className="mt-6 rounded-2xl bg-paper-2 p-4">
-                <p className="text-[0.8rem] font-semibold uppercase text-muted">Why it matters</p>
-                <p className="mt-1 leading-relaxed text-ink/80">{active.whyItMatters}</p>
-              </div>
-            </div>
-          )}
-        </Card>
-      </button>
+        {flying && (
+          <div
+            className="pointer-events-none absolute inset-x-0 top-0 z-10"
+            style={{ perspective: PERSPECTIVE }}
+          >
+            <motion.div
+              key={flying.term.slug}
+              aria-hidden
+              initial={{ x: 0, y: 0, rotate: 0, rotateX: 0, scale: 1, opacity: 1 }}
+              animate={{
+                x: [0, 24, 128, flying.wind.drift],
+                y: [
+                  0,
+                  flying.wind.lift * 0.55,
+                  flying.wind.lift,
+                  flying.wind.lift * 0.3 + 130,
+                ],
+                rotate: [0, -7, flying.wind.spin * 0.5, flying.wind.spin],
+                rotateX: [0, flying.wind.tilt, -flying.wind.tilt * 0.65, flying.wind.tilt * 1.3],
+                scale: [1, 0.99, 0.93, 0.72],
+                opacity: [1, 0.96, 0.55, 0],
+              }}
+              transition={LEAF_TRANSITION}
+              onAnimationComplete={() => setFlying(null)}
+            >
+              <CardFace
+                term={flying.term}
+                index={flying.index}
+                side={flying.revealed ? "definition" : "term"}
+              />
+            </motion.div>
+          </div>
+        )}
+      </div>
 
       <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
         <div className="flex gap-2">

@@ -57,6 +57,69 @@ export default function ChangelogPage() {
 
       <Entry
         date="August 2026"
+        title="Vocab decks cover every topic on your exam"
+      >
+        <li>
+          <strong>Your deck now spans your whole cluster exam.</strong>{" "}
+          Decks used to lean so heavily on the topics tied to your event&rsquo;s
+          roleplay that some exam topics never made the cut. A deck now covers 12
+          to 21 topic areas instead of 5 to 13, so the Area filter lists the
+          subjects you will actually be tested on.
+        </li>
+        <li>
+          <strong>Strategic Management was almost missing.</strong>{" "}
+          It is on all five cluster exams, and it had 2 cards in the entire app.
+          It now has 103, spread across all 28 decks. Business Law went from 42
+          cards to 153, and Pricing from 89 to 123.
+        </li>
+        <li>
+          <strong>Nearly every term we have written now reaches a deck.</strong>{" "}
+          247 finished terms were sitting in the catalog where no deck could
+          draw them. 245 of those are now in a deck &mdash; 1,976 of 1,978 in
+          total.
+        </li>
+        <li>
+          <strong>Every deck is still 250 cards, still medium or hard.</strong>{" "}
+          The balance of Medium and Hard is about what it was, and your deck still
+          leans on your own event&rsquo;s topics. The cards themselves are the
+          same ones &mdash; which ones land in which deck is what changed, so a
+          deck you were part-way through will look different.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="Flashcards flip, and learned cards blow away"
+      >
+        <li>
+          <strong>The card turns over now.</strong>{" "}
+          Clicking a flashcard flips it in 3D instead of swapping the text, so the
+          term and the definition read as two sides of one card rather than two
+          screens. The difficulty badge and the topic tag are on both faces, the
+          same as before.
+        </li>
+        <li>
+          <strong>Mark learned blows the card away like a leaf.</strong>{" "}
+          It lifts, tumbles, and drifts off while the next card is already there
+          underneath, so nothing waits for the animation to finish. Each card
+          catches the wind slightly differently, and the same card always flies the
+          same way.
+        </li>
+        <li>
+          <strong>Un-marking a card does not send it anywhere.</strong>{" "}
+          Pressing Learned again just takes the mark off. Only marking one blows it
+          away, because a card flying off to say you do not know it after all would
+          read as the opposite of what it means.
+        </li>
+        <li>
+          <strong>Both animations respect Reduce Motion.</strong>{" "}
+          If your device asks for less movement, the card swaps faces instantly and
+          nothing flies. Marking still works exactly the same.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
         title="Vocab decks got filters and short sessions"
       >
         <li>

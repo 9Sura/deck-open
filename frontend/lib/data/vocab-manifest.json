@@ -14,22 +14,32 @@
           "file": "ENT/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 103,
-            "hard": 147
+            "medium": 100,
+            "hard": 150
           },
           "format": "series",
           "tags": [
+            "business_law",
             "channel_management",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
             "entrepreneurship",
+            "financial_analysis",
+            "human_resources_management",
             "information_management",
             "market_planning",
             "marketing",
             "marketing_information_management",
             "operations",
+            "pricing",
             "product_service_management",
-            "promotion"
+            "professional_development",
+            "promotion",
+            "risk_management",
+            "selling",
+            "strategic_management"
           ]
         },
         "ETDM": {
@@ -38,20 +48,31 @@
           "file": "ETDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 105,
-            "hard": 145
+            "medium": 101,
+            "hard": 149
           },
           "format": "team",
           "tags": [
+            "business_law",
+            "channel_management",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
             "entrepreneurship",
+            "financial_analysis",
             "human_resources_management",
+            "information_management",
+            "market_planning",
             "marketing",
             "operations",
+            "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "risk_management"
+            "risk_management",
+            "selling",
+            "strategic_management"
           ]
         },
         "PEN": {
@@ -65,11 +86,26 @@
           },
           "format": "principles",
           "tags": [
+            "business_law",
+            "channel_management",
             "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
             "entrepreneurship",
-            "information_management"
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "operations",
+            "pricing",
+            "product_service_management",
+            "professional_development",
+            "promotion",
+            "risk_management",
+            "selling",
+            "strategic_management"
           ]
         }
       }
@@ -87,8 +123,8 @@
           "file": "ACT/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 101,
-            "hard": 149
+            "medium": 100,
+            "hard": 150
           },
           "format": "series",
           "tags": [
@@ -113,8 +149,8 @@
           "file": "BFS/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 98,
-            "hard": 152
+            "medium": 89,
+            "hard": 161
           },
           "format": "series",
           "tags": [
@@ -139,16 +175,24 @@
           "file": "FTDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 91,
-            "hard": 159
+            "medium": 89,
+            "hard": 161
           },
           "format": "team",
           "tags": [
+            "business_law",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
             "financial_analysis",
             "financial_information_management",
-            "operations"
+            "human_resources_management",
+            "information_management",
+            "marketing",
+            "operations",
+            "professional_development",
+            "strategic_management"
           ]
         },
         "PFN": {
@@ -157,28 +201,8 @@
           "file": "PFN/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 92,
-            "hard": 158
-          },
-          "format": "principles",
-          "tags": [
-            "communication_skills",
-            "customer_relations",
-            "economics",
-            "financial_analysis",
-            "information_management",
-            "operations",
-            "professional_development"
-          ]
-        },
-        "PFL": {
-          "code": "PFL",
-          "name": "Personal Financial Literacy",
-          "file": "PFL/vocab.json",
-          "termCount": 250,
-          "difficultyCounts": {
-            "medium": 95,
-            "hard": 155
+            "medium": 91,
+            "hard": 159
           },
           "format": "principles",
           "tags": [
@@ -194,7 +218,34 @@
             "marketing",
             "operations",
             "professional_development",
-            "risk_management"
+            "strategic_management"
+          ]
+        },
+        "PFL": {
+          "code": "PFL",
+          "name": "Personal Financial Literacy",
+          "file": "PFL/vocab.json",
+          "termCount": 250,
+          "difficultyCounts": {
+            "medium": 87,
+            "hard": 163
+          },
+          "format": "principles",
+          "tags": [
+            "business_law",
+            "communication_skills",
+            "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "financial_information_management",
+            "human_resources_management",
+            "information_management",
+            "marketing",
+            "operations",
+            "professional_development",
+            "risk_management",
+            "strategic_management"
           ]
         }
       }
@@ -212,21 +263,28 @@
           "file": "HLM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 105,
-            "hard": 145
+            "medium": 102,
+            "hard": 148
           },
           "format": "series",
           "tags": [
+            "business_law",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
             "financial_analysis",
+            "human_resources_management",
+            "information_management",
+            "market_planning",
             "marketing",
             "operations",
             "pricing",
             "product_service_management",
             "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "HTDM": {
@@ -235,17 +293,28 @@
           "file": "HTDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 103,
-            "hard": 147
+            "medium": 98,
+            "hard": 152
           },
           "format": "team",
           "tags": [
+            "business_law",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
+            "market_planning",
             "marketing",
+            "operations",
+            "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "PHT": {
@@ -254,16 +323,28 @@
           "file": "PHT/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 88,
-            "hard": 162
+            "medium": 87,
+            "hard": 163
           },
           "format": "principles",
           "tags": [
+            "business_law",
             "communication_skills",
             "customer_relations",
             "economics",
             "emotional_intelligence",
-            "professional_development"
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "operations",
+            "pricing",
+            "product_service_management",
+            "professional_development",
+            "promotion",
+            "selling",
+            "strategic_management"
           ]
         },
         "QSRM": {
@@ -272,21 +353,28 @@
           "file": "QSRM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 103,
-            "hard": 147
+            "medium": 98,
+            "hard": 152
           },
           "format": "series",
           "tags": [
+            "business_law",
             "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
             "information_management",
             "market_planning",
             "marketing",
             "operations",
+            "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "RFSM": {
@@ -295,20 +383,28 @@
           "file": "RFSM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 102,
-            "hard": 148
+            "medium": 94,
+            "hard": 156
           },
           "format": "series",
           "tags": [
+            "business_law",
             "communication_skills",
             "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
             "information_management",
             "market_planning",
             "marketing",
             "operations",
+            "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "TTDM": {
@@ -317,16 +413,28 @@
           "file": "TTDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 104,
-            "hard": 146
+            "medium": 100,
+            "hard": 150
           },
           "format": "team",
           "tags": [
+            "business_law",
+            "communication_skills",
             "customer_relations",
+            "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
             "market_planning",
             "marketing",
+            "operations",
+            "pricing",
             "product_service_management",
-            "promotion"
+            "professional_development",
+            "promotion",
+            "selling",
+            "strategic_management"
           ]
         }
       }
@@ -344,20 +452,30 @@
           "file": "AAM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 93,
-            "hard": 157
+            "medium": 91,
+            "hard": 159
           },
           "format": "series",
           "tags": [
+            "business_law",
+            "channel_management",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
             "market_planning",
             "marketing",
             "marketing_information_management",
             "operations",
+            "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "ASM": {
@@ -366,18 +484,30 @@
           "file": "ASM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 99,
-            "hard": 151
+            "medium": 92,
+            "hard": 158
           },
           "format": "series",
           "tags": [
+            "business_law",
+            "channel_management",
             "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
             "market_planning",
             "marketing",
+            "marketing_information_management",
+            "operations",
+            "pricing",
+            "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "BSM": {
@@ -386,19 +516,30 @@
           "file": "BSM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 99,
-            "hard": 151
+            "medium": 94,
+            "hard": 156
           },
           "format": "series",
           "tags": [
+            "business_law",
+            "channel_management",
+            "communication_skills",
             "customer_relations",
+            "economics",
             "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
             "market_planning",
             "marketing",
+            "marketing_information_management",
+            "operations",
             "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "BTDM": {
@@ -407,16 +548,30 @@
           "file": "BTDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 93,
-            "hard": 157
+            "medium": 90,
+            "hard": 160
           },
           "format": "team",
           "tags": [
+            "business_law",
             "channel_management",
+            "communication_skills",
+            "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
             "market_planning",
+            "marketing",
+            "marketing_information_management",
+            "operations",
+            "pricing",
             "product_service_management",
-            "selling"
+            "professional_development",
+            "promotion",
+            "selling",
+            "strategic_management"
           ]
         },
         "FMS": {
@@ -425,21 +580,30 @@
           "file": "FMS/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 106,
-            "hard": 144
+            "medium": 99,
+            "hard": 151
           },
           "format": "series",
           "tags": [
+            "business_law",
+            "channel_management",
+            "communication_skills",
             "customer_relations",
             "economics",
             "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
             "information_management",
             "market_planning",
             "marketing",
+            "marketing_information_management",
             "operations",
+            "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "MCS": {
@@ -448,18 +612,30 @@
           "file": "MCS/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 100,
-            "hard": 150
+            "medium": 94,
+            "hard": 156
           },
           "format": "series",
           "tags": [
+            "business_law",
+            "channel_management",
+            "communication_skills",
             "customer_relations",
+            "economics",
             "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
             "information_management",
             "market_planning",
             "marketing",
+            "marketing_information_management",
+            "operations",
+            "pricing",
             "product_service_management",
-            "promotion"
+            "professional_development",
+            "promotion",
+            "selling",
+            "strategic_management"
           ]
         },
         "MTDM": {
@@ -468,18 +644,30 @@
           "file": "MTDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 101,
-            "hard": 149
+            "medium": 97,
+            "hard": 153
           },
           "format": "team",
           "tags": [
+            "business_law",
+            "channel_management",
             "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
             "market_planning",
+            "marketing",
+            "marketing_information_management",
+            "operations",
+            "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "PMK": {
@@ -493,12 +681,25 @@
           },
           "format": "principles",
           "tags": [
+            "business_law",
+            "channel_management",
             "communication_skills",
             "customer_relations",
             "economics",
             "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
+            "market_planning",
+            "marketing",
+            "marketing_information_management",
             "operations",
-            "professional_development"
+            "pricing",
+            "product_service_management",
+            "professional_development",
+            "promotion",
+            "selling",
+            "strategic_management"
           ]
         },
         "RMS": {
@@ -507,13 +708,19 @@
           "file": "RMS/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 107,
-            "hard": 143
+            "medium": 99,
+            "hard": 151
           },
           "format": "series",
           "tags": [
+            "business_law",
+            "channel_management",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
             "information_management",
             "market_planning",
             "marketing",
@@ -521,8 +728,10 @@
             "operations",
             "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "SEM": {
@@ -531,22 +740,30 @@
           "file": "SEM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 100,
-            "hard": 150
+            "medium": 94,
+            "hard": 156
           },
           "format": "series",
           "tags": [
+            "business_law",
             "channel_management",
             "communication_skills",
             "customer_relations",
             "economics",
             "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
             "information_management",
             "market_planning",
+            "marketing",
+            "marketing_information_management",
+            "operations",
             "pricing",
             "product_service_management",
+            "professional_development",
             "promotion",
-            "selling"
+            "selling",
+            "strategic_management"
           ]
         },
         "STDM": {
@@ -555,17 +772,30 @@
           "file": "STDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 102,
-            "hard": 148
+            "medium": 96,
+            "hard": 154
           },
           "format": "team",
           "tags": [
+            "business_law",
             "channel_management",
+            "communication_skills",
             "customer_relations",
             "economics",
+            "emotional_intelligence",
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
             "market_planning",
             "marketing",
-            "promotion"
+            "marketing_information_management",
+            "operations",
+            "pricing",
+            "product_service_management",
+            "professional_development",
+            "promotion",
+            "selling",
+            "strategic_management"
           ]
         }
       }
@@ -583,8 +813,8 @@
           "file": "BLTDM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 86,
-            "hard": 164
+            "medium": 91,
+            "hard": 159
           },
           "format": "team",
           "tags": [
@@ -593,7 +823,13 @@
             "customer_relations",
             "economics",
             "emotional_intelligence",
-            "marketing"
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
+            "marketing",
+            "operations",
+            "professional_development",
+            "strategic_management"
           ]
         },
         "HRM": {
@@ -602,17 +838,23 @@
           "file": "HRM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 86,
-            "hard": 164
+            "medium": 84,
+            "hard": 166
           },
           "format": "series",
           "tags": [
+            "business_law",
             "communication_skills",
             "customer_relations",
             "economics",
             "emotional_intelligence",
+            "financial_analysis",
             "human_resources_management",
-            "information_management"
+            "information_management",
+            "marketing",
+            "operations",
+            "professional_development",
+            "strategic_management"
           ]
         },
         "PBM": {
@@ -621,16 +863,23 @@
           "file": "PBM/vocab.json",
           "termCount": 250,
           "difficultyCounts": {
-            "medium": 85,
-            "hard": 165
+            "medium": 84,
+            "hard": 166
           },
           "format": "principles",
           "tags": [
+            "business_law",
             "communication_skills",
             "customer_relations",
             "economics",
             "emotional_intelligence",
-            "information_management"
+            "financial_analysis",
+            "human_resources_management",
+            "information_management",
+            "marketing",
+            "operations",
+            "professional_development",
+            "strategic_management"
           ]
         }
       }

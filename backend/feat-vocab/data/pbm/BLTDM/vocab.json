@@ -16,7 +16,7 @@
   ],
   "sourceNotes": [
     "Seeded from BLTDM roleplay performance indicators and business administration core exam data.",
-    "Drawn in three tiers: BLTDM event flavor, then this event's own instructional areas, then the rest of the business administration core exam blueprint.",
+    "Drawn in three tiers: BLTDM event flavor first, then this event's own instructional areas woven with the rest of the business administration core exam blueprint.",
     "Terms are scoped for future vocab-card, quiz, and event-filter UI use."
   ],
   "terms": [
@@ -503,6 +503,19 @@
       ]
     },
     {
+      "term": "Cost of credit",
+      "slug": "cost-of-credit",
+      "definition": "The total amount, including interest and fees, paid to borrow money.",
+      "whyItMatters": "Comparing the true cost of credit lets competitors judge whether borrowing is worthwhile.",
+      "difficulty": "medium",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
       "term": "Marketing",
       "slug": "marketing",
       "definition": "The process of creating, communicating, and delivering value to customers.",
@@ -574,6 +587,19 @@
       ],
       "sourceRefs": [
         "deca-domain:economics"
+      ]
+    },
+    {
+      "term": "Human resources management",
+      "slug": "human-resources-management",
+      "definition": "The function that recruits, develops, and manages employees to meet organizational goals.",
+      "whyItMatters": "HR decisions shape staffing quality, service delivery, and culture.",
+      "difficulty": "medium",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
       ]
     },
     {
@@ -655,6 +681,19 @@
       ]
     },
     {
+      "term": "Data",
+      "slug": "data",
+      "definition": "Raw, unprocessed facts and figures collected through observation, measurement, or research.",
+      "whyItMatters": "All information management begins with knowing what counts as reliable data.",
+      "difficulty": "medium",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
       "term": "Velocity of money",
       "slug": "velocity-of-money",
       "definition": "How many times the average dollar is spent on final goods and services in a year, computed as nominal GDP divided by the money supply. It is the V in the equation of exchange MV = PQ, so when V is stable, growth in the money supply passes straight through into higher prices.",
@@ -731,6 +770,19 @@
       ]
     },
     {
+      "term": "Purchase order",
+      "slug": "purchase-order",
+      "definition": "A formal document requesting goods or services from a vendor at set terms.",
+      "whyItMatters": "Purchase orders create the paper trail for efficient procurement.",
+      "difficulty": "medium",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
       "term": "Professional email",
       "slug": "professional-email",
       "definition": "A formal written message with a clear subject, correct grammar, and appropriate tone.",
@@ -801,6 +853,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Chain of command",
+      "slug": "chain-of-command",
+      "definition": "The line of authority defining who reports to whom in an organization.",
+      "whyItMatters": "Knowing when and how to escalate is a frequent judgment point in roleplays.",
+      "difficulty": "medium",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
       ]
     },
     {
@@ -888,6 +953,23 @@
       ]
     },
     {
+      "term": "Ansoff matrix",
+      "slug": "ansoff-matrix",
+      "definition": "A growth grid crossing products (existing vs. new) with markets (existing vs. new) to produce four moves — market penetration, market development, product development, and diversification — ordered from lowest to highest risk because each new axis adds unfamiliar variables.",
+      "whyItMatters": "A roleplay that asks how a regional chain should grow next year is answered by naming the specific Ansoff cell and its risk level, not by saying 'expand'.",
+      "difficulty": "medium",
+      "confusableWith": [
+        "bcg-growth-share-matrix",
+        "diversification"
+      ],
+      "tags": [
+        "strategic_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:strategic_management"
+      ]
+    },
+    {
       "term": "Common law",
       "slug": "common-law",
       "definition": "Law developed through court decisions and legal precedents rather than legislation.",
@@ -960,6 +1042,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Time value of money",
+      "slug": "time-value-of-money",
+      "definition": "The principle that a dollar today is worth more than a dollar in the future because it can earn a return.",
+      "whyItMatters": "This concept justifies interest, discounting, and why saving early beats saving late.",
+      "difficulty": "hard",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
       ]
     },
     {
@@ -1041,6 +1136,23 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Cost per hire",
+      "slug": "cost-per-hire",
+      "definition": "(All external recruiting costs + all internal recruiting costs) divided by the number of hires made in the same period — advertising, agency fees, travel, referral bonuses and recruiter salary all belong in the numerator, so $84,000 of total spend against 24 hires is $3,500. Only completed hires count in the denominator, never openings still in process.",
+      "whyItMatters": "A hiring-manager roleplay that asks you to justify a recruiting budget to an owner is scored on whether you divide total recruiting spend by hires rather than quoting the job-board invoice alone.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "customer-acquisition-cost",
+        "time-to-fill"
+      ],
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/human_resources_management.txt"
       ]
     },
     {
@@ -1131,6 +1243,24 @@
       ]
     },
     {
+      "term": "Third normal form",
+      "slug": "third-normal-form",
+      "definition": "Reached only when a table already satisfies first normal form, which removes repeating groups so each cell holds one value, and second normal form, which removes any non-key column depending on just part of a composite key, and then additionally removes transitive dependency — a non-key column determined by another non-key column rather than by the key.",
+      "whyItMatters": "An exam table showing a customer's ZIP code alongside the city that ZIP code determines is the classic normalization item, and the tested answer names which form that violation breaks.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "denormalization",
+        "database",
+        "junction-table"
+      ],
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
       "term": "Productivity",
       "slug": "productivity",
       "definition": "The output produced per unit of input, such as per worker or per hour.",
@@ -1201,6 +1331,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Inventory turnover",
+      "slug": "inventory-turnover",
+      "definition": "How many times inventory is sold and replaced over a period.",
+      "whyItMatters": "Turnover reveals inventory efficiency and its impact on cash flow.",
+      "difficulty": "hard",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
       ]
     },
     {
@@ -1284,6 +1427,23 @@
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt",
         "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Professional certification",
+      "slug": "professional-certification",
+      "definition": "Credential a private board grants after a psychometrically validated exam and keeps alive through periodic recertification, evidencing tested competence rather than legal permission. A certificate of completion is the near-neighbor that fools students: it is awarded merely for finishing a course, is never re-earned, and no board can revoke it.",
+      "whyItMatters": "Exam items on career-advancement resources ask which credential an employer will actually pay for; the answer is the one with an exam and a renewal cycle behind it.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "occupational-licensure",
+        "continuing-education-unit-ceu"
+      ],
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
       ]
     },
     {
@@ -1371,6 +1531,24 @@
       ]
     },
     {
+      "term": "Porter's five forces",
+      "slug": "porter-s-five-forces",
+      "definition": "An industry-attractiveness framework scoring five pressures — rivalry among existing firms, threat of new entrants, threat of substitutes, buyer bargaining power, and supplier bargaining power — where high scores on several forces predict compressed industry margins; it maps the industry, not the single firm, which is what separates it from a SWOT.",
+      "whyItMatters": "Management roleplays that ask you to brief an owner on whether to enter a crowded category are scored on naming and applying all five pressures, not on listing generic pros and cons.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "swot-analysis",
+        "pestel-analysis",
+        "value-chain-analysis"
+      ],
+      "tags": [
+        "strategic_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/strategic_management.txt"
+      ]
+    },
+    {
       "term": "Copyright",
       "slug": "copyright",
       "definition": "Protection granted to original works of authorship such as writing, music, and art.",
@@ -1442,6 +1620,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Tax liability",
+      "slug": "tax-liability",
+      "definition": "The total amount of tax a person or business legally owes to the government.",
+      "whyItMatters": "Tax liabilities affect take-home income and the real return on financial decisions.",
+      "difficulty": "medium",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
       ]
     },
     {
@@ -1526,6 +1717,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/economics.txt"
+      ]
+    },
+    {
+      "term": "Recruitment",
+      "slug": "recruitment",
+      "definition": "The process of finding and attracting qualified candidates for open positions.",
+      "whyItMatters": "Effective recruitment ensures a business has the talent to meet its needs.",
+      "difficulty": "medium",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
       ]
     },
     {
@@ -1614,6 +1818,19 @@
       ]
     },
     {
+      "term": "Database",
+      "slug": "database",
+      "definition": "An organized, computer-managed collection of related data that can be stored and retrieved systematically.",
+      "whyItMatters": "Businesses run everything from inventory to customer records on databases.",
+      "difficulty": "medium",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
+      ]
+    },
+    {
       "term": "GDP deflator",
       "slug": "gdp-deflator",
       "definition": "Nominal GDP divided by real GDP, times 100 — a price index covering every good and service an economy produces. Unlike the consumer price index it uses no fixed basket, so its weights shift automatically as spending patterns change, and it excludes imported goods that the CPI includes.",
@@ -1685,6 +1902,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/customer_relations.txt"
+      ]
+    },
+    {
+      "term": "Quality control",
+      "slug": "quality-control",
+      "definition": "Inspecting products and services to ensure they meet set standards.",
+      "whyItMatters": "It catches defects early, protecting satisfaction and reducing waste.",
+      "difficulty": "medium",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
       ]
     },
     {
@@ -1771,6 +2001,19 @@
       ]
     },
     {
+      "term": "Systematic behavior",
+      "slug": "systematic-behavior",
+      "definition": "An orderly, methodical approach to tasks and decisions that follows a logical structure.",
+      "whyItMatters": "Judges favor structured reasoning over a scattered approach.",
+      "difficulty": "medium",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
       "term": "Erlang C staffing model",
       "slug": "erlang-c-staffing-model",
       "definition": "A queuing formula that converts contact volume, average handle time and a target answer speed into required agents, and its output is non-linear: doubling volume needs well under double the staff, while removing the last agent from a tight schedule can multiply wait time. Averages alone cannot produce the answer because arrivals are random, not evenly spaced.",
@@ -1842,6 +2085,24 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "Balanced scorecard",
+      "slug": "balanced-scorecard",
+      "definition": "A Kaplan-and-Norton performance system that reports four linked perspectives — financial, customer, internal process, and learning and growth — so that lagging money measures are read alongside the leading operational drivers that produce them, unlike a plain profit-and-loss review.",
+      "whyItMatters": "Management written events ask how a manager tracks strategy beyond revenue; naming all four perspectives and one measure inside each is what earns the points.",
+      "difficulty": "medium",
+      "confusableWith": [
+        "employee-performance-assessment",
+        "objectives-and-key-results",
+        "benchmarking"
+      ],
+      "tags": [
+        "strategic_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
       ]
     },
     {
@@ -1934,6 +2195,23 @@
       ]
     },
     {
+      "term": "Annual percentage rate (APR)",
+      "slug": "annual-percentage-rate-apr",
+      "definition": "The yearly cost of borrowing stated as a percentage that folds in interest plus required fees, so two loans quoted at the same interest rate can carry different borrowing costs.",
+      "whyItMatters": "Cost-of-credit questions on the finance exam ask which loan is cheaper, and the answer is the one with the lower APR, not the lower nominal interest rate.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "annual-percentage-yield-apy",
+        "simple-interest"
+      ],
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
+      ]
+    },
+    {
       "term": "Brand development index (BDI)",
       "slug": "brand-development-index-bdi",
       "definition": "The percentage of one brand's national sales made in a market divided by that market's percentage of national population, times 100; read against the category index it sorts markets into four actions — high BDI with low CDI means a strong brand in a weak category, while low BDI with high CDI is the classic opportunity market where the category sells well and the brand does not, and both indexes below 100 argues for withdrawal.",
@@ -2017,6 +2295,23 @@
       ]
     },
     {
+      "term": "Time to fill",
+      "slug": "time-to-fill",
+      "definition": "Calendar days from the day a requisition is approved to the day a candidate accepts the offer, averaged across openings. Its near-twin, time to hire, starts the clock later — at the day the hired person first applied — so time to fill measures the whole requisition including sourcing delay while time to hire measures only the candidate's own journey, and a 62-day time to fill can sit on top of a 19-day time to hire.",
+      "whyItMatters": "Exam items give you both numbers and ask which one proves the bottleneck is job-posting approval rather than the interview loop.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "cost-per-hire",
+        "yield-ratio"
+      ],
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
       "term": "French and Raven's five bases of power",
       "slug": "french-and-raven-s-five-bases-of-power",
       "definition": "Distinguishes five sources of influence — legitimate power from the position, reward power, coercive power, expert power from demonstrated knowledge, and referent power from personal respect — with the first three attached to the role and the last two to the individual. Expert and referent power produce commitment; coercive power produces compliance only while someone is watching.",
@@ -2093,6 +2388,24 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "ACID properties",
+      "slug": "acid-properties",
+      "definition": "The four guarantees a relational transaction makes — atomicity, meaning all steps commit or none do; consistency, meaning no declared rule is left broken; isolation, meaning concurrent transactions cannot read each other's partial work; and durability, meaning a committed write survives a crash — and precisely the set that BASE-style distributed stores relax in exchange for availability.",
+      "whyItMatters": "A banking-transfer scenario asks what keeps a debit from posting when the matching credit fails, and the graded answer names atomicity within this set rather than saying the system is careful.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "document-store",
+        "online-transaction-processing",
+        "audit-log"
+      ],
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:information_management"
       ]
     },
     {
@@ -2177,6 +2490,23 @@
       ]
     },
     {
+      "term": "Economic order quantity",
+      "slug": "economic-order-quantity",
+      "definition": "The square root of (2 x annual demand x cost per order) divided by annual holding cost per unit — the single order size where rising carrying cost and falling ordering cost cross and total cost bottoms out.",
+      "whyItMatters": "An operations roleplay that asks you to cut the cost of holding stock is answered with this trade-off, not with 'order less': you must say that ordering more often lowers carrying cost but raises order cost, and name the quantity where the two balance.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "reorder-point",
+        "safety-stock"
+      ],
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
       "term": "Power distance",
       "slug": "power-distance",
       "definition": "Hofstede's 0-to-100 index of how far a society's less powerful members accept unequal distribution of authority - Malaysia scores near 100, Austria near 11, the United States around 40. It is a separate dimension from individualism: a high-power-distance audience expects the most senior person to speak first, treats public disagreement with a manager as an attack, and takes an invitation to challenge the presenter as a trap, so a presentation that works in a low-index room must be restructured rather than merely translated.",
@@ -2257,6 +2587,22 @@
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt",
         "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "Continuing education unit (CEU)",
+      "slug": "continuing-education-unit-ceu",
+      "definition": "Standard measure of non-degree instruction in which one unit equals 10 contact hours of participation in an accredited program, so a two-day 16-hour seminar earns 1.6 units. A college credit hour is a different currency entirely — roughly 15 contact hours across a semester — and licensing boards rarely convert one into the other.",
+      "whyItMatters": "Asked on the exam to price a training plan against a 40-hour renewal requirement, a competitor has to convert seminar hours into units before the budget makes sense.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "continuing-professional-education-cpe"
+      ],
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
       ]
     },
     {
@@ -2346,6 +2692,24 @@
       ]
     },
     {
+      "term": "Porter's generic strategies",
+      "slug": "porter-s-generic-strategies",
+      "definition": "A two-by-two positioning model crossing source of advantage (low cost vs. differentiation) with competitive scope (broad market vs. narrow niche), yielding cost leadership, differentiation, and focus; a firm that lands in the middle of the grid is 'stuck in the middle' and holds neither advantage.",
+      "whyItMatters": "Exam items give a firm's cost and pricing profile and ask which generic position it occupies, so the two axes have to be named separately rather than answered as 'it competes on quality'.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "porter-s-five-forces",
+        "competitive-pricing",
+        "product-positioning"
+      ],
+      "tags": [
+        "strategic_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/strategic_management.txt"
+      ]
+    },
+    {
       "term": "Corporation",
       "slug": "corporation",
       "definition": "A legal entity separate from its owners that can own property, contract, and be sued.",
@@ -2424,6 +2788,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Diversification",
+      "slug": "diversification",
+      "definition": "Spreading investments across different assets to reduce overall risk.",
+      "whyItMatters": "Diversification is the standard answer to lowering investment risk in finance events.",
+      "difficulty": "medium",
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
       ]
     },
     {
@@ -2517,6 +2894,23 @@
       ]
     },
     {
+      "term": "Yield ratio",
+      "slug": "yield-ratio",
+      "definition": "The percentage of candidates who move from one recruiting stage to the next — 400 applicants producing 80 screens is a 20% yield, and 80 screens producing 20 interviews is 25%. Chained backward, the stage yields tell a recruiter how many applicants the top of the funnel must hold to end with a set number of hires: 5 hires at these rates requires roughly 400 applicants.",
+      "whyItMatters": "Hiring-plan roleplays ask how many applications a posting must attract for four openings, which is solved by multiplying the stage yields, not by guessing.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "selection-ratio",
+        "offer-acceptance-rate"
+      ],
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
       "term": "BATNA",
       "slug": "batna",
       "definition": "Short for best alternative to a negotiated agreement: the course of action you would actually take if these talks failed, which is what sets real bargaining power. It is not the price target and not the reservation price — the reservation price is the worst deal still worth accepting, derived from the alternative — and improving the outside option raises your power even if nothing at the table changes.",
@@ -2606,6 +3000,24 @@
       ]
     },
     {
+      "term": "Star schema",
+      "slug": "star-schema",
+      "definition": "A warehouse layout placing one central fact table of numeric measures among denormalized dimension tables, each exactly one join away from the facts; the snowflake variant normalizes those dimensions into further sub-tables, which saves storage and removes redundancy but adds a join to every query that touches them.",
+      "whyItMatters": "A database-design item shows a sales fact table ringed by product, store and date tables and asks why the dimensions repeat values instead of being split further.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "denormalization",
+        "slowly-changing-dimension",
+        "third-normal-form"
+      ],
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:information_management"
+      ]
+    },
+    {
       "term": "Diminishing returns",
       "slug": "diminishing-returns",
       "definition": "The principle that adding more of one input eventually yields less added output.",
@@ -2682,6 +3094,19 @@
       ],
       "sourceRefs": [
         "deca-domain:customer_relations"
+      ]
+    },
+    {
+      "term": "Project management",
+      "slug": "project-management",
+      "definition": "Planning, executing, and monitoring work to hit objectives within time and budget.",
+      "whyItMatters": "It lets managers coordinate resources and deliver on schedule.",
+      "difficulty": "medium",
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
       ]
     },
     {
@@ -2770,6 +3195,19 @@
       ]
     },
     {
+      "term": "Professional networking",
+      "slug": "professional-networking",
+      "definition": "Building and maintaining relationships with professionals to exchange knowledge and opportunity.",
+      "whyItMatters": "Networking is essential for discovering and advancing career opportunities.",
+      "difficulty": "medium",
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/professional_development.txt"
+      ]
+    },
+    {
       "term": "Service recovery paradox",
       "slug": "service-recovery-paradox",
       "definition": "The finding that a customer whose problem is fixed exceptionally well can finish more loyal than one who never had a problem — but it holds only for a first, low-severity failure resolved fast by someone empowered to fix it on the spot. On a repeat failure the effect reverses and satisfaction lands below the never-failed baseline, so engineering failures is never the strategy.",
@@ -2852,6 +3290,24 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/marketing.txt"
+      ]
+    },
+    {
+      "term": "BCG growth-share matrix",
+      "slug": "bcg-growth-share-matrix",
+      "definition": "A portfolio grid plotting each business unit on market growth rate (vertical) against relative market share, computed as the unit's share divided by the largest rival's share (horizontal); the four cells are star, cash cow, question mark, and dog, and cash cows fund question marks.",
+      "whyItMatters": "Given a table of unit sales and rival sales, the exam expects you to compute relative market share and place the unit in the correct quadrant before recommending invest, hold, or divest.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "ansoff-matrix",
+        "market-share",
+        "strategic-business-unit"
+      ],
+      "tags": [
+        "strategic_management"
+      ],
+      "sourceRefs": [
+        "deca-domain:strategic_management"
       ]
     },
     {
@@ -2938,6 +3394,22 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/emotional_intelligence.txt"
+      ]
+    },
+    {
+      "term": "Annual percentage yield (APY)",
+      "slug": "annual-percentage-yield-apy",
+      "definition": "What a deposit actually earns over a year once compounding is counted, which is why a savings account paying 5% compounded monthly returns more than 5%.",
+      "whyItMatters": "A savings-comparison roleplay hands the competitor two accounts with the same stated rate but different compounding periods; APY is the only figure that ranks them.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "annual-percentage-rate-apr"
+      ],
+      "tags": [
+        "financial_analysis"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
       ]
     },
     {
@@ -3031,6 +3503,19 @@
       ]
     },
     {
+      "term": "Job analysis",
+      "slug": "job-analysis",
+      "definition": "A systematic study of a job's duties, responsibilities, and required skills.",
+      "whyItMatters": "It informs hiring standards and identifies the right competencies for a role.",
+      "difficulty": "medium",
+      "tags": [
+        "human_resources_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/human_resources_management.txt"
+      ]
+    },
+    {
       "term": "Self-determination theory",
       "slug": "self-determination-theory",
       "definition": "Deci and Ryan's account of motivation as three psychological needs — autonomy, competence and relatedness — plus a continuum running from purely external regulation through introjected and identified regulation to fully internalized motivation. Motivation is therefore a location on that continuum rather than an amount, and only the internalized end keeps working once the supervisor stops watching.",
@@ -3114,6 +3599,19 @@
       ],
       "sourceRefs": [
         "backend/test-gen-model/data/pi/communication_skills.txt"
+      ]
+    },
+    {
+      "term": "Business records",
+      "slug": "business-records",
+      "definition": "Documents and files that capture a business's transactions, operations, and decisions.",
+      "whyItMatters": "Accurate records are required for compliance, accountability, and historical reference.",
+      "difficulty": "medium",
+      "tags": [
+        "information_management"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/information_management.txt"
       ]
     },
     {
@@ -3210,6 +3708,23 @@
       ]
     },
     {
+      "term": "Reorder point",
+      "slug": "reorder-point",
+      "definition": "Average daily usage multiplied by lead time in days, plus safety stock — the on-hand level that triggers a replenishment order, so it answers WHEN to order while economic order quantity answers HOW MUCH.",
+      "whyItMatters": "Exam items give you daily usage, a supplier lead time and a buffer and ask at what stock level a buyer should place the reorder; picking the order size instead of the trigger level is the standard wrong answer.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "economic-order-quantity",
+        "safety-stock"
+      ],
+      "tags": [
+        "operations"
+      ],
+      "sourceRefs": [
+        "backend/test-gen-model/data/pi/operations.txt"
+      ]
+    },
+    {
       "term": "Uncertainty avoidance",
       "slug": "uncertainty-avoidance",
       "definition": "Hofstede's 0-to-100 measure of how threatened a culture feels by ambiguity, which predicts how much written structure a message must carry: high scorers such as Greece near 100 and Japan near 92 expect detailed agendas, explicit rules and signed detail before acting, while low scorers such as Singapore near 8 and Denmark near 23 will work from an open-ended proposal. It is not risk aversion in the financial sense - a high-scoring culture may take a very large risk, provided the procedure for taking it is spelled out.",
@@ -3296,6 +3811,23 @@
       "sourceRefs": [
         "backend/test-gen-model/data/pi/business_law.txt",
         "backend/roleplay-gen-model/data/pi/business_law.txt"
+      ]
+    },
+    {
+      "term": "150-hour education requirement",
+      "slug": "150-hour-education-requirement",
+      "definition": "Licensing threshold most states impose on CPA candidates: 150 semester hours of college credit — 30 beyond the 120 a bachelor's degree typically carries — plus all four sections of the Uniform CPA Exam and a year of supervised experience. Several states now allow a bachelor's degree plus two years of experience as an alternate route to the same license.",
+      "whyItMatters": "An accounting-designations roleplay asks what a college junior must still complete before licensure; the answer is a credit count and an exam, not a job offer.",
+      "difficulty": "hard",
+      "confusableWith": [
+        "occupational-licensure",
+        "certified-management-accountant-cma"
+      ],
+      "tags": [
+        "professional_development"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/professional_development.txt"
       ]
     },
     {
@@ -3391,6 +3923,24 @@
       ]
     },
     {
+      "term": "PESTEL analysis",
+      "slug": "pestel-analysis",
+      "definition": "A macro-environment scan of six external forces — political, economic, social, technological, environmental, and legal — that a firm cannot control; it differs from Porter's five forces, which examines only the firm's own industry structure, and from SWOT, which mixes internal factors in.",
+      "whyItMatters": "Exam items list a new regulation plus a currency shift and ask which scan category each belongs to, so the six letters must be distinguishable, not lumped as 'outside factors'.",
+      "difficulty": "medium",
+      "confusableWith": [
+        "environmental-scan",
+        "situation-analysis",
+        "porter-s-five-forces"
+      ],
+      "tags": [
+        "strategic_management"
+      ],
+      "sourceRefs": [
+        "backend/roleplay-gen-model/data/pi/strategic_management.txt"
+      ]
+    },
+    {
       "term": "At-will employment",
       "slug": "at-will-employment",
       "definition": "The default American rule that either side may end the relationship at any time for any reason or none, narrowed by three recognized exceptions: a public-policy exception covering firing for jury service, refusing to break the law, or whistleblowing; an implied-contract exception built from handbook language or long practice; and, in a minority of states, an implied covenant of good faith. Statutes on race, sex, age, disability and retaliation override it outright.",
@@ -3481,657 +4031,19 @@
       ]
     },
     {
-      "term": "Cannibalization rate",
-      "slug": "cannibalization-rate",
-      "definition": "Lost unit sales of a firm's existing products divided by the unit sales of the new product that displaced them — 30,000 new units alongside a 12,000-unit drop on the old line is a 40% rate, leaving 18,000 units of true incremental volume; a launch reported on gross volume alone can show growth while total company units fall, which is why the ratio is computed before the launch is called a success.",
-      "whyItMatters": "A roleplay presenting strong launch numbers usually hides this; asking for the effect on the existing line is what separates a scored answer from applause.",
+      "term": "Debt-to-income ratio",
+      "slug": "debt-to-income-ratio",
+      "definition": "Total monthly debt payments divided by gross monthly income, the figure a lender uses to decide how much more a borrower can carry.",
+      "whyItMatters": "Loan-approval scenarios turn on this number, and competitors are expected to compute it from a client's payment list rather than judge the debt total by feel.",
       "difficulty": "hard",
       "confusableWith": [
-        "brand-extension",
-        "incremental-lift",
-        "product-line"
+        "credit-utilization-ratio"
       ],
       "tags": [
-        "marketing"
+        "financial_analysis"
       ],
       "sourceRefs": [
-        "deca-domain:marketing"
-      ]
-    },
-    {
-      "term": "S corporation",
-      "slug": "s-corporation",
-      "definition": "A federal tax election under Subchapter S that keeps corporate limited liability while passing profit and loss straight through to the owners' personal returns, escaping the double taxation a C corporation pays once at the entity level and again on dividends. The price is eligibility: no more than 100 shareholders, only individuals who are U.S. citizens or residents, and a single class of stock.",
-      "whyItMatters": "Business-ownership exam items ask which form a startup taking on 120 investors or a foreign backer can no longer use.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "corporation",
-        "limited-liability-company",
-        "partnership"
-      ],
-      "tags": [
-        "business_law"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt",
-        "backend/roleplay-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Customer referral rate",
-      "slug": "customer-referral-rate",
-      "definition": "Customers who bring in at least one new paying customer, divided by total customers — 400 of 8,000 is 5%, and it can never exceed 100% because it counts referrers. The viral coefficient counts new customers produced per existing customer instead, so it can exceed 1; quoting one where the other belongs makes a growth forecast impossible.",
-      "whyItMatters": "Word-of-mouth roleplays ask for a measurable target, and the wrong one of the two makes the projection arithmetically unachievable.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "viral-coefficient",
-        "net-promoter-score",
-        "word-of-mouth-marketing"
-      ],
-      "tags": [
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "deca-domain:customer_relations"
-      ]
-    },
-    {
-      "term": "Persuasive message",
-      "slug": "persuasive-message",
-      "definition": "A communication built to convince an audience through logic and appeal.",
-      "whyItMatters": "Competitors must move customers and stakeholders toward an outcome.",
-      "difficulty": "medium",
-      "tags": [
-        "communication_skills"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Balanced budget multiplier",
-      "slug": "balanced-budget-multiplier",
-      "definition": "Raising purchases and taxes by the same dollar amount still lifts output by exactly that amount, because the spending multiplier 1 ÷ (1 − MPC) and the tax multiplier −MPC ÷ (1 − MPC) sum to 1. Spending and taxing $50 billion each adds $50 billion to GDP with no change in the deficit.",
-      "whyItMatters": "Fiscal items test whether a competitor thinks a deficit-neutral package does nothing; the arithmetic says its effect is positive and equal to the package.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "tax-multiplier",
-        "spending-multiplier"
-      ],
-      "tags": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Overjustification effect",
-      "slug": "overjustification-effect",
-      "definition": "The measured loss of an activity's intrinsic appeal after an expected external reward is introduced and later withdrawn — the person rereads their own reason for acting as having done it for the payment. Rewards that arrive unexpectedly, or that carry information about competence rather than control, do not produce the same crowding out, which is why a surprise thank-you outperforms a standing bounty.",
-      "whyItMatters": "A roleplay proposing an incentive for a task employees already enjoy is scored on anticipating this backfire, and exam items on recognizing contributions reward unexpected, informational recognition.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "self-determination-theory",
-        "active-constructive-responding"
-      ],
-      "tags": [
-        "emotional_intelligence"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt"
-      ]
-    },
-    {
-      "term": "Perceptual map",
-      "slug": "perceptual-map",
-      "definition": "Plots competing brands against two axes chosen from the attributes buyers actually use to tell brands apart — often price against perceived quality — using respondent ratings rather than the firm's own specifications, and adds an ideal point where the target segment says it wants a brand to sit; an empty region on the map is a positioning opportunity only when an ideal point falls inside it, otherwise it is empty because nobody wants that combination.",
-      "whyItMatters": "Positioning roleplays that hand you competitor data are scored on naming the two axes and defending why buyers discriminate on them; competitors lose the point by mapping attributes only the company cares about.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "positioning",
-        "positioning-statement",
-        "product-positioning"
-      ],
-      "tags": [
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing.txt"
-      ]
-    },
-    {
-      "term": "Sherman Act Section 2",
-      "slug": "sherman-act-section-2",
-      "definition": "Reaches single-firm conduct and requires two elements: monopoly power in a properly defined relevant market, and the willful acquisition or maintenance of that power through exclusionary conduct rather than growth from a superior product, business acumen, or historic accident. Section 1 instead needs an agreement between two or more parties restraining trade, so one firm acting alone can violate Section 2 and never Section 1.",
-      "whyItMatters": "Legal-issues exam items about a dominant platform cutting off rivals turn on which section of the Act is even available.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "clayton-act-section-7",
-        "competitive-advantage"
-      ],
-      "tags": [
-        "business_law"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt",
-        "backend/roleplay-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "RATER dimensions of service quality",
-      "slug": "rater-dimensions-of-service-quality",
-      "definition": "The five things customers actually grade — reliability, assurance, tangibles, empathy and responsiveness. Reliability, meaning the promise was kept, outweighs the other four in most studies while tangibles rank last, so refurbishing the lobby while orders keep arriving late is the classic misallocation of a service budget.",
-      "whyItMatters": "A retail-image or service-improvement roleplay wants the spend aimed at the heaviest dimension, and naming that ranking is what earns the point.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "servqual",
-        "gap-model-of-service-quality",
-        "zone-of-tolerance"
-      ],
-      "tags": [
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt",
-        "deca-domain:customer_relations"
-      ]
-    },
-    {
-      "term": "Ladder of inference",
-      "slug": "ladder-of-inference",
-      "definition": "Chris Argyris's seven-rung account of how observable data turns into action - available data, selected data, added meaning, assumptions, conclusions, beliefs, action - closed by a loop in which today's beliefs decide which data gets selected tomorrow. Nearly every workplace disagreement traces to the second rung rather than the last: two people acting on opposite conclusions are usually looking at different slices of the same facts, so arguing about the conclusion never settles it.",
-      "whyItMatters": "A conflict roleplay between two departments is scored on asking what each side is actually looking at before defending a position.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "active-listening",
-        "perception-check"
-      ],
-      "tags": [
-        "communication_skills"
-      ],
-      "sourceRefs": [
-        "deca-domain:communication_skills",
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Marginal propensity to save",
-      "slug": "marginal-propensity-to-save",
-      "definition": "One minus the share of each additional dollar of income that gets spent, so an MPC of 0.75 leaves 0.25. It is the multiplier's denominator: 1 ÷ 0.25 = 4, meaning the more households save out of a raise, the smaller the ripple from any injection of spending.",
-      "whyItMatters": "Consumer-spending questions give a change in income and a change in saving and expect the multiplier that follows, not a definition of thrift.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "marginal-propensity-to-consume",
-        "spending-multiplier"
-      ],
-      "tags": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Alexithymia",
-      "slug": "alexithymia",
-      "definition": "A trait-level difficulty identifying and describing one's own feelings, paired with an externally oriented thinking style; measured on the 20-item Toronto scale and present in roughly one in ten adults. It is not suppression and not coldness -- the states are experienced physically, as fatigue or a knotted stomach, and simply cannot be named, so telling such a person to open up produces a description of events rather than of feeling.",
-      "whyItMatters": "Business Administration Core items on assessing personal strengths test whether you know that a teammate who reports nothing when asked how a project felt may be unable to name it rather than unwilling; the Human Resources roleplay remedy is a written checklist of options, not more probing questions.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "emotional-granularity",
-        "expressive-suppression"
-      ],
-      "tags": [
-        "emotional_intelligence"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
-        "deca-domain:emotional_intelligence"
-      ]
-    },
-    {
-      "term": "Co-branding",
-      "slug": "co-branding",
-      "definition": "Two independently known brands appear together on one finished offering and both stake positioning risk on it — a Doritos Locos Taco — whereas in ingredient branding one brand is a component inside a host product and is advertised to end users to pull the host's sales, as with Intel Inside; the ingredient brand never owns the final purchase decision, while co-brands share it and share the damage if the partner stumbles.",
-      "whyItMatters": "Partnership roleplays ask what each side actually contributes and risks; naming which of the two structures is on the table is the first thing the judge listens for.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "brand-equity",
-        "corporate-branding",
-        "affinity-partner"
-      ],
-      "tags": [
-        "marketing"
-      ],
-      "sourceRefs": [
-        "deca-domain:marketing"
-      ]
-    },
-    {
-      "term": "Clayton Act Section 7",
-      "slug": "clayton-act-section-7",
-      "definition": "Blocks a merger or acquisition whose effect may be substantially to lessen competition — an incipiency standard reaching a deal before any harm has occurred, unlike the Sherman Act, which needs a completed restraint or actual monopolization. Deals above reporting thresholds must be cleared with the FTC and DOJ before closing, and the agencies may sue to enjoin, force divestiture, or accept behavioral conditions.",
-      "whyItMatters": "Merger roleplays ask why regulators can stop a deal that has not yet raised a single price for a single customer.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "hart-scott-rodino-act",
-        "sherman-act-section-2",
-        "conglomerate-merger"
-      ],
-      "tags": [
-        "business_law"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt",
-        "backend/roleplay-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Customer effort score (CES)",
-      "slug": "customer-effort-score-ces",
-      "definition": "One question rated 1 to 7 on how easy the company made it to get an issue resolved, scored either as the share answering 5 to 7 or as a plain mean. It is asked right after a single service interaction rather than about the relationship, and it predicts repeat purchase better than satisfaction does, because removing effort keeps customers while delight rarely moves them.",
-      "whyItMatters": "In a service-redesign roleplay, arguing for deleting steps rather than adding perks needs this metric to carry the recommendation.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "customer-satisfaction-score-csat",
-        "net-promoter-score",
-        "detractor"
-      ],
-      "tags": [
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "deca-domain:customer_relations"
-      ]
-    },
-    {
-      "term": "Delphi technique",
-      "slug": "delphi-technique",
-      "definition": "Structured group judgment in which the participants never meet: an expert panel answers a questionnaire anonymously, a facilitator returns an anonymized summary of the reasoning, and the panel answers again - usually two or three rounds, until the responses converge. Anonymity sustained across rounds is what removes the loudest-voice effect, unlike the nominal group technique, whose members sit in one room and rank ideas after generating them silently, and unlike open brainstorming, where influence is immediate.",
-      "whyItMatters": "A problem-solving-group item that specifies experts in different cities and a need to keep rank from steering the answer is scored on naming this method rather than calling a meeting.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "nominal-group-technique",
-        "raci-matrix"
-      ],
-      "tags": [
-        "communication_skills"
-      ],
-      "sourceRefs": [
-        "deca-domain:communication_skills",
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Employment-population ratio",
-      "slug": "employment-population-ratio",
-      "definition": "Employed people divided by the civilian working-age population — the denominator counts everyone of working age, including those not looking for work. With 155 million employed out of 260 million, the ratio is 59.6%; the jobless rate uses the labor force instead and can fall simply because searchers quit looking.",
-      "whyItMatters": "Unemployment-rate items pair a falling jobless rate with a falling employment share and ask which one shows the labor market actually improving.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "labor-force-participation-rate",
-        "unemployment-rate"
-      ],
-      "tags": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Ego depletion",
-      "slug": "ego-depletion",
-      "definition": "The claim that self-control draws on one limited resource that earlier exertion uses up. The original effects were large, but a 2016 multi-lab registered replication with over 2,000 participants found the effect near zero, and the defensible version now is motivational: people who believe willpower is limited show the drop-off and people who do not, largely do not. Citing the fuel-tank version as settled fact is the error.",
-      "whyItMatters": "Stress-management questions on the Business Administration Core exam still offer 'willpower runs out' as a distractor; knowing the replication result is what keeps you from choosing it, and from building a roleplay schedule recommendation on a decision-fatigue premise a judge with a psychology background will not accept.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "burnout",
-        "yerkes-dodson-law"
-      ],
-      "tags": [
-        "emotional_intelligence"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
-        "deca-domain:emotional_intelligence"
-      ]
-    },
-    {
-      "term": "Brand dilution",
-      "slug": "brand-dilution",
-      "definition": "Weakening of a famous mark's distinctiveness through blurring, where an unrelated use erodes the one-to-one link between mark and source, or tarnishment, where a use ties it to something unsavory; under the U.S. Trademark Dilution Revision Act of 2006 the owner of a mark famous to the general consuming public can sue without showing any likelihood of confusion or proof of actual economic injury, which is what makes it broader than ordinary infringement.",
-      "whyItMatters": "Branding and business-law roleplays about a licensing or extension request turn on this doctrine; citing the no-confusion-required standard is the technical half of the answer.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "trademark",
-        "trade-dress",
-        "brand-extension"
-      ],
-      "tags": [
-        "marketing"
-      ],
-      "sourceRefs": [
-        "deca-domain:marketing"
-      ]
-    },
-    {
-      "term": "Harmonized Tariff Schedule",
-      "slug": "harmonized-tariff-schedule",
-      "definition": "The classification system that assigns every imported article a code — six digits harmonized worldwide, extended to ten digits in the United States — and it is that code, not the invoice description, which sets the duty rate and any quota or trade-remedy exposure. Misclassification remains the importer's liability even when a customs broker filed the entry, so back duties and negligence penalties land on the buyer.",
-      "whyItMatters": "Customs-regulation roleplays ask why two nearly identical shirts arrive carrying very different duty rates.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "international-trade",
-        "incoterms"
-      ],
-      "tags": [
-        "business_law"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt",
-        "backend/roleplay-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Customer satisfaction score (CSAT)",
-      "slug": "customer-satisfaction-score-csat",
-      "definition": "The share of respondents picking the top boxes on a satisfaction scale — the 4s and 5s on a 5-point scale, so 380 top-box replies out of 500 is 76%. It measures one transaction immediately after it happens, while the recommend question measures the whole relationship, which is why the two can move in opposite directions in the same month.",
-      "whyItMatters": "Exam items supply raw response counts and expect the top-box percentage; roleplays expect the right survey chosen for a transaction rather than a relationship.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "net-promoter-score",
-        "top-two-box-score",
-        "customer-effort-score-ces"
-      ],
-      "tags": [
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/customer_relations.txt",
-        "deca-domain:customer_relations"
-      ]
-    },
-    {
-      "term": "Digital communication risk",
-      "slug": "digital-communication-risk",
-      "definition": "The legal, reputational, and compliance exposure created by electronic business messages.",
-      "whyItMatters": "Poor digital choices carry real legal and brand consequences.",
-      "difficulty": "medium",
-      "tags": [
-        "communication_skills"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Laffer curve",
-      "slug": "laffer-curve",
-      "definition": "Revenue equals the rate times the taxable base, and the base itself shrinks as the rate climbs, so collections are zero at a 0% rate and zero again at 100% and peak somewhere between. Above that peak a rate cut raises revenue; below it — where most real systems sit — a cut still loses money.",
-      "whyItMatters": "Tax questions ask whether cutting a rate can raise collections; credit goes to the competitor who names which side of the peak the rate has to be on.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "marginal-tax-rate",
-        "effective-tax-rate",
-        "progressive-tax"
-      ],
-      "tags": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Emotional granularity",
-      "slug": "emotional-granularity",
-      "definition": "The precision with which a person tells their own states apart -- 'slighted', 'apprehensive' and 'resentful' rather than one undifferentiated 'bad'. It is not vocabulary for its own sake: people high in it need fewer and less extreme regulation strategies, retaliate less when provoked in lab aggression tasks, and drink less to cope, so the act of discriminating the state does regulatory work by itself.",
-      "whyItMatters": "Business Administration Core exam items on self-assessment reward the competitor who can say what specifically went wrong in a conflict; a roleplay answer that reports feeling 'stressed' scores below one that separates being overloaded from being undermined, because the two call for different actions.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "alexithymia",
-        "affect-labeling"
-      ],
-      "tags": [
-        "emotional_intelligence"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
-        "deca-domain:emotional_intelligence"
-      ]
-    },
-    {
-      "term": "Positioning statement",
-      "slug": "positioning-statement",
-      "definition": "A one-sentence internal formula built from four required elements — the target segment, the frame of reference (the category the brand is to be compared against), the point of difference, and the reason to believe that substantiates it; drop the frame of reference and the claim has no competitive set to be better than, drop the reason to believe and it is an assertion. It is never customer-facing copy, which is the tagline's job.",
-      "whyItMatters": "Judges frequently ask a competitor to state the positioning out loud; delivering all four elements in one sentence is the difference between a scored answer and a slogan.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "positioning",
-        "value-proposition",
-        "unique-selling-proposition"
-      ],
-      "tags": [
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing.txt"
-      ]
-    },
-    {
-      "term": "FTC Act Section 5",
-      "slug": "ftc-act-section-5",
-      "definition": "Bans unfair or deceptive acts or practices in commerce, and the deception branch is a three-part test: a representation, omission or practice, likely to mislead a consumer acting reasonably under the circumstances, that is material to the purchase decision. The unfairness branch is separate — substantial consumer injury that is not reasonably avoidable and not outweighed by countervailing benefits — and neither branch requires proving the seller intended to mislead anyone.",
-      "whyItMatters": "Promotion roleplays about an ad whose fine print reverses the headline are scored on materiality and the reasonable-consumer standard, not on intent.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "advertising-regulation",
-        "consumer-protection"
-      ],
-      "tags": [
-        "business_law"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt",
-        "backend/roleplay-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Expectancy-disconfirmation model",
-      "slug": "expectancy-disconfirmation-model",
-      "definition": "Satisfaction treated as the gap between what was expected and what was perceived, not as an absolute level of performance — the same 20-minute wait delights a diner quoted 30 minutes and enrages one quoted 10. The operational consequence is that lowering the promise raises satisfaction without changing the kitchen at all.",
-      "whyItMatters": "Explains a quoted-wait-time or delivery-date decision in a restaurant roleplay far better than any appeal to trying harder.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "zone-of-tolerance",
-        "gap-model-of-service-quality",
-        "moment-of-truth"
-      ],
-      "tags": [
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "backend/roleplay-gen-model/data/pi/customer_relations.txt",
-        "deca-domain:customer_relations"
-      ]
-    },
-    {
-      "term": "Spoliation",
-      "slug": "spoliation",
-      "definition": "Destroying or failing to preserve messages, files and metadata once litigation is reasonably anticipated - a duty that attaches before any suit is filed rather than when a subpoena arrives, and one that overrides a routine auto-delete policy the moment it triggers. Courts sanction it independently of the merits of the underlying case and may instruct a jury to assume the missing email said the worst; running business decisions through disappearing-message apps is the current version of the problem.",
-      "whyItMatters": "Exam items about the legal exposure a firm takes on by doing business over chat and email are scored on this preservation duty, and a roleplay where a manager tells staff to 'clean up old emails' after a customer threatens to sue is the trap.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "digital-communication-risk",
-        "record-retention-schedule"
-      ],
-      "tags": [
-        "communication_skills"
-      ],
-      "sourceRefs": [
-        "deca-domain:communication_skills",
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Tax incidence",
-      "slug": "tax-incidence",
-      "definition": "The split of a per-unit levy between buyer and seller, fixed by relative elasticities rather than by who writes the check: buyers absorb the fraction Es ÷ (Es + Ed). With supply elasticity 2 and demand elasticity 1, buyers carry two-thirds of a $3 tax as a $2 price rise and the seller nets $1 less.",
-      "whyItMatters": "Taxation items name the party legally charged and then ask who actually pays; the elasticity ratio, not the statute, decides.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "price-elasticity",
-        "deadweight-loss"
-      ],
-      "tags": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Yerkes-Dodson law",
-      "slug": "yerkes-dodson-law",
-      "definition": "Arousal and performance trace an inverted U rather than a straight line, and the peak moves with task difficulty: simple, well-practiced work peaks at high arousal, while complex or unfamiliar work peaks at markedly lower arousal. The practical consequence is counterintuitive -- getting keyed up helps most on the easy task and hurts most on the hard one, so pep talks are misapplied precisely where the stakes are highest.",
-      "whyItMatters": "Presenting a rehearsed 60-second close benefits from adrenaline; solving an unfamiliar Team Decision Making case in the prep room does not, and exam items on stress management test whether you can pick the right side of that curve for a named task.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "ego-depletion",
-        "challenge-and-threat-appraisal"
-      ],
-      "tags": [
-        "emotional_intelligence"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
-        "deca-domain:emotional_intelligence"
-      ]
-    },
-    {
-      "term": "Royalty relief method",
-      "slug": "royalty-relief-method",
-      "definition": "Values a brand as the licensing fee the owner avoids paying by owning it: forecast the revenue the brand will carry, multiply by an arm's-length royalty rate drawn from comparable licenses — commonly 2% to 6% of net sales — deduct tax, then discount the resulting stream to present value; unlike a cost-based valuation it ignores what was actually spent building the name, and unlike a market comparison it needs no sale of a similar brand.",
-      "whyItMatters": "A roleplay asking what the brand is worth on the balance sheet expects a named valuation method with its arithmetic, not the claim that a brand cannot be valued.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "brand-equity",
-        "goodwill",
-        "customer-equity"
-      ],
-      "tags": [
-        "marketing"
-      ],
-      "sourceRefs": [
-        "deca-domain:marketing"
-      ]
-    },
-    {
-      "term": "Fair use",
-      "slug": "fair-use",
-      "definition": "A defense to copyright infringement weighed on the four statutory factors of 17 U.S.C. section 107: the purpose and character of the use, including whether it is transformative or commercial; the nature of the copyrighted work; the amount and substantiality of the portion taken; and the effect on the potential market for the original. No factor is decisive and there is no safe word count or percentage, though the market-effect factor usually carries the most weight.",
-      "whyItMatters": "IP-protection roleplays about quoting a rival's review or reusing its product photo in a comparison ad are argued factor by factor.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "copyright",
-        "intellectual-property"
-      ],
-      "tags": [
-        "business_law"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/business_law.txt",
-        "backend/roleplay-gen-model/data/pi/business_law.txt"
-      ]
-    },
-    {
-      "term": "Detractor",
-      "slug": "detractor",
-      "definition": "A respondent scoring 0 to 6 on the 0-to-10 recommend question; 7 and 8 are passives and 9 and 10 are promoters. Passives are dropped from the calculation entirely rather than counted as neutral, so nudging a 6 up to a 7 raises the score while nudging a 7 up to an 8 changes nothing at all.",
-      "whyItMatters": "A roleplay deciding where a limited service-recovery budget goes is settled by which score band the customer sits in, not by how upset they sound.",
-      "difficulty": "hard",
-      "confusableWith": [
-        "net-promoter-score",
-        "customer-satisfaction-score-csat",
-        "complaint-iceberg"
-      ],
-      "tags": [
-        "customer_relations"
-      ],
-      "sourceRefs": [
-        "deca-domain:customer_relations"
-      ]
-    },
-    {
-      "term": "SMOG index",
-      "slug": "smog-index",
-      "definition": "A readability formula built on polysyllables alone: count every word of three or more syllables in 30 sentences - 10 from the start, 10 from the middle, 10 from the end - take the square root of that count, round to the nearest perfect square, and add 3 to get the required grade level. It is calibrated to 100 percent comprehension, while Flesch-Kincaid and Gunning fog are calibrated to roughly 50 to 75 percent, so on the same passage it normally returns a grade one to two levels higher.",
-      "whyItMatters": "Allergen notices, safety cards and medical consent copy are written to a SMOG target, so a hospitality roleplay on rewriting a warning label is scored on naming the stricter comprehension standard rather than promising 'plain English.'",
-      "difficulty": "hard",
-      "confusableWith": [
-        "gunning-fog-index",
-        "flesch-kincaid-grade-level"
-      ],
-      "tags": [
-        "communication_skills"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/communication_skills.txt"
-      ]
-    },
-    {
-      "term": "Misery index",
-      "slug": "misery-index",
-      "definition": "Add the annual inflation rate to the unemployment rate: 6% price growth plus 5% joblessness scores 11. The two are weighted equally, so a policy that trades two points of inflation for one point of employment worsens the score even when the jobs number improves.",
-      "whyItMatters": "Roleplays about consumer confidence and discretionary spending hand you both rates; the combined figure is what explains why traffic fell.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "phillips-curve",
-        "consumer-price-index"
-      ],
-      "tags": [
-        "economics"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/economics.txt"
-      ]
-    },
-    {
-      "term": "Affect labeling",
-      "slug": "affect-labeling",
-      "definition": "Putting a feeling into words as an implicit regulation move. Naming the state lowers amygdala response and self-reported intensity, yet people asked in advance predict the opposite -- that saying it out loud will make it worse -- which is why the technique is deliberately taught and does not get used spontaneously. It is not venting, which rehearses the emotion at length and tends to raise arousal instead.",
-      "whyItMatters": "When a roleplay judge plays an escalating customer or a blindsided direct report, opening by naming the other person's state out loud is a scoreable de-escalation move; competitors who default to defending the policy first talk into a rising emotion.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "emotional-granularity",
-        "cognitive-reappraisal"
-      ],
-      "tags": [
-        "emotional_intelligence"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/emotional_intelligence.txt",
-        "deca-domain:emotional_intelligence"
-      ]
-    },
-    {
-      "term": "STP framework",
-      "slug": "stp-framework",
-      "definition": "Three decisions taken strictly in order — segment the market on one chosen base, target the segments worth serving against a stated attractiveness test, then position the offer against a named competitive set — where each step's output constrains the next; a positioning claim written before the segment is chosen has nobody in particular to be different for, which is why reordering the letters produces a plan that cannot be defended.",
-      "whyItMatters": "Marketing-plan roleplays are graded on sequence as much as content; presenting a promotion idea before naming the segment invites the judge to ask who it is for.",
-      "difficulty": "medium",
-      "confusableWith": [
-        "marketing-strategy",
-        "market-segmentation",
-        "positioning"
-      ],
-      "tags": [
-        "marketing"
-      ],
-      "sourceRefs": [
-        "backend/test-gen-model/data/pi/marketing.txt"
+        "backend/test-gen-model/data/pi/financial_analysis.txt"
       ]
     }
   ]
