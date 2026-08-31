@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0030",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Operations",
+  "performanceIndicators": [
+    {
+      "area": "Operations",
+      "pi": "Explain the nature of overhead/operating costs.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Explain the relationship between customer service and distribution.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Explain routine security precautions.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Explain employee's role in expense control.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain types of advertising media.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the operations manager at CEDARBROOK CLEAN, a maker of plant-based cleaning concentrates that has run out of the same small plant for three generations. Twenty-eight employees mix, fill and ship every order, and each of them watches a cost line the family put in their hands years ago. The owner (judge), the founder's granddaughter, has asked you to recommend how the company should answer an offer that arrived last week.\n\nCedarbrook sells to about sixty independent grocers and directly to households through a refill program its customers reorder every few months. The refill program carries the company's name, its own label, and the radio and social advertising the owner (judge) buys each spring. Margins are thin, and half the plant's overhead sits in a second filling line that runs only two days a week.\n\nA regional grocery chain now wants a wholesale account on different terms. It would take the concentrates under its own private label, set the shelf price itself, require exclusive rights to the refill line across the region, and pay ninety days after delivery. The volume would fill the second line five days a week and cover the overhead standing behind it.\n\nUnder those terms the Cedarbrook name leaves the shelf, the spring advertising has nothing left to promote, and the chain's auditors would need standing access to a plant floor the company has always kept locked to visitors. Turning the offer down keeps the name, the advertising and the sixty independent grocers, but leaves the second filling line running only two days a week with its overhead unrecovered.\n\nThe owner (judge) wants you to analyze what the wholesale account would cost the company beyond price, weigh the revenue it brings against the control it surrenders, and recommend whether Cedarbrook should accept the terms. The owner (judge) will greet you, hear your ideas, ask two questions, and thank you when the presentation and questions are over.",
+  "judgeCharacterization": "You are the owner of CEDARBROOK CLEAN and the third generation of the family to run it. Business background is the same as the situation above. You buy the spring advertising yourself, you know every one of the sixty independent grocers by their store, and you also know that a second filling line running two days a week is overhead the company has carried for too long. The regional grocery chain's terms are the largest offer the plant has ever had.\n\nYou have asked the operations manager (participant) to analyze what the wholesale account would cost beyond price, weigh the revenue against the control it surrenders, and recommend whether to accept the chain's terms. You want to hear what the ninety day payment terms and the auditors' access to the plant floor would mean for how the plant actually runs.\n\nAfter the participant has presented, you will ask these two questions:",
+  "judgeQuestions": [
+    "Suppose we turn this down. What are we giving up?",
+    "Would we be able to go back to the chain later if we needed to?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the chain would pay ninety days after delivery and set the shelf price itself",
+        "the plant floor the company has always kept locked to visitors",
+        "half the plant's overhead sits in a second filling line that runs only two days a week"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the chain would pay ninety days after delivery and set the shelf price itself",
+        "the plant floor the company has always kept locked to visitors",
+        "half the plant's overhead sits in a second filling line that runs only two days a week"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 321,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "eco-friendly cleaning products company",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a wholesale account that wants different terms",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0030",
+      "shelfSimilarity": 0.1042,
+      "shelfNearest": "ENT-0009",
+      "exemplarSimilarity": 0.025,
+      "gateVersion": 8
+    }
+  }
+}

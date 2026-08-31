@@ -26,7 +26,37 @@
 
   /* ---- theme-aware primitives (light defaults; dark blocks flip them) ---- */
   --highlight-blend: multiply;              /* <Highlight> swab blend (screen on dark) */
+  /* Text on the two SOLID brand fills. Neither is safe to derive: --paper is
+   * tuned against --ink, never against a mid-tone fill, so a theme whose
+   * --accent/--support sits in the middle of the range fails AA in BOTH
+   * directions — near-white and the theme's own ink can each land under 4.5
+   * (First Bloom's green: white 3.40, --ink 3.85). A theme with a mid-tone
+   * fill therefore owns its own on-fill ink, and may have to move the FILL
+   * to make any ink work (Midsummer's old --support #cf3f7d topped out at
+   * 4.66 against pure black). See issues #247 and #246.
+   * --on-support exists because the `accent` button variant used to hardcode
+   * text-paper on bg-support, so the CTA had no theme-owned ink at all. */
   --on-accent: var(--paper);                /* readable text on solid bg-accent fills */
+  --on-support: var(--paper);               /* readable text on solid bg-support fills */
+  /* --accent vs --accent-ink is a FILL/TEXT split, not a shade preference.
+   * --accent is the signature fill (buttons, loops, icons) and is free to be a
+   * mid-tone; --accent-ink is the same hue moved far enough from --paper to be
+   * READ as text — darker on the light themes, lighter on the dark ones.
+   * The token shipped with the themes but nothing consumed it, so every accent
+   * word in the app sat on the fill colour: Golden Hour's headings hit 2.49:1
+   * and Midsummer's 2.82:1, both under the 3.0 large-text floor, and the small
+   * accent text (sign-in links, the readiness tooltip) missed 4.5 on three light
+   * themes at once (#248). Rule: text and text-shaped glyphs use
+   * `text-accent-ink`; only icon components and solid fills use `--accent`.
+   * A new theme owes BOTH: --accent-ink >= 4.5 on --paper AND on --paper-2. */
+  /* <Segmented>'s selected-pill fill. A gold wash whose ALPHA is theme-owned:
+   * --muted and --ink are both tuned against --paper, never against a gold fill,
+   * so on the dark themes a 50% wash composited to a mid-olive that no foreground
+   * could clear AA on (First Snow topped out at 3.91 against pure white). The two
+   * dark blocks drop it to a 16% tint instead — the same translucent idiom their
+   * --diff-* and --result-* tints already use — which puts --ink back at 8:1 and
+   * the sub-label at ~6:1. See issue #246. */
+  --seg-active-bg: color-mix(in srgb, var(--highlight) 50%, transparent);
   --btn-shadow: 3px 3px 0 0 var(--ink);     /* sticker button hard offset */
   --frame-shadow: 0 10px 22px rgba(42, 38, 34, 0.1); /* <SketchFrame> lift */
   --font-stat: var(--font-sans);            /* numerals; Terminal remaps to mono */
@@ -97,6 +127,7 @@
   --muted: #8b8f8a;
   --line: rgba(230, 230, 227, 0.14);
   --highlight-blend: screen;
+  --seg-active-bg: color-mix(in srgb, var(--highlight) 16%, transparent);
   --btn-shadow: 2px 2px 0 0 color-mix(in srgb, var(--ink) 40%, transparent);
   --frame-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
   --font-stat: var(--font-mono);
@@ -125,6 +156,7 @@
   --muted: #a7b6ce;
   --line: rgba(242, 247, 252, 0.18);
   --highlight-blend: screen;
+  --seg-active-bg: color-mix(in srgb, var(--highlight) 16%, transparent);
   --frame-shadow: 0 10px 24px rgba(0, 0, 0, 0.4);
   --snow: rgba(245, 250, 255, 0.95);
   /* difficulty tints — translucent over indigo, light ink for on-dark text (from Blueprint) */
@@ -153,7 +185,11 @@
   --highlight-ink: #866200;
   --muted: #6a7263;
   --line: #d9e8cf;
-  --on-accent: #f6fbf2;        /* near-white on the green fills */
+  /* Dark ink on BOTH fills, the way Golden Hour goes. The leaf green and the
+   * blossom pink are the theme, so they don't move; near-white was the thing
+   * that was wrong (3.24 on the green, 3.09 on the pink). */
+  --on-accent: #1b2418;        /* deep leaf ink on the green fills (near-white was 3.24) */
+  --on-support: #1b2418;       /* same ink on the blossom-pink fills (--paper was 3.09) */
   --frame-shadow: 0 10px 22px rgba(43, 51, 39, 0.1);
   /* difficulty tints inherit Classic's warm light palette (reads on mint cream) */
   /* result tints — this theme's ground IS green, so "correct" has to sit far deeper
@@ -172,14 +208,27 @@
   --paper-2: #f8d3b6;
   --ink: #3a2333;              /* deep dusk plum */
   --accent: #e85d3c;           /* sunset coral — the signature */
-  --accent-ink: #bb3f26;       /* deepened coral for links on apricot (AA) */
-  --support: #cf3f7d;          /* horizon magenta secondary */
-  --support-ink: #a52c60;
+  --accent-ink: #a5361f;       /* deepened again: #bb3f26 was 4.43 on --paper and 3.89 on
+                                  --paper-2, under the 4.5 small-text floor the moment text
+                                  actually started using this token (#248). Now 5.42 / 4.76, and
+                                  >= 4.93 against every stop of --sky, which is the ground the
+                                  headings on this theme actually sit on. */
+  --support: #b02f62;          /* horizon magenta secondary (deepened from #cf3f7d: see below) */
+  /* Deepened WITH --support, not independently: the theme picker paints
+   * --support-ink on a `bg-support/15` wash, so darkening the fill darkened
+   * the ground under this text too (#a52c60 fell 4.52 -> 4.40). Now 5.05 on
+   * the wash, 6.27 on bare --paper. */
+  --support-ink: #962756;
   --highlight: #f4a72a;        /* low-sun gold */
   --highlight-ink: #855200;
   --muted: #7a5751;            /* warm taupe (deepened for AA on apricot) */
   --line: #f1d2bb;
-  --on-accent: #fff4ec;        /* warm white on the coral fills */
+  /* The two fills go OPPOSITE ways here, and that is not an oversight. The coral
+   * is the signature and keeps it, so the ink flips to plum (warm white was 3.20).
+   * The old magenta could not be saved by ink at all — pure white 4.51, pure black
+   * 4.66 — so the FILL moved instead and kept the warm white. */
+  --on-accent: #241021;        /* deep plum ink on the coral fills (warm white was 3.20) */
+  --on-support: #fff4ec;       /* warm white on the deepened magenta (--paper on the old fill was 3.66) */
   --frame-shadow: 0 10px 22px rgba(58, 35, 51, 0.12);
   /* difficulty tints inherit Classic's warm light palette (reads on apricot) */
   /* result tints — "wrong" swings crimson instead of Classic's terracotta, which
@@ -203,6 +252,7 @@
 
   --color-muted: var(--muted);
   --color-line: var(--line);
+  --color-seg-active: var(--seg-active-bg);
 
   --font-display: var(--font-display);
   --font-sans: var(--font-sans);

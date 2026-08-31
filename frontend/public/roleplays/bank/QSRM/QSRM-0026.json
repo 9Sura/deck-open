@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0026",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Identify company's brand promise.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain how organizations adapt to today's markets.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Demonstrate a customer-service mindset.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Identify ways to track marketing-communications activities.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Assess information needs.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the brand manager at HEARTHLINE KITCHENS, a delivery-only restaurant operator that cooks eight menu brands out of four commissary kitchens in one metropolitan market. The president (judge) has led the company for nine years and has asked you to bring a recommendation to a meeting this week.\n\nEvery HEARTHLINE order carries the same promise printed on the bag: hot, complete, and at the door in under thirty minutes, or the customer is refunded. The eight brand partners whose menus HEARTHLINE cooks pay the company to protect that promise, and it is why they renewed with HEARTHLINE rather than build kitchens of their own.\n\nNOONMARK KITCHENS opened in the same market last spring with a three-tap checkout and has taken share every month since. The HEARTHLINE ordering screen still ends with a fixed upsell prompt offering a drink and a side. That prompt adds a step and slows checkout, and the attach revenue it produces is what funds the refund guarantee.\n\nA personalization system would replace the fixed prompt with a recommendation drawn from each customer's own order history. Installing it would consume the entire marketing reserve, the only uncommitted cash the company has this year, and it earns back more than it costs only if the forecast attach rate holds. Turning the upsell prompt off altogether would match NOONMARK's checkout speed, and would surrender the attach revenue that funds the refund guarantee.\n\nThe company cannot presently tell which orders the prompt produced, so the president (judge) also wants to know what information the company would need to track before it could judge the result. Bring your reading of what the brand promise requires and a recommendation on the upsell prompt. The president (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the president (judge) of HEARTHLINE KITCHENS. Business background is the same as the situation above. You have led the company for nine years, you promised the eight brand partners that their orders arrive hot and complete, and you have watched NOONMARK KITCHENS take share since last spring. You want the brand manager to recommend what happens to the upsell prompt on the ordering screen, and to tell you what the company would need to track before anyone could say whether the change worked.\n\nYou will greet the participant, ask to hear their ideas, and listen to the presentation without steering it. After the presentation, ask the following questions:",
+  "judgeQuestions": [
+    "A year after we do this, what has changed about the way customers order from us?",
+    "What would tell us we made the wrong call, and when would we see it?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the promise printed on the bag that the order arrives hot, complete, and at the door in under thirty minutes, or the customer is refunded",
+        "the marketing reserve is the only uncommitted cash the company has this year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the promise printed on the bag that the order arrives hot, complete, and at the door in under thirty minutes, or the customer is refunded",
+        "the marketing reserve is the only uncommitted cash the company has this year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 302,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "ghost kitchen operator",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "the upsell prompt at the register",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0026",
+      "shelfSimilarity": 0.1249,
+      "shelfNearest": "QSRM-0022",
+      "exemplarSimilarity": 0.0322,
+      "gateVersion": 8
+    }
+  }
+}

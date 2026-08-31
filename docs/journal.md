@@ -26,6 +26,63 @@ generators end to end, because their inputs are the material being withheld.
 
 ---
 
+## 2026-08-30
+
+### `chore(migration): sync the public mirror — 2026-08-30 23:31 EDT`
+
+Six new roleplay shelves, and a pass over text that sits on a coloured background
+in every theme.
+
+**The roleplay bank went from 60 practice roleplays to 240.** Six shelves were
+filled, 30 each: Principles of Business Management and Administration, Personal
+Financial Literacy and Sports and Entertainment Marketing, then Entrepreneurship,
+Business Finance and Quick Serve Restaurant Management. With the two shelves that
+were already here, that is 240 roleplays on 8 of the 28 events. The last three
+matter beyond the count: until this run no banked roleplay came from the
+Entrepreneurship, Finance, or Hospitality and Tourism career clusters at all, and
+each of those events opens one. The remaining 20 shelves are still empty — the
+bank is being rebuilt event by event, and the app tells you when an event has
+nothing banked yet.
+
+Every one of the 240 was authored against the same deterministic quality gate and
+banked only after passing it; a roleplay that fails is discarded and written again
+rather than patched.
+
+**Coloured text is readable on every theme now, which it was not.** Three separate
+problems, all the same shape — a colour chosen to be a *fill* was being used as
+*text*:
+
+- On First Bloom and Midsummer, filled buttons painted near-white writing on a
+  mid-tone green or coral. That is the DECK logo, the main call to action and every
+  primary button, on every page, on those two themes. The writing on top is now
+  dark. First Bloom keeps its green and its blossom pink; Midsummer keeps its coral
+  but its magenta moved a shade deeper, because it was the one colour where no
+  writing — white or black — was readable enough.
+- The accent-coloured word in a page heading (the *pool* in "Browse the pool", and
+  the same treatment on the vocab, roleplay, progress and review pages) used the
+  fill colour rather than the darker text tone that had been sitting unused in every
+  theme since the themes shipped. Sixteen places moved onto it. Golden Hour,
+  Midsummer and First Bloom were the ones failing; the two dark themes got clearer
+  as a side effect.
+- The selected option in a segmented control — the level and mode switches on the
+  question bank — was a gold pill that no text colour could sit on legibly in the
+  two dark themes. The dark themes now use a much lighter wash of that gold; the
+  four light themes are pixel-identical to before.
+
+Every one of these was measured on the rendered page in each of the six themes,
+not read off the stylesheet.
+
+**The vocab flashcard is one box on both sides.** The term side was drawing a
+shorter card than the definition side, and the term itself sat below the middle of
+the card because it was centring inside the space under the header rather than on
+the card. Both faces are now the same frame and the term is centred on it.
+
+**Saving your data out of Settings is more reliably a download.** The export built
+its download link in a way some browsers are entitled to ignore, and a download that
+never starts reports no error, so the button could have finished with no file and no
+message. That could not be reproduced in the browser available to test, so this is a
+correctness fix rather than an observed bug being closed.
+
 ## 2026-08-28
 
 ### `chore(migration): sync the public mirror — 2026-08-28 19:32 EDT`

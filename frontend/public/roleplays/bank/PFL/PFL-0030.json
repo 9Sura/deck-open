@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0030",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Managing Risk",
+  "performanceIndicators": [
+    {
+      "area": "Managing Risk",
+      "pi": "Discuss the pros and cons of buying an auto insurance policy with a higher deductible.",
+      "role": "core"
+    },
+    {
+      "area": "Managing Risk",
+      "pi": "Compare disability coverage offered by individual policies, employee benefit plans, Social Security, workers’ compensation, and temporary disability programs (in some states).",
+      "role": "core"
+    },
+    {
+      "area": "Managing Risk",
+      "pi": "Investigate the legal consequence for individuals who are convicted of insurance fraud.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a young adult working your first full-time job and carrying a balance on your first credit card. A relative has just given you a cash gift. The insurance agent (judge) at ARDENWOOD MUTUAL INSURANCE has agreed to review your auto policy with you before it renews.\n\nRaising the deductible on the auto policy would cut the premium you pay each month. Workers' compensation would cover an injury at work and your employer's plan would replace part of your wages, but Social Security covers only long disabilities, so an off-the-job injury would land on you. The relative gave the cash gift so you could open a retirement account.\n\nRaising the deductible and putting the gift into a retirement account would start your savings early, but the gift would then be the only money available to cover the larger deductible after a collision and would come straight back out. Keeping the lower deductible and putting the gift toward the credit card balance clears the debt, though the higher premium keeps taking from every paycheck and nothing goes into a retirement account this year.\n\nA coworker has suggested adding an old dent to a future claim to cover the deductible, which you know is insurance fraud. The insurance agent (judge) wants your recommendation on the deductible and the gift, and what you will do about the suggestion. The insurance agent (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the insurance agent (judge) at ARDENWOOD MUTUAL INSURANCE. The background is the same as the situation above.\n\nYou have agreed to review the auto policy before it renews and to hear whether the deductible should be raised with the gift going into a retirement account, or the lower deductible kept with the gift going toward the credit card balance, and what will be done about the coworker's suggestion.\n\nYou will greet the participant, ask to hear their ideas, and after the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "If you go with your recommendation, what do you do first?",
+    "Who do you have to call to make that change?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the balance on your first credit card",
+        "the auto policy renews",
+        "the relative gave the cash gift so you could open a retirement account"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the balance on your first credit card",
+        "the auto policy renews",
+        "the relative gave the cash gift so you could open a retirement account"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 248,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a cash gift from a relative",
+        "company_stage": "a young adult carrying a balance from a first credit card",
+        "business_function": "choosing between a traditional and a Roth account",
+        "dilemma_archetype": "money saved for one goal being the only money available for another",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0030",
+      "shelfSimilarity": 0.151,
+      "shelfNearest": "PFL-0029",
+      "exemplarSimilarity": 0.1096,
+      "gateVersion": 8
+    }
+  }
+}

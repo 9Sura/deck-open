@@ -90,7 +90,7 @@ function AddOptionRow({
           <span className="block truncate text-sm font-semibold">{opt.label}</span>
           <span className="block truncate text-xs text-muted">{opt.desc}</span>
         </span>
-        {!opt.disabled && <span className="shrink-0 text-lg leading-none text-accent">+</span>}
+        {!opt.disabled && <span className="shrink-0 text-lg leading-none text-accent-ink">+</span>}
       </button>
       {showTip && pos && (
         <div

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0029",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Market Planning",
+  "performanceIndicators": [
+    {
+      "area": "Market Planning",
+      "pi": "Explain factors that influence customer/client/business buying behavior.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Explain the nature of marketing planning.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Explain the use of marketing strategies in hospitality and tourism.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Anticipate unspoken customer needs.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Give verbal directions.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing director at JADE LANTERN TEA COMPANY, a twelve-store boba and dessert drink chain. The chief executive (judge) was brought in a year ago after two losing years and has asked you to bring a recommendation on the drive-thru lane redesign.\n\nMost JADE LANTERN customers order in the lane, and they order slowly, because the menu is long, the drinks are customized, and a car ahead that is still deciding stops the line behind it. The redesign adds a second order point and a separate pickup window so that deciding and paying stop blocking each other.\n\nPILOTHOUSE FUEL & MARKET, a highway travel-center chain, has offered to pay for the redesign at all twelve stores and to put JADE LANTERN lanes at its own plazas. In exchange PILOTHOUSE sets the lane template, owns the menu board at the order point and fixes the hours, for five years.\n\nTaking the offer funds the redesign before summer and surrenders the menu board at the moment the customer decides, which is the one place the marketing plan reaches a driver. Paying for the redesign out of the turnaround budget keeps that control, spends the cash set aside to reopen the four stores closed during the two losing years, and pushes the work past the summer season.\n\nThe chief executive (judge) wants your recommendation on how the lane is funded and built, and wants to hear how crew will direct drivers through it once it opens. The chief executive (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the chief executive (judge) of JADE LANTERN TEA COMPANY, brought in a year ago after two losing years. Business background is the same as the situation above. You know the lane is where most customers order and where the chain loses time, you have the PILOTHOUSE FUEL & MARKET offer in front of you, and you know the turnaround budget holds the cash set aside to reopen the four closed stores. You want the marketing director to recommend how the redesign is funded and built, and to tell you how crew will direct drivers through the new lane.\n\nYou will greet the participant, ask to hear their ideas, and listen to the presentation without steering it. After the presentation, ask the following questions:",
+  "judgeQuestions": [
+    "Who ends up paying for this, the company, the crews, or the customer?",
+    "Could we explain that to the people it lands on?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "PILOTHOUSE sets the lane template, owns the menu board at the order point and fixes the hours, for five years",
+        "the turnaround budget holds the cash set aside to reopen the four stores closed during the two losing years"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "PILOTHOUSE sets the lane template, owns the menu board at the order point and fixes the hours, for five years",
+        "the turnaround budget holds the cash set aside to reopen the four stores closed during the two losing years"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 265,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "boba and dessert drink chain",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "a drive-thru lane redesign",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0029",
+      "shelfSimilarity": 0.161,
+      "shelfNearest": "QSRM-0028",
+      "exemplarSimilarity": 0.0607,
+      "gateVersion": 8
+    }
+  }
+}

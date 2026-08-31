@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0015",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Explain marketing and its importance in a global economy.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe factors used by marketers to position products/services.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Demonstrate connections between company actions and results.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the concept of productivity.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Plan special event.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of general manager of OLIVE & EMBER, a quick-serve Mediterranean restaurant in the entertainment district of a mid-sized city. The regional vice president (judge), who took over the brand a year ago, has asked you to recommend what the store should do about its weekend hours.\n\nOlive & Ember lost money for two years before new leadership arrived, and the turnaround now rests on two commitments the store has already made. The first is its lease with the district landlord, which requires the dining room to stay open until two in the morning on Friday and Saturday, a clause the landlord wrote to keep the block busy after the theaters let out.\n\nThe second is a catering contract with the hotel across the street, which books the store's kitchen and crew for a plated event every Friday evening and has become the steadiest and most profitable work the store does. The same crew and the same ovens cannot cover both. A crew that plates the hotel event cannot then run the dining room until two, and after midnight the store serves fewer than a dozen guests an hour.\n\nThe regional vice president (judge) wants a recommendation. Staying open until two as the lease requires means giving up the hotel's Friday events and the steady revenue the turnaround was built on. Closing at eleven to keep the hotel contract puts the store in breach of the lease clause and gives the landlord grounds to raise the rent at renewal.\n\nYou will present your recommendation to the regional vice president (judge) in the regional vice president's (judge) office. The regional vice president (judge) will begin by greeting you and asking to hear your ideas. After you have presented and have answered the regional vice president's (judge) questions, the regional vice president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of regional vice president of OLIVE & EMBER, having taken over the brand a year ago. Business background is the same as the situation above.\n\nYou have asked the general manager (participant) to recommend what the store should do about its weekend hours, given that the lease with the district landlord and the catering contract with the hotel across the street cannot both be kept. You want to hear which commitment the store should honor, what the store gains and gives up either way, and how the choice fits what the brand is trying to be.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "Who does this decision land hardest on?",
+    "How would you explain it to them?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the lease requires the dining room to stay open until two in the morning on Friday and Saturday",
+        "the catering contract with the hotel for a plated event every Friday evening"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the lease requires the dining room to stay open until two in the morning on Friday and Saturday",
+        "the catering contract with the hotel for a plated event every Friday evening"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 310,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "quick-serve Mediterranean concept",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "the store's late-night hours decision",
+        "dilemma_archetype": "an obligation to two parties whose contracts conflict",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0015",
+      "shelfSimilarity": 0.2426,
+      "shelfNearest": "QSRM-0013",
+      "exemplarSimilarity": 0.2021,
+      "gateVersion": 8
+    }
+  }
+}

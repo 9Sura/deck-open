@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0019",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Product/Service Management",
+  "performanceIndicators": [
+    {
+      "area": "Product/Service Management",
+      "pi": "Explain the nature and scope of the product/service management function.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Identify company's unique selling proposition.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Identify product opportunities.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the use of social media for digital marketing.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain the nature and scope of the pricing function.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the product manager for KEYSTONE HOLLOW ESCAPE ROOMS, a co-operative owned by the fourteen people who work in it. The co-operative runs three original escape rooms in one building on a downtown block, and the board president (judge), who works there as a member-owner too, has asked you to bring a recommendation to the next members' meeting.\n\nFour member-owners design the rooms; the other ten host games, reset the props and run the front desk. Under the co-operative's bylaws every member-owner takes an equal share of the profit, whatever work they do. The rooms are the company's unique selling proposition — no other venue in the region runs them, and the co-operative charges a higher ticket price because of that.\n\nGRANDLOOP ENTERTAINMENT, a chain with twenty-two venues, has offered to license the three designs and pay a royalty on every ticket it sells. The royalty would fund a fourth room and the social media campaign the co-operative has never been able to afford, and it would give the four designers steady design work instead of one venue's worth.\n\nGRANDLOOP would also run the same rooms at a lower ticket price in two nearby cities that supply about a third of the co-operative's weekend customers, so the ten hosts would lose shifts. Turning the license down keeps the rooms exclusive and the hosts' shifts full, but the co-operative gives up the royalty, the fourth room and the campaign, and the designers keep splitting an equal share for work a chain was willing to pay for.\n\nThe board president (judge) wants your recommendation on whether to license the designs, what the co-operative's ticket price should be either way, and what you would say to the members the recommendation costs. The board president (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the board president (judge) of KEYSTONE HOLLOW ESCAPE ROOMS. Business background is the same as the situation above.\n\nYou are a member-owner like everyone else here, and you have to take something to the next members' meeting. You want to hear whether the product manager would license the three designs to GRANDLOOP ENTERTAINMENT or keep them exclusive to this building, what the ticket price should be either way, and how the recommendation would be explained to the members it costs.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "If we do the opposite of what you recommend, what does that cost us?",
+    "What would we have gained from the choice you did not recommend?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the co-operative's bylaws give every member-owner an equal share of the profit, whatever work they do",
+        "the recommendation goes to the next members' meeting"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the co-operative's bylaws give every member-owner an equal share of the profit, whatever work they do",
+        "the recommendation goes to the next members' meeting"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 309,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "escape room venue",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "licensing the product to a larger company",
+        "dilemma_archetype": "a fair outcome for one group that is unfair to another",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0019",
+      "shelfSimilarity": 0.1083,
+      "shelfNearest": "ENT-0009",
+      "exemplarSimilarity": 0.0227,
+      "gateVersion": 8
+    }
+  }
+}

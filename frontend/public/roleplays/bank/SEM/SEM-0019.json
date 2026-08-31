@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0019",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Information Management",
+      "pi": "Explain the need for hospitality and tourism business information.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Identify ways that technology impacts business.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Discuss the nature of information management.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Show empathy for others.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Assess the costs/benefits associated with resources.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of race information manager at STONE CREEK ENDURANCE, a running and endurance event series owned by the people who work in it. The member-elected operations director (judge) has asked you to recommend how the next half marathon should be staffed at the points where the crowd builds, and to be ready to explain your reasoning.\n\nAt the last race, spectators pushed past a barricade near the finish and two people were treated for minor injuries. Since then the co-op has pulled together what it already holds: entry gate counts, timing mat splits, and location pings from the race app that runners and spectators both carry. Together those records describe where people actually stood, minute by minute, along the closed roads.\n\nThat record points away from the finish chute. Crowd density peaked at the second-to-last corner, where the course narrows between a park wall and a row of vendor tents, and it stayed high there for eleven minutes before the barricade gave way farther on. Moving four marshals from the chute to that corner is what the record supports, and it costs the co-op nothing to do.\n\nThose marshals are member-owners who have worked this course for nine years, and they say the chute is where it always goes wrong. Redeploying them thins the chute on the one stretch the crew trusts least and asks the crew to accept a reading it cannot check itself. Keeping them in the chute and hiring eight more marshals for the corner instead spends money the members voted to hold for the next race's medical tent.\n\nThe operations director (judge) wants your recommendation on where the marshals stand, on what the co-op should do with the information it now collects about its own events, and on what it costs to keep collecting it. The operations director (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the member-elected operations director (judge) at STONE CREEK ENDURANCE. Business background is the same as the situation above.\n\nYou asked the race information manager to recommend where the marshals should stand at the next half marathon, what the co-op should do with the information it now collects about its own events, and what it costs to keep collecting it.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Walk me through race morning under your plan.",
+    "Who tells the chute crew, and how?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the marshals are member-owners who have worked this course for nine years",
+        "the members voted to hold money for the next race's medical tent"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the marshals are member-owners who have worked this course for nine years",
+        "the members voted to hold money for the next race's medical tent"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 325,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "running and endurance event series",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "a fan safety incident",
+        "dilemma_archetype": "a data-supported choice that contradicts staff experience",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0019",
+      "shelfSimilarity": 0.1305,
+      "shelfNearest": "SEM-0004",
+      "exemplarSimilarity": 0.0632,
+      "gateVersion": 8
+    }
+  }
+}

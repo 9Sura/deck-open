@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0012",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Managing Credit",
+  "performanceIndicators": [
+    {
+      "area": "Managing Credit",
+      "pi": "Explain how a borrower’s credit score can impact their cost of credit and their ability to get credit.",
+      "role": "core"
+    },
+    {
+      "area": "Managing Credit",
+      "pi": "Compare the costs and benefits associated with for-profit versus non-profit credit counseling services.",
+      "role": "core"
+    },
+    {
+      "area": "Managing Credit",
+      "pi": "Identify products and practices that are classified as alternative financial services.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a twenty-three-year-old dental laboratory technician who supports a fifteen-year-old sibling on a single income. The judge is a counselor at NORTHGATE FAMILY CREDIT COUNSELING, a non-profit agency. You carry $19,400 in student loans, and your credit score of 610 has already raised the cost of the credit you are offered.\n\nYour goal has been a $4,000 emergency fund. Your sibling needs braces, and the orthodontist wants $1,800 down. DEBTCLEAR SOLUTIONS, a for-profit firm, advertises a lower monthly student loan payment for a $900 enrollment fee. NORTHGATE would set up the same repayment plan for $35 a month and no enrollment fee.\n\nYour paycheck also carries a disability insurance election. Minimum coverage costs $11 a month and replaces a third of your income; full coverage costs $34 a month and replaces two thirds. You are the only earner your sibling has. A CASHWAY EXPRESS storefront nearby offers payday advances against a paycheck.\n\nThe counselor (judge) has asked you to recommend a repayment plan and a coverage level. You could pay the $1,800 down for your sibling's braces now, which empties the emergency fund and leaves CASHWAY EXPRESS payday advances as the only place to turn in a bad month. You could keep the emergency fund and full coverage at $34 a month, which delays the braces by a year.\n\nThe counselor (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are a counselor at NORTHGATE FAMILY CREDIT COUNSELING. Business background is the same as the situation above.\n\nYou have asked the technician to recommend how to handle the $19,400 in student loans — through NORTHGATE at $35 a month or through DEBTCLEAR SOLUTIONS for a $900 enrollment fee — what disability coverage level to elect, and whether the $1,800 down payment for the braces happens now or waits.\n\nDuring the presentation you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "How would you explain this decision to your sibling?",
+    "If your sibling disagreed with the choice, what would you change?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "you carry $19,400 in student loans and your credit score of 610 has already raised the cost of the credit you are offered",
+        "you are the only earner your sibling has",
+        "NORTHGATE would set up the same repayment plan for $35 a month and no enrollment fee"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "you carry $19,400 in student loans and your credit score of 610 has already raised the cost of the credit you are offered",
+        "you are the only earner your sibling has",
+        "NORTHGATE would set up the same repayment plan for $35 a month and no enrollment fee"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 231,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a student loan repayment plan",
+        "company_stage": "a young worker supporting a sibling on a single income",
+        "business_function": "deciding how much insurance coverage is enough",
+        "dilemma_archetype": "an obligation to family that competes with a personal financial goal",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0012",
+      "shelfSimilarity": 0.1373,
+      "shelfNearest": "PFL-0002",
+      "exemplarSimilarity": 0.045,
+      "gateVersion": 8
+    }
+  }
+}

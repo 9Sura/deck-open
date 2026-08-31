@@ -59,7 +59,7 @@ const ALL_SETS = Object.values(MANIFEST.sets);
 const ALL_POOLS = Object.values(MANIFEST.pools ?? {});
 
 /** Total committed bank questions (sets + pools), straight off the manifest. */
-export const BANK_QUESTION_COUNT = [...ALL_SETS, ...Object.values(MANIFEST.pools)].reduce(
+export const BANK_QUESTION_COUNT = [...ALL_SETS, ...ALL_POOLS].reduce(
   (n, c) => n + c.count,
   0,
 );

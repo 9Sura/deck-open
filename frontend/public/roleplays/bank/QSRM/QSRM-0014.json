@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0014",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Market Planning",
+  "performanceIndicators": [
+    {
+      "area": "Market Planning",
+      "pi": "Identify communications channels used in sales promotion.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Identify components of a retail image.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe the impact of a nation's unemployment rate.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe strategies for reducing food loss.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of regional director of BRICKYARD PIZZA CO., a carryout pizza chain with forty-one stores. The vice president of operations (judge) has asked you to recommend what to do about the crew schedule at the company's first store outside its home state.\n\nBrickyard Pizza Co. leads its home region on carryout speed and on a hand-stretched crust that its coupon mailers, its app offers, and the lettering on its storefronts have promoted for twenty years. The new store opened three months ago in a county where the unemployment rate has fallen below three percent, so an hourly worker who leaves can have another job within the week.\n\nThe store's manager was promoted after six months and wrote the first schedule alone. The eight crew members who moved from the home state to open the store were given the guaranteed thirty-five-hour weeks their written transfer offers promised, and the newly hired local crew were left with whatever hours remained. The local hires are quitting, and the least experienced crew now closes, where prepared dough and cut toppings are thrown out at the end of most nights.\n\nThe vice president (judge) wants a recommendation. Holding the schedule keeps the promise the company put in writing to the crew who moved their families, but the local hires keep leaving, the closing shift stays in the hands of the least experienced crew, and the food thrown out each night keeps rising. Rewriting the schedule to divide hours evenly would keep the local hires and steady the closing shift, but it takes back the thirty-five-hour weeks the transferred crew were promised.\n\nYou will present your recommendation to the vice president (judge) in the vice president's (judge) office. The vice president (judge) will begin by greeting you and asking to hear your ideas. After you have presented and have answered the vice president's (judge) questions, the vice president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of vice president of operations of BRICKYARD PIZZA CO. Business background is the same as the situation above.\n\nYou have asked the regional director (participant) to recommend what to do about the crew schedule at the company's first store outside its home state. You want to hear how the hours should be divided between the crew who transferred and the local hires, what that does to the food thrown out on the closing shift, and what it does to the store's standing in a county where hourly workers can leave for another job within the week.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "Where do we expect to see this six months from now?",
+    "What does it mean for the next store we open outside the state?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the written transfer offers promised guaranteed thirty-five-hour weeks",
+        "the county's unemployment rate below three percent, where an hourly worker who leaves can have another job within the week"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the written transfer offers promised guaranteed thirty-five-hour weeks",
+        "the county's unemployment rate below three percent, where an hourly worker who leaves can have another job within the week"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 324,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "carryout pizza chain",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "the schedule written by an inexperienced manager",
+        "dilemma_archetype": "a fair outcome for one group that is unfair to another",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0014",
+      "shelfSimilarity": 0.2448,
+      "shelfNearest": "QSRM-0013",
+      "exemplarSimilarity": 0.0587,
+      "gateVersion": 8
+    }
+  }
+}

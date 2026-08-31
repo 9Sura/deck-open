@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0016",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial-Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Financial-Information Management",
+      "pi": "Explain the role of ethics in financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Demonstrate financial analysis applications",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Discuss non-traditional uses for financial information",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Calculate capital investment return.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Analyze the impact of technology on retailing.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the financial analyst at BRACKWELL TOOLWORKS, a mid-size manufacturer of hand tools and workbench hardware. The founder (judge), who started the company thirty years ago and is preparing to hand it to a new owner at the end of the year, has asked you to recommend how the company should sell to its customers online.\n\nBRACKWELL TOOLWORKS is profitable and moves most of its volume through hardware chains, but its fastest growth has come from the small online storefront it built itself. That storefront records what each customer buys and when a tool comes back for service, and the company has spent two years and a great deal of capital building a paid maintenance subscription on top of those purchase records.\n\nPELLWORTH MARKETPLACE, a national online retail platform, has offered a three-year agreement that would list every BRACKWELL product to millions of shoppers. Signing the three-year agreement lifts reported revenue in time for the closing quarter the founder's sale price is measured on, and it hands PELLWORTH MARKETPLACE control of pricing and of the customer purchase records the maintenance subscription reads.\n\nDeclining the platform and finishing the in-house storefront keeps the purchase records and the subscription in the company's own hands, and it returns nothing on the capital already spent until the third year, leaving the closing quarter short of the revenue the founder has told the buyer to expect. The buyer will see whichever set of numbers the company reports, and will read them as the founder's own account of the business.\n\nThe founder (judge) wants your analysis of the return each course of action earns on the capital it uses, a view on what the purchase records are worth beyond the accounting they were kept for, and a recommendation on which way the company should go. The founder (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the founder (judge) of BRACKWELL TOOLWORKS. Business background is the same as the situation above.\n\nYou want the participant to analyze the return each course of action earns on the capital it uses, to say what the storefront's purchase records are worth beyond the accounting they were kept for, and to recommend whether the company signs the three-year agreement with PELLWORTH MARKETPLACE or finishes the storefront it built itself.",
+  "judgeQuestions": [
+    "A year from now, how would we know whether we chose right?",
+    "What should we be measuring in the meantime to tell us?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the three-year agreement hands PELLWORTH MARKETPLACE control of pricing",
+        "the closing quarter the founder's sale price is measured on",
+        "the capital already spent on the storefront returns nothing until the third year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the three-year agreement hands PELLWORTH MARKETPLACE control of pricing",
+        "the closing quarter the founder's sale price is measured on",
+        "the capital already spent on the storefront returns nothing until the third year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 321,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "mid-size manufacturing company",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "quarterly earnings pressure against a long-term project",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0016",
+      "shelfSimilarity": 0.0942,
+      "shelfNearest": "BFS-0005",
+      "exemplarSimilarity": 0.0648,
+      "gateVersion": 8
+    }
+  }
+}

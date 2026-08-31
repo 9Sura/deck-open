@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0024",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Information Management",
+      "pi": "Analyze trends in food habits/preferences.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Apply information to accomplish a task.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Obtain needed information efficiently.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Detail the functions of room service.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Ascertain employee's role in meeting organizational goals.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the information manager at KEYSTONE FIELDS TOURNAMENT GROUP, a youth sports tournament organizer that has run summer tournaments at its own complex for fifteen years. The general manager (judge) has asked you to recommend who the sixteen suites above the main field are sold to for the championship weekend, and to bring the records that recommendation rests on.\n\nEach suite is served by in-suite dining brought up from the kitchen during play. Three years ago the company signed an agreement with the REGIONAL CLUB ASSOCIATION giving its member clubs the first right to buy every suite at cost for the championship weekend, and the association's clubs still supply most of the teams in the tournament. A newer competitor an hour away has taken share for two seasons running.\n\nA national travel-team brand has offered to buy all sixteen suites for the championship weekend at four times what the member clubs pay, with catered in-suite dining for its guests on all three days. Taking that offer breaks the first right to buy the agreement gives the member clubs, and the association has already asked what the company intends to do about the suites this year.\n\nThe company's own booking and food-service records complicate the choice. The member clubs left seven of the sixteen suites empty last championship weekend, and the in-suite orders they did place moved sharply toward the lighter and plant-based items the kitchen now staffs for. Holding the suites for the member clubs honors the agreement and risks paying kitchen staff for another weekend of in-suite service that no one orders.\n\nThe general manager (judge) wants your recommendation on who the suites are sold to, which records you drew on to reach it, and what the staff working the suites would need to be told. The general manager (judge) will greet you in the office and ask to hear your ideas. After you have presented and answered the questions, the general manager (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of general manager (judge) of KEYSTONE FIELDS TOURNAMENT GROUP, a youth sports tournament organizer that has run summer tournaments at its own complex for fifteen years.\n\nBusiness background is the same as the situation above. A national travel-team brand has offered four times what the member clubs pay for all sixteen suites on championship weekend, the agreement with the REGIONAL CLUB ASSOCIATION gives those clubs the first right to buy every suite at cost, and the clubs left seven suites empty last year.\n\nYou have asked the information manager (participant) to recommend who the suites are sold to, to say which records that recommendation rests on, and to explain what the staff working the suites would need to be told.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right call?",
+    "What would tell us early that it was not?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the agreement giving the member clubs the first right to buy every suite at cost for the championship weekend",
+        "the kitchen staff who serve the in-suite dining brought up during play"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the agreement giving the member clubs the first right to buy every suite at cost for the championship weekend",
+        "the kitchen staff who serve the in-suite dining brought up during play"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 332,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "youth sports tournament organizer",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "premium seating and suite sales",
+        "dilemma_archetype": "a growth opportunity that breaches an existing commitment",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0024",
+      "shelfSimilarity": 0.1654,
+      "shelfNearest": "SEM-0021",
+      "exemplarSimilarity": 0.0868,
+      "gateVersion": 8
+    }
+  }
+}

@@ -10,11 +10,14 @@ const buttonVariants = cva(
     variants: {
       variant: {
         // Filled DECA-blue sticker with an inked border + hard "drawn" shadow
-        // that presses on click. Cream text keeps contrast readable on the blues.
+        // that presses on click. The on-fill ink is theme-owned, not derived —
+        // --on-accent/--on-support default to --paper but a theme with a
+        // mid-tone fill overrides them (issue #247). Never hardcode text-paper
+        // on either fill: --paper is tuned against --ink, not against the fill.
         primary:
           "border-2 border-ink bg-accent text-[var(--on-accent)] shadow-[var(--btn-shadow)] hover:-translate-y-0.5 hover:shadow-[4px_5px_0_0_var(--ink)] active:translate-y-0 active:shadow-[2px_2px_0_0_var(--ink)]",
         accent:
-          "border-2 border-ink bg-support text-paper shadow-[var(--btn-shadow)] hover:-translate-y-0.5 hover:shadow-[4px_5px_0_0_var(--ink)] active:translate-y-0 active:shadow-[2px_2px_0_0_var(--ink)]",
+          "border-2 border-ink bg-support text-[var(--on-support)] shadow-[var(--btn-shadow)] hover:-translate-y-0.5 hover:shadow-[4px_5px_0_0_var(--ink)] active:translate-y-0 active:shadow-[2px_2px_0_0_var(--ink)]",
         outline:
           "border-2 border-ink bg-paper text-ink hover:-translate-y-0.5 hover:bg-paper-2 active:translate-y-0",
         ghost: "border-2 border-transparent bg-transparent text-ink hover:bg-ink/5",

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "id": "PBM-0023",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Information Management",
+      "pi": "Assess information needs.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Obtain needed information efficiently.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Discuss the nature of information management.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the concept of product in the hospitality and tourism industry.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the general manager of DUNMORE LAUNDROMATS, nine self-service stores the same family has run for three generations. The owner (judge) has asked you to recommend whether the company should sign the weekly linen contract a hotel group has offered, or spend the same money on networked meters for its machines.\n\nThe hotel group wants the large-format washers every weekday morning. Since the founder's day the stores have held those machines free on weekday mornings for a nearby senior housing complex, a written commitment the neighborhood knows by name. Nobody at the company can say how many of those reserved hours are actually used, because all nine stores still count loads on paper.\n\nOne course is to sign the hotel contract. It brings steady weekly revenue into a business whose walk-in traffic has been flat for years, and it takes the reserved morning hours from the senior housing complex, breaking a commitment made in writing by a grandfather whose name is still on the door.\n\nThe other course is to spend the money on networked meters instead, which would finally show which machine hours are free and which are not. The meters return nothing that shows on a statement, and the hotel group has said it will place the contract elsewhere this quarter. The owner (judge) will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are to assume the role of owner (judge) of DUNMORE LAUNDROMATS, nine self-service stores the same family has run for three generations.\n\nBusiness background is the same as the situation above. A hotel group has offered a weekly linen contract for the large-format washers every weekday morning, those machines are held free on weekday mornings for a nearby senior housing complex under a written commitment, and all nine stores still count loads on paper.\n\nYou have asked the general manager (participant) to recommend whether to sign the hotel contract or spend the same money on networked meters for the machines.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "If we spend the money on meters, what does turning down the contract cost us?",
+    "If we sign the contract instead, what do we owe the senior housing complex?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the written commitment that has held the machines free on weekday mornings for the senior housing complex",
+        "all nine stores still count loads on paper, so nobody can say how many of the reserved hours are actually used"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the written commitment that has held the machines free on weekday mornings for the senior housing complex",
+        "all nine stores still count loads on paper, so nobody can say how many of the reserved hours are actually used"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 233,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "laundromat chain",
+        "company_stage": "a family business in its third generation",
+        "business_function": "the budget for something with no measurable return",
+        "dilemma_archetype": "a growth opportunity that breaches an existing commitment",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PBM-0023",
+      "shelfSimilarity": 0.1092,
+      "shelfNearest": "PBM-0018",
+      "exemplarSimilarity": 0.0693,
+      "gateVersion": 8
+    }
+  }
+}

@@ -59,7 +59,7 @@ Counted from disk — count it yourself rather than trusting these numbers:
 |------|-------|------|
 | Questions | `frontend/public/question-bank/` | 16,283 across 5 clusters (finance, marketing, entrepreneurship, pbm, hospitality) |
 | Vocab | `frontend/public/vocab/` | 7,000 terms across 28 event catalogs (250 each) |
-| Roleplays | `frontend/public/roleplays/bank/` | 60 banked, on 2 of 28 event shelves — the bank is mid-regeneration |
+| Roleplays | `frontend/public/roleplays/bank/` | 240 banked, on 8 of 28 event shelves — the bank is mid-regeneration |
 
 Recount the bank any time:
 

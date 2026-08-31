@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0024",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Marketing",
+  "performanceIndicators": [
+    {
+      "area": "Marketing",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe factors used by marketers to position products/services.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Distinguish between retailing and marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Discuss the nature of information management.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Distinguish between economic goods and services.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the brand manager at COPPER FURROW DISTILLERY, a craft distillery that makes whiskey and gin in a converted grain mill. Six months ago COPPER FURROW DISTILLERY merged with a smaller distillery down the valley, and the two labels have still not been brought together into one. The president (judge) has asked you to recommend how the merged company should sell what it makes.\n\nThe merger was built on the idea of a single premium label carrying one story. The comments visitors leave in the tasting room say something else. They come for the tour and for the story of the mill, and they say the new blended label confuses them on the shelf. The company's file of those comments is the clearest information it holds about how it is positioned.\n\nA national distributor has offered to carry the bottles in nine hundred stores. That partnership would bring the revenue the merged company needs to pay down the debt it took on, but the distributor would set the label design, the price point and which expressions get made, so COPPER FURROW DISTILLERY would give up the story its tasting room visitors say they come for.\n\nStaying independent keeps control of the label and keeps the tasting room, which sells an afternoon and a tour rather than a bottle off a shelf. It also leaves the merged company selling in one small region and paying down the merger debt slowly. Under the merger agreement, the founder of the smaller distillery keeps a say in the label for two more years either way.\n\nThe president (judge) wants you to identify what advantage the merged company actually has, to weigh the two courses against each other, and to recommend one of them. The president (judge) will greet you and ask to hear your ideas, and after you have presented and answered questions, the president (judge) will thank you for your time.",
+  "judgeCharacterization": "You are the president (judge) of COPPER FURROW DISTILLERY. Business background is the same as the situation above. You have asked your brand manager to identify what advantage the merged company actually has, to weigh the national distributor's offer to carry the bottles in nine hundred stores against staying independent with the tasting room, and to recommend one of the two.\n\nYou will greet the participant and ask to hear their ideas. After the participant has presented, ask the following questions:",
+  "judgeQuestions": [
+    "A year after this is in place, what has changed here?",
+    "What would make you go back on it later?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "under the merger agreement the founder of the smaller distillery keeps a say in the label for two more years",
+        "the merged company has debt it took on in the merger and needs revenue to pay it down"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "under the merger agreement the founder of the smaller distillery keeps a say in the label for two more years",
+        "the merged company has debt it took on in the merger and needs revenue to pay it down"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 319,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "craft distillery",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "customer feedback that contradicts the concept",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0024",
+      "shelfSimilarity": 0.0993,
+      "shelfNearest": "ENT-0018",
+      "exemplarSimilarity": 0.0602,
+      "gateVersion": 8
+    }
+  }
+}

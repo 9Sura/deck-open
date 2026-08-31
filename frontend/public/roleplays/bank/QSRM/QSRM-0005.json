@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0005",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Demonstrate a customer-service mindset.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain factors that influence customer/client/business buying behavior.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain factors affecting pricing decisions.",
+      "role": "core"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Use creative problem-solving in business activities/decisions.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Identify customer dynamics affecting food establishments.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the district manager for CEDAR MILL BOWLS, a fast-casual bowl company with nine restaurants. The company is profitable, and its founder (judge) is preparing to sell it and step away next year. The founder (judge) has asked you to recommend how the restaurants should cover the work that has to be done after the doors close at night.\n\nEach restaurant closes at nine. Four crew members stay about ninety minutes afterward to break down the hot wells, clean the line and mop the floor. Those hours sit in a labor budget that is fixed for the year, and the founder (judge) has ruled out raising bowl prices to pay for them after the last increase cost the company dinner traffic.\n\nThe closing crew is mostly students who take the late hours because they cannot work during the day. The mid-afternoon shift between two and five is worked by the long-tenured full-time crew, and it is the slowest stretch of the day; the dining room is often close to empty while three people stand behind the line.\n\nCutting the closing crew from four to two moves the cleaning into the last hour the dining room is open. The two students who lose those shifts lose about eight paid hours a week, and evening customers eat while the line is broken down and the floor is mopped. Paying for four closers out of the slow mid-afternoon shift protects the students, and the afternoon crew lose hours they count on.\n\nThe founder (judge) wants your recommendation on how the closing work should be covered, and on what you would say to the crew who lose hours. You will present in the office at the flagship restaurant. The founder (judge) will greet you and ask to hear your ideas. After you have presented and answered the founder's questions, the founder (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the founder (judge) of CEDAR MILL BOWLS, preparing to sell the company and step away next year. Business background is the same as the situation above. You want the district manager to recommend how the closing work gets covered inside the labor budget, and to tell you plainly what the crew who lose hours will be told.\n\nDuring the presentation you will ask the following questions of each participant:",
+  "judgeQuestions": [
+    "Who loses the most under your recommendation?",
+    "What do you say to that person when they ask why?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the labor budget is fixed for the year",
+        "the founder has ruled out raising bowl prices to pay for the closing hours after the last increase cost the company dinner traffic"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the labor budget is fixed for the year",
+        "the founder has ruled out raising bowl prices to pay for the closing hours after the last increase cost the company dinner traffic"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 315,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "fast-casual bowl concept",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "cleaning and closing tasks against labor hours",
+        "dilemma_archetype": "a fair outcome for one group that is unfair to another",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0005",
+      "shelfSimilarity": 0.1942,
+      "shelfNearest": "QSRM-0003",
+      "exemplarSimilarity": 0.0708,
+      "gateVersion": 8
+    }
+  }
+}

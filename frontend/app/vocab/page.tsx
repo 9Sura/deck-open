@@ -82,7 +82,7 @@ export default function VocabPage() {
             vocab terms
           </MarkerText>
           <h1 className="mt-1 font-display text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Study with <span className="text-accent">flashcards</span>
+            Study with <span className="text-accent-ink">flashcards</span>
           </h1>
         </div>
         <StickyNote className="hidden h-14 w-14 text-ink/70 sm:block" />
@@ -356,7 +356,7 @@ function CardFace({
   side: "term" | "definition";
 }) {
   return (
-    <Card variant={index} className="min-h-[21rem] p-6 sm:p-8">
+    <Card variant={index} className="relative flex h-full min-h-[21rem] flex-col p-6 sm:p-8">
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
         <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-ink font-display text-sm font-bold text-paper">
           {index + 1}
@@ -383,7 +383,11 @@ function CardFace({
       </div>
 
       {side === "term" ? (
-        <div className="flex min-h-56 flex-col justify-center">
+        // Lifted out of flow so the term centres on the CARD, not on the space left under the
+        // header row — in flow, `justify-center` centres it below the badge and it sits low.
+        // The face's height comes from the grid cell it shares with the definition face, so
+        // taking this block out of flow costs the card nothing.
+        <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center sm:p-8">
           <p className="marker text-sm text-muted">term</p>
           <p className="mt-3 font-display text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
             {term.term}
@@ -391,7 +395,7 @@ function CardFace({
           <p className="mt-8 text-sm text-muted">Click the card to reveal the definition.</p>
         </div>
       ) : (
-        <div className="flex min-h-56 flex-col justify-center">
+        <div className="flex min-h-56 flex-1 flex-col justify-center">
           <p className="marker text-sm text-muted">definition</p>
           <p className="mt-3 text-xl font-semibold leading-relaxed">{term.definition}</p>
           <div className="mt-6 rounded-2xl bg-paper-2 p-4">

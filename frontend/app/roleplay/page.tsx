@@ -69,7 +69,7 @@ export default function RoleplayPage() {
               THE LANDING CARD in the same change that ships the first generated
               batch. */}
           <h1 className="mt-1 font-display text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Full <span className="text-accent">case studies</span> across the 28 events
+            Full <span className="text-accent-ink">case studies</span> across the 28 events
           </h1>
         </div>
         <Clipboard className="hidden h-14 w-11 text-ink/70 sm:block" />

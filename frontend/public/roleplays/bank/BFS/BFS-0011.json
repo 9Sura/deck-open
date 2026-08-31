@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0011",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial-Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Financial-Information Management",
+      "pi": "Explain the nature and scope of financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Discuss non-traditional uses for financial information",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Demonstrate financial analysis applications",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of product/service branding.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Describe current business trends.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the financial analyst at HARVEST LANE WHOLESALE GROCERS, a grocery wholesaler that buys produce and dry goods by the truckload and delivers them to independent corner stores across the region. The chief executive (judge) started the company two years ago and has asked you to recommend how it should answer a supplier who wants to be paid sooner.\n\nThe company opened on a single round of outside funding, and that money is nearly spent. Its reputation with the independent grocers rests on one promise: the lowest case price in the region on staple produce. Wholesale margins have thinned across the industry as delivery apps pull volume away from corner stores, and the company's own payment records are the only current picture anyone has of that trend.\n\nThe produce supplier that provides most of that staple volume has asked to be paid in fifteen days instead of the forty-five days it agreed to at the start. Accepting the shorter payment terms keeps the low case price the company advertises, and it costs the company its cash cushion, because the corner stores still pay their own invoices in thirty days and payroll, fuel and truck leases come due first.\n\nA second wholesaler will supply the same staples on the original forty-five-day terms at a higher price per case. Moving the produce volume to that second wholesaler protects the cash the company has left, and it costs the low case price the brand rests on, because the higher price would be passed to the corner stores, which is the one thing keeping them from ordering from a national distributor.\n\nThe chief executive (judge) has asked you to explain what financial-information management covers at a company this size, show how the payment records already on hand can be read for something other than billing, demonstrate the analysis behind your figures, explain what the low-price brand is worth, describe the trends shaping wholesale grocery, and recommend which supplier arrangement to take.\n\nThe chief executive (judge) will greet you and ask to hear your ideas. After you have presented and answered the questions, the chief executive (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the chief executive (judge) of HARVEST LANE WHOLESALE GROCERS. Business background is the same as the situation above.\n\nYou started the company two years ago on a single round of outside funding, and that money is nearly spent. You want the financial analyst to explain what financial-information management covers at a company this size, show how the payment records already on hand can be read for something other than billing, demonstrate the analysis behind the figures, explain what the low-price brand is worth, describe the trends shaping wholesale grocery, and tell you plainly whether to accept the produce supplier's shorter payment terms or move the volume to the second wholesaler.\n\nAfter the financial analyst has presented, you will ask the following questions:",
+  "judgeQuestions": [
+    "What would the other supplier arrangement have given us that this one does not?",
+    "If we had gone the other way, what would that have cost the company?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the money from the single round of outside funding is nearly spent",
+        "the corner stores still pay their own invoices in thirty days",
+        "payroll, fuel and truck leases come due first"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the money from the single round of outside funding is nearly spent",
+        "the corner stores still pay their own invoices in thirty days",
+        "payroll, fuel and truck leases come due first"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 359,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "grocery wholesaler",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "a supplier requesting shorter payment terms",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0011",
+      "shelfSimilarity": 0.1439,
+      "shelfNearest": "BFS-0010",
+      "exemplarSimilarity": 0.0687,
+      "gateVersion": 8
+    }
+  }
+}

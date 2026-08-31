@@ -25,7 +25,7 @@ export default function ProgressPage() {
             your progress
           </MarkerText>
           <h1 className="mt-1 font-display text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Track your <span className="text-accent">mastery</span>
+            Track your <span className="text-accent-ink">mastery</span>
           </h1>
         </div>
         <RisingChart className="hidden h-14 w-20 text-ink/70 sm:block" />

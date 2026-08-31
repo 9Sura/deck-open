@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0021",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial Analysis",
+  "performanceIndicators": [
+    {
+      "area": "Financial Analysis",
+      "pi": "Analyze the impact of accounts receivable collection on working capital cycle.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Explain the nature of accounts payable.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Explain types of financial markets.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Identify ways that technology impacts business.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Identify and correct accounting errors.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the financial analyst at NORTHRIDGE COLD CHAIN, a cold storage logistics provider that freezes and holds goods for regional food producers. The chief executive officer (judge) took over fourteen months ago after two straight years of losses, and has asked you to recommend how the company should free the cash its own operations have locked up.\n\nThe company's cash sits in two places. Customers owe close to eighty days of invoices, well past the thirty days the contracts allow, even though new tracking software now sends every invoice the hour a load leaves the dock. The rest is tied up in a warehouse of spare compressors, coils and pallet racking that earlier leadership stockpiled so that no freezer would ever go down waiting on a part.\n\nOne course of action is to put the company's oldest customer, a produce grower of fifteen years, on payment in advance and to sell the remaining receivables to a factoring firm at a discount. Cash would arrive within a week. The grower has already said it would move its business to a competitor, and the discount is money the company never gets back.\n\nThe other course of action is to leave customer terms alone and sell down the spare parts inventory, holding only the parts technicians replace most often and ordering the rest as they are needed. That cash comes back slowly, over months rather than a week, and it leaves the company exposed: one compressor failure with no spare on the shelf would spoil a customer's frozen stock, and the company would owe for the loss.\n\nYou have also found that a supplier invoice was entered twice in the closing books and overstated accounts payable. The chief executive officer (judge) wants your recommendation on which course of action to take, what the corrected entry does to the cash picture, and how the company would know afterward whether the decision was the right one. The chief executive officer (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the chief executive officer (judge) of NORTHRIDGE COLD CHAIN. Business background is the same as the situation above.\n\nYou took the company over fourteen months ago after two straight years of losses, and freeing cash is the difference between another lean year and a stable one. You want to hear which course of action the financial analyst recommends — payment in advance for the produce grower with the remaining receivables sold to a factoring firm, or selling down the spare parts inventory — and what the corrected supplier invoice does to the cash picture.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "A year from now, what would tell you this was the right decision?",
+    "What would you watch in the first month to catch it going wrong?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "customers owe close to eighty days of invoices, well past the thirty days the contracts allow",
+        "a supplier invoice was entered twice in the closing books and overstated accounts payable"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "customers owe close to eighty days of invoices, well past the thirty days the contracts allow",
+        "a supplier invoice was entered twice in the closing books and overstated accounts payable"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 344,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "cold storage logistics provider",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "working capital tied up in inventory",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0021",
+      "shelfSimilarity": 0.1317,
+      "shelfNearest": "BFS-0004",
+      "exemplarSimilarity": 0.0336,
+      "gateVersion": 8
+    }
+  }
+}

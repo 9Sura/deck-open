@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0027",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Identify factors affecting a business's profit.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain how organizations adapt to today's markets.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of product/service branding.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Detail the functions of room service.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Discuss the use of variance analysis in managerial accounting.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the financial analyst for TALLOWFORD MEDICAL SYSTEMS, a manufacturer that has built infusion pumps for hospitals for more than forty years. The vice president of finance (judge) has asked you to recommend which of two joint venture terms the company should accept.\n\nTALLOWFORD MEDICAL SYSTEMS has always sold on its name. Hospitals buy its pumps because the brand has meant reliability for four decades, and purchasing committees have paid a premium for it. VIREO DEVICES, a new entrant that started shipping three years ago, now sells a simpler pump for far less, and it has taken share in every region where the two compete. The board wants the company to answer that pump with a low-cost line of its own within a year.\n\nBRAEWOOD SURGICAL, a contract manufacturer, has offered to build that line as a joint venture and has put two terms on the table. Under the first, TALLOWFORD MEDICAL SYSTEMS pays half of the tooling cost and takes half of the profit. That half comes out of the cash reserve already committed to replacing the plant's overdue packaging equipment, and the production crew that runs it would wait another year.\n\nUnder the second term, BRAEWOOD SURGICAL pays all of the tooling and takes eighty percent of the profit. The company spends nothing now, which is why the operations group likes it, but BRAEWOOD SURGICAL would own the design and could sell the same pump under its own name, so the TALLOWFORD brand would disappear from the fastest-growing part of the market. Whichever term is signed, the split is fixed for the life of the product.\n\nThe vice president of finance (judge) wants you to weigh the two terms against what the low-cost segment is doing, identify what each one does to profit, and recommend one. The vice president of finance (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the vice president of finance (judge) of TALLOWFORD MEDICAL SYSTEMS. Business background is the same as the situation above.\n\nYou have watched VIREO DEVICES take share for three years and you agree the company needs a low-cost line. What you have not settled is which of the two joint venture terms from BRAEWOOD SURGICAL to sign. You want the financial analyst to recommend one of them and then walk you through exactly how it would be carried out.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "What would you do first if we accept the term you recommend?",
+    "Who inside the company does the work after that?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the cash reserve is already committed to replacing the plant's overdue packaging equipment",
+        "whichever term is signed, the split is fixed for the life of the product",
+        "the board wants a low-cost line within a year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the cash reserve is already committed to replacing the plant's overdue packaging equipment",
+        "whichever term is signed, the split is fixed for the life of the product",
+        "the board wants a low-cost line within a year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 322,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "medical device manufacturer",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a joint venture's profit split",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0027",
+      "shelfSimilarity": 0.1217,
+      "shelfNearest": "BFS-0003",
+      "exemplarSimilarity": 0.0426,
+      "gateVersion": 8
+    }
+  }
+}

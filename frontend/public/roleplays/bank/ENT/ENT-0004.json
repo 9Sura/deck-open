@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0004",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Market Planning",
+  "performanceIndicators": [
+    {
+      "area": "Market Planning",
+      "pi": "Explain key factors in building a clientele.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Explain the nature of marketing planning.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Identify communications channels used in sales promotion.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Explain the nature of e-mail marketing tactics.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Demonstrate awareness of operational needs.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing director of ROMPWAY PLAY STUDIO, an established children's activity and play studio that runs weekly classes, drop-in play mornings and birthday parties. The owner (judge) is one of the two co-founders and has run the studio for nine years.\n\nA larger play centre opened four blocks away last winter with lower prices and a bigger room, and the studio has lost enrolments to it every month since. At the same time the other co-founder wants out, and the partnership agreement requires the studio to pay that buyout in full by the end of the year. The studio does not have the buyout money in its account.\n\nThe membership agreement gives the studio a fast way to find it. It allows the studio to roll every expired membership onto an auto-renewing plan at the higher current rate with thirty days' emailed notice, and it allows the studio to email every family that has ever booked a party, including the hundreds who came once and never enrolled. Doing that is permitted and it would raise the buyout money in time, and it costs the studio the trust of families who never agreed to be renewed or emailed and who would say so publicly while a competitor is taking their business. The slower course is to build the clientele back: a referral program, open houses and an e-mail campaign to the families who asked to hear from the studio. That keeps those families' goodwill, and it costs the studio the speed it needs, so the buyout would have to be covered by a loan whose payments land on top of falling enrolments.\n\nThe owner (judge) has asked you to explain the key factors in building the clientele back, explain how the studio should plan its marketing, identify the channels it would promote through, explain the e-mail tactics involved, and show what either course demands of daily operations.\n\nThe owner (judge) will greet you and ask to hear your ideas. After you have presented and answered the owner's questions, the owner (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the owner (judge) of ROMPWAY PLAY STUDIO. Business background is the same as the situation above.\n\nYou have to fund your co-founder's buyout by the end of the year while a new competitor takes your enrolments. You want the marketing director to explain the key factors in building the clientele back, explain how the studio should plan its marketing, identify the promotion channels, explain the e-mail tactics involved, show what either course demands of daily operations, and recommend whether to use what the membership agreement permits or to take the slower course and borrow.\n\nAfter the marketing director has presented, you will ask the following questions:",
+  "judgeQuestions": [
+    "If we went the other way instead, what would that cost us?",
+    "What would we have to give up to do it the slower way?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the partnership agreement requires the studio to pay the buyout in full by the end of the year",
+        "the studio does not have the buyout money in its account",
+        "the membership agreement allows an auto-renewing plan at the higher current rate with thirty days' emailed notice"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the partnership agreement requires the studio to pay the buyout in full by the end of the year",
+        "the studio does not have the buyout money in its account",
+        "the membership agreement allows an auto-renewing plan at the higher current rate with thirty days' emailed notice"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 348,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "children's activity and play studio",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a co-founder wanting out",
+        "dilemma_archetype": "a legally permitted action that customers would object to",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0004",
+      "shelfSimilarity": 0.1455,
+      "shelfNearest": "ENT-0002",
+      "exemplarSimilarity": 0.0688,
+      "gateVersion": 8
+    }
+  }
+}

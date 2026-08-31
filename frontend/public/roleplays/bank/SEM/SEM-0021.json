@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0021",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Customer Relations",
+  "performanceIndicators": [
+    {
+      "area": "Customer Relations",
+      "pi": "Handle customer/client complaints.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Deliver positive moments of truth.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of customer service in the hospitality and tourism industry.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain types of advertising media.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the use of celebrities/influencers as a WOM strategy.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the client services manager at CROSSTOWN ATHLETE PARTNERS, a sports agency and athlete representation firm. The managing partner (judge) has asked you to recommend what the agency should do about the free Saturday skills clinics it runs for young athletes, and to explain how that recommendation would be presented to the community partner who runs the clinics alongside the agency.\n\nThe agency is two years old and represents eighteen professional athletes. It has never bought a broadcast spot, a billboard, or any other paid advertising. Nearly every client it has signed came from a parent or a coach who watched one of its athletes work with children at the clinics, which the agency runs with the CITY PARKS ALLIANCE under a four-year agreement. Its first round of funding runs out in five months.\n\nA sports drink company has offered the agency one hundred forty thousand dollars to turn the clinics into a ticketed regional showcase filmed for its social channels. Accepting the money means charging families a ninety-five dollar entry fee for what has always been free, and moving the clinics out of the neighborhood parks, which ends the four-year agreement with the CITY PARKS ALLIANCE.\n\nTurning the offer down keeps the clinics free and the agreement with the alliance intact, but the agency would then enter its final five months of funding with no new revenue and would have to cut the athlete appearance travel that brings its clients to the clinics in the first place. The alliance director has already called twice, complaining that families heard about the entry fee before she did.\n\nThe managing partner (judge) wants your recommendation on whether to accept the offer, how the agency should answer the complaints coming from the alliance director and from families, and what the clinics do for the agency that paid advertising would not. The managing partner (judge) will greet you in the office and ask to hear your ideas. After you have presented and answered the questions, the managing partner (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of managing partner (judge) of CROSSTOWN ATHLETE PARTNERS, a sports agency and athlete representation firm.\n\nBusiness background is the same as the situation above. A sports drink company has offered one hundred forty thousand dollars to turn the free Saturday clinics into a ticketed regional showcase, which would charge families an entry fee and end the four-year agreement with the CITY PARKS ALLIANCE, and the agency has five months of funding left.\n\nYou have asked the client services manager (participant) to recommend whether to accept the offer, and to explain how the agency would answer the complaints already coming from the alliance director and from families.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "Who does this land hardest on, and what do we say to them?",
+    "If the alliance director calls again tomorrow, how do you answer her?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the four-year agreement with the CITY PARKS ALLIANCE",
+        "the first round of funding runs out in five months"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the four-year agreement with the CITY PARKS ALLIANCE",
+        "the first round of funding runs out in five months"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 342,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "sports agency and athlete representation firm",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "the youth or grassroots program",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0021",
+      "shelfSimilarity": 0.1316,
+      "shelfNearest": "SEM-0011",
+      "exemplarSimilarity": 0.069,
+      "gateVersion": 8
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0025",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Channel Management",
+  "performanceIndicators": [
+    {
+      "area": "Channel Management",
+      "pi": "Explain the relationship between customer service and channel management.",
+      "role": "core"
+    },
+    {
+      "area": "Channel Management",
+      "pi": "Explain the nature of channels of distribution.",
+      "role": "core"
+    },
+    {
+      "area": "Channel Management",
+      "pi": "Select channels of distribution.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the concept of competition.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of email marketing tactics.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the distribution manager at NORTH SHORE SPORTS AUDIO, a sports podcast and media network and the regional leader in its home market. The network president (judge) has asked you to recommend where the network's flagship show is carried as the company expands into its first out-of-state market, and to say what that choice does to the audience the show already has.\n\nThe flagship covers the state university football team, which finished the season with two wins and ten losses. Downloads on the open podcast feed have fallen by a third since October, and two advertisers on that feed have declined to renew. The network is entering three cities in the next state, and it is doing that through an affiliate agreement with a radio group that simulcasts the flagship in every one of them.\n\nA national streaming platform has offered to pay for the flagship, on the condition that it becomes exclusive to the platform's app in the three new cities. The affiliate agreement with the radio group requires the flagship to stay on the open feed the radio group simulcasts. Both contracts are in force, a rival network already sells advertising in two of those cities, and the network cannot satisfy both agreements.\n\nMoving the flagship behind the streaming platform's app brings paid subscribers in a market the network has never sold in, and it breaks the affiliate agreement with the radio group that carries the network in all three cities. Staying on the open feed keeps the radio group and its listeners, and the network then enters those cities on advertising revenue that the losing season is still pulling down, with only its email list to sell subscriptions against.\n\nThe network president (judge) wants your recommendation on where the flagship is carried in the three new cities, what the choice means for the listeners who follow the show on the open feed, and what the network would say to the partner it disappoints. The network president (judge) will greet you in the office and ask to hear your ideas. After you have presented and answered the questions, the network president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of network president (judge) of NORTH SHORE SPORTS AUDIO, a sports podcast and media network and the regional leader in its home market.\n\nBusiness background is the same as the situation above. The streaming platform will pay for the flagship only if it becomes exclusive to the platform's app in the three new cities, while the affiliate agreement with the radio group requires the flagship to stay on the open feed the radio group simulcasts in those same cities.\n\nYou have asked the distribution manager (participant) to recommend where the flagship is carried in the three new cities, to say what the choice means for the listeners on the open feed, and to explain what the network would say to the partner it disappoints.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "A season from now, what has this changed about who listens to us?",
+    "What happens the next time a partner asks us for exclusivity?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the affiliate agreement with the radio group requiring the flagship to stay on the open feed the radio group simulcasts",
+        "the streaming platform's condition that the flagship become exclusive to the platform's app in the three new cities"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the affiliate agreement with the radio group requiring the flagship to stay on the open feed the radio group simulcasts",
+        "the streaming platform's condition that the flagship become exclusive to the platform's app in the three new cities"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 361,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "sports podcast and media network",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "a losing season's effect on demand",
+        "dilemma_archetype": "an obligation to two parties whose contracts conflict",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0025",
+      "shelfSimilarity": 0.1657,
+      "shelfNearest": "SEM-0022",
+      "exemplarSimilarity": 0.0589,
+      "gateVersion": 8
+    }
+  }
+}

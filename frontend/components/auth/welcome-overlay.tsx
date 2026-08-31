@@ -156,9 +156,9 @@ function WelcomeSequence({
             exit={{ opacity: 0, scale: 1.05 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            Welcome, <span className="text-accent">{name}</span>
+            Welcome, <span className="text-accent-ink">{name}</span>
             {/* three dots that fade in one at a time; deck follows once all show */}
-            <span aria-hidden className="text-accent">
+            <span aria-hidden className="text-accent-ink">
               {[0, 1, 2].map((d) => (
                 <motion.span
                   key={d}

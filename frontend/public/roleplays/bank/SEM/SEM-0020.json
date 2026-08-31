@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0020",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assist with establishment of work rules.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Recognize and respond to ethical dilemmas.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assess long-term value and impact of actions on others.",
+      "role": "core"
+    },
+    {
+      "area": "Pricing",
+      "pi": "Identify factors influencing customer selection of lodging property for groups/events.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the nature of email marketing tactics.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of guest marketing manager at BLACKPINE MOUNTAIN RESORT, a ski resort and mountain operator with a slopeside lodge that takes group and event bookings. The general manager (judge), hired last spring to lead the turnaround, has asked you to recommend how the resort should handle the resale market for its lift tickets, and to be ready to explain your reasoning.\n\nTwo thin snow years cost the resort much of its season pass base and forced a round of layoffs, and the crews who stayed took on extra work to keep the lifts running. Day tickets now appear on PASSLINE MARKETPLACE for well under the window price on every busy weekend, and group organizers choosing a lodge quote those resale prices back to the sales office. Some of the listings are staff comp tickets.\n\nPASSLINE MARKETPLACE has offered to become the resort's official resale partner. Accepting that offer would give the resort a share of every resold ticket and a view of who is actually skiing on them. In exchange, PASSLINE sets the resale rules, and the email addresses of those buyers stay on the marketplace, so the resort could no longer send its own lodging and group packages to the people skiing its mountain.\n\nRefusing the partnership leaves the resale market running with no share and no buyer information reaching the resort. It would also mean writing a work rule that voids a comp ticket once it is resold, which puts the general manager's new leadership in the position of policing the same crews who absorbed the layoffs, in the first winter those crews have been asked to trust it.\n\nThe general manager (judge) wants your recommendation, along with how such a work rule should be written and what the resort should say to the people it affects. The general manager (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the general manager (judge) at BLACKPINE MOUNTAIN RESORT, hired last spring to lead the turnaround. Business background is the same as the situation above.\n\nYou asked the guest marketing manager to recommend whether the resort should accept PASSLINE MARKETPLACE as its official resale partner or refuse the partnership and write a work rule about comp tickets, and to say how that rule should be written and what the resort should say to the people it affects.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "A season from now, what would show this worked?",
+    "What could go wrong that you would not see right away?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "two thin snow years cost the resort much of its season pass base and forced a round of layoffs",
+        "group organizers choosing a lodge quote those resale prices back to the sales office"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "two thin snow years cost the resort much of its season pass base and forced a round of layoffs",
+        "group organizers choosing a lodge quote those resale prices back to the sales office"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 325,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "ski resort and mountain operator",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "a ticket resale market undercutting face value",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0020",
+      "shelfSimilarity": 0.1316,
+      "shelfNearest": "SEM-0010",
+      "exemplarSimilarity": 0.0622,
+      "gateVersion": 8
+    }
+  }
+}

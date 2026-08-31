@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0020",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Describe factors that affect the business environment.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of overhead/operating costs.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of business ethics.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Describe the use of design principles in menu development.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Describe foodservice branding strategies.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the operations manager for COPPER LARK JEWELRY, a handmade jewelry brand with four studios and the largest share of the regional market for hand-cut silver pieces. The owner (judge) started the company at a single bench sixteen years ago, has watched two national chains open nearby since, and intends to sell the company and retire in about three years.\n\nEvery piece is cut, soldered and finished by the eight bench artisans in the flagship studio. That is what customers are told, and it is what they pay a premium for. The coffee bar at the front of the flagship carries the same story, down to the design of its printed menu, and the brand's whole position in the region rests on it.\n\nThe company wants to open two stores in the next state, its first outside the region, and the overhead per piece will not support that. A contract workshop across the state line will cut and hand-finish the entry-level line for a third of what the same work costs at the benches. The brand's attorney has confirmed the pieces could still be sold and labelled as handmade.\n\nThat lower overhead would pay for both out-of-state stores and raise the price the business fetches when the owner (judge) sells. It would also take the entry-level line away from the eight bench artisans, and customers who pay a premium for pieces they believe are made at the flagship benches would object if they learned where the entry-level line now comes from.\n\nKeeping every piece at the benches holds that story intact, but overhead stays where it is, the expansion shrinks to one store about two years later, and the sale price falls with it. The owner (judge) wants your recommendation and the measures that would show afterwards whether it was the right one. The owner (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the owner (judge) of COPPER LARK JEWELRY. Business background is the same as the situation above.\n\nYou started the company at one bench sixteen years ago and you intend to sell it and retire in about three years. You want to hear whether the operations manager would move the entry-level line to the contract workshop across the state line or keep every piece at the flagship benches, and what that choice does to overhead, to the expansion and to the price the business fetches.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right call?",
+    "What would tell us early that it was not?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the owner intends to sell the company and retire in about three years",
+        "the overhead per piece will not support two stores in the next state",
+        "the brand's attorney has confirmed the pieces could still be sold and labelled as handmade"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the owner intends to sell the company and retire in about three years",
+        "the overhead per piece will not support two stores in the next state",
+        "the brand's attorney has confirmed the pieces could still be sold and labelled as handmade"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 324,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "handmade jewelry brand",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "the exit the owner is building toward",
+        "dilemma_archetype": "a legally permitted action that customers would object to",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0020",
+      "shelfSimilarity": 0.1314,
+      "shelfNearest": "ENT-0006",
+      "exemplarSimilarity": 0.0546,
+      "gateVersion": 8
+    }
+  }
+}

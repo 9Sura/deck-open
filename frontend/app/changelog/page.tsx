@@ -57,6 +57,160 @@ export default function ChangelogPage() {
 
       <Entry
         date="August 2026"
+        title="Buttons read properly on the spring and summer themes"
+      >
+        <li>
+          <strong>
+            On First Bloom and Midsummer, the writing on the coloured buttons was
+            too pale to read.
+          </strong>{" "}
+          The DECK logo, the &ldquo;Start practicing&rdquo; button and every other
+          filled button used near-white text on a mid-tone green or coral. That
+          is the whole app on those two themes, on every page.
+        </li>
+        <li>
+          <strong>The text is now dark where the fill is bright.</strong>{" "}
+          First Bloom keeps its green and its blossom pink; Midsummer keeps its
+          sunset coral. Only the writing on top changed, so the themes still look
+          like themselves.
+        </li>
+        <li>
+          <strong>Midsummer&rsquo;s magenta is a little deeper.</strong>{" "}
+          It was the one colour where no shade of text — not white, not black —
+          was readable enough, so the colour itself moved rather than the writing.
+        </li>
+        <li>
+          The other four themes are unchanged. Every filled button on every theme
+          now clears the standard readability bar.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="The coloured word in a heading is readable on every theme"
+      >
+        <li>
+          <strong>
+            On Golden Hour, Midsummer and First Bloom, the accent-coloured word
+            in a page heading was too pale to read.
+          </strong>{" "}
+          Every theme keeps two versions of its signature colour &mdash; a bright
+          one for buttons and icons, and a deeper one meant for text. The app was
+          using the bright one for text, which is fine on a dark theme and much
+          too light on a sunny one.
+        </li>
+        <li>
+          <strong>All of it now uses the text version.</strong>{" "}
+          &ldquo;Browse the <em>pool</em>&rdquo;, &ldquo;Study with{" "}
+          <em>flashcards</em>&rdquo;, the welcome greeting with your name, the
+          readiness figure on Progress, the sign-in dialog&rsquo;s
+          &ldquo;Create an account&rdquo; link and the{" "}
+          <strong>+</strong> on your study plan all read clearly now, on all six
+          themes. Buttons, the DECK logo and the little sparkle icons keep the
+          brighter colour.
+        </li>
+        <li>
+          Midsummer&rsquo;s text coral was deepened a shade at the same time, so
+          it clears the readability bar against every part of its sunset
+          background rather than only the lightest.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="The button you just picked is readable again"
+      >
+        <li>
+          <strong>
+            On Terminal and First Snow, the small count under a selected filter
+            button had all but vanished.
+          </strong>{" "}
+          The selected button filled with a gold wash that the grey count text
+          was never designed to sit on, so on the two dark themes it faded into
+          the fill — the one option you had just chosen was the one you could not
+          read.
+        </li>
+        <li>
+          <strong>Fixed on every theme, not just the dark ones.</strong>{" "}
+          The dark themes now use a gentler tint for the selected button, and the
+          count switches to the page ink instead of grey. Every count on every
+          theme now clears the standard readability bar; the light themes look
+          exactly as they did.
+        </li>
+        <li>
+          Affects the shelf switch and difficulty filter on Question Bank, the
+          presets on Practice Tests and Vocab, and the level picker when you set
+          up a study plan.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="Roleplays reach three more clusters"
+      >
+        <li>
+          <strong>
+            Finance, Hospitality and Tourism, and Entrepreneurship have
+            roleplays for the first time.
+          </strong>{" "}
+          Business Finance Series, Quick Serve Restaurant Management Series and
+          Entrepreneurship Series each have 30. Until now every roleplay in the
+          app came from Business Management and Administration, Marketing or
+          Personal Financial Literacy.
+        </li>
+        <li>
+          <strong>Eight events now, and 240 roleplays.</strong>{" "}
+          Thirty on each event, so a long stretch of practice never hands you the
+          same one twice.
+        </li>
+        <li>
+          <strong>Every one of the 90 new ones is new writing.</strong>{" "}
+          No two share the same set of performance indicators, and every company
+          and scenario is its own. Each was checked against the same quality bar
+          before it was allowed in &mdash; two missed, and were thrown out and
+          rewritten from scratch rather than patched up.
+        </li>
+        <li>
+          <strong>Twenty events are still empty.</strong>{" "}
+          We are filling them a few at a time. If yours is not here yet, it is
+          coming.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
+        title="Roleplay practice opens on three more events"
+      >
+        <li>
+          <strong>Five events now have roleplays instead of two.</strong>{" "}
+          Sports and Entertainment Marketing, Principles of Business Management
+          and Administration, and Principles of Finance have joined Business Law
+          and Ethics Team Decision Making and Human Resources Management. That is
+          150 roleplays in the bank, 30 on each event.
+        </li>
+        <li>
+          <strong>Principles events have their own material now.</strong>{" "}
+          Principles roleplays are shorter than the team and series ones, the way
+          DECA writes them, so what you get is sized for the event you actually
+          compete in rather than borrowed from a longer one.
+        </li>
+        <li>
+          <strong>Every roleplay is new writing, and no two repeat.</strong>{" "}
+          Across all 90 of the new ones, no two share the same set of performance
+          indicators, and every company and scenario is its own. Each one was
+          checked against the same quality bar before it was allowed in &mdash;
+          anything that missed was thrown out and rewritten from scratch, not
+          patched up.
+        </li>
+        <li>
+          <strong>The other 23 events are still empty.</strong>{" "}
+          We are filling them a few at a time. If yours is not here yet, it is
+          coming.
+        </li>
+      </Entry>
+
+      <Entry
+        date="August 2026"
         title="Vocab decks cover every topic on your exam"
       >
         <li>

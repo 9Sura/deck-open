@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0003",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Product/Service Management",
+  "performanceIndicators": [
+    {
+      "area": "Product/Service Management",
+      "pi": "Generate marketing communications ideas.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Build product/service brand.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Describe services offered by the hospitality and tourism industry.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "\"Sell\" ideas to others.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Operations",
+      "pi": "Identify potential security issues.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the brand manager at STEEPWELL TEA COLLECTIVE, a specialty tea brand owned by the people who work in it, where every working member holds one vote. The general manager (judge) is elected by those members and runs the business day to day.\n\nLast spring the collective ran a crowdfunding campaign to pay for a tasting room. The campaign raised its money on three promises: a first-year tasting room membership, a guided tour built with two hotel partners, and a limited tin of this year's single-estate harvest shipped within the first year to every one of the four thousand backers.\n\nThe harvest came in small. A national grocery chain has now offered to buy the entire single-estate lot outright and pay up front. Taking the chain's offer brings in the cash the collective needs to finish the tasting room before the season, and it costs the backers the limited tin they were promised, pushing their tins back a full year and breaking the promise the campaign made to them. Turning the offer down ships the tins on the promised date and keeps faith with the backers, and it costs the collective the up-front cash it was counting on, so the tasting room opening slips past the season. Either way the working members must vote, because the campaign promises cannot be changed without a vote. The backer list and payment records still sit on the crowdfunding platform, and those addresses have to move into the collective's own shipping system.\n\nThe general manager (judge) has asked you to generate marketing communications ideas for the course you choose, explain what it does to the brand the collective has built, describe the tasting room and hotel tour services on offer, sell your idea to the working members, and identify the security issues in moving the backer records.\n\nThe general manager (judge) will greet you and ask to hear your ideas. After you have presented and answered the general manager's questions, the general manager (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the general manager (judge) of STEEPWELL TEA COLLECTIVE. Business background is the same as the situation above.\n\nYou have to put a recommendation in front of the working members, and you want it to be one they can vote on. You want the brand manager to generate marketing communications ideas for the course chosen, explain what it does to the brand, describe the tasting room and hotel tour services, sell the idea to the members, identify the security issues in moving the backer records off the crowdfunding platform, and tell you whether to take the grocery chain's offer.\n\nAfter the brand manager has presented, you will ask the following questions:",
+  "judgeQuestions": [
+    "What is the first step, and who takes it?",
+    "Who has to be told, and in what order?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the campaign promises cannot be changed without a vote of the working members",
+        "the harvest came in small",
+        "the backer list and payment records still sit on the crowdfunding platform"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the campaign promises cannot be changed without a vote of the working members",
+        "the harvest came in small",
+        "the backer list and payment records still sit on the crowdfunding platform"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 337,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "specialty tea brand",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "a crowdfunding campaign and its promises",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0003",
+      "shelfSimilarity": 0.1501,
+      "shelfNearest": "ENT-0001",
+      "exemplarSimilarity": 0.0811,
+      "gateVersion": 8
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0024",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Promotion",
+  "performanceIndicators": [
+    {
+      "area": "Promotion",
+      "pi": "Explain key factors in building a clientele.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Describe factors used by marketers to position products/services.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the relationship between promotion and brand.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Store foods properly.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Conduct an environmental scan to obtain business information.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing manager at TWIN MAPLE YOGURT CO., a self-serve frozen yogurt chain with thirty-one shops and the largest share of its home state. The company is opening its first shop across the state line this year. The vice president of marketing (judge) has asked you to bring a recommendation to a meeting this week.\n\nThe company signed a letter of intent on a strip-mall space near the new city's university. Since then CHILL HOUSE, a national self-serve competitor, has opened two blocks from that space, with a heavier opening budget than the company had planned to spend and the same toppings-by-weight format.\n\nA crosstown site has come open next to a transit stop. Counts taken there over three weekends show more than twice the foot traffic of the university space. A former employee already runs a licensed TWIN MAPLE YOGURT CO. shop a mile from that site, under a license promising no company shop within three miles of hers.\n\nTaking the crosstown site would put the company in front of the traffic it needs to build a clientele from opening week, but it breaks the three-mile promise to the licensed operator, and the site's back room holds one small freezer, too little to store the yogurt mix properly between deliveries three times a week.\n\nKeeping the university space and outspending CHILL HOUSE on the opening costs the promotion budget set aside to build that shop's first year of regulars, and the two shops would still be splitting the same students. The vice president of marketing (judge) wants your reading of the new market and a recommendation on the site. The vice president of marketing (judge) will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the vice president of marketing (judge) at TWIN MAPLE YOGURT CO. Business background is the same as the situation above. You approved the letter of intent on the university space, you signed the license the former employee operates under, and you have seen the weekend traffic counts from the crosstown site. You want the marketing manager to give you a reading of the new market and to recommend which site the first out-of-state shop should take.\n\nYou will greet the participant, ask to hear their ideas, and listen to the presentation without steering it. After the presentation, ask the following questions:",
+  "judgeQuestions": [
+    "What is the first thing we would do if we go with your recommendation?",
+    "Who has to be told, and in what order?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the license promising no company shop within three miles",
+        "the letter of intent signed on the strip-mall space near the university",
+        "the crosstown site's back room holds one small freezer"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the license promising no company shop within three miles",
+        "the letter of intent signed on the strip-mall space near the university",
+        "the crosstown site's back room holds one small freezer"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 294,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "self-serve frozen yogurt chain",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "the effect of a nearby competitor's opening",
+        "dilemma_archetype": "a growth opportunity that breaches an existing commitment",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0024",
+      "shelfSimilarity": 0.1654,
+      "shelfNearest": "QSRM-0023",
+      "exemplarSimilarity": 0.0307,
+      "gateVersion": 8
+    }
+  }
+}

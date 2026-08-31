@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0003",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Managing Risk",
+  "performanceIndicators": [
+    {
+      "area": "Managing Risk",
+      "pi": "Discuss why most states mandate auto liability coverage.",
+      "role": "core"
+    },
+    {
+      "area": "Managing Risk",
+      "pi": "Evaluate the costs and benefits of buying an extended warranty on a specific item (e.g. cellphone, laptop, or vehicle) considering the likelihood of product failure, cost of replacing the item, and price of the warranty.",
+      "role": "core"
+    },
+    {
+      "area": "Managing Risk",
+      "pi": "Explain why homeowners’ insurance is required by a lender when a homeowner takes out a mortgage.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are nineteen, renting your first apartment, and working days at a garden center with no credit history to your name. Your auto policy with TIMBERPOINT MUTUAL INSURANCE renews in three weeks, and after a minor accident last spring the six-month premium has risen from $708 to $1,044. An insurance agent (judge) has asked to go over your choices.\n\nPaying the $1,044 in one payment would empty the savings you keep for rent in case the garden center cuts your hours. Paying monthly costs $186, and the $12 service charge built into each installment adds $72 over the six months for nothing but the convenience of spreading it out.\n\nCROSSCUT AUTO INSURANCE has quoted $154 a month, but that quote is state-minimum liability with no collision, so any repair to your own hatchback would come out of your pocket. You paid the car loan off last month, so the lender no longer requires collision the way a mortgage lender requires homeowners’ insurance.\n\nThe agent (judge) has also offered an extended warranty on your seven-year-old hatchback at $28 a month, a cost you can measure exactly against a breakdown that may never come. The agent (judge) wants you to compare the renewal choices and recommend one. The agent (judge) will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are an insurance agent (judge) at TIMBERPOINT MUTUAL INSURANCE. Business background is the same as the situation above.\n\nYou write personal auto policies and talk renewals through with customers before they lapse. You want to hear the renewal choices compared and hear which one this customer would take, in their own terms and for reasons they can state.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "A year from now, what will have changed because of this choice?",
+    "What would make you switch back?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the policy with TIMBERPOINT MUTUAL INSURANCE renews in three weeks",
+        "the six-month premium has risen from $708 to $1,044 after a minor accident last spring",
+        "the car loan was paid off last month, so the lender no longer requires collision"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the policy with TIMBERPOINT MUTUAL INSURANCE renews in three weeks",
+        "the six-month premium has risen from $708 to $1,044 after a minor accident last spring",
+        "the car loan was paid off last month, so the lender no longer requires collision"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 216,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a car insurance renewal after a minor accident",
+        "company_stage": "a first-time renter with no credit history",
+        "business_function": "reading the total cost of credit rather than the monthly payment",
+        "dilemma_archetype": "a cost that is easy to measure against a benefit that is not",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0003",
+      "shelfSimilarity": 0.0458,
+      "shelfNearest": "PFL-0002",
+      "exemplarSimilarity": 0.0659,
+      "gateVersion": 8
+    }
+  }
+}

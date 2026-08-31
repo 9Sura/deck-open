@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0004",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Spending",
+  "performanceIndicators": [
+    {
+      "area": "Spending",
+      "pi": "Define key rental contract terminology, including lease term, security deposit, grace period, and eviction.",
+      "role": "core"
+    },
+    {
+      "area": "Spending",
+      "pi": "Compare the short-term and long-term costs and benefits of renting versus buying a home in their city of residence.",
+      "role": "core"
+    },
+    {
+      "area": "Spending",
+      "pi": "Analyze social media marketing and advertising techniques designed to encourage spending.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a second-year electrician apprentice, earning while you train, and you rent a studio across town from most of your job sites. A financial coach (judge) at CEDARWORKS FINANCIAL COACHING meets with apprentices for free, and you have booked a session to talk through buying a used truck.\n\nYou have $4,200 saved and no credit history at all. A private seller will take the $4,200 in cash for a high-mileage pickup, which empties the savings and still leaves a lender nothing to read about you. BRIGHTWAY MOTORS will finance a certified pickup over thirty-six months for $1,340 in interest.\n\nThose payments, made on time, would build the credit history a mortgage lender reads years from now, but the first one falls in the same month your lease term ends and the landlord renews at $1,150 with an added security deposit. The dealership's account posts daily countdown videos on a payment-only offer that expires Sunday.\n\nYou could also keep riding to job sites with a coworker for another year and save toward a down payment, though you would depend on his schedule and stay a renter longer. The coach (judge) wants you to compare the paths and recommend one. The coach (judge) will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are a financial coach (judge) at CEDARWORKS FINANCIAL COACHING. Business background is the same as the situation above.\n\nYou sit with apprentices and first-time borrowers who are deciding what to do with the first real savings they have ever held. You want to hear the paths compared and hear which one this apprentice would take, along with what it does to the money left over each month.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Which choice did you leave on the table, and what would it have given you?",
+    "What would you have given up to take it instead?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "you have $4,200 saved and no credit history at all",
+        "your lease term ends and the landlord renews at $1,150 with an added security deposit",
+        "the dealership's offer expires Sunday"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "you have $4,200 saved and no credit history at all",
+        "your lease term ends and the landlord renews at $1,150 with an added security deposit",
+        "the dealership's offer expires Sunday"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 214,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a used-car purchase",
+        "company_stage": "an apprentice earning while training in a trade",
+        "business_function": "building a credit history from nothing",
+        "dilemma_archetype": "a certain small gain weighed against an uncertain larger one",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0004",
+      "shelfSimilarity": 0.1557,
+      "shelfNearest": "PFL-0003",
+      "exemplarSimilarity": 0.0277,
+      "gateVersion": 8
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 2,
+  "id": "PBM-0014",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Information Management",
+      "pi": "Discuss the nature of information management.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Identify information monitored for business decision making.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Apply information to accomplish a task.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe the functions of prices in markets.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the store operations coordinator at NORTHBANK COFFEE, a chain of thirty-six shops formed six months ago when Northbank bought KETTLE ROW COFFEE. The district manager (judge) has asked you to recommend what daily information the company should put in front of its shift leads.\n\nThe two chains still run separate registers. Northbank shops see sales by the hour on a screen; former Kettle Row shops get a printed sheet the next morning, and the numbers on it are not counted the same way. The district manager (judge) cannot compare one shop to another without rebuilding both by hand.\n\nOne system would fix that. Putting every shop on the same registers and the same fixed price list would give the company one comparable set of numbers each day. It would also end what customers name when asked why they come: each manager prices a few local items and rotates a small menu on what that shift sees selling.\n\nThe company could instead leave local pricing alone and have shift leads fill in one shared sheet by hand, which keeps the district waiting a day and keeps two sets of numbers that do not line up. The district manager (judge) wants your recommendation and the reasoning behind it.\n\nYou will present it in the district office. The district manager (judge) will greet you and ask to hear your ideas. After you have presented and answered the questions, the district manager (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of district manager of NORTHBANK COFFEE, a chain of thirty-six shops formed six months ago when Northbank bought KETTLE ROW COFFEE.\n\nBusiness background is the same as the situation above. The two chains still run separate registers whose numbers are not counted the same way, one system with one fixed price list would make the shops comparable, and the local pricing and rotating menu the managers set are what customers name when they are asked why they come.\n\nYou have asked the store operations coordinator (participant) to recommend what daily information the company should put in front of its shift leads, and to give you the reasoning behind that recommendation.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "What does the choice you set aside give up?",
+    "If we had gone that way instead, what would it have cost us?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the two chains' separate registers, whose numbers are not counted the same way"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the two chains' separate registers, whose numbers are not counted the same way"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 247,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "coffee shop chain",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "communication between a manager and a shift",
+        "dilemma_archetype": "an efficiency that costs the company its differentiator",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PBM-0014",
+      "shelfSimilarity": 0.2207,
+      "shelfNearest": "PBM-0012",
+      "exemplarSimilarity": 0.1113,
+      "gateVersion": 8
+    }
+  }
+}

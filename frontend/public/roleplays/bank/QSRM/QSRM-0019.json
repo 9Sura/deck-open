@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0019",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Market Planning",
+  "performanceIndicators": [
+    {
+      "area": "Market Planning",
+      "pi": "Explain the use of marketing strategies in hospitality and tourism.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Explain factors that influence customer selection of food places and menu items.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Describe factors used by businesses to position corporate brands.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Adapt written correspondence to targeted audiences.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Operations",
+      "pi": "Follow safety precautions.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing manager for HARBOR ROAD WINGS, an eighteen-year-old wings and tenders chain. A new competitor opened forty stores in your markets last year, and the vice president of marketing (judge) has watched HARBOR ROAD lose share in every one of them.\n\nGuest research points at one number: the drive-thru. Bone-in wings are cooked to order and take close to nine minutes, while the competitor sells tenders only and clears a car in three. Drivers who once waited now leave the line, and the brand's own advertising has always promised wings worth the wait.\n\nOne proposal is to pull bone-in wings from the drive-thru menu and sell them only inside. Times would drop this quarter and the numbers would look fixed, but the item the chain is known for would disappear from the lane most guests use, and the position HARBOR ROAD holds as the wing brand would pass to the competitor over the following year.\n\nThe other proposal keeps the full menu and adds a second fry line with a holding cabinet in the busiest stores. It protects the wings and the promise behind them, but the equipment takes about five months to install, crews work closer to hot oil in a tighter space, and this quarter's drive-thru times would not move at all.\n\nThe vice president (judge) has asked you to recommend one of the two and to draft how the change would be announced to franchisees and to guests, who read very differently. The vice president (judge) will greet you, hear your ideas and ask questions, and will thank you when the presentation is over.",
+  "judgeCharacterization": "You are the vice president of marketing (judge) for HARBOR ROAD WINGS. Business background is the same as the situation above. The chain has lost share to a new competitor for a year, the drive-thru is where guests leave the line, and the advertising has always promised wings worth the wait.\n\nYou want the marketing manager to recommend either pulling bone-in wings from the drive-thru menu or adding a second fry line with a holding cabinet in the busiest stores, and to show you how the change would be written to franchisees and to guests.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "A year after we do this, what changes that we did not plan for?",
+    "What happens to the stores that are already busiest?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the brand's advertising has always promised wings worth the wait",
+        "the second fry line takes about five months to install"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the brand's advertising has always promised wings worth the wait",
+        "the second fry line takes about five months to install"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 270,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "wings and tenders chain",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "drive-thru speed of service",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0019",
+      "shelfSimilarity": 0.106,
+      "shelfNearest": "QSRM-0008",
+      "exemplarSimilarity": 0.064,
+      "gateVersion": 8
+    }
+  }
+}

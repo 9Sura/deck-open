@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0003",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial-Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Financial-Information Management",
+      "pi": "Explain the role of ethics in financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Describe the use of technology in financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Explain the nature and scope of financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Professional Development",
+      "pi": "Discuss employment opportunities in the finance industry.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Determine factors affecting business risk.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the financial analyst at ARDEN AEROSTRUCTURES, a supplier of machined structural parts for commercial aircraft. The vice president of finance (judge) has asked you to review this year's capital requests and bring a recommendation, because the requests add up to more than the company has to spend.\n\nEight months ago the company merged with KESTREL MACHINE WORKS, and the two plants still run separate schedules, separate part numbers, and separate maintenance records. The finance group is adding two analyst positions to carry the combined reporting. A new spend-analysis system pulls both plants into one set of figures for the first time, and the board approved a single capital budget for the year.\n\nThe figures rank an automated inspection cell at the KESTREL MACHINE WORKS plant first by a wide margin, and the figures behind that request were prepared by the plant that submitted it. The second request is a replacement heat-treat furnace at the legacy plant. The furnace passes inspection and its measured downtime is low, but the supervisors who have run it for two decades say it is failing in ways the maintenance log does not capture.\n\nFunding the inspection cell follows the numbers and speeds the plant the merger was meant to bring on, but leaves the furnace in place, and a furnace failure would halt certified production for months while the customer requalifies another source. Funding the furnace answers people who know the equipment, but spends the year on a project whose payback the figures cannot show, and the acquired plant will read it as the merger favoring the old company.\n\nSplitting the budget between the two would start both and finish neither this year. The vice president of finance (judge) wants your assessment of the risk carried by each request and a recommendation on where the year's capital goes. The vice president of finance (judge) will greet you, ask to hear your ideas, and thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the vice president of finance (judge) at ARDEN AEROSTRUCTURES. Business background is the same as the situation above. You approved the spend-analysis system, you inherited two plants that have not yet been brought together, and you have one capital budget for the year. You want the financial analyst to assess the risk carried by each request and to recommend where the year's capital goes.\n\nYou will greet the participant, ask to hear their ideas, and listen to the presentation without steering it. After the presentation, ask the following questions:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right call?",
+    "What would tell us we chose wrong?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the board approved a single capital budget for the year",
+        "a furnace failure would halt certified production for months while the customer requalifies another source"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the board approved a single capital budget for the year",
+        "a furnace failure would halt certified production for months while the customer requalifies another source"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 327,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "aerospace parts supplier",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "capital rationing across competing requests",
+        "dilemma_archetype": "a data-supported choice that contradicts staff experience",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0003",
+      "shelfSimilarity": 0.126,
+      "shelfNearest": "BFS-0001",
+      "exemplarSimilarity": 0.0534,
+      "gateVersion": 8
+    }
+  }
+}

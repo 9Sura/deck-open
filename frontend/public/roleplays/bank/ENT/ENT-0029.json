@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0029",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Product/Service Management",
+  "performanceIndicators": [
+    {
+      "area": "Product/Service Management",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Generate product ideas.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Discuss the nature of the menu as a management tool.",
+      "role": "core"
+    },
+    {
+      "area": "Channel Management",
+      "pi": "Describe the use of technology in the channel management function.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Operations",
+      "pi": "Interpret business policies to customers/clients.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the general manager of THE PRESSROOM STUDIOS, a coworking space built for photographers, designers and small production crews. The space opened two years ago on money from a single seed investor, and that money is nearly gone. The founder (judge) has asked you to recommend what the menu of memberships should look like in the business plan the company is about to submit.\n\nAbout a hundred and twenty people work out of the building. Forty of them are charter members who joined in the first six months, when half the desks sat empty, and who were promised in writing that their rate would stay locked for as long as they kept their membership, at less than half what the other eighty members now pay for the same desks and the same studio time.\n\nA community lender will consider a loan, but only against a business plan showing how the space reaches break-even within a year. The plan the company has drafted gets there by moving every charter member onto the standard rate at renewal. Nothing in the plan works without that revenue, and the lender's decision arrives before the current funding runs out.\n\nThe charter members filled the building when nobody else would, run most of the evening workshops, and send the referrals that keep the tour calendar full. The newer members have begun asking why two people at the same bench pay different rates. The other way to reach break-even is to close the shared print studio, and the newer members would lose an amenity they pay the higher rate to use.\n\nThe founder (judge) wants you to analyze what the membership is really selling, weigh the promise made to the charter members against the newer members paying more for the same service, and recommend which version of the plan goes to the lender. The founder (judge) will greet you, hear your ideas, ask two questions, and thank you when the presentation and questions are over.",
+  "judgeCharacterization": "You are the founder of THE PRESSROOM STUDIOS. Business background is the same as the situation above. You signed the written promise the charter members hold, you set the standard rate the other eighty members pay, and you are the one who will sit across from the community lender. You would rather not choose between the people who filled the building and the people paying full price beside them, but the funding runs out either way.\n\nYou have asked the general manager (participant) to analyze what the membership is really selling, weigh the promise made to the charter members against the newer members paying more for the same service, and recommend which version of the business plan goes to the lender. You want to hear how each version would be explained to the members it affects.\n\nAfter the participant has presented, you will ask these two questions:",
+  "judgeQuestions": [
+    "A year after this change, what does the membership look like?",
+    "What might we be dealing with by then that we are not thinking about now?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the charter members were promised in writing that their rate would stay locked for as long as they kept their membership",
+        "the lender will consider a loan only against a business plan showing break-even within a year",
+        "the seed investor's money is nearly gone"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the charter members were promised in writing that their rate would stay locked for as long as they kept their membership",
+        "the lender will consider a loan only against a business plan showing break-even within a year",
+        "the seed investor's money is nearly gone"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 329,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "coworking space for creatives",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "a business plan written for a lender",
+        "dilemma_archetype": "a fair outcome for one group that is unfair to another",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0029",
+      "shelfSimilarity": 0.1514,
+      "shelfNearest": "ENT-0026",
+      "exemplarSimilarity": 0.0501,
+      "gateVersion": 8
+    }
+  }
+}

@@ -46,11 +46,22 @@ export function SettingsData() {
         type: "application/json",
       });
       const url = URL.createObjectURL(blob);
+      // Both halves of this are load-bearing off Chromium, and neither failure
+      // is catchable: a download that never starts raises nothing, so the catch
+      // below can't see it and the button just flips back with no file (#250).
+      //   - A synthetic click on a DETACHED anchor is ignored by some engines,
+      //     so the anchor goes into the document before the click and out after.
+      //   - Revoking the object URL in the same task can cancel a fetch the
+      //     browser hasn't started yet, so the revoke is deferred a task. It
+      //     still runs — the blob isn't leaked, just released a tick later.
       const a = document.createElement("a");
       a.href = url;
       a.download = "deck-progress-export.json";
+      a.style.display = "none";
+      document.body.appendChild(a);
       a.click();
-      URL.revokeObjectURL(url);
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 0);
     } catch {
       // Say so rather than re-enabling a button that looks like it did nothing.
       setExportFailed(true);

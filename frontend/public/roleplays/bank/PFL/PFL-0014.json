@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0014",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Spending",
+  "performanceIndicators": [
+    {
+      "area": "Spending",
+      "pi": "Evaluate the advantages of using budgeting tools, such as spreadsheets or apps.",
+      "role": "core"
+    },
+    {
+      "area": "Spending",
+      "pi": "Describe a process for making an informed consumer decision.",
+      "role": "core"
+    },
+    {
+      "area": "Spending",
+      "pi": "Analyze social media marketing and advertising techniques designed to encourage spending.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a first-time renter with no credit history who has just moved to a city where rent runs far higher than at home. Your new job pays $2,600 a month after taxes, and the apartment you and a roommate signed for costs $1,450. The judge is a financial coach at PINE STREET CREDIT UNION.\n\nBecause you have no credit history, the landlord required an extra month's rent as a deposit. You are $900 short of the move-in total. You have tracked your spending in a spreadsheet for a year, and the credit union offers a budgeting app that would move money to savings automatically on payday.\n\nSPLITPAY, a pay-in-four service advertised constantly on the feeds you scroll, would cover the furniture and the extra deposit in installments and close the $900 shortfall. It reports a missed installment to the credit reporting companies, which would damage the credit record you have not started building, and its fees cost more than paying outright.\n\nThe coach (judge) has asked you to recommend how to close the $900 shortfall and how to save automatically before spending. Using SPLITPAY to cover the furniture and the extra deposit in installments damages the credit record you have not started building. Buying secondhand furniture and setting an automatic transfer to savings before spending means your roommate covers the extra deposit and waits months to be repaid.\n\nThe coach (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are a financial coach at PINE STREET CREDIT UNION. Business background is the same as the situation above.\n\nYou have asked the new renter to recommend how the $900 shortfall gets closed, whether the spreadsheet or the budgeting app is the better tool for a first budget in a costlier city, and how a saving transfer happens before the spending rather than after it.\n\nDuring the presentation you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "Who ends up carrying the cost of this choice?",
+    "Is that fair to your roommate, and how would you make it right?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "you have no credit history",
+        "your new job pays $2,600 a month after taxes and the apartment costs $1,450",
+        "you are $900 short of the move-in total"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "you have no credit history",
+        "your new job pays $2,600 a month after taxes and the apartment costs $1,450",
+        "you are $900 short of the move-in total"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 245,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a move to a city with a higher cost of living",
+        "company_stage": "a first-time renter with no credit history",
+        "business_function": "saving automatically before spending",
+        "dilemma_archetype": "a shortcut that closes the shortfall and damages a credit record",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0014",
+      "shelfSimilarity": 0.1573,
+      "shelfNearest": "PFL-0012",
+      "exemplarSimilarity": 0.0454,
+      "gateVersion": 8
+    }
+  }
+}

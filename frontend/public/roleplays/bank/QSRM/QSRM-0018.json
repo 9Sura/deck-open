@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0018",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Operations",
+  "performanceIndicators": [
+    {
+      "area": "Operations",
+      "pi": "Explain routine security precautions.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Describe strategies to minimize the cost of maintaining inventory.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Interpret business policies to customers/clients.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Describe strategies for managing customer dynamics.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Collaborate in the design of slogans/taglines.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the operations manager for REDBIRD FRY HOUSE, a two-year-old fried chicken franchise with nine stores. The founder (judge) opened the first store on money raised in a single funding round, and what is left of that round now covers about seven months of operating cash.\n\nUtilities have become the third-largest cost line in every store. The fryer bank and the hood exhaust run from open to close, and the dining rooms stay lit and cooled through the last three hours of the night, when nearly every order arrives at the drive-thru window instead.\n\nThe local utility has filed for a rate increase that the state regulator has not approved. A high-efficiency fryer and hood-control package would cut energy use enough to pay for itself in under two years if that increase takes effect, and would return almost nothing if it is denied. Buying the package now spends roughly a third of the cash the company has left.\n\nThe other course is to close the dining rooms at eight and run the drive-thru only for the last three hours, holding less breaded chicken in the warmer through a slow evening. Cash is saved immediately, but evening guests would reach a locked door the tagline \"Fried Fresh 'Til Close\" told them would be open, and the closing crew would count the night deposit with fewer people on the floor.\n\nThe founder (judge) has asked you to recommend one of the two courses, to explain how the closing crew should describe the change to guests who ask about it, and to propose a tagline that would still be true afterward. The founder (judge) will greet you, hear your ideas and ask questions, and will thank you when the presentation is over.",
+  "judgeCharacterization": "You are the founder (judge) of REDBIRD FRY HOUSE. Business background is the same as the situation above. Nine stores are open, about seven months of operating cash remains, utilities are the third-largest cost line, and the utility's proposed rate increase is still sitting with the state regulator.\n\nYou want the operations manager to recommend either buying the high-efficiency fryer and hood-control package now or closing the dining rooms at eight and running the drive-thru only, to tell you how the closing crew should explain the change to guests, and to offer a tagline that would still be true.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right call?",
+    "What would tell us early that it is not working?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "what is left of the single funding round covers about seven months of operating cash",
+        "the state regulator has not approved the local utility's filed rate increase"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "what is left of the single funding round covers about seven months of operating cash",
+        "the state regulator has not approved the local utility's filed rate increase"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 290,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "fried chicken franchise",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "the store's utilities and energy cost",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0018",
+      "shelfSimilarity": 0.0963,
+      "shelfNearest": "QSRM-0016",
+      "exemplarSimilarity": 0.0613,
+      "gateVersion": 8
+    }
+  }
+}

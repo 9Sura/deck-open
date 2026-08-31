@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0019",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Managing Risk",
+  "performanceIndicators": [
+    {
+      "area": "Managing Risk",
+      "pi": "Explain the steps an identity theft victim should take to limit losses and restore personal security.",
+      "role": "core"
+    },
+    {
+      "area": "Managing Risk",
+      "pi": "Discuss whether a premium paid to insure against a crash that never happens is wasted.",
+      "role": "core"
+    },
+    {
+      "area": "Managing Risk",
+      "pi": "Estimate the effect on different health insurance deductibles and coinsurance rates on out-of-pocket medical costs.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a young adult who needs a reliable car to get to work, and you are still carrying a $2,300 balance on your first credit card at 24 percent. You have an appointment with an insurance agent (judge) at GRANITE PASS INSURANCE AGENCY.\n\nA three-year lease on a new compact runs $290 a month, and the leasing company requires you to carry the $500-deductible policy for all three years, which the agency quotes at $1,380 a year. A loan on a four-year-old version of the same car runs $340 a month and lets you choose a $1,500 deductible at $1,020 a year.\n\nLeasing means paying that $1,380 premium every year whether or not a crash ever happens. The loan takes an $1,800 down payment that would otherwise pay off most of the credit card balance, and leaves you covering the first $1,500 of any repair yourself. Your older brother has offered to co-sign the loan and would be on the hook if you missed a payment.\n\nThe insurance agent (judge) wants you to rank what matters most to you over the next three years, compare what each choice would cost you in a good year and in a bad one, and recommend one. The agent (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are an insurance agent (judge) at GRANITE PASS INSURANCE AGENCY. A young adult who needs a reliable car to get to work, and who is still carrying a balance on a first credit card, has come in to settle the choice between a lease and a loan.\n\nBusiness background is the same as the situation above.\n\nYou want the participant to rank what matters most to them over the next three years, to compare what each choice would cost in a good year and in a bad one, and to recommend one.\n\nYou will begin by greeting the participant and asking to hear their ideas. During the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "If you go the other way, what does that cost you?",
+    "What would have to be true for the other choice to be the better one?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the leasing company requires you to carry the $500-deductible policy for all three years",
+        "you are still carrying a $2,300 balance on your first credit card at 24 percent"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the leasing company requires you to carry the $500-deductible policy for all three years",
+        "you are still carrying a $2,300 balance on your first credit card at 24 percent"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 215,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a car lease weighed against a car loan",
+        "company_stage": "a young adult carrying a balance from a first credit card",
+        "business_function": "setting and ranking financial goals",
+        "dilemma_archetype": "protection that is worth paying for only if the loss actually happens",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0019",
+      "shelfSimilarity": 0.1715,
+      "shelfNearest": "PFL-0018",
+      "exemplarSimilarity": 0.0787,
+      "gateVersion": 8
+    }
+  }
+}

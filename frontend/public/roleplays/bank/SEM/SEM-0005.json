@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0005",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Selling",
+  "performanceIndicators": [
+    {
+      "area": "Selling",
+      "pi": "Explain the nature and scope of the selling function.",
+      "role": "core"
+    },
+    {
+      "area": "Selling",
+      "pi": "Explain the concept of marketing strategies.",
+      "role": "core"
+    },
+    {
+      "area": "Selling",
+      "pi": "Demonstrate a customer-service mindset.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Place merchandise for impact.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Demonstrate active listening skills.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the merchandise sales manager at the LAUREL POINT PERFORMING ARTS CENTER, a fourteen-hundred-seat hall that has presented touring theatre and music on the same downtown block for forty years. The director of operations (judge) has asked you to set the merchandise plan for next season before the buying budget is committed.\n\nTHE FOUNDRY, a venue that opened across the river two years ago, has taken a growing share of the same audience, partly by selling licensed show merchandise on the night a tour plays there. LAUREL POINT sells from one lobby kiosk with limited shelf space, and its sales staff hear the same request at every intermission: patrons ask for the title of the show they have just watched.\n\nThe cheaper plan is to stock house-brand goods printed locally with the LAUREL POINT name, which carry no license fee and the lowest cost per unit. If patrons leaving a show still want that show's title rather than the hall's, the season's whole buying budget sits in the stockroom as unsold house-brand stock, and the kiosk has no shelf space left for anything else.\n\nThe other plan is to sign licensing agreements with the touring producers for show-specific merchandise. Each title carries a license fee and a minimum order, both owed whether the run sells out or not, so a week that draws a thin house leaves the center paying fees on titles nobody bought. It also commits most of the budget before the season is even announced.\n\nThe director of operations (judge) wants a recommendation on the assortment and the licensing, and wants to hear how you would place the merchandise in the lobby for impact. The director of operations (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the director of operations (judge) at the LAUREL POINT PERFORMING ARTS CENTER. Business background is the same as the situation above.\n\nThe buying budget for next season goes out this month and the lobby kiosk has to be stocked either way. You want to hear which merchandise plan the sales manager recommends, how the kiosk would be laid out, and you want to hear as much about the plan that was set aside as about the one that was chosen.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Which plan did you decide against?",
+    "What would that one have cost the center?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the buying budget is committed before the season is announced",
+        "one lobby kiosk with limited shelf space",
+        "the license fee and minimum order are owed whether the run sells out or not"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the buying budget is committed before the season is announced",
+        "one lobby kiosk with limited shelf space",
+        "the license fee and minimum order are owed whether the run sells out or not"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 300,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "performing arts center",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "merchandise assortment and licensing",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0005",
+      "shelfSimilarity": 0.1354,
+      "shelfNearest": "SEM-0001",
+      "exemplarSimilarity": 0.0639,
+      "gateVersion": 8
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0022",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial Analysis",
+  "performanceIndicators": [
+    {
+      "area": "Financial Analysis",
+      "pi": "Describe common management accounting performance measures.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Determine insurance needs.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Explain the responsibilities of finance professionals in providing client services.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Account for long-term assets.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Professional Development",
+      "pi": "Explain the roles and responsibilities of accounting professionals.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the controller at STONEHOLLOW DATA CENTERS, a family-owned data center operator that rents secure server space to hospitals, banks and software firms. The president (judge) is the third generation of the family to run the business, and has asked you to recommend how the company should pay to replace the failing cooling plant in its original building.\n\nThe chillers in that building are twenty-two years old and nearly fully depreciated. Repair spending has climbed every year, and the last two failures dropped the building below the uptime the company reports to its clients each month. The insurer will not renew outage coverage there unless the chillers are replaced this year. A new plant would cost more than the company has on hand and would be carried as a long-term asset for fifteen years.\n\nThe president (judge) will not borrow against the family's property, so the money has to come from clients, and the two ways of raising it land on two different groups of them. One course of action is to end the frozen rates held for the fifteen oldest clients in the original building, several of them customers for thirty years. Those rates were a promise the president's (judge) grandfather made, and ending them would cost the company the trust of the clients its name was built on; the sales team expects at least three of them to leave.\n\nThe other course of action is to raise every client's rate by the same small amount, including the clients in the newer building, who sit on cooling installed four years ago and have never lost a minute of service. They would be paying for equipment they will never use, and the company competes for their renewals against operators that can hold their prices flat.\n\nThe president (judge) wants a recommendation on which course of action to take, how the company should measure whether it worked once it is in place, and what the finance staff owes each client in the way of explanation. The president (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the president (judge) of STONEHOLLOW DATA CENTERS. Business background is the same as the situation above.\n\nYou are the third generation of the family to run this business, and the cooling plant in the original building has to be replaced this year whether or not the money is comfortable to raise. You want to hear which course of action the controller recommends — ending the frozen rates for the fifteen oldest clients, or raising every client's rate by the same small amount — and exactly how the recommendation would be carried out.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "What is the first thing that has to happen if we go with your recommendation?",
+    "Who tells the clients, and when?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the insurer will not renew outage coverage there unless the chillers are replaced this year",
+        "the president (judge) will not borrow against the family's property"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the insurer will not renew outage coverage there unless the chillers are replaced this year",
+        "the president (judge) will not borrow against the family's property"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 355,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "data center operator",
+        "company_stage": "a family business in its third generation",
+        "business_function": "an escalating repair versus replacement decision",
+        "dilemma_archetype": "a fair outcome for one group that is unfair to another",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0022",
+      "shelfSimilarity": 0.1443,
+      "shelfNearest": "BFS-0021",
+      "exemplarSimilarity": 0.0261,
+      "gateVersion": 8
+    }
+  }
+}

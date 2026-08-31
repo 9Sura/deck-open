@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0009",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Spending",
+  "performanceIndicators": [
+    {
+      "area": "Spending",
+      "pi": "Make recommendations for sources of help for consumers who have experienced fraud.",
+      "role": "core"
+    },
+    {
+      "area": "Spending",
+      "pi": "Explain how having a system for financial record-keeping can make it easier to make financial decisions.",
+      "role": "core"
+    },
+    {
+      "area": "Spending",
+      "pi": "Analyze the cost and features of three competing products or services.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a high school senior working a summer job at a garden center, and you keep your savings at LARKSPUR SAVINGS BANK. A teller (judge) who opened the account with you in June has agreed to hear how you plan to spend the last of the summer's earnings.\n\nYou have saved one thousand eight hundred dollars toward a used car a neighbor has agreed to hold for you until September, and you need it to reach community college classes in the fall. You have logged every purchase in a notebook against a weekly plan, and the plan has held all summer.\n\nYour friends have booked a week at the coast before they leave for school and have already paid a deposit that holds your place. Your share is six hundred dollars. Paying it comes out of the car money and pushes the purchase past September, and the neighbor has said the car goes to the next buyer then.\n\nSkipping the trip keeps the car money whole and the September date intact. It is also the last week your friends are all together, and you would be the one who is not there.\n\nA charge for one hundred eighty dollars you do not recognize appeared on your first credit card last week, and until it is resolved you do not know your balance.\n\nThe teller (judge) wants you to compare what each course costs and recommend one. The teller (judge) will greet you and ask to hear your ideas, and will thank you after you have presented and answered the questions.",
+  "judgeCharacterization": "You are to assume the role of a teller (judge) at LARKSPUR SAVINGS BANK, who opened the senior's savings account in June.\n\nBackground is the same as the situation above. One thousand eight hundred dollars is saved toward a used car a neighbor will hold only until September, the friends' trip costs a six-hundred-dollar share and their deposit already holds a place, and an unrecognized charge for one hundred eighty dollars sits on the first credit card.\n\nYou have asked the participant to compare what each course costs and recommend one.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "If you skip the trip, what does that cost you?",
+    "If you go, what have you given up by September?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the neighbor holds the used car only until September",
+        "the deposit your friends already paid holds your place",
+        "a charge for one hundred eighty dollars you do not recognize on the first credit card, and until it is resolved you do not know your balance"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the neighbor holds the used car only until September",
+        "the deposit your friends already paid holds your place",
+        "a charge for one hundred eighty dollars you do not recognize on the first credit card, and until it is resolved you do not know your balance"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 261,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a summer job and a savings goal",
+        "company_stage": "a young adult carrying a balance from a first credit card",
+        "business_function": "tracking spending against a plan",
+        "dilemma_archetype": "spending that buys standing with peers and delays a goal",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0009",
+      "shelfSimilarity": 0.1797,
+      "shelfNearest": "PFL-0006",
+      "exemplarSimilarity": 0.0418,
+      "gateVersion": 8
+    }
+  }
+}

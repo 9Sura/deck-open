@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0010",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Professional Development",
+  "performanceIndicators": [
+    {
+      "area": "Professional Development",
+      "pi": "Explain the role and responsibilities of financial management personnel.",
+      "role": "core"
+    },
+    {
+      "area": "Professional Development",
+      "pi": "Explain possible advancement patterns for jobs.",
+      "role": "core"
+    },
+    {
+      "area": "Professional Development",
+      "pi": "Identify skills needed to enhance career progression.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Set financial goals.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Analyze transactions and accounts.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the finance director for PRAIRIE LIGHT ENERGY COOPERATIVE, a regional electric utility owned by the employees who run it. The line crews, the dispatchers and the office staff each hold a share. The chief executive (judge) has asked you to recommend whether the cooperative should lease or buy the eighteen bucket trucks its line crews need next year.\n\nThe trucks cost about six million dollars to buy outright. A ten-year lease costs more in total, but the state regulator lets the cooperative treat lease payments as an operating expense and recover them in full through next year's rate filing. That is permitted, and it would raise the average customer's monthly bill by about four dollars for equipment the cooperative could own for less.\n\nBuying the trucks would draw down the cash reserve instead, and customers' bills would not move at all. That reserve, however, is also funding the apprentice program that trains line workers for crew-leader jobs, and paying cash for the trucks would postpone the apprentice program for two years. Several apprentices have been waiting on it, and crew-leader openings are the main way an employee here advances.\n\nThe chief executive (judge) wants you to compare the lease against the purchase, explain how each one shows up in the cooperative's accounts, and recommend one course of action. Customers have already been writing to the cooperative about rate increases, and the annual meeting of the employee-owners is six weeks away.\n\nYou will present your analysis and your recommendation to the chief executive (judge) in the chief executive's office. The chief executive (judge) will greet you and ask to hear your ideas. After your presentation and your answers to the questions that follow, the chief executive (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the chief executive of PRAIRIE LIGHT ENERGY COOPERATIVE, the employee-owned regional electric utility described above. Business background is the same as the situation above.\n\nYou want the finance director to compare leasing the eighteen bucket trucks against buying them with the cash reserve, to explain how each one is recorded in the cooperative's accounts, and to recommend one course of action.\n\nAfter the presentation you will ask these two questions:",
+  "judgeQuestions": [
+    "How would you explain this to an apprentice who has been waiting for the program?",
+    "What would you tell a customer who asks why the monthly bill went up?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the state regulator lets the cooperative recover lease payments through next year's rate filing",
+        "the cash reserve is also funding the apprentice program"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the state regulator lets the cooperative recover lease payments through next year's rate filing",
+        "the cash reserve is also funding the apprentice program"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 294,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "regional utility",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "a lease-versus-buy analysis on equipment",
+        "dilemma_archetype": "a legally permitted action that customers would object to",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0010",
+      "shelfSimilarity": 0.232,
+      "shelfNearest": "BFS-0008",
+      "exemplarSimilarity": 0.0578,
+      "gateVersion": 8
+    }
+  }
+}

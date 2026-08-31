@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0007",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Market Planning",
+  "performanceIndicators": [
+    {
+      "area": "Market Planning",
+      "pi": "Explain factors that influence customer selection of food places and menu items.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Identify communications channels used in sales promotion.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Explain the nature of marketing planning.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Explain the nature of corporate branding.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Collaborate in the design of slogans/taglines.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing director for HALLOWAY FORM WORKS, a 3D printing prototype shop in its third generation of family ownership. The shop prints test parts for restaurant equipment makers and food-service chains, and two cousins own it together under the partnership agreement their grandparents wrote.\n\nOne of those cousins is the managing partner (judge), who has asked you to recommend where the shop's marketing goes next. The partnership agreement requires both partners to agree in writing before the shop takes on debt, and the other partner has said plainly that borrowing against a forecast is not how three generations kept the shop open.\n\nNORTHVALE KITCHENS, a regional restaurant chain, wants HALLOWAY to print the serving vessels and menu-item packaging for a new store format and to move from prototypes into production runs. Taking the work means buying two production printers on a five-year loan and rebranding the shop as a production supplier, with a new slogan and a campaign aimed at food-service buyers.\n\nThe chain has committed only to its four test markets. The nationwide rollout its forecast assumes has not been signed, and if the new format stops after those test markets the shop owes five years of loan payments with the two production printers idle. The other partner's written consent would have to be won first.\n\nStaying a prototype shop instead means spending the same money on a marketing plan that reaches new clients through trade shows, an email program, and the shop's own website. That gives up the NORTHVALE KITCHENS order to a competitor, and the returns come slowly, a few small clients at a time. The managing partner (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the managing partner (judge) of HALLOWAY FORM WORKS. Business background is the same as the situation above.\n\nYou are the third generation of your family to run the shop, and you own it with your cousin under the partnership agreement your grandparents wrote. You want to hear which marketing plan the marketing director recommends — moving into production runs for NORTHVALE KITCHENS under a new brand and slogan, or staying a prototype shop and marketing to a wider set of clients — and you want to hear how that recommendation would actually be carried out, step by step.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "What is the first step in putting your recommendation in place?",
+    "Who at the shop does the work, and in what order?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the partnership agreement requires both partners to agree in writing before the shop takes on debt",
+        "the chain has committed only to its four test markets",
+        "the nationwide rollout its forecast assumes has not been signed"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the partnership agreement requires both partners to agree in writing before the shop takes on debt",
+        "the chain has committed only to its four test markets",
+        "the nationwide rollout its forecast assumes has not been signed"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 291,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "3D printing prototype shop",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a partnership agreement between two founders",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0007",
+      "shelfSimilarity": 0.0445,
+      "shelfNearest": "ENT-0001",
+      "exemplarSimilarity": 0.0694,
+      "gateVersion": 8
+    }
+  }
+}

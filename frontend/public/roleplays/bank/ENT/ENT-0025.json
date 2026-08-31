@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0025",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Operations",
+  "performanceIndicators": [
+    {
+      "area": "Operations",
+      "pi": "Explain information privacy, security, and confidentiality considerations in business.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Discuss the role of ethics in operations.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Explain the nature of overhead/operating costs.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Discuss the nature of effective direct-mail copy.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe strategies for reducing food loss.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the operations manager at EMBER ROW, a hot sauce and condiment brand that bottles in a leased commercial kitchen. A new president (judge) took over a year ago after two losing years and has cut costs back toward a break-even point the company should reach in about five months. The president (judge) has asked you to recommend how EMBER ROW should run production through the months before then.\n\nCash is the whole of the problem. A contract with a group of pepper growers commits EMBER ROW to buy their entire harvest, and the peppers all arrive inside six weeks. The leased kitchen can process only part of that volume before the rest spoils, so a share of fruit the company has already paid for would be thrown out.\n\nA co-packer two hours away has offered to bottle everything at the lowest monthly cost EMBER ROW has been quoted, and it could take the whole harvest before any of it spoils. Sending production there means the company hands over its recipe files and its customer list, and the same plant bottles for a direct competitor. If that information gets out, it cannot be taken back.\n\nKeeping production in the leased kitchen protects the recipe files and the customer list, but the kitchen's fixed overhead stays on the books every month, and covering it would mean suspending the printed direct-mail catalog whose copy brings in most of the company's repeat orders. It would also mean telling the growers that EMBER ROW cannot use their whole harvest this year.\n\nThe president (judge) wants you to weigh what each course really costs, to say what the company owes the growers and its customers under either one, and to recommend one of them. The president (judge) will greet you and ask to hear your ideas, and after you have presented and answered questions, the president (judge) will thank you for your time.",
+  "judgeCharacterization": "You are the president (judge) of EMBER ROW, brought in a year ago after two losing years. Business background is the same as the situation above. You have asked your operations manager to weigh what each course really costs, to say what the company owes the growers and its customers under either one, and to recommend either sending production to the co-packer or keeping it in the leased kitchen.\n\nYou will greet the participant and ask to hear their ideas. After the participant has presented, ask the following questions:",
+  "judgeQuestions": [
+    "How would you explain this to the growers?",
+    "What would you say if they asked about next year's contract?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the contract with the pepper growers commits EMBER ROW to buy their entire harvest",
+        "the leased kitchen's fixed overhead stays on the books every month"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the contract with the pepper growers commits EMBER ROW to buy their entire harvest",
+        "the leased kitchen's fixed overhead stays on the books every month"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 319,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "hot sauce and condiment brand",
+        "company_stage": "a turnaround under new leadership after two bad years",
+        "business_function": "cash flow in the months before break-even",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0025",
+      "shelfSimilarity": 0.1658,
+      "shelfNearest": "ENT-0024",
+      "exemplarSimilarity": 0.0445,
+      "gateVersion": 8
+    }
+  }
+}

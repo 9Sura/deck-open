@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0026",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Channel Management",
+  "performanceIndicators": [
+    {
+      "area": "Channel Management",
+      "pi": "Select channels of distribution.",
+      "role": "core"
+    },
+    {
+      "area": "Channel Management",
+      "pi": "Explain the concept of market and market identification.",
+      "role": "core"
+    },
+    {
+      "area": "Channel Management",
+      "pi": "Explain the nature of channel strategies.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Describe planning techniques used in the hiring process.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe factors that affect the business environment.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the channel manager for SUMMIT SPOKE TOURS, a guided bicycle touring company that has run multi-day rides through the river valleys for close to fifteen years. The owner (judge) built the business one route at a time and still approves every distribution decision personally. The owner (judge) has asked you to recommend how the company should sell its tour seats next season.\n\nSummit Spoke Tours sells seats two ways: directly through its own website, and through roughly thirty independent bike shops that recommend the tours to their repair and rental customers in exchange for a referral commission. A written partner agreement promises those bike shops first access to new routes and prices no lower anywhere else. A new entrant, TRAILHEAD RIDES, sells nowhere but a large online travel marketplace and has been taking share for two seasons.\n\nLast week an unexpected large order arrived. A national corporate travel agency will book four hundred seats for its client retreats next season, but only if Summit Spoke Tours lists its entire catalog on that same marketplace at the marketplace's fixed commission. Listing the entire catalog would break the promise of prices no lower anywhere else that the bike shops were given.\n\nTaking the order means building a booking integration with the marketplace and hiring two reservation agents to staff it, an investment the company recovers only if the agency's four hundred seat forecast holds; if bookings come in lower, the integration and the two salaries are money already spent. Turning the order down keeps the bike shop agreement intact, but gives up the four hundred seats and leaves Trailhead Rides alone on the marketplace.\n\nThe owner (judge) wants you to analyze both channels, explain how you would identify the market the marketplace actually reaches, and recommend which channel strategy the company should carry into next season. The owner (judge) will greet you, hear your ideas, ask two questions, and thank you when the presentation and questions are over.",
+  "judgeCharacterization": "You are the owner of SUMMIT SPOKE TOURS. Business background is the same as the situation above. You built the routes yourself, you signed the partner agreement with the independent bike shops personally, and you have watched TRAILHEAD RIDES take share from the online travel marketplace for two seasons. The corporate travel agency's four hundred seat order is the largest single booking anyone has ever offered the company, and it comes with a condition you did not expect.\n\nYou have asked the channel manager (participant) to analyze both channels, explain how the company would identify the market the marketplace reaches, and recommend which channel strategy to carry into next season. You want to hear what the booking integration and the two reservation agents would cost if the forecast does not hold, and what happens to the bike shop relationships either way.\n\nAfter the participant has presented, you will ask these two questions:",
+  "judgeQuestions": [
+    "Who ends up paying for this decision if the four hundred seats do not sell?",
+    "Can we defend that outcome to the bike shops who signed our partner agreement?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the written partner agreement promises the bike shops first access to new routes and prices no lower anywhere else",
+        "the marketplace's fixed commission on the entire catalog"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the written partner agreement promises the bike shops first access to new routes and prices no lower anywhere else",
+        "the marketplace's fixed commission on the entire catalog"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 328,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "bike touring company",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "an unexpected large order",
+        "dilemma_archetype": "an investment that pays off only if an uncertain forecast holds",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0026",
+      "shelfSimilarity": 0.1005,
+      "shelfNearest": "ENT-0011",
+      "exemplarSimilarity": 0.0545,
+      "gateVersion": 8
+    }
+  }
+}

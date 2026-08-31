@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0017",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Product/Service Management",
+  "performanceIndicators": [
+    {
+      "area": "Product/Service Management",
+      "pi": "Describe factors used by marketers to position products/services.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Explain the nature of corporate branding.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Identify opportunities in the social-media space.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Discuss the use of the menu as a management tool.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the nature of buzz-marketing.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the co-founder and general manager of GOLDEN HOUR DUMPLINGS, a two-year-old food truck that sells hand-folded dumplings at office lunch stops and weekend markets. The investor (judge) put in the company's first and only round of funding, which is nearly spent, and meets with you each month to review where the business stands.\n\nTwo weeks ago the company signed a three-year lease on its first physical space, a small storefront two blocks from the truck's best lunch stop. Rent begins in ten weeks whether the dining room is finished or not, and the build-out — a kitchen line, a service counter and a printed menu board — costs more than the funding that is left.\n\nPINEHILL MARKET, a regional grocery chain, has offered a large payment up front for a frozen retail version of the truck's signature dumplings, sold in its forty stores under the grocer's own store brand. That payment covers the build-out with room to spare. Filling the order takes the crew's two cooks every Friday and Saturday, which are the nights the truck parks at the RIVER LOT night market.\n\nThat market spot is where the company started. Its organizer holds the spot for the truck and keeps a waiting list of vendors who want it, and the crowd there posts the videos that carry the brand's name across social media. Taking the grocery order gives up the spot and puts the dumplings in freezer cases with no mention of GOLDEN HOUR DUMPLINGS on the package.\n\nOpening the storefront on the cash the company has left instead means a bare dining room, a shorter menu and rent running for weeks before the doors open. The investor (judge) wants your recommendation on how to fund the storefront and how the brand would be positioned either way. The investor (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the investor (judge) in GOLDEN HOUR DUMPLINGS. Business background is the same as the situation above.\n\nYou put in the company's first and only round of funding two years ago, and you meet the general manager each month. You want to hear whether the company should take the PINEHILL MARKET order or open the storefront on the cash it has left, and you want to hear exactly how that recommendation would be carried out.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "What has to happen first to put your recommendation in place?",
+    "Who does the work, and in what order?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the three-year lease signed two weeks ago, with rent beginning in ten weeks whether the dining room is finished or not",
+        "the company's first and only round of funding is nearly spent",
+        "filling the grocery order takes the crew's two cooks every Friday and Saturday"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the three-year lease signed two weeks ago, with rent beginning in ten weeks whether the dining room is finished or not",
+        "the company's first and only round of funding is nearly spent",
+        "filling the grocery order takes the crew's two cooks every Friday and Saturday"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 318,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "food truck concept",
+        "company_stage": "a two-year-old startup running out of its first funding",
+        "business_function": "a lease signed for a first physical space",
+        "dilemma_archetype": "a short-term cash gain that erodes a long-term relationship",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0017",
+      "shelfSimilarity": 0.1172,
+      "shelfNearest": "ENT-0006",
+      "exemplarSimilarity": 0.0657,
+      "gateVersion": 8
+    }
+  }
+}

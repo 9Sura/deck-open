@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0021",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Information Management",
+      "pi": "Apply information to accomplish a task.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Identify information monitored for business decision making.",
+      "role": "core"
+    },
+    {
+      "area": "Information Management",
+      "pi": "Analyze trends in food habits/preferences.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the nature of email marketing tactics.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Describe the nature of product bundling.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the marketing manager for RIDGELINE ADAPTIVE, a company that builds racing wheelchairs, handcycles and adaptive ski rigs. The business was founded by the grandfather of the owner (judge), and the owner (judge) is the third generation of the family to run it. The owner (judge) has asked you to recommend how the company should promote a new product bundle before the racing season opens.\n\nTwo seasons ago the company began pairing its equipment with sports nutrition, and it signed a supply agreement with a nutrition supplier that commits RIDGELINE ADAPTIVE to sell a full season's order of energy bars and hydration mixes. The company's own order records show a steady shift in what its athletes eat: less sugar, more plant-based protein, and smaller portions taken during training rather than after it.\n\nRIDGELINE ADAPTIVE monitors open rates, click rates and unsubscribe rates on every message it sends. Those records point to roughly four thousand customers who have bought equipment in the past eighteen months. A mentor who advised the father of the owner (judge) for years disagrees with the records. He argues the company should rent an outside list of sixty thousand names and send the bundle offer to everyone on it, because the rented list costs almost nothing.\n\nThe rented list is cheap, but the company's email provider suspends senders whose complaint rate climbs, and a suspension would cut off the subscribers RIDGELINE ADAPTIVE already has. Sending only to the four thousand engaged customers means paying for an upgraded email platform that would consume what remains of the quarter's marketing budget, and it reaches far fewer buyers, which delays the revenue the supply agreement depends on.\n\nThe owner (judge) wants you to decide which information should drive this decision, to recommend one of the two approaches, and to explain how the bundle should be built and offered. The owner (judge) will greet you and ask to hear your ideas, and after you have presented and answered questions, the owner (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the owner (judge) of RIDGELINE ADAPTIVE and the third generation of your family to run it. Business background is the same as the situation above. You have asked your marketing manager to tell you which information should drive this decision — the company's own order and email records, or the advice of the mentor who worked with your father — and to recommend either the rented list of sixty thousand names or the upgraded platform and the four thousand engaged customers. You also want to hear how the bundle itself should be built and offered.\n\nYou will greet the participant and ask to hear their ideas. After the participant has presented, ask the following questions:",
+  "judgeQuestions": [
+    "What are the first steps you would take to put this in place?",
+    "Who here would have to do what, and by when?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the supply agreement commits RIDGELINE ADAPTIVE to sell a full season's order of energy bars and hydration mixes",
+        "an upgraded email platform would consume what remains of the quarter's marketing budget"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the supply agreement commits RIDGELINE ADAPTIVE to sell a full season's order of energy bars and hydration mixes",
+        "an upgraded email platform would consume what remains of the quarter's marketing budget"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 338,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "adaptive sports equipment maker",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a mentor's advice that conflicts with the data",
+        "dilemma_archetype": "a decision where the cheapest option carries the highest risk",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0021",
+      "shelfSimilarity": 0.0904,
+      "shelfNearest": "ENT-0005",
+      "exemplarSimilarity": 0.0786,
+      "gateVersion": 8
+    }
+  }
+}

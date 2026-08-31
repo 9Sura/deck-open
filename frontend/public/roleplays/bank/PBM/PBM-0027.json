@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "id": "PBM-0027",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of corporate branding.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of business ethics.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Distinguish between economic goods and services.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Distinguish between using social media for business and personal use.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the assistant manager at ALDER CREEK RECREATION CENTER, a gym and community recreation center that one family has run for three generations. The owner (judge), the third of that family to hold the job, has asked you to recommend how the center should use its weekday afternoons next season.\n\nThe center leases its building from the city below market, and in return it promised to keep weekday afternoons open to town youth leagues at no charge. Those free hours are what the center is known for. They are run by one program manager, who now spends most of the week posting to the center's social media instead.\n\nAttendance at those hours has fallen, and the account the manager posts from is a personal one that has become the center's main channel. KESTREL UNITED ATHLETIC CLUB, a regional travel club, has offered to lease the same afternoons for its teams, at a rate that would cover the center's summer payroll and would close the free hours the city lease rests on.\n\nThe owner (judge) wants you to recommend whether to take the lease or return the program manager to the youth hours and forgo that money, and to say how either choice is carried out. You will present in the owner's (judge) office. The owner (judge) will greet you, ask to hear your ideas, and thank you for your work after your presentation and questions.",
+  "judgeCharacterization": "You are the owner (judge) of ALDER CREEK RECREATION CENTER, the third generation of your family to run it. Business background is the same as the situation above. The travel club wants an answer before it sets its own season, and the city lease comes up for renewal the year after.\n\nYou want the assistant manager to recommend whether to lease the weekday afternoons or return the program manager to the youth hours, and to say how that choice would actually be carried out.\n\nDuring the presentation you are to ask the following questions of the participant:",
+  "judgeQuestions": [
+    "What is the first step, and who takes it?",
+    "What has to be in place before the season starts?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the promise to keep weekday afternoons open to town youth leagues at no charge, which the below-market city lease rests on",
+        "one program manager runs those hours and now spends most of the week posting to the center's social media from a personal account"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the promise to keep weekday afternoons open to town youth leagues at no charge, which the below-market city lease rests on",
+        "one program manager runs those hours and now spends most of the week posting to the center's social media from a personal account"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 236,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "gym and recreation center",
+        "company_stage": "a family business in its third generation",
+        "business_function": "a manager's time spent on the wrong work",
+        "dilemma_archetype": "a growth opportunity that breaches an existing commitment",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PBM-0027",
+      "shelfSimilarity": 0.111,
+      "shelfNearest": "PBM-0018",
+      "exemplarSimilarity": 0.0791,
+      "gateVersion": 8
+    }
+  }
+}

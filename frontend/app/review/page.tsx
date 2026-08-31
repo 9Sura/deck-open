@@ -23,7 +23,7 @@ export default function ReviewPage() {
             close the loop
           </MarkerText>
           <h1 className="mt-1 font-display text-4xl font-extrabold tracking-tight sm:text-5xl">
-            Review your <span className="text-accent">misses</span>
+            Review your <span className="text-accent-ink">misses</span>
           </h1>
         </div>
         <ArrowScribble className="hidden h-14 w-20 text-ink/70 sm:block" />

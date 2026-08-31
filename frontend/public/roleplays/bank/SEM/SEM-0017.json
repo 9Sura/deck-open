@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0017",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Selling",
+  "performanceIndicators": [
+    {
+      "area": "Selling",
+      "pi": "Demonstrate a customer-service mindset.",
+      "role": "core"
+    },
+    {
+      "area": "Selling",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "core"
+    },
+    {
+      "area": "Selling",
+      "pi": "Explain key factors in building a clientele.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the principles of supply and demand.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain key factors in building and clientele.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of premium sales manager for the CALDER BAY LANCERS, a professional lacrosse franchise that plays eighteen home dates at a downtown arena. The club president (judge) has asked you to recommend what should happen to the arena's club lounge for the rest of this season, and to be ready to explain your reasoning.\n\nThe LANCERS merged their front office with a neighboring indoor lacrosse club last winter and have not finished digesting it. Two season ticket bases now sit in one database with two different benefit sets. Seats sold by the LANCERS have never included the club lounge, while every seat inherited from the other club was sold with lounge access on game nights written into the renewal letter.\n\nThe lounge is the strongest part of the in-venue experience the club sells beyond the game itself, and premium buyers ask about it before they ask about the seats. CROSSWIND HOSPITALITY GROUP, which runs private events at three venues nearby, is booking private events elsewhere and wants to book the lounge for corporate buyouts on eleven game nights this quarter. Those bookings would close the club's quarterly sales target on their own.\n\nTaking the bookings means the inherited season ticket holders lose the lounge access their renewal letter promised, in the same weeks their renewal invoices go out. Keeping the lounge open to every season ticket holder on game nights means missing the quarterly sales target and letting CROSSWIND HOSPITALITY GROUP take those corporate buyouts to another venue for the rest of the season. The club president (judge) wants a recommendation on which way to go.\n\nBe ready to explain what the lounge does for the club's competitive advantage, how a lounge that seats far fewer people than the number who now claim it should be sold, and what your recommendation does to renewals. The club president (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the club president (judge) of the CALDER BAY LANCERS. Business background is the same as the situation above.\n\nYou asked the premium sales manager to recommend whether the club lounge should be booked to CROSSWIND HOSPITALITY GROUP for corporate buyouts this quarter or kept open to every season ticket holder on game nights, and to say what that recommendation does to renewals.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Who does this decision land hardest on?",
+    "What do you tell them, and when?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "every seat inherited from the other club was sold with lounge access on game nights written into the renewal letter",
+        "the club's quarterly sales target"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "every seat inherited from the other club was sold with lounge access on game nights written into the renewal letter",
+        "the club's quarterly sales target"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 330,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "professional lacrosse franchise",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "the in-venue experience beyond the event",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0017",
+      "shelfSimilarity": 0.1331,
+      "shelfNearest": "SEM-0004",
+      "exemplarSimilarity": 0.0763,
+      "gateVersion": 8
+    }
+  }
+}

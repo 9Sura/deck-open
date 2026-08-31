@@ -211,7 +211,7 @@ export function SignInDialog({
               <button
                 type="button"
                 onClick={() => switchMode("signup")}
-                className={cn("font-semibold text-accent underline-offset-4 hover:underline")}
+                className={cn("font-semibold text-accent-ink underline-offset-4 hover:underline")}
               >
                 Create an account
               </button>
@@ -222,7 +222,7 @@ export function SignInDialog({
               <button
                 type="button"
                 onClick={() => switchMode("signin")}
-                className={cn("font-semibold text-accent underline-offset-4 hover:underline")}
+                className={cn("font-semibold text-accent-ink underline-offset-4 hover:underline")}
               >
                 Log in
               </button>

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0013",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial-Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Financial-Information Management",
+      "pi": "Demonstrate financial analysis applications",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Explain the nature and scope of financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Explain the role of ethics in financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Describe the scope of costs in managerial accounting (direct cost, indirect cost).",
+      "role": "adjacent"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Describe sources of income.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the cost analyst at ASHGROVE BIOSCIENCES, a biotechnology research company that runs laboratory testing under contract for drug developers and universities. The chief financial officer (judge) has asked you to recommend how the company should answer its bank, which has asked for cost information the company may not be free to hand over.\n\nThe company has run its laboratories for eighteen years and has lately lost testing work to a newer competitor that quotes lower prices. Its work arrives in bursts, heavy in autumn and thin in spring, so every spring it draws on a line of credit from its bank to carry payroll and lab supplies through the slow months. That line of credit comes up for renewal next month.\n\nBefore it renews, the bank wants a project-by-project breakdown separating the direct costs of each study from the indirect costs the company spreads across all of them. The largest university partner signed a contract barring the company from releasing any project-level cost detail to a third party, and that partner's standing studies are the steadiest source of income the laboratories have.\n\nGiving the bank the project-by-project breakdown keeps the line of credit in place through the spring, and it costs the company the university partner's contract, which it would be breaking in writing. Withholding the project-level detail and offering only company-wide direct and indirect cost totals honors that contract, and it costs the renewal: the bank may reprice or refuse the line of credit, leaving the slow spring to be funded out of shrinking testing revenue while the newer competitor keeps quoting under the company.\n\nThe chief financial officer (judge) has asked you to show the analysis behind each path, explain what financial-information management covers at a laboratory this size, explain where ethics enters the handling of cost information, describe which of the laboratories' costs are direct and which are indirect, and describe where the company's income comes from.\n\nThe chief financial officer (judge) will greet you and ask to hear your ideas. After you have presented and answered the questions, the chief financial officer (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the chief financial officer (judge) of ASHGROVE BIOSCIENCES. Business background is the same as the situation above.\n\nThe line of credit comes up for renewal next month and the spring is when the laboratories need it. You want the cost analyst to show the analysis behind each path, explain what financial-information management covers at a laboratory this size, explain where ethics enters the handling of cost information, describe which of the laboratories' costs are direct and which are indirect, describe where the company's income comes from, and tell you plainly whether to give the bank the project-by-project breakdown or withhold the project-level detail.\n\nAfter the cost analyst has presented, you will ask the following questions:",
+  "judgeQuestions": [
+    "Walk me through what happens first if we do this.",
+    "Who do we have to talk to, and in what order?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the university partner's contract barring the company from releasing any project-level cost detail to a third party",
+        "the line of credit comes up for renewal next month",
+        "the bank wants a project-by-project breakdown separating the direct costs of each study from the indirect costs before it renews"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the university partner's contract barring the company from releasing any project-level cost detail to a third party",
+        "the line of credit comes up for renewal next month",
+        "the bank wants a project-by-project breakdown separating the direct costs of each study from the indirect costs before it renews"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 355,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "biotechnology research company",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a line of credit drawn to cover seasonality",
+        "dilemma_archetype": "an obligation to two parties whose contracts conflict",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0013",
+      "shelfSimilarity": 0.1724,
+      "shelfNearest": "BFS-0008",
+      "exemplarSimilarity": 0.0926,
+      "gateVersion": 8
+    }
+  }
+}

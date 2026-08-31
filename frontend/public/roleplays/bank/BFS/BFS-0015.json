@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0015",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Professional Development",
+  "performanceIndicators": [
+    {
+      "area": "Professional Development",
+      "pi": "Explain the nature of accounting standards.",
+      "role": "core"
+    },
+    {
+      "area": "Professional Development",
+      "pi": "Explain the need for ongoing education as a worker.",
+      "role": "core"
+    },
+    {
+      "area": "Professional Development",
+      "pi": "Describe techniques for obtaining work experience.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Build corporate brand.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Build trust in relationships.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the financial analyst at IRONGATE SHIPWORKS, a shipbuilding and repair yard that builds barges and overhauls working vessels. The controller (judge) has asked you to recommend what the yard should do about a large stock of steel plate it inherited eight months ago when it merged with a smaller repair yard, and about an offer that arrived with it.\n\nThe two yards still keep separate inventory records, and nobody has finished reconciling them. Most of the inherited steel plate and marine fittings no longer fit anything the yard builds, and accounting standards require stock like that to be carried at what it can actually fetch rather than what was paid for it. Written down, it lands on this quarter.\n\nA defense contractor has offered the yard a multi-year hull repair contract and has offered to buy the inherited steel plate at close to the price it is carried at, which would leave nothing to write down. It would run the yard's shop floor to the contractor's schedule and put its most experienced welders on the contractor's hulls.\n\nThose welders are the same people who teach the apprenticeship program the yard runs with the local technical college, a program it promised publicly to keep going after the merger and the way it has recruited and trained every welder it employs. Taking the multi-year hull repair contract avoids the write-down and brings in years of work, and it costs the yard that promise, the apprentices' shop time, and a name built on training its own.\n\nDeclining the contract keeps the apprenticeship program and the promise intact, and it costs the yard the write-down on the inherited steel plate, landing on this quarter's results while the merger is still unfinished, and the largest piece of new work anyone has offered the yard in years.\n\nThe controller (judge) has asked you to explain what accounting standards say about carrying stock at that value, explain why the yard's welders need to keep learning, describe how the apprenticeship program gives newcomers work experience, explain what the yard's name is built on, and say how trust with the college would be kept either way.\n\nThe controller (judge) will greet you and ask to hear your ideas. After you have presented and answered the questions, the controller (judge) will thank you for your work.",
+  "judgeCharacterization": "You are the controller (judge) of IRONGATE SHIPWORKS. Business background is the same as the situation above.\n\nThe merger is eight months old and still unfinished, and the write-down on the inherited steel plate would land on this quarter. You want the financial analyst to explain what accounting standards say about carrying stock at that value, explain why the yard's welders need to keep learning, describe how the apprenticeship program gives newcomers work experience, explain what the yard's name is built on, say how trust with the local technical college would be kept either way, and tell you plainly whether to take the multi-year hull repair contract or decline it.\n\nAfter the financial analyst has presented, you will ask the following questions:",
+  "judgeQuestions": [
+    "What would the path we did not take have given the yard?",
+    "If we had gone the other way, what would that have cost us?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "accounting standards require stock like that to be carried at what it can actually fetch rather than what was paid for it",
+        "the yard promised publicly to keep the apprenticeship program going after the merger",
+        "the contract would run the yard's shop floor to the contractor's schedule"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "accounting standards require stock like that to be carried at what it can actually fetch rather than what was paid for it",
+        "the yard promised publicly to keep the apprenticeship program going after the merger",
+        "the contract would run the yard's shop floor to the contractor's schedule"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 388,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "shipbuilding and repair yard",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "an inventory write-down",
+        "dilemma_archetype": "a growth opportunity that breaches an existing commitment",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0015",
+      "shelfSimilarity": 0.1465,
+      "shelfNearest": "BFS-0014",
+      "exemplarSimilarity": 0.0615,
+      "gateVersion": 8
+    }
+  }
+}

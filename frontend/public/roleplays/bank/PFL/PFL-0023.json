@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0023",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Saving",
+  "performanceIndicators": [
+    {
+      "area": "Saving",
+      "pi": "Explain why storing money in a mobile payment account can reduce the ability to grow savings.",
+      "role": "core"
+    },
+    {
+      "area": "Saving",
+      "pi": "Discuss how personal financial decisions can affect other people.",
+      "role": "core"
+    },
+    {
+      "area": "Saving",
+      "pi": "Explain why an increase in the number of people who want to borrow money might result in banks paying higher rates on deposits.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a high-school senior working weekends at a grocery store, and your first paychecks land in a mobile payment account on your phone, where the balance earns nothing at all. This afternoon you are meeting a teller (judge) at BLUE HERON SAVINGS BANK, which has offered you your first credit card.\n\nYou take home about $520 a month. Last fall your older sister lent you $700 for a laptop you needed for coursework. She is saving to move into her own apartment in the spring and has asked when the money will come back to her. You have set nothing aside for yourself since you started the job.\n\nOne course is to repay your sister $175 a month out of your pay and clear the $700 in four months. That owes no interest to anyone, but it leaves you nothing set aside, so a car repair before graduation would go onto the new credit card at its high rate.\n\nThe other course is to accept the card, hand your sister the full $700 now, and repay the card at $65 a month for twelve months, which adds roughly $80 in interest. The smaller monthly payment frees $100 a month for a savings account that pays interest. The teller (judge) wants your recommendation.\n\nThe teller (judge) will greet you and ask to hear your ideas. After you have presented and answered the teller's questions, the teller (judge) will thank you for your work.",
+  "judgeCharacterization": "You are a teller at BLUE HERON SAVINGS BANK. Business background is the same as the situation above.\n\nA high-school senior with a first part-time paycheck, an offer of a first credit card, and $700 owed to an older sister is deciding between clearing that debt quickly and starting to save. You want to hear how the money now sitting in a mobile payment account should be handled, who else the decision touches, and a clear recommendation.\n\nAfter the participant has presented, you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "Six months from now, what would be different for your sister?",
+    "If a lot more people start borrowing money, what happens to the rate a bank pays on your savings?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the $700 your sister lent you, which she has asked to have back",
+        "you take home about $520 a month",
+        "the balance in your mobile payment account earns nothing at all"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the $700 your sister lent you, which she has asked to have back",
+        "you take home about $520 a month",
+        "the balance in your mobile payment account earns nothing at all"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 235,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a first credit card offer",
+        "company_stage": "a high-school senior with a first part-time paycheck",
+        "business_function": "choosing between paying down debt and saving",
+        "dilemma_archetype": "a cheaper monthly payment that costs more in total",
+        "question_shape": "the second-order effects once the recommendation has been in force a while"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0023",
+      "shelfSimilarity": 0.1161,
+      "shelfNearest": "PFL-0018",
+      "exemplarSimilarity": 0.1456,
+      "gateVersion": 8
+    }
+  }
+}

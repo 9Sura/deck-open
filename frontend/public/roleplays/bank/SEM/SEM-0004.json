@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0004",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Promotion",
+  "performanceIndicators": [
+    {
+      "area": "Promotion",
+      "pi": "Explain the nature of direct marketing channels.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the role of promotion as a marketing function.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Identify communications channels used in sales promotion.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Determine services to provide customers.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Pricing",
+      "pi": "Explain the concept of price in the hospitality and tourism industry.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the promotion manager for the HARBOR CITY ICEBREAKERS, a professional hockey franchise owned as a co-operative by the people who work in it — players, trainers, ticket staff and the concessions crew all hold a share. The general manager (judge), elected by those member-owners, has asked you to set the promotion plan for the second half of the home schedule.\n\nThe upper bowl sits about half empty on weeknights while the lower bowl fills. Concession sales rise and fall with the number of people in the building, and the year-end share every member-owner receives is paid out of that same revenue. Season-ticket holders bought all twenty-two home games in advance, at roughly four times the price of an upper-bowl seat.\n\nThe club's own app can push a same-day twelve-dollar upper-bowl offer by text two hours before puck drop, filling seats, lifting concession sales and adding names to the club's subscriber list. That same app reaches season-ticket holders, three weeks before their renewal window opens, and they would see a seat sold for a quarter of what they paid for theirs.\n\nLimiting the offer to the guest passes season-ticket holders already hold is fair to the people who committed their money in August and keeps the renewal conversation clean. It also leaves the upper bowl half empty on weeknights, so concession sales stay flat and the year-end share the member-owners receive does not grow this season.\n\nThe bylaws require any promotion that changes ticket prices to be reported to the member-owners at their next monthly meeting. The general manager (judge) wants a recommendation on which promotion to run and an account of who ends up carrying its cost. The general manager (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the general manager (judge) of the HARBOR CITY ICEBREAKERS. Business background is the same as the situation above.\n\nThe member-owners elected you and will hear about this promotion at their next monthly meeting either way. You want to hear which promotion the promotion manager recommends, how it would reach fans, and above all where its cost lands — on the season-ticket holders who paid in advance, or on the crew whose year-end share depends on concession sales.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Which group ends up carrying the cost of your recommendation?",
+    "How would you explain that split at the next monthly meeting?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the bylaws require any promotion that changes ticket prices to be reported to the member-owners at their next monthly meeting",
+        "the season-ticket renewal window opens in three weeks"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the bylaws require any promotion that changes ticket prices to be reported to the member-owners at their next monthly meeting",
+        "the season-ticket renewal window opens in three weeks"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 299,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "professional hockey franchise",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "the social media strategy during an event",
+        "dilemma_archetype": "a fair outcome for one group that is unfair to another",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0004",
+      "shelfSimilarity": 0.1369,
+      "shelfNearest": "SEM-0001",
+      "exemplarSimilarity": 0.0755,
+      "gateVersion": 8
+    }
+  }
+}

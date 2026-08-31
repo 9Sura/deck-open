@@ -204,7 +204,7 @@ export function ReadinessTrajectory({
             className="pointer-events-none absolute -top-1 z-10 -translate-x-1/2 rounded-lg border-2 border-ink bg-paper px-2.5 py-1.5 text-center shadow-md"
             style={{ left: `${(xOf(active.ts) / w) * 100}%` }}
           >
-            <p className="stat text-sm font-bold text-accent">
+            <p className="stat text-sm font-bold text-accent-ink">
               {Math.round(active.readiness * 100)}%
             </p>
             <p className="text-[0.65rem] text-muted">{fmtDay(active.ts)}</p>

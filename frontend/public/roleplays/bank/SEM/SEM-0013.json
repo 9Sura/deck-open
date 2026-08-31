@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0013",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Promotion",
+  "performanceIndicators": [
+    {
+      "area": "Promotion",
+      "pi": "Recognize/Reward others for their efforts and contributions.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Coordinate activities in the promotional mix.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain factors that motivate people to choose a hospitality and tourism site.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Describe the nature of target marketing in marketing communications.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the role of restaurant management systems.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the promotions director for the FAIRHAVEN RIVER DOGS, a minor league baseball club owned by the same family for three generations. The club president (judge), a grandchild of the founder, has asked you to recommend how the promotional calendar and the weekend ticket blocks should be set for the season that opens in March.\n\nThe ballpark seats about four thousand two hundred. The fireworks nights and the youth clinic giveaway nights fall on weekends and sell every one of those seats, while a Tuesday game draws less than half a house. The restaurant management system behind the concession stands, replaced two seasons ago, reports that the sold-out weekends also produce the longest lines and the slowest service of the year.\n\nTwo groups want the same weekend seats. The season ticket holders keep the same seats every night, and their renewal letters say the park is too crowded and the concession lines too long to enjoy a game. The youth league group blocks, sold a hundred seats at a time, are the club's steadiest revenue and bring the families who later buy season tickets.\n\nHolding the weekend promotional nights for season ticket holders and single-game buyers, and moving the youth league group blocks to weeknights, shortens the lines the renewal letters describe, and it costs the club the group revenue it counts on, because a Tuesday game draws less than half a house. Continuing to sell the weekend group blocks keeps that revenue, and it leaves the season ticket holders in a park that is full and slow every weekend and puts their renewals at risk.\n\nThe club president (judge) wants your recommendation on which customers hold the weekend promotional dates, how the calendar and its promotions should be presented to each group, and how the game-day staff who work the busiest nights are recognized for it. The club president (judge) will greet you, hear your ideas and ask questions. When you have finished answering, the club president (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of club president (judge) of the FAIRHAVEN RIVER DOGS, a minor league baseball club your family has owned for three generations.\n\nBusiness background is the same as the situation above. The ballpark holds about four thousand two hundred, the fireworks and youth clinic giveaway nights sell it out, the season ticket holders have written that the park is too crowded to enjoy, and the youth league group blocks are the club's steadiest revenue.\n\nYou have asked the promotions director (participant) to recommend which customers hold the weekend promotional dates, how the calendar is presented to each group, and how the game-day staff are recognized for the busiest nights.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "If we went the other way instead, what would that cost us?",
+    "Which group would notice the change first, and what would they say?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the ballpark seats about four thousand two hundred and the fireworks nights and the youth clinic giveaway nights sell every one of those seats",
+        "a Tuesday game draws less than half a house"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the ballpark seats about four thousand two hundred and the fireworks nights and the youth clinic giveaway nights sell every one of those seats",
+        "a Tuesday game draws less than half a house"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 336,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "minor league baseball club",
+        "company_stage": "a family business in its third generation",
+        "business_function": "the schedule's effect on attendance",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0013",
+      "shelfSimilarity": 0.1107,
+      "shelfNearest": "SEM-0012",
+      "exemplarSimilarity": 0.0639,
+      "gateVersion": 8
+    }
+  }
+}

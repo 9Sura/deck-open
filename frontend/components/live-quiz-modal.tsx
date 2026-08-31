@@ -426,7 +426,7 @@ export function LiveQuizModal({
             role="status"
             className="sketch-radius mx-auto mb-4 flex max-w-2xl items-start gap-2 border-2 border-ink bg-paper px-4 py-2 text-sm text-ink/80"
           >
-            <span aria-hidden className="text-accent">
+            <span aria-hidden className="text-accent-ink">
               ※
             </span>
             <span>{notice}</span>

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0030",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Communication Skills",
+  "performanceIndicators": [
+    {
+      "area": "Communication Skills",
+      "pi": "Defend ideas objectively.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Reinforce service orientation through communication.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Adapt written correspondence to targeted audiences.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the nature of a promotional plan.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the supporter communications manager at HARROW COUNTY FC, a second-division professional soccer club that has played in the same city for forty years. The commercial director (judge) has asked you to recommend what the club tells the ticket holders whose home match was abandoned last Saturday, when a lightning storm settled over the ground and stayed there.\n\nThe match was called at halftime and will not be replayed. The club's published inclement weather policy promises a like-for-like exchange into a future home match, not a cash refund, and the league requires the club to post its decision within seven days of an abandoned match. Half the seats sold that night went to households buying their first Harrow County ticket.\n\nThe club's own ticketing data says exchange offers hold on to these buyers better than refunds do, measured across four seasons of weather calls. The ticket office staff who took the calls on Sunday say otherwise. They heard first-time attenders who read an exchange as a runaround, and TIDEGATE ATHLETIC, the expansion club that opened across the county two years ago, is selling to those same households.\n\nOffering every ticket holder an exchange into a future home match follows the published policy and the reading the ticketing data supports, and it sends the first-time attenders the ticket office spoke to away with the impression the staff described. Issuing cash refunds to everyone who asks and writing to them individually answers that impression, and it gives back a full home gate in a season the club is already losing seats to TIDEGATE ATHLETIC.\n\nThe commercial director (judge) wants your recommendation on what the club offers these ticket holders, how the letter to a first-time attender should differ from the letter to a season ticket holder, and how the club makes its case without waving away what the ticket office heard. The commercial director (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the commercial director (judge) at HARROW COUNTY FC, a second-division professional soccer club that has played in the same city for forty years. Business background is the same as the situation above.\n\nYou want the supporter communications manager to recommend what the club offers the ticket holders whose home match was abandoned, to say how the letter to a first-time attender should differ from the letter to a season ticket holder, and to make that case without waving away what the ticket office heard on Sunday.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Who ends up carrying the cost of what you recommend?",
+    "Is that where the cost should land?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "The club's published inclement weather policy promises a like-for-like exchange into a future home match, not a cash refund",
+        "the league requires the club to post its decision within seven days of an abandoned match"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "The club's published inclement weather policy promises a like-for-like exchange into a future home match, not a cash refund",
+        "the league requires the club to post its decision within seven days of an abandoned match"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 332,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "professional soccer club",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "an event cancelled by weather",
+        "dilemma_archetype": "a data-supported choice that contradicts staff experience",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0030",
+      "shelfSimilarity": 0.1429,
+      "shelfNearest": "SEM-0028",
+      "exemplarSimilarity": 0.0529,
+      "gateVersion": 8
+    }
+  }
+}

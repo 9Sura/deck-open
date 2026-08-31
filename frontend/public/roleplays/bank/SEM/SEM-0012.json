@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "SEM-0012",
+  "code": "SEM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Marketing",
+  "instructionalArea": "Channel Management",
+  "performanceIndicators": [
+    {
+      "area": "Channel Management",
+      "pi": "Select channels of distribution.",
+      "role": "core"
+    },
+    {
+      "area": "Channel Management",
+      "pi": "Explain the concept of market and market identification.",
+      "role": "core"
+    },
+    {
+      "area": "Channel Management",
+      "pi": "Coordinate channel management with other marketing activities.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Demonstrate connections between company actions and results.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Choose and use appropriate channel for workforce communication.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the channel marketing manager at WINDROW SPORTS MUSEUM AND HALL OF FAME, which has drawn visitors to its exhibits and its induction ceremonies for more than forty years. The vice president of marketing (judge) has asked you to recommend how the museum will sell and distribute admission for the coming quarter, and what happens to the sponsor activation that sits in the middle of it.\n\nWINDROW sells admission two ways. Its own box office and website keep the buyer's contact information and the membership renewal with the museum. VISTAPASS, a regional attractions pass, sells the museum inside a bundle and keeps the buyer's information itself. ARCADIA SPORTS EXPERIENCE, an interactive attraction that opened across the river last year, has taken a growing share of the family visits WINDROW once counted on.\n\nKILNBROOK WIRELESS, the museum's title sponsor, funds a quarter of the exhibit budget, and its activation requires visitors to download the sponsor's app and check in at kiosks in the main hall before the advertised discount applies. Visitors dislike it. The kiosk lines back up into the ticketing area, and the museum's own comment cards name the check-in more often than any exhibit in the building.\n\nMoving the discounted admission onto VISTAPASS would fill the galleries this quarter, and it hands the buyer's contact information and the renewal relationship to the pass operator, so direct box office sales and membership renewals fall next quarter. Keeping admission on the museum's own box office and website and rebuilding the sponsor's check-in into a staffed greeting at the door protects those renewals, and it leaves attendance flat this quarter while ARCADIA SPORTS EXPERIENCE takes share.\n\nThe vice president of marketing (judge) wants your recommendation on which channels carry admission for the quarter, how that choice fits the promotion and membership work already booked, and how the front-of-house staff will be told what is changing. The vice president of marketing (judge) will greet you, hear your ideas and ask questions. When you have finished answering, the vice president of marketing (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of vice president of marketing (judge) at WINDROW SPORTS MUSEUM AND HALL OF FAME.\n\nBusiness background is the same as the situation above. Admission moves through the museum's own box office and website or through the VISTAPASS bundle, the title sponsor funds a quarter of the exhibit budget and requires the app check-in at the kiosks, and ARCADIA SPORTS EXPERIENCE is taking family visits the museum used to hold.\n\nYou have asked the channel marketing manager (participant) to recommend which channels carry admission for the coming quarter, what happens to the sponsor's activation, and how the front-of-house staff hear about the change.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "What is the first change you would make, and who would make it?",
+    "How would you tell the front-of-house staff what is changing?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the sponsor funds a quarter of the exhibit budget and its activation requires visitors to download the app and check in at kiosks",
+        "VISTAPASS sells the museum inside a bundle and keeps the buyer's information itself"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the sponsor funds a quarter of the exhibit budget and its activation requires visitors to download the app and check in at kiosks",
+        "VISTAPASS sells the museum inside a bundle and keeps the buyer's information itself"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 346,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "sports museum and hall of fame",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a sponsor's activation that fans dislike",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "SEM-0012",
+      "shelfSimilarity": 0.0695,
+      "shelfNearest": "SEM-0006",
+      "exemplarSimilarity": 0.0642,
+      "gateVersion": 8
+    }
+  }
+}

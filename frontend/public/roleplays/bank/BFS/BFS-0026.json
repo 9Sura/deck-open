@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0026",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial Analysis",
+  "performanceIndicators": [
+    {
+      "area": "Financial Analysis",
+      "pi": "Make responsible financial decisions.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Discuss the nature of the accounting cycle.",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Analyze transactions and accounts.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Identify factors affecting a business's profit.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Professional Development",
+      "pi": "Discuss opportunities for building professional relationships in finance.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the financial analyst for HALVORSEN PHARMACEUTICAL SUPPLY, a family-owned distributor that buys prescription medicines from manufacturers in Europe and delivers them to hospitals and clinics across a three-state region. The president (judge) is the third generation of the family to run the business and has asked you to recommend how the company will protect next year's profit.\n\nNearly every case HALVORSEN PHARMACEUTICAL SUPPLY buys is priced in euros and paid for ninety days after it ships. When the euro rises against the dollar between the order and the payment, the cost of goods rises with it, and the company absorbs the difference because its customer prices are set a year at a time. That single exposure has moved the company's margin more than anything else on the books.\n\nThe company's bank has offered forward contracts the company can buy to fix the euro cost for a full year. The contracts carry a fee that is paid whether or not the rate moves, and that fee comes out of the same margin the twelve rural clinic accounts earn, which is the thinnest margin on the customer list. If the euro falls instead of rising, the company pays above the market rate for the whole year.\n\nThe other path is on the shipping floor. The warehouse is already packing at its limit and cannot add orders without a second shift, and the signed one-year agreement with the hospital chain commits the company to a larger monthly volume the chain wants delivered. Freeing that space means the company would stop serving the twelve rural clinics and give their warehouse space to the hospital chain, ending a relationship the family built over fifteen years; those clinics would be left without another distributor in the region.\n\nThe president (judge) wants you to analyze the transactions behind the swing, identify which factors are actually moving profit, and recommend one of the two paths. The president (judge) will greet you, ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the president (judge) of HALVORSEN PHARMACEUTICAL SUPPLY. Business background is the same as the situation above.\n\nYou are the third generation of your family to run this distributor, and next year's profit is the first one you will report on your own. You want the financial analyst to tell you which of the two paths to take — the bank's forward contracts, or clearing warehouse space by dropping the twelve rural clinic accounts — and you want to hear how the decision would be explained to the people it lands on hardest.\n\nDuring the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Who does this decision land hardest on?",
+    "How would you tell them, and what would you say?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the signed one-year agreement with the hospital chain commits the company to a larger monthly volume",
+        "the warehouse is already packing at its limit and cannot add orders without a second shift",
+        "customer prices are set a year at a time"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the signed one-year agreement with the hospital chain commits the company to a larger monthly volume",
+        "the warehouse is already packing at its limit and cannot add orders without a second shift",
+        "customer prices are set a year at a time"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 339,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "pharmaceutical distributor",
+        "company_stage": "a family business in its third generation",
+        "business_function": "hedging a commodity or currency exposure",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0026",
+      "shelfSimilarity": 0.1253,
+      "shelfNearest": "BFS-0002",
+      "exemplarSimilarity": 0.0269,
+      "gateVersion": 8
+    }
+  }
+}

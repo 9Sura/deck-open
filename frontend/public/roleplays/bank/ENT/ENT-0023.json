@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "ENT-0023",
+  "code": "ENT",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Entrepreneurship",
+  "instructionalArea": "Market Planning",
+  "performanceIndicators": [
+    {
+      "area": "Market Planning",
+      "pi": "Explain the nature of marketing planning.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Identify ways to segment hospitality and tourism markets.",
+      "role": "core"
+    },
+    {
+      "area": "Market Planning",
+      "pi": "Identify components of a retail image.",
+      "role": "core"
+    },
+    {
+      "area": "Promotion",
+      "pi": "Explain the types of promotion (i.e., institutional, product).",
+      "role": "adjacent"
+    },
+    {
+      "area": "Marketing",
+      "pi": "Explain factors that influence customer selection of food places and menu items.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the market planner for BRIGHTSCREEN REPAIR, a shop that fixes phones and laptops from a storefront on the town's main street. The founder (judge) opened the shop nine years ago, has run it profitably every year since, and intends to sell the business and step away within a year. The founder (judge) has asked you to recommend which of two expansion offers the shop should turn down.\n\nA resort hotel group has offered BRIGHTSCREEN REPAIR a service kiosk in three of its properties, serving guests whose phones fail while they are travelling. The offer pays a guaranteed monthly fee, but its contract carries an exclusivity clause covering the whole tourist district, so the shop could serve no other location inside that district for three years.\n\nThe founder (judge) has already signed a letter of intent with the developer of a new downtown food hall, which sits inside that same district. A counter there would put the shop in front of everyday local customers while they are choosing where to eat and what to order, and would carry the plain, well-lit look and the neighborhood name the main street storefront is known for.\n\nThe two contracts cannot both be honored. Taking the hotel kiosk brings a guaranteed monthly fee that is steady and makes the business easiest to sell to a buyer next year, and it means telling the food hall developer no and giving up the everyday local customers who come in while they are choosing where to eat. Opening the food hall counter keeps those customers and the shop's standing in the neighborhood, and gives up the guaranteed monthly fee.\n\nThe founder (judge) wants you to explain how the shop should plan its marketing around whichever market it keeps, to say which offer should be declined, and to say who carries the cost of that choice. The founder (judge) will greet you and ask to hear your ideas, and after you have presented and answered questions, the founder (judge) will thank you for your time.",
+  "judgeCharacterization": "You are the founder (judge) of BRIGHTSCREEN REPAIR, preparing to sell the shop and step away within a year. Business background is the same as the situation above. You have asked your market planner to explain how the shop should plan its marketing around whichever market it keeps, to recommend which of the two offers — the resort hotel group's kiosk or the food hall counter — should be declined, and to say who carries the cost of that choice.\n\nYou will greet the participant and ask to hear their ideas. After the participant has presented, ask the following questions:",
+  "judgeQuestions": [
+    "Who ends up paying for this decision?",
+    "Can you defend that to them?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the contract from the resort hotel group carries an exclusivity clause covering the whole tourist district for three years",
+        "the founder (judge) has already signed a letter of intent with the food hall developer",
+        "the founder (judge) intends to sell the business within a year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the contract from the resort hotel group carries an exclusivity clause covering the whole tourist district for three years",
+        "the founder (judge) has already signed a letter of intent with the food hall developer",
+        "the founder (judge) intends to sell the business within a year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 338,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "phone and laptop repair shop",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "deciding which opportunity to say no to",
+        "dilemma_archetype": "an obligation to two parties whose contracts conflict",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "ENT-0023",
+      "shelfSimilarity": 0.147,
+      "shelfNearest": "ENT-0021",
+      "exemplarSimilarity": 0.0536,
+      "gateVersion": 8
+    }
+  }
+}

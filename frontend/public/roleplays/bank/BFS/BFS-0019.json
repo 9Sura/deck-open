@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "BFS-0019",
+  "code": "BFS",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Finance",
+  "instructionalArea": "Financial-Information Management",
+  "performanceIndicators": [
+    {
+      "area": "Financial-Information Management",
+      "pi": "Explain the nature and scope of financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Describe the use of technology in financial-information management",
+      "role": "core"
+    },
+    {
+      "area": "Financial-Information Management",
+      "pi": "Discuss non-traditional uses for financial information",
+      "role": "core"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Explain types of investments.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Financial Analysis",
+      "pi": "Explain the nature of accounts receivable.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the credit and reporting analyst at CRAGMONT COMMONS, a developer and operator of senior housing communities that also builds and sells prefabricated accessible bathroom modules. The vice president of finance (judge), six months into a merger the company has not finished absorbing, has asked you to recommend what credit terms the company should give its largest distributor.\n\nThat distributor, ELDERWAY SUPPLY, resells the modules to small independent operators and has bought on ninety-day terms for eleven years. The extended terms are the reason those small independent operators buy through ELDERWAY SUPPLY at all, because no competitor finances them that long. The merger left two accounting systems running side by side, and they disagree about what is owed.\n\nThe company CRAGMONT COMMONS merged with runs an automated credit platform that scores every account and sets terms without a person in the loop. Moving the receivables onto the automated credit platform would cut ELDERWAY SUPPLY's terms from ninety days to thirty and free cash the company could put into a reserve or into land for the next community, and it ends the hand-set terms the relationship with ELDERWAY SUPPLY rests on.\n\nKeeping the hand-set ninety-day terms keeps the reason the small independent operators buy through ELDERWAY SUPPLY, and it leaves cash tied up in receivables that the merger's own integration costs are competing for, and it leaves the two accounting systems disagreeing about what ELDERWAY SUPPLY owes, a question the company cannot answer from either system today.\n\nThe vice president of finance (judge) wants your analysis of what those receivables tell the company beyond the collections they were recorded for, a view on what the freed cash would be put into, and a recommendation on the terms. The vice president of finance (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the vice president of finance (judge) at CRAGMONT COMMONS. Business background is the same as the situation above.\n\nYou want the participant to analyze what the receivables tell the company beyond the collections they were recorded for, to say what the freed cash would be put into, and to recommend whether the company moves ELDERWAY SUPPLY onto the automated credit platform at thirty-day terms or keeps the hand-set ninety-day terms.",
+  "judgeQuestions": [
+    "If we go the other way instead, what does that cost us?",
+    "How long before we could change our minds?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "ELDERWAY SUPPLY has bought on ninety-day terms for eleven years",
+        "the merger left two accounting systems running side by side, and they disagree about what is owed"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "ELDERWAY SUPPLY has bought on ninety-day terms for eleven years",
+        "the merger left two accounting systems running side by side, and they disagree about what is owed"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 311,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "senior housing developer",
+        "company_stage": "a company midway through a merger it has not digested",
+        "business_function": "credit terms extended to a distributor",
+        "dilemma_archetype": "an efficiency that costs the company its differentiator",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "BFS-0019",
+      "shelfSimilarity": 0.1357,
+      "shelfNearest": "BFS-0007",
+      "exemplarSimilarity": 0.0536,
+      "gateVersion": 8
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "id": "PBM-0020",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Identify product's/service's competitive advantage.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Distinguish between economic goods and services.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Discuss motivational theories that impact buying behavior.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Interpret other's nonverbal cues.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of assistant store director at BRIGHT ANCHOR TOYS, a profitable chain of eleven toy stores whose founder plans to sell the business within the year. The founder (judge) has asked you to recommend what the chain does with its play floor before buyers review the coming quarter.\n\nBright Anchor has never competed on price. Families come for the open play floor, where staff demonstrate games and run weekend birthday parties, and they buy their gifts on the way out. The play floor sells nothing itself, and the buyers looking at the chain measure what each square foot of a store earns.\n\nFilling the play floor with holiday merchandise for the quarter would lift the figures those buyers see. It would also cost the parties already booked and the demonstrations that bring the same families back in the spring. The demonstration lead, who has run that floor for twenty years, said little when the plan was described but made the disagreement plain.\n\nThe founder (judge) wants your recommendation on whether the floor is converted, and on what is said to the demonstration lead either way. Leaving the floor as it is holds the quarter's revenue down in front of the buyers. The founder (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are to assume the role of the founder of BRIGHT ANCHOR TOYS. Business background is the same as the situation above. You have asked the participant to recommend whether the play floor is filled with holiday merchandise for the quarter or left as it is, and what is said to the demonstration lead either way.\n\nThe participant will present their recommendation to you in a role-play to take place in your office. You will begin the role-play by greeting the participant and asking to hear their ideas.\n\nDuring the role-play, you are to ask the following questions of the participant:",
+  "judgeQuestions": [
+    "A year from now, how would we know this was the right decision?",
+    "What would you watch for to tell us it is working?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the founder's plan to sell the business within the year",
+        "the birthday parties already booked on the play floor",
+        "the chain has never competed on price"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the founder's plan to sell the business within the year",
+        "the birthday parties already booked on the play floor",
+        "the chain has never competed on price"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 227,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "toy store chain",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "feedback given to a long-tenured employee",
+        "dilemma_archetype": "a fix that solves this quarter and worsens the next",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PBM-0020",
+      "shelfSimilarity": 0.1856,
+      "shelfNearest": "PBM-0019",
+      "exemplarSimilarity": 0.0826,
+      "gateVersion": 8
+    }
+  }
+}

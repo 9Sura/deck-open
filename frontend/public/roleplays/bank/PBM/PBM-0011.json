@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "id": "PBM-0011",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Explain the importance of merchandising to retailers.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain factors that influence customer/client/business buying behavior.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Determine factors affecting business risk.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Discuss the nature of customer relationship management.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the operations manager at HOLLOWAY PRESS, a commercial print shop that has served regional retailers for thirty years. The owner (judge) has asked you to recommend how the shop should answer a new competitor, and to present that recommendation this afternoon.\n\nHOLLOWAY PRESS prints shelf signage and in-store displays, and its operators know each retailer's account by memory, which store changes its window monthly and which one buys on price. BRIGHTFOLD, a two-year-old competitor, quotes online in minutes and has taken four accounts this year.\n\nThe shop could buy the same automated workflow. It would match BRIGHTFOLD on turnaround, but the operators have resisted it for two years and several would leave rather than learn it, taking the account knowledge with them. BRIGHTFOLD has instead offered to route overflow printing to Holloway at a guaranteed volume, under its own name and pricing.\n\nThat revenue is steady and costs the shop nothing to start. The retailers who order through it would become BRIGHTFOLD's customers rather than the shop's, and the operators would keep the work without keeping the accounts. The owner (judge) wants your recommendation and the reasoning behind it.\n\nYou will present it to the owner (judge) in the owner's office. The owner (judge) will greet you and ask to hear your ideas. After you have presented and answered the questions, the owner (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of owner of HOLLOWAY PRESS, a commercial print shop that has served regional retailers for thirty years.\n\nBusiness background is the same as the situation above. BRIGHTFOLD has taken four accounts this year, the shop can buy the same automated workflow its operators have resisted for two years, and BRIGHTFOLD has offered instead to route overflow printing to the shop at a guaranteed volume under its own name and pricing.\n\nYou have asked the operations manager (participant) to recommend how the shop should answer the competitor, and to give you the reasoning behind that recommendation.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "What does the option you did not choose give up?",
+    "If we had gone the other way instead, what would that have cost us?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "BRIGHTFOLD's partnership terms, which put the work under its own name and pricing",
+        "the four accounts the shop has already lost this year"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "BRIGHTFOLD's partnership terms, which put the work under its own name and pricing",
+        "the four accounts the shop has already lost this year"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 232,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "print shop",
+        "company_stage": "an established firm losing share to a new entrant",
+        "business_function": "a technology change staff resist",
+        "dilemma_archetype": "a partnership that brings revenue and surrenders control",
+        "question_shape": "the option that was not taken, and what taking it would have cost instead"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PBM-0011",
+      "shelfSimilarity": 0.1839,
+      "shelfNearest": "PBM-0009",
+      "exemplarSimilarity": 0.1142,
+      "gateVersion": 8
+    }
+  }
+}

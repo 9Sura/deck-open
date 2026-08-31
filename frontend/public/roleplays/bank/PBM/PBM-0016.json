@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 2,
+  "id": "PBM-0016",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Economics",
+  "performanceIndicators": [
+    {
+      "area": "Economics",
+      "pi": "Explain factors affecting pricing decisions.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Describe the functions of prices in markets.",
+      "role": "core"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of product/service branding.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the role of ethics in information management.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of pricing analyst at MERIDIAN VALLEY HEALTH PARTNERS, a network of eighteen primary-care clinics. The vice president of operations (judge) has asked you to recommend how the network should price its services in the neighboring state it enters next quarter.\n\nMeridian Valley has built its name on a single published self-pay price list that is the same in every town it serves, and patients have come to treat that posted price as the reason to choose the network. A five-year agreement with a regional employer coalition guarantees that no market will ever see a lower posted price than coalition members pay.\n\nThe expansion depends on a contract with GRANITE RIDGE HEALTH SYSTEM, the hospital partner in that state, which requires Meridian Valley to post its higher local prices and share visit-level patient records with its analytics group. The manager leading the expansion has instructed you to accept those terms. The manager over the current markets tells you to hold one price list and strike the records clause.\n\nMeridian Valley cannot satisfy both agreements. The vice president (judge) wants your recommendation on which one the network honors, what the other party loses by it, and how the patient records the partner has asked for should be handled. The vice president (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are to assume the role of the vice president of operations at MERIDIAN VALLEY HEALTH PARTNERS. Business background is the same as the situation above. You have asked the participant to recommend which of the two conflicting agreements the network honors as it sets prices in the new state, what the other party loses by that choice, and how the patient records the partner has asked for should be handled.\n\nThe participant will present their recommendation to you in a role-play to take place in your office. You will begin the role-play by greeting the participant and asking to hear their ideas.\n\nDuring the role-play, you are to ask the following questions of the participant:",
+  "judgeQuestions": [
+    "What is the first step you would take when you leave this meeting?",
+    "Who do we need to tell, and in what order?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the five-year coalition agreement guaranteeing no market sees a lower posted price",
+        "the partner contract requiring the partner's local prices and the patient records clause",
+        "the expansion into the neighboring state is set for next quarter"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the five-year coalition agreement guaranteeing no market sees a lower posted price",
+        "the partner contract requiring the partner's local prices and the patient records clause",
+        "the expansion into the neighboring state is set for next quarter"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 234,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "medical clinic network",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "conflicting instructions from two managers",
+        "dilemma_archetype": "an obligation to two parties whose contracts conflict",
+        "question_shape": "the mechanics of carrying the recommendation out, step by step"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PBM-0016",
+      "shelfSimilarity": 0.225,
+      "shelfNearest": "PBM-0002",
+      "exemplarSimilarity": 0.093,
+      "gateVersion": 8
+    }
+  }
+}

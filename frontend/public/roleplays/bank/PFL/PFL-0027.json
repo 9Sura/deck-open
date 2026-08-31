@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 2,
+  "id": "PFL-0027",
+  "code": "PFL",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "instructionalArea": "Saving",
+  "performanceIndicators": [
+    {
+      "area": "Saving",
+      "pi": "Discuss strategies for avoiding personal triggers that result in deviating from a savings plan.",
+      "role": "core"
+    },
+    {
+      "area": "Saving",
+      "pi": "Explain the importance of solvency regulation for financial institutions.",
+      "role": "core"
+    },
+    {
+      "area": "Saving",
+      "pi": "Explain why storing money in a mobile payment account can reduce the ability to grow savings.",
+      "role": "core"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are a high school senior who works part-time at a grocery store and has just been offered a full-time job starting after graduation. The credit union representative (judge) at MAPLEHURST FEDERAL CREDIT UNION has agreed to sit down with you and go over a monthly budget before you decide.\n\nYour first paychecks have gone into a mobile payment account on your phone, where the balance earns nothing and is easy to spend when friends post about what they have bought. A savings account at the credit union, which is insured and regulated for solvency, would pay interest instead.\n\nThe full-time job starts with an early morning shift, and the coworker who drives you is moving away. Buying a used car this month fits what you have saved, but the loan payment and the insurance premium start next month and would leave nothing to save. Keeping the money in the credit union protects your savings, though you would have no ride to the early shift and could lose the offer.\n\nThe credit union representative (judge) wants a monthly budget, your decision about the car, and how you will keep yourself from breaking the savings plan. The credit union representative (judge) will greet you and ask to hear your ideas, and will thank you after your presentation and questions.",
+  "judgeCharacterization": "You are the credit union representative (judge) at MAPLEHURST FEDERAL CREDIT UNION. The background is the same as the situation above.\n\nYou have agreed to go over a monthly budget with a high school senior and hear whether the used car should be bought this month or the money should stay in the credit union, and what will keep the savings plan from being abandoned.\n\nYou will greet the participant, ask to hear their ideas, and after the presentation you will ask the following questions:",
+  "judgeQuestions": [
+    "Six months from now, how will you know whether this was the right call?",
+    "What would tell you the savings plan is not working?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the full-time job starts with an early morning shift",
+        "the balance in the mobile payment account earns nothing"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the full-time job starts with an early morning shift",
+        "the balance in the mobile payment account earns nothing"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 218,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "a first full-time job offer after high school",
+        "company_stage": "a high-school senior with a first part-time paycheck",
+        "business_function": "building a monthly budget",
+        "dilemma_archetype": "a purchase that fits this month's budget and breaks next month's",
+        "question_shape": "how anyone would know afterwards whether the decision was the right one"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PFL-0027",
+      "shelfSimilarity": 0.1754,
+      "shelfNearest": "PFL-0018",
+      "exemplarSimilarity": 0.0571,
+      "gateVersion": 8
+    }
+  }
+}

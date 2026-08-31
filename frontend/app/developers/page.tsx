@@ -215,7 +215,7 @@ function PersonCard({ person }: { person: Person }) {
               Reach out at{" "}
               <a
                 href={`mailto:${person.email}`}
-                className="font-medium text-ink underline decoration-dotted underline-offset-2 hover:text-accent"
+                className="font-medium text-ink underline decoration-dotted underline-offset-2 hover:text-accent-ink"
               >
                 {person.email}
               </a>
@@ -228,7 +228,7 @@ function PersonCard({ person }: { person: Person }) {
                 href={person.link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-ink underline decoration-dotted underline-offset-2 hover:text-accent"
+                className="font-medium text-ink underline decoration-dotted underline-offset-2 hover:text-accent-ink"
               >
                 {person.link.label}
               </a>

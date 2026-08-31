@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0011",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Operations",
+  "performanceIndicators": [
+    {
+      "area": "Operations",
+      "pi": "Explain the concept of product mix.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Determine factors affecting business risk.",
+      "role": "core"
+    },
+    {
+      "area": "Operations",
+      "pi": "Describe health and safety regulations in business.",
+      "role": "core"
+    },
+    {
+      "area": "Customer Relations",
+      "pi": "Explain the role of restaurant management systems.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Explain the nature of organizational development.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are to assume the role of general manager of GATE NINE GRILL, a quick-serve restaurant at the north entrance of the Riverside Arena campus. The board chair (judge) of the worker co-operative that owns the restaurant has asked you to recommend how the store should run the ninety minutes before a game.\n\nGate Nine Grill is owned by the ninety people who cook, serve, and clean in it; the member-owners vote on how shifts and hours are shared. The store sells a short menu of sandwiches, fries, and frozen drinks through a dining room that seats sixty and a drive-thru window facing the arena parking lots.\n\nOn event nights the two channels collide. In the ninety minutes before a game the dining room fills with walk-up ticket holders arriving on foot while vehicles stack at the drive-thru, and the single kitchen line cannot keep both moving. Drive-thru times have passed six minutes and cars back onto the campus access road. The store's occupancy permit allows it to close the dining room to walk-in orders once the lobby reaches its posted limit.\n\nThe board chair (judge) wants a recommendation. Closing the dining room for that window would clear the drive-thru, but it would turn away the walk-up ticket holders who arrive on foot without a car and would cut the shifts of the member-owners who staff the lobby. Keeping both channels open protects those shifts and those guests, but it leaves drive-thru times where they are and puts the store outside the franchisor's service-time standard, which the franchise agreement requires it to meet.\n\nYou will present your recommendation to the board chair (judge) in the board chair's (judge) office. The board chair (judge) will begin by greeting you and asking to hear your ideas. After you have presented and have answered the board chair's (judge) questions, the board chair (judge) will thank you for your work.",
+  "judgeCharacterization": "You are to assume the role of board chair (judge) of the worker co-operative that owns GATE NINE GRILL. Business background is the same as the situation above.\n\nYou have asked the general manager (participant) to recommend how the store should run the ninety minutes before a game, when the dining room and the drive-thru compete for one kitchen line. You want to hear which channel the store should protect, what that choice does to the member-owners who staff the lobby and to the walk-up ticket holders who arrive on foot, and how the recommendation stands against the franchisor's service-time standard.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "Who ends up carrying the cost of what you are recommending?",
+    "Can we defend that to the members who lose hours?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the store's occupancy permit, which allows closing the dining room to walk-in orders once the lobby reaches its posted limit",
+        "the franchisor's service-time standard the franchise agreement requires the store to meet"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the store's occupancy permit, which allows closing the dining room to walk-in orders once the lobby reaches its posted limit",
+        "the franchisor's service-time standard the franchise agreement requires the store to meet"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 316,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "stadium quick-serve franchisee",
+        "company_stage": "a co-operative owned by the people who work in it",
+        "business_function": "drive-thru and dining room priority conflicts",
+        "dilemma_archetype": "a legally permitted action that customers would object to",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0011",
+      "shelfSimilarity": 0.0875,
+      "shelfNearest": "QSRM-0001",
+      "exemplarSimilarity": 0.2108,
+      "gateVersion": 8
+    }
+  }
+}

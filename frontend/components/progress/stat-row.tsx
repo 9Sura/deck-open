@@ -48,7 +48,7 @@ export function StatRow({
         {headline == null ? (
           <span className="text-2xl font-bold text-ink/40">— select —</span>
         ) : readinessHasData ? (
-          <span className="stat text-4xl font-extrabold text-accent">
+          <span className="stat text-4xl font-extrabold text-accent-ink">
             {pct(headline.readiness)}
           </span>
         ) : (

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 2,
+  "id": "PBM-0024",
+  "code": "PBM",
+  "format": "principles",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Business Management and Administration",
+  "instructionalArea": "Emotional Intelligence",
+  "performanceIndicators": [
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Maintain the confidentiality of others.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Show empathy for others.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Foster positive working relationships.",
+      "role": "core"
+    },
+    {
+      "area": "Emotional Intelligence",
+      "pi": "Assess effectiveness of employee-relations activities.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the practice administrator at LAKESHORE FAMILY DENTAL GROUP, eleven clinics opening their first location in a neighboring state. The regional director (judge) has asked you to recommend how the flagship clinic's daily schedule should be covered for the next six months, and who should carry what.\n\nTwo of the flagship's four hygienists have been assigned to open the new clinic. A third has asked to work reduced hours for a personal medical reason and has asked that the reason stay between the two of you. That leaves the clinic short of the hours its standing recall patients have booked, some of them for more than a decade.\n\nOne course adds an evening rotation shared by the whole team, which keeps every patient's standing slot. The clinic's last staff survey already named workload as its lowest-rated item, and a rotation nobody is exempt from would either force the third hygienist onto evenings or make that exemption plain to everyone. The other course moves patients on the shortest recall to a longer interval.\n\nThat protects the team's hours but tells long-standing patients they will be seen less often, and the hygienists who built those relationships would make the calls. The regional director (judge) wants your recommendation and how you would explain it to the people it lands hardest on. The director (judge) will greet you and ask to hear your ideas, then thank you after your presentation and questions.",
+  "judgeCharacterization": "You are to assume the role of regional director (judge) of LAKESHORE FAMILY DENTAL GROUP, eleven clinics opening their first location in a neighboring state.\n\nBusiness background is the same as the situation above. Two of the flagship clinic's four hygienists have been assigned to open the new clinic, a third has asked for reduced hours for a personal medical reason and asked that the reason stay private, and the clinic is short of the hours its standing recall patients have booked.\n\nYou have asked the practice administrator (participant) to recommend how the daily schedule should be covered for the next six months, who should carry what, and how the decision would be explained.\n\nDuring the course of the role-play you are to ask the participant the following questions:",
+  "judgeQuestions": [
+    "Who does this land hardest on, and what do you say to them?",
+    "How would you say it without sharing what you were asked to keep private?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the third hygienist's request that the medical reason stay between the two of you",
+        "two of the flagship's four hygienists are assigned to open the new clinic for six months"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the third hygienist's request that the medical reason stay between the two of you",
+        "two of the flagship's four hygienists are assigned to open the new clinic for six months"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 239,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "dental practice group",
+        "company_stage": "a regional leader attempting its first out-of-state expansion",
+        "business_function": "the daily schedule and who covers what",
+        "dilemma_archetype": "a capacity limit that forces choosing which customers to keep",
+        "question_shape": "how the decision gets explained to the person it lands hardest on"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "PBM-0024",
+      "shelfSimilarity": 0.1928,
+      "shelfNearest": "PBM-0018",
+      "exemplarSimilarity": 0.0761,
+      "gateVersion": 8
+    }
+  }
+}

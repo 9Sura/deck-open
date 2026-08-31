@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "id": "QSRM-0016",
+  "code": "QSRM",
+  "format": "series",
+  "level": "ICDC",
+  "tier": "icdc",
+  "careerCluster": "Hospitality and Tourism",
+  "instructionalArea": "Product/Service Management",
+  "performanceIndicators": [
+    {
+      "area": "Product/Service Management",
+      "pi": "Differentiate between service marketing and product marketing.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Explain the importance of meeting and exceeding customer/guest expectations.",
+      "role": "core"
+    },
+    {
+      "area": "Product/Service Management",
+      "pi": "Explain the nature and scope of the product/service management function.",
+      "role": "core"
+    },
+    {
+      "area": "Communication Skills",
+      "pi": "Analyze the impact of technology on marketing.",
+      "role": "adjacent"
+    },
+    {
+      "area": "Economics",
+      "pi": "Explain the nature of corporate branding.",
+      "role": "adjacent"
+    }
+  ],
+  "twentyFirstCenturySkills": [
+    "Critical Thinking – Reason effectively and use systems thinking.",
+    "Problem Solving – Make judgments and decisions and solve problems.",
+    "Communication – Communicate clearly.",
+    "Creativity and Innovation – Show evidence of creativity."
+  ],
+  "participantInstructions": "The event will be presented to you through your reading of the 21st Century Skills, Performance Indicators and Event Situation. You will have up to 10 minutes to review this information and prepare your presentation. You may make notes to use during your presentation. You will have up to 10 minutes to make your presentation to the judge (you may have more than one judge). You will be evaluated on how well you demonstrate the 21st Century Skills and meet the performance indicators of this event. Turn in all of your notes and event materials when you have completed the event.",
+  "situation": "You are the product development manager for BOROUGH BAGEL & BAKE CO., a profitable quick-serve bagel and bakery chain with eleven shops. The founder (judge), who opened the first shop close to fifteen years ago, is preparing to sell the company and step away within the year.\n\nEvery shop still rolls and shapes its dough by hand each morning and boils it in a kettle before baking. The signs above the counters say so, and regular customers repeat the claim back to the crew. That promise, more than price, is why many of them drive past two competitors to reach a BOROUGH counter.\n\nThe founder (judge) wants a stuffed bagel sandwich on the menu before the sale closes, believing a signature item raises what a buyer will pay. Its prep is heavy. Filling, sealing and finishing each order adds close to forty minutes to a morning the crew already fills with hand-rolling, and no shop has the counter space to do both.\n\nBuying par-baked dough from a central bakery would clear the morning for the sandwich, but it ends the hand-rolling the shops are known for and cuts crew hours in every store. Counsel says the small-batch wording on the signs could lawfully stay, though regular customers who watch the ovens would object to a claim that no longer describes the morning.\n\nKeeping the hand-rolling and launching a simpler item instead protects the promise but leaves the founder (judge) selling a chain with no new signature product. The founder (judge) has asked you to weigh both routes and recommend one, explaining what the choice does to the brand and to the crew. The founder (judge) will greet you, hear your ideas and ask questions, then thank you for your work.",
+  "judgeCharacterization": "You are the founder (judge) of BOROUGH BAGEL & BAKE CO. Business background is the same as the situation above. You built the chain on dough rolled by hand every morning, you have told buyers the stuffed bagel sandwich will be on the menu before the sale closes, and you know the crew cannot do both jobs in the same morning.\n\nYou want the product development manager to recommend either the par-baked dough from a central bakery or a simpler new item that leaves the hand-rolling alone, and to say plainly what the recommendation does to the brand, to the crew and to the regular customers who read the signs above the counters.\n\nDuring the presentation you are to ask the following questions of each participant:",
+  "judgeQuestions": [
+    "Who ends up paying for the route you recommend?",
+    "Is that a fair way to spread the cost?"
+  ],
+  "meta": {
+    "claimed": {
+      "stakeholders": [],
+      "constraints": [
+        "the founder (judge) is selling the company within the year",
+        "no shop has the counter space to do both jobs in one morning",
+        "the signs say the dough is rolled by hand each morning"
+      ],
+      "conflicts": []
+    },
+    "corroborated": {
+      "stakeholders": [],
+      "constraints": [
+        "the founder (judge) is selling the company within the year",
+        "no shop has the counter space to do both jobs in one morning",
+        "the signs say the dough is rolled by hand each morning"
+      ],
+      "exhibit": false
+    },
+    "gate": {
+      "passed": true,
+      "failedKnobs": [],
+      "issues": [],
+      "selfReport": {
+        "knobs": [],
+        "issues": [],
+        "gating": true
+      },
+      "checks": [
+        "structure",
+        "verbatim_pis",
+        "skills_verbatim",
+        "declared_area_echo",
+        "exemplar_originality",
+        "pi_quota",
+        "core_pi_tier",
+        "axis_membership",
+        "icdc_shape",
+        "prompt_leak",
+        "participant_voice",
+        "shelf_company_reuse",
+        "self_report"
+      ],
+      "unverified": [
+        "F2 (roles not a named cast; at most two parties beyond the judge) -- self-report cross-check only: it tests the tail the author wrote, never the prose's own cast. It REJECTS on the bank path (gate version 8); the day path records it without gating",
+        "F5 (>=2 defensible options, each with a real cost) -- the self-report cross-check confirms two courses of action and their costs were WRITTEN and appear in the prose, never that they trade off or that either is LAWFUL. Rejecting on it (bank path, gate version 8) does not answer that second question; nothing deterministic can (03-plan D4)",
+        "F1 (one scenario, one judge) -- unverified, needs a judge",
+        "F4 (decidable from the given facts) -- unverified, needs a judge",
+        "F8 subtle telegraphs -- unverified; only the blatant phrase list is checked",
+        "difficulty -- NOT refereed (03-plan D4); no string may claim verified difficulty",
+        "whether the SITUATION honours its seed axes -- only the recorded axis VALUES are checked for membership (plan 04 §3.2 step 4)"
+      ]
+    },
+    "situationWords": 289,
+    "generator": {
+      "model": "claude-sonnet-5",
+      "passes": 1,
+      "axes": {
+        "industry": "bagel and bakery quick-serve",
+        "company_stage": "a profitable company whose founder is preparing to exit",
+        "business_function": "a new menu item's prep complexity",
+        "dilemma_archetype": "a legally permitted action that customers would object to",
+        "question_shape": "who carries the cost of the decision, and whether that distribution can be defended"
+      },
+      "axesHash": "3db0327b403d5934ca46938db5ee9bac89e36caa7dc0b5c85bfc03772932cef7",
+      "exemplar": "withheld"
+    },
+    "defects": [],
+    "bank": {
+      "seedId": "QSRM-0016",
+      "shelfSimilarity": 0.1034,
+      "shelfNearest": "QSRM-0011",
+      "exemplarSimilarity": 0.0739,
+      "gateVersion": 8
+    }
+  }
+}

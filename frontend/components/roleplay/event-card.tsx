@@ -91,7 +91,7 @@ export function EventCard({
               {event.roles === 1 ? "1 participant" : "2 participants"}
             </p>
             {interactive ? (
-              <span aria-hidden className="marker text-sm font-semibold text-accent">
+              <span aria-hidden className="marker text-sm font-semibold text-accent-ink">
                 Run it →
               </span>
             ) : null}
